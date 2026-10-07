@@ -265,6 +265,21 @@ const norm = (s) => String(s ?? "").normalize("NFD").replace(/[̀-ͯ]/g, "").toL
 const kebab = (s) => norm(s).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 const emptyToNull = (s) => (s === undefined || s === null || String(s).trim() === "" ? null : String(s).trim());
 const toArray = (x) => (x === undefined || x === null ? [] : Array.isArray(x) ? x : [x]);
+/** Quantas votações/proposições vão no HTML; o resto fica em public/data/congresso/extras/ (carregado sob demanda). */
+const HTML_VOTES = 15;
+const HTML_PROPS = 8;
+/** Votos como texto: uma letra por votação, na ordem do dicionário ("-" = sem registro aplicável). */
+const CH = { "17": "7", AP: "a", NA: "n" };
+function encodeVotes(rows, n) {
+  const a = Array(n).fill("-");
+  for (const [i, code] of rows) a[i] = CH[code] ?? code;
+  return a.join("");
+}
+function writeExtras(casa, id, extras) {
+  const dir = join(PUB, "extras", casa);
+  mkdirSync(dir, { recursive: true });
+  writeFileSync(join(dir, `${id}.json`), JSON.stringify(extras));
+}
 const writeJson = (path, data) => {
   mkdirSync(resolve(path, ".."), { recursive: true });
   writeFileSync(path, JSON.stringify(data));
@@ -500,11 +515,11 @@ async function buildCamara(list) {
 
   /* ---------- montagem por deputado ---------- */
   log("Câmara: montando arquivos");
+  rmSync(join(PUB, "extras", "camara"), { recursive: true, force: true });
   const outDir = join(OUT, "deputados");
   rmSync(outDir, { recursive: true, force: true });
   mkdirSync(outDir, { recursive: true });
   const index = [];
-  const frenteTitles = {};
   const MAIN = new Set(["PL", "PLP", "PEC", "PDL", "PRC", "PLN", "PDC", "MPV", "PLV"]);
   const now = new Date();
   const ageOf = (iso) => {
@@ -558,11 +573,12 @@ async function buildCamara(list) {
               .filter(([k]) => k.startsWith(ano + "|"))
               .map(([k, t]) => ({ categoria: k.split("|").slice(1).join("|"), total: round2(t) }))
               .filter((c) => c.total !== 0)
-              .sort((a, b) => b.total - a.total),
+              .sort((a, b) => b.total - a.total)
+              .slice(0, 6),
           })),
-          porCategoria: topN(d.cat, 40).map(([categoria, total]) => ({ categoria, total: round2(total) })),
-          porMes: [...d.mes.entries()].sort((a, b) => a[0].localeCompare(b[0])).map(([mes, total]) => ({ mes, total: round2(total) })),
-          fornecedores: topN(d.forn, 8).map(([cnpj, total]) => ({ nome: d.fornNome.get(cnpj), cnpj, total: round2(total) })),
+          porCategoria: topN(d.cat, 15).map(([categoria, total]) => ({ categoria, total: round2(total) })),
+          porMes: [...d.mes.entries()].sort((a, b) => a[0].localeCompare(b[0])).slice(-12).map(([mes, total]) => ({ mes, total: round2(total) })),
+          fornecedores: topN(d.forn, 5).map(([cnpj, total]) => ({ nome: d.fornNome.get(cnpj), cnpj, total: round2(total) })),
         }
       : null;
 
@@ -637,23 +653,27 @@ async function buildCamara(list) {
       perfil: `https://www.camara.leg.br/deputados/${id}`,
       trocasDePartido: trocas,
       historicoSituacao: situacoes.slice(-10),
-      orgaos: orgaosOut,
-      frentes: frentes.map((f) => {
-        frenteTitles[f.id] = f.titulo;
-        return f.id;
-      }),
+      orgaos: orgaosOut.filter((o) => !o.fim),
+      orgaosAnteriores: orgaosOut.filter((o) => o.fim).length,
+      frentes: frentes.length,
       votacoes: {
         total: dict.length,
         elegiveis: eligible,
         contagem: { sim: counts.S, nao: counts.N, abstencao: counts.A, obstrucao: counts.O, art17: counts["17"], ausencias: counts.F },
         registradas: registered,
         // [índice na lista de votações, código S|N|A|O|17|F], da mais recente para a mais antiga
-        lista: rows,
+        lista: rows.slice(0, HTML_VOTES),
       },
       despesas,
-      proposicoes: { total: props.length, primeiroAutor: props.filter((p) => p.primeiro).length, porTipo: Object.fromEntries(topN(porTipo, 14)), recentes },
+      proposicoes: { total: props.length, primeiroAutor: props.filter((p) => p.primeiro).length, porTipo: Object.fromEntries(topN(porTipo, 14)), recentes: recentes.slice(0, HTML_PROPS) },
     };
     writeJson(join(outDir, `${id}.json`), record);
+    writeExtras("camara", id, {
+      v: encodeVotes(rows, dict.length),
+      op: orgaosOut.filter((o) => o.fim),
+      fr: frentes.map((f) => f.titulo),
+      pr: recentes,
+    });
     index.push({
       id,
       slug,
@@ -672,7 +692,7 @@ async function buildCamara(list) {
   }
   index.sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
   writeJson(join(outDir, "index.json"), index);
-  writeJson(join(OUT, "frentes.json"), frenteTitles);
+  rmSync(join(OUT, "frentes.json"), { force: true });
 
   // Dicionário de votações (usado pelas páginas e pelo "ver mais" no navegador)
   const dictOut = { atualizadoEm: TODAY, votacoes: dict };
@@ -814,6 +834,7 @@ async function buildSenado() {
   );
 
   /* ---------- montagem ---------- */
+  rmSync(join(PUB, "extras", "senado"), { recursive: true, force: true });
   const outDir = join(OUT, "senadores");
   rmSync(outDir, { recursive: true, force: true });
   mkdirSync(outDir, { recursive: true });
@@ -856,11 +877,12 @@ async function buildSenado() {
               .filter(([k]) => k.startsWith(ano + "|"))
               .map(([k, t]) => ({ categoria: k.split("|").slice(1).join("|"), total: round2(t) }))
               .filter((x) => x.total !== 0)
-              .sort((x, y) => y.total - x.total),
+              .sort((x, y) => y.total - x.total)
+              .slice(0, 6),
           })),
-          porCategoria: topN(a.cat, 40).map(([categoria, total]) => ({ categoria, total: round2(total) })),
-          porMes: [...a.mes.entries()].sort((x, y) => x[0].localeCompare(y[0])).map(([mes, total]) => ({ mes, total: round2(total) })),
-          fornecedores: topN(a.forn, 8).map(([cnpj, total]) => ({ nome: a.fornNome.get(cnpj), cnpj, total: round2(total) })),
+          porCategoria: topN(a.cat, 15).map(([categoria, total]) => ({ categoria, total: round2(total) })),
+          porMes: [...a.mes.entries()].sort((x, y) => x[0].localeCompare(y[0])).slice(-12).map(([mes, total]) => ({ mes, total: round2(total) })),
+          fornecedores: topN(a.forn, 5).map(([cnpj, total]) => ({ nome: a.fornNome.get(cnpj), cnpj, total: round2(total) })),
         }
       : null;
 
@@ -935,7 +957,8 @@ async function buildSenado() {
       gabinete: emptyToNull(basicos.EnderecoParlamentar),
       perfil: `https://www25.senado.leg.br/web/senadores/senador/-/perfil/${cod}`,
       partidos,
-      comissoes: comOut,
+      comissoes: comOut.filter((o) => !o.fim),
+      comissoesAnteriores: comOut.filter((o) => o.fim).length,
       cargos: cargosOut,
       votacoes: {
         total: dict.length,
@@ -955,12 +978,13 @@ async function buildSenado() {
           naoCitado: c.NA ?? 0,
         },
         // [índice na lista de votações, código], da mais recente para a mais antiga
-        lista: rows,
+        lista: rows.slice(0, HTML_VOTES),
       },
       despesas,
-      proposicoes: { total: aut.length, primeiroAutor: aut.filter((x) => x.principal).length, porTipo: Object.fromEntries(topN(porTipo, 14)), recentes },
+      proposicoes: { total: aut.length, primeiroAutor: aut.filter((x) => x.principal).length, porTipo: Object.fromEntries(topN(porTipo, 14)), recentes: recentes.slice(0, HTML_PROPS) },
     };
     writeJson(join(outDir, `${cod}.json`), record);
+    writeExtras("senado", cod, { v: encodeVotes(rows, dict.length), op: comOut.filter((o) => o.fim), fr: [], pr: recentes });
     index.push({
       id: record.id,
       slug,
