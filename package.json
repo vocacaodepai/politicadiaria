@@ -1,0 +1,36 @@
+{
+  "name": "portaldaai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "npm run check:content",
+    "build": "next build",
+    "build:gh-pages": "npm run check:content && STATIC_EXPORT=true next build",
+    "start": "next start",
+    "content:index": "node scripts/build-content-index.mjs",
+    "check:content": "node scripts/build-content-index.mjs && node scripts/check-content.mjs",
+    "lint": "eslint && npm run check:content",
+    "content:new": "node scripts/new-content.mjs",
+    "seo:report": "node scripts/seo-report.mjs"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "next": "^16.3.6",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "resend": "^6.30.0",
+    "sanitize-html": "^2.17.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/sanitize-html": "^2.16.1",
+    "eslint": "^9",
+    "eslint-config-next": "^16.3.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

@@ -1,0 +1,61 @@
+name: Deploy to GitHub Pages
+
+# Preview auxiliar, só manual: o deploy de referência é a Vercel (ver CLAUDE.md).
+# Disparo automático desligado para não publicar uma cópia do site em outro domínio.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build static export
+        run: npm run build:gh-pages
+        env:
+          STATIC_EXPORT: "true"
+          # Opcional: cadastre PEXELS_API_KEY e/ou PIXABAY_API_KEY em
+          # Settings > Secrets and variables > Actions para publicar com
+          # fotos reais (Pexels é tentado primeiro, Pixabay em seguida).
+          # Sem nenhuma das duas, o site usa as capas ilustradas de fallback.
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
