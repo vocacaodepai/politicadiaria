@@ -378,10 +378,14 @@ async function buildCamara(list) {
       nominal.set(r.idVotacao, (nominal.get(r.idVotacao) ?? 0) + 1);
       if (!idStr.has(r.deputado_id)) continue;
       const code = CODES[r.voto] ?? null;
-      if (!code) unknownVotes.set(r.voto, (unknownVotes.get(r.voto) ?? 0) + 1);
+      if (!code) {
+        // Linha de voto sem tipo reconhecido (ex.: vazio): não vira voto nem ausência por engano.
+        unknownVotes.set(r.voto, (unknownVotes.get(r.voto) ?? 0) + 1);
+        continue;
+      }
       const id = Number(r.deputado_id);
       if (!votesBy.has(id)) votesBy.set(id, new Map());
-      votesBy.get(id).set(r.idVotacao, code ?? "?");
+      votesBy.get(id).set(r.idVotacao, code);
     }
   }
   if (unknownVotes.size) log("Câmara: tipos de voto não mapeados", [...unknownVotes]);
@@ -410,7 +414,7 @@ async function buildCamara(list) {
   }
   const dict = plen.map((v) => {
     const o = objs.get(v.id);
-    const materia = o && o.tipo ? `${o.tipo} ${o.numero}/${o.ano}` : null;
+    const materia = o && o.tipo ? `${o.tipo}${o.numero && o.numero !== "0" ? ` ${o.numero}` : ""}${o.ano && o.ano !== "0" ? `/${o.ano}` : ""}` : null;
     return {
       id: v.id,
       d: v.data,
@@ -431,11 +435,11 @@ async function buildCamara(list) {
   const desp = new Map(); // depId -> agregado
   for (const y of YEARS) {
     for await (const r of csvObjects(zipChunks(bulk(`Ano-${y}.csv.zip`)))) {
-      if (!idStr.has(r.nuDeputadoId)) continue;
+      if (!idStr.has(r.ideCadastro)) continue;
       const ano = Number(r.numAno);
       const mes = Number(r.numMes);
       if (ano < 2023 || (ano === 2023 && mes < 2)) continue;
-      const id = Number(r.nuDeputadoId);
+      const id = Number(r.ideCadastro);
       let a = desp.get(id);
       if (!a) desp.set(id, (a = { total: 0, docs: 0, ano: new Map(), cat: new Map(), anoCat: new Map(), mes: new Map(), forn: new Map(), fornNome: new Map() }));
       const v = num(r.vlrLiquido);
@@ -500,6 +504,7 @@ async function buildCamara(list) {
   rmSync(outDir, { recursive: true, force: true });
   mkdirSync(outDir, { recursive: true });
   const index = [];
+  const frenteTitles = {};
   const MAIN = new Set(["PL", "PLP", "PEC", "PDL", "PRC", "PLN", "PDC", "MPV", "PLV"]);
   const now = new Date();
   const ageOf = (iso) => {
@@ -514,7 +519,8 @@ async function buildCamara(list) {
   for (const base of list) {
     const id = base.id;
     const det = (await getJson(`${CAMARA}/deputados/${id}`)).dados;
-    const hist = (await getJson(`${CAMARA}/deputados/${id}/historico`)).dados ?? [];
+    // O histórico da API traz também legislaturas anteriores: só interessa o mandato atual.
+    const hist = ((await getJson(`${CAMARA}/deputados/${id}/historico`)).dados ?? []).filter((h) => String(h.dataHora) >= LEG_START);
     const orgaos = await camaraAll(`${CAMARA}/deputados/${id}/orgaos?itens=100&dataInicio=${LEG_START}`);
     const frentes = await camaraAll(`${CAMARA}/deputados/${id}/frentes`);
     const prof = (await getJson(`${CAMARA}/deputados/${id}/profissoes`)).dados ?? [];
@@ -632,7 +638,10 @@ async function buildCamara(list) {
       trocasDePartido: trocas,
       historicoSituacao: situacoes.slice(-10),
       orgaos: orgaosOut,
-      frentes: frentes.map((f) => ({ id: f.id, titulo: f.titulo })),
+      frentes: frentes.map((f) => {
+        frenteTitles[f.id] = f.titulo;
+        return f.id;
+      }),
       votacoes: {
         total: dict.length,
         elegiveis: eligible,
@@ -663,6 +672,7 @@ async function buildCamara(list) {
   }
   index.sort((a, b) => a.nome.localeCompare(b.nome, "pt-BR"));
   writeJson(join(outDir, "index.json"), index);
+  writeJson(join(OUT, "frentes.json"), frenteTitles);
 
   // Dicionário de votações (usado pelas páginas e pelo "ver mais" no navegador)
   const dictOut = { atualizadoEm: TODAY, votacoes: dict };

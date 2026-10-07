@@ -3,6 +3,7 @@ import { INSTITUTIONAL_PATHS, INSTITUTIONAL_UPDATED } from "@/components/Institu
 import { ARTICLES_PER_PAGE, NEWS_PER_PAGE, countPages, slicePage } from "@/components/listing/paginate";
 import { categories, getArticlesByCategory, getReviews, site, sortedArticles } from "@/lib/articles";
 import { author } from "@/lib/author";
+import { congressUrls } from "@/lib/congress";
 import { sortedNews } from "@/lib/news";
 import { absoluteUrl } from "@/lib/seo";
 
@@ -124,6 +125,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
+  const congresso: Entry[] = congressUrls().map((u) => ({
+    url: absoluteUrl(u.path),
+    lastModified: u.lastModified,
+    changeFrequency: "weekly",
+    priority: u.priority,
+  }));
+
   return [
     ...home,
     ...artigos,
@@ -134,5 +142,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...institucionais,
     ...artigoPages,
     ...noticiaPages,
+    ...congresso,
   ];
 }

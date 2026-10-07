@@ -7,6 +7,7 @@ import {
   formatBirth,
   formatInt,
   getCamaraVotes,
+  getFrentes,
   getMeta,
   getRemuneracao,
   partySlug,
@@ -57,6 +58,7 @@ export function DeputyProfile({ d }: { d: Deputy }) {
   const meta = getMeta();
   const rem = getRemuneracao();
   const dict = getCamaraVotes();
+  const frenteTitles = getFrentes();
   const updated = fmtDate(meta.atualizadoEm);
   const path = `/congresso/deputados/${d.slug}`;
   const c = d.votacoes.contagem;
@@ -94,7 +96,7 @@ export function DeputyProfile({ d }: { d: Deputy }) {
             <h1 className="mt-1 font-display text-3xl font-bold leading-tight tracking-tight sm:text-4xl">{d.nome}</h1>
             {d.nomeCivil && d.nomeCivil.toLowerCase() !== d.nome.toLowerCase() && <p className="mt-1 text-sm text-muted">Nome civil: {d.nomeCivil}</p>}
             <p className="mt-3 flex flex-wrap items-center gap-2 text-sm">
-              <Link href={`/congresso/partidos/${d.partido.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")}`} className="rounded-full border border-border bg-surface px-3 py-1 font-medium hover:border-accent/50">
+              <Link href={`/congresso/partidos/${partySlug(d.partido)}`} className="rounded-full border border-border bg-surface px-3 py-1 font-medium hover:border-accent/50">
                 {d.partido}
               </Link>
               <span className="rounded-full border border-border bg-surface px-3 py-1 font-medium">
@@ -223,8 +225,8 @@ export function DeputyProfile({ d }: { d: Deputy }) {
                 <details className="mt-4">
                   <summary className="cursor-pointer text-sm font-medium">Frentes parlamentares ({d.frentes.length})</summary>
                   <ul className="mt-2 list-disc space-y-0.5 pl-5 text-sm">
-                    {d.frentes.map((f) => (
-                      <li key={f.id}>{f.titulo}</li>
+                    {d.frentes.map((id) => (
+                      <li key={id}>{frenteTitles[String(id)] ?? `Frente ${id}`}</li>
                     ))}
                   </ul>
                 </details>

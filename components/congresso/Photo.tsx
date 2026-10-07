@@ -1,5 +1,5 @@
 import type { Photo } from "@/lib/congress";
-import { initials } from "@/lib/congress";
+import { initials } from "@/lib/congress-format";
 
 /**
  * Foto oficial (Câmara/Senado) hospedada na origem; sem foto, avatar com iniciais.

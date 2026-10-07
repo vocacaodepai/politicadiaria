@@ -8,7 +8,7 @@ import { VoteTableRows, VOTE_TABLE_HEAD } from "./VoteRows";
 import type { Casa } from "./votes-shared";
 
 const sentence = (s: string) => {
-  const t = s.toLocaleLowerCase("pt-BR");
+  const t = s.toLocaleLowerCase("pt-BR").replace(/\s+,/g, ",").replace(/\.$/, "");
   return t.charAt(0).toLocaleUpperCase("pt-BR") + t.slice(1);
 };
 
@@ -45,7 +45,7 @@ export function CostSection({ casa, rem, expenses, since }: { casa: Casa; rem: R
     <Card
       id="custo"
       title="O que custa ao contribuinte"
-      note={`Valores brutos e mensais, verificados em ${new Date(`${rem.verificadoEm}T12:00:00-03:00`).toLocaleDateString("pt-BR")} nas páginas oficiais citadas. ${rem.aviso}`}
+      note={`Verificado em ${new Date(`${rem.verificadoEm}T12:00:00-03:00`).toLocaleDateString("pt-BR")}. ${rem.aviso}`}
     >
       <table className="w-full border-collapse">
         <caption className="sr-only">Remuneração e verbas do mandato</caption>
@@ -82,9 +82,11 @@ export function CostSection({ casa, rem, expenses, since }: { casa: Casa; rem: R
       </table>
       <SourceLine>
         Fontes:{" "}
-        <a className="underline hover:text-accent" href={rem.subsidio.fonte.url} target="_blank" rel="noopener noreferrer">
-          {rem.subsidio.fonte.rotulo}
-        </a>
+        {casa === "camara" ? (
+          <a className="underline hover:text-accent" href={rem.subsidio.fonte.url} target="_blank" rel="noopener noreferrer">
+            {rem.subsidio.fonte.rotulo}
+          </a>
+        ) : null}
         {casa === "camara" ? (
           <>
             {"; "}
@@ -94,7 +96,6 @@ export function CostSection({ casa, rem, expenses, since }: { casa: Casa; rem: R
           </>
         ) : (
           <>
-            {"; "}
             <a className="underline hover:text-accent" href={rem.subsidio.fonteSenado.url} target="_blank" rel="noopener noreferrer">
               {rem.subsidio.fonteSenado.rotulo}
             </a>
@@ -227,6 +228,9 @@ export function ExpensesSection({ expenses, casa, updated }: { expenses: Expense
 
 /* ------------------------------------------------------------ votos */
 
+/** Votações renderizadas no HTML; o resto entra por "ver mais" no navegador (mantém a página leve). */
+const VOTES_IN_HTML = 40;
+
 type VoteCount = { label: string; value: number; tone: Segment["tone"] };
 
 export function VotesSection({
@@ -247,8 +251,8 @@ export function VotesSection({
   updated: string;
   extraNote: React.ReactNode;
 }) {
-  const first = rows.slice(0, 100);
-  const rest = rows.slice(100);
+  const first = rows.slice(0, VOTES_IN_HTML);
+  const rest = rows.slice(VOTES_IN_HTML);
   return (
     <Card id="votos" title="Votações nominais no Plenário" note={<>Dados oficiais, atualizados em {updated}. {extraNote}</>}>
       {total === 0 ? (

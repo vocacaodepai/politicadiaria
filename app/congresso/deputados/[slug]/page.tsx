@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const d = getDeputy(slug);
   if (!d) return {};
   const updated = new Date(`${getMeta().atualizadoEm}T12:00:00-03:00`).toLocaleDateString("pt-BR");
-  const gasto = d.despesas ? ` Gastou ${formatBRLShort(d.despesas.total)} da cota parlamentar no mandato.` : "";
+  const gasto = d.despesas ? ` Usou ${formatBRLShort(d.despesas.total)} da cota parlamentar no mandato.` : "";
   const meta = listingMetadata({
     title: `${d.nome} (${d.partido}-${d.uf}): votos, gastos e proposições`,
     description: `${deputyTitle(d)} por ${UF_NAMES[d.uf] ?? d.uf} (${d.partido}).${gasto} Veja votações, proposições, salário, contato e comissões. Dados oficiais da Câmara, atualizados em ${updated}.`,

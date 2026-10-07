@@ -170,7 +170,9 @@ export function SenatorProfile({ s }: { s: Senator }) {
                 { label: "Licença", value: c.licenca, tone: "f" },
                 { label: "Missão oficial", value: c.missao, tone: "f" },
                 { label: "Atividade parlamentar", value: c.atividadeParlamentar, tone: "f" },
-              ].filter((x, i) => i < 4 || x.value > 0)}
+              ]
+                .map((x) => x as { label: string; value: number; tone: "a" | "b" | "c" | "d" | "e" | "f" })
+                .filter((x, i) => i < 4 || x.value > 0)}
               extraNote={
                 <>
                   Registros sem voto: {formatInt(absences)} (não compareceu ou presente sem registrar voto) e {formatInt(justified)} com motivo registrado (licença, missão ou atividade parlamentar). Veja a metodologia abaixo.
