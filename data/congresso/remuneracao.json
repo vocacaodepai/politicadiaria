@@ -1,0 +1,87 @@
+{
+  "verificadoEm": "2026-10-07",
+  "aviso": "Valores mensais brutos, conferidos nas páginas oficiais indicadas. O que a fonte oficial não publica de forma consultável aparece como não verificado, e não foi estimado.",
+  "subsidio": {
+    "valor": 46366.19,
+    "descricao": "Subsídio mensal bruto (antes de Imposto de Renda e contribuição previdenciária). É o mesmo para deputados federais e senadores.",
+    "fonte": {
+      "rotulo": "Câmara dos Deputados: Gastos parlamentares (verbas e recursos)",
+      "url": "https://www.camara.leg.br/transparencia/gastos-parlamentares"
+    },
+    "fonteSenado": {
+      "rotulo": "Senado Federal: Estrutura remuneratória dos parlamentares",
+      "url": "https://www12.senado.leg.br/transparencia/rh/segp/estrutura-remuneratoria-dos-parlamentares"
+    }
+  },
+  "camara": {
+    "verbaGabinete": {
+      "tetoMensal": 165806.07,
+      "maxSecretarios": 25,
+      "salarioMinimoSecretario": 1710.83,
+      "salarioMaximoSecretario": 25958.9,
+      "descricao": "Limite mensal para pagar salários de até 25 secretários parlamentares, em Brasília ou nos estados. Encargos como 13º, férias e auxílio-alimentação são pagos pela Câmara, fora desse teto.",
+      "fonte": {
+        "rotulo": "Câmara dos Deputados: Gastos parlamentares (verbas e recursos)",
+        "url": "https://www.camara.leg.br/transparencia/gastos-parlamentares"
+      }
+    },
+    "cota": {
+      "nome": "Cota para o Exercício da Atividade Parlamentar (CEAP)",
+      "minimoMensal": 41612.55,
+      "minimoUf": "DF",
+      "maximoMensal": 58474.7,
+      "maximoUf": "RR",
+      "descricao": "Valor mensal que varia por estado, conforme o custo das passagens até Brasília. Reembolsa passagens aéreas, telefonia, correios, manutenção de escritório, combustível, hospedagem, divulgação e outros gastos do mandato, com nota fiscal.",
+      "observacao": "A tabela completa por UF não consta na página oficial consultada; só os extremos de 2026 foram verificados.",
+      "fonte": {
+        "rotulo": "Agência Lupa: Deputômetro (extremos de 2026 da cota por estado)",
+        "url": "https://www.agencialupa.org/deputometro/2026/07/31/deputometro-consulte-como-cada-deputado-federal-usou-a-cota-parlamentar-entre-2023-e-2026/"
+      },
+      "fonteOficial": {
+        "rotulo": "Câmara dos Deputados: Cota parlamentar",
+        "url": "https://www.camara.leg.br/cota-parlamentar/"
+      }
+    },
+    "auxilioMoradia": {
+      "valorMensal": 4253,
+      "apartamentosFuncionais": 447,
+      "descricao": "Pago ao deputado que não ocupa um dos 447 apartamentos funcionais da Câmara em Brasília. Se o aluguel superar o auxílio, a diferença pode sair da cota, limitada a R$ 4.148,80.",
+      "fonte": {
+        "rotulo": "Câmara dos Deputados: Gastos parlamentares (verbas e recursos)",
+        "url": "https://www.camara.leg.br/transparencia/gastos-parlamentares"
+      }
+    },
+    "diarias": {
+      "nacionalPorDia": 842,
+      "descricao": "Diária em viagem oficial nacional (R$ 842,00); no exterior, US$ 391,00 na América do Sul e US$ 428,00 nos demais países.",
+      "fonte": {
+        "rotulo": "Câmara dos Deputados: Gastos parlamentares (verbas e recursos)",
+        "url": "https://www.camara.leg.br/transparencia/gastos-parlamentares"
+      }
+    }
+  },
+  "senado": {
+    "cota": {
+      "nome": "Cota para o Exercício da Atividade Parlamentar dos Senadores (CEAPS)",
+      "descricao": "Reembolsa despesas do mandato (passagens, escritório de apoio, divulgação, consultorias, combustível e outras) mediante comprovante. O limite mensal varia por estado de origem e o Senado não o publica em uma tabela de fácil consulta; por isso o valor do limite não é exibido aqui. As despesas efetivamente reembolsadas, por ano e por categoria, vêm dos dados abertos do Senado.",
+      "fonte": {
+        "rotulo": "Senado Federal: Dados abertos da CEAPS",
+        "url": "https://www12.senado.leg.br/transparencia/dados-abertos-transparencia/dados-abertos-ceaps"
+      }
+    },
+    "verbaGabinete": {
+      "descricao": "O gabinete do senador conta com assessores comissionados custeados pelo Senado. O valor do limite de gabinete não foi verificado em fonte oficial consultável e, por isso, não é exibido.",
+      "fonte": {
+        "rotulo": "Senado Federal: Estrutura remuneratória dos parlamentares",
+        "url": "https://www12.senado.leg.br/transparencia/rh/segp/estrutura-remuneratoria-dos-parlamentares"
+      }
+    },
+    "auxilioMoradia": {
+      "descricao": "Relatório do Senado sobre recebimento de auxílio-moradia e imóvel funcional por senador.",
+      "fonte": {
+        "rotulo": "Senado Federal: Auxílio-moradia e imóveis funcionais",
+        "url": "https://www12.senado.leg.br/transparencia/sen/auxilio-moradia-e-imoveis-funcionais"
+      }
+    }
+  }
+}

@@ -12,7 +12,8 @@
     "check:content": "node scripts/build-content-index.mjs && node scripts/check-content.mjs",
     "lint": "eslint && npm run check:content",
     "content:new": "node scripts/new-content.mjs",
-    "seo:report": "node scripts/seo-report.mjs"
+    "seo:report": "node scripts/seo-report.mjs",
+    "congress:update": "node scripts/build-congress-data.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
