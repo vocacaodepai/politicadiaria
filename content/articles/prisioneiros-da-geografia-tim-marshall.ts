@@ -98,6 +98,7 @@ export const article: Article = {
     <p>Quem gostar do formato pode seguir para livros de outras categorias da <a href="/reviews">lista de resenhas</a>, sempre com a mesma régua de avaliação. A ideia é montar um repertório com visões diferentes: uma lente geográfica, outra institucional, outra histórica e outra econômica. Nenhuma delas explica tudo sozinha, e a comparação entre elas costuma ser mais proveitosa do que a leitura isolada de qualquer uma.</p>
 
     <h2>Nota final e critérios</h2>
+    <p>Os critérios abaixo seguem a mesma régua aplicada a livros de todos os campos e categorias do site.</p>
     <p>A nota é a média simples de cinco critérios. <strong>Clareza, 8,5:</strong> texto direto e bem organizado. <strong>Profundidade, 6,5:</strong> cada região recebe poucas páginas, o que limita o detalhe. <strong>Rigor e fontes, 6,5:</strong> é uma obra de divulgação, com menos aparato de referências que um livro acadêmico.</p>
     <p><strong>Atualidade, 6,5:</strong> a edição é de 2018 e não cobre mudanças recentes. <strong>Leitura, 9,0:</strong> capítulos curtos e independentes tornam o livro fácil de ler aos poucos. A média é 7,4, nota de boa introdução com limites claros.</p>
   `,

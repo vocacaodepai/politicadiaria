@@ -4,8 +4,8 @@ export const article: Article = {
   slug: "como-as-democracias-morrem-levitsky-ziblatt",
   title: "Como as Democracias Morrem: nota, tese e críticas ao livro",
   seoTitle: "Como as Democracias Morrem: nota e críticas",
-  excerpt: "Análise editorial de Como as Democracias Morrem, de Levitsky e Ziblatt: a tese sobre erosão gradual, as críticas de diferentes lados, a edição da Zahar e a nota final.",
-  metaDescription: "Análise editorial de Como as Democracias Morrem, de Levitsky e Ziblatt: a tese sobre erosão gradual, as críticas de diferentes lados, a edição da Zahar e a nota final.",
+  excerpt: "Análise editorial de Como as Democracias Morrem, de Levitsky e Ziblatt: a tese da erosão gradual, as críticas de vários lados, a edição da Zahar e a nota.",
+  metaDescription: "Análise editorial de Como as Democracias Morrem, de Levitsky e Ziblatt: a tese da erosão gradual, as críticas de vários lados, a edição da Zahar e a nota.",
   category: "democracia-e-instituicoes",
   date: "2026-10-07",
   readTime: 8,
@@ -65,12 +65,15 @@ export const article: Article = {
 
     <h2>Sobre os autores e a edição</h2>
     <p>Steven Levitsky e Daniel Ziblatt são cientistas políticos de Harvard. A mesma fonte informa que a obra saiu em 2018, que os autores publicaram depois uma continuação, <em>Tyranny of the Minority</em>, em 2023, e que o livro foi um sucesso editorial. Segundo a Wikipedia, a revista <em>The Economist</em> o chamou de talvez o livro mais importante da era Trump, Barack Obama o incluiu em sua lista de preferidos de 2018 e a obra recebeu um prêmio de não ficção na Alemanha.</p>
-    <p>A edição brasileira é da Zahar, com tradução de Renato Aguiar, lançada em 31 de agosto de 2018. O Brasil aparece como cenário de aplicação do raciocínio, e o debate sobre democracia no país, nas <a href="/noticias">notícias do site</a> e no <a href="/congresso">Congresso</a>, é um terreno natural para testar as categorias do livro.</p>
+    <p>A edição brasileira é da Zahar, com tradução de Renato Aguiar, lançada em 31 de agosto de 2018. O debate sobre democracia no Brasil, que aparece nas <a href="/noticias">notícias do site</a> e no <a href="/congresso">Congresso</a>, é um terreno em que o leitor pode testar as categorias do livro, por conta própria.</p>
 
     <h2>O que o livro faz bem</h2>
     <p><strong>Normas, não só regras.</strong> O livro defende que as leis escritas não bastam. Duas normas informais protegeriam o sistema: a tolerância mútua, que é aceitar que o adversário tem direito legítimo de disputar o poder e vencer, e a contenção institucional, que é evitar ações que cumprem a letra da lei, mas violam seu espírito. A ideia é fácil de entender e aplicável a governo e oposição.</p>
     <p><strong>Comparação histórica.</strong> Reunir casos europeus, latino-americanos e americanos dá ao leitor um repertório maior do que o de um único país. A comparação com outras épocas evita a leitura de que tudo seria inédito.</p>
     <p><strong>Clareza.</strong> Escrito para o público amplo, o livro tem capítulos objetivos e poucos termos técnicos. Quem lê também <a href="/artigos/por-que-as-nacoes-fracassam-acemoglu">Por que as Nações Fracassam</a> percebe que os dois livros conversam: ambos tratam de como regras e normas moldam o resultado político.</p>
+
+    <p><strong>Um teste prático.</strong> Os critérios do livro funcionam melhor quando aplicados com a mesma régua a todos os lados. O leitor pode escolher um episódio recente, como a contestação de um resultado eleitoral ou uma disputa sobre a composição de um tribunal, e perguntar se há tolerância mútua e contenção de ambos os lados. Se a resposta mudar conforme o partido envolvido, o problema está no uso do critério, e não no critério.</p>
+    <p>Esse cuidado é coerente com a própria tese. Os autores afirmam que a proteção da democracia depende de que adversários aceitem a legitimidade uns dos outros. Um leitor que use o livro apenas para acusar o oponente contraria o espírito da obra, e a resenha o recomenda como ferramenta de análise, e não de ataque.</p>
 
     <div class="buy-btn">
       <a href="https://www.amazon.com.br/dp/8537818003?tag=politicadiaria-20" rel="sponsored noopener noreferrer" target="_blank">Ver Como as Democracias Morrem na Amazon ↗</a>
@@ -80,6 +83,10 @@ export const article: Article = {
     <p>As críticas vêm de lados diferentes. Segundo a Wikipedia, Jason Willick, no <em>Wall Street Journal</em>, escreveu que o livro demoniza republicanos como o senador Ted Cruz. David Runciman, no <em>The Guardian</em>, argumentou que a obra se apoia demais na história e dá pouco peso à desigualdade e às redes sociais. Adam Tooze, na <em>New York Review of Books</em>, disse que os autores são ingênuos quanto ao papel da força nas rupturas democráticas.</p>
     <p>Essas objeções têm um ponto em comum: a dificuldade de usar critérios gerais sem que o resultado dependa de quem os aplica. Um observador pode ver sinais de erosão em um governo e não ver em outro com conduta parecida. A resenha registra que o livro propõe critérios, e que a qualidade da aplicação depende da honestidade de quem aplica, com os mesmos parâmetros para todos os campos.</p>
     <p>Outro limite é que a obra nasceu de um momento específico. Parte dos exemplos remete à política americana de 2016 a 2018, e o debate seguiu, com novos fatos, depois disso. Quem lê hoje deve conferir os casos contemporâneos em fontes primárias e atuais, como decisões de tribunais, resultados oficiais e documentos legislativos.</p>
+
+    <p>A comparação entre épocas é outro ponto de cuidado. Fascismo dos anos 1930, ditaduras militares dos anos 1970 e populismo contemporâneo são fenômenos distintos, com contextos, instituições e atores diferentes. O livro os coloca lado a lado para destacar semelhanças de método, e cabe ao leitor lembrar que semelhança não é identidade. Estudos comparados avançam justamente quando separam o que é comum do que é específico de cada caso.</p>
+
+    <p>Há, por fim, uma questão de formato. Por ser um livro para o público geral, ele privilegia exemplos marcantes e frases de efeito, e deixa de lado discussões metodológicas que aparecem em artigos acadêmicos. Isso ajuda a ler, mas exige que o leitor consulte outras fontes quando quiser medir a força de um argumento. Dados eleitorais, decisões judiciais e relatórios de organizações independentes são o complemento natural.</p>
 
     <h2>A quem serve e a quem não serve</h2>
     <p>O livro serve a estudantes, jornalistas, advogados e cidadãos interessados em democracia. É útil a quem quer um vocabulário para discutir regras do jogo político sem cair no vocabulário de torcida. Serve também a quem quer comparar com leituras mais clássicas sobre poder, como <a href="/artigos/o-principe-maquiavel-penguin-companhia">O Príncipe</a>, que trata do mesmo tema por outro ângulo.</p>

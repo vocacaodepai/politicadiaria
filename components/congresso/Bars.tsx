@@ -41,14 +41,15 @@ export function BarList({
   );
 }
 
-export type Segment = { label: string; value: number; tone: "a" | "b" | "c" | "d" | "e" };
+export type Segment = { label: string; value: number; tone: "a" | "b" | "c" | "d" | "e" | "f" };
 
 const TONES: Record<Segment["tone"], string> = {
   a: "bg-accent",
   b: "bg-foreground/70",
   c: "bg-warn",
   d: "bg-muted/60",
-  e: "bg-border",
+  e: "bg-muted/30",
+  f: "bg-border",
 };
 
 /** Barra empilhada com legenda; os números absolutos e percentuais ficam visíveis em texto. */
