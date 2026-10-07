@@ -9,6 +9,7 @@ import { ParliamentarianPhoto } from "./Photo";
 import { Card, Field, StatTile } from "./Stat";
 import { CostSection, ExpensesSection, Methodology, PropositionsSection, VotesSection } from "./ProfileSections";
 import { PersonLinks } from "./PersonLinks";
+import { LazyList } from "./MoreVotes";
 
 const fmtDate = (iso: string | null) => (iso ? `${iso.slice(8, 10)}/${iso.slice(5, 7)}/${iso.slice(0, 4)}` : "não informado");
 
@@ -45,9 +46,8 @@ export function SenatorProfile({ s }: { s: Senator }) {
   const updated = fmtDate(meta.atualizadoEm);
   const path = `/congresso/senadores/${s.slug}`;
   const c = s.votacoes.contagem;
-  const total = s.votacoes.lista.length;
-  const activeCom = s.comissoes.filter((o) => !o.fim);
-  const pastCom = s.comissoes.filter((o) => o.fim);
+  const total = s.votacoes.linhas;
+  const activeCom = s.comissoes;
   const absences = c.naoCompareceu + c.presenteSemVoto;
   const justified = c.licenca + c.missao + c.atividadeParlamentar;
 
@@ -155,6 +155,8 @@ export function SenatorProfile({ s }: { s: Senator }) {
 
             <VotesSection
               casa="senado"
+              id={s.id}
+              lines={s.votacoes.linhas}
               total={total}
               rows={s.votacoes.lista}
               dict={dict}
@@ -180,7 +182,7 @@ export function SenatorProfile({ s }: { s: Senator }) {
               }
             />
 
-            <PropositionsSection props={s.proposicoes} casa="senado" />
+            <PropositionsSection props={s.proposicoes} casa="senado" id={s.id} />
 
             <Card id="comissoes" title="Comissões e cargos">
               {activeCom.length > 0 ? (
@@ -206,17 +208,11 @@ export function SenatorProfile({ s }: { s: Senator }) {
                   </ul>
                 </>
               )}
-              {pastCom.length > 0 && (
-                <details className="mt-4">
-                  <summary className="cursor-pointer text-sm font-medium">Participações anteriores ({pastCom.length})</summary>
-                  <ul className="mt-2 divide-y divide-border text-sm">
-                    {pastCom.map((o) => (
-                      <li key={`${o.id}-${o.inicio}-${o.fim}`} className="py-1.5">
-                        <span className="font-medium">{o.sigla}</span> · {o.nome} <span className="text-muted">({o.cargo}, {fmtDate(o.inicio)} a {fmtDate(o.fim)})</span>
-                      </li>
-                    ))}
-                  </ul>
-                </details>
+              {s.comissoesAnteriores > 0 && (
+                <div className="mt-4">
+                  <p className="text-sm font-medium">Participações anteriores ({s.comissoesAnteriores})</p>
+                  <LazyList casa="senado" id={s.id} kind="op" label="Ver participações anteriores" />
+                </div>
               )}
             </Card>
 

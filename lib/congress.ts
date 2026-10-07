@@ -35,6 +35,7 @@ export type Propositions = {
   total: number;
   primeiroAutor: number;
   porTipo: Record<string, number>;
+  recentesTotal: number;
   recentes: { id: number; titulo: string; data: string; ementa: string; situacao?: string | null; primeiro: boolean }[];
 };
 
@@ -68,12 +69,15 @@ export type Deputy = {
   trocasDePartido: { data: string; de: string; para: string }[];
   historicoSituacao: { data: string; situacao: string; condicao: string | null; descricao: string | null }[];
   orgaos: { sigla: string; nome: string; cargo: string; inicio: string | null; fim: string | null; id: number }[];
-  /** ids; os títulos ficam em frentes.json (getFrentes). */
-  frentes: number[];
+  orgaosAnteriores: number;
+  /** quantidade; os títulos são carregados sob demanda (extras). */
+  frentes: number;
   votacoes: {
     total: number;
     elegiveis: number;
     registradas: number;
+    /** nº total de linhas de votação (a lista no HTML traz só as mais recentes). */
+    linhas: number;
     contagem: { sim: number; nao: number; abstencao: number; obstrucao: number; art17: number; ausencias: number };
     lista: VoteRow[];
   };
@@ -105,11 +109,13 @@ export type Senator = {
   gabinete: string | null;
   perfil: string;
   partidos: { sigla: string; filiacao: string | null; desfiliacao: string | null }[];
+  comissoesAnteriores: number;
   comissoes: { sigla: string; nome: string; casa: string; cargo: string; inicio: string | null; fim: string | null; id: string }[];
   cargos: { sigla: string; nome: string; cargo: string; inicio: string | null; fim: string | null }[];
   votacoes: {
     total: number;
     registradas: number;
+    linhas: number;
     contagem: {
       sim: number;
       nao: number;
@@ -219,7 +225,6 @@ export const getSummary = () => readJson<Summary>("resumo.json");
 export const getRemuneracao = () => readJson<Remuneracao>("remuneracao.json");
 export const getDeputiesIndex = () => readJson<IndexEntry[]>("deputados/index.json");
 export const getSenatorsIndex = () => readJson<IndexEntry[]>("senadores/index.json");
-export const getFrentes = () => readJson<Record<string, string>>("frentes.json");
 export const getCamaraVotes = () => readJson<{ atualizadoEm: string; votacoes: CamaraVote[] }>("votacoes-camara.json").votacoes;
 export const getSenadoVotes = () => readJson<{ atualizadoEm: string; votacoes: SenadoVote[] }>("votacoes-senado.json").votacoes;
 

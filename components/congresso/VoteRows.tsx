@@ -9,16 +9,17 @@ export function VoteTableRows({ casa, rows, dict }: { casa: Casa; rows: VoteRow[
         const v = dict[idx];
         if (!v) return null;
         const title = v.m ?? "Matéria não identificada";
-        const text = v.e ?? v.t;
+        const raw = v.e ?? v.t;
+        const text = raw.length > 170 ? `${raw.slice(0, 169).replace(/\s\S*$/, "")}…` : raw;
         return (
-          <tr key={`${v.id}-${idx}`} className="border-t border-border align-top">
-            <td className="whitespace-nowrap py-2 pr-3 font-mono text-xs text-muted">{brDate(v.d)}</td>
-            <td className="py-2 pr-3">
-              <span className="block text-sm font-semibold leading-snug">{title}</span>
-              <span className="mt-0.5 block text-xs leading-snug text-muted">{text}</span>
+          <tr key={`${v.id}-${idx}`}>
+            <td className="whitespace-nowrap font-mono text-xs text-muted">{brDate(v.d)}</td>
+            <td>
+              <b className="block text-sm leading-snug">{title}</b>
+              <span className="text-xs leading-snug text-muted">{text}</span>
             </td>
-            <td className="whitespace-nowrap py-2 pr-3 text-sm font-medium">{VOTE_LABELS[casa][code] ?? code}</td>
-            <td className="py-2 text-xs leading-snug text-muted">{resultText(casa, v)}</td>
+            <td className="whitespace-nowrap text-sm font-medium">{VOTE_LABELS[casa][code] ?? code}</td>
+            <td className="text-xs leading-snug text-muted">{resultText(casa, v)}</td>
           </tr>
         );
       })}
@@ -26,13 +27,16 @@ export function VoteTableRows({ casa, rows, dict }: { casa: Casa; rows: VoteRow[
   );
 }
 
+export const VOTE_TABLE_CLASS =
+  "w-full min-w-[640px] border-collapse [&_td]:border-t [&_td]:border-border [&_td]:py-2 [&_td]:pr-3 [&_td]:align-top [&_th]:pb-2 [&_th]:pr-3 [&_th]:text-left [&_th]:font-mono [&_th]:text-[11px] [&_th]:uppercase [&_th]:tracking-wider [&_th]:text-muted";
+
 export const VOTE_TABLE_HEAD = (
   <thead>
-    <tr className="text-left">
-      <th scope="col" className="pb-2 pr-3 label-mono text-muted">Data</th>
-      <th scope="col" className="pb-2 pr-3 label-mono text-muted">Matéria votada</th>
-      <th scope="col" className="pb-2 pr-3 label-mono text-muted">Registro</th>
-      <th scope="col" className="pb-2 label-mono text-muted">Resultado da votação</th>
+    <tr>
+      <th scope="col">Data</th>
+      <th scope="col">Matéria votada</th>
+      <th scope="col">Registro</th>
+      <th scope="col">Resultado</th>
     </tr>
   </thead>
 );

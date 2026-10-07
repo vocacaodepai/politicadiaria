@@ -7,7 +7,6 @@ import {
   formatBirth,
   formatInt,
   getCamaraVotes,
-  getFrentes,
   getMeta,
   getRemuneracao,
   partySlug,
@@ -22,6 +21,7 @@ import { ParliamentarianPhoto } from "./Photo";
 import { Card, Field, StatTile } from "./Stat";
 import { CostSection, ExpensesSection, Methodology, PropositionsSection, VotesSection } from "./ProfileSections";
 import { PersonLinks } from "./PersonLinks";
+import { LazyList } from "./MoreVotes";
 
 const fmtDate = (iso: string | null) => (iso ? `${iso.slice(8, 10)}/${iso.slice(5, 7)}/${iso.slice(0, 4)}` : "não informado");
 
@@ -58,13 +58,11 @@ export function DeputyProfile({ d }: { d: Deputy }) {
   const meta = getMeta();
   const rem = getRemuneracao();
   const dict = getCamaraVotes();
-  const frenteTitles = getFrentes();
   const updated = fmtDate(meta.atualizadoEm);
   const path = `/congresso/deputados/${d.slug}`;
   const c = d.votacoes.contagem;
-  const activeOrgaos = d.orgaos.filter((o) => !o.fim);
-  const pastOrgaos = d.orgaos.filter((o) => o.fim);
-  const social = d.redes.map((u) => ({ url: safeExternalUrl(u), label: socialLabel(u) })).filter((s): s is { url: string; label: string } => !!s.url);
+  const activeOrgaos = d.orgaos;
+    const social = d.redes.map((u) => ({ url: safeExternalUrl(u), label: socialLabel(u) })).filter((s): s is { url: string; label: string } => !!s.url);
   const site = d.site ? safeExternalUrl(d.site) : null;
   const inOffice = d.situacao === "Exercício";
 
@@ -177,6 +175,8 @@ export function DeputyProfile({ d }: { d: Deputy }) {
 
             <VotesSection
               casa="camara"
+              id={d.id}
+              lines={d.votacoes.linhas}
               total={d.votacoes.elegiveis}
               rows={d.votacoes.lista}
               dict={dict}
@@ -192,7 +192,7 @@ export function DeputyProfile({ d }: { d: Deputy }) {
               extraNote={<>&quot;Sem voto registrado&quot; não equivale a falta em sessão: veja a metodologia abaixo.</>}
             />
 
-            <PropositionsSection props={d.proposicoes} casa="camara" />
+            <PropositionsSection props={d.proposicoes} casa="camara" id={d.id} />
 
             <Card id="comissoes" title="Comissões, órgãos e frentes parlamentares">
               {activeOrgaos.length > 0 ? (
@@ -209,27 +209,17 @@ export function DeputyProfile({ d }: { d: Deputy }) {
               ) : (
                 <p className="text-sm text-muted">Nenhuma participação atual em comissões nos dados abertos.</p>
               )}
-              {pastOrgaos.length > 0 && (
-                <details className="mt-4">
-                  <summary className="cursor-pointer text-sm font-medium">Participações anteriores ({pastOrgaos.length})</summary>
-                  <ul className="mt-2 divide-y divide-border text-sm">
-                    {pastOrgaos.map((o) => (
-                      <li key={`${o.id}-${o.inicio}-${o.fim}`} className="py-1.5">
-                        <span className="font-medium">{o.sigla}</span> · {o.nome} <span className="text-muted">({o.cargo}, {fmtDate(o.inicio)} a {fmtDate(o.fim)})</span>
-                      </li>
-                    ))}
-                  </ul>
-                </details>
+              {d.orgaosAnteriores > 0 && (
+                <div className="mt-4">
+                  <p className="text-sm font-medium">Participações anteriores ({d.orgaosAnteriores})</p>
+                  <LazyList casa="camara" id={d.id} kind="op" label="Ver participações anteriores" />
+                </div>
               )}
-              {d.frentes.length > 0 && (
-                <details className="mt-4">
-                  <summary className="cursor-pointer text-sm font-medium">Frentes parlamentares ({d.frentes.length})</summary>
-                  <ul className="mt-2 list-disc space-y-0.5 pl-5 text-sm">
-                    {d.frentes.map((id) => (
-                      <li key={id}>{frenteTitles[String(id)] ?? `Frente ${id}`}</li>
-                    ))}
-                  </ul>
-                </details>
+              {d.frentes > 0 && (
+                <div className="mt-4">
+                  <p className="text-sm font-medium">Frentes parlamentares ({d.frentes})</p>
+                  <LazyList casa="camara" id={d.id} kind="fr" label="Ver as frentes parlamentares" />
+                </div>
               )}
             </Card>
 

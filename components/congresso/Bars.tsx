@@ -16,24 +16,20 @@ export function BarList({
   compact?: boolean;
 }) {
   const top = max ?? Math.max(1, ...items.map((i) => i.value));
+  // Estilo no <ul> (seletores filhos) em vez de repetido em cada <li>: HTML bem menor.
+  const track =
+    "[&>li]:grid [&>li]:grid-cols-[var(--lw)_minmax(0,1fr)_auto] [&>li]:items-center [&>li]:gap-2 [&>li]:text-sm [&>li>span:nth-child(2)]:block [&>li>span:nth-child(2)]:h-3.5 [&>li>span:nth-child(2)]:overflow-hidden [&>li>span:nth-child(2)]:rounded-sm [&>li>span:nth-child(2)]:bg-surface-2 [&>li>span:nth-child(2)>span]:block [&>li>span:nth-child(2)>span]:h-full [&>li>span:nth-child(2)>span]:bg-accent [&>li>span:first-child]:truncate [&>li>span:last-child]:min-w-14 [&>li>span:last-child]:text-right [&>li>span:last-child]:font-mono [&>li>span:last-child]:text-xs [&>li>span:last-child]:text-muted";
   return (
-    <ul className={`${compact ? "space-y-1" : "space-y-1.5"} ${className}`}>
+    <ul className={`${compact ? "space-y-1" : "space-y-1.5"} ${track} ${className}`} style={{ ["--lw" as string]: labelWidth }}>
       {items.map((it) => {
         const w = Math.max(it.value > 0 ? 1.5 : 0, (it.value / top) * 100);
-        const label = it.href ? (
-          <a href={it.href} className="hover:text-accent hover:underline">
-            {it.label}
-          </a>
-        ) : (
-          it.label
-        );
         return (
-          <li key={it.label} className="grid items-center gap-2 text-sm" style={{ gridTemplateColumns: `${labelWidth} minmax(0,1fr) auto` }} title={it.hint}>
-            <span className="truncate text-foreground/90">{label}</span>
-            <span className="h-3.5 overflow-hidden rounded-sm bg-surface-2" aria-hidden="true">
-              <span className="block h-full rounded-sm bg-accent" style={{ width: `${w}%` }} />
+          <li key={it.label} title={it.hint}>
+            <span>{it.href ? <a href={it.href}>{it.label}</a> : it.label}</span>
+            <span aria-hidden="true">
+              <span style={{ width: `${w}%` }} />
             </span>
-            <span className="min-w-[3.5rem] text-right font-mono text-xs tabular-nums text-muted">{it.display ?? it.value.toLocaleString("pt-BR")}</span>
+            <span>{it.display ?? it.value.toLocaleString("pt-BR")}</span>
           </li>
         );
       })}

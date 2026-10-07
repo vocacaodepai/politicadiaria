@@ -661,11 +661,12 @@ async function buildCamara(list) {
         elegiveis: eligible,
         contagem: { sim: counts.S, nao: counts.N, abstencao: counts.A, obstrucao: counts.O, art17: counts["17"], ausencias: counts.F },
         registradas: registered,
+        linhas: rows.length,
         // [índice na lista de votações, código S|N|A|O|17|F], da mais recente para a mais antiga
         lista: rows.slice(0, HTML_VOTES),
       },
       despesas,
-      proposicoes: { total: props.length, primeiroAutor: props.filter((p) => p.primeiro).length, porTipo: Object.fromEntries(topN(porTipo, 14)), recentes: recentes.slice(0, HTML_PROPS) },
+      proposicoes: { total: props.length, primeiroAutor: props.filter((p) => p.primeiro).length, porTipo: Object.fromEntries(topN(porTipo, 14)), recentes: recentes.slice(0, HTML_PROPS), recentesTotal: recentes.length },
     };
     writeJson(join(outDir, `${id}.json`), record);
     writeExtras("camara", id, {
@@ -963,6 +964,7 @@ async function buildSenado() {
       votacoes: {
         total: dict.length,
         registradas: voted,
+        linhas: rows.length,
         contagem: {
           sim: c.S ?? 0,
           nao: c.N ?? 0,
@@ -981,7 +983,7 @@ async function buildSenado() {
         lista: rows.slice(0, HTML_VOTES),
       },
       despesas,
-      proposicoes: { total: aut.length, primeiroAutor: aut.filter((x) => x.principal).length, porTipo: Object.fromEntries(topN(porTipo, 14)), recentes: recentes.slice(0, HTML_PROPS) },
+      proposicoes: { total: aut.length, primeiroAutor: aut.filter((x) => x.principal).length, porTipo: Object.fromEntries(topN(porTipo, 14)), recentes: recentes.slice(0, HTML_PROPS), recentesTotal: recentes.length },
     };
     writeJson(join(outDir, `${cod}.json`), record);
     writeExtras("senado", cod, { v: encodeVotes(rows, dict.length), op: comOut.filter((o) => o.fim), fr: [], pr: recentes });

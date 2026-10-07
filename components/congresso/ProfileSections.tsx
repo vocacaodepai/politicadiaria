@@ -3,8 +3,8 @@ import type { CamaraVote, Expenses, Propositions, Remuneracao, SenadoVote, VoteR
 import { formatBRL, formatBRLShort, formatInt, formatPct, monthLabel, pct } from "@/lib/congress";
 import { BarList, StackedBar, type Segment } from "./Bars";
 import { Card } from "./Stat";
-import { MoreVotes } from "./MoreVotes";
-import { VoteTableRows, VOTE_TABLE_HEAD } from "./VoteRows";
+import { LazyList, MoreVotes } from "./MoreVotes";
+import { VoteTableRows, VOTE_TABLE_HEAD, VOTE_TABLE_CLASS } from "./VoteRows";
 import type { Casa } from "./votes-shared";
 
 const sentence = (s: string) => {
@@ -170,44 +170,20 @@ export function ExpensesSection({ expenses, casa, updated }: { expenses: Expense
         }))}
       />
 
-      {expenses.porAno.length > 0 && (
-        <details className="mt-4 rounded-lg border border-border bg-surface-2/40 p-3">
-          <summary className="cursor-pointer text-sm font-medium">Categorias por ano</summary>
-          <div className="mt-3 space-y-4">
-            {[...expenses.porAno].reverse().map((y) => (
-              <div key={y.ano}>
-                <p className="text-sm font-semibold">
-                  {y.ano} <span className="font-mono text-xs font-normal text-muted">{formatBRL(y.total)}</span>
-                </p>
-                <ul className="mt-1 space-y-0.5 text-xs text-muted">
-                  {y.categorias.slice(0, 8).map((c) => (
-                    <li key={c.categoria} className="flex justify-between gap-3">
-                      <span className="truncate">{sentence(c.categoria)}</span>
-                      <span className="shrink-0 font-mono tabular-nums">{formatBRL(c.total)}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
-          </div>
-        </details>
-      )}
 
       <h3 className="mt-6 label-mono text-muted">Últimos {last12.length} meses</h3>
-      <div className="mt-2 flex h-28 items-end gap-1" role="img" aria-label="Gasto mensal nos últimos meses">
+      <div
+        className="mt-2 flex h-28 items-end gap-1 [&>span]:min-w-0 [&>span]:flex-1 [&>span]:rounded-t-sm [&>span]:bg-accent"
+        role="img"
+        aria-label={`Gasto mensal, de ${monthLabel(last12[0].mes)} a ${monthLabel(last12[last12.length - 1].mes)}`}
+      >
         {last12.map((m) => (
-          <div key={m.mes} className="flex min-w-0 flex-1 flex-col items-center justify-end gap-1" title={`${monthLabel(m.mes)}: ${formatBRL(m.total)}`}>
-            <span className="w-full rounded-t-sm bg-accent" style={{ height: `${Math.max(2, (Math.max(0, m.total) / maxMonth) * 100)}%` }} />
-          </div>
+          <span key={m.mes} title={`${monthLabel(m.mes)}: ${formatBRL(m.total)}`} style={{ height: `${Math.max(2, (Math.max(0, m.total) / maxMonth) * 100)}%` }} />
         ))}
       </div>
-      <div className="mt-1 flex gap-1 text-[10px] text-muted">
-        {last12.map((m) => (
-          <span key={m.mes} className="min-w-0 flex-1 text-center">
-            {m.mes.slice(5)}
-          </span>
-        ))}
-      </div>
+      <p className="mt-1 text-[10px] text-muted">
+        {monthLabel(last12[0].mes)} a {monthLabel(last12[last12.length - 1].mes)}; passe o cursor sobre cada barra para ver o valor.
+      </p>
 
       {expenses.fornecedores.length > 0 && (
         <>
@@ -229,12 +205,14 @@ export function ExpensesSection({ expenses, casa, updated }: { expenses: Expense
 /* ------------------------------------------------------------ votos */
 
 /** Votações renderizadas no HTML; o resto entra por "ver mais" no navegador (mantém a página leve). */
-const VOTES_IN_HTML = 40;
+const VOTES_IN_HTML = 10;
 
 type VoteCount = { label: string; value: number; tone: Segment["tone"] };
 
 export function VotesSection({
   casa,
+  id,
+  lines,
   counts,
   total,
   rows,
@@ -243,6 +221,9 @@ export function VotesSection({
   extraNote,
 }: {
   casa: Casa;
+  id: number;
+  /** Total de linhas de votação do parlamentar (a lista em `rows` traz só as mais recentes). */
+  lines: number;
   counts: VoteCount[];
   /** Denominador dos percentuais (votações nominais em que o parlamentar consta). */
   total: number;
@@ -252,7 +233,6 @@ export function VotesSection({
   extraNote: React.ReactNode;
 }) {
   const first = rows.slice(0, VOTES_IN_HTML);
-  const rest = rows.slice(VOTES_IN_HTML);
   return (
     <Card id="votos" title="Votações nominais no Plenário" note={<>Dados oficiais, atualizados em {updated}. {extraNote}</>}>
       {total === 0 ? (
@@ -276,7 +256,7 @@ export function VotesSection({
           </dl>
           <h3 className="mt-6 font-display text-base font-bold">Últimas {first.length} votações</h3>
           <div className="mt-3 overflow-x-auto">
-            <table className="w-full min-w-[640px] border-collapse">
+            <table className={VOTE_TABLE_CLASS}>
               <caption className="sr-only">Votações nominais mais recentes</caption>
               {VOTE_TABLE_HEAD}
               <tbody>
@@ -284,7 +264,7 @@ export function VotesSection({
               </tbody>
             </table>
           </div>
-          <MoreVotes casa={casa} rows={rest} />
+          {lines > first.length && <MoreVotes casa={casa} id={id} skip={first.length} />}
         </>
       )}
     </Card>
@@ -293,7 +273,7 @@ export function VotesSection({
 
 /* ------------------------------------------------------ proposições */
 
-export function PropositionsSection({ props, casa }: { props: Propositions; casa: Casa }) {
+export function PropositionsSection({ props, casa, id }: { props: Propositions; casa: Casa; id: number }) {
   const types = Object.entries(props.porTipo);
   const link = (id: number) =>
     casa === "camara"
@@ -335,6 +315,9 @@ export function PropositionsSection({ props, casa }: { props: Propositions; casa
               </li>
             ))}
           </ul>
+          {props.recentesTotal > props.recentes.length && (
+            <LazyList casa={casa} id={id} kind="pr" skip={props.recentes.length} label={`Ver mais ${props.recentesTotal - props.recentes.length} projetos`} />
+          )}
         </>
       )}
     </Card>
