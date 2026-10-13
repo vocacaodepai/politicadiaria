@@ -9,7 +9,7 @@ export const categoryIntros: Record<Category, string> = {
   "historia-politica":
     "Quem entende a história política entende melhor o noticiário de hoje. As resenhas desta categoria cobrem impérios, revoluções, ditaduras e transições democráticas, avaliando rigor das fontes, clareza e o quanto cada obra ainda é útil para o leitor brasileiro.",
   "ideias-politicas":
-    "Liberalismo, conservadorismo, socialismo, republicanismo e as tradições que moldam o debate público: as resenhas de ideias políticas apresentam clássicos e autores contemporâneos de todos os campos, sempre julgando a qualidade da obra e nunca a posição do autor.",
+    "Liberalismo, conservadorismo, republicanismo e as tradições que moldam o debate público: as resenhas de ideias políticas apresentam clássicos e autores contemporâneos da tradição liberal e conservadora, sempre julgando a qualidade da obra e nunca a posição do autor.",
   "economia-e-estado":
     "Política e economia andam juntas: impostos, gasto público, desigualdade, comércio e o papel do Estado são decididos no voto e no Congresso. Estas resenhas ajudam a escolher livros que explicam essas escolhas sem jargão e sem torcida.",
   "democracia-e-instituicoes":

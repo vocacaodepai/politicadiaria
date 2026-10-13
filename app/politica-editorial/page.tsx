@@ -185,10 +185,15 @@ export default function PoliticaEditorialPage() {
         critérios, exibida junto com pontos fortes, pontos fracos, para quem serve e o link do livro.
       </p>
       <p>
-        A nota julga a qualidade da obra, não a ideologia do autor. A mesma régua vale para livros de
-        qualquer campo político: um livro de que discordamos pode receber nota alta se for claro,
-        bem fundamentado e honesto com as fontes, e um livro alinhado a uma opinião popular pode
-        receber nota baixa se for superficial ou impreciso. Não alegamos leitura que não aconteceu.
+        A seleção dos livros tem linha editorial declarada: o site resenha obras de política com
+        viés de centro-direita e direita (liberal, conservadora, libertária e da tradição
+        ocidental), além de clássicos e livros de referência para entender o poder. Não resenhamos
+        obras de orientação comunista ou socialista. Já as notícias, o Congresso por dentro e as
+        checagens seguem a regra apartidária descrita acima. Dentro da seleção, a nota julga a
+        qualidade da obra, não a ideologia do autor: um livro de que discordamos pode receber nota
+        alta se for claro, bem fundamentado e honesto com as fontes, e um livro alinhado a uma
+        opinião popular pode receber nota baixa se for superficial ou impreciso. A resenha também
+        registra as principais críticas feitas à obra. Não alegamos leitura que não aconteceu.
         Nenhuma nota é vendida, negociada ou influenciada por editora, autor, anunciante ou programa
         de afiliado. Se a edição mudar de forma relevante, a resenha é revisada e a nota pode mudar.
       </p>

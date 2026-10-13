@@ -73,7 +73,7 @@ export default function PublicidadeEAfiliadosPage() {
         livro tem link de afiliado. Um livro com comissão não ganha nota melhor, não aparece mais
         vezes e não deixa de ter os pontos fracos listados. Um livro sem comissão não deixa de ser
         recomendado por isso. A nota julga a qualidade da obra, não a ideologia do autor, e vale a
-        mesma régua para todos os campos políticos. Se o livro mais indicado para um caso for outro,
+        mesma régua para todas as obras da seleção editorial declarada. Se o livro mais indicado para um caso for outro,
         sem link de afiliado, o texto diz que é esse outro.
       </p>
 

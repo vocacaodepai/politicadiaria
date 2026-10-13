@@ -5,7 +5,13 @@ import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { ThemeToggle } from "./ThemeToggle";
 
-type Item = { href: string; label: string; description?: string };
+type Item = {
+  href: string;
+  label: string;
+  description?: string;
+  highlight?: boolean;
+  children?: { href: string; label: string; description?: string }[];
+};
 
 /**
  * Menu lateral do mobile em <dialog> nativo (showModal): foco preso, Esc fecha,
@@ -79,13 +85,27 @@ export function MobileMenu({
 
           <nav className="mt-6 space-y-1" aria-label="Principal">
             {primary.map((i) => (
-              <Link
-                key={i.href}
-                href={i.href}
-                className="block rounded-lg px-3 py-2.5 font-display text-lg font-semibold hover:bg-surface-2"
-              >
-                {i.label}
-              </Link>
+              <div key={i.href}>
+                <Link
+                  href={i.href}
+                  className={`block rounded-lg px-3 py-2.5 font-display text-lg font-semibold hover:bg-surface-2 ${i.highlight ? "text-accent" : ""}`}
+                >
+                  {i.label}
+                </Link>
+                {i.children && (
+                  <div className="mb-2 ml-3 border-l border-border pl-3">
+                    {i.children.map((c) => (
+                      <Link
+                        key={`${c.href}-${c.label}`}
+                        href={c.href}
+                        className="block rounded-lg px-3 py-1.5 text-sm text-muted hover:bg-surface-2 hover:text-foreground"
+                      >
+                        {c.label}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
             ))}
           </nav>
 
