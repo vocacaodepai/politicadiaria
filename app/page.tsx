@@ -5,6 +5,8 @@ import { ArticleCard } from "@/components/ArticleCard";
 import { CategoryChips } from "@/components/CategoryChips";
 import { Container } from "@/components/Container";
 import { CongressPromo } from "@/components/CongressPromo";
+import { ChecagemStrip } from "@/components/ChecagemStrip";
+import { EleicoesStrip } from "@/components/EleicoesStrip";
 import { CoverImage } from "@/components/CoverImage";
 import { NewsList } from "@/components/NewsRow";
 import { NewsTicker } from "@/components/NewsTicker";
@@ -158,6 +160,9 @@ export default function Home() {
           </div>
         </div>
       </Container>
+
+      <EleicoesStrip />
+      <ChecagemStrip />
 
       <Container className="mt-8">
         <CategoryChips />

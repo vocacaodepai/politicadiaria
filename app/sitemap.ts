@@ -3,7 +3,9 @@ import { INSTITUTIONAL_PATHS, INSTITUTIONAL_UPDATED } from "@/components/Institu
 import { ARTICLES_PER_PAGE, NEWS_PER_PAGE, countPages, slicePage } from "@/components/listing/paginate";
 import { categories, getArticlesByCategory, getReviews, site, sortedArticles } from "@/lib/articles";
 import { author } from "@/lib/author";
+import { checagemUrls } from "@/lib/checagens";
 import { congressUrls } from "@/lib/congress";
+import { eleicoesUrls } from "@/lib/eleicoes";
 import { sortedNews } from "@/lib/news";
 import { absoluteUrl } from "@/lib/seo";
 
@@ -132,6 +134,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: u.priority,
   }));
 
+  const eleicoes: Entry[] = eleicoesUrls().map((u) => ({
+    url: absoluteUrl(u.path),
+    lastModified: u.lastModified,
+    changeFrequency: "daily",
+    priority: u.priority,
+  }));
+
+  const checagem: Entry[] = checagemUrls().map((u) => ({
+    url: absoluteUrl(u.path),
+    lastModified: u.lastModified,
+    changeFrequency: "weekly",
+    priority: u.priority,
+  }));
+
   return [
     ...home,
     ...artigos,
@@ -143,5 +159,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...artigoPages,
     ...noticiaPages,
     ...congresso,
+    ...eleicoes,
+    ...checagem,
   ];
 }
