@@ -5,6 +5,7 @@
  *
  *   npm run content:new -- artigo <slug> <categoria>
  *   npm run content:new -- noticia <slug>
+ *   npm run content:new -- checagem <slug>
  *
  * Depois é só preencher os campos e rodar `npm run check:content`.
  */
@@ -21,7 +22,7 @@ function die(msg) {
   process.exit(1);
 }
 
-if (!["artigo", "noticia"].includes(kind)) die("uso: artigo <slug> <categoria> | noticia <slug>");
+if (!["artigo", "noticia", "checagem"].includes(kind)) die("uso: artigo <slug> <categoria> | noticia <slug> | checagem <slug>");
 if (!slug || !/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) die("slug inválido (só a-z, 0-9 e hífen, sem acentos)");
 if (kind === "artigo" && !CATEGORIES.includes(category)) die(`categoria inválida; use uma de: ${CATEGORIES.join(", ")}`);
 
@@ -32,7 +33,7 @@ const today = new Intl.DateTimeFormat("en-CA", {
   day: "2-digit",
 }).format(new Date());
 
-const dir = resolve(ROOT, kind === "artigo" ? "content/articles" : "content/news");
+const dir = resolve(ROOT, kind === "artigo" ? "content/articles" : kind === "checagem" ? "content/checagens" : "content/news");
 const file = resolve(dir, `${slug}.ts`);
 if (existsSync(file)) die(`já existe: ${file}`);
 
@@ -97,6 +98,56 @@ export const article: Article = {
     <p></p>
   \`,
   faq: [{ question: "", answer: "" }],
+};
+`;
+} else if (kind === "checagem") {
+  body = `import type { FactCheck } from "@/lib/types";
+
+// Veredito: falso | enganoso | fora-de-contexto | sem-provas | verdadeiro.
+// Sem fonte primária ou ao menos duas fontes independentes abertas e conferidas, não há veredito.
+export const checagem: FactCheck = {
+  slug: "${slug}",
+  title: "",
+  summary: "",
+  author: "Equipe Política Diária",
+  verdict: "sem-provas",
+  quick: "",
+  claim: {
+    text: "",
+    origin: "",
+    firstSeen: "${today}",
+    attribution: "Publicações em redes sociais",
+  },
+  date: "${today}",
+  checkedAt: "${nowSp}-03:00",
+  updated: "${today}",
+  topic: "Eleições 2026",
+  points: [
+    { status: "verdade", text: "" },
+    { status: "falso", text: "" },
+  ],
+  sources: [
+    {
+      label: "",
+      publisher: "",
+      url: "https://",
+      kind: "primaria",
+      note: "",
+      published: "${today}",
+    },
+    {
+      label: "",
+      publisher: "",
+      url: "https://",
+      kind: "agencia",
+      note: "",
+      published: "${today}",
+    },
+  ],
+  timeline: [{ date: "${today}", text: "" }],
+  content: \`
+    <p></p>
+  \`,
 };
 `;
 } else {
