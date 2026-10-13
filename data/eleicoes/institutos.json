@@ -1,0 +1,170 @@
+{
+ "observacao": "Instituições que aparecem nas pesquisas compiladas. O campo rotulos guarda como contratante e instituto aparecem nas fontes (por exemplo, Globo/Datafolha). Ibope (2018) e Ipec (2022) são tratados como institutos distintos porque são registros diferentes nas fontes.",
+ "institutos": [
+  {
+   "slug": "atlasintel",
+   "nome": "AtlasIntel",
+   "rotulos": [
+    "Arko Advice/AtlasIntel",
+    "AtlasIntel"
+   ]
+  },
+  {
+   "slug": "brasmarket",
+   "nome": "Brasmarket",
+   "rotulos": [
+    "Brasmarket"
+   ]
+  },
+  {
+   "slug": "btg-nexus",
+   "nome": "BTG/Nexus",
+   "rotulos": [
+    "BTG/Nexus",
+    "Nexus/BTG"
+   ]
+  },
+  {
+   "slug": "cnt-mda",
+   "nome": "CNT/MDA",
+   "rotulos": [
+    "CNT/MDA"
+   ]
+  },
+  {
+   "slug": "datafolha",
+   "nome": "Datafolha",
+   "rotulos": [
+    "DataFolha",
+    "Datafolha",
+    "Globo/Datafolha"
+   ]
+  },
+  {
+   "slug": "datatrends",
+   "nome": "DataTrends",
+   "rotulos": [
+    "DataTrends"
+   ]
+  },
+  {
+   "slug": "fsb",
+   "nome": "FSB",
+   "rotulos": [
+    "BTG Pactual/FSB",
+    "FSB"
+   ]
+  },
+  {
+   "slug": "futura",
+   "nome": "Futura",
+   "rotulos": [
+    "Futura",
+    "Modalmais/Futura"
+   ]
+  },
+  {
+   "slug": "gerp",
+   "nome": "Gerp",
+   "rotulos": [
+    "Gerp"
+   ]
+  },
+  {
+   "slug": "ibope",
+   "nome": "Ibope",
+   "rotulos": [
+    "Ibope"
+   ]
+  },
+  {
+   "slug": "ideia",
+   "nome": "Ideia",
+   "rotulos": [
+    "Exame/Ideia",
+    "Meio/Ideia"
+   ]
+  },
+  {
+   "slug": "ifp",
+   "nome": "IFP",
+   "rotulos": [
+    "IFP"
+   ]
+  },
+  {
+   "slug": "indexa",
+   "nome": "Indexa",
+   "rotulos": [
+    "Indexa"
+   ]
+  },
+  {
+   "slug": "ipec",
+   "nome": "Ipec",
+   "rotulos": [
+    "Globo/IPEC"
+   ]
+  },
+  {
+   "slug": "ipespe",
+   "nome": "Ipespe",
+   "rotulos": [
+    "Abrapel/Ipespe",
+    "Ipespe"
+   ]
+  },
+  {
+   "slug": "palver",
+   "nome": "Palver",
+   "rotulos": [
+    "Palver"
+   ]
+  },
+  {
+   "slug": "parana-pesquisas",
+   "nome": "Paraná Pesquisas",
+   "rotulos": [
+    "Paraná Pesquisas"
+   ]
+  },
+  {
+   "slug": "poderdata",
+   "nome": "PoderData",
+   "rotulos": [
+    "PoderData",
+    "PoderData/Aya"
+   ]
+  },
+  {
+   "slug": "quaest",
+   "nome": "Quaest",
+   "rotulos": [
+    "Genial/Quaest",
+    "Quaest"
+   ]
+  },
+  {
+   "slug": "real-time-big-data",
+   "nome": "Real Time Big Data",
+   "rotulos": [
+    "Real Time Big Data"
+   ]
+  },
+  {
+   "slug": "verita",
+   "nome": "Veritá",
+   "rotulos": [
+    "Instituto Veritá",
+    "Veritá"
+   ]
+  },
+  {
+   "slug": "vox-brasil",
+   "nome": "Vox Brasil",
+   "rotulos": [
+    "Vox"
+   ]
+  }
+ ]
+}

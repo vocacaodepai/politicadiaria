@@ -1,0 +1,4443 @@
+{
+ "atualizadoEm": "2026-10-13T16:02:06-03:00",
+ "presidente": {
+  "turno1": {
+   "turno": 1,
+   "apuracao": {
+    "secoesTotal": 499248,
+    "secoesTotalizadas": 499248,
+    "pctSecoesTotalizadas": 100
+   },
+   "eleitorado": {
+    "aptos": 158745502,
+    "comparecimento": 125275835,
+    "pctComparecimento": 78.92,
+    "abstencoes": 33469244,
+    "pctAbstencao": 21.08
+   },
+   "votos": {
+    "validos": 119300788,
+    "brancos": 2300798,
+    "pctBrancos": 1.84,
+    "nulos": 3674249,
+    "pctNulos": 2.93,
+    "totais": 125275835
+   },
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "Flávio Bolsonaro",
+     "partido": "PL",
+     "federacao": null,
+     "coligacao": null,
+     "vice": "Alfredo Gaspar",
+     "votos": 56104503,
+     "pct": 47.03,
+     "situacao": "2º turno"
+    },
+    {
+     "numero": "13",
+     "nome": "Lula",
+     "partido": "PT",
+     "federacao": "BRASIL DA ESPERANÇA",
+     "coligacao": "BRASIL PRONTO PRA MAIS",
+     "vice": "Geraldo Alckmin",
+     "votos": 53879538,
+     "pct": 45.16,
+     "situacao": "2º turno"
+    },
+    {
+     "numero": "70",
+     "nome": "Augusto Cury",
+     "partido": "AVANTE",
+     "federacao": null,
+     "coligacao": "BRASIL DOS NOSSOS SONHOS",
+     "vice": "Júlio Delgado",
+     "votos": 3448569,
+     "pct": 2.89,
+     "situacao": "Não eleito"
+    },
+    {
+     "numero": "14",
+     "nome": "Renan Santos",
+     "partido": "MISSÃO",
+     "federacao": null,
+     "coligacao": null,
+     "vice": "Coronel Medina",
+     "votos": 2675887,
+     "pct": 2.24,
+     "situacao": "Não eleito"
+    },
+    {
+     "numero": "55",
+     "nome": "Ronaldo Caiado",
+     "partido": "PSD",
+     "federacao": null,
+     "coligacao": null,
+     "vice": "Gilberto Kassab",
+     "votos": 2605148,
+     "pct": 2.18,
+     "situacao": "Não eleito"
+    },
+    {
+     "numero": "30",
+     "nome": "Romeu Zema",
+     "partido": "NOVO",
+     "federacao": null,
+     "coligacao": null,
+     "vice": "Eduardo Girão",
+     "votos": 326488,
+     "pct": 0.27,
+     "situacao": "Não eleito"
+    },
+    {
+     "numero": "80",
+     "nome": "Samara Martins",
+     "partido": "UP",
+     "federacao": null,
+     "coligacao": null,
+     "vice": "Raquel Brício",
+     "votos": 122911,
+     "pct": 0.1,
+     "situacao": "Não eleito"
+    },
+    {
+     "numero": "16",
+     "nome": "Hertz Dias",
+     "partido": "PSTU",
+     "federacao": null,
+     "coligacao": null,
+     "vice": "Vanessa Portugal",
+     "votos": 43103,
+     "pct": 0.04,
+     "situacao": "Não eleito"
+    },
+    {
+     "numero": "27",
+     "nome": "Clariana Barão",
+     "partido": "DC",
+     "federacao": null,
+     "coligacao": null,
+     "vice": "Fabiana Torquato",
+     "votos": 40043,
+     "pct": 0.03,
+     "situacao": "Não eleito"
+    },
+    {
+     "numero": "21",
+     "nome": "Edmilson Costa",
+     "partido": "PCB",
+     "federacao": null,
+     "coligacao": null,
+     "vice": "Cleusa Santos",
+     "votos": 22693,
+     "pct": 0.02,
+     "situacao": "Não eleito"
+    },
+    {
+     "numero": "35",
+     "nome": "Wilson Grassi",
+     "partido": "DEMOCRATA",
+     "federacao": null,
+     "coligacao": null,
+     "vice": "Suêd Haidar",
+     "votos": 16881,
+     "pct": 0.01,
+     "situacao": "Não eleito"
+    },
+    {
+     "numero": "29",
+     "nome": "Rui Costa Pimenta",
+     "partido": "PCO",
+     "federacao": null,
+     "coligacao": null,
+     "vice": "Antônio Carlos",
+     "votos": 15024,
+     "pct": 0.01,
+     "situacao": "Não eleito"
+    }
+   ],
+   "tse": {
+    "data": "05/10/2026",
+    "hora": "12:51:47",
+    "ultimaTotalizacao": "05/10/2026 12:51:05"
+   }
+  },
+  "turno2": {
+   "turno": 2,
+   "apuracao": {
+    "secoesTotal": 494864,
+    "secoesTotalizadas": 0,
+    "pctSecoesTotalizadas": 0
+   },
+   "eleitorado": {
+    "aptos": 157563461,
+    "comparecimento": 0,
+    "pctComparecimento": 0,
+    "abstencoes": 0,
+    "pctAbstencao": 0
+   },
+   "votos": {
+    "validos": 0,
+    "brancos": 0,
+    "pctBrancos": 0,
+    "nulos": 0,
+    "pctNulos": 0,
+    "totais": 0
+   },
+   "candidatos": [
+    {
+     "numero": "22",
+     "nome": "Flávio Bolsonaro",
+     "partido": "PL",
+     "federacao": null,
+     "coligacao": null,
+     "vice": "Alfredo Gaspar",
+     "votos": 0,
+     "pct": 0,
+     "situacao": ""
+    },
+    {
+     "numero": "13",
+     "nome": "Lula",
+     "partido": "PT",
+     "federacao": "BRASIL DA ESPERANÇA",
+     "coligacao": "BRASIL PRONTO PRA MAIS",
+     "vice": "Geraldo Alckmin",
+     "votos": 0,
+     "pct": 0,
+     "situacao": ""
+    }
+   ],
+   "tse": {
+    "data": "13/10/2026",
+    "hora": "10:56:48",
+    "ultimaTotalizacao": null
+   }
+  }
+ },
+ "governadores": [
+  {
+   "uf": "AC",
+   "estado": "Acre",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 2270,
+     "secoesTotalizadas": 2270,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 613316,
+     "comparecimento": 487971,
+     "pctComparecimento": 79.56,
+     "abstencoes": 125345,
+     "pctAbstencao": 20.44
+    },
+    "votos": {
+     "validos": 439647,
+     "brancos": 8926,
+     "pctBrancos": 1.83,
+     "nulos": 39398,
+     "pctNulos": 8.07,
+     "totais": 487971
+    },
+    "candidatos": [
+     {
+      "numero": "11",
+      "nome": "Mailza Assis",
+      "partido": "PP",
+      "federacao": "UNIÃO PROGRESSISTA",
+      "coligacao": "AVANÇA ACRE",
+      "vice": "Jessica Sales",
+      "votos": 218760,
+      "pct": 49.76,
+      "situacao": "2º turno"
+     },
+     {
+      "numero": "10",
+      "nome": "Alan Rick",
+      "partido": "REPUBLICANOS",
+      "federacao": null,
+      "coligacao": "TRABALHO DA ESPERANÇA",
+      "vice": "Ricardo Leite",
+      "votos": 141859,
+      "pct": 32.27,
+      "situacao": "2º turno"
+     },
+     {
+      "numero": "45",
+      "nome": "Tião Bocalom",
+      "partido": "PSDB",
+      "federacao": "PSDB CIDADANIA",
+      "coligacao": "PRODUZIR PARA EMPREGAR",
+      "vice": "Sargento Adonis",
+      "votos": 44946,
+      "pct": 10.22,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "40",
+      "nome": "Thor Dantas",
+      "partido": "PSB",
+      "federacao": null,
+      "coligacao": "FRENTE AMPLA PELO ACRE",
+      "vice": "Socorro Rodrigues",
+      "votos": 32963,
+      "pct": 7.5,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "21",
+      "nome": "Eudo Raffael",
+      "partido": "PCB",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Poeta Cesinha",
+      "votos": 715,
+      "pct": 0.16,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "36",
+      "nome": "Dr.luisinho",
+      "partido": "AGIR",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Daniela Paiva",
+      "votos": 404,
+      "pct": 0.09,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "04/10/2026",
+     "hora": "21:08:18",
+     "ultimaTotalizacao": "04/10/2026 19:07:20"
+    }
+   },
+   "turno2": {
+    "apuracao": {
+     "secoesTotal": 2270,
+     "secoesTotalizadas": 0,
+     "pctSecoesTotalizadas": 0
+    },
+    "eleitorado": {
+     "aptos": 613336,
+     "comparecimento": 0,
+     "pctComparecimento": 0,
+     "abstencoes": 0,
+     "pctAbstencao": 0
+    },
+    "votos": {
+     "validos": 0,
+     "brancos": 0,
+     "pctBrancos": 0,
+     "nulos": 0,
+     "pctNulos": 0,
+     "totais": 0
+    },
+    "candidatos": [
+     {
+      "numero": "11",
+      "nome": "Mailza Assis",
+      "partido": "PP",
+      "federacao": "UNIÃO PROGRESSISTA",
+      "coligacao": "AVANÇA ACRE",
+      "vice": "Jessica Sales",
+      "votos": 0,
+      "pct": 0,
+      "situacao": ""
+     },
+     {
+      "numero": "10",
+      "nome": "Alan Rick",
+      "partido": "REPUBLICANOS",
+      "federacao": null,
+      "coligacao": "TRABALHO DA ESPERANÇA",
+      "vice": "Ricardo Leite",
+      "votos": 0,
+      "pct": 0,
+      "situacao": ""
+     }
+    ],
+    "tse": {
+     "data": "09/10/2026",
+     "hora": "19:54:30",
+     "ultimaTotalizacao": null
+    }
+   },
+   "segundoTurno": true,
+   "eleito": null
+  },
+  {
+   "uf": "AL",
+   "estado": "Alagoas",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 7101,
+     "secoesTotalizadas": 7101,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 2439190,
+     "comparecimento": 1935820,
+     "pctComparecimento": 79.36,
+     "abstencoes": 503370,
+     "pctAbstencao": 20.64
+    },
+    "votos": {
+     "validos": 1709614,
+     "brancos": 56303,
+     "pctBrancos": 2.91,
+     "nulos": 169903,
+     "pctNulos": 8.78,
+     "totais": 1935820
+    },
+    "candidatos": [
+     {
+      "numero": "45",
+      "nome": "JHC",
+      "partido": "PSDB",
+      "federacao": "PSDB CIDADANIA",
+      "coligacao": "ALAGOAS GIGANTE",
+      "vice": "Célia Rocha",
+      "votos": 892484,
+      "pct": 52.2,
+      "situacao": "Eleito"
+     },
+     {
+      "numero": "15",
+      "nome": "Renan Filho",
+      "partido": "MDB",
+      "federacao": null,
+      "coligacao": "PRA ALAGOAS FAZER HISTÓRIA DE NOVO",
+      "vice": "Yale Barbosa",
+      "votos": 809796,
+      "pct": 47.37,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "80",
+      "nome": "Lenilda Luna",
+      "partido": "UP",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Jardel Queiroz",
+      "votos": 6454,
+      "pct": 0.38,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "35",
+      "nome": "Márcio Jambo",
+      "partido": "DEMOCRATA",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Jaudinete Pontes",
+      "votos": 880,
+      "pct": 0.05,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "04/10/2026",
+     "hora": "22:54:50",
+     "ultimaTotalizacao": "04/10/2026 22:54:29"
+    }
+   },
+   "turno2": null,
+   "segundoTurno": false,
+   "eleito": "JHC"
+  },
+  {
+   "uf": "AP",
+   "estado": "Amapá",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 1914,
+     "secoesTotalizadas": 1914,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 576359,
+     "comparecimento": 476019,
+     "pctComparecimento": 82.59,
+     "abstencoes": 100340,
+     "pctAbstencao": 17.41
+    },
+    "votos": {
+     "validos": 448747,
+     "brancos": 2964,
+     "pctBrancos": 0.62,
+     "nulos": 24308,
+     "pctNulos": 5.11,
+     "totais": 476019
+    },
+    "candidatos": [
+     {
+      "numero": "55",
+      "nome": "Dr. Furlan",
+      "partido": "PSD",
+      "federacao": null,
+      "coligacao": "TRABALHAR PARA TRANSFORMAR O AMAPÁ",
+      "vice": "Luciana Gurgel",
+      "votos": 281595,
+      "pct": 62.75,
+      "situacao": "Eleito"
+     },
+     {
+      "numero": "44",
+      "nome": "Clécio",
+      "partido": "UNIÃO",
+      "federacao": "UNIÃO PROGRESSISTA",
+      "coligacao": "JUNTOS POR TODO O AMAPÁ",
+      "vice": "Teles Jr.",
+      "votos": 165900,
+      "pct": 36.97,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "16",
+      "nome": "Carlos Cley",
+      "partido": "PSTU",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Ana Paula Pinheiro",
+      "votos": 561,
+      "pct": 0.13,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "27",
+      "nome": "Delegado Marcos",
+      "partido": "DC",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Cristina Araújo",
+      "votos": 376,
+      "pct": 0.08,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "29",
+      "nome": "Jairo Palheta",
+      "partido": "PCO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Iraciely",
+      "votos": 315,
+      "pct": 0.07,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "04/10/2026",
+     "hora": "21:04:28",
+     "ultimaTotalizacao": "04/10/2026 21:03:59"
+    }
+   },
+   "turno2": null,
+   "segundoTurno": false,
+   "eleito": "Dr. Furlan"
+  },
+  {
+   "uf": "AM",
+   "estado": "Amazonas",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 8157,
+     "secoesTotalizadas": 8157,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 2796053,
+     "comparecimento": 2232271,
+     "pctComparecimento": 79.84,
+     "abstencoes": 563782,
+     "pctAbstencao": 20.16
+    },
+    "votos": {
+     "validos": 2071985,
+     "brancos": 50340,
+     "pctBrancos": 2.26,
+     "nulos": 109946,
+     "pctNulos": 4.93,
+     "totais": 2232271
+    },
+    "candidatos": [
+     {
+      "numero": "55",
+      "nome": "Omar Aziz",
+      "partido": "PSD",
+      "federacao": null,
+      "coligacao": "FORÇA AMAZONAS",
+      "vice": "Alessandra Campelo",
+      "votos": 841846,
+      "pct": 40.63,
+      "situacao": "2º turno"
+     },
+     {
+      "numero": "22",
+      "nome": "Professora Maria do Carmo",
+      "partido": "PL",
+      "federacao": null,
+      "coligacao": "MUDAR É URGENTE",
+      "vice": "Coronel Anibal",
+      "votos": 507335,
+      "pct": 24.49,
+      "situacao": "2º turno"
+     },
+     {
+      "numero": "44",
+      "nome": "Roberto Cidade",
+      "partido": "UNIÃO",
+      "federacao": "UNIÃO PROGRESSISTA",
+      "coligacao": "UNIÃO PELO AMAZONAS",
+      "vice": "Serafim",
+      "votos": 453896,
+      "pct": 21.91,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "70",
+      "nome": "David Almeida",
+      "partido": "AVANTE",
+      "federacao": null,
+      "coligacao": "PRA CIMA AMAZONAS",
+      "vice": "Dra. Shádia",
+      "votos": 218490,
+      "pct": 10.54,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "33",
+      "nome": "Cabo Daciolo",
+      "partido": "MOBILIZA",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Professor Igor Oliveira",
+      "votos": 36176,
+      "pct": 1.75,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "18",
+      "nome": "Isael Munduruku",
+      "partido": "REDE",
+      "federacao": "PSOL REDE",
+      "coligacao": null,
+      "vice": "Leo Balbi",
+      "votos": 11459,
+      "pct": 0.55,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "16",
+      "nome": "Gilberto Vasconcelos",
+      "partido": "PSTU",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Juliana Frota",
+      "votos": 2783,
+      "pct": 0.13,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "10/10/2026",
+     "hora": "10:14:53",
+     "ultimaTotalizacao": "05/10/2026 04:59:33"
+    }
+   },
+   "turno2": {
+    "apuracao": {
+     "secoesTotal": 8157,
+     "secoesTotalizadas": 0,
+     "pctSecoesTotalizadas": 0
+    },
+    "eleitorado": {
+     "aptos": 2796187,
+     "comparecimento": 0,
+     "pctComparecimento": 0,
+     "abstencoes": 0,
+     "pctAbstencao": 0
+    },
+    "votos": {
+     "validos": 0,
+     "brancos": 0,
+     "pctBrancos": 0,
+     "nulos": 0,
+     "pctNulos": 0,
+     "totais": 0
+    },
+    "candidatos": [
+     {
+      "numero": "55",
+      "nome": "Omar Aziz",
+      "partido": "PSD",
+      "federacao": null,
+      "coligacao": "FORÇA AMAZONAS",
+      "vice": "Alessandra Campelo",
+      "votos": 0,
+      "pct": 0,
+      "situacao": ""
+     },
+     {
+      "numero": "22",
+      "nome": "Professora Maria do Carmo",
+      "partido": "PL",
+      "federacao": null,
+      "coligacao": "MUDAR É URGENTE",
+      "vice": "Coronel Anibal",
+      "votos": 0,
+      "pct": 0,
+      "situacao": ""
+     }
+    ],
+    "tse": {
+     "data": "09/10/2026",
+     "hora": "21:15:26",
+     "ultimaTotalizacao": null
+    }
+   },
+   "segundoTurno": true,
+   "eleito": null
+  },
+  {
+   "uf": "BA",
+   "estado": "Bahia",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 35476,
+     "secoesTotalizadas": 35476,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 11304314,
+     "comparecimento": 9046179,
+     "pctComparecimento": 80.02,
+     "abstencoes": 2258135,
+     "pctAbstencao": 19.98
+    },
+    "votos": {
+     "validos": 8291090,
+     "brancos": 233096,
+     "pctBrancos": 2.58,
+     "nulos": 521993,
+     "pctNulos": 5.77,
+     "totais": 9046179
+    },
+    "candidatos": [
+     {
+      "numero": "13",
+      "nome": "Jerônimo Rodrigues",
+      "partido": "PT",
+      "federacao": "BRASIL DA ESPERANÇA",
+      "coligacao": "MAIS BAHIA, MAIS BRASIL",
+      "vice": "Geraldo Júnior",
+      "votos": 4626509,
+      "pct": 55.8,
+      "situacao": "Eleito"
+     },
+     {
+      "numero": "44",
+      "nome": "ACM Neto",
+      "partido": "UNIÃO",
+      "federacao": "UNIÃO PROGRESSISTA",
+      "coligacao": "UNIDOS PARA MUDAR A BAHIA",
+      "vice": "Zé Cocá",
+      "votos": 3625227,
+      "pct": 43.72,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "50",
+      "nome": "Ronaldo Mansur",
+      "partido": "PSOL",
+      "federacao": "PSOL REDE",
+      "coligacao": null,
+      "vice": "Profª Meire Reis",
+      "votos": 27243,
+      "pct": 0.33,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "80",
+      "nome": "Aroldo Felix",
+      "partido": "UP",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Marilia do MLB",
+      "votos": 5238,
+      "pct": 0.06,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "29",
+      "nome": "Maria Bona",
+      "partido": "PCO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Zé Ricardo",
+      "votos": 4028,
+      "pct": 0.05,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "27",
+      "nome": "Ariel Capistrano",
+      "partido": "DC",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Zé Augusto",
+      "votos": 2845,
+      "pct": 0.03,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "05/10/2026",
+     "hora": "11:41:49",
+     "ultimaTotalizacao": "05/10/2026 00:50:30"
+    }
+   },
+   "turno2": null,
+   "segundoTurno": false,
+   "eleito": "Jerônimo Rodrigues"
+  },
+  {
+   "uf": "CE",
+   "estado": "Ceará",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 23765,
+     "secoesTotalizadas": 23765,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 6991044,
+     "comparecimento": 5905522,
+     "pctComparecimento": 84.47,
+     "abstencoes": 1085522,
+     "pctAbstencao": 15.53
+    },
+    "votos": {
+     "validos": 5406095,
+     "brancos": 170316,
+     "pctBrancos": 2.88,
+     "nulos": 329111,
+     "pctNulos": 5.57,
+     "totais": 5905522
+    },
+    "candidatos": [
+     {
+      "numero": "13",
+      "nome": "Elmano de Freitas",
+      "partido": "PT",
+      "federacao": "BRASIL DA ESPERANÇA",
+      "coligacao": "CEARÁ FORTE DO LADO CERTO",
+      "vice": "Gabriella Aguiar",
+      "votos": 2875573,
+      "pct": 53.19,
+      "situacao": "Eleito"
+     },
+     {
+      "numero": "45",
+      "nome": "Ciro Gomes",
+      "partido": "PSDB",
+      "federacao": "PSDB CIDADANIA",
+      "coligacao": "UNIR PARA MUDAR",
+      "vice": "Roberto Claudio",
+      "votos": 2498891,
+      "pct": 46.22,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "14",
+      "nome": "Delegado Huggo",
+      "partido": "MISSÃO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Felipe Moreira",
+      "votos": 17219,
+      "pct": 0.32,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "30",
+      "nome": "Vera Lúcia",
+      "partido": "NOVO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Cap. Amilton Gomes",
+      "votos": 5701,
+      "pct": 0.11,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "80",
+      "nome": "Serley Leal",
+      "partido": "UP",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Catherine Teles",
+      "votos": 4344,
+      "pct": 0.08,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "16",
+      "nome": "Zé Batista",
+      "partido": "PSTU",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Ivonete",
+      "votos": 2161,
+      "pct": 0.04,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "35",
+      "nome": "Danilo Soares",
+      "partido": "DEMOCRATA",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Eryck Veloso",
+      "votos": 1743,
+      "pct": 0.03,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "29",
+      "nome": "Ieri Braga",
+      "partido": "PCO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Laerte Silva",
+      "votos": 463,
+      "pct": 0.01,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "04/10/2026",
+     "hora": "23:11:32",
+     "ultimaTotalizacao": "04/10/2026 23:10:27"
+    }
+   },
+   "turno2": null,
+   "segundoTurno": false,
+   "eleito": "Elmano de Freitas"
+  },
+  {
+   "uf": "DF",
+   "estado": "Distrito Federal",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 6969,
+     "secoesTotalizadas": 6969,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 2243988,
+     "comparecimento": 1817921,
+     "pctComparecimento": 81.01,
+     "abstencoes": 426067,
+     "pctAbstencao": 18.99
+    },
+    "votos": {
+     "validos": 1653237,
+     "brancos": 74774,
+     "pctBrancos": 4.11,
+     "nulos": 89910,
+     "pctNulos": 4.95,
+     "totais": 1817921
+    },
+    "candidatos": [
+     {
+      "numero": "11",
+      "nome": "Celina Leão",
+      "partido": "PP",
+      "federacao": "UNIÃO PROGRESSISTA",
+      "coligacao": "PROPÓSITO E AÇÃO",
+      "vice": "Gustavo Rocha",
+      "votos": 825530,
+      "pct": 49.93,
+      "situacao": "2º turno"
+     },
+     {
+      "numero": "13",
+      "nome": "Leandro Grass",
+      "partido": "PT",
+      "federacao": "BRASIL DA ESPERANÇA",
+      "coligacao": "DF DO POVO",
+      "vice": "Dora Gomes",
+      "votos": 569930,
+      "pct": 34.47,
+      "situacao": "2º turno"
+     },
+     {
+      "numero": "45",
+      "nome": "Paula Belmonte",
+      "partido": "PSDB",
+      "federacao": "PSDB CIDADANIA",
+      "coligacao": null,
+      "vice": "Juiz Everardo Ribeiro",
+      "votos": 140765,
+      "pct": 8.51,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "30",
+      "nome": "Kiko Caputo",
+      "partido": "NOVO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Delegado Rafael Sampaio",
+      "votos": 72148,
+      "pct": 4.36,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "40",
+      "nome": "Cappelli",
+      "partido": "PSB",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Sofia Carvalho",
+      "votos": 36828,
+      "pct": 2.23,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "80",
+      "nome": "Professora Samara Mineiro",
+      "partido": "UP",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Thaís Oliveira",
+      "votos": 3958,
+      "pct": 0.24,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "16",
+      "nome": "Professor Robson",
+      "partido": "PSTU",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Guillen",
+      "votos": 1640,
+      "pct": 0.1,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "36",
+      "nome": "Elisson",
+      "partido": "AGIR",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Subtenente Sergio Prado",
+      "votos": 1172,
+      "pct": 0.07,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "28",
+      "nome": "Rico Pinheiro",
+      "partido": "PRTB",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Cristiane Barros",
+      "votos": 671,
+      "pct": 0.04,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "29",
+      "nome": "Expedito Mendonça",
+      "partido": "PCO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Valmir Barbosa",
+      "votos": 595,
+      "pct": 0.04,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "04/10/2026",
+     "hora": "20:23:38",
+     "ultimaTotalizacao": "04/10/2026 20:22:29"
+    }
+   },
+   "turno2": {
+    "apuracao": {
+     "secoesTotal": 6969,
+     "secoesTotalizadas": 0,
+     "pctSecoesTotalizadas": 0
+    },
+    "eleitorado": {
+     "aptos": 2244176,
+     "comparecimento": 0,
+     "pctComparecimento": 0,
+     "abstencoes": 0,
+     "pctAbstencao": 0
+    },
+    "votos": {
+     "validos": 0,
+     "brancos": 0,
+     "pctBrancos": 0,
+     "nulos": 0,
+     "pctNulos": 0,
+     "totais": 0
+    },
+    "candidatos": [
+     {
+      "numero": "11",
+      "nome": "Celina Leão",
+      "partido": "PP",
+      "federacao": "UNIÃO PROGRESSISTA",
+      "coligacao": "PROPÓSITO E AÇÃO",
+      "vice": "Gustavo Rocha",
+      "votos": 0,
+      "pct": 0,
+      "situacao": ""
+     },
+     {
+      "numero": "13",
+      "nome": "Leandro Grass",
+      "partido": "PT",
+      "federacao": "BRASIL DA ESPERANÇA",
+      "coligacao": "DF DO POVO",
+      "vice": "Dora Gomes",
+      "votos": 0,
+      "pct": 0,
+      "situacao": ""
+     }
+    ],
+    "tse": {
+     "data": "09/10/2026",
+     "hora": "17:30:52",
+     "ultimaTotalizacao": null
+    }
+   },
+   "segundoTurno": true,
+   "eleito": null
+  },
+  {
+   "uf": "ES",
+   "estado": "Espírito Santo",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 9844,
+     "secoesTotalizadas": 9844,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 2987584,
+     "comparecimento": 2348612,
+     "pctComparecimento": 78.61,
+     "abstencoes": 638972,
+     "pctAbstencao": 21.39
+    },
+    "votos": {
+     "validos": 2112171,
+     "brancos": 110040,
+     "pctBrancos": 4.69,
+     "nulos": 126401,
+     "pctNulos": 5.38,
+     "totais": 2348612
+    },
+    "candidatos": [
+     {
+      "numero": "10",
+      "nome": "Lorenzo Pazolini",
+      "partido": "REPUBLICANOS",
+      "federacao": null,
+      "coligacao": "PAZ PRA VIVER UM NOVO TEMPO",
+      "vice": "Eliane Leal",
+      "votos": 1048633,
+      "pct": 49.65,
+      "situacao": "2º turno"
+     },
+     {
+      "numero": "15",
+      "nome": "Ricardo Ferraço",
+      "partido": "MDB",
+      "federacao": null,
+      "coligacao": "AGORA É O FUTURO",
+      "vice": "Camillo Neves",
+      "votos": 719397,
+      "pct": 34.06,
+      "situacao": "2º turno"
+     },
+     {
+      "numero": "13",
+      "nome": "Helder Salomão",
+      "partido": "PT",
+      "federacao": "BRASIL DA ESPERANÇA",
+      "coligacao": null,
+      "vice": "Professora Valdirene",
+      "votos": 323483,
+      "pct": 15.32,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "14",
+      "nome": "Breno Barcelos",
+      "partido": "MISSÃO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Victor Oliveira",
+      "votos": 17988,
+      "pct": 0.85,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "80",
+      "nome": "Rafael Demuner",
+      "partido": "UP",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Dionary Sarmento",
+      "votos": 2670,
+      "pct": 0.13,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "04/10/2026",
+     "hora": "20:57:08",
+     "ultimaTotalizacao": "04/10/2026 20:56:14"
+    }
+   },
+   "turno2": {
+    "apuracao": {
+     "secoesTotal": 8490,
+     "secoesTotalizadas": 0,
+     "pctSecoesTotalizadas": 0
+    },
+    "eleitorado": {
+     "aptos": 2538949,
+     "comparecimento": 0,
+     "pctComparecimento": 0,
+     "abstencoes": 0,
+     "pctAbstencao": 0
+    },
+    "votos": {
+     "validos": 0,
+     "brancos": 0,
+     "pctBrancos": 0,
+     "nulos": 0,
+     "pctNulos": 0,
+     "totais": 0
+    },
+    "candidatos": [
+     {
+      "numero": "10",
+      "nome": "Lorenzo Pazolini",
+      "partido": "REPUBLICANOS",
+      "federacao": null,
+      "coligacao": "PAZ PRA VIVER UM NOVO TEMPO",
+      "vice": "Eliane Leal",
+      "votos": 0,
+      "pct": 0,
+      "situacao": ""
+     },
+     {
+      "numero": "15",
+      "nome": "Ricardo Ferraço",
+      "partido": "MDB",
+      "federacao": null,
+      "coligacao": "AGORA É O FUTURO",
+      "vice": "Camillo Neves",
+      "votos": 0,
+      "pct": 0,
+      "situacao": ""
+     }
+    ],
+    "tse": {
+     "data": "09/10/2026",
+     "hora": "17:46:24",
+     "ultimaTotalizacao": null
+    }
+   },
+   "segundoTurno": true,
+   "eleito": null
+  },
+  {
+   "uf": "GO",
+   "estado": "Goiás",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 15686,
+     "secoesTotalizadas": 15686,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 5074870,
+     "comparecimento": 3966488,
+     "pctComparecimento": 78.16,
+     "abstencoes": 1108382,
+     "pctAbstencao": 21.84
+    },
+    "votos": {
+     "validos": 3630576,
+     "brancos": 170266,
+     "pctBrancos": 4.29,
+     "nulos": 165646,
+     "pctNulos": 4.18,
+     "totais": 3966488
+    },
+    "candidatos": [
+     {
+      "numero": "15",
+      "nome": "Daniel Vilela",
+      "partido": "MDB",
+      "federacao": null,
+      "coligacao": "PRA GOIÁS SEGUIR EM FRENTE",
+      "vice": "Luiz do Carmo",
+      "votos": 2148218,
+      "pct": 59.17,
+      "situacao": "Eleito"
+     },
+     {
+      "numero": "22",
+      "nome": "Wilder Morais",
+      "partido": "PL",
+      "federacao": null,
+      "coligacao": "GOIÁS QUE CRESCE",
+      "vice": "Ana Paula Rezende",
+      "votos": 797141,
+      "pct": 21.96,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "13",
+      "nome": "Luis Cesar Bueno",
+      "partido": "PT",
+      "federacao": "BRASIL DA ESPERANÇA",
+      "coligacao": "GOIÁS PODE MAIS",
+      "vice": "Carlos Mundim",
+      "votos": 356692,
+      "pct": 9.82,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "45",
+      "nome": "Marconi Perillo",
+      "partido": "PSDB",
+      "federacao": "PSDB CIDADANIA",
+      "coligacao": "GOIÁS PODE MUITO MAIS",
+      "vice": "Jacqueline Zaiden",
+      "votos": 315676,
+      "pct": 8.69,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "80",
+      "nome": "Luciana Amorim",
+      "partido": "UP",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Caymmi Henrique",
+      "votos": 11632,
+      "pct": 0.32,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "29",
+      "nome": "Danilo da Silva",
+      "partido": "PCO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Maria Joana",
+      "votos": 1217,
+      "pct": 0.03,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "04/10/2026",
+     "hora": "22:39:20",
+     "ultimaTotalizacao": "04/10/2026 22:38:24"
+    }
+   },
+   "turno2": null,
+   "segundoTurno": false,
+   "eleito": "Daniel Vilela"
+  },
+  {
+   "uf": "MA",
+   "estado": "Maranhão",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 18093,
+     "secoesTotalizadas": 18093,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 5180851,
+     "comparecimento": 4158395,
+     "pctComparecimento": 80.26,
+     "abstencoes": 1022456,
+     "pctAbstencao": 19.74
+    },
+    "votos": {
+     "validos": 3895080,
+     "brancos": 93669,
+     "pctBrancos": 2.25,
+     "nulos": 169646,
+     "pctNulos": 4.08,
+     "totais": 4158395
+    },
+    "candidatos": [
+     {
+      "numero": "55",
+      "nome": "Eduardo Braide",
+      "partido": "PSD",
+      "federacao": null,
+      "coligacao": "PRA TRANSFORMAR O MARANHÃO",
+      "vice": "Elaine Carneiro",
+      "votos": 2104122,
+      "pct": 54.02,
+      "situacao": "Eleito"
+     },
+     {
+      "numero": "15",
+      "nome": "Orleans Brandão",
+      "partido": "MDB",
+      "federacao": null,
+      "coligacao": "AVANÇO POR TODO MARANHÃO",
+      "vice": "Edivaldo Holanda Junior",
+      "votos": 1354044,
+      "pct": 34.76,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "13",
+      "nome": "Felipe Camarão",
+      "partido": "PT",
+      "federacao": "BRASIL DA ESPERANÇA",
+      "coligacao": "BRASIL JUSTO, MARANHÃO GRANDE",
+      "vice": "Ricardo Rodrigues",
+      "votos": 374039,
+      "pct": 9.6,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "28",
+      "nome": "Roberto Rocha",
+      "partido": "PRTB",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Pastor Josias",
+      "votos": 48924,
+      "pct": 1.26,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "14",
+      "nome": "André Luis",
+      "partido": "MISSÃO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Prof. Cadu",
+      "votos": 7905,
+      "pct": 0.2,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "16",
+      "nome": "Saulo Arcangeli",
+      "partido": "PSTU",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Preta Lu",
+      "votos": 4693,
+      "pct": 0.12,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "21",
+      "nome": "Reginaldo Lima",
+      "partido": "PCB",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Gato Felix",
+      "votos": 1096,
+      "pct": 0.03,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "29",
+      "nome": "Dimas Cassimiro",
+      "partido": "PCO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Charlieth Viana",
+      "votos": 257,
+      "pct": 0.01,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "05/10/2026",
+     "hora": "02:01:55",
+     "ultimaTotalizacao": "05/10/2026 02:00:33"
+    }
+   },
+   "turno2": null,
+   "segundoTurno": false,
+   "eleito": "Eduardo Braide"
+  },
+  {
+   "uf": "MT",
+   "estado": "Mato Grosso",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 8287,
+     "secoesTotalizadas": 8287,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 2634992,
+     "comparecimento": 2049718,
+     "pctComparecimento": 77.79,
+     "abstencoes": 585274,
+     "pctAbstencao": 22.21
+    },
+    "votos": {
+     "validos": 1856293,
+     "brancos": 82690,
+     "pctBrancos": 4.03,
+     "nulos": 110735,
+     "pctNulos": 5.4,
+     "totais": 2049718
+    },
+    "candidatos": [
+     {
+      "numero": "10",
+      "nome": "Otaviano Pivetta",
+      "partido": "REPUBLICANOS",
+      "federacao": null,
+      "coligacao": "MATO GROSSO NÃO PODE PARAR",
+      "vice": "Gisela Simona",
+      "votos": 1128099,
+      "pct": 60.77,
+      "situacao": "Eleito"
+     },
+     {
+      "numero": "22",
+      "nome": "Wellington Fagundes",
+      "partido": "PL",
+      "federacao": null,
+      "coligacao": "CORAÇÃO DA GENTE",
+      "vice": "Reinaldo Gomes de Morais",
+      "votos": 430442,
+      "pct": 23.19,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "55",
+      "nome": "Doutora Natasha",
+      "partido": "PSD",
+      "federacao": null,
+      "coligacao": "MATO GROSSO PARA TODOS",
+      "vice": "Diogo Botelho",
+      "votos": 281548,
+      "pct": 15.17,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "14",
+      "nome": "Rafaell Milas",
+      "partido": "MISSÃO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Thales Sartorelo",
+      "votos": 10300,
+      "pct": 0.55,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "36",
+      "nome": "Sargento Laudicério",
+      "partido": "AGIR",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Sargento Karen Fortes",
+      "votos": 3210,
+      "pct": 0.17,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "33",
+      "nome": "Mauricio Coelho",
+      "partido": "MOBILIZA",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Dr. Wagner Malheiros",
+      "votos": 2694,
+      "pct": 0.15,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "04/10/2026",
+     "hora": "21:32:09",
+     "ultimaTotalizacao": "04/10/2026 20:31:48"
+    }
+   },
+   "turno2": null,
+   "segundoTurno": false,
+   "eleito": "Otaviano Pivetta"
+  },
+  {
+   "uf": "MS",
+   "estado": "Mato Grosso do Sul",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 7106,
+     "secoesTotalizadas": 7106,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 2021869,
+     "comparecimento": 1539009,
+     "pctComparecimento": 76.12,
+     "abstencoes": 482860,
+     "pctAbstencao": 23.88
+    },
+    "votos": {
+     "validos": 1363298,
+     "brancos": 80522,
+     "pctBrancos": 5.23,
+     "nulos": 95189,
+     "pctNulos": 6.19,
+     "totais": 1539009
+    },
+    "candidatos": [
+     {
+      "numero": "11",
+      "nome": "Eduardo Riedel",
+      "partido": "PP",
+      "federacao": "UNIÃO PROGRESSISTA",
+      "coligacao": "FAZENDO O FUTURO ACONTECER",
+      "vice": "Barbosinha",
+      "votos": 914323,
+      "pct": 67.07,
+      "situacao": "Eleito"
+     },
+     {
+      "numero": "13",
+      "nome": "Fábio Trad",
+      "partido": "PT",
+      "federacao": "BRASIL DA ESPERANÇA",
+      "coligacao": "POR UM MS DO POVO",
+      "vice": "Dona Gilda",
+      "votos": 322807,
+      "pct": 23.68,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "30",
+      "nome": "João Henrique Catan",
+      "partido": "NOVO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Antônio João Jacinto",
+      "votos": 98677,
+      "pct": 7.24,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "25",
+      "nome": "Delcidio Amaral",
+      "partido": "PRD",
+      "federacao": "RENOVAÇÃO SOLIDÁRIA",
+      "coligacao": null,
+      "vice": "Mariliana Santos",
+      "votos": 14431,
+      "pct": 1.06,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "27",
+      "nome": "Economista Renato Gomes",
+      "partido": "DC",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Roberto Patzlaff",
+      "votos": 5589,
+      "pct": 0.41,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "50",
+      "nome": "Lucien Rezende",
+      "partido": "PSOL",
+      "federacao": "PSOL REDE",
+      "coligacao": null,
+      "vice": "Prof. Enfermeira Kaelly",
+      "votos": 4444,
+      "pct": 0.33,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "29",
+      "nome": "Daniel Lemes",
+      "partido": "PCO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Silvia Benites",
+      "votos": 2115,
+      "pct": 0.16,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "36",
+      "nome": "Jeferson Bezerra",
+      "partido": "AGIR",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Valdenir Duarte",
+      "votos": 912,
+      "pct": 0.07,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "04/10/2026",
+     "hora": "21:06:39",
+     "ultimaTotalizacao": "04/10/2026 20:05:51"
+    }
+   },
+   "turno2": null,
+   "segundoTurno": false,
+   "eleito": "Eduardo Riedel"
+  },
+  {
+   "uf": "MG",
+   "estado": "Minas Gerais",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 52062,
+     "secoesTotalizadas": 52062,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 16361188,
+     "comparecimento": 12627167,
+     "pctComparecimento": 77.18,
+     "abstencoes": 3734021,
+     "pctAbstencao": 22.82
+    },
+    "votos": {
+     "validos": 11411835,
+     "brancos": 658416,
+     "pctBrancos": 5.21,
+     "nulos": 556916,
+     "pctNulos": 4.41,
+     "totais": 12627167
+    },
+    "candidatos": [
+     {
+      "numero": "10",
+      "nome": "Cleitinho Azevedo",
+      "partido": "REPUBLICANOS",
+      "federacao": null,
+      "coligacao": "MINAS É DO POVO",
+      "vice": "Falcão",
+      "votos": 6321590,
+      "pct": 55.4,
+      "situacao": "Eleito"
+     },
+     {
+      "numero": "13",
+      "nome": "Patrus Ananias",
+      "partido": "PT",
+      "federacao": "BRASIL DA ESPERANÇA",
+      "coligacao": "PRA MINAS GERAIS VOLTAR A SONHAR ",
+      "vice": "Jarbas Soares",
+      "votos": 3006088,
+      "pct": 26.34,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "22",
+      "nome": "Flávio Roscoe",
+      "partido": "PL",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Ellen Miziara",
+      "votos": 795193,
+      "pct": 6.97,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "55",
+      "nome": "Mateus Simões",
+      "partido": "PSD",
+      "federacao": null,
+      "coligacao": "MINAS NO CAMINHO CERTO ",
+      "vice": "Danilo de Castro",
+      "votos": 530292,
+      "pct": 4.65,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "12",
+      "nome": "Alexandre Kalil",
+      "partido": "PDT",
+      "federacao": null,
+      "coligacao": "CUIDAR DE MINAS",
+      "vice": "Carlos Mosconi",
+      "votos": 403466,
+      "pct": 3.54,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "15",
+      "nome": "Gabriel",
+      "partido": "MDB",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Maria Helena",
+      "votos": 237051,
+      "pct": 2.08,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "14",
+      "nome": "Ben Mendes",
+      "partido": "MISSÃO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Cabo David Souza",
+      "votos": 80308,
+      "pct": 0.7,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "80",
+      "nome": "Indira Xavier",
+      "partido": "UP",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Renato Campos",
+      "votos": 20662,
+      "pct": 0.18,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "21",
+      "nome": "Professor Túlio Lopes",
+      "partido": "PCB",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Warlen Nunes",
+      "votos": 10957,
+      "pct": 0.1,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "16",
+      "nome": "Rafael Duda",
+      "partido": "PSTU",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Prof. Diana de Cássia",
+      "votos": 4764,
+      "pct": 0.04,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "29",
+      "nome": "Henrique Áreas",
+      "partido": "PCO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Estevão Gomes",
+      "votos": 1464,
+      "pct": 0.01,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "05/10/2026",
+     "hora": "11:45:42",
+     "ultimaTotalizacao": "05/10/2026 00:50:04"
+    }
+   },
+   "turno2": null,
+   "segundoTurno": false,
+   "eleito": "Cleitinho Azevedo"
+  },
+  {
+   "uf": "PA",
+   "estado": "Pará",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 20827,
+     "secoesTotalizadas": 20827,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 6258162,
+     "comparecimento": 5062750,
+     "pctComparecimento": 80.9,
+     "abstencoes": 1195412,
+     "pctAbstencao": 19.1
+    },
+    "votos": {
+     "validos": 4566828,
+     "brancos": 106097,
+     "pctBrancos": 2.1,
+     "nulos": 389825,
+     "pctNulos": 7.7,
+     "totais": 5062750
+    },
+    "candidatos": [
+     {
+      "numero": "20",
+      "nome": "Dr. Daniel",
+      "partido": "PODE",
+      "federacao": null,
+      "coligacao": "\"O PARÁ É DO POVO!\"",
+      "vice": "Ellayne D Almeida",
+      "votos": 2345721,
+      "pct": 51.36,
+      "situacao": "Eleito"
+     },
+     {
+      "numero": "15",
+      "nome": "Hana Ghassan",
+      "partido": "MDB",
+      "federacao": null,
+      "coligacao": "O PARÁ TÁ JUNTO",
+      "vice": "Dirceu Ten Caten",
+      "votos": 2125084,
+      "pct": 46.53,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "50",
+      "nome": "Araceli",
+      "partido": "PSOL",
+      "federacao": "PSOL REDE",
+      "coligacao": null,
+      "vice": "Fatima Santana",
+      "votos": 85857,
+      "pct": 1.88,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "80",
+      "nome": "Gal Leite",
+      "partido": "UP",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Karen Suellen",
+      "votos": 5503,
+      "pct": 0.12,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "16",
+      "nome": "Well Macedo",
+      "partido": "PSTU",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Seu Alex",
+      "votos": 2676,
+      "pct": 0.06,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "35",
+      "nome": "Ruth Reis",
+      "partido": "DEMOCRATA",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Marcia Carvalho",
+      "votos": 1987,
+      "pct": 0.04,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "05/10/2026",
+     "hora": "11:42:28",
+     "ultimaTotalizacao": "04/10/2026 23:55:28"
+    }
+   },
+   "turno2": null,
+   "segundoTurno": false,
+   "eleito": "Dr. Daniel"
+  },
+  {
+   "uf": "PB",
+   "estado": "Paraíba",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 10712,
+     "secoesTotalizadas": 10712,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 3241966,
+     "comparecimento": 2677904,
+     "pctComparecimento": 82.6,
+     "abstencoes": 564062,
+     "pctAbstencao": 17.4
+    },
+    "votos": {
+     "validos": 2286622,
+     "brancos": 127816,
+     "pctBrancos": 4.77,
+     "nulos": 263466,
+     "pctNulos": 9.84,
+     "totais": 2677904
+    },
+    "candidatos": [
+     {
+      "numero": "11",
+      "nome": "Lucas Ribeiro",
+      "partido": "PP",
+      "federacao": "UNIÃO PROGRESSISTA",
+      "coligacao": "DAQUI PRA MELHOR",
+      "vice": "Ligia Feliciano",
+      "votos": 1470252,
+      "pct": 64.3,
+      "situacao": "Eleito"
+     },
+     {
+      "numero": "22",
+      "nome": "Efraim Filho",
+      "partido": "PL",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Nayana Pontes",
+      "votos": 552836,
+      "pct": 24.18,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "15",
+      "nome": "Cícero Lucena",
+      "partido": "MDB",
+      "federacao": null,
+      "coligacao": "JUNTOS PARA A PARAÍBA DAR O PRÓXIMO PASSO",
+      "vice": "Diogo Cunha Lima",
+      "votos": 252884,
+      "pct": 11.06,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "80",
+      "nome": "Yuri Ezequiel",
+      "partido": "UP",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Carminha Lourenço",
+      "votos": 8272,
+      "pct": 0.36,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "29",
+      "nome": "Camilo Duarte",
+      "partido": "PCO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Marcos Lima",
+      "votos": 2378,
+      "pct": 0.1,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "04/10/2026",
+     "hora": "23:23:01",
+     "ultimaTotalizacao": "04/10/2026 23:21:51"
+    }
+   },
+   "turno2": null,
+   "segundoTurno": false,
+   "eleito": "Lucas Ribeiro"
+  },
+  {
+   "uf": "PR",
+   "estado": "Paraná",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 27142,
+     "secoesTotalizadas": 27142,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 8600624,
+     "comparecimento": 6829615,
+     "pctComparecimento": 79.41,
+     "abstencoes": 1771009,
+     "pctAbstencao": 20.59
+    },
+    "votos": {
+     "validos": 6243799,
+     "brancos": 278322,
+     "pctBrancos": 4.08,
+     "nulos": 307494,
+     "pctNulos": 4.5,
+     "totais": 6829615
+    },
+    "candidatos": [
+     {
+      "numero": "22",
+      "nome": "Sergio Moro",
+      "partido": "PL",
+      "federacao": null,
+      "coligacao": "FORTALEZA PARANÁ",
+      "vice": "Edson Vasconcelos",
+      "votos": 3127911,
+      "pct": 50.1,
+      "situacao": "Eleito"
+     },
+     {
+      "numero": "55",
+      "nome": "Sandro Alex",
+      "partido": "PSD",
+      "federacao": null,
+      "coligacao": "COLIGAÇÃO A MUDANÇA CONTINUA",
+      "vice": "Rafael Greca",
+      "votos": 1583764,
+      "pct": 25.37,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "12",
+      "nome": "Requião Filho",
+      "partido": "PDT",
+      "federacao": null,
+      "coligacao": "PARANÁ PARA TODOS",
+      "vice": "Michele Caputo",
+      "votos": 1465601,
+      "pct": 23.47,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "14",
+      "nome": "Luiz França",
+      "partido": "MISSÃO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "João Adolfo",
+      "votos": 44581,
+      "pct": 0.71,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "80",
+      "nome": "Tayná Miessa",
+      "partido": "UP",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Willian Araki",
+      "votos": 14193,
+      "pct": 0.23,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "33",
+      "nome": "Doutor Alexandre Salomão",
+      "partido": "MOBILIZA",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Daiana Criminacio",
+      "votos": 4144,
+      "pct": 0.07,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "16",
+      "nome": "Samuel de Mattos",
+      "partido": "PSTU",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Helena Figueiredo",
+      "votos": 2080,
+      "pct": 0.03,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "29",
+      "nome": "Adriano Funileiro",
+      "partido": "PCO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Zé Carlos",
+      "votos": 1525,
+      "pct": 0.02,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "05/10/2026",
+     "hora": "11:46:40",
+     "ultimaTotalizacao": "04/10/2026 22:43:11"
+    }
+   },
+   "turno2": null,
+   "segundoTurno": false,
+   "eleito": "Sergio Moro"
+  },
+  {
+   "uf": "PE",
+   "estado": "Pernambuco",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 21418,
+     "secoesTotalizadas": 21418,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 7216989,
+     "comparecimento": 5905236,
+     "pctComparecimento": 81.82,
+     "abstencoes": 1311753,
+     "pctAbstencao": 18.18
+    },
+    "votos": {
+     "validos": 5266852,
+     "brancos": 156481,
+     "pctBrancos": 2.65,
+     "nulos": 481903,
+     "pctNulos": 8.16,
+     "totais": 5905236
+    },
+    "candidatos": [
+     {
+      "numero": "55",
+      "nome": "Raquel Lyra",
+      "partido": "PSD",
+      "federacao": null,
+      "coligacao": "PERNAMBUCO DE CORAÇÃO",
+      "vice": "Priscila Krause",
+      "votos": 2805438,
+      "pct": 53.27,
+      "situacao": "Eleito"
+     },
+     {
+      "numero": "40",
+      "nome": "João Campos",
+      "partido": "PSB",
+      "federacao": null,
+      "coligacao": "FRENTE POPULAR DE PERNAMBUCO",
+      "vice": "Carlos Costa",
+      "votos": 2360469,
+      "pct": 44.82,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "50",
+      "nome": "Ivan Moraes",
+      "partido": "PSOL",
+      "federacao": "PSOL REDE",
+      "coligacao": "FRENTE PERNAMBUCO DE LUTA",
+      "vice": "Alice Gabino",
+      "votos": 77699,
+      "pct": 1.48,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "14",
+      "nome": "Renan",
+      "partido": "MISSÃO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Lucas Xavier",
+      "votos": 18340,
+      "pct": 0.35,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "80",
+      "nome": "Professora Camila",
+      "partido": "UP",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Marcelo Pessoa",
+      "votos": 3495,
+      "pct": 0.07,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "16",
+      "nome": "Guilherme Fonseca",
+      "partido": "PSTU",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Valéria Félix",
+      "votos": 987,
+      "pct": 0.02,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "29",
+      "nome": "Victor Assis",
+      "partido": "PCO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Roberta Rita",
+      "votos": 424,
+      "pct": 0.01,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "06/10/2026",
+     "hora": "16:59:15",
+     "ultimaTotalizacao": "04/10/2026 22:54:57"
+    }
+   },
+   "turno2": null,
+   "segundoTurno": false,
+   "eleito": "Raquel Lyra"
+  },
+  {
+   "uf": "PI",
+   "estado": "Piauí",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 10225,
+     "secoesTotalizadas": 10225,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 2703064,
+     "comparecimento": 2239386,
+     "pctComparecimento": 82.85,
+     "abstencoes": 463678,
+     "pctAbstencao": 17.15
+    },
+    "votos": {
+     "validos": 2026275,
+     "brancos": 76589,
+     "pctBrancos": 3.42,
+     "nulos": 136522,
+     "pctNulos": 6.1,
+     "totais": 2239386
+    },
+    "candidatos": [
+     {
+      "numero": "13",
+      "nome": "Rafael Fonteles",
+      "partido": "PT",
+      "federacao": "BRASIL DA ESPERANÇA",
+      "coligacao": "A FORÇA DO POVO",
+      "vice": "Washington Bandeira",
+      "votos": 1436697,
+      "pct": 70.9,
+      "situacao": "Eleito"
+     },
+     {
+      "numero": "11",
+      "nome": "Joel Rodrigues",
+      "partido": "PP",
+      "federacao": "UNIÃO PROGRESSISTA",
+      "coligacao": "JUNTOS PELO PIAUÍ",
+      "vice": "Jeová Alencar",
+      "votos": 557972,
+      "pct": 27.54,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "50",
+      "nome": "Professor Gisvaldo",
+      "partido": "PSOL",
+      "federacao": "PSOL REDE",
+      "coligacao": null,
+      "vice": "Edilene Pinho",
+      "votos": 10002,
+      "pct": 0.49,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "45",
+      "nome": "Dra. Lúcia Santos",
+      "partido": "PSDB",
+      "federacao": "PSDB CIDADANIA",
+      "coligacao": null,
+      "vice": "Dr. Paulo Eudes",
+      "votos": 9611,
+      "pct": 0.47,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "30",
+      "nome": "Elizeu Aguiar",
+      "partido": "NOVO",
+      "federacao": null,
+      "coligacao": "A FORÇA DA FÉ",
+      "vice": "Ismar Marques",
+      "votos": 5141,
+      "pct": 0.25,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "16",
+      "nome": "Geraldo Carvalho",
+      "partido": "PSTU",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Gervásio Santos",
+      "votos": 1858,
+      "pct": 0.09,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "80",
+      "nome": "Santiago Belizário",
+      "partido": "UP",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Thays Dias",
+      "votos": 1777,
+      "pct": 0.09,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "29",
+      "nome": "Lourdes Melo",
+      "partido": "PCO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Zeferino da Silva Brasil",
+      "votos": 1296,
+      "pct": 0.06,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "27",
+      "nome": "Professor Jurity",
+      "partido": "DC",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Pedro Pereira",
+      "votos": 1102,
+      "pct": 0.05,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "35",
+      "nome": "Ravenna da Inclusão",
+      "partido": "DEMOCRATA",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "João Ricardo",
+      "votos": 819,
+      "pct": 0.04,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "04/10/2026",
+     "hora": "23:37:32",
+     "ultimaTotalizacao": "04/10/2026 23:36:35"
+    }
+   },
+   "turno2": null,
+   "segundoTurno": false,
+   "eleito": "Rafael Fonteles"
+  },
+  {
+   "uf": "RJ",
+   "estado": "Rio de Janeiro",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 37675,
+     "secoesTotalizadas": 37675,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 12842517,
+     "comparecimento": 9845867,
+     "pctComparecimento": 76.67,
+     "abstencoes": 2996650,
+     "pctAbstencao": 23.33
+    },
+    "votos": {
+     "validos": 8394627,
+     "brancos": 501537,
+     "pctBrancos": 5.09,
+     "nulos": 949703,
+     "pctNulos": 9.65,
+     "totais": 9845867
+    },
+    "candidatos": [
+     {
+      "numero": "22",
+      "nome": "Douglas Ruas",
+      "partido": "PL",
+      "federacao": null,
+      "coligacao": "RIO REAL",
+      "vice": "Fernanda Louback",
+      "votos": 4271199,
+      "pct": 50.88,
+      "situacao": "Eleito"
+     },
+     {
+      "numero": "55",
+      "nome": "Eduardo Paes",
+      "partido": "PSD",
+      "federacao": null,
+      "coligacao": "JUNTOS PARA MUDAR CORAGEM PARA RECONSTRUIR",
+      "vice": "Jane Reis",
+      "votos": 3706984,
+      "pct": 44.16,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "50",
+      "nome": "William Siri",
+      "partido": "PSOL",
+      "federacao": "PSOL REDE",
+      "coligacao": null,
+      "vice": "Juliana Carvalho",
+      "votos": 235347,
+      "pct": 2.8,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "14",
+      "nome": "Coronel Busnello",
+      "partido": "MISSÃO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Rafa Luz",
+      "votos": 84889,
+      "pct": 1.01,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "30",
+      "nome": "André Marinho",
+      "partido": "NOVO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Tenente Coronel Erigreyce",
+      "votos": 45359,
+      "pct": 0.54,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "80",
+      "nome": "Juliete",
+      "partido": "UP",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Bia Martins",
+      "votos": 33430,
+      "pct": 0.4,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "16",
+      "nome": "Cyro Garcia",
+      "partido": "PSTU",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Perciliana",
+      "votos": 14642,
+      "pct": 0.17,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "29",
+      "nome": "Luan Monteiro",
+      "partido": "PCO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Caetano Albuquerque",
+      "votos": 2777,
+      "pct": 0.03,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "10/10/2026",
+     "hora": "15:09:50",
+     "ultimaTotalizacao": "10/10/2026 15:07:39"
+    }
+   },
+   "turno2": null,
+   "segundoTurno": false,
+   "eleito": "Douglas Ruas"
+  },
+  {
+   "uf": "RN",
+   "estado": "Rio Grande do Norte",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 8115,
+     "secoesTotalizadas": 8115,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 2656207,
+     "comparecimento": 2167714,
+     "pctComparecimento": 81.61,
+     "abstencoes": 488493,
+     "pctAbstencao": 18.39
+    },
+    "votos": {
+     "validos": 1986668,
+     "brancos": 76524,
+     "pctBrancos": 3.53,
+     "nulos": 104522,
+     "pctNulos": 4.82,
+     "totais": 2167714
+    },
+    "candidatos": [
+     {
+      "numero": "44",
+      "nome": "Allyson",
+      "partido": "UNIÃO",
+      "federacao": "UNIÃO PROGRESSISTA",
+      "coligacao": "ESPERANÇA E TRABALHO'",
+      "vice": "Hermano",
+      "votos": 733809,
+      "pct": 36.94,
+      "situacao": "2º turno"
+     },
+     {
+      "numero": "13",
+      "nome": "Cadu de Lula",
+      "partido": "PT",
+      "federacao": "BRASIL DA ESPERANÇA",
+      "coligacao": "TIME QUE CUIDA",
+      "vice": "Larissa",
+      "votos": 718300,
+      "pct": 36.16,
+      "situacao": "2º turno"
+     },
+     {
+      "numero": "22",
+      "nome": "Álvaro Dias",
+      "partido": "PL",
+      "federacao": null,
+      "coligacao": "ENDIREITA RN",
+      "vice": "Babá",
+      "votos": 530580,
+      "pct": 26.71,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "80",
+      "nome": "Arinalda do MLB",
+      "partido": "UP",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Francisco Dias",
+      "votos": 1466,
+      "pct": 0.07,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "16",
+      "nome": "Dário Barbosa",
+      "partido": "PSTU",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Fernanda Soares",
+      "votos": 1388,
+      "pct": 0.07,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "27",
+      "nome": "Godeiro Linharess",
+      "partido": "DC",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Pastor Júlio",
+      "votos": 464,
+      "pct": 0.02,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "36",
+      "nome": "Rodrigo de Bolsonaro",
+      "partido": "AGIR",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Socorro Batista",
+      "votos": 434,
+      "pct": 0.02,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "29",
+      "nome": "Henrique Lyra",
+      "partido": "PCO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Maviael Ribeiro",
+      "votos": 227,
+      "pct": 0.01,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "04/10/2026",
+     "hora": "23:02:10",
+     "ultimaTotalizacao": "04/10/2026 23:01:26"
+    }
+   },
+   "turno2": {
+    "apuracao": {
+     "secoesTotal": 8115,
+     "secoesTotalizadas": 0,
+     "pctSecoesTotalizadas": 0
+    },
+    "eleitorado": {
+     "aptos": 2656286,
+     "comparecimento": 0,
+     "pctComparecimento": 0,
+     "abstencoes": 0,
+     "pctAbstencao": 0
+    },
+    "votos": {
+     "validos": 0,
+     "brancos": 0,
+     "pctBrancos": 0,
+     "nulos": 0,
+     "pctNulos": 0,
+     "totais": 0
+    },
+    "candidatos": [
+     {
+      "numero": "44",
+      "nome": "Allyson",
+      "partido": "UNIÃO",
+      "federacao": "UNIÃO PROGRESSISTA",
+      "coligacao": "ESPERANÇA E TRABALHO'",
+      "vice": "Hermano",
+      "votos": 0,
+      "pct": 0,
+      "situacao": ""
+     },
+     {
+      "numero": "13",
+      "nome": "Cadu de Lula",
+      "partido": "PT",
+      "federacao": "BRASIL DA ESPERANÇA",
+      "coligacao": "TIME QUE CUIDA",
+      "vice": "Larissa",
+      "votos": 0,
+      "pct": 0,
+      "situacao": ""
+     }
+    ],
+    "tse": {
+     "data": "10/10/2026",
+     "hora": "09:42:59",
+     "ultimaTotalizacao": null
+    }
+   },
+   "segundoTurno": true,
+   "eleito": null
+  },
+  {
+   "uf": "RS",
+   "estado": "Rio Grande do Sul",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 27547,
+     "secoesTotalizadas": 27547,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 8516465,
+     "comparecimento": 6697424,
+     "pctComparecimento": 78.64,
+     "abstencoes": 1819041,
+     "pctAbstencao": 21.36
+    },
+    "votos": {
+     "validos": 6057443,
+     "brancos": 324123,
+     "pctBrancos": 4.84,
+     "nulos": 315858,
+     "pctNulos": 4.72,
+     "totais": 6697424
+    },
+    "candidatos": [
+     {
+      "numero": "22",
+      "nome": "Zucco",
+      "partido": "PL",
+      "federacao": null,
+      "coligacao": "O RIO GRANDE PODE MAIS",
+      "vice": "Silvana Covatti",
+      "votos": 3516048,
+      "pct": 58.05,
+      "situacao": "Eleito"
+     },
+     {
+      "numero": "12",
+      "nome": "Juliana Brizola",
+      "partido": "PDT",
+      "federacao": null,
+      "coligacao": "COLIGAÇÃO COM O POVO",
+      "vice": "Edegar Pretto",
+      "votos": 1917374,
+      "pct": 31.65,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "15",
+      "nome": "Gabriel Souza",
+      "partido": "MDB",
+      "federacao": null,
+      "coligacao": "NOSSO RIO GRANDE NÃO PARA",
+      "vice": "Ernani Polo",
+      "votos": 510698,
+      "pct": 8.43,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "45",
+      "nome": "Marcelo Maranata",
+      "partido": "PSDB",
+      "federacao": "PSDB CIDADANIA",
+      "coligacao": null,
+      "vice": "Claudio Diaz",
+      "votos": 101978,
+      "pct": 1.68,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "80",
+      "nome": "Priscila Voigt",
+      "partido": "UP",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Naf Nascimento",
+      "votos": 5716,
+      "pct": 0.09,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "16",
+      "nome": "Rejane de Oliveira",
+      "partido": "PSTU",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Adão Lima",
+      "votos": 3492,
+      "pct": 0.06,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "29",
+      "nome": "Cesar Pontes",
+      "partido": "PCO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Tiago Nilo",
+      "votos": 2137,
+      "pct": 0.04,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "04/10/2026",
+     "hora": "21:12:40",
+     "ultimaTotalizacao": "04/10/2026 21:11:34"
+    }
+   },
+   "turno2": null,
+   "segundoTurno": false,
+   "eleito": "Zucco"
+  },
+  {
+   "uf": "RO",
+   "estado": "Rondônia",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 4698,
+     "secoesTotalizadas": 4698,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 1265008,
+     "comparecimento": 990313,
+     "pctComparecimento": 78.29,
+     "abstencoes": 274695,
+     "pctAbstencao": 21.71
+    },
+    "votos": {
+     "validos": 945058,
+     "brancos": 23607,
+     "pctBrancos": 2.38,
+     "nulos": 21648,
+     "pctNulos": 2.19,
+     "totais": 990313
+    },
+    "candidatos": [
+     {
+      "numero": "22",
+      "nome": "Marcos Rogério",
+      "partido": "PL",
+      "federacao": null,
+      "coligacao": "JUNTOS POR RONDONIA",
+      "vice": "Delegado Camargo",
+      "votos": 537370,
+      "pct": 56.86,
+      "situacao": "Eleito"
+     },
+     {
+      "numero": "55",
+      "nome": "Adailton Furia",
+      "partido": "PSD",
+      "federacao": null,
+      "coligacao": "GENTE QUE GOSTA DE GENTE",
+      "vice": "Everton Leoni",
+      "votos": 189547,
+      "pct": 20.06,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "44",
+      "nome": "Hildon Chaves",
+      "partido": "UNIÃO",
+      "federacao": "UNIÃO PROGRESSISTA",
+      "coligacao": "RONDONIA COM A FORÇA DO TRABALHO E DA UNIÃO",
+      "vice": "Cirone Deiró",
+      "votos": 134355,
+      "pct": 14.22,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "13",
+      "nome": "Expedito Netto",
+      "partido": "PT",
+      "federacao": "BRASIL DA ESPERANÇA",
+      "coligacao": "FÉ RONDÔNIA",
+      "vice": "DR, Luiz Teodoro",
+      "votos": 72851,
+      "pct": 7.71,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "15",
+      "nome": "Pedro Abib",
+      "partido": "MDB",
+      "federacao": null,
+      "coligacao": "EXPERIÊNCIA FÉ E AUTORIDADE RONDÔNIA FORTE DE VERDADE [PDT/MDB] - RONDÔNIA",
+      "vice": "Mauro Santos",
+      "votos": 6591,
+      "pct": 0.7,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "40",
+      "nome": "Samuel Costa",
+      "partido": "PSB",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Sargento Machado",
+      "votos": 4344,
+      "pct": 0.46,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "04/10/2026",
+     "hora": "20:51:22",
+     "ultimaTotalizacao": "04/10/2026 19:50:40"
+    }
+   },
+   "turno2": null,
+   "segundoTurno": false,
+   "eleito": "Marcos Rogério"
+  },
+  {
+   "uf": "RR",
+   "estado": "Roraima",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 1519,
+     "secoesTotalizadas": 1519,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 400603,
+     "comparecimento": 331959,
+     "pctComparecimento": 82.86,
+     "abstencoes": 68644,
+     "pctAbstencao": 17.14
+    },
+    "votos": {
+     "validos": 319413,
+     "brancos": 3677,
+     "pctBrancos": 1.11,
+     "nulos": 8869,
+     "pctNulos": 2.67,
+     "totais": 331959
+    },
+    "candidatos": [
+     {
+      "numero": "22",
+      "nome": "Arthur Henrique",
+      "partido": "PL",
+      "federacao": null,
+      "coligacao": "UNIDOS POR RORAIMA",
+      "vice": "Haroldo Cathedral",
+      "votos": 220809,
+      "pct": 69.13,
+      "situacao": "Eleito"
+     },
+     {
+      "numero": "10",
+      "nome": "Soldado Sampaio",
+      "partido": "REPUBLICANOS",
+      "federacao": null,
+      "coligacao": "RORAIMA SEGUE EM FRENTE",
+      "vice": "Shéridan",
+      "votos": 93434,
+      "pct": 29.25,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "50",
+      "nome": "Rosi Aires",
+      "partido": "PSOL",
+      "federacao": "PSOL REDE",
+      "coligacao": "RORAIMA DA ESPERANÇA",
+      "vice": "Lúcia Patamona",
+      "votos": 4880,
+      "pct": 1.53,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "77",
+      "nome": "Farah Mesquita",
+      "partido": "SOLIDARIEDADE",
+      "federacao": "RENOVAÇÃO SOLIDÁRIA",
+      "coligacao": null,
+      "vice": "Natália Wakiri",
+      "votos": 213,
+      "pct": 0.07,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "29",
+      "nome": "Clébio Genuíno",
+      "partido": "PCO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Jota Rodrigues",
+      "votos": 77,
+      "pct": 0.02,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "04/10/2026",
+     "hora": "21:09:58",
+     "ultimaTotalizacao": "04/10/2026 20:05:49"
+    }
+   },
+   "turno2": null,
+   "segundoTurno": false,
+   "eleito": "Arthur Henrique"
+  },
+  {
+   "uf": "SC",
+   "estado": "Santa Catarina",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 17326,
+     "secoesTotalizadas": 17326,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 5719541,
+     "comparecimento": 4634550,
+     "pctComparecimento": 81.03,
+     "abstencoes": 1084991,
+     "pctAbstencao": 18.97
+    },
+    "votos": {
+     "validos": 4265641,
+     "brancos": 169920,
+     "pctBrancos": 3.67,
+     "nulos": 198989,
+     "pctNulos": 4.29,
+     "totais": 4634550
+    },
+    "candidatos": [
+     {
+      "numero": "22",
+      "nome": "Jorginho Mello",
+      "partido": "PL",
+      "federacao": null,
+      "coligacao": "FÉ NO TRABALHO E PÉ NA TÁBUA",
+      "vice": "Adriano Silva",
+      "votos": 2942386,
+      "pct": 68.98,
+      "situacao": "Eleito"
+     },
+     {
+      "numero": "40",
+      "nome": "Gelson Merísio",
+      "partido": "PSB",
+      "federacao": null,
+      "coligacao": "CORAGEM PARA MUDAR",
+      "vice": "Angela Albino",
+      "votos": 668021,
+      "pct": 15.66,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "55",
+      "nome": "João Rodrigues",
+      "partido": "PSD",
+      "federacao": null,
+      "coligacao": "SANTA CATARINA ACIMA DE TUDO",
+      "vice": "Carlos Chiodini",
+      "votos": 569263,
+      "pct": 13.35,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "14",
+      "nome": "Marcelo Brigadeiro",
+      "partido": "MISSÃO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Coronel Rodrigues",
+      "votos": 46624,
+      "pct": 1.09,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "80",
+      "nome": "Laís Chaud",
+      "partido": "UP",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Nathália Melo",
+      "votos": 21252,
+      "pct": 0.5,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "25",
+      "nome": "Ralf Zimmer",
+      "partido": "PRD",
+      "federacao": "RENOVAÇÃO SOLIDÁRIA",
+      "coligacao": null,
+      "vice": "Carlos Bordin",
+      "votos": 9000,
+      "pct": 0.21,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "16",
+      "nome": "Professor Marcus Sodré",
+      "partido": "PSTU",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Professora Taty",
+      "votos": 6682,
+      "pct": 0.16,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "29",
+      "nome": "Bruno Pedreiro do Pco",
+      "partido": "PCO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Flávio Amaral",
+      "votos": 2413,
+      "pct": 0.06,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "04/10/2026",
+     "hora": "21:56:30",
+     "ultimaTotalizacao": "04/10/2026 21:55:27"
+    }
+   },
+   "turno2": null,
+   "segundoTurno": false,
+   "eleito": "Jorginho Mello"
+  },
+  {
+   "uf": "SP",
+   "estado": "São Paulo",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 103656,
+     "secoesTotalizadas": 103656,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 34081699,
+     "comparecimento": 26394256,
+     "pctComparecimento": 77.44,
+     "abstencoes": 7687443,
+     "pctAbstencao": 22.56
+    },
+    "votos": {
+     "validos": 23130513,
+     "brancos": 1348262,
+     "pctBrancos": 5.11,
+     "nulos": 1915481,
+     "pctNulos": 7.26,
+     "totais": 26394256
+    },
+    "candidatos": [
+     {
+      "numero": "10",
+      "nome": "Tarcísio",
+      "partido": "REPUBLICANOS",
+      "federacao": null,
+      "coligacao": "CORAGEM PARA SEGUIR AVANÇANDO",
+      "vice": "Felicio Ramuth",
+      "votos": 14491874,
+      "pct": 62.65,
+      "situacao": "Eleito"
+     },
+     {
+      "numero": "13",
+      "nome": "Fernando Haddad",
+      "partido": "PT",
+      "federacao": "BRASIL DA ESPERANÇA",
+      "coligacao": "DESPERTA SÃO PAULO",
+      "vice": "Márcio França",
+      "votos": 8423656,
+      "pct": 36.42,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "80",
+      "nome": "Vivian Mendes",
+      "partido": "UP",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Cris Damasio",
+      "votos": 80480,
+      "pct": 0.35,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "16",
+      "nome": "Vera Lúcia",
+      "partido": "PSTU",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Fabio Bosco",
+      "votos": 75641,
+      "pct": 0.33,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "21",
+      "nome": "Carlos Machado",
+      "partido": "PCB",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Felipe Queiroz",
+      "votos": 58862,
+      "pct": 0.25,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "05/10/2026",
+     "hora": "11:44:29",
+     "ultimaTotalizacao": "04/10/2026 22:56:59"
+    }
+   },
+   "turno2": null,
+   "segundoTurno": false,
+   "eleito": "Tarcísio"
+  },
+  {
+   "uf": "SE",
+   "estado": "Sergipe",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 5923,
+     "secoesTotalizadas": 5923,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 1737460,
+     "comparecimento": 1436609,
+     "pctComparecimento": 82.68,
+     "abstencoes": 300851,
+     "pctAbstencao": 17.32
+    },
+    "votos": {
+     "validos": 1227008,
+     "brancos": 54754,
+     "pctBrancos": 3.81,
+     "nulos": 154847,
+     "pctNulos": 10.78,
+     "totais": 1436609
+    },
+    "candidatos": [
+     {
+      "numero": "55",
+      "nome": "Fábio",
+      "partido": "PSD",
+      "federacao": null,
+      "coligacao": "SERGIPE CRESCE COM VOCÊ",
+      "vice": "Jeferson Andrade",
+      "votos": 727291,
+      "pct": 59.27,
+      "situacao": "Eleito"
+     },
+     {
+      "numero": "10",
+      "nome": "Valmir de Francisquinho",
+      "partido": "REPUBLICANOS",
+      "federacao": null,
+      "coligacao": "MUDA SERGIPE COM A FORÇA DO POVO",
+      "vice": "Priscila Felizola",
+      "votos": 459908,
+      "pct": 37.48,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "50",
+      "nome": "Dr. Helton",
+      "partido": "PSOL",
+      "federacao": "PSOL REDE",
+      "coligacao": null,
+      "vice": "Izaltina Quilombola",
+      "votos": 37081,
+      "pct": 3.02,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "27",
+      "nome": "Taty  Cristina de Jesus",
+      "partido": "DC",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Simeão Barbosa",
+      "votos": 2728,
+      "pct": 0.22,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "04/10/2026",
+     "hora": "22:08:19",
+     "ultimaTotalizacao": "04/10/2026 22:07:20"
+    }
+   },
+   "turno2": null,
+   "segundoTurno": false,
+   "eleito": "Fábio"
+  },
+  {
+   "uf": "TO",
+   "estado": "Tocantins",
+   "turno1": {
+    "apuracao": {
+     "secoesTotal": 4384,
+     "secoesTotalizadas": 4384,
+     "pctSecoesTotalizadas": 100
+    },
+    "eleitorado": {
+     "aptos": 1180433,
+     "comparecimento": 963810,
+     "pctComparecimento": 81.65,
+     "abstencoes": 216623,
+     "pctAbstencao": 18.35
+    },
+    "votos": {
+     "validos": 848629,
+     "brancos": 27085,
+     "pctBrancos": 2.81,
+     "nulos": 88096,
+     "pctNulos": 9.14,
+     "totais": 963810
+    },
+    "candidatos": [
+     {
+      "numero": "44",
+      "nome": "Professora Dorinha",
+      "partido": "UNIÃO",
+      "federacao": "UNIÃO PROGRESSISTA",
+      "coligacao": "UNIÃO PELO TOCANTINS",
+      "vice": "Atos Gomes",
+      "votos": 386260,
+      "pct": 45.52,
+      "situacao": "2º turno"
+     },
+     {
+      "numero": "45",
+      "nome": "Vicentinho Júnior",
+      "partido": "PSDB",
+      "federacao": "PSDB CIDADANIA",
+      "coligacao": "PRA CIMA TOCANTINS",
+      "vice": "Amélio Cayres",
+      "votos": 372848,
+      "pct": 43.94,
+      "situacao": "2º turno"
+     },
+     {
+      "numero": "55",
+      "nome": "Laurez Moreira",
+      "partido": "PSD",
+      "federacao": null,
+      "coligacao": "PRA FRENTE TOCANTINS",
+      "vice": "Coronel Silva Neto",
+      "votos": 69967,
+      "pct": 8.24,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "30",
+      "nome": "Ataides de Oliveira",
+      "partido": "NOVO",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Rosileia Dias Carneiro",
+      "votos": 13173,
+      "pct": 1.55,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "50",
+      "nome": "Prof Witer Naves",
+      "partido": "PSOL",
+      "federacao": "PSOL REDE",
+      "coligacao": null,
+      "vice": "Lúcia Viana",
+      "votos": 5109,
+      "pct": 0.6,
+      "situacao": "Não eleito"
+     },
+     {
+      "numero": "27",
+      "nome": "Du Pereira",
+      "partido": "DC",
+      "federacao": null,
+      "coligacao": null,
+      "vice": "Silvino Vitor",
+      "votos": 1272,
+      "pct": 0.15,
+      "situacao": "Não eleito"
+     }
+    ],
+    "tse": {
+     "data": "04/10/2026",
+     "hora": "21:18:59",
+     "ultimaTotalizacao": "04/10/2026 20:59:57"
+    }
+   },
+   "turno2": null,
+   "segundoTurno": true,
+   "eleito": null
+  }
+ ],
+ "senado": {
+  "vagas": 54,
+  "eleitosTotal": 54,
+  "pctApuracaoMinima": 100,
+  "porPartido": [
+   {
+    "sigla": "PL",
+    "n": 19
+   },
+   {
+    "sigla": "MDB",
+    "n": 7
+   },
+   {
+    "sigla": "PT",
+    "n": 6
+   },
+   {
+    "sigla": "NOVO",
+    "n": 3
+   },
+   {
+    "sigla": "PP",
+    "n": 3
+   },
+   {
+    "sigla": "PSB",
+    "n": 3
+   },
+   {
+    "sigla": "UNIÃO",
+    "n": 3
+   },
+   {
+    "sigla": "PODE",
+    "n": 2
+   },
+   {
+    "sigla": "PSD",
+    "n": 2
+   },
+   {
+    "sigla": "PSDB",
+    "n": 2
+   },
+   {
+    "sigla": "REPUBLICANOS",
+    "n": 2
+   },
+   {
+    "sigla": "PDT",
+    "n": 1
+   },
+   {
+    "sigla": "REDE",
+    "n": 1
+   }
+  ],
+  "eleitos": [
+   {
+    "uf": "AC",
+    "nome": "Marcio Bittar",
+    "partido": "PL",
+    "votos": 223972,
+    "pct": 25.59
+   },
+   {
+    "uf": "AC",
+    "nome": "Mara Rocha",
+    "partido": "REPUBLICANOS",
+    "votos": 157104,
+    "pct": 17.95
+   },
+   {
+    "uf": "AL",
+    "nome": "Arthur Lira",
+    "partido": "PP",
+    "votos": 948703,
+    "pct": 28.87
+   },
+   {
+    "uf": "AL",
+    "nome": "Marina JHC",
+    "partido": "PSDB",
+    "votos": 926860,
+    "pct": 28.2
+   },
+   {
+    "uf": "AM",
+    "nome": "Eduardo Braga",
+    "partido": "MDB",
+    "votos": 1240471,
+    "pct": 32.29
+   },
+   {
+    "uf": "AM",
+    "nome": "Plinio Valério",
+    "partido": "PSDB",
+    "votos": 948793,
+    "pct": 24.7
+   },
+   {
+    "uf": "AP",
+    "nome": "Rayssa Furlan",
+    "partido": "PODE",
+    "votos": 264799,
+    "pct": 29.98
+   },
+   {
+    "uf": "AP",
+    "nome": "Lucas Barreto",
+    "partido": "PSD",
+    "votos": 213948,
+    "pct": 24.22
+   },
+   {
+    "uf": "BA",
+    "nome": "Rui Costa",
+    "partido": "PT",
+    "votos": 4335196,
+    "pct": 30.07
+   },
+   {
+    "uf": "BA",
+    "nome": "Jaques Wagner",
+    "partido": "PT",
+    "votos": 3986690,
+    "pct": 27.65
+   },
+   {
+    "uf": "CE",
+    "nome": "Cid Gomes",
+    "partido": "PSB",
+    "votos": 3033562,
+    "pct": 31.22
+   },
+   {
+    "uf": "CE",
+    "nome": "Luizianne",
+    "partido": "REDE",
+    "votos": 2822806,
+    "pct": 29.05
+   },
+   {
+    "uf": "DF",
+    "nome": "Michelle Bolsonaro",
+    "partido": "PL",
+    "votos": 938496,
+    "pct": 29.05
+   },
+   {
+    "uf": "DF",
+    "nome": "Bia Kicis",
+    "partido": "PL",
+    "votos": 886616,
+    "pct": 27.44
+   },
+   {
+    "uf": "ES",
+    "nome": "Renato Casagrande",
+    "partido": "PSB",
+    "votos": 995361,
+    "pct": 24.7
+   },
+   {
+    "uf": "ES",
+    "nome": "Evair de Melo",
+    "partido": "REPUBLICANOS",
+    "votos": 982978,
+    "pct": 24.39
+   },
+   {
+    "uf": "GO",
+    "nome": "Gustavo Gayer",
+    "partido": "PL",
+    "votos": 1639247,
+    "pct": 24.53
+   },
+   {
+    "uf": "GO",
+    "nome": "Gracinha Caiado",
+    "partido": "UNIÃO",
+    "votos": 1458522,
+    "pct": 21.83
+   },
+   {
+    "uf": "MA",
+    "nome": "Fufuca",
+    "partido": "PP",
+    "votos": 1530187,
+    "pct": 21.43
+   },
+   {
+    "uf": "MA",
+    "nome": "Lahesio Bonfim",
+    "partido": "NOVO",
+    "votos": 1471859,
+    "pct": 20.61
+   },
+   {
+    "uf": "MG",
+    "nome": "Domingos Sávio",
+    "partido": "PL",
+    "votos": 4968829,
+    "pct": 24.21
+   },
+   {
+    "uf": "MG",
+    "nome": "Marília Campos",
+    "partido": "PT",
+    "votos": 3990864,
+    "pct": 19.44
+   },
+   {
+    "uf": "MS",
+    "nome": "Reinaldo Azambuja",
+    "partido": "PL",
+    "votos": 903554,
+    "pct": 34.64
+   },
+   {
+    "uf": "MS",
+    "nome": "Capitão Contar",
+    "partido": "PL",
+    "votos": 856045,
+    "pct": 32.82
+   },
+   {
+    "uf": "MT",
+    "nome": "Mauro Mendes",
+    "partido": "UNIÃO",
+    "votos": 1187352,
+    "pct": 33.21
+   },
+   {
+    "uf": "MT",
+    "nome": "Zé Medeiros",
+    "partido": "PL",
+    "votos": 977777,
+    "pct": 27.35
+   },
+   {
+    "uf": "PA",
+    "nome": "Helder",
+    "partido": "MDB",
+    "votos": 2342070,
+    "pct": 26.1
+   },
+   {
+    "uf": "PA",
+    "nome": "Chicão",
+    "partido": "UNIÃO",
+    "votos": 2014409,
+    "pct": 22.45
+   },
+   {
+    "uf": "PB",
+    "nome": "Joao Azevêdo",
+    "partido": "PSB",
+    "votos": 1391994,
+    "pct": 32.5
+   },
+   {
+    "uf": "PB",
+    "nome": "Veneziano",
+    "partido": "MDB",
+    "votos": 974550,
+    "pct": 22.76
+   },
+   {
+    "uf": "PE",
+    "nome": "Humberto Costa",
+    "partido": "PT",
+    "votos": 2531389,
+    "pct": 27.19
+   },
+   {
+    "uf": "PE",
+    "nome": "Marília Arraes",
+    "partido": "PDT",
+    "votos": 2325127,
+    "pct": 24.97
+   },
+   {
+    "uf": "PI",
+    "nome": "Marcelo Castro",
+    "partido": "MDB",
+    "votos": 1307833,
+    "pct": 35.67
+   },
+   {
+    "uf": "PI",
+    "nome": "Júlio César O Julim do Lula",
+    "partido": "PSD",
+    "votos": 989146,
+    "pct": 26.98
+   },
+   {
+    "uf": "PR",
+    "nome": "Filipe Barros",
+    "partido": "PL",
+    "votos": 3148583,
+    "pct": 27.25
+   },
+   {
+    "uf": "PR",
+    "nome": "Deltan Dallagnol",
+    "partido": "NOVO",
+    "votos": 2904594,
+    "pct": 25.14
+   },
+   {
+    "uf": "RJ",
+    "nome": "Carlos Portinho",
+    "partido": "PL",
+    "votos": 4264932,
+    "pct": 26.77
+   },
+   {
+    "uf": "RJ",
+    "nome": "Carlos Jordy",
+    "partido": "PL",
+    "votos": 3912405,
+    "pct": 24.56
+   },
+   {
+    "uf": "RN",
+    "nome": "Styvenson Valentim",
+    "partido": "PODE",
+    "votos": 1055000,
+    "pct": 29.25
+   },
+   {
+    "uf": "RN",
+    "nome": "Samanda de Lula",
+    "partido": "PT",
+    "votos": 635924,
+    "pct": 17.63
+   },
+   {
+    "uf": "RO",
+    "nome": "Dr. Fernando Máximo",
+    "partido": "PL",
+    "votos": 570799,
+    "pct": 31.97
+   },
+   {
+    "uf": "RO",
+    "nome": "Bruno Scheid",
+    "partido": "PL",
+    "votos": 474226,
+    "pct": 26.56
+   },
+   {
+    "uf": "RR",
+    "nome": "Nicoletti",
+    "partido": "PL",
+    "votos": 138269,
+    "pct": 22.68
+   },
+   {
+    "uf": "RR",
+    "nome": "Teresa Surita",
+    "partido": "MDB",
+    "votos": 117270,
+    "pct": 19.24
+   },
+   {
+    "uf": "RS",
+    "nome": "Sanderson",
+    "partido": "PL",
+    "votos": 3453316,
+    "pct": 30.11
+   },
+   {
+    "uf": "RS",
+    "nome": "Marcel Van Hattem",
+    "partido": "NOVO",
+    "votos": 3449053,
+    "pct": 30.08
+   },
+   {
+    "uf": "SC",
+    "nome": "Carol de Toni",
+    "partido": "PL",
+    "votos": 2694918,
+    "pct": 33.46
+   },
+   {
+    "uf": "SC",
+    "nome": "Carlos Bolsonaro",
+    "partido": "PL",
+    "votos": 2041840,
+    "pct": 25.35
+   },
+   {
+    "uf": "SE",
+    "nome": "Rogerio Carvalho",
+    "partido": "PT",
+    "votos": 511142,
+    "pct": 21.91
+   },
+   {
+    "uf": "SE",
+    "nome": "Delegado Alessandro",
+    "partido": "MDB",
+    "votos": 399775,
+    "pct": 17.13
+   },
+   {
+    "uf": "SP",
+    "nome": "Guilherme Derrite",
+    "partido": "PP",
+    "votos": 13273880,
+    "pct": 30.59
+   },
+   {
+    "uf": "SP",
+    "nome": "André do Prado",
+    "partido": "PL",
+    "votos": 12703089,
+    "pct": 29.28
+   },
+   {
+    "uf": "TO",
+    "nome": "Eduardo Gomes",
+    "partido": "PL",
+    "votos": 450191,
+    "pct": 27.22
+   },
+   {
+    "uf": "TO",
+    "nome": "Alexandre Guimarães",
+    "partido": "MDB",
+    "votos": 316786,
+    "pct": 19.16
+   }
+  ]
+ },
+ "camara": {
+  "vagas": 513,
+  "eleitosTotal": 513,
+  "pctApuracaoMinima": 100,
+  "votosValidosNacional": 114058329,
+  "porPartido": [
+   {
+    "sigla": "PL",
+    "n": 121
+   },
+   {
+    "sigla": "PT",
+    "n": 70
+   },
+   {
+    "sigla": "UNIÃO",
+    "n": 46
+   },
+   {
+    "sigla": "PSD",
+    "n": 43
+   },
+   {
+    "sigla": "PP",
+    "n": 41
+   },
+   {
+    "sigla": "REPUBLICANOS",
+    "n": 41
+   },
+   {
+    "sigla": "MDB",
+    "n": 36
+   },
+   {
+    "sigla": "PODE",
+    "n": 27
+   },
+   {
+    "sigla": "PSB",
+    "n": 15
+   },
+   {
+    "sigla": "PSOL",
+    "n": 14
+   },
+   {
+    "sigla": "PCDOB",
+    "n": 11
+   },
+   {
+    "sigla": "PSDB",
+    "n": 11
+   },
+   {
+    "sigla": "NOVO",
+    "n": 10
+   },
+   {
+    "sigla": "PV",
+    "n": 7
+   },
+   {
+    "sigla": "PDT",
+    "n": 6
+   },
+   {
+    "sigla": "AVANTE",
+    "n": 5
+   },
+   {
+    "sigla": "PRD",
+    "n": 5
+   },
+   {
+    "sigla": "SOLIDARIEDADE",
+    "n": 2
+   },
+   {
+    "sigla": "MISSÃO",
+    "n": 1
+   },
+   {
+    "sigla": "REDE",
+    "n": 1
+   }
+  ],
+  "agrupamentos": [
+   {
+    "nome": "PL",
+    "sigla": "PL",
+    "partidos": [
+     "PL"
+    ],
+    "federacao": false,
+    "cadeiras": 121,
+    "votos": 25824755,
+    "pctVotos": 22.64,
+    "ufsComCadeira": 24,
+    "ufsAcimaDe1_5": 27,
+    "clausula": "votos"
+   },
+   {
+    "nome": "Federação BRASIL DA ESPERANÇA",
+    "sigla": "PCDOB/PT/PV",
+    "partidos": [
+     "PCDOB",
+     "PT",
+     "PV"
+    ],
+    "federacao": true,
+    "cadeiras": 88,
+    "votos": 17419906,
+    "pctVotos": 15.27,
+    "ufsComCadeira": 22,
+    "ufsAcimaDe1_5": 27,
+    "clausula": "votos"
+   },
+   {
+    "nome": "Federação UNIÃO PROGRESSISTA",
+    "sigla": "PP/UNIÃO",
+    "partidos": [
+     "PP",
+     "UNIÃO"
+    ],
+    "federacao": true,
+    "cadeiras": 87,
+    "votos": 15469961,
+    "pctVotos": 13.56,
+    "ufsComCadeira": 26,
+    "ufsAcimaDe1_5": 27,
+    "clausula": "votos"
+   },
+   {
+    "nome": "PSD",
+    "sigla": "PSD",
+    "partidos": [
+     "PSD"
+    ],
+    "federacao": false,
+    "cadeiras": 43,
+    "votos": 9391321,
+    "pctVotos": 8.23,
+    "ufsComCadeira": 17,
+    "ufsAcimaDe1_5": 20,
+    "clausula": "votos"
+   },
+   {
+    "nome": "REPUBLICANOS",
+    "sigla": "REPUBLICANOS",
+    "partidos": [
+     "REPUBLICANOS"
+    ],
+    "federacao": false,
+    "cadeiras": 41,
+    "votos": 7911780,
+    "pctVotos": 6.94,
+    "ufsComCadeira": 22,
+    "ufsAcimaDe1_5": 24,
+    "clausula": "votos"
+   },
+   {
+    "nome": "MDB",
+    "sigla": "MDB",
+    "partidos": [
+     "MDB"
+    ],
+    "federacao": false,
+    "cadeiras": 36,
+    "votos": 7890384,
+    "pctVotos": 6.92,
+    "ufsComCadeira": 17,
+    "ufsAcimaDe1_5": 20,
+    "clausula": "votos"
+   },
+   {
+    "nome": "PODE",
+    "sigla": "PODE",
+    "partidos": [
+     "PODE"
+    ],
+    "federacao": false,
+    "cadeiras": 27,
+    "votos": 5887427,
+    "pctVotos": 5.16,
+    "ufsComCadeira": 15,
+    "ufsAcimaDe1_5": 16,
+    "clausula": "votos"
+   },
+   {
+    "nome": "Federação PSOL REDE",
+    "sigla": "PSOL/REDE",
+    "partidos": [
+     "PSOL",
+     "REDE"
+    ],
+    "federacao": true,
+    "cadeiras": 15,
+    "votos": 5559241,
+    "pctVotos": 4.87,
+    "ufsComCadeira": 6,
+    "ufsAcimaDe1_5": 8,
+    "clausula": "nao"
+   },
+   {
+    "nome": "PSB",
+    "sigla": "PSB",
+    "partidos": [
+     "PSB"
+    ],
+    "federacao": false,
+    "cadeiras": 15,
+    "votos": 5007692,
+    "pctVotos": 4.39,
+    "ufsComCadeira": 8,
+    "ufsAcimaDe1_5": 13,
+    "clausula": "votos"
+   },
+   {
+    "nome": "Federação PSDB CIDADANIA",
+    "sigla": "CIDADANIA/PSDB",
+    "partidos": [
+     "CIDADANIA",
+     "PSDB"
+    ],
+    "federacao": true,
+    "cadeiras": 11,
+    "votos": 3131177,
+    "pctVotos": 2.75,
+    "ufsComCadeira": 7,
+    "ufsAcimaDe1_5": 14,
+    "clausula": "votos"
+   },
+   {
+    "nome": "NOVO",
+    "sigla": "NOVO",
+    "partidos": [
+     "NOVO"
+    ],
+    "federacao": false,
+    "cadeiras": 10,
+    "votos": 2914364,
+    "pctVotos": 2.56,
+    "ufsComCadeira": 6,
+    "ufsAcimaDe1_5": 9,
+    "clausula": "votos"
+   },
+   {
+    "nome": "Federação RENOVAÇÃO SOLIDÁRIA",
+    "sigla": "PRD/SOLIDARIEDADE",
+    "partidos": [
+     "PRD",
+     "SOLIDARIEDADE"
+    ],
+    "federacao": true,
+    "cadeiras": 7,
+    "votos": 2119884,
+    "pctVotos": 1.86,
+    "ufsComCadeira": 6,
+    "ufsAcimaDe1_5": 7,
+    "clausula": "nao"
+   },
+   {
+    "nome": "PDT",
+    "sigla": "PDT",
+    "partidos": [
+     "PDT"
+    ],
+    "federacao": false,
+    "cadeiras": 6,
+    "votos": 1868424,
+    "pctVotos": 1.64,
+    "ufsComCadeira": 5,
+    "ufsAcimaDe1_5": 8,
+    "clausula": "nao"
+   },
+   {
+    "nome": "AVANTE",
+    "sigla": "AVANTE",
+    "partidos": [
+     "AVANTE"
+    ],
+    "federacao": false,
+    "cadeiras": 5,
+    "votos": 1807942,
+    "pctVotos": 1.59,
+    "ufsComCadeira": 3,
+    "ufsAcimaDe1_5": 6,
+    "clausula": "nao"
+   },
+   {
+    "nome": "MISSÃO",
+    "sigla": "MISSÃO",
+    "partidos": [
+     "MISSÃO"
+    ],
+    "federacao": false,
+    "cadeiras": 1,
+    "votos": 1223569,
+    "pctVotos": 1.07,
+    "ufsComCadeira": 1,
+    "ufsAcimaDe1_5": 1,
+    "clausula": "nao"
+   },
+   {
+    "nome": "DC",
+    "sigla": "DC",
+    "partidos": [
+     "DC"
+    ],
+    "federacao": false,
+    "cadeiras": 0,
+    "votos": 114402,
+    "pctVotos": 0.1,
+    "ufsComCadeira": 0,
+    "ufsAcimaDe1_5": 0,
+    "clausula": "nao"
+   },
+   {
+    "nome": "UP",
+    "sigla": "UP",
+    "partidos": [
+     "UP"
+    ],
+    "federacao": false,
+    "cadeiras": 0,
+    "votos": 45431,
+    "pctVotos": 0.04,
+    "ufsComCadeira": 0,
+    "ufsAcimaDe1_5": 0,
+    "clausula": "nao"
+   },
+   {
+    "nome": "MOBILIZA",
+    "sigla": "MOBILIZA",
+    "partidos": [
+     "MOBILIZA"
+    ],
+    "federacao": false,
+    "cadeiras": 0,
+    "votos": 34272,
+    "pctVotos": 0.03,
+    "ufsComCadeira": 0,
+    "ufsAcimaDe1_5": 0,
+    "clausula": "nao"
+   },
+   {
+    "nome": "DEMOCRATA",
+    "sigla": "DEMOCRATA",
+    "partidos": [
+     "DEMOCRATA"
+    ],
+    "federacao": false,
+    "cadeiras": 0,
+    "votos": 27195,
+    "pctVotos": 0.02,
+    "ufsComCadeira": 0,
+    "ufsAcimaDe1_5": 0,
+    "clausula": "nao"
+   },
+   {
+    "nome": "PSTU",
+    "sigla": "PSTU",
+    "partidos": [
+     "PSTU"
+    ],
+    "federacao": false,
+    "cadeiras": 0,
+    "votos": 18696,
+    "pctVotos": 0.02,
+    "ufsComCadeira": 0,
+    "ufsAcimaDe1_5": 0,
+    "clausula": "nao"
+   },
+   {
+    "nome": "AGIR",
+    "sigla": "AGIR",
+    "partidos": [
+     "AGIR"
+    ],
+    "federacao": false,
+    "cadeiras": 0,
+    "votos": 7155,
+    "pctVotos": 0.01,
+    "ufsComCadeira": 0,
+    "ufsAcimaDe1_5": 0,
+    "clausula": "nao"
+   },
+   {
+    "nome": "PCO",
+    "sigla": "PCO",
+    "partidos": [
+     "PCO"
+    ],
+    "federacao": false,
+    "cadeiras": 0,
+    "votos": 3041,
+    "pctVotos": 0,
+    "ufsComCadeira": 0,
+    "ufsAcimaDe1_5": 0,
+    "clausula": "nao"
+   }
+  ],
+  "clausulaRegra": {
+   "pctVotos": 2.5,
+   "pctPorUf": 1.5,
+   "ufsMinimas": 9,
+   "cadeirasMinimas": 13,
+   "texto": "Em 2026, para ter acesso ao fundo partidário e ao tempo gratuito de rádio e TV, o partido (ou a federação) precisa de 2,5% dos votos válidos para a Câmara em todo o país, com pelo menos 1,5% em cada uma de nove unidades da federação, ou de 13 deputados federais eleitos em pelo menos nove unidades da federação."
+  },
+  "porUf": [
+   {
+    "uf": "AC",
+    "vagas": 8,
+    "eleitos": 8
+   },
+   {
+    "uf": "AL",
+    "vagas": 9,
+    "eleitos": 9
+   },
+   {
+    "uf": "AM",
+    "vagas": 8,
+    "eleitos": 8
+   },
+   {
+    "uf": "AP",
+    "vagas": 8,
+    "eleitos": 8
+   },
+   {
+    "uf": "BA",
+    "vagas": 39,
+    "eleitos": 39
+   },
+   {
+    "uf": "CE",
+    "vagas": 22,
+    "eleitos": 22
+   },
+   {
+    "uf": "DF",
+    "vagas": 8,
+    "eleitos": 8
+   },
+   {
+    "uf": "ES",
+    "vagas": 10,
+    "eleitos": 10
+   },
+   {
+    "uf": "GO",
+    "vagas": 17,
+    "eleitos": 17
+   },
+   {
+    "uf": "MA",
+    "vagas": 18,
+    "eleitos": 18
+   },
+   {
+    "uf": "MG",
+    "vagas": 53,
+    "eleitos": 53
+   },
+   {
+    "uf": "MS",
+    "vagas": 8,
+    "eleitos": 8
+   },
+   {
+    "uf": "MT",
+    "vagas": 8,
+    "eleitos": 8
+   },
+   {
+    "uf": "PA",
+    "vagas": 17,
+    "eleitos": 17
+   },
+   {
+    "uf": "PB",
+    "vagas": 12,
+    "eleitos": 12
+   },
+   {
+    "uf": "PE",
+    "vagas": 25,
+    "eleitos": 25
+   },
+   {
+    "uf": "PI",
+    "vagas": 10,
+    "eleitos": 10
+   },
+   {
+    "uf": "PR",
+    "vagas": 30,
+    "eleitos": 30
+   },
+   {
+    "uf": "RJ",
+    "vagas": 46,
+    "eleitos": 46
+   },
+   {
+    "uf": "RN",
+    "vagas": 8,
+    "eleitos": 8
+   },
+   {
+    "uf": "RO",
+    "vagas": 8,
+    "eleitos": 8
+   },
+   {
+    "uf": "RR",
+    "vagas": 8,
+    "eleitos": 8
+   },
+   {
+    "uf": "RS",
+    "vagas": 31,
+    "eleitos": 31
+   },
+   {
+    "uf": "SC",
+    "vagas": 16,
+    "eleitos": 16
+   },
+   {
+    "uf": "SE",
+    "vagas": 8,
+    "eleitos": 8
+   },
+   {
+    "uf": "SP",
+    "vagas": 70,
+    "eleitos": 70
+   },
+   {
+    "uf": "TO",
+    "vagas": 8,
+    "eleitos": 8
+   }
+  ]
+ }
+}
