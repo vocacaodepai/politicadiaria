@@ -4,7 +4,7 @@
  *
  *   npm run congress:update                 # tudo, reaproveitando o cache em .cache/congress/
  *   npm run congress:update -- --refresh    # apaga o cache e baixa tudo de novo
- *   npm run congress:update -- --only=senado|camara|fotos
+ *   npm run congress:update -- --only=senado|camara|fotos|plenario|evolucao
  *
  * Fontes (todas oficiais, sem chave de API):
  *  - Câmara: API https://dadosabertos.camara.leg.br/api/v2 (lista, detalhe, histórico, órgãos,
@@ -1176,6 +1176,266 @@ function buildSummary() {
   return summary;
 }
 
+/* ============================================================ PLENÁRIO */
+
+/**
+ * JSON enxuto para a visão de plenário (carregado sob demanda no navegador).
+ * Uma linha por parlamentar em exercício: slug (o id é o final do slug), nome, partido, UF e,
+ * quando houver, bloco (Senado) e foto fora do padrão oficial. A federação é por partido.
+ */
+async function buildPlenario() {
+  log("Plenário: JSON enxuto para a visão de hemiciclo");
+  const dep = JSON.parse(readFileSync(join(OUT, "deputados", "index.json"), "utf8"));
+  const sen = JSON.parse(readFileSync(join(OUT, "senadores", "index.json"), "utf8"));
+  const officialDep = (id) => `https://www.camara.leg.br/internet/deputado/bandep/${id}.jpg`;
+  const officialSen = (id) => `https://www.senado.leg.br/senadores/img/fotos-oficiais/senador${id}.jpg`;
+
+  const camara = dep.map((d) => {
+    const row = { s: d.slug, n: d.nome, p: d.partido, u: d.uf };
+    if (d.foto && d.foto.url !== officialDep(d.id)) row.f = d.foto.url;
+    if (!d.foto) row.f = 0;
+    if (d.condicao && d.condicao !== "Titular") row.c = d.condicao;
+    return row;
+  });
+  const senado = sen.map((d) => {
+    let bloco = null;
+    try {
+      bloco = JSON.parse(readFileSync(join(OUT, "senadores", `${d.id}.json`), "utf8")).bloco ?? null;
+    } catch {}
+    const row = { s: d.slug, n: d.nome, p: d.partido, u: d.uf };
+    if (bloco) row.b = bloco;
+    if (d.foto && d.foto.url !== officialSen(d.id)) row.f = d.foto.url;
+    if (!d.foto) row.f = 0;
+    if (d.condicao && d.condicao !== "Titular") row.c = d.condicao;
+    return row;
+  });
+
+  // Federações partidárias vigentes na Câmara (API de blocos, legislatura atual)
+  const federacoes = [];
+  try {
+    const blocos = await camaraAll(`${CAMARA}/blocos?idLegislatura=57&itens=100`);
+    for (const b of blocos.filter((x) => x.federacao)) {
+      const det = await getJson(`${CAMARA}/blocos/${b.id}/partidos`).catch(() => null);
+      const parts = (det?.dados ?? []).map((p) => p.sigla);
+      if (parts.length) federacoes.push({ nome: b.nome, partidos: parts });
+    }
+  } catch (e) {
+    log("Plenário: federações indisponíveis", String(e.message ?? e));
+  }
+
+  mkdirSync(PUB, { recursive: true });
+  writeJson(join(PUB, "plenario.json"), {
+    atualizadoEm: TODAY,
+    legislatura: 57,
+    camara,
+    senado,
+    federacoes,
+  });
+}
+
+/* ============================================================ NÚMEROS */
+
+/**
+ * Uma linha por parlamentar com os números que as páginas /congresso/numeros/<tema> ordenam e
+ * agregam por partido e UF. Só reorganiza o que já está nos registros individuais:
+ * g = gasto da cota no mandato (R$), m = meses do período (do início do exercício na
+ * legislatura até o último mês com despesa coletado), a = ausências em votação nominal,
+ * t = votações nominais em que o parlamentar poderia votar, r = votos registrados.
+ */
+function buildNumeros() {
+  log("Números: tabelas por parlamentar");
+  const readIdx = (d) => JSON.parse(readFileSync(join(OUT, d, "index.json"), "utf8"));
+  const dep = readIdx("deputados");
+  const sen = readIdx("senadores");
+  let last = "2023-02";
+  const recs = { camara: new Map(), senado: new Map() };
+  for (const d of dep) {
+    const r = JSON.parse(readFileSync(join(OUT, "deputados", `${d.id}.json`), "utf8"));
+    recs.camara.set(d.id, r);
+  }
+  for (const d of sen) {
+    const r = JSON.parse(readFileSync(join(OUT, "senadores", `${d.id}.json`), "utf8"));
+    recs.senado.set(d.id, r);
+  }
+  for (const m of [...recs.camara.values(), ...recs.senado.values()]) for (const x of m.despesas?.porMes ?? []) if (x.mes > last) last = x.mes;
+  const monthsBetween = (from, to) => {
+    const [fy, fm] = from.split("-").map(Number);
+    const [ty, tm] = to.split("-").map(Number);
+    return Math.max(1, (ty - fy) * 12 + (tm - fm) + 1);
+  };
+  const startOf = (iso) => (!iso || iso < LEG_START ? LEG_START : iso).slice(0, 7);
+
+  const camara = dep.map((d) => {
+    const r = recs.camara.get(d.id);
+    return {
+      s: d.slug,
+      n: d.nome,
+      p: d.partido,
+      u: d.uf,
+      g: r.despesas?.total ?? 0,
+      m: monthsBetween(startOf(r.inicioExercicio), last),
+      a: r.votacoes?.contagem?.ausencias ?? 0,
+      t: r.votacoes?.elegiveis ?? 0,
+      r: r.votacoes?.registradas ?? 0,
+    };
+  });
+  const senado = sen.map((d) => {
+    const r = recs.senado.get(d.id);
+    const c = r.votacoes?.contagem ?? {};
+    return {
+      s: d.slug,
+      n: d.nome,
+      p: d.partido,
+      u: d.uf,
+      g: r.despesas?.total ?? 0,
+      m: monthsBetween(startOf(r.mandato?.exercicioInicio), last),
+      a: c.naoCompareceu ?? 0,
+      t: r.votacoes?.total ?? 0,
+      r: r.votacoes?.registradas ?? 0,
+      af: (c.licenca ?? 0) + (c.missao ?? 0) + (c.atividadeParlamentar ?? 0),
+      ps: c.presenteSemVoto ?? 0,
+    };
+  });
+  writeJson(join(OUT, "numeros.json"), { atualizadoEm: TODAY, inicio: LEG_START.slice(0, 7), ultimoMes: last, camara, senado });
+}
+
+/* ============================================================ EVOLUÇÃO */
+
+/**
+ * Composição por partido em datas de referência de três legislaturas (55, 56 e 57), a partir
+ * dos históricos oficiais: Câmara (/deputados/{id}/historico) e Senado (mandatos + filiações).
+ * Nada é estimado: sigla e situação são as registradas na data. A comparação por sigla
+ * sucessora (fusões, renomeações) é feita na página, com a tabela de correspondência visível.
+ */
+const LEGISLATURAS = [
+  { n: 55, inicio: "2015-02-01", fim: "2019-01-31" },
+  { n: 56, inicio: "2019-02-01", fim: "2023-01-31" },
+  { n: 57, inicio: "2023-02-01", fim: "2027-01-31" },
+];
+const dayBefore = (iso, n = 1) => new Date(Date.parse(`${iso}T12:00:00Z`) - n * 86400000).toISOString().slice(0, 10);
+
+async function evolucaoCamara() {
+  const snaps = [];
+  for (const L of LEGISLATURAS) {
+    log(`Evolução Câmara: legislatura ${L.n}`);
+    const list = await camaraAll(`${CAMARA}/deputados?idLegislatura=${L.n}&itens=100&ordem=ASC&ordenarPor=nome`);
+    const ids = [...new Set(list.map((d) => d.id))];
+    const hist = new Map();
+    const fails = await pool(
+      ids,
+      3,
+      async (id) => {
+        const h = await getJson(`${CAMARA}/deputados/${id}/historico`);
+        hist.set(
+          id,
+          (h.dados ?? [])
+            .filter((e) => e.idLegislatura === L.n)
+            .map((e) => ({ t: String(e.dataHora), p: e.siglaPartido, s: e.situacao }))
+            .sort((a, b) => a.t.localeCompare(b.t)),
+        );
+      },
+      `Evolução Câmara ${L.n}`,
+    );
+    if (fails.length) throw new Error(`Evolução Câmara ${L.n}: ${fails.length} falha(s) na API`);
+    const at = (date) => {
+      const lim = `${date}T23:59:59`;
+      const partidos = {};
+      let total = 0;
+      for (const rows of hist.values()) {
+        let cur = null;
+        for (const r of rows) if (r.t <= lim) cur = r;
+        if (cur && cur.s === "Exercício") {
+          partidos[cur.p] = (partidos[cur.p] ?? 0) + 1;
+          total++;
+        }
+      }
+      return { total, partidos };
+    };
+    snaps.push({ id: `${L.n}-inicio`, legislatura: L.n, tipo: "inicio", data: L.inicio, ...at(L.inicio) });
+    if (L.n !== 57) snaps.push({ id: `${L.n}-fim`, legislatura: L.n, tipo: "fim", data: dayBefore(L.fim), ...at(dayBefore(L.fim)) });
+  }
+  const dep = JSON.parse(readFileSync(join(OUT, "deputados", "index.json"), "utf8"));
+  const partidos = {};
+  for (const d of dep) partidos[d.partido] = (partidos[d.partido] ?? 0) + 1;
+  snaps.push({ id: "57-hoje", legislatura: 57, tipo: "hoje", data: TODAY, total: dep.length, partidos });
+  return snaps;
+}
+
+async function evolucaoSenado() {
+  const snaps = [];
+  const mandCache = new Map();
+  const filCache = new Map();
+  for (const L of LEGISLATURAS) {
+    log(`Evolução Senado: legislatura ${L.n}`);
+    const lista = await getJson(`${SEN}/senador/lista/legislatura/${L.n}.json`);
+    const codes = [
+      ...new Set(toArray(lista.ListaParlamentarLegislatura.Parlamentares.Parlamentar).map((p) => String(p.IdentificacaoParlamentar.CodigoParlamentar))),
+    ];
+    const fails = await pool(
+      codes,
+      3,
+      async (c) => {
+        if (!mandCache.has(c)) {
+          const m = await getJson(`${SEN}/senador/${c}/mandatos.json`);
+          const mand = toArray(m.MandatoParlamentar.Parlamentar.Mandatos?.Mandato).flatMap((md) =>
+            toArray(md.Exercicios?.Exercicio).map((e) => ({ ini: e.DataInicio, fim: e.DataFim ?? "9999-12-31" })),
+          );
+          mandCache.set(c, mand);
+        }
+        if (!filCache.has(c)) {
+          const f = await getJson(`${SEN}/senador/${c}/filiacoes.json`);
+          const fil = toArray(f.FiliacaoParlamentar.Parlamentar.Filiacoes?.Filiacao)
+            .map((x) => ({ d: x.DataFiliacao ?? (x.AnoFiliacao ? `${x.AnoFiliacao}-01-01` : null), p: x.Partido?.SiglaPartido }))
+            .filter((x) => x.d)
+            .sort((a, b) => a.d.localeCompare(b.d));
+          filCache.set(c, fil);
+        }
+      },
+      `Evolução Senado ${L.n}`,
+    );
+    if (fails.length) throw new Error(`Evolução Senado ${L.n}: ${fails.length} falha(s) na API`);
+    const at = (date) => {
+      const partidos = {};
+      let total = 0;
+      for (const c of codes) {
+        if (!mandCache.get(c).some((e) => e.ini <= date && date <= e.fim)) continue;
+        total++;
+        let cur = null;
+        for (const f of filCache.get(c)) if (f.d <= date) cur = f;
+        const k = cur?.p ?? "Sem partido";
+        partidos[k] = (partidos[k] ?? 0) + 1;
+      }
+      return { total, partidos };
+    };
+    snaps.push({ id: `${L.n}-inicio`, legislatura: L.n, tipo: "inicio", data: L.inicio, ...at(L.inicio) });
+    if (L.n !== 57) snaps.push({ id: `${L.n}-fim`, legislatura: L.n, tipo: "fim", data: dayBefore(L.fim), ...at(dayBefore(L.fim)) });
+  }
+  const sen = JSON.parse(readFileSync(join(OUT, "senadores", "index.json"), "utf8"));
+  const partidos = {};
+  for (const d of sen) partidos[d.partido] = (partidos[d.partido] ?? 0) + 1;
+  snaps.push({ id: "57-hoje", legislatura: 57, tipo: "hoje", data: TODAY, total: sen.length, partidos });
+  return snaps;
+}
+
+async function buildEvolucao() {
+  const camara = await evolucaoCamara();
+  const senado = await evolucaoSenado();
+  writeJson(join(OUT, "evolucao.json"), {
+    atualizadoEm: TODAY,
+    geradoEm: new Date().toISOString(),
+    legislaturas: LEGISLATURAS,
+    camara,
+    senado,
+    fontes: {
+      camara: "https://dadosabertos.camara.leg.br/api/v2/legislaturas",
+      camaraHistorico: "https://dadosabertos.camara.leg.br/api/v2/deputados/{id}/historico",
+      senado: "https://legis.senado.leg.br/dadosabertos/senador/lista/legislatura/{numero}",
+      senadoMandatos: "https://legis.senado.leg.br/dadosabertos/senador/{codigo}/mandatos",
+      senadoFiliacoes: "https://legis.senado.leg.br/dadosabertos/senador/{codigo}/filiacoes",
+    },
+  });
+}
+
 /* ================================================================== MAIN */
 
 async function main() {
@@ -1209,6 +1469,13 @@ async function main() {
         ceaps: "https://www12.senado.leg.br/transparencia/dados-abertos-transparencia/dados-abertos-ceaps",
       },
     });
+  }
+  if (existsSync(join(OUT, "deputados", "index.json")) && existsSync(join(OUT, "senadores", "index.json"))) {
+    if (ONLY === "all" || ONLY === "camara" || ONLY === "senado" || ONLY === "plenario") {
+      await buildPlenario();
+      buildNumeros();
+    }
+    if (ONLY === "all" || ONLY === "evolucao") await buildEvolucao();
   }
   log(`Concluído em ${Math.round((Date.now() - t0) / 1000)} s`, camaraFail.length ? "(com falhas)" : "");
 }

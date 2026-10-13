@@ -596,3 +596,62 @@ h3 {
 .ad-in-article {
   margin: 2rem 0;
 }
+
+/* ---------- Congresso: plenário (classes plen-*) ---------- */
+.plen-c {
+  --plen-s: 58%;
+  --plen-l: 40%;
+}
+.plen-c[data-band="1"] {
+  --plen-l: 52%;
+}
+.plen-c[data-band="2"] {
+  --plen-l: 63%;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .plen-c {
+    --plen-l: 58%;
+  }
+  :root:not([data-theme="light"]) .plen-c[data-band="1"] {
+    --plen-l: 69%;
+  }
+  :root:not([data-theme="light"]) .plen-c[data-band="2"] {
+    --plen-l: 79%;
+  }
+}
+:root[data-theme="dark"] .plen-c {
+  --plen-l: 58%;
+}
+:root[data-theme="dark"] .plen-c[data-band="1"] {
+  --plen-l: 69%;
+}
+:root[data-theme="dark"] .plen-c[data-band="2"] {
+  --plen-l: 79%;
+}
+.plen-party {
+  fill: hsl(var(--plen-h) var(--plen-s) var(--plen-l));
+}
+.plen-swatch {
+  background: hsl(var(--plen-h) var(--plen-s) var(--plen-l));
+}
+.plen-dot {
+  stroke: none;
+  transition: opacity 0.12s ease;
+}
+.plen-dot[data-off] {
+  opacity: 0.12;
+}
+.plen-ring {
+  fill: none;
+  stroke: var(--foreground);
+  stroke-width: 2.5;
+  pointer-events: none;
+}
+.plen-svg {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.plen-svg:focus-visible {
+  outline: 2px solid var(--ring);
+  outline-offset: 3px;
+}
