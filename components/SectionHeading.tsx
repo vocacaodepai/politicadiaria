@@ -17,15 +17,15 @@ export function SectionHeading({
   className?: string;
 }) {
   return (
-    <div className={`mb-5 flex items-end justify-between gap-4 ${className}`}>
+    <div className={`mb-5 flex items-end justify-between gap-4 border-t-[3px] border-foreground pt-2 ${className}`}>
       <div>
         {label && <p className="label-mono text-accent">{label}</p>}
-        <Tag className="mt-1 font-display text-xl font-bold tracking-tight sm:text-2xl">{title}</Tag>
+        <Tag className="mt-0.5 font-display text-2xl font-extrabold tracking-tight sm:text-3xl">{title}</Tag>
       </div>
       {href && (
         <Link
           href={href}
-          className="shrink-0 font-mono text-xs font-medium text-muted transition hover:text-accent"
+          className="shrink-0 text-xs font-semibold uppercase tracking-[0.06em] text-muted transition hover:text-accent"
         >
           {linkText} →
         </Link>

@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, JetBrains_Mono, Space_Grotesk } from "next/font/google";
+import { Libre_Franklin, Playfair_Display, Source_Serif_4 } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -11,29 +11,35 @@ import { author } from "@/lib/author";
 import { safeJsonLd } from "@/lib/seo";
 import { Analytics } from "@vercel/analytics/next";
 
-const inter = Inter({
+// Tipografia de jornal: manchetes em serifa de alto contraste (Playfair Display),
+// texto corrido em serifa de leitura (Source Serif 4) e rótulos/navegação em
+// grotesca clássica (Libre Franklin). Todas livres (OFL).
+const sans = Libre_Franklin({
   subsets: ["latin"],
-  variable: "--font-inter",
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-sans-news",
   display: "swap",
 });
 
-const spaceGrotesk = Space_Grotesk({
+const display = Playfair_Display({
   subsets: ["latin"],
-  weight: ["500", "600", "700"],
-  variable: "--font-space-grotesk",
+  weight: ["600", "700", "800", "900"],
+  style: ["normal", "italic"],
+  variable: "--font-display-news",
   display: "swap",
 });
 
-const jetbrainsMono = JetBrains_Mono({
+const serif = Source_Serif_4({
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
-  variable: "--font-jetbrains",
+  weight: ["400", "500", "600", "700"],
+  style: ["normal", "italic"],
+  variable: "--font-serif-news",
   display: "swap",
 });
 
 const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
 // Google Analytics 4 (defina NEXT_PUBLIC_GA_ID vazio na Vercel para desligar).
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-J2V2PCNK2T";
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-ZYF7C9MBFQ";
 
 // Aplica o tema salvo antes da primeira pintura (evita "flash" ao trocar de tema).
 const THEME_INIT = `(function(){try{var t=localStorage.getItem("pd-theme");if(t==="dark"||t==="light"){document.documentElement.setAttribute("data-theme",t)}}catch(e){}})();`;
@@ -96,8 +102,8 @@ export const viewport: Viewport = {
   initialScale: 1,
   colorScheme: "light dark",
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#f5f7fb" },
-    { media: "(prefers-color-scheme: dark)", color: "#0a1224" },
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#121212" },
   ],
 };
 
@@ -144,7 +150,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="pt-BR"
-      className={`${inter.variable} ${spaceGrotesk.variable} ${jetbrainsMono.variable} h-full antialiased`}
+      className={`${sans.variable} ${display.variable} ${serif.variable} h-full antialiased`}
       suppressHydrationWarning
     >
       <head>

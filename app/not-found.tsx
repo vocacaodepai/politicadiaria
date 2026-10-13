@@ -13,7 +13,7 @@ export default function NotFound() {
     <Container className="py-12 sm:py-16">
       <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_380px] lg:gap-14">
         <section aria-labelledby="titulo-404" className="max-w-2xl">
-          <Logo id="nao-encontrada" />
+          <Logo />
           <p className="label-mono mt-8 text-accent">Erro 404</p>
           <h1
             id="titulo-404"

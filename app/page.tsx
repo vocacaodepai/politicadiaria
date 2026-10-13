@@ -117,49 +117,43 @@ export default function Home() {
 
       {/* Hero: notícia de abertura + últimas + Congresso */}
       <Container as="section" className="pt-6 sm:pt-8">
-        <div className="relative isolate">
-          <div
-            aria-hidden="true"
-            className="hero-glow pointer-events-none absolute inset-x-0 -top-8 -z-10 h-3/4 opacity-30 blur-3xl"
-          />
-          <div className="grid grid-cols-1 gap-6 lg:grid-cols-12">
-            <div className="lg:col-span-8">
-              {leadNews && (
-                <article className="group overflow-hidden rounded-xl border border-border bg-surface card-hover">
-                  {leadNews.imageQuery && (
-                    <Link href={`/noticias/${leadNews.slug}`} className="block aspect-[16/8] w-full overflow-hidden">
-                      <CoverImage
-                        query={leadNews.imageQuery}
-                        seed={newsImageSeed(leadNews.slug)}
-                        alt={leadNews.title}
-                        priority
-                        showCredit={false}
-                        className="h-full w-full"
-                      />
-                    </Link>
-                  )}
-                  <div className="p-5 sm:p-7">
-                    <p className="label-mono text-accent">Em destaque · {formatDate(leadNews.date, "short")}</p>
-                    <h2 className="mt-2 font-display text-2xl font-bold leading-tight tracking-tight sm:text-3xl">
-                      <Link href={`/noticias/${leadNews.slug}`} className="transition group-hover:text-accent">
-                        {leadNews.title}
-                      </Link>
-                    </h2>
-                    <p className="mt-3 text-base leading-relaxed text-muted">{leadNews.summary}</p>
-                  </div>
-                </article>
-              )}
-              {todayNews.length > 0 && (
-                <div className="mt-4 rounded-xl border border-border bg-surface px-5 sm:px-6">
-                  <NewsList items={todayNews} columns={1} />
-                </div>
-              )}
-            </div>
-            <div className="flex flex-col gap-4 lg:col-span-4">
-              <CongressPromo />
-              {topBooks[0] && <ArticleCard article={topBooks[0]} variant="horizontal" />}
-              <FeaturedList title="Comece por estes livros" exclude={[]} />
-            </div>
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-0">
+          <div className="lg:col-span-8 lg:border-r lg:border-border lg:pr-8">
+            {leadNews && (
+              <article className="group border-b border-foreground pb-6">
+                <p className="label-mono text-accent">Em destaque · {formatDate(leadNews.date, "short")}</p>
+                <h2 className="mt-2 font-display text-[2rem] font-black leading-[1.08] tracking-tight sm:text-5xl">
+                  <Link href={`/noticias/${leadNews.slug}`} className="transition group-hover:text-accent">
+                    {leadNews.title}
+                  </Link>
+                </h2>
+                <p className="mt-3 max-w-3xl font-serif text-lg leading-relaxed text-muted sm:text-xl">
+                  {leadNews.summary}
+                </p>
+                {leadNews.imageQuery && (
+                  <Link href={`/noticias/${leadNews.slug}`} className="mt-5 block aspect-[16/9] w-full overflow-hidden">
+                    <CoverImage
+                      query={leadNews.imageQuery}
+                      seed={newsImageSeed(leadNews.slug)}
+                      alt={leadNews.title}
+                      priority
+                      showCredit={false}
+                      className="h-full w-full"
+                    />
+                  </Link>
+                )}
+              </article>
+            )}
+            {todayNews.length > 0 && (
+              <div className="mt-2">
+                <NewsList items={todayNews} columns={1} />
+              </div>
+            )}
+          </div>
+          <div className="flex flex-col gap-6 lg:col-span-4 lg:pl-8">
+            <CongressPromo />
+            {topBooks[0] && <ArticleCard article={topBooks[0]} variant="horizontal" />}
+            <FeaturedList title="Comece por estes livros" exclude={[]} />
           </div>
         </div>
       </Container>
@@ -175,9 +169,7 @@ export default function Home() {
       {moreNews.length > 0 && (
         <Container as="section" className="mt-12">
           <SectionHeading label="Mais" title="Mais notícias de política" href="/noticias" linkText="Ver todas" />
-          <div className="rounded-xl border border-border bg-surface px-5 sm:px-6">
-            <NewsList items={moreNews} columns={2} />
-          </div>
+          <NewsList items={moreNews} columns={2} />
         </Container>
       )}
 
@@ -210,7 +202,7 @@ export default function Home() {
       </Container>
 
       {/* Faixa final */}
-      <section className="mt-16 bg-ink text-ink-foreground">
+      <section className="mt-16 border-t-[3px] border-double border-foreground bg-ink text-ink-foreground">
         <Container className="py-14">
           <div className="grid gap-8 lg:grid-cols-12 lg:items-end">
             <div className="lg:col-span-8">
@@ -224,13 +216,13 @@ export default function Home() {
               <div className="mt-8 flex flex-wrap gap-3">
                 <Link
                   href="/congresso"
-                  className="inline-flex h-11 items-center rounded-lg bg-accent px-5 text-sm font-semibold text-accent-foreground transition hover:opacity-90"
+                  className="inline-flex h-11 items-center bg-accent px-5 text-sm font-semibold text-accent-foreground transition hover:opacity-90"
                 >
                   Conheça o Congresso por dentro
                 </Link>
                 <Link
                   href="/artigos"
-                  className="inline-flex h-11 items-center rounded-lg border border-white/40 px-5 text-sm font-semibold text-white transition hover:border-white hover:bg-white/5"
+                  className="inline-flex h-11 items-center border border-white/40 px-5 text-sm font-semibold text-white transition hover:border-white hover:bg-white/5"
                 >
                   Ver resenhas de livros
                 </Link>
@@ -239,15 +231,15 @@ export default function Home() {
             <dl className="grid grid-cols-3 gap-4 lg:col-span-4">
               <div className="border-l border-white/15 pl-4">
                 <dt className="label-mono text-ink-foreground/60">Resenhas</dt>
-                <dd className="mt-1 font-mono text-2xl font-semibold text-white">{articles.length}</dd>
+                <dd className="mt-1 font-display text-3xl font-bold text-white">{articles.length}</dd>
               </div>
               <div className="border-l border-white/15 pl-4">
                 <dt className="label-mono text-ink-foreground/60">Notícias</dt>
-                <dd className="mt-1 font-mono text-2xl font-semibold text-white">{news.length}</dd>
+                <dd className="mt-1 font-display text-3xl font-bold text-white">{news.length}</dd>
               </div>
               <div className="border-l border-white/15 pl-4">
                 <dt className="label-mono text-ink-foreground/60">Parlamentares</dt>
-                <dd className="mt-1 font-mono text-2xl font-semibold text-white">594</dd>
+                <dd className="mt-1 font-display text-3xl font-bold text-white">594</dd>
               </div>
             </dl>
           </div>
