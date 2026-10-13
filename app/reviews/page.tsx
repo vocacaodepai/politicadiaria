@@ -62,7 +62,7 @@ export default function ReviewsPage() {
           label="Ranking"
           title={TITLE}
           description={DESCRIPTION}
-          intro="A ordem aqui é a da nota final de cada resenha. A nota julga a qualidade da obra, nunca a posição política do autor: livros de todos os campos passam pela mesma régua."
+          intro="A ordem aqui é a da nota final de cada resenha. A seleção de livros tem linha editorial de centro-direita e direita, declarada na política editorial. Dentro dela, a nota julga a qualidade da obra, nunca a posição política do autor."
           count={countLabel(reviews.length, "resenha", "resenhas")}
         />
         <ReviewCriteria />

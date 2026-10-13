@@ -39,6 +39,23 @@ export function sortedNews(): NewsItem[] {
   return [...news].sort((a, b) => b.date.localeCompare(a.date) || a.slug.localeCompare(b.slug));
 }
 
+/** Tópicos do Brasil: o foco do site. A abertura da home é sempre uma notícia destes tópicos. */
+const BRAZIL_TOPICS = new Set(["brasil", "congresso", "justica", "economia", "eleicoes"]);
+
+export function isBrazilNews(n: NewsItem): boolean {
+  return n.topic ? BRAZIL_TOPICS.has(n.topic) : false;
+}
+
+/**
+ * Separa a abertura da home (sempre do Brasil), o restante do Brasil e o mundo.
+ * Sem notícia do Brasil, a abertura cai na mais recente de qualquer tópico.
+ */
+export function splitHomeNews(items: NewsItem[]): { lead?: NewsItem; brazil: NewsItem[]; world: NewsItem[] } {
+  const lead = items.find(isBrazilNews) ?? items[0];
+  const rest = items.filter((n) => n !== lead);
+  return { lead, brazil: rest.filter(isBrazilNews), world: rest.filter((n) => !isBrazilNews(n)) };
+}
+
 let popularityCache: Map<string, number> | null = null;
 
 /**

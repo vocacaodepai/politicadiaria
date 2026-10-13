@@ -6,14 +6,26 @@ compra" e "Imagens". Todo artigo do site é resenha de livro (`kind: "review"`).
 
 ## Pautas
 
-- 3 livros reais de política por rodada, de **categorias diferentes** e de **campos políticos
-  variados** (nunca três do mesmo lado do espectro). Alterne as 7 categorias entre os dias.
-- Pautas: clássicos (Maquiavel, Tocqueville, Weber, Arendt, Bobbio, Hobbes, Locke, Marx, Hayek,
-  Burke, Rawls...), política brasileira (Raymundo Faoro, Sérgio Buarque, Victor Nunes Leal, José
-  Murilo de Carvalho, Sérgio Abranches, Lilia Schwarcz, Fernando Limongi, biografias de
-  presidentes...), geopolítica (Kissinger, Brzezinski, Mearsheimer, Tim Marshall, Fukuyama,
-  Huntington, Yuval...), democracia (Levitsky e Ziblatt, Przeworski, Dahl...), economia e Estado
-  (Piketty, Acemoglu e Robinson, Mazzucato...). Prefira edições em português disponíveis na Amazon Brasil.
+- 3 livros reais de política por rodada, de **categorias diferentes**. Alterne as 7 categorias
+  entre os dias.
+- **LINHA EDITORIAL (regra do dono do site, declarada ao leitor em /politica-editorial):** a seleção
+  é de **centro-direita e direita**: liberalismo clássico e econômico, conservadorismo,
+  libertarianismo, tradição ocidental, livre mercado, defesa da liberdade individual, família,
+  religião e instituições, geopolítica realista, história política e biografias. **NÃO publique
+  livros comunistas, marxistas, socialistas ou de esquerda** (nem obras de propaganda de
+  qualquer campo). Clássicos e obras de referência necessárias para entender o poder (Maquiavel,
+  Tocqueville, Burke, Weber, Hobbes, Locke...) entram.
+- Pautas: Burke, Tocqueville, Hayek, Mises, Friedman, Russell Kirk, Roger Scruton, Thomas Sowell,
+  Olavo de Carvalho (obras políticas, com as críticas feitas), Ludwig von Mises, Eric Voegelin,
+  Raymond Aron, Bertrand de Jouvenel, Tim Marshall, Kissinger, Fukuyama, Huntington, Mearsheimer,
+  Niall Ferguson, Jordan Peterson, Ayn Rand, Carlos Lacerda, Roberto Campos, Mário Vargas Llosa,
+  Bruno Garschagen, Luiz Felipe Pondé, Antônio Paim, Ives Gandra, biografias de líderes e
+  estadistas (Churchill, Thatcher, Reagan, Lincoln...), história do Brasil e do mundo com rigor.
+  Prefira edições em português disponíveis na Amazon Brasil. Confira sempre que o livro é real,
+  o autor e o ISBN.
+- A nota continua julgando **a qualidade da obra**, e a resenha **lista as críticas feitas ao
+  livro**. Tom sóbrio: descrever o que o livro defende, sem propaganda partidária e sem atacar
+  pessoas.
 - Rejeite livro que já tem resenha (`ls content/articles`).
 - Use WebSearch para confirmar que o livro existe, editora, ano, páginas e ISBN. Confirme o
   ISBN-10 em Open Library (`https://openlibrary.org/api/books?bibkeys=ISBN:<isbn>&format=json&jscmd=data`)

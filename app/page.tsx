@@ -5,6 +5,8 @@ import { ArticleCard } from "@/components/ArticleCard";
 import { CategoryChips } from "@/components/CategoryChips";
 import { Container } from "@/components/Container";
 import { CongressPromo } from "@/components/CongressPromo";
+import { ChecagemStrip } from "@/components/ChecagemStrip";
+import { EleicoesStrip } from "@/components/EleicoesStrip";
 import { CoverImage } from "@/components/CoverImage";
 import { NewsList } from "@/components/NewsRow";
 import { NewsTicker } from "@/components/NewsTicker";
@@ -20,7 +22,7 @@ import {
   site,
   sortedArticles,
 } from "@/lib/articles";
-import { news, newsImageSeed, sortedNews } from "@/lib/news";
+import { news, newsImageSeed, sortedNews, splitHomeNews } from "@/lib/news";
 import { absoluteUrl, formatDate, metaDescription, safeJsonLd, alternatesFor } from "@/lib/seo";
 
 const HOME_TITLE = "Política Diária: notícias de política, Congresso por dentro e livros para entender o poder";
@@ -91,10 +93,11 @@ export default function Home() {
     }))
     .filter((b) => b.items.length > 0);
 
-  const allNews = sortedNews();
-  const [leadNews, ...restNews] = allNews;
-  const todayNews = restNews.slice(0, 6);
-  const moreNews = restNews.slice(6, 14);
+  // Foco no Brasil: a abertura é sempre uma notícia do Brasil, e o mundo vem depois, em menor espaço.
+  const { lead: leadNews, brazil, world } = splitHomeNews(sortedNews());
+  const todayNews = brazil.slice(0, 6);
+  const moreNews = brazil.slice(6, 12);
+  const worldNews = world.slice(0, 4);
 
   const itemListJsonLd = {
     "@context": "https://schema.org",
@@ -158,6 +161,9 @@ export default function Home() {
         </div>
       </Container>
 
+      <EleicoesStrip />
+      <ChecagemStrip />
+
       <Container className="mt-8">
         <CategoryChips />
       </Container>
@@ -168,8 +174,15 @@ export default function Home() {
 
       {moreNews.length > 0 && (
         <Container as="section" className="mt-12">
-          <SectionHeading label="Mais" title="Mais notícias de política" href="/noticias" linkText="Ver todas" />
+          <SectionHeading label="Brasil" title="Mais notícias do Brasil" href="/noticias" linkText="Ver todas" />
           <NewsList items={moreNews} columns={2} />
+        </Container>
+      )}
+
+      {worldNews.length > 0 && (
+        <Container as="section" className="mt-12">
+          <SectionHeading label="Mundo" title="Política internacional" href="/noticias" linkText="Ver mais" />
+          <NewsList items={worldNews} columns={2} />
         </Container>
       )}
 

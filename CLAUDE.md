@@ -1,7 +1,8 @@
 ## O que é o site
 
 **Política Diária** (www.politicadiaria.com.br) é um site brasileiro de política nacional e
-internacional com três frentes:
+internacional. **O foco é o Brasil**: a notícia em destaque da home é sempre do Brasil e a maior
+parte da cobertura é nacional (mundo entra, mas em menor proporção). Cinco frentes:
 
 1. **Notícias diárias** (`/noticias`): política do Brasil e do mundo, sempre com fonte primária.
 2. **Congresso por dentro** (`/congresso`): quem são os 513 deputados federais e os 81
@@ -11,15 +12,25 @@ internacional com três frentes:
    política** (`kind: "review"`), com nota de 0 a 10 e link de afiliado da Amazon Brasil.
    Não existe artigo "guia" nem comparativo de produto.
 
+4. **Eleições 2026** (`/eleicoes`): painel com resultados do TSE (quem está na frente, 2º turno,
+   Senado, Câmara), pesquisas de intenção de voto e **ranking de acerto dos institutos**. Item fixo
+   no menu e destaque na home enquanto houver eleição. Dados em `data/eleicoes/` com fonte e data.
+5. **Checagem** (`/checagem`): verificação de boatos e notícias falsas, com veredito, fontes
+   numeradas ("checado em N fontes") e a mesma régua para qualquer campo político.
+
 Monetização: Google AdSense e Programa de Associados da Amazon, tag **`politicadiaria-20`**
 (também em `site.amazonTag`, `lib/articles.ts`).
 
 ## Linha editorial (vale para tudo)
 
-- **Apartidário.** Fato separado de opinião. Nenhum adjetivo sobre partido, político ou governo.
+- **Notícias, Eleições, Checagem e Congresso são apartidários.** Fato separado de opinião. Nenhum adjetivo sobre partido, político ou governo.
   Nada de "esquerda boa / direita má" nem o contrário. Tratar todos os campos pela mesma régua.
-- A **nota de um livro julga a qualidade da obra** (clareza, profundidade, rigor e fontes,
-  atualidade, leitura), nunca a posição política do autor. Livros de todos os campos entram.
+- **Linha editorial dos livros (declarada ao leitor em `/politica-editorial`):** só resenhamos
+  obras de política com viés de **centro-direita e direita** (liberal, conservadora, libertária,
+  tradição ocidental, direito e economia de mercado) e clássicos/obras de referência para entender
+  o poder. **Não publicar livros comunistas, marxistas, socialistas ou de esquerda.** Dentro da
+  seleção, a **nota julga a qualidade da obra** (clareza, profundidade, rigor e fontes, atualidade,
+  leitura), nunca a posição do autor, e a resenha lista as críticas feitas à obra.
 - Fonte primária sempre que existir: Diário Oficial, Câmara, Senado, STF, TSE, Planalto, ONU, FMI
   etc., além de veículos de imprensa identificados. Todo link externo é aberto e conferido
   antes de entrar (não abre = não entra).
@@ -56,8 +67,8 @@ dd/mm/aaaa"), `bestFor`, `url` (Amazon), `affiliate: true`, `ctaLabel`.
 - **Nunca alegar leitura pessoal** ("li", "fiquei dias com ele"). É análise editorial a partir da
   obra, da ficha da edição, do sumário e de resenhas/fontes públicas citadas. Nunca copiar
   trecho longo: no máximo uma citação curta (até 25 palavras) com página, quando verificada.
-- Livros de campos opostos pelo mesmo critério; a resenha diz o que o livro defende, quais as
-  críticas a ele e para quem serve, sem concordar nem discordar.
+- A resenha diz o que o livro defende, quais as críticas a ele e para quem serve. Nunca
+  fazer propaganda partidária nem atacar pessoas; descrever posição, não carimbar.
 - A nota usa a régua de `components/ScoreScaleNote.tsx`. A média dos cinco critérios (com
   pesos iguais) dá a nota final, arredondada a uma casa.
 
@@ -113,9 +124,17 @@ Commons.** Nunca imagem gerada por IA, nunca captura de página da Amazon.
   de contexto, um h2 "Por que isso importa" com análise factual (o que muda, quem é afetado,
   próximos passos), e mais um ou dois desdobramentos. 3 a 6 links internos (notícias, resenhas,
   páginas de parlamentares citados em `/congresso/...`). Sem lista de fontes ao final.
+- **Foco no Brasil.** Pelo menos 2 de cada 3 notícias publicadas são do Brasil (Planalto, Congresso,
+  STF/TSE/STJ, eleições, economia com efeito político, estados e capitais). A **notícia de
+  abertura da home é sempre do Brasil** (tópicos `brasil`, `congresso`, `justica`, `economia`,
+  `eleicoes`). Mundo (`mundo`, `americas`, `europa`, `oriente-medio`, `asia`) entra em menor
+  proporção e sempre com ângulo para o leitor brasileiro.
+- **Eleições.** Enquanto houver eleição (campanha, 1º e 2º turno, apuração), o item "Eleições
+  2026" fica no menu e na home, notícias do tema levam `topic: "eleicoes"` e linkam o painel
+  `/eleicoes`. Boato eleitoral vira checagem em `/checagem`, não notícia.
 - Notícias nunca são apagadas: URL indexada continua no ar.
-- Cobertura obrigatória de equilíbrio: ao longo do dia, política nacional (governo, Congresso,
-  STF, eleições, economia) e internacional (EUA, América Latina, Europa, Oriente Médio, Ásia).
+- Cobertura: majoritariamente política nacional (governo, Congresso, STF, eleições, economia),
+  mais internacional (EUA, América Latina, Europa, Oriente Médio, Ásia) em menor proporção.
 
 ## Congresso por dentro (`/congresso`)
 
@@ -131,7 +150,8 @@ Commons.** Nunca imagem gerada por IA, nunca captura de página da Amazon.
 ## Rotinas diárias
 
 As rotinas agendadas publicam sozinhas; as instruções vivem em `docs/rotinas/` e valem como
-parte deste arquivo: `comum.md` (regras comuns), `noticias.md`, `livros.md`, `congresso.md`.
+parte deste arquivo: `comum.md` (regras comuns), `noticias.md` (de hora em hora), `livros.md`, `congresso.md`,
+`checagem.md` e `eleicoes.md`.
 Rotinas de conteúdo só alteram `content/`, `public/images/covers/` (e `data/congresso/` na rotina
 do Congresso); nunca `docs/`, `CLAUDE.md`, `lib/`, `app/`, `components/`, `scripts/` nem
 configuração.

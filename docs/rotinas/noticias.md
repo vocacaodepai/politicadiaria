@@ -1,17 +1,27 @@
 # Rotina: notícias de política (nacional e internacional)
 
-Horários (Brasília): 06:20, 09:20, 12:20, 15:20, 18:20 e 21:20. Nome do clone: `pd-noticias`.
+Horário: **de hora em hora, das 06:00 às 23:00 (Brasília)**. Nome do clone: `pd-noticias`.
 Siga `docs/rotinas/comum.md` além do que está aqui. Se não houver notícia nova de verdade,
-termine em silêncio, sem commit e sem mensagem. Publique **no máximo 2 notícias por rodada**.
+termine em silêncio, sem commit e sem mensagem. Publique **no máximo 2 notícias por rodada**
+(1 já basta quando só houver um fato novo relevante). Não force: rodada vazia é normal.
 
-## Equilíbrio
+## Foco no Brasil (regra do dono do site)
 
-Alterne a cobertura ao longo do dia: nas rodadas, procure ao menos 1 fato nacional e, quando
-houver, 1 internacional. Varie os `topic` (não empilhe tudo em `brasil`).
+- **O Brasil é o foco.** Procure primeiro fatos nacionais; só depois internacionais. Pelo menos
+  2 de cada 3 notícias publicadas devem ser do Brasil. Em dúvida entre um fato do mundo e um do
+  Brasil de peso parecido, publique o do Brasil.
+- A notícia de **abertura da home é sempre do Brasil** (a home escolhe sozinha a mais recente
+  com tópico `brasil`, `congresso`, `justica`, `economia` ou `eleicoes`).
+- **Eleições:** no período eleitoral, cubra campanha, TSE, pesquisas, debates, apuração e
+  2º turno com `topic: "eleicoes"` e link para `/eleicoes`. Fatos de eleição que já estão no
+  painel (resultado, pesquisa nova) pedem notícia só quando houver fato novo explicável. Boato,
+  "print" ou vídeo viral não é notícia: vai para a rotina de checagem.
+- Varie os `topic` dentro do Brasil (Congresso, STF, economia, estados, eleições).
 
 ## O que procurar (últimas 24 a 48 horas)
 
-Use WebSearch (3 a 6 buscas, em português e inglês) por fatos verificáveis sobre:
+Use WebSearch e WebFetch das fontes oficiais e das principais páginas de notícia (3 a 6 buscas)
+por fatos verificáveis sobre:
 - **Brasil**: votações e pautas da Câmara e do Senado, decisões do STF/TSE/STJ, atos do
   Executivo (decretos, medidas provisórias, nomeações), eleições e calendário eleitoral,
   política econômica com efeito político (orçamento, reforma, arcabouço fiscal), CPIs, emendas.
