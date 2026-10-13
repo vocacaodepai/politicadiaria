@@ -7,7 +7,10 @@ import { ListingHeader } from "@/components/listing/ListingHeader";
 import { listingMetadata } from "@/components/listing/metadata";
 import { absoluteUrl, breadcrumbJsonLd } from "@/lib/seo";
 import { UF_NAMES, formatBRL, formatBRLShort, formatInt, formatPct, getMeta, getRemuneracao, getSummary, partySlug, pct } from "@/lib/congress";
+import { THEMES } from "./NumerosPage";
+import { getNumeros, hasEvolucao, hasNumeros, type NumeroRow } from "@/lib/congress-extra";
 import { BarList, StackedBar } from "./Bars";
+import { LegislatureNotice } from "./LegislatureNotice";
 import { Card, StatTile } from "./Stat";
 
 const PATH = "/congresso";
@@ -33,6 +36,19 @@ export function OverviewPage() {
     .sort((a, b) => b.dep - a.dep || a.uf.localeCompare(b.uf));
   const maxUf = Math.max(1, ...ufRows.map((r) => r.dep));
   const spendTotal = cam.despesas.total + sen.despesas.total;
+  const nums = hasNumeros() ? getNumeros() : null;
+  const sum = (rows: NumeroRow[], k: "g" | "m" | "a" | "t") => rows.reduce((a, r) => a + r[k], 0);
+  const detail: Record<string, { value: string; hint: string }> | null = nums
+    ? {
+        "cota-camara": { value: formatBRLShort(sum(nums.camara, "g")), hint: `média de ${formatBRLShort(sum(nums.camara, "g") / Math.max(1, sum(nums.camara, "m")))} por deputado, por mês` },
+        "ceaps-senado": { value: formatBRLShort(sum(nums.senado, "g")), hint: `média de ${formatBRLShort(sum(nums.senado, "g") / Math.max(1, sum(nums.senado, "m")))} por senador, por mês` },
+        subsidio: { value: formatBRL(rem.subsidio.valor), hint: "por mês, bruto, igual nas duas Casas" },
+        "verba-gabinete": { value: formatBRL(rem.camara.verbaGabinete.tetoMensal), hint: "teto mensal por deputado, até 25 secretários" },
+        "auxilio-moradia": { value: formatBRL(rem.camara.auxilioMoradia.valorMensal), hint: "por mês, na Câmara, sem apartamento funcional" },
+        "ausencias-camara": { value: formatPct(pct(sum(nums.camara, "a"), sum(nums.camara, "t"))), hint: "dos votos possíveis sem registro em votações nominais" },
+        "ausencias-senado": { value: formatPct(pct(sum(nums.senado, "a"), sum(nums.senado, "t"))), hint: "das votações nominais com “não compareceu”" },
+      }
+    : null;
 
   const ld = {
     "@context": "https://schema.org",
@@ -58,17 +74,30 @@ export function OverviewPage() {
           label="Congresso Nacional"
           title="Quem está no Congresso hoje"
           description="Diretório dos 513 deputados federais e dos 81 senadores em exercício na 57ª legislatura (2023 a 2027), montado com os dados abertos da Câmara e do Senado. Cada parlamentar tem uma página com votos, gastos, proposições e contato."
-          count={`${formatInt(s.totalParlamentares)} parlamentares · dados oficiais, atualizados em ${updated}`}
+          count={`${formatInt(s.totalParlamentares)} parlamentares · ${meta.legislatura}ª legislatura · dados oficiais coletados em ${updated}`}
         />
+        <LegislatureNotice className="mt-6" />
 
         <div className="mt-8 grid grid-cols-2 gap-3 lg:grid-cols-4">
-          <StatTile label="Deputados federais" value={formatInt(cam.total)} hint={`${formatPct(pct(women(cam), cam.total))} mulheres`} />
-          <StatTile label="Senadores" value={formatInt(sen.total)} hint={`${formatPct(pct(women(sen), sen.total))} mulheres`} />
-          <StatTile label="Partidos representados" value={formatInt(parties.length)} hint="somando as duas Casas" />
-          <StatTile label="Cota usada na legislatura" value={formatBRLShort(spendTotal)} hint="CEAP e CEAPS, desde fev/2023" />
+          <StatTile label="Deputados federais" value={formatInt(cam.total)} hint={`${formatPct(pct(women(cam), cam.total))} mulheres`} href="/congresso/plenario" cta="Ver no plenário" />
+          <StatTile label="Senadores" value={formatInt(sen.total)} hint={`${formatPct(pct(women(sen), sen.total))} mulheres`} href="/congresso/plenario?casa=senado" cta="Ver no plenário" />
+          <StatTile label="Partidos representados" value={formatInt(parties.length)} hint="somando as duas Casas" href={hasEvolucao() ? "/congresso/evolucao" : undefined} cta="Como as bancadas mudaram" />
+          <StatTile label="Cota usada na legislatura" value={formatBRLShort(spendTotal)} hint="CEAP e CEAPS, desde fev/2023" href={nums ? "/congresso/numeros/cota-camara" : undefined} />
         </div>
 
-        <div className="mt-6 grid gap-3 sm:grid-cols-2">
+        <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          <Link href="/congresso/plenario" className="card-hover rounded-xl border border-border border-t-[3px] border-t-foreground bg-surface p-5">
+            <p className="label-mono text-accent">Visualização</p>
+            <p className="mt-1 font-display text-xl font-bold">O plenário em um mapa →</p>
+            <p className="mt-1 text-sm text-muted">Um ponto por parlamentar, por partido. Filtre e abra a ficha.</p>
+          </Link>
+          {hasEvolucao() && (
+            <Link href="/congresso/evolucao" className="card-hover rounded-xl border border-border border-t-[3px] border-t-foreground bg-surface p-5">
+              <p className="label-mono text-accent">Comparativo</p>
+              <p className="mt-1 font-display text-xl font-bold">Evolução das bancadas →</p>
+              <p className="mt-1 text-sm text-muted">Quem cresceu e quem encolheu entre três legislaturas.</p>
+            </Link>
+          )}
           <Link href="/congresso/deputados" className="card-hover rounded-xl border border-border bg-surface p-5">
             <p className="label-mono text-accent">Câmara dos Deputados</p>
             <p className="mt-1 font-display text-xl font-bold">Ver os 513 deputados federais →</p>
@@ -80,6 +109,25 @@ export function OverviewPage() {
             <p className="mt-1 text-sm text-muted">Três senadores por estado e pelo Distrito Federal.</p>
           </Link>
         </div>
+
+        {detail && (
+          <section id="numeros" aria-labelledby="numeros-t" className="mt-8 scroll-mt-24">
+            <div className="flex flex-wrap items-baseline justify-between gap-2 border-t-[3px] border-foreground pt-3">
+              <h2 id="numeros-t" className="font-display text-2xl font-bold tracking-tight">
+                Números em detalhe, com fontes
+              </h2>
+              <Link href="/congresso/numeros" className="text-sm text-accent underline">
+                Ver todos
+              </Link>
+            </div>
+            <p className="mt-1 text-sm text-muted">Clique em um número para ver a conta, a distribuição por partido e estado, os extremos e as fontes oficiais.</p>
+            <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+              {THEMES.map((th) => (
+                <StatTile key={th.slug} label={th.short} value={detail[th.slug].value} hint={detail[th.slug].hint} href={`/congresso/numeros/${th.slug}`} cta="Conta e fontes" />
+              ))}
+            </div>
+          </section>
+        )}
 
         <div className="mt-8 grid gap-6 lg:grid-cols-2">
           <Card id="partidos-camara" title="Bancadas na Câmara, por partido" note="Cada barra é o número de deputados que está no partido hoje. Clique na sigla para ver os integrantes.">
@@ -171,6 +219,14 @@ export function OverviewPage() {
           <Card id="gastos-camara" title="Cota parlamentar na Câmara" note="Valores líquidos reembolsados aos 513 deputados atuais desde fevereiro de 2023 (2026 em andamento).">
             <p className="text-sm text-muted">
               Total: <strong className="text-foreground">{formatBRL(cam.despesas.total)}</strong>
+              {nums && (
+                <>
+                  {" · "}
+                  <Link className="text-accent underline" href="/congresso/numeros/cota-camara">
+                    Por partido, estado e fontes
+                  </Link>
+                </>
+              )}
             </p>
             <h3 className="mt-3 label-mono text-muted">Por ano</h3>
             <BarList className="mt-2" labelWidth="3rem" items={cam.despesas.porAno.map((y) => ({ label: String(y.ano), value: y.total, display: formatBRLShort(y.total) }))} />
@@ -184,6 +240,14 @@ export function OverviewPage() {
           <Card id="gastos-senado" title="CEAPS no Senado" note="Valores reembolsados aos 81 senadores atuais desde fevereiro de 2023 (2026 em andamento).">
             <p className="text-sm text-muted">
               Total: <strong className="text-foreground">{formatBRL(sen.despesas.total)}</strong>
+              {nums && (
+                <>
+                  {" · "}
+                  <Link className="text-accent underline" href="/congresso/numeros/ceaps-senado">
+                    Por partido, estado e fontes
+                  </Link>
+                </>
+              )}
             </p>
             <h3 className="mt-3 label-mono text-muted">Por ano</h3>
             <BarList className="mt-2" labelWidth="3rem" items={sen.despesas.porAno.map((y) => ({ label: String(y.ano), value: y.total, display: formatBRLShort(y.total) }))} />
@@ -203,15 +267,28 @@ export function OverviewPage() {
               <a className="text-accent underline" href={rem.subsidio.fonte.url} target="_blank" rel="noopener noreferrer">
                 Fonte
               </a>
+              {" · "}
+              <Link className="text-accent underline" href="/congresso/numeros/subsidio">
+                Conta e fontes
+              </Link>
             </li>
             <li>
-              <strong>Verba de gabinete (Câmara):</strong> até {formatBRL(rem.camara.verbaGabinete.tetoMensal)} por mês para até {rem.camara.verbaGabinete.maxSecretarios} secretários.
+              <strong>Verba de gabinete (Câmara):</strong> até {formatBRL(rem.camara.verbaGabinete.tetoMensal)} por mês para até {rem.camara.verbaGabinete.maxSecretarios} secretários.{" "}
+              <Link className="text-accent underline" href="/congresso/numeros/verba-gabinete">
+                Conta e fontes
+              </Link>
             </li>
             <li>
-              <strong>Cota (CEAP, Câmara):</strong> de {formatBRL(rem.camara.cota.minimoMensal)} ({rem.camara.cota.minimoUf}) a {formatBRL(rem.camara.cota.maximoMensal)} ({rem.camara.cota.maximoUf}) por mês, conforme o estado.
+              <strong>Cota (CEAP, Câmara):</strong> de {formatBRL(rem.camara.cota.minimoMensal)} ({rem.camara.cota.minimoUf}) a {formatBRL(rem.camara.cota.maximoMensal)} ({rem.camara.cota.maximoUf}) por mês, conforme o estado.{" "}
+              <Link className="text-accent underline" href="/congresso/numeros/cota-camara">
+                Conta e fontes
+              </Link>
             </li>
             <li>
-              <strong>Auxílio-moradia (Câmara):</strong> {formatBRL(rem.camara.auxilioMoradia.valorMensal)} por mês, para quem não usa apartamento funcional.
+              <strong>Auxílio-moradia (Câmara):</strong> {formatBRL(rem.camara.auxilioMoradia.valorMensal)} por mês, para quem não usa apartamento funcional.{" "}
+              <Link className="text-accent underline" href="/congresso/numeros/auxilio-moradia">
+                Conta e fontes
+              </Link>
             </li>
           </ul>
         </Card>
