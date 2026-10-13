@@ -4,20 +4,21 @@
 @custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
 
 /* ---------- Tokens: tema claro (padrão) ---------- */
+/* Papel branco, tinta quase preta e linhas finas, como nos grandes jornais. */
 :root {
-  --background: #f5f7fb;
+  --background: #ffffff;
   --surface: #ffffff;
-  --surface-2: #e8edf6;
-  --border: #d0d9ea;
-  --foreground: #0f1b33;
-  --muted: #475569;
+  --surface-2: #f5f4f0;
+  --border: #dedbd3;
+  --foreground: #121212;
+  --muted: #5a5a55;
   --accent: #1e40af;
   --accent-2: #a16207;
   --success: #15803d;
   --warn: #b45309;
-  --danger: #dc2626;
-  --ink: #0a1224;
-  --ink-foreground: #eaf0fb;
+  --danger: #b91c1c;
+  --ink: #121212;
+  --ink-foreground: #f1efe9;
   --accent-foreground: #ffffff;
   --ring: color-mix(in srgb, var(--accent) 55%, transparent);
   color-scheme: light;
@@ -26,36 +27,38 @@
 /* ---------- Tokens: tema escuro (automático pelo sistema) ---------- */
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --background: #0a1224;
-    --surface: #101b33;
-    --surface-2: #17264a;
-    --border: #263a66;
-    --foreground: #eaf0fb;
-    --muted: #a5b3cc;
-    --accent: #60a5fa;
+    --background: #121212;
+    --surface: #181818;
+    --surface-2: #222220;
+    --border: #3a3a37;
+    --foreground: #ece9e2;
+    --muted: #a9a79f;
+    --accent: #7aa7f0;
     --accent-2: #fbbf24;
     --success: #4ade80;
     --warn: #fbbf24;
     --danger: #f87171;
-    --accent-foreground: #0a1224;
+    --ink: #0b0b0b;
+    --accent-foreground: #121212;
     color-scheme: dark;
   }
 }
 
 /* ---------- Tokens: tema escuro (forçado pelo botão) ---------- */
 :root[data-theme="dark"] {
-  --background: #0a1224;
-  --surface: #101b33;
-  --surface-2: #17264a;
-  --border: #263a66;
-  --foreground: #eaf0fb;
-  --muted: #a5b3cc;
-  --accent: #60a5fa;
+  --background: #121212;
+  --surface: #181818;
+  --surface-2: #222220;
+  --border: #3a3a37;
+  --foreground: #ece9e2;
+  --muted: #a9a79f;
+  --accent: #7aa7f0;
   --accent-2: #fbbf24;
   --success: #4ade80;
   --warn: #fbbf24;
   --danger: #f87171;
-  --accent-foreground: #0a1224;
+  --ink: #0b0b0b;
+  --accent-foreground: #121212;
   color-scheme: dark;
 }
 
@@ -75,9 +78,26 @@
   --color-ink: var(--ink);
   --color-ink-foreground: var(--ink-foreground);
   --color-ring: var(--ring);
-  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  --font-display: var(--font-space-grotesk), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
-  --font-mono: var(--font-jetbrains), ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  /* Interface e rótulos: grotesca clássica. Manchetes: serifa de alto contraste. */
+  --font-sans: var(--font-sans-news), "Franklin Gothic Medium", "Helvetica Neue", Arial, sans-serif;
+  --font-display: var(--font-display-news), "Times New Roman", Georgia, serif;
+  --font-serif: var(--font-serif-news), Georgia, "Times New Roman", serif;
+  /* Os rótulos pequenos que usavam mono passam a usar a grotesca, com números tabulares. */
+  --font-mono: var(--font-sans-news), "Franklin Gothic Medium", "Helvetica Neue", Arial, sans-serif;
+
+  /* Cantos retos e sombras discretas: jornal, não aplicativo. */
+  --radius-xs: 0;
+  --radius-sm: 0;
+  --radius-md: 1px;
+  --radius-lg: 2px;
+  --radius-xl: 2px;
+  --radius-2xl: 3px;
+  --radius-3xl: 3px;
+  --shadow-sm: none;
+  --shadow-md: 0 1px 0 color-mix(in srgb, var(--foreground) 8%, transparent);
+  --shadow-lg: 0 2px 0 color-mix(in srgb, var(--foreground) 10%, transparent);
+  --shadow-xl: 0 6px 18px -10px color-mix(in srgb, var(--foreground) 35%, transparent);
+  --shadow-2xl: 0 10px 24px -12px color-mix(in srgb, var(--foreground) 40%, transparent);
 }
 
 /* ---------- Base ---------- */
@@ -91,7 +111,15 @@ body {
   color: var(--foreground);
   font-family: var(--font-sans);
   text-rendering: optimizeLegibility;
-  font-feature-settings: "cv11", "ss01", "calt";
+  font-variant-numeric: lining-nums;
+}
+
+/* Manchetes sempre em serifa, com ótica de impressão. */
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  text-wrap: balance;
 }
 
 :focus-visible {
@@ -136,40 +164,38 @@ body {
 }
 
 .label-mono {
-  font-family: var(--font-mono);
+  font-family: var(--font-sans);
   font-size: 0.6875rem;
-  font-weight: 500;
-  letter-spacing: 0.08em;
+  font-weight: 700;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
 }
 
+/* Antes eram degradê e brilho; no estilo jornal viram cor sólida e nada. */
 .text-gradient {
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: inherit;
 }
 
 .hero-glow {
-  background: radial-gradient(
-    60% 60% at 30% 20%,
-    color-mix(in srgb, var(--accent) 45%, transparent),
-    transparent 70%
-  ),
-  radial-gradient(
-    50% 50% at 80% 80%,
-    color-mix(in srgb, var(--accent-2) 35%, transparent),
-    transparent 70%
-  );
+  display: none;
 }
 
 .card-hover {
-  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  transition: border-color 0.15s ease;
 }
 .card-hover:hover {
-  border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
-  transform: translateY(-2px);
-  box-shadow: 0 16px 32px -24px color-mix(in srgb, var(--ink) 50%, transparent);
+  border-color: var(--foreground);
+}
+
+/* Filetes de jornal */
+.rule-thick {
+  border-top: 3px solid var(--foreground);
+}
+.rule-double {
+  border-top: 3px double var(--foreground);
+}
+.rule-thin {
+  border-top: 1px solid var(--foreground);
 }
 
 .no-scrollbar {
@@ -232,8 +258,9 @@ body {
 /* ---------- Corpo do artigo ---------- */
 .prose-article {
   color: var(--foreground);
-  font-size: 1.0625rem;
-  line-height: 1.75;
+  font-family: var(--font-serif);
+  font-size: 1.1875rem;
+  line-height: 1.7;
 }
 
 .prose-article > :first-child {
@@ -242,33 +269,43 @@ body {
 
 .prose-article h2 {
   font-family: var(--font-display);
-  font-size: 1.5rem;
+  font-size: 1.625rem;
   font-weight: 700;
-  letter-spacing: -0.02em;
-  line-height: 1.25;
-  margin: 2.5rem 0 1rem;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  margin: 2.75rem 0 1rem;
   scroll-margin-top: 6rem;
   color: var(--foreground);
 }
 
 .prose-article h3 {
   font-family: var(--font-display);
-  font-size: 1.2rem;
-  font-weight: 600;
-  letter-spacing: -0.01em;
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0;
   line-height: 1.3;
   margin: 2rem 0 0.75rem;
   scroll-margin-top: 6rem;
 }
 
 .prose-article h4 {
-  font-size: 1.0625rem;
+  font-family: var(--font-sans);
+  font-size: 1rem;
   font-weight: 600;
   margin: 1.5rem 0 0.5rem;
 }
 
 .prose-article p {
-  margin: 0 0 1.25rem;
+  margin: 0 0 1.35rem;
+}
+
+.prose-article > p:first-of-type::first-letter {
+  float: left;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 4.1rem;
+  line-height: 0.82;
+  padding: 0.3rem 0.5rem 0 0;
 }
 
 .prose-article ul,
@@ -321,8 +358,11 @@ body {
 .prose-article blockquote {
   margin: 1.5rem 0;
   padding: 0.25rem 0 0.25rem 1.25rem;
-  border-left: 3px solid var(--accent);
-  color: var(--muted);
+  border-left: 3px solid var(--foreground);
+  color: var(--foreground);
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  line-height: 1.45;
   font-style: italic;
 }
 
@@ -368,8 +408,8 @@ body {
   display: block;
   max-width: 100%;
   height: auto;
-  border-radius: 0.75rem;
-  border: 1px solid var(--border);
+  border-radius: 0;
+  border: 0;
 }
 
 /*
@@ -396,7 +436,7 @@ body {
 
 .prose-article figcaption {
   margin-top: 0.5rem;
-  font-family: var(--font-mono);
+  font-family: var(--font-sans);
   font-size: 0.6875rem;
   letter-spacing: 0.02em;
   color: var(--muted);

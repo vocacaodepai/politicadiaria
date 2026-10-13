@@ -138,11 +138,16 @@ configuração.
 
 ## Identidade visual
 
-Marca "Plenário": frontão sobre três colunas, gradiente azul-marinho (`#1E40AF`) para âmbar
-(`#F59E0B`). Geometria em `lib/logo.ts`; `node scripts/build-brand-assets.mjs` regenera
-`app/icon.svg` e `public/logo*.svg`. Paleta em `app/globals.css` (tokens claro/escuro):
-fundo `#F5F7FB`, texto `#0F1B33`, destaque `#1E40AF`, secundária `#A16207`, CTA âmbar
-`#B45309`; escuro: fundo `#0A1224`, destaque `#60A5FA`, secundária `#FBBF24`.
+Estilo de **jornal** (referências: grandes sites de notícia). Nome "Política Diária" em serifa de alto
+contraste, sem ícone: manchetes em **Playfair Display**, texto corrido em **Source Serif 4**, rótulos,
+navegação e metadados em **Libre Franklin** (todas livres, via `next/font`). Cabeçalho com data, nome
+centralizado, filete duplo e seções em maiúsculas (`components/Header.tsx`); filetes grossos nos títulos
+de seção; cantos retos e sombras discretas (tokens `--radius-*` em `app/globals.css`). Monograma "PD" só
+para favicon e redes (`lib/logo.ts`; `node scripts/build-brand-assets.mjs` regenera `app/icon.svg` e
+`public/logo*.svg`). Nunca copiar marca, fonte ou logo de outro veículo. Paleta em `app/globals.css`
+(tokens claro/escuro): fundo `#FFFFFF`, texto `#121212`, linhas `#DEDBD3`, destaque (links) `#1E40AF`,
+secundária `#A16207`; escuro: fundo `#121212`, texto `#ECE9E2`, destaque `#7AA7F0`, secundária `#FBBF24`.
+Imagem Open Graph em `lib/og.tsx` (fontes em `assets/fonts`).
 
 ## Deploy
 

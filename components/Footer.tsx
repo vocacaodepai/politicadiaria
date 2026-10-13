@@ -7,15 +7,15 @@ import { CookiePreferencesButton } from "./CookiePreferencesButton";
 import { INSTITUTIONAL_NAV } from "./Header";
 
 const ADSENSE_CLIENT = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-J2V2PCNK2T";
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID ?? "G-ZYF7C9MBFQ";
 
 export function Footer() {
   const year = new Date().getFullYear();
   return (
-    <footer className="mt-16 border-t border-border bg-surface">
+    <footer className="mt-16 border-t-[3px] border-double border-foreground bg-background">
       <div className="mx-auto grid w-full max-w-7xl grid-cols-2 gap-x-8 gap-y-10 px-4 py-12 sm:px-6 md:grid-cols-4 lg:grid-cols-5 lg:px-8">
         <div className="col-span-2 lg:col-span-2">
-          <Logo id="footer" />
+          <Logo />
           <p className="mt-4 max-w-sm text-sm leading-relaxed text-muted">{site.description}</p>
           <p className="mt-4 text-sm text-muted">
             Redação:{" "}
