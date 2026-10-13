@@ -9,10 +9,12 @@
  */
 import { readFileSync, readdirSync } from "node:fs";
 import { resolve } from "node:path";
+import { checkChecagens, loadChecagens } from "./lib/check-checagens.mjs";
 
 const ROOT = resolve(new URL("..", import.meta.url).pathname);
 const ARTICLES_DIR = resolve(ROOT, "content/articles");
 const NEWS_DIR = resolve(ROOT, "content/news");
+const CHECAGENS_DIR = resolve(ROOT, "content/checagens");
 
 // Artigos com data igual ou posterior a esta seguem o padrão editorial novo
 // (>= 10 links internos, >= 900 palavras, 3 keyPoints, FAQ). Os mais antigos só geram aviso.
@@ -319,7 +321,13 @@ function check() {
     }
   }
 
-  return { articles: articles.length, news: news.length };
+  // Checagens (/checagem): validação própria em scripts/lib/check-checagens.mjs.
+  const ctx = {
+    errors, warnings, TODAY, FORBIDDEN, ALLOWED_TAGS, decodeEntities, readField, readContent, articleSlugs, newsSlugs,
+  };
+  const checagens = checkChecagens(loadChecagens(CHECAGENS_DIR, ctx), ctx);
+
+  return { articles: articles.length, news: news.length, checagens };
 }
 
 const stats = check();
@@ -331,5 +339,5 @@ if (errors.length) {
   process.exit(1);
 }
 console.log(
-  `check-content: ok (${stats.articles} artigos, ${stats.news} notícias, ${warnings.length} aviso(s))`
+  `check-content: ok (${stats.articles} artigos, ${stats.news} notícias, ${stats.checagens} checagens, ${warnings.length} aviso(s))`
 );

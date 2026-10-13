@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Gera os índices content/articles/index.ts e content/news/index.ts a partir
+ * Gera os índices content/articles/index.ts, content/news/index.ts e content/checagens/index.ts a partir
  * dos arquivos content/<tipo>/<slug>.ts. Roda em `npm run check:content`,
  * `npm run lint` e antes de todo build. Um arquivo por item: as rotinas de
  * escrita criam arquivos novos em vez de editar um arquivo gigante.
@@ -13,6 +13,7 @@ const ROOT = resolve(new URL("..", import.meta.url).pathname);
 const COLLECTIONS = [
   { dir: "content/articles", exportName: "articles", itemExport: "article", type: "Article" },
   { dir: "content/news", exportName: "news", itemExport: "item", type: "NewsItem" },
+  { dir: "content/checagens", exportName: "checagens", itemExport: "checagem", type: "FactCheck" },
 ];
 
 const slugRe = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;

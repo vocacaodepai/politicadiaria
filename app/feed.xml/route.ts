@@ -1,4 +1,5 @@
 import { site, sortedArticles, categories } from "@/lib/articles";
+import { checagemPath, sortedChecagens, verdictMeta } from "@/lib/checagens";
 import { sortedNews } from "@/lib/news";
 import { author } from "@/lib/author";
 
@@ -33,6 +34,13 @@ export function GET() {
       description: n.summary,
       date: n.date,
       category: "Notícias",
+    })),
+    ...sortedChecagens().slice(0, 30).map((c) => ({
+      title: `${verdictMeta[c.verdict].label}: ${c.title}`,
+      link: `${site.url}${checagemPath(c.slug)}`,
+      description: c.summary,
+      date: c.date,
+      category: "Checagem",
     })),
   ]
     .sort((a, b) => b.date.localeCompare(a.date))

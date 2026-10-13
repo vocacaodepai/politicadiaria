@@ -178,3 +178,77 @@ export type NewsItem = {
   /** Quiz curto pra fixar o aprendizado, exibido ao fim da matéria. */
   quiz?: NewsQuizQuestion[];
 };
+
+/* ---------- Checagem (verificação de boatos e notícias falsas) ---------- */
+
+/** Vereditos possíveis de uma checagem. A ordem aqui é a ordem dos filtros em /checagem. */
+export const factCheckVerdicts = [
+  { slug: "falso", label: "Falso" },
+  { slug: "enganoso", label: "Enganoso" },
+  { slug: "fora-de-contexto", label: "Fora de contexto" },
+  { slug: "sem-provas", label: "Sem provas" },
+  { slug: "verdadeiro", label: "Verdadeiro" },
+] as const;
+
+export type FactCheckVerdict = (typeof factCheckVerdicts)[number]["slug"];
+
+/** Tipo da fonte: primária (órgão ou documento oficial), agência de checagem, imprensa identificada ou referência. */
+export type FactCheckSourceKind = "primaria" | "agencia" | "imprensa" | "referencia";
+
+export type FactCheckSource = {
+  /** Título da página ou do documento consultado. */
+  label: string;
+  /** Quem publica (Câmara dos Deputados, Aos Fatos, TSE...). */
+  publisher: string;
+  /** https, aberta e conferida antes de entrar. */
+  url: string;
+  kind: FactCheckSourceKind;
+  /** O que esta fonte confirma ou desmente, em uma ou duas frases. */
+  note: string;
+  /** Data de publicação da fonte (AAAA-MM-DD), quando constar. */
+  published?: string;
+};
+
+export type FactCheckPoint = {
+  /** verdade: confirmado; falso: desmentido; atencao: sem confirmação ou ressalva. */
+  status: "verdade" | "falso" | "atencao";
+  text: string;
+};
+
+export type FactCheck = {
+  slug: string;
+  /** Título factual, no formato "É falso que...", "Vídeo ... não mostra ...". */
+  title: string;
+  /** Resumo curto (meta description). */
+  summary: string;
+  author: string;
+  verdict: FactCheckVerdict;
+  /** "Em 20 segundos": a resposta em uma ou duas frases. */
+  quick: string;
+  claim: {
+    /** A alegação como circulou, sem link para o boato. */
+    text: string;
+    /** Onde e quando circulou, em uma frase. */
+    origin: string;
+    /** Data em que a alegação começou a circular (AAAA-MM-DD), quando conhecida. */
+    firstSeen?: string;
+    /** Quem aparece como autor da alegação, se identificado; senão "Publicações em redes sociais". */
+    attribution: string;
+  };
+  /** Data da checagem (AAAA-MM-DD). */
+  date: string;
+  /** Horário da checagem (ISO 8601 com offset de Brasília), usado para ordenar no mesmo dia. */
+  checkedAt: string;
+  /** Data da última atualização (AAAA-MM-DD). Padrão: a data da checagem. */
+  updated?: string;
+  /** Tema da alegação, só para exibição (ex.: "Eleições 2026"). */
+  topic: string;
+  /** "O que é verdade e o que não é". */
+  points: FactCheckPoint[];
+  sources: FactCheckSource[];
+  timeline: { date: string; text: string }[];
+  /** O que as fontes dizem, em HTML (mesmo guarda-corpo das notícias). */
+  content: string;
+  /** Correções feitas depois da publicação. */
+  corrections?: { date: string; text: string }[];
+};
