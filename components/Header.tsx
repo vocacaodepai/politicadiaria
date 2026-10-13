@@ -29,6 +29,7 @@ export const PRIMARY_NAV: NavItem[] = [
       { href: "/congresso/plenario", label: "Plenário", description: "Veja as cadeiras e passe o dedo em cada parlamentar" },
       { href: "/congresso/deputados", label: "Deputados federais", description: "513 fichas com votos, ausências e gastos" },
       { href: "/congresso/senadores", label: "Senadores", description: "81 fichas com votos, ausências e gastos" },
+      { href: "/congresso/numeros", label: "Gastos e números", description: "Cota parlamentar, CEAPS, salários e ausências, com fontes" },
       { href: "/congresso/evolucao", label: "Evolução das bancadas", description: "Quem cresceu e quem diminuiu" },
     ],
   },

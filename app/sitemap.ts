@@ -5,6 +5,7 @@ import { categories, getArticlesByCategory, getReviews, site, sortedArticles } f
 import { author } from "@/lib/author";
 import { checagemUrls } from "@/lib/checagens";
 import { congressUrls } from "@/lib/congress";
+import { congressExtraUrls } from "@/lib/congress-extra";
 import { eleicoesUrls } from "@/lib/eleicoes";
 import { sortedNews } from "@/lib/news";
 import { absoluteUrl } from "@/lib/seo";
@@ -127,7 +128,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  const congresso: Entry[] = congressUrls().map((u) => ({
+  const congresso: Entry[] = [...congressUrls(), ...congressExtraUrls()].map((u) => ({
     url: absoluteUrl(u.path),
     lastModified: u.lastModified,
     changeFrequency: "weekly",
