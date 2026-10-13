@@ -7,6 +7,8 @@ import { listingMetadata } from "@/components/listing/metadata";
 import { absoluteUrl, breadcrumbJsonLd } from "@/lib/seo";
 import { UF_NAMES, formatBRLShort, getDeputiesIndex, getMeta, getSenatorsIndex, type IndexEntry } from "@/lib/congress";
 import { Directory } from "./Directory";
+import { LegislatureNotice } from "./LegislatureNotice";
+import { ViewSwitch } from "./ViewSwitch";
 import { Methodology } from "./ProfileSections";
 
 type Casa = "camara" | "senado";
@@ -80,6 +82,10 @@ export function DirectoryPage({ casa }: { casa: Casa }) {
           intro={`Somados, os ${entries.length} ${c.noun} usaram ${formatBRLShort(total)} em ${casa === "camara" ? "cota parlamentar" : "CEAPS"} neste mandato. Dados atualizados em ${updated}.`}
           count={`${entries.length} ${c.noun}`}
         />
+        <div className="mt-6">
+          <ViewSwitch current={casa === "camara" ? "lista-camara" : "lista-senado"} />
+        </div>
+        <LegislatureNotice className="mt-6" />
         <div className="mt-8">
           <Directory
             entries={entries.map((e) => ({
