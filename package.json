@@ -13,7 +13,8 @@
     "lint": "eslint && npm run check:content",
     "content:new": "node scripts/new-content.mjs",
     "seo:report": "node scripts/seo-report.mjs",
-    "congress:update": "node scripts/build-congress-data.mjs"
+    "congress:update": "node scripts/build-congress-data.mjs",
+    "eleicoes:update": "node scripts/build-eleicoes-data.mjs"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",

@@ -1,0 +1,1487 @@
+{
+ "coletadoEm": "2026-10-13",
+ "observacao": "Pesquisas registradas na Justiça Eleitoral e divulgadas por institutos e veículos de imprensa. Os números foram compilados da tabela pública da Wikipédia (CC BY-SA), conferidos com o título e o endereço da matéria de imprensa de cada linha. O número de registro (BR-xxxxx/aaaa) só consta quando a compilação o traz; o sistema PesqEle do TSE não pôde ser consultado de forma automatizada.",
+ "compilacao": [
+  {
+   "rotulo": "Pesquisas de opinião para a eleição presidencial no Brasil em 2026 (Wikipédia, CC BY-SA)",
+   "url": "https://pt.wikipedia.org/wiki/Pesquisas_de_opini%C3%A3o_para_a_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2026"
+  },
+  {
+   "rotulo": "Pesquisas de opinião para a eleição presidencial no Brasil em 2022 (Wikipédia, CC BY-SA)",
+   "url": "https://pt.wikipedia.org/wiki/Pesquisas_de_opini%C3%A3o_para_a_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+  },
+  {
+   "rotulo": "Pesquisas de opinião para a eleição presidencial no Brasil em 2018 (Wikipédia, CC BY-SA)",
+   "url": "https://pt.wikipedia.org/wiki/Pesquisas_de_opini%C3%A3o_para_a_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+  }
+ ],
+ "registroTse": {
+  "rotulo": "PesqEle, registro de pesquisas eleitorais (TSE)",
+  "url": "https://pesqele-divulgacao.tse.jus.br/"
+ },
+ "primeiroTurno2026": [
+  {
+   "id": "datafolha-2026-10-03",
+   "instituto": "Datafolha",
+   "rotulo": "DataFolha",
+   "campoInicio": "2026-10-03",
+   "campoFim": "2026-10-03",
+   "amostra": 4006,
+   "margem": 2,
+   "registro": null,
+   "publicadoEm": "2026-10-03",
+   "materia": {
+    "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/03/datafolha-presidente-3-outubro.ghtml",
+    "veiculo": "g1",
+    "titulo": "Datafolha, 1º turno - votos válidos: Lula, 45%; Flávio Bolsonaro, 42%; Caiado, 4%; Renan, 3%; Cury, 3%; Zema, 1%"
+   },
+   "valores": {
+    "lula": 42,
+    "flavio": 40,
+    "cury": 3,
+    "caiado": 4,
+    "renan": 3,
+    "zema": 0,
+    "samara": 0,
+    "grassi": 0,
+    "clariana": 0,
+    "dias": 0,
+    "costa": 0,
+    "pimenta": 0
+   },
+   "outros": null,
+   "indecisos": 7,
+   "completa": true
+  },
+  {
+   "id": "quaest-2026-10-03",
+   "instituto": "Quaest",
+   "rotulo": "Quaest",
+   "campoInicio": "2026-10-02",
+   "campoFim": "2026-10-03",
+   "amostra": 3702,
+   "margem": 2,
+   "registro": null,
+   "publicadoEm": "2026-10-03",
+   "materia": {
+    "url": "https://g1.globo.com/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/03/quaest-2o-turno-flavio-bolsonaro-44percent-lula-42percent.ghtml",
+    "veiculo": "g1",
+    "titulo": "Quaest, 2º turno: Flávio Bolsonaro, 44%; Lula 42%"
+   },
+   "valores": {
+    "lula": 40,
+    "flavio": 38,
+    "cury": 3,
+    "caiado": 3,
+    "renan": 3,
+    "zema": 0,
+    "samara": 0,
+    "grassi": 0,
+    "clariana": 0,
+    "dias": 0,
+    "costa": 0,
+    "pimenta": 0
+   },
+   "outros": null,
+   "indecisos": 13,
+   "completa": true
+  },
+  {
+   "id": "gerp-2026-10-03",
+   "instituto": "Gerp",
+   "rotulo": "Gerp",
+   "campoInicio": "2026-10-01",
+   "campoFim": "2026-10-03",
+   "amostra": 2400,
+   "margem": 2.04,
+   "registro": null,
+   "publicadoEm": "2026-10-04",
+   "materia": {
+    "url": "https://jovempan.com.br/politica/gerp-flavio-bolsonaro-44-lula-42-empate-primeiro-turno-2026/",
+    "veiculo": "Jovem Pan",
+    "titulo": "Gerp: Flávio tem 44% e Lula, 42%, e seguem empatados no 1º turno"
+   },
+   "valores": {
+    "lula": 44,
+    "flavio": 42,
+    "cury": 3,
+    "caiado": 4,
+    "renan": 2,
+    "zema": 1,
+    "samara": 1,
+    "grassi": 0,
+    "clariana": 0,
+    "dias": 0,
+    "costa": 0,
+    "pimenta": 0
+   },
+   "outros": null,
+   "indecisos": 4,
+   "completa": true,
+   "observacao": "Matéria datada de 4 de outubro; campo de 1 a 3 de outubro."
+  },
+  {
+   "id": "futura-2026-10-03",
+   "instituto": "Futura",
+   "rotulo": "Futura",
+   "campoInicio": "2026-09-29",
+   "campoFim": "2026-10-03",
+   "amostra": 2000,
+   "margem": 2.2,
+   "registro": null,
+   "publicadoEm": "2026-10-03",
+   "materia": {
+    "url": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Relatorio_Tracking_Nacional_1_Turno_Final_Votos_Validos-3.pdf",
+    "veiculo": "CNN Brasil",
+    "titulo": "Relatorio Tracking Nacional 1 Turno Final Votos Validos"
+   },
+   "valores": {
+    "lula": 42.6,
+    "flavio": 44.8,
+    "cury": 4.1,
+    "caiado": 3.9,
+    "renan": 2.8,
+    "zema": 0.8,
+    "samara": 0.4,
+    "grassi": 0.1,
+    "clariana": 0.1,
+    "dias": 0.1,
+    "costa": 0.2,
+    "pimenta": 0.1
+   },
+   "outros": null,
+   "indecisos": null,
+   "completa": true
+  },
+  {
+   "id": "poderdata-2026-10-02",
+   "instituto": "PoderData",
+   "rotulo": "PoderData/Aya",
+   "campoInicio": "2026-09-30",
+   "campoFim": "2026-10-02",
+   "amostra": 4000,
+   "margem": 1.5,
+   "registro": null,
+   "publicadoEm": "2026-10-03",
+   "materia": {
+    "url": "https://www.poder360.com.br/poderdata/lula-e-flavio-tem-46-cada-um-no-2o-turno-diz-poderdata-aya/",
+    "veiculo": "Poder360",
+    "titulo": "Lula e Flávio têm 46% cada um no 2º turno, diz PoderData/Aya"
+   },
+   "valores": {
+    "lula": 42,
+    "flavio": 41,
+    "cury": 3,
+    "caiado": 2,
+    "renan": 3,
+    "zema": 1,
+    "samara": 0,
+    "grassi": 0,
+    "clariana": 0,
+    "dias": 0,
+    "costa": 0,
+    "pimenta": 1
+   },
+   "outros": 0,
+   "indecisos": 6,
+   "completa": true
+  },
+  {
+   "id": "cnt-mda-2026-10-02",
+   "instituto": "CNT/MDA",
+   "rotulo": "CNT/MDA",
+   "campoInicio": "2026-09-30",
+   "campoFim": "2026-10-02",
+   "amostra": 2007,
+   "margem": 2.2,
+   "registro": null,
+   "publicadoEm": "2026-10-03",
+   "materia": {
+    "url": "https://exame.com/brasil/pesquisa-cnt-mda-para-presidente-lula-tem-478-e-flavio-421-dos-votos-validos-no-1o-turno/",
+    "veiculo": "Exame",
+    "titulo": "Pesquisa CNT/MDA para presidente: Lula tem 47,8% e Flávio, 42,1%, dos votos válidos no 1º turno"
+   },
+   "valores": {
+    "lula": 43.1,
+    "flavio": 38,
+    "cury": 3.1,
+    "caiado": 3,
+    "renan": 1.5,
+    "zema": 0.8,
+    "samara": 0,
+    "grassi": 0,
+    "clariana": 0,
+    "dias": 0,
+    "costa": 0,
+    "pimenta": 0
+   },
+   "outros": null,
+   "indecisos": 9.7,
+   "completa": true
+  },
+  {
+   "id": "ifp-2026-10-02",
+   "instituto": "IFP",
+   "rotulo": "IFP",
+   "campoInicio": "2026-09-29",
+   "campoFim": "2026-10-02",
+   "amostra": 2000,
+   "margem": 2.2,
+   "registro": null,
+   "publicadoEm": "2026-10-03",
+   "materia": {
+    "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-4588-contra-4501-de-flavio-no-2o-turno-diz-pesquisa/",
+    "veiculo": "Poder360",
+    "titulo": "Lula tem 45,88% contra 45,01% de Flávio no 2º turno, diz pesquisa"
+   },
+   "valores": {
+    "lula": 40.62,
+    "flavio": 37.49,
+    "cury": 4.52,
+    "caiado": 3.47,
+    "renan": 3.22,
+    "zema": 1.19,
+    "samara": 0.68,
+    "grassi": 0.41,
+    "clariana": 0.28,
+    "dias": 0.18,
+    "costa": 0.12,
+    "pimenta": 0.21
+   },
+   "outros": 0.17,
+   "indecisos": 7.44,
+   "completa": true
+  },
+  {
+   "id": "atlasintel-2026-10-02",
+   "instituto": "AtlasIntel",
+   "rotulo": "AtlasIntel",
+   "campoInicio": "2026-09-27",
+   "campoFim": "2026-10-02",
+   "amostra": 5000,
+   "margem": 1,
+   "registro": null,
+   "publicadoEm": "2026-10-03",
+   "materia": {
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-outubro-2026/",
+    "veiculo": "Gazeta do Povo",
+    "titulo": "Os números da AtlasIntel para presidente na véspera do 1º turno"
+   },
+   "valores": {
+    "lula": 47,
+    "flavio": 44.1,
+    "cury": 2.1,
+    "caiado": 1.4,
+    "renan": 4.6,
+    "zema": 0,
+    "samara": 0,
+    "grassi": 0,
+    "clariana": 0,
+    "dias": 0,
+    "costa": 0,
+    "pimenta": 0
+   },
+   "outros": 0,
+   "indecisos": null,
+   "completa": true,
+   "base": "validos"
+  },
+  {
+   "id": "palver-2026-10-01",
+   "instituto": "Palver",
+   "rotulo": "Palver",
+   "campoInicio": "2026-09-30",
+   "campoFim": "2026-10-01",
+   "amostra": 5000,
+   "margem": 4,
+   "registro": null,
+   "publicadoEm": "2026-10-03",
+   "materia": {
+    "url": "https://www.cartacapital.com.br/politica/pesquisa-palver-mostra-lideranca-de-flavio-bolsonaro-contra-lula/",
+    "veiculo": "CartaCapital",
+    "titulo": "Pesquisa Palver mostra liderança de Flávio Bolsonaro contra Lula"
+   },
+   "valores": {
+    "lula": 43,
+    "flavio": 47,
+    "cury": 1,
+    "caiado": 1,
+    "renan": 7,
+    "zema": 0,
+    "samara": 0,
+    "grassi": 0,
+    "clariana": 0,
+    "dias": 0,
+    "costa": 0,
+    "pimenta": 0
+   },
+   "outros": 0,
+   "indecisos": 0,
+   "completa": true
+  },
+  {
+   "id": "vox-brasil-2026-10-01",
+   "instituto": "Vox Brasil",
+   "rotulo": "Vox",
+   "campoInicio": "2026-09-29",
+   "campoFim": "2026-10-01",
+   "amostra": 2100,
+   "margem": 2.15,
+   "registro": null,
+   "publicadoEm": "2026-10-02",
+   "materia": {
+    "url": "https://www.metropoles.com/brasil/vox-brasil-flavio-bolsonaro-tem-412-e-lula-marca-404-no-1o-turno",
+    "veiculo": "Metrópoles",
+    "titulo": "Vox Brasil: Flávio Bolsonaro tem 41,2% e Lula marca 40,4% no 1º turno"
+   },
+   "valores": {
+    "lula": 40.4,
+    "flavio": 41.2,
+    "cury": 1.2,
+    "caiado": 3.3,
+    "renan": 2.2,
+    "zema": 1.3,
+    "samara": 0,
+    "grassi": 0,
+    "clariana": 0,
+    "dias": 0,
+    "costa": 0.2,
+    "pimenta": 0
+   },
+   "outros": 0,
+   "indecisos": 10.2,
+   "completa": true
+  },
+  {
+   "id": "verita-2026-10-02",
+   "instituto": "Veritá",
+   "rotulo": "Veritá",
+   "campoInicio": "2026-09-26",
+   "campoFim": "2026-10-02",
+   "amostra": 40500,
+   "margem": 1,
+   "registro": "BR-04522/2026",
+   "publicadoEm": "2026-10-03",
+   "materia": {
+    "url": "https://www.instagram.com/institutoverita/p/DeDm4ZcuFvP/",
+    "veiculo": "Instagram do Instituto Veritá",
+    "titulo": "Pesquisa presidencial - Percentual válido"
+   },
+   "valores": {
+    "lula": 45,
+    "flavio": 47
+   },
+   "outros": null,
+   "indecisos": null,
+   "completa": false,
+   "observacao": "Só foram divulgados os percentuais de dois candidatos; fora da comparação de acerto."
+  },
+  {
+   "id": "datatrends-2026-09-30",
+   "instituto": "DataTrends",
+   "rotulo": "DataTrends",
+   "campoInicio": "2026-09-28",
+   "campoFim": "2026-09-30",
+   "amostra": 2000,
+   "margem": 2,
+   "registro": null,
+   "publicadoEm": "2026-10-02",
+   "materia": {
+    "url": "https://www.edmarlyra.com/datatrends-lula-tem-41-e-flavio-bolsonaro-39-na-reta-final-da-disputa-presidencial/",
+    "veiculo": "Edmar Lyra",
+    "titulo": "DataTrends: Lula tem 41% e Flávio Bolsonaro 39% na reta final da disputa presidencial"
+   },
+   "valores": {
+    "lula": 41,
+    "flavio": 39,
+    "cury": 4,
+    "renan": 4,
+    "caiado": 3,
+    "zema": 1,
+    "samara": 0,
+    "grassi": 0,
+    "clariana": 0,
+    "dias": 0,
+    "costa": 0,
+    "pimenta": 0
+   },
+   "outros": null,
+   "indecisos": 8,
+   "completa": true
+  },
+  {
+   "id": "real-time-big-data-2026-09-30",
+   "instituto": "Real Time Big Data",
+   "rotulo": "Real Time Big Data",
+   "campoInicio": "2026-09-26",
+   "campoFim": "2026-09-30",
+   "amostra": 2000,
+   "margem": 2,
+   "registro": null,
+   "publicadoEm": "2026-10-01",
+   "materia": {
+    "url": "https://veja.abril.com.br/politica/como-esta-a-disputa-lula-x-flavio-bolsonaro-a-tres-dias-da-eleicao-segundo-nova-pesquisa/",
+    "veiculo": "Veja",
+    "titulo": "Nova pesquisa Real Time Big Data mostra como está a disputa Lula x Flávio Bolsonaro a três dias da eleição"
+   },
+   "valores": {
+    "lula": 43,
+    "flavio": 39,
+    "cury": 3,
+    "renan": 4,
+    "caiado": 3,
+    "zema": 1,
+    "samara": 0,
+    "grassi": 0,
+    "clariana": 0,
+    "dias": 0,
+    "costa": 0,
+    "pimenta": 0
+   },
+   "outros": 1,
+   "indecisos": 6,
+   "completa": true
+  },
+  {
+   "id": "indexa-2026-09-29",
+   "instituto": "Indexa",
+   "rotulo": "Indexa",
+   "campoInicio": "2026-09-27",
+   "campoFim": "2026-09-29",
+   "amostra": 2000,
+   "margem": 2.2,
+   "registro": null,
+   "publicadoEm": "2026-09-30",
+   "materia": {
+    "url": "https://www.cartacapital.com.br/politica/lula-lidera-em-1o-turno-e-empata-com-flavio-bolsonaro-no-2o-aponta-pesquisa-indexa-broadcast/",
+    "veiculo": "CartaCapital",
+    "titulo": "Lula lidera em 1º turno e empata com Flávio Bolsonaro no 2º, aponta pesquisa Indexa/Broadcast"
+   },
+   "valores": {
+    "lula": 39,
+    "flavio": 34,
+    "cury": 4,
+    "renan": 3,
+    "caiado": 4,
+    "zema": 1,
+    "samara": 0,
+    "grassi": 0,
+    "clariana": 0,
+    "dias": 0,
+    "costa": 0,
+    "pimenta": 0
+   },
+   "outros": null,
+   "indecisos": 15,
+   "completa": true
+  },
+  {
+   "id": "ideia-2026-09-28",
+   "instituto": "Ideia",
+   "rotulo": "Meio/Ideia",
+   "campoInicio": "2026-09-25",
+   "campoFim": "2026-09-28",
+   "amostra": 2000,
+   "margem": 2.2,
+   "registro": null,
+   "publicadoEm": "2026-09-30",
+   "materia": {
+    "url": "https://noticias.uol.com.br/eleicoes/2026/09/30/meioideia-pesquisa-setembro.ghtm",
+    "veiculo": "UOL",
+    "titulo": "Meio/Ideia: Lula e Flávio aparecem empatados tecnicamente em 1º e 2º turno"
+   },
+   "valores": {
+    "lula": 39.4,
+    "flavio": 38.4,
+    "cury": 6.7,
+    "renan": 4.5,
+    "caiado": 4.4,
+    "zema": 3.5,
+    "samara": 0.4,
+    "grassi": 0.1,
+    "clariana": 0.3,
+    "dias": 0.3,
+    "costa": 0.1,
+    "pimenta": 0.1
+   },
+   "outros": null,
+   "indecisos": 2.2,
+   "completa": true
+  },
+  {
+   "id": "btg-nexus-2026-09-27",
+   "instituto": "BTG/Nexus",
+   "rotulo": "Nexus/BTG",
+   "campoInicio": "2026-09-25",
+   "campoFim": "2026-09-27",
+   "amostra": 2000,
+   "margem": 2,
+   "registro": null,
+   "publicadoEm": "2026-09-28",
+   "materia": {
+    "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-46-contra-44-de-flavio-no-2o-turno-diz-btg-nexus/",
+    "veiculo": "Poder360",
+    "titulo": "Lula tem 46% contra 44% de Flávio no 2º turno, diz BTG/Nexus"
+   },
+   "valores": {
+    "lula": 42,
+    "flavio": 37,
+    "cury": 5,
+    "renan": 4,
+    "caiado": 5,
+    "zema": 1,
+    "samara": 1,
+    "grassi": 0,
+    "clariana": 0,
+    "dias": 0,
+    "costa": 0,
+    "pimenta": 0
+   },
+   "outros": null,
+   "indecisos": 5,
+   "completa": true
+  }
+ ],
+ "segundoTurno2026": [
+  {
+   "id": "poderdata-2026-10-12",
+   "instituto": "PoderData",
+   "rotulo": "PoderData/Aya",
+   "campoInicio": "2026-10-10",
+   "campoFim": "2026-10-12",
+   "amostra": 3000,
+   "margem": 1.8,
+   "registro": null,
+   "publicadoEm": "2026-10-13",
+   "materia": {
+    "url": "https://www.poder360.com.br/poderdata/lula-reage-e-vai-a-49-contra-51-de-flavio-diz-poderdata-aya/",
+    "veiculo": "Poder360",
+    "titulo": "Flávio tem 51% contra 49% de Lula no 2º turno, diz PoderData/Aya"
+   },
+   "lula": 49,
+   "flavio": 51,
+   "indecisos": null,
+   "base": "validos"
+  },
+  {
+   "id": "btg-nexus-2026-10-12",
+   "instituto": "BTG/Nexus",
+   "rotulo": "BTG/Nexus",
+   "campoInicio": "2026-10-10",
+   "campoFim": "2026-10-12",
+   "amostra": 2000,
+   "margem": 2,
+   "registro": null,
+   "publicadoEm": "2026-10-13",
+   "materia": {
+    "url": "https://sbtnews.sbt.com.br/noticia/eleicoes/btg-nexus-flavio-tem-48-e-lula-45-no-2-turno",
+    "veiculo": "SBT News",
+    "titulo": "BTG/Nexus: Flávio tem 48% e Lula 45% no 2° turno"
+   },
+   "lula": 45,
+   "flavio": 48,
+   "indecisos": 7,
+   "base": "totais"
+  },
+  {
+   "id": "gerp-2026-10-12",
+   "instituto": "Gerp",
+   "rotulo": "Gerp",
+   "campoInicio": "2026-10-08",
+   "campoFim": "2026-10-12",
+   "amostra": 2400,
+   "margem": 2,
+   "registro": null,
+   "publicadoEm": "2026-10-13",
+   "materia": {
+    "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-53-contra-44-de-lula-diz-pesquisa-gerp/",
+    "veiculo": "Poder360",
+    "titulo": "Flávio tem 55% contra 45% de Lula, diz pesquisa Gerp"
+   },
+   "lula": 44,
+   "flavio": 53,
+   "indecisos": 4,
+   "base": "totais"
+  },
+  {
+   "id": "futura-2026-10-10",
+   "instituto": "Futura",
+   "rotulo": "Futura",
+   "campoInicio": "2026-10-07",
+   "campoFim": "2026-10-10",
+   "amostra": 2000,
+   "margem": 2.2,
+   "registro": null,
+   "publicadoEm": "2026-10-13",
+   "materia": {
+    "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-518-contra-482-de-lula-diz-futura/",
+    "veiculo": "Poder360",
+    "titulo": "Flávio tem 51,8% contra 48,2% de Lula, diz Futura"
+   },
+   "lula": 46.6,
+   "flavio": 50,
+   "indecisos": 3.4,
+   "base": "totais"
+  },
+  {
+   "id": "datatrends-2026-10-09",
+   "instituto": "DataTrends",
+   "rotulo": "DataTrends",
+   "campoInicio": "2026-10-07",
+   "campoFim": "2026-10-09",
+   "amostra": 2000,
+   "margem": 2.19,
+   "registro": null,
+   "publicadoEm": "2026-10-11",
+   "materia": {
+    "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-531-e-lula-tem-469-em-votos-validos-diz-datatrends/",
+    "veiculo": "Poder360",
+    "titulo": "Flávio tem 53,1% e Lula tem 46,9% dos votos válidos, diz DataTrends"
+   },
+   "lula": 46.9,
+   "flavio": 53.1,
+   "indecisos": null,
+   "base": "validos"
+  },
+  {
+   "id": "ipespe-2026-10-08",
+   "instituto": "Ipespe",
+   "rotulo": "Ipespe",
+   "campoInicio": "2026-10-06",
+   "campoFim": "2026-10-08",
+   "amostra": 1500,
+   "margem": 2.6,
+   "registro": null,
+   "publicadoEm": "2026-10-10",
+   "materia": {
+    "url": "https://www.cnnbrasil.com.br/eleicoes/ipespe-flavio-tem-527-dos-votos-validos-no-2o-turno-lula-473/",
+    "veiculo": "CNN Brasil",
+    "titulo": "Ipespe: Flávio tem 52,7% dos votos válidos no 2º turno; Lula, 47,3%"
+   },
+   "lula": 47.3,
+   "flavio": 52.7,
+   "indecisos": null,
+   "base": "validos"
+  },
+  {
+   "id": "datafolha-2026-10-08",
+   "instituto": "Datafolha",
+   "rotulo": "DataFolha",
+   "campoInicio": "2026-10-06",
+   "campoFim": "2026-10-08",
+   "amostra": 2520,
+   "margem": 2,
+   "registro": null,
+   "publicadoEm": "2026-10-08",
+   "materia": {
+    "url": "https://g1.globo.com/google/amp/politica/eleicoes/2026/pesquisa-eleitoral/noticia/2026/10/08/datafolha-presidente-8-outubro.ghtml",
+    "veiculo": "g1",
+    "titulo": "Datafolha: Flávio Bolsonaro, 49%; Lula, 45%"
+   },
+   "lula": 45,
+   "flavio": 49,
+   "indecisos": 6,
+   "base": "totais"
+  },
+  {
+   "id": "atlasintel-2026-10-08",
+   "instituto": "AtlasIntel",
+   "rotulo": "AtlasIntel",
+   "campoInicio": "2026-10-03",
+   "campoFim": "2026-10-08",
+   "amostra": 5026,
+   "margem": 1,
+   "registro": null,
+   "publicadoEm": "2026-10-09",
+   "materia": {
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-outubro-2026-segundo-turno/",
+    "veiculo": "Gazeta do Povo",
+    "titulo": "AtlasIntel divulga pesquisa para presidente no 2º turno"
+   },
+   "lula": 45.7,
+   "flavio": 51.1,
+   "indecisos": 3.2,
+   "base": "totais"
+  },
+  {
+   "id": "vox-brasil-2026-10-07",
+   "instituto": "Vox Brasil",
+   "rotulo": "Vox",
+   "campoInicio": "2026-10-05",
+   "campoFim": "2026-10-07",
+   "amostra": 2100,
+   "margem": 2,
+   "registro": null,
+   "publicadoEm": "2026-10-08",
+   "materia": {
+    "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-442-e-flavio-427-no-2o-turno-diz-vox-brasil/",
+    "veiculo": "Poder360",
+    "titulo": "Lula tem 44,2% e Flávio, 42,7% no 2º turno, diz Vox Brasil"
+   },
+   "lula": 44.2,
+   "flavio": 42.7,
+   "indecisos": 13.1,
+   "base": "totais"
+  },
+  {
+   "id": "poderdata-2026-10-07",
+   "instituto": "PoderData",
+   "rotulo": "PoderData/Aya",
+   "campoInicio": "2026-10-05",
+   "campoFim": "2026-10-07",
+   "amostra": 3000,
+   "margem": 1.8,
+   "registro": null,
+   "publicadoEm": "2026-10-08",
+   "materia": {
+    "url": "https://www.poder360.com.br/poderdata/flavio-tem-53-contra-47-de-lula-no-2o-turno-diz-pesquisa-poderdata-aya/",
+    "veiculo": "Poder360",
+    "titulo": "Flávio tem 53% contra 47% de Lula no 2º turno, diz PoderData/Aya"
+   },
+   "lula": 47,
+   "flavio": 53,
+   "indecisos": null,
+   "base": "validos"
+  }
+ ],
+ "historico": {
+  "2018": {
+   "ano": 2018,
+   "dataVotacao": "2018-10-07",
+   "resultadoValidos": {
+    "bolsonaro": 46.03,
+    "haddad": 29.28,
+    "ciro": 12.47,
+    "alckmin": 4.76,
+    "amoedo": 2.5,
+    "marina": 1,
+    "meirelles": 1.2,
+    "alvaro": 0.8
+   },
+   "resultadoOutros": 1.96,
+   "principais": [
+    "bolsonaro",
+    "haddad",
+    "ciro",
+    "alckmin",
+    "amoedo",
+    "marina",
+    "meirelles",
+    "alvaro"
+   ],
+   "nomes": {
+    "bolsonaro": "Jair Bolsonaro",
+    "haddad": "Fernando Haddad",
+    "ciro": "Ciro Gomes",
+    "alckmin": "Geraldo Alckmin",
+    "amoedo": "João Amoêdo",
+    "marina": "Marina Silva",
+    "meirelles": "Henrique Meirelles",
+    "alvaro": "Álvaro Dias"
+   },
+   "fonteResultado": {
+    "rotulo": "Resultado do 1º turno de 2018 (Wikipédia, a partir dos dados do TSE)",
+    "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2018"
+   },
+   "pesquisas": [
+    {
+     "id": "ibope-2018-10-06",
+     "instituto": "Ibope",
+     "rotulo": "Ibope",
+     "campoInicio": "2018-10-05",
+     "campoFim": "2018-10-06",
+     "amostra": 3010,
+     "margem": 2,
+     "registro": "BR-01537/2018",
+     "publicadoEm": null,
+     "materia": {
+      "url": "https://g1.globo.com/politica/eleicoes/2018/noticia/2018/10/06/ibope-para-presidente-votos-validos-bolsonaro-41-haddad-25-ciro-13-alckmin-8.ghtml",
+      "veiculo": "g1",
+      "titulo": null
+     },
+     "valores": {
+      "haddad": 22,
+      "ciro": 11,
+      "marina": 3,
+      "meirelles": 2,
+      "alvaro": 1,
+      "alckmin": 7,
+      "amoedo": 2,
+      "bolsonaro": 36
+     },
+     "outros": 3,
+     "indecisos": 12
+    },
+    {
+     "id": "datafolha-2018-10-06",
+     "instituto": "Datafolha",
+     "rotulo": "Datafolha",
+     "campoInicio": "2018-10-05",
+     "campoFim": "2018-10-06",
+     "amostra": 19552,
+     "margem": 2,
+     "registro": "BR-01584/2018",
+     "publicadoEm": null,
+     "materia": {
+      "url": "https://g1.globo.com/politica/eleicoes/2018/noticia/2018/10/06/datafolha-para-presidente-votos-validos-bolsonaro-40-haddad-25-ciro-15-alckmin-8.ghtml",
+      "veiculo": "g1",
+      "titulo": null
+     },
+     "valores": {
+      "haddad": 22,
+      "ciro": 13,
+      "marina": 3,
+      "meirelles": 2,
+      "alvaro": 2,
+      "alckmin": 7,
+      "amoedo": 3,
+      "bolsonaro": 36
+     },
+     "outros": 2,
+     "indecisos": 10
+    },
+    {
+     "id": "cnt-mda-2018-10-05",
+     "instituto": "CNT/MDA",
+     "rotulo": "CNT/MDA",
+     "campoInicio": "2018-10-04",
+     "campoFim": "2018-10-05",
+     "amostra": 2002,
+     "margem": 2.2,
+     "registro": "BR-04819/2018",
+     "publicadoEm": null,
+     "materia": {
+      "url": "http://cms.cnt.org.br/Imagens%20CNT/PDFs%20CNT/Pesquisa%20CNT%20MDA/cntmda_140_resultados.pdf",
+      "veiculo": "CNT",
+      "titulo": null
+     },
+     "valores": {
+      "haddad": 24,
+      "ciro": 9.9,
+      "marina": 2.2,
+      "meirelles": 1.6,
+      "alvaro": 1.7,
+      "alckmin": 5.8,
+      "amoedo": 2.3,
+      "bolsonaro": 36.7
+     },
+     "outros": 1.9,
+     "indecisos": 13.8
+    },
+    {
+     "id": "verita-2018-10-05",
+     "instituto": "Veritá",
+     "rotulo": "Veritá",
+     "campoInicio": "2018-10-02",
+     "campoFim": "2018-10-05",
+     "amostra": 5208,
+     "margem": 2,
+     "registro": "BR-03229/2018",
+     "publicadoEm": null,
+     "materia": {
+      "url": "http://www.institutoverita.com.br/ver.php?id=3361&secao=3935",
+      "veiculo": "Instituto Veritá",
+      "titulo": null
+     },
+     "valores": {
+      "haddad": 18.8,
+      "ciro": 8.4,
+      "marina": 1.4,
+      "meirelles": 0.8,
+      "alvaro": 1,
+      "alckmin": 4.2,
+      "amoedo": 2.9,
+      "bolsonaro": 41.5
+     },
+     "outros": 2,
+     "indecisos": 19
+    },
+    {
+     "id": "ipespe-2018-10-04",
+     "instituto": "Ipespe",
+     "rotulo": "Ipespe",
+     "campoInicio": "2018-10-03",
+     "campoFim": "2018-10-04",
+     "amostra": 2000,
+     "margem": 2.2,
+     "registro": "BR-06509/2018",
+     "publicadoEm": null,
+     "materia": {
+      "url": "https://www.infomoney.com.br/mercados/politica/noticia/7655559/bolsonaro-chega-a-41-dos-votos-validos-e-vantagem-sobre-haddad-sobe-para-16-pontos-mostra-xpipespe",
+      "veiculo": "InfoMoney",
+      "titulo": null
+     },
+     "valores": {
+      "haddad": 22,
+      "ciro": 11,
+      "marina": 4,
+      "meirelles": 2,
+      "alvaro": 2,
+      "alckmin": 7,
+      "amoedo": 3,
+      "bolsonaro": 36
+     },
+     "outros": 1,
+     "indecisos": 12
+    },
+    {
+     "id": "real-time-big-data-2018-10-04",
+     "instituto": "Real Time Big Data",
+     "rotulo": "Real Time Big Data",
+     "campoInicio": "2018-10-03",
+     "campoFim": "2018-10-04",
+     "amostra": 10000,
+     "margem": 2,
+     "registro": "BR-05770/2018",
+     "publicadoEm": null,
+     "materia": {
+      "url": "https://noticias.r7.com/eleicoes-2018/realtime-big-data-bolsonaro-tem-40-dos-votos-validos-haddad-28-05102018",
+      "veiculo": "R7",
+      "titulo": null
+     },
+     "valores": {
+      "haddad": 24,
+      "ciro": 12,
+      "marina": 4,
+      "meirelles": 1,
+      "alvaro": 1,
+      "alckmin": 6,
+      "amoedo": 2,
+      "bolsonaro": 34
+     },
+     "outros": 1,
+     "indecisos": 15
+    },
+    {
+     "id": "poderdata-2018-10-04",
+     "instituto": "PoderData",
+     "rotulo": "PoderData",
+     "campoInicio": "2018-10-03",
+     "campoFim": "2018-10-04",
+     "amostra": 4000,
+     "margem": 2,
+     "registro": "BR-07142/2018",
+     "publicadoEm": null,
+     "materia": {
+      "url": "https://www.poder360.com.br/datapoder360/datapoder360-nos-votos-validos-bolsonaro-tem-33-e-haddad-vai-a-27/",
+      "veiculo": "Poder360",
+      "titulo": null
+     },
+     "valores": {
+      "haddad": 25,
+      "ciro": 15,
+      "marina": 2,
+      "meirelles": 3,
+      "alvaro": 4,
+      "alckmin": 7,
+      "amoedo": 2,
+      "bolsonaro": 30
+     },
+     "outros": 5,
+     "indecisos": 7
+    },
+    {
+     "id": "parana-pesquisas-2018-10-04",
+     "instituto": "Paraná Pesquisas",
+     "rotulo": "Paraná Pesquisas",
+     "campoInicio": "2018-10-02",
+     "campoFim": "2018-10-04",
+     "amostra": 2080,
+     "margem": 2,
+     "registro": "BR-08437/2018",
+     "publicadoEm": null,
+     "materia": {
+      "url": "http://www.paranapesquisas.com.br/wp-content/uploads/2018/10/Brasil-M%C3%ADdia.pdf",
+      "veiculo": "Paraná Pesquisas",
+      "titulo": null
+     },
+     "valores": {
+      "haddad": 21.8,
+      "ciro": 9.4,
+      "marina": 3.5,
+      "meirelles": 1.7,
+      "alvaro": 1.4,
+      "alckmin": 7.4,
+      "amoedo": 3.1,
+      "bolsonaro": 34.9
+     },
+     "outros": 2.1,
+     "indecisos": 14.7
+    },
+    {
+     "id": "fsb-2018-09-30",
+     "instituto": "FSB",
+     "rotulo": "FSB",
+     "campoInicio": "2018-09-29",
+     "campoFim": "2018-09-30",
+     "amostra": 2000,
+     "margem": 2,
+     "registro": "BR-05879/2018",
+     "publicadoEm": null,
+     "materia": {
+      "url": "https://static.poder360.com.br/2018/10/pesquisa-BTG-Pactual-1out.pdf",
+      "veiculo": "Poder360",
+      "titulo": null
+     },
+     "valores": {
+      "haddad": 24,
+      "ciro": 9,
+      "marina": 4,
+      "meirelles": 2,
+      "alvaro": 2,
+      "alckmin": 11,
+      "amoedo": 5,
+      "bolsonaro": 31
+     },
+     "outros": 1,
+     "indecisos": 12
+    }
+   ]
+  },
+  "2022": {
+   "ano": 2022,
+   "dataVotacao": "2022-10-02",
+   "resultadoValidos": {
+    "lula": 48.43,
+    "bolsonaro": 43.2,
+    "tebet": 4.16,
+    "ciro": 3.04,
+    "soraya": 0.51,
+    "davila": 0.47,
+    "kelmon": 0.07,
+    "pericles": 0.05,
+    "manzano": 0.04,
+    "vera": 0.02,
+    "eymael": 0.01
+   },
+   "principais": [
+    "lula",
+    "bolsonaro",
+    "tebet",
+    "ciro"
+   ],
+   "nomes": {
+    "lula": "Lula",
+    "bolsonaro": "Jair Bolsonaro",
+    "tebet": "Simone Tebet",
+    "ciro": "Ciro Gomes",
+    "soraya": "Soraya Thronicke",
+    "davila": "Felipe d'Avila",
+    "kelmon": "Padre Kelmon",
+    "pericles": "Léo Péricles",
+    "manzano": "Sofia Manzano",
+    "vera": "Vera Lúcia",
+    "eymael": "Eymael"
+   },
+   "fonteResultado": {
+    "rotulo": "Resultado do 1º turno de 2022 (Wikipédia, a partir dos dados do TSE)",
+    "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2022"
+   },
+   "pesquisas": [
+    {
+     "id": "datafolha-2022-10-01",
+     "instituto": "Datafolha",
+     "rotulo": "Globo/Datafolha",
+     "campoInicio": "2022-09-30",
+     "campoFim": "2022-10-01",
+     "amostra": 12800,
+     "margem": 2,
+     "registro": "BR-00245/2022",
+     "publicadoEm": null,
+     "materia": {
+      "url": "https://g1.globo.com/jornal-nacional/noticia/2022/10/01/datafolha-lula-tem-50percent-dos-votos-validos-e-bolsonaro-36percent.ghtml",
+      "veiculo": "g1",
+      "titulo": null
+     },
+     "valores": {
+      "bolsonaro": 34,
+      "lula": 48,
+      "ciro": 5,
+      "tebet": 6,
+      "soraya": 1,
+      "davila": 1,
+      "eymael": 0,
+      "manzano": 0,
+      "pericles": 0,
+      "vera": 0,
+      "kelmon": 0
+     },
+     "outros": null,
+     "indecisos": 5
+    },
+    {
+     "id": "ipec-2022-10-01",
+     "instituto": "Ipec",
+     "rotulo": "Globo/IPEC",
+     "campoInicio": "2022-09-25",
+     "campoFim": "2022-10-01",
+     "amostra": 3008,
+     "margem": 2,
+     "registro": "BR-00999/2022",
+     "publicadoEm": null,
+     "materia": {
+      "url": "https://g1.globo.com/jornal-nacional/noticia/2022/10/01/ipec-lula-tem-51percent-dos-votos-validos-e-bolsonaro-37percent.ghtml",
+      "veiculo": "g1",
+      "titulo": null
+     },
+     "valores": {
+      "bolsonaro": 34,
+      "lula": 47,
+      "ciro": 5,
+      "tebet": 5,
+      "soraya": 1,
+      "davila": 1,
+      "eymael": 0,
+      "manzano": 0,
+      "pericles": 0,
+      "vera": 0,
+      "kelmon": 0
+     },
+     "outros": null,
+     "indecisos": 7
+    },
+    {
+     "id": "ipespe-2022-09-30",
+     "instituto": "Ipespe",
+     "rotulo": "Abrapel/Ipespe",
+     "campoInicio": "2022-09-30",
+     "campoFim": "2022-09-30",
+     "amostra": 1100,
+     "margem": 3,
+     "registro": "BR-05007/2022",
+     "publicadoEm": null,
+     "materia": {
+      "url": "https://noticias.uol.com.br/eleicoes/2022/10/01/pesquisa-ipespe-presidente-1-de-outubro.htm",
+      "veiculo": "UOL",
+      "titulo": null
+     },
+     "valores": {
+      "bolsonaro": 33,
+      "lula": 46,
+      "ciro": 7,
+      "tebet": 6,
+      "soraya": 1,
+      "davila": 0,
+      "eymael": 0,
+      "manzano": 0,
+      "pericles": 0,
+      "vera": 0,
+      "kelmon": 1
+     },
+     "outros": null,
+     "indecisos": 4
+    },
+    {
+     "id": "atlasintel-2022-09-30",
+     "instituto": "AtlasIntel",
+     "rotulo": "Arko Advice/AtlasIntel",
+     "campoInicio": "2022-09-28",
+     "campoFim": "2022-09-30",
+     "amostra": 4500,
+     "margem": 1,
+     "registro": "BR-07338/2022",
+     "publicadoEm": null,
+     "materia": {
+      "url": "https://www.cnnbrasil.com.br/politica/pesquisa-atlas-presidencial-lula-tem-503-dos-votos-validos-bolsonaro-411/",
+      "veiculo": "CNN Brasil",
+      "titulo": null
+     },
+     "valores": {
+      "bolsonaro": 40.7,
+      "lula": 49.8,
+      "ciro": 3.9,
+      "tebet": 2.6,
+      "soraya": 0.7,
+      "davila": 0.8,
+      "eymael": 0,
+      "manzano": 0,
+      "pericles": 0,
+      "vera": 0,
+      "kelmon": 0.3
+     },
+     "outros": null,
+     "indecisos": 1
+    },
+    {
+     "id": "cnt-mda-2022-09-30",
+     "instituto": "CNT/MDA",
+     "rotulo": "CNT/MDA",
+     "campoInicio": "2022-09-28",
+     "campoFim": "2022-09-30",
+     "amostra": 2002,
+     "margem": 2.2,
+     "registro": "BR-02944/2022",
+     "publicadoEm": null,
+     "materia": {
+      "url": "https://static.poder360.com.br/2022/10/pesquisa-CNT-MDA-1oout2022.pdf",
+      "veiculo": "Poder360",
+      "titulo": null
+     },
+     "valores": {
+      "bolsonaro": 36.3,
+      "lula": 44.2,
+      "ciro": 4.5,
+      "tebet": 4.3,
+      "soraya": 1.2,
+      "davila": 0.4,
+      "eymael": 0,
+      "manzano": 0.2,
+      "pericles": 0,
+      "vera": 0.1,
+      "kelmon": 0.3
+     },
+     "outros": null,
+     "indecisos": 8.5
+    },
+    {
+     "id": "parana-pesquisas-2022-09-29",
+     "instituto": "Paraná Pesquisas",
+     "rotulo": "Paraná Pesquisas",
+     "campoInicio": "2022-09-27",
+     "campoFim": "2022-09-29",
+     "amostra": 2020,
+     "margem": 2.2,
+     "registro": "BR-07917/2022",
+     "publicadoEm": null,
+     "materia": {
+      "url": "https://www.cnnbrasil.com.br/politica/parana-pesquisas-lula-tem-471-dos-votos-validos-bolsonaro-400/",
+      "veiculo": "CNN Brasil",
+      "titulo": null
+     },
+     "valores": {
+      "bolsonaro": 37.3,
+      "lula": 43.9,
+      "ciro": 4.9,
+      "tebet": 5.8,
+      "soraya": 0.5,
+      "davila": 0.4,
+      "eymael": 0.1,
+      "manzano": 0,
+      "pericles": 0,
+      "vera": 0.1,
+      "kelmon": 0.1
+     },
+     "outros": null,
+     "indecisos": 11.9
+    },
+    {
+     "id": "verita-2022-09-29",
+     "instituto": "Veritá",
+     "rotulo": "Instituto Veritá",
+     "campoInicio": "2022-09-24",
+     "campoFim": "2022-09-29",
+     "amostra": 51169,
+     "margem": 2,
+     "registro": "BR-05980/2022",
+     "publicadoEm": null,
+     "materia": {
+      "url": "https://institutoverita.com.br/eleicoes/?jet_download=962",
+      "veiculo": "Instituto Veritá",
+      "titulo": null
+     },
+     "valores": {
+      "bolsonaro": 44.6,
+      "lula": 41.6,
+      "ciro": 4.1,
+      "tebet": 4.2,
+      "soraya": 0.9,
+      "davila": 1.4,
+      "eymael": 0.3,
+      "manzano": 0,
+      "pericles": 0.1,
+      "vera": 0,
+      "kelmon": 0.4
+     },
+     "outros": null,
+     "indecisos": 2.4
+    },
+    {
+     "id": "brasmarket-2022-09-28",
+     "instituto": "Brasmarket",
+     "rotulo": "Brasmarket",
+     "campoInicio": "2022-09-26",
+     "campoFim": "2022-09-28",
+     "amostra": 1600,
+     "margem": 2.45,
+     "registro": "BR-08847/2022",
+     "publicadoEm": null,
+     "materia": {
+      "url": "https://www.leiagora.com.br/noticia/126521/brasmarket-bolsonaro-faz-509-dos-votos-validos-e-vence-no-1-turno",
+      "veiculo": "Lei Agora",
+      "titulo": null
+     },
+     "valores": {
+      "bolsonaro": 45.4,
+      "lula": 30.9,
+      "ciro": 6.2,
+      "tebet": 5.2,
+      "soraya": 0.8,
+      "davila": 0.3,
+      "eymael": 0,
+      "manzano": 0,
+      "pericles": 0.1,
+      "vera": 0,
+      "kelmon": 0.3
+     },
+     "outros": null,
+     "indecisos": 10.9
+    },
+    {
+     "id": "futura-2022-09-28",
+     "instituto": "Futura",
+     "rotulo": "Modalmais/Futura",
+     "campoInicio": "2022-09-26",
+     "campoFim": "2022-09-28",
+     "amostra": 2000,
+     "margem": 2.2,
+     "registro": "BR-06743/2022",
+     "publicadoEm": null,
+     "materia": {
+      "url": "https://www.gazetadopovo.com.br/eleicoes/2022/pesquisa-eleitoral/modalmais-futura-presidente-30-09-22/",
+      "veiculo": "Gazeta do Povo",
+      "titulo": null
+     },
+     "valores": {
+      "bolsonaro": 37.8,
+      "lula": 40.7,
+      "ciro": 5.6,
+      "tebet": 7.2,
+      "soraya": 0.9,
+      "davila": 0.4,
+      "eymael": 0,
+      "manzano": 0.1,
+      "pericles": 0.3,
+      "vera": 0.3,
+      "kelmon": 0.1
+     },
+     "outros": null,
+     "indecisos": 6.7
+    },
+    {
+     "id": "ideia-2022-09-28",
+     "instituto": "Ideia",
+     "rotulo": "Exame/Ideia",
+     "campoInicio": "2022-09-23",
+     "campoFim": "2022-09-28",
+     "amostra": 1500,
+     "margem": 3,
+     "registro": "BR-09782/2022",
+     "publicadoEm": null,
+     "materia": {
+      "url": "https://www.poder360.com.br/eleicoes/lula-tem-47-contra-37-de-bolsonaro-diz-exame-ideia/",
+      "veiculo": "Poder360",
+      "titulo": null
+     },
+     "valores": {
+      "bolsonaro": 37,
+      "lula": 47,
+      "ciro": 6,
+      "tebet": 5,
+      "soraya": 0.2,
+      "davila": 0.4,
+      "eymael": 0.1,
+      "manzano": 0.1,
+      "pericles": 0.1,
+      "vera": 0.2,
+      "kelmon": 0.1
+     },
+     "outros": null,
+     "indecisos": 4
+    },
+    {
+     "id": "poderdata-2022-09-27",
+     "instituto": "PoderData",
+     "rotulo": "PoderData",
+     "campoInicio": "2022-09-25",
+     "campoFim": "2022-09-27",
+     "amostra": 4500,
+     "margem": 1.5,
+     "registro": "BR-01426/2022",
+     "publicadoEm": null,
+     "materia": {
+      "url": "https://static.poder360.com.br/2022/09/pd-intencao-presidente-27-set-2022-01.png",
+      "veiculo": "Poder360",
+      "titulo": null
+     },
+     "valores": {
+      "bolsonaro": 36,
+      "lula": 45,
+      "ciro": 6,
+      "tebet": 4,
+      "soraya": 1,
+      "davila": 1,
+      "eymael": 0,
+      "manzano": 0,
+      "pericles": 0,
+      "vera": 0,
+      "kelmon": 0
+     },
+     "outros": null,
+     "indecisos": 5
+    },
+    {
+     "id": "quaest-2022-09-27",
+     "instituto": "Quaest",
+     "rotulo": "Genial/Quaest",
+     "campoInicio": "2022-09-24",
+     "campoFim": "2022-09-27",
+     "amostra": 2000,
+     "margem": 2,
+     "registro": "BR-04371/2022",
+     "publicadoEm": null,
+     "materia": {
+      "url": "https://noticias.uol.com.br/eleicoes/2022/09/28/quaest-pesquisa-presidente-lula-bolsonaro-setembro.htm",
+      "veiculo": "UOL",
+      "titulo": null
+     },
+     "valores": {
+      "bolsonaro": 33,
+      "lula": 46,
+      "ciro": 6,
+      "tebet": 5,
+      "soraya": 1,
+      "davila": 0,
+      "eymael": 0,
+      "manzano": 0,
+      "pericles": 0,
+      "vera": 0,
+      "kelmon": 0
+     },
+     "outros": null,
+     "indecisos": 9
+    },
+    {
+     "id": "fsb-2022-09-25",
+     "instituto": "FSB",
+     "rotulo": "BTG Pactual/FSB",
+     "campoInicio": "2022-09-23",
+     "campoFim": "2022-09-25",
+     "amostra": 2000,
+     "margem": 2,
+     "registro": "BR-08123/2022",
+     "publicadoEm": null,
+     "materia": {
+      "url": "https://noticias.uol.com.br/eleicoes/2022/09/26/pesquisa-btg-fsb-presidente-26-setembro-2022.htm",
+      "veiculo": "UOL",
+      "titulo": null
+     },
+     "valores": {
+      "bolsonaro": 35,
+      "lula": 45,
+      "ciro": 7,
+      "tebet": 4,
+      "soraya": 1,
+      "davila": 1,
+      "eymael": 0,
+      "manzano": 0,
+      "pericles": 0,
+      "vera": 0,
+      "kelmon": 0
+     },
+     "outros": null,
+     "indecisos": 6
+    }
+   ]
+  }
+ }
+}

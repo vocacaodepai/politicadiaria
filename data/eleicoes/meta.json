@@ -1,0 +1,159 @@
+{
+  "eleicao": {
+    "ano": 2026,
+    "turno1": "2026-10-04",
+    "turno2": "2026-10-25",
+    "segundoTurnoGovernadores": [
+      "AC",
+      "AM",
+      "DF",
+      "ES",
+      "RN",
+      "TO"
+    ],
+    "fonteDatas": "https://resultados.tse.jus.br/oficial/comum/config/ele-c.json"
+  },
+  "atualizadoEm": "2026-10-13T16:02:06-03:00",
+  "coletadoPor": "scripts/build-eleicoes-data.mjs",
+  "avisosColeta": [
+    "Tocantins: o arquivo do 1º turno marca candidatos com \"2º turno\", mas o TSE ainda não publicou o arquivo de apuração do 2º turno (não consta na configuração oficial de 25/10)."
+  ],
+  "fontesResultados": [
+    {
+      "rotulo": "Presidente, 1º turno",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/br/br-c0001-e006257-u.json",
+      "arquivoTse": {
+        "data": "05/10/2026",
+        "hora": "12:51:47",
+        "ultimaTotalizacao": "05/10/2026 12:51:05"
+      }
+    },
+    {
+      "rotulo": "Presidente, 2º turno",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/br/br-c0001-e006258-u.json",
+      "arquivoTse": {
+        "data": "13/10/2026",
+        "hora": "10:56:48",
+        "ultimaTotalizacao": null
+      }
+    },
+    {
+      "rotulo": "Governadores, 1º turno (27 unidades da federação)",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/<uf>/<uf>-c0003-e006259-u.json",
+      "arquivoTse": null
+    },
+    {
+      "rotulo": "Governadores, 2º turno",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6260/dados/<uf>/<uf>-c0003-e006260-u.json",
+      "arquivoTse": null
+    },
+    {
+      "rotulo": "Senadores (54 vagas)",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/<uf>/<uf>-c0005-e006259-u.json",
+      "arquivoTse": null
+    },
+    {
+      "rotulo": "Deputados federais (513 vagas)",
+      "url": "https://resultados.tse.jus.br/oficial/ele2026/6259/dados/<uf>/<uf>-c0006-e006259-u.json",
+      "arquivoTse": null
+    }
+  ],
+  "calendario": [
+    {
+      "data": "2026-10-04",
+      "titulo": "Primeiro turno",
+      "descricao": "Votação para presidente, governadores, senadores, deputados federais e estaduais ou distritais.",
+      "status": "concluido",
+      "confirmada": true,
+      "fonte": {
+        "rotulo": "TSE, configuração oficial do portal de resultados",
+        "url": "https://resultados.tse.jus.br/oficial/comum/config/ele-c.json"
+      }
+    },
+    {
+      "data": "2026-10-25",
+      "titulo": "Segundo turno",
+      "descricao": "Presidente (Flávio Bolsonaro e Lula) e governadores dos estados em que ninguém passou de 50% dos votos válidos.",
+      "status": "proximo",
+      "confirmada": true,
+      "fonte": {
+        "rotulo": "TSE, configuração oficial do portal de resultados",
+        "url": "https://resultados.tse.jus.br/oficial/comum/config/ele-c.json"
+      }
+    },
+    {
+      "data": "2026-12",
+      "dataRotulo": "Dezembro de 2026",
+      "titulo": "Diplomação dos eleitos",
+      "descricao": "A imprensa cita 18 de dezembro como prazo final, e uma publicação cita 19. A data exata deve ser conferida no calendário eleitoral do TSE, que não pôde ser aberto nesta coleta.",
+      "status": "futuro",
+      "confirmada": false,
+      "fonte": null
+    },
+    {
+      "data": "2027-01-05",
+      "titulo": "Posse do presidente e do vice-presidente",
+      "descricao": "A Emenda Constitucional 111/2021 mudou a posse presidencial de 1º para 5 de janeiro, a partir de 2027.",
+      "status": "futuro",
+      "confirmada": true,
+      "fonte": {
+        "rotulo": "Agência Senado, 28/09/2021: promulgada emenda constitucional da reforma eleitoral",
+        "url": "https://www12.senado.leg.br/noticias/materias/2021/09/28/promulgada-emenda-constitucional-da-reforma-eleitoral"
+      }
+    },
+    {
+      "data": "2027-01-06",
+      "titulo": "Posse dos governadores",
+      "descricao": "Pela mesma emenda, a posse dos governadores passa a ser em 6 de janeiro.",
+      "status": "futuro",
+      "confirmada": true,
+      "fonte": {
+        "rotulo": "Agência Senado, 28/09/2021: promulgada emenda constitucional da reforma eleitoral",
+        "url": "https://www12.senado.leg.br/noticias/materias/2021/09/28/promulgada-emenda-constitucional-da-reforma-eleitoral"
+      }
+    },
+    {
+      "data": "2027-02-01",
+      "titulo": "Início da nova legislatura",
+      "descricao": "Os 513 deputados federais têm mandato de 1º de fevereiro de 2027 a 1º de fevereiro de 2031, e os 54 senadores eleitos, de 2027 a 2035.",
+      "status": "futuro",
+      "confirmada": true,
+      "fonte": {
+        "rotulo": "Eleições gerais no Brasil em 2026 (Wikipédia)",
+        "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%B5es_gerais_no_Brasil_em_2026"
+      }
+    }
+  ],
+  "fontes": [
+    {
+      "rotulo": "TSE, portal de resultados das eleições 2026",
+      "url": "https://resultados.tse.jus.br/",
+      "uso": "Presidente, governadores, senadores e deputados federais (arquivos JSON da apuração)"
+    },
+    {
+      "rotulo": "TSE, dados abertos",
+      "url": "https://dadosabertos.tse.jus.br/",
+      "uso": "Base de consulta para conferência e histórico"
+    },
+    {
+      "rotulo": "Estado de Minas, 10/2026: cláusula de barreira, veja as siglas que podem sumir do mapa",
+      "url": "https://www.em.com.br/politica/2026/10/7514783-clausula-de-barreira-veja-as-siglas-que-podem-sumir-do-mapa.html",
+      "uso": "Regra da cláusula de desempenho de 2026 (2,5% dos votos válidos e 1,5% em nove UFs, ou 13 deputados em nove UFs)"
+    },
+    {
+      "rotulo": "Agência Senado, 28/09/2021",
+      "url": "https://www12.senado.leg.br/noticias/materias/2021/09/28/promulgada-emenda-constitucional-da-reforma-eleitoral",
+      "uso": "Datas de posse (EC 111/2021)"
+    },
+    {
+      "rotulo": "Wikipédia, pesquisas para a eleição presidencial de 2026, 2022 e 2018 (CC BY-SA)",
+      "url": "https://pt.wikipedia.org/wiki/Pesquisas_de_opini%C3%A3o_para_a_elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2026",
+      "uso": "Compilação das pesquisas, cada linha conferida com a matéria de imprensa citada"
+    },
+    {
+      "rotulo": "PesqEle, registro de pesquisas eleitorais (TSE)",
+      "url": "https://pesqele-divulgacao.tse.jus.br/",
+      "uso": "Registro oficial das pesquisas (número BR-xxxxx/aaaa). Consulta manual: o sistema recusa acesso automatizado"
+    }
+  ]
+}
