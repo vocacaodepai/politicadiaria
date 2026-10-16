@@ -2,16 +2,18 @@
 // Para publicar, crie content/news/<slug>.ts e rode `npm run check:content`.
 import type { NewsItem } from "@/lib/types";
 
-import { item as i0 } from "./pec-fim-escala-6x1-senado-votacao";
-import { item as i1 } from "./suecia-andersson-governo-segunda-tentativa";
-import { item as i2 } from "./espanha-sanchez-eleicoes-antecipadas";
-import { item as i3 } from "./flydubai-copiloto-ataque-voo-israel";
-import { item as i4 } from "./ibovespa-dolar-apos-primeiro-turno";
-import { item as i5 } from "./pl-maior-bancada-camara-senado-2026";
-import { item as i6 } from "./trump-ordem-diesel-imposto-federal";
-import { item as i7 } from "./milei-flavio-bolsonaro-argentina-brasil";
-import { item as i8 } from "./segundo-turno-governadores-sete-disputas";
-import { item as i9 } from "./stf-resolucao-921-triagem-peticoes";
+import { item as i0 } from "./mei-teto-110-mil-perdao-dividas-senado";
+import { item as i1 } from "./pec-6x1-aprovada-senado-promulgacao";
+import { item as i2 } from "./pec-fim-escala-6x1-senado-votacao";
+import { item as i3 } from "./suecia-andersson-governo-segunda-tentativa";
+import { item as i4 } from "./espanha-sanchez-eleicoes-antecipadas";
+import { item as i5 } from "./flydubai-copiloto-ataque-voo-israel";
+import { item as i6 } from "./ibovespa-dolar-apos-primeiro-turno";
+import { item as i7 } from "./pl-maior-bancada-camara-senado-2026";
+import { item as i8 } from "./trump-ordem-diesel-imposto-federal";
+import { item as i9 } from "./milei-flavio-bolsonaro-argentina-brasil";
+import { item as i10 } from "./segundo-turno-governadores-sete-disputas";
+import { item as i11 } from "./stf-resolucao-921-triagem-peticoes";
 
 export const news: NewsItem[] = [
   i0,
@@ -24,4 +26,6 @@ export const news: NewsItem[] = [
   i7,
   i8,
   i9,
+  i10,
+  i11,
 ];
