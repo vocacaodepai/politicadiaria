@@ -2,23 +2,25 @@
 // Para publicar, crie content/news/<slug>.ts e rode `npm run check:content`.
 import type { NewsItem } from "@/lib/types";
 
-import { item as i0 } from "./mp-1395-credito-subsidio-combustiveis";
-import { item as i1 } from "./otan-flanco-leste-mar-negro-navios-drones";
-import { item as i2 } from "./enamed-obrigatorio-registro-medico-mp-1370";
-import { item as i3 } from "./mei-teto-110-mil-perdao-dividas-senado";
-import { item as i4 } from "./pec-seguranca-publica-retirada-pauta-senado";
-import { item as i5 } from "./tre-rj-pede-tropas-federais-segundo-turno";
-import { item as i6 } from "./pec-6x1-aprovada-senado-promulgacao";
-import { item as i7 } from "./pec-fim-escala-6x1-senado-votacao";
-import { item as i8 } from "./suecia-andersson-governo-segunda-tentativa";
-import { item as i9 } from "./espanha-sanchez-eleicoes-antecipadas";
-import { item as i10 } from "./flydubai-copiloto-ataque-voo-israel";
-import { item as i11 } from "./ibovespa-dolar-apos-primeiro-turno";
-import { item as i12 } from "./pl-maior-bancada-camara-senado-2026";
-import { item as i13 } from "./trump-ordem-diesel-imposto-federal";
-import { item as i14 } from "./milei-flavio-bolsonaro-argentina-brasil";
-import { item as i15 } from "./segundo-turno-governadores-sete-disputas";
-import { item as i16 } from "./stf-resolucao-921-triagem-peticoes";
+import { item as i0 } from "./tse-4352-secoes-local-votacao-alterado";
+import { item as i1 } from "./emenda-141-promulgada-fim-escala-6x1";
+import { item as i2 } from "./mp-1395-credito-subsidio-combustiveis";
+import { item as i3 } from "./otan-flanco-leste-mar-negro-navios-drones";
+import { item as i4 } from "./enamed-obrigatorio-registro-medico-mp-1370";
+import { item as i5 } from "./mei-teto-110-mil-perdao-dividas-senado";
+import { item as i6 } from "./pec-seguranca-publica-retirada-pauta-senado";
+import { item as i7 } from "./tre-rj-pede-tropas-federais-segundo-turno";
+import { item as i8 } from "./pec-6x1-aprovada-senado-promulgacao";
+import { item as i9 } from "./pec-fim-escala-6x1-senado-votacao";
+import { item as i10 } from "./suecia-andersson-governo-segunda-tentativa";
+import { item as i11 } from "./espanha-sanchez-eleicoes-antecipadas";
+import { item as i12 } from "./flydubai-copiloto-ataque-voo-israel";
+import { item as i13 } from "./ibovespa-dolar-apos-primeiro-turno";
+import { item as i14 } from "./pl-maior-bancada-camara-senado-2026";
+import { item as i15 } from "./trump-ordem-diesel-imposto-federal";
+import { item as i16 } from "./milei-flavio-bolsonaro-argentina-brasil";
+import { item as i17 } from "./segundo-turno-governadores-sete-disputas";
+import { item as i18 } from "./stf-resolucao-921-triagem-peticoes";
 
 export const news: NewsItem[] = [
   i0,
@@ -38,4 +40,6 @@ export const news: NewsItem[] = [
   i14,
   i15,
   i16,
+  i17,
+  i18,
 ];
