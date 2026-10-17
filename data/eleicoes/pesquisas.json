@@ -1,5 +1,5 @@
 {
- "coletadoEm": "2026-10-13",
+ "coletadoEm": "2026-10-17",
  "observacao": "Pesquisas registradas na Justiça Eleitoral e divulgadas por institutos e veículos de imprensa. Os números foram compilados da tabela pública da Wikipédia (CC BY-SA), conferidos com o título e o endereço da matéria de imprensa de cada linha. O número de registro (BR-xxxxx/aaaa) só consta quando a compilação o traz; o sistema PesqEle do TSE não pôde ser consultado de forma automatizada.",
  "compilacao": [
   {
@@ -543,6 +543,26 @@
   }
  ],
  "segundoTurno2026": [
+  {
+   "id": "datafolha-2026-10-15",
+   "instituto": "Datafolha",
+   "rotulo": "DataFolha",
+   "campoInicio": "2026-10-13",
+   "campoFim": "2026-10-15",
+   "amostra": 2520,
+   "margem": 2,
+   "registro": "BR-00466/2026",
+   "publicadoEm": "2026-10-15",
+   "materia": {
+    "url": "https://www.moneytimes.com.br/pesquisa-datafolha-15-de-outubro-gaep/",
+    "veiculo": "Money Times",
+    "titulo": "Flávio Bolsonaro tem 47% e Lula, 45%, mostra pesquisa Datafolha"
+   },
+   "lula": 45,
+   "flavio": 47,
+   "indecisos": 8,
+   "base": "totais"
+  },
   {
    "id": "poderdata-2026-10-12",
    "instituto": "PoderData",
