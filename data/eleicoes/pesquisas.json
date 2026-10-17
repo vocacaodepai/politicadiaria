@@ -564,6 +564,26 @@
    "base": "totais"
   },
   {
+   "id": "quaest-2026-10-14",
+   "instituto": "Quaest",
+   "rotulo": "Quaest",
+   "campoInicio": "2026-10-10",
+   "campoFim": "2026-10-13",
+   "amostra": 2154,
+   "margem": 2,
+   "registro": "BR-08729/2026",
+   "publicadoEm": "2026-10-14",
+   "materia": {
+    "url": "https://tvtnews.com.br/primeira-pesquisa-quaest-presidente-2-turn14-10/",
+    "veiculo": "TVT News",
+    "titulo": "Quaest divulga 1ª pesquisa para presidente no 2º turno Lula x Flávio Bolsonaro"
+   },
+   "lula": 44,
+   "flavio": 46,
+   "indecisos": 10,
+   "base": "totais"
+  },
+  {
    "id": "poderdata-2026-10-12",
    "instituto": "PoderData",
    "rotulo": "PoderData/Aya",
