@@ -13,11 +13,9 @@
     ],
     "fonteDatas": "https://resultados.tse.jus.br/oficial/comum/config/ele-c.json"
   },
-  "atualizadoEm": "2026-10-13T16:02:06-03:00",
+  "atualizadoEm": "2026-10-17T19:23:28-03:00",
   "coletadoPor": "scripts/build-eleicoes-data.mjs",
-  "avisosColeta": [
-    "Tocantins: o arquivo do 1º turno marca candidatos com \"2º turno\", mas o TSE ainda não publicou o arquivo de apuração do 2º turno (não consta na configuração oficial de 25/10)."
-  ],
+  "avisosColeta": [],
   "fontesResultados": [
     {
       "rotulo": "Presidente, 1º turno",
@@ -32,8 +30,8 @@
       "rotulo": "Presidente, 2º turno",
       "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/br/br-c0001-e006258-u.json",
       "arquivoTse": {
-        "data": "13/10/2026",
-        "hora": "10:56:48",
+        "data": "15/10/2026",
+        "hora": "09:38:12",
         "ultimaTotalizacao": null
       }
     },
