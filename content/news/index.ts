@@ -9,23 +9,24 @@ import { item as i3 } from "./ec-140-aposentadoria-especial-agentes-saude";
 import { item as i4 } from "./emenda-141-promulgada-fim-escala-6x1";
 import { item as i5 } from "./mp-1395-credito-subsidio-combustiveis";
 import { item as i6 } from "./otan-flanco-leste-mar-negro-navios-drones";
-import { item as i7 } from "./tse-regras-canais-whatsapp-campanhas";
-import { item as i8 } from "./tse-sindicatos-posts-campanha-flavio-liminar";
-import { item as i9 } from "./enamed-obrigatorio-registro-medico-mp-1370";
-import { item as i10 } from "./mei-teto-110-mil-perdao-dividas-senado";
-import { item as i11 } from "./pec-seguranca-publica-retirada-pauta-senado";
-import { item as i12 } from "./tre-rj-pede-tropas-federais-segundo-turno";
-import { item as i13 } from "./pec-6x1-aprovada-senado-promulgacao";
-import { item as i14 } from "./pec-fim-escala-6x1-senado-votacao";
-import { item as i15 } from "./suecia-andersson-governo-segunda-tentativa";
-import { item as i16 } from "./espanha-sanchez-eleicoes-antecipadas";
-import { item as i17 } from "./flydubai-copiloto-ataque-voo-israel";
-import { item as i18 } from "./ibovespa-dolar-apos-primeiro-turno";
-import { item as i19 } from "./pl-maior-bancada-camara-senado-2026";
-import { item as i20 } from "./trump-ordem-diesel-imposto-federal";
-import { item as i21 } from "./milei-flavio-bolsonaro-argentina-brasil";
-import { item as i22 } from "./segundo-turno-governadores-sete-disputas";
-import { item as i23 } from "./stf-resolucao-921-triagem-peticoes";
+import { item as i7 } from "./poderdata-empate-50-segundo-turno";
+import { item as i8 } from "./tse-regras-canais-whatsapp-campanhas";
+import { item as i9 } from "./tse-sindicatos-posts-campanha-flavio-liminar";
+import { item as i10 } from "./enamed-obrigatorio-registro-medico-mp-1370";
+import { item as i11 } from "./mei-teto-110-mil-perdao-dividas-senado";
+import { item as i12 } from "./pec-seguranca-publica-retirada-pauta-senado";
+import { item as i13 } from "./tre-rj-pede-tropas-federais-segundo-turno";
+import { item as i14 } from "./pec-6x1-aprovada-senado-promulgacao";
+import { item as i15 } from "./pec-fim-escala-6x1-senado-votacao";
+import { item as i16 } from "./suecia-andersson-governo-segunda-tentativa";
+import { item as i17 } from "./espanha-sanchez-eleicoes-antecipadas";
+import { item as i18 } from "./flydubai-copiloto-ataque-voo-israel";
+import { item as i19 } from "./ibovespa-dolar-apos-primeiro-turno";
+import { item as i20 } from "./pl-maior-bancada-camara-senado-2026";
+import { item as i21 } from "./trump-ordem-diesel-imposto-federal";
+import { item as i22 } from "./milei-flavio-bolsonaro-argentina-brasil";
+import { item as i23 } from "./segundo-turno-governadores-sete-disputas";
+import { item as i24 } from "./stf-resolucao-921-triagem-peticoes";
 
 export const news: NewsItem[] = [
   i0,
@@ -52,4 +53,5 @@ export const news: NewsItem[] = [
   i21,
   i22,
   i23,
+  i24,
 ];
