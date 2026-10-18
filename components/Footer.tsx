@@ -38,6 +38,15 @@ export function Footer() {
               </svg>
               RSS
             </Link>
+            <Link href="/noticias/feed.xml" className="text-xs text-muted underline hover:text-foreground">
+              Notícias
+            </Link>
+            <Link href="/checagens/feed.xml" className="text-xs text-muted underline hover:text-foreground">
+              Checagens
+            </Link>
+            <Link href="/artigos/feed.xml" className="text-xs text-muted underline hover:text-foreground">
+              Resenhas
+            </Link>
             <ThemeToggle />
           </div>
         </div>
@@ -68,6 +77,21 @@ export function Footer() {
             <li>
               <Link href="/busca" className="text-foreground/90 transition hover:text-accent">
                 Buscar no site
+              </Link>
+            </li>
+            <li>
+              <Link href="/resumo" className="text-foreground/90 transition hover:text-accent">
+                Resumo da manhã
+              </Link>
+            </li>
+            <li>
+              <Link href="/guias" className="text-foreground/90 transition hover:text-accent">
+                Guias de leitura
+              </Link>
+            </li>
+            <li>
+              <Link href="/documentos" className="text-foreground/90 transition hover:text-accent">
+                Documentos primários
               </Link>
             </li>
           </ul>

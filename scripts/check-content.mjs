@@ -23,6 +23,10 @@ const STRICT_FROM_DATE = "2026-10-07";
 // dos artigos (>= 900 palavras, >= 3 h2). As notícias já publicadas antes ficam como estão.
 const NEWS_STRICT_FROM_DATE = "2026-10-07";
 const MIN_INTERNAL_LINKS = 6;
+const REVIEW_H2_MIN = 5;
+const REVIEW_H2_MAX = 8;
+// Notícias desta data em diante devem trazer `verification` (aviso, não erro).
+const VERIFICATION_FROM_DATE = "2026-10-19";
 const MIN_WORDS_STRICT = 900;
 const MIN_WORDS_WARN = 600;
 
@@ -162,6 +166,10 @@ function extractNews() {
       summary: readField(src, "summary"),
       content: readContent(src),
       sourceUrl: readField(src, "sourceUrl"),
+      updatedAt: readField(src, "updatedAt"),
+      verificationLevel: (/\n\s*verification:\s*\{[\s\S]*?level:\s*"([^"]*)"/.exec(src) ?? [])[1] ?? "",
+      hasVerification: /\n\s*verification:\s*\{/.test(src),
+      publishedAt: readField(src, "publishedAt"),
       raw: src,
     });
   }
@@ -319,6 +327,41 @@ function check() {
         else if (words < MIN_WORDS_WARN || (it.kind === "artigos" && uniqueInternal < 3)) warnings.push(msg);
       }
     }
+  }
+
+  // Selo de verificação e atualização das notícias (campos opcionais; ver lib/verification.ts).
+  for (const n of news) {
+    const where = `noticias/${n.slug}`;
+    if (n.hasVerification && !["primaria", "imprensa", "unica"].includes(n.verificationLevel)) {
+      errors.push(`${where}: verification.level inválido "${n.verificationLevel}" (use primaria, imprensa ou unica)`);
+    }
+    if (n.updatedAt) {
+      if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}/.test(n.updatedAt)) errors.push(`${where}: updatedAt precisa ser ISO 8601 com hora e offset`);
+      else if (n.publishedAt && n.updatedAt < n.publishedAt) warnings.push(`${where}: updatedAt anterior a publishedAt`);
+      else if (Date.parse(n.updatedAt) > Date.now() + 60000) errors.push(`${where}: updatedAt no futuro`);
+    }
+    if (n.date >= NEWS_STRICT_FROM_DATE && n.date >= VERIFICATION_FROM_DATE && !n.hasVerification) {
+      warnings.push(`${where}: notícia nova sem verification (o selo será calculado automaticamente)`);
+    }
+  }
+
+  // Resenhas: padrão de 5 a 8 h2. Fora da faixa é só aviso (resenhas antigas não são reescritas).
+  for (const a of articles) {
+    if (a.articleKind !== "review") continue;
+    const h2s = (a.content.match(/<h2\b/gi) ?? []).length;
+    if (h2s < REVIEW_H2_MIN || h2s > REVIEW_H2_MAX) {
+      warnings.push(`artigos/${a.slug}: ${h2s} <h2> (padrão de resenha: ${REVIEW_H2_MIN} a ${REVIEW_H2_MAX}; aviso, não erro)`);
+    }
+  }
+
+  // Guias (/guias): todo livro precisa ter resenha (lib/guias.ts).
+  try {
+    const guiasSrc = readFileSync(resolve(ROOT, "lib/guias.ts"), "utf8");
+    for (const m of guiasSrc.matchAll(/\{ slug: "([a-z0-9-]+)", porque:/g)) {
+      if (!articleSlugs.has(m[1])) errors.push(`guias: "${m[1]}" não tem resenha em content/articles`);
+    }
+  } catch {
+    /* sem lib/guias.ts */
   }
 
   // Checagens (/checagem): validação própria em scripts/lib/check-checagens.mjs.

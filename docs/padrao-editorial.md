@@ -47,6 +47,8 @@ export const item: NewsItem = {
   imageQuery: "Supremo Tribunal Federal building",
   content: `...HTML...`,
   faq: [{ question: "...", answer: "40 a 80 palavras" }], // opcional, 2 ou 3
+  verification: { level: "primaria", notes: "...", unverified: ["..."] }, // selo no topo (ver rotinas/noticias.md)
+  updatedAt: "2026-10-07T18:10:00-03:00", // opcional: só se o texto foi corrigido ou ampliado
 };
 ```
 

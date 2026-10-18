@@ -7,6 +7,8 @@ import { CoverImage } from "@/components/CoverImage";
 import { FaqAccordion } from "@/components/FaqAccordion";
 import { NewsList } from "@/components/NewsRow";
 import { QuizWidget } from "@/components/QuizWidget";
+import { VerificationSeal } from "@/components/VerificationSeal";
+import { correctedAt } from "@/lib/correcoes";
 import { ReadingProgress } from "@/components/ReadingProgress";
 import { SectionHeading } from "@/components/SectionHeading";
 import { AuthorAvatar } from "@/components/article/AuthorAvatar";
@@ -46,7 +48,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
       siteName: site.name,
       locale: site.locale,
       publishedTime: item.date,
-      modifiedTime: item.date,
+      modifiedTime: item.updatedAt ?? item.date,
       authors: item.author === author.name ? [absoluteUrl(author.url)] : undefined,
       section: "Notícias",
       tags: ["Notícias", item.sourceName],
@@ -95,7 +97,7 @@ export default async function NewsPage({ params }: { params: Params }) {
     description: metaDescription(item.summary),
     image: [absoluteUrl(`${path}/opengraph-image`)],
     datePublished: item.date,
-    dateModified: item.date,
+    dateModified: item.updatedAt ?? item.date,
     author: authorLd,
     publisher: { "@id": `${site.url}/#organization` },
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
@@ -175,6 +177,7 @@ export default async function NewsPage({ params }: { params: Params }) {
                   via <span className="font-medium text-foreground">{site.name}</span>
                 </span>
               </div>
+              <VerificationSeal item={item} correctedAt={correctedAt("noticia", item.slug)} />
             </header>
 
             {item.imageQuery && (

@@ -1,0 +1,4 @@
+{
+  "observacao": "Histórico de correções feitas depois da publicação. Cada entrada traz data, item, o que mudou e o motivo. Correções de checagens vêm do campo corrections de cada checagem. Lista vazia significa nenhuma correção registrada.",
+  "correcoes": []
+}

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { hrefFor, searchItems, type SearchItem } from "@/lib/search";
+import { hrefFor, resultLabel, searchItems, type SearchItem } from "@/lib/search";
 import { withBasePath } from "@/lib/seo";
 
 let cache: SearchItem[] | null = null;
@@ -106,7 +106,7 @@ export function SearchDialog({ className = "" }: { className?: string }) {
               type="search"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Buscar artigos e notícias…"
+              placeholder="Buscar notícias, checagens, livros…"
               className="h-14 w-full bg-transparent text-base outline-none placeholder:text-muted"
               autoComplete="off"
               aria-label="Termo de busca"
@@ -130,7 +130,14 @@ export function SearchDialog({ className = "" }: { className?: string }) {
             )}
             {!query.trim() && status !== "loading" && (
               <p className="px-3 py-6 text-center text-sm text-muted">
-                Digite para buscar em {cache ? cache.length : "todos os"} artigos e notícias.
+                Digite para buscar em {cache ? cache.length : "todos os"} itens do site.
+              </p>
+            )}
+            {query.trim() && status === "ready" && (
+              <p className="px-3 pb-2 pt-1 text-right text-xs">
+                <Link href={`/busca?q=${encodeURIComponent(query.trim())}`} onClick={close} className="text-accent underline">
+                  Busca completa com filtros
+                </Link>
               </p>
             )}
             {visibleResults.length > 0 && (
@@ -143,7 +150,7 @@ export function SearchDialog({ className = "" }: { className?: string }) {
                       className="block rounded-lg px-3 py-3 transition hover:bg-surface-2"
                     >
                       <span className="label-mono text-accent">
-                        {r.type === "artigo" ? r.category : "Notícia"}
+                        {resultLabel(r)}
                       </span>
                       <span className="mt-0.5 block font-display text-[15px] font-semibold leading-snug">
                         {r.title}
