@@ -147,13 +147,39 @@ Commons.** Nunca imagem gerada por IA, nunca captura de página da Amazon.
   missões oficiais existem e a página explica isso. Tom neutro, sem ranking de valor.
 - Texto de notícia que cita um parlamentar deve linkar a página dele quando existir.
 
+## Supremo (`/stf`)
+
+- Páginas: `/stf` (composição, presidente, vice, turmas), `/stf/ministros/<slug>` (um painel por
+  ministro: foto com crédito e licença, posse, quem indicou, aprovação no Senado quando constar de
+  fonte, formação e carreira, turma, aposentadoria compulsória aos 75 anos calculada pela data de
+  nascimento, relatorias e votos descritos pelas fontes), `/stf/julgamentos` (lista pesquisável) e
+  `/stf/agenda` (sessões, pautas, Plenário Virtual). Item "Supremo" no menu (`components/Header.tsx`)
+  e chamada na home (`components/stf/StfPromo.tsx`).
+- Dados em `data/stf/` (JSON gerado por `scripts/build-stf-data.mjs`; `npm run stf:update`), com
+  cópias públicas em `public/data/stf/`. **Nunca editar à mão.** Leitura em `lib/stf.ts`; validação em
+  `scripts/lib/check-stf.mjs` (roda no `check-content`). Rotina em `docs/rotinas/stf.md`: só mexe em
+  `data/stf/` e `public/data/stf/`.
+- Fontes: Portal de Notícias do STF (pautas, destaques do Plenário Virtual, notícias de julgamento,
+  calendário de sessões), Wikipédia como fonte secundária identificada para composição e datas, e
+  Wikimedia Commons para fotos. `portal.stf.jus.br` (Corte Aberta, jurisprudência) bloqueia scripts.
+- **Mesma régua para todos os ministros.** Nenhum adjetivo, nenhum rótulo ("progressista",
+  "conservador", "garantista" e afins). Descrevemos votos como a fonte descreve; não inferimos voto de
+  "por unanimidade" ou "por maioria". Sem ranking de valor nas estatísticas.
+- **Cobertura explícita.** O histórico de votos mostra "Julgamentos de <data> a <data>" e a fonte;
+  o que não foi coletado aparece como "não coletado". Nunca preencher lacuna com voto presumido.
+- **Sigilo.** Cada processo mostra `Sob sigilo`, `Público` (consta de pauta pública) ou `Não informado
+  pela fonte`. Ausência da marca não prova que seja público; a página explica o conceito sem juízo.
+- Ministro é "ministro", réu é "réu", investigado é "investigado". Sem CPF nem endereço.
+- **Notícias que citam um ministro do STF devem linkar a página dele** (`/stf/ministros/<slug>`)
+  quando existir, como se faz com parlamentares. Notícias antigas não são reescritas.
+
 ## Rotinas diárias
 
 As rotinas agendadas publicam sozinhas; as instruções vivem em `docs/rotinas/` e valem como
 parte deste arquivo: `comum.md` (regras comuns), `noticias.md` (de hora em hora), `livros.md`, `congresso.md`,
-`checagem.md` e `eleicoes.md`.
+`checagem.md`, `eleicoes.md` e `stf.md`.
 Rotinas de conteúdo só alteram `content/`, `public/images/covers/` (e `data/congresso/` na rotina
-do Congresso); nunca `docs/`, `CLAUDE.md`, `lib/`, `app/`, `components/`, `scripts/` nem
+do Congresso; `data/stf/` e `public/data/stf/` na do STF); nunca `docs/`, `CLAUDE.md`, `lib/`, `app/`, `components/`, `scripts/` nem
 configuração.
 
 ## Identidade visual

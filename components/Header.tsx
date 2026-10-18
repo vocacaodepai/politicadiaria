@@ -33,6 +33,15 @@ export const PRIMARY_NAV: NavItem[] = [
       { href: "/congresso/evolucao", label: "Evolução das bancadas", description: "Quem cresceu e quem diminuiu" },
     ],
   },
+  {
+    href: "/stf",
+    label: "Supremo",
+    children: [
+      { href: "/stf", label: "Composição", description: "Os ministros do STF, turmas, posse e indicação" },
+      { href: "/stf/julgamentos", label: "Julgamentos", description: "Pesquise processos, relatores, resultados e votos" },
+      { href: "/stf/agenda", label: "Agenda", description: "Sessões, pauta da semana e Plenário Virtual" },
+    ],
+  },
   { href: "/checagem", label: "Checagem" },
   {
     href: "/artigos",
