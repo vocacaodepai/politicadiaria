@@ -544,6 +544,26 @@
  ],
  "segundoTurno2026": [
   {
+   "id": "poderdata-2026-10-15",
+   "instituto": "PoderData",
+   "rotulo": "PoderData/Aya",
+   "campoInicio": "2026-10-13",
+   "campoFim": "2026-10-15",
+   "amostra": 3000,
+   "margem": 1.8,
+   "registro": "BR-04258/2026",
+   "publicadoEm": "2026-10-16",
+   "materia": {
+    "url": "https://tvtnews.com.br/?p=806743",
+    "veiculo": "TVT News",
+    "titulo": "Pesquisa para presidente: Lula e Flávio empatam com 50% dos votos válidos"
+   },
+   "lula": 50,
+   "flavio": 50,
+   "indecisos": null,
+   "base": "validos"
+  },
+  {
    "id": "datafolha-2026-10-15",
    "instituto": "Datafolha",
    "rotulo": "DataFolha",
