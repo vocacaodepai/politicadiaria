@@ -9,6 +9,11 @@ import { ParliamentarianPhoto } from "./Photo";
 import { Card, Field, StatTile } from "./Stat";
 import { CostSection, ExpensesSection, Methodology, PropositionsSection, VotesSection } from "./ProfileSections";
 import { PersonLinks } from "./PersonLinks";
+import { AgendaSection } from "./AgendaSection";
+import { CampanhaSection } from "./CampanhaSection";
+import { FollowSection } from "./FollowSection";
+import { RecursosSection } from "./RecursosSection";
+import { getMentions } from "@/lib/congress-mentions";
 import { LazyList } from "./MoreVotes";
 
 const fmtDate = (iso: string | null) => (iso ? `${iso.slice(8, 10)}/${iso.slice(5, 7)}/${iso.slice(0, 4)}` : "não informado");
@@ -104,11 +109,15 @@ export function SenatorProfile({ s }: { s: Senator }) {
         <nav aria-label="Seções desta página" className="no-scrollbar mt-8 flex gap-2 overflow-x-auto font-mono text-xs">
           {[
             ["sobre", "Perfil"],
+            ["agenda", "Agenda"],
             ["custo", "Custo"],
             ["despesas", "Despesas"],
+            ["gabinete", "Gabinete"],
+            ["campanha", "Campanha"],
             ["votos", "Votos"],
             ["proposicoes", "Proposições"],
             ["comissoes", "Comissões"],
+            ["seguir", "Seguir"],
             ["metodologia", "Metodologia"],
           ].map(([id, label]) => (
             <a key={id} href={`#${id}`} className="shrink-0 rounded-full border border-border bg-surface px-3 py-1.5 text-muted transition hover:border-accent/50 hover:text-foreground">
@@ -125,7 +134,7 @@ export function SenatorProfile({ s }: { s: Senator }) {
         </div>
 
         <div className="mt-8 grid gap-6 lg:grid-cols-[minmax(0,1fr)_20rem]">
-          <div className="space-y-6">
+          <div className="min-w-0 space-y-6">
             <Card id="sobre" title="Perfil">
               <dl className="grid gap-4 sm:grid-cols-2">
                 <Field label="Nome civil">{s.nomeCivil ?? "não informado"}</Field>
@@ -150,8 +159,13 @@ export function SenatorProfile({ s }: { s: Senator }) {
               )}
             </Card>
 
+            <AgendaSection casa="senado" id={s.id} nome={s.nome} />
+
             <CostSection casa="senado" rem={rem} expenses={s.despesas} since={s.mandato.exercicioInicio} />
-            <ExpensesSection expenses={s.despesas} casa="senado" updated={updated} />
+            <ExpensesSection expenses={s.despesas} casa="senado" updated={updated} id={s.id} />
+
+            <RecursosSection casa="senado" id={s.id} rem={rem} expenses={s.despesas} />
+            <CampanhaSection casa="senado" id={s.id} nome={s.nome} />
 
             <VotesSection
               casa="senado"
@@ -215,6 +229,8 @@ export function SenatorProfile({ s }: { s: Senator }) {
                 </div>
               )}
             </Card>
+
+            <FollowSection feedPath={`${path}/feed.xml`} nome={s.nome} mentions={getMentions(s.slug)} />
 
             <Methodology casa="senado" updated={updated} />
           </div>
