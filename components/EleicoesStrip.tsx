@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { Container } from "@/components/Container";
-import { fmtDate, fmtDateTime, fmtPct, getMeta, getResultados } from "@/lib/eleicoes";
+import { acerto2026, fmtDate, fmtDateTime, fmtPct, getMeta, getResultados } from "@/lib/eleicoes";
 
 /** Faixa da home enquanto houver eleição: 1º turno apurado e atalho para o painel. */
 export function EleicoesStrip() {
   const r = getResultados();
   const meta = getMeta();
   const t1 = [...r.presidente.turno1.candidatos].sort((a, b) => b.votos - a.votos).slice(0, 2);
+  const melhor = acerto2026().linhas[0];
   const turno2 = meta.calendario.find((c) => c.titulo === "Segundo turno");
 
   return (
@@ -27,8 +28,14 @@ export function EleicoesStrip() {
             </li>
           ))}
         </ul>
+        <p className="mt-4 border-t border-border pt-3 text-sm">
+          <span className="label-mono text-accent">Ranking de acerto dos institutos</span>{" "}
+          No 1º turno, a pesquisa do {melhor.poll.instituto} chegou mais perto do resultado do TSE (erro médio de {melhor.erroMedio.toLocaleString("pt-BR", { minimumFractionDigits: 2, maximumFractionDigits: 2 })} p.p.).{" "}
+          <Link href="/eleicoes/pesquisas#ranking" className="font-semibold text-accent hover:underline">Ver o ranking</Link>
+        </p>
         <div className="mt-4 flex flex-wrap gap-4 text-sm font-semibold">
           <Link href="/eleicoes" className="text-accent hover:underline">Painel das eleições</Link>
+          <Link href="/eleicoes/apuracao" className="text-accent hover:underline">Apuração ao vivo</Link>
           <Link href="/eleicoes/pesquisas" className="text-accent hover:underline">Pesquisas e ranking de acerto</Link>
           <span className="text-muted font-normal">Fonte: TSE (resultados.tse.jus.br)</span>
         </div>

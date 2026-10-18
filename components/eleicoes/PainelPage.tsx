@@ -19,6 +19,7 @@ import {
   type Candidato,
   type Governador,
 } from "@/lib/eleicoes";
+import { PollTimeline } from "./PollTimeline";
 import { Badge, Bars, ExternalLink, Legend, Panel, Section, SubNav, TableWrap, Tile, td, th, type BarRow, type Tone } from "./Shared";
 
 const PATH = "/eleicoes";
@@ -522,6 +523,7 @@ export function PainelPage() {
         <nav aria-label="Nesta página" className="mt-6 flex flex-wrap gap-x-5 gap-y-1 text-sm">
           {[
             ["presidente", "Presidente"],
+            ["linha-do-tempo", "Pesquisas do 2º turno"],
             ["governadores", "Governadores"],
             ["senado", "Senado"],
             ["camara", "Câmara"],
@@ -535,6 +537,7 @@ export function PainelPage() {
         </nav>
 
         <Presidente />
+        <PollTimeline />
         <Governadores />
         <Senado />
         <Camara />
@@ -543,7 +546,7 @@ export function PainelPage() {
 
         <p className="mt-10 text-sm text-muted">
           Para conhecer quem são os 513 deputados e 81 senadores em exercício, veja <Link href="/congresso" className="text-accent underline underline-offset-2">Congresso por dentro</Link>. Sobre pesquisas de intenção de voto e quanto elas acertaram, veja{" "}
-          <Link href="/eleicoes/pesquisas" className="text-accent underline underline-offset-2">pesquisas e ranking de acerto</Link>.
+          <Link href="/eleicoes/pesquisas" className="text-accent underline underline-offset-2">pesquisas e ranking de acerto</Link>. A <Link href="/eleicoes/apuracao" className="text-accent underline underline-offset-2">apuração ao vivo</Link>, a <Link href="/eleicoes/agenda" className="text-accent underline underline-offset-2">agenda dos candidatos</Link>, o <Link href="/eleicoes/debate-band" className="text-accent underline underline-offset-2">debate da Band</Link> e os <Link href="/eleicoes/campanha" className="text-accent underline underline-offset-2">gastos de campanha</Link> têm página própria.
         </p>
       </Container>
     </>

@@ -15,6 +15,10 @@ parte da cobertura é nacional (mundo entra, mas em menor proporção). Cinco fr
 4. **Eleições 2026** (`/eleicoes`): painel com resultados do TSE (quem está na frente, 2º turno,
    Senado, Câmara), pesquisas de intenção de voto e **ranking de acerto dos institutos**. Item fixo
    no menu e destaque na home enquanto houver eleição. Dados em `data/eleicoes/` com fonte e data.
+   Páginas: `/eleicoes` (painel e linha do tempo das pesquisas do 2º turno), `/eleicoes/pesquisas`, `/eleicoes/apuracao`
+   (apuração ao vivo, polling de `/eleicoes/apuracao/dados.json`), `/eleicoes/debate-band` (`debates.json`), `/eleicoes/agenda`
+   (`agenda.json`) e `/eleicoes/campanha` (gastos e bens do TSE, `npm run campanha:update`, `data/eleicoes/campanha/`). Só dado
+   oficial ou de fonte aberta conferida; falas de debate nunca sem fonte. Rotina em `docs/rotinas/eleicoes.md`.
 5. **Checagem** (`/checagem`): verificação de boatos e notícias falsas, com veredito, fontes
    numeradas ("checado em N fontes") e a mesma régua para qualquer campo político.
 

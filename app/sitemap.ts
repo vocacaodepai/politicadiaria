@@ -7,6 +7,7 @@ import { checagemUrls } from "@/lib/checagens";
 import { congressUrls } from "@/lib/congress";
 import { congressExtraUrls } from "@/lib/congress-extra";
 import { eleicoesUrls } from "@/lib/eleicoes";
+import { eleicoesExtraUrls } from "@/lib/eleicoes-extra";
 import { sortedNews } from "@/lib/news";
 import { absoluteUrl } from "@/lib/seo";
 
@@ -135,7 +136,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: u.priority,
   }));
 
-  const eleicoes: Entry[] = eleicoesUrls().map((u) => ({
+  const eleicoes: Entry[] = [...eleicoesUrls(), ...eleicoesExtraUrls()].map((u) => ({
     url: absoluteUrl(u.path),
     lastModified: u.lastModified,
     changeFrequency: "daily",
