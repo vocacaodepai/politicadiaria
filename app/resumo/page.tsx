@@ -21,7 +21,10 @@ export default function ResumoPage() {
   const now = new Date();
   const today = now.toLocaleDateString("en-CA", { timeZone: "America/Sao_Paulo" });
   const { items, fallback } = morningTop(now);
-  const poll = pesquisasSegundoTurno()[0];
+  // Mais recente por data de divulgação (ou fim do campo, se não houver), sem alterar o arquivo de dados.
+  const poll = [...pesquisasSegundoTurno()].sort(
+    (a, b) => (b.publicadoEm ?? b.campoFim).localeCompare(a.publicadoEm ?? a.campoFim) || b.campoFim.localeCompare(a.campoFim),
+  )[0];
   const check = latestChecagens(1)[0];
   const enabled = newsletterEnabled();
 
