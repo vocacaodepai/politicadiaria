@@ -286,6 +286,18 @@ const writeJson = (path, data) => {
 };
 /** CNPJ tem 14 dígitos; CPF (pessoa física) não é publicado. */
 const isCnpj = (s) => String(s ?? "").replace(/\D/g, "").length === 14;
+/**
+ * Nomes de fornecedores às vezes trazem o CPF de pessoa física (ex.: "FULANO 123.456.789-09").
+ * CPF nunca entra nos dados publicados: qualquer sequência de CPF vira "***.***.***-**".
+ * O CNPJ de empresa (14 dígitos) permanece visível.
+ */
+const CPF_MASK = "***.***.***-**";
+const maskCpf = (s) =>
+  String(s ?? "")
+    .replace(/(?<![\d.\/-])\d{3}\.\d{3}\.\d{3}-\d{2}(?![\d])/g, CPF_MASK)
+    .replace(/(?<![\d.\/-])\d{11}(?![\d])/g, CPF_MASK)
+    .replace(/\s{2,}/g, " ")
+    .trim();
 const topN = (map, n) => [...map.entries()].sort((a, b) => b[1] - a[1]).slice(0, n);
 
 /* ================================================================ CÂMARA */
@@ -456,10 +468,12 @@ async function buildCamara(list) {
       if (ano < 2023 || (ano === 2023 && mes < 2)) continue;
       const id = Number(r.ideCadastro);
       let a = desp.get(id);
-      if (!a) desp.set(id, (a = { total: 0, docs: 0, ano: new Map(), cat: new Map(), anoCat: new Map(), mes: new Map(), forn: new Map(), fornNome: new Map() }));
+      if (!a) desp.set(id, (a = { total: 0, docs: 0, ano: new Map(), cat: new Map(), anoCat: new Map(), mes: new Map(), forn: new Map(), fornNome: new Map(), semDoc: 0, glosa: 0 }));
       const v = num(r.vlrLiquido);
       a.total += v;
       a.docs++;
+      a.glosa += num(r.vlrGlosa);
+      if (!String(r.urlDocumento ?? "").trim()) a.semDoc++;
       a.ano.set(ano, (a.ano.get(ano) ?? 0) + v);
       const cat = r.txtDescricao || "Sem categoria";
       a.cat.set(cat, (a.cat.get(cat) ?? 0) + v);
@@ -470,7 +484,7 @@ async function buildCamara(list) {
       if (isCnpj(r.txtCNPJCPF)) {
         const key = r.txtCNPJCPF.replace(/\D/g, "");
         a.forn.set(key, (a.forn.get(key) ?? 0) + v);
-        a.fornNome.set(key, r.txtFornecedor);
+        a.fornNome.set(key, maskCpf(r.txtFornecedor));
       }
     }
   }
@@ -574,11 +588,14 @@ async function buildCamara(list) {
               .map(([k, t]) => ({ categoria: k.split("|").slice(1).join("|"), total: round2(t) }))
               .filter((c) => c.total !== 0)
               .sort((a, b) => b.total - a.total)
-              .slice(0, 6),
+              .slice(0, 15),
           })),
           porCategoria: topN(d.cat, 15).map(([categoria, total]) => ({ categoria, total: round2(total) })),
           porMes: [...d.mes.entries()].sort((a, b) => a[0].localeCompare(b[0])).slice(-12).map(([mes, total]) => ({ mes, total: round2(total) })),
-          fornecedores: topN(d.forn, 5).map(([cnpj, total]) => ({ nome: d.fornNome.get(cnpj), cnpj, total: round2(total) })),
+          meses: [...d.mes.entries()].sort((a, b) => a[0].localeCompare(b[0])).map(([mes, total]) => ({ mes, total: round2(total) })),
+          fornecedores: topN(d.forn, 10).map(([cnpj, total]) => ({ nome: d.fornNome.get(cnpj), cnpj, total: round2(total) })),
+          glosas: round2(d.glosa),
+          semComprovante: d.semDoc,
         }
       : null;
 
@@ -807,10 +824,11 @@ async function buildSenado() {
       if (!codeSet.has(cod)) continue;
       if (r.ano < 2023 || (r.ano === 2023 && r.mes < 2)) continue;
       let a = ceaps.get(cod);
-      if (!a) ceaps.set(cod, (a = { total: 0, docs: 0, ano: new Map(), cat: new Map(), anoCat: new Map(), mes: new Map(), forn: new Map(), fornNome: new Map() }));
+      if (!a) ceaps.set(cod, (a = { total: 0, docs: 0, ano: new Map(), cat: new Map(), anoCat: new Map(), mes: new Map(), forn: new Map(), fornNome: new Map(), semDoc: 0, glosa: 0 }));
       const v = num(r.valorReembolsado);
       a.total += v;
       a.docs++;
+      if (!String(r.documento ?? "").trim()) a.semDoc++;
       a.ano.set(r.ano, (a.ano.get(r.ano) ?? 0) + v);
       const cat = r.tipoDespesa || "Sem categoria";
       a.cat.set(cat, (a.cat.get(cat) ?? 0) + v);
@@ -821,7 +839,7 @@ async function buildSenado() {
       if (isCnpj(r.cpfCnpj)) {
         const key = String(r.cpfCnpj).replace(/\D/g, "");
         a.forn.set(key, (a.forn.get(key) ?? 0) + v);
-        a.fornNome.set(key, r.fornecedor);
+        a.fornNome.set(key, maskCpf(r.fornecedor));
       }
     }
   }
@@ -879,11 +897,13 @@ async function buildSenado() {
               .map(([k, t]) => ({ categoria: k.split("|").slice(1).join("|"), total: round2(t) }))
               .filter((x) => x.total !== 0)
               .sort((x, y) => y.total - x.total)
-              .slice(0, 6),
+              .slice(0, 15),
           })),
           porCategoria: topN(a.cat, 15).map(([categoria, total]) => ({ categoria, total: round2(total) })),
           porMes: [...a.mes.entries()].sort((x, y) => x[0].localeCompare(y[0])).slice(-12).map(([mes, total]) => ({ mes, total: round2(total) })),
-          fornecedores: topN(a.forn, 5).map(([cnpj, total]) => ({ nome: a.fornNome.get(cnpj), cnpj, total: round2(total) })),
+          meses: [...a.mes.entries()].sort((x, y) => x[0].localeCompare(y[0])).map(([mes, total]) => ({ mes, total: round2(total) })),
+          fornecedores: topN(a.forn, 10).map(([cnpj, total]) => ({ nome: a.fornNome.get(cnpj), cnpj, total: round2(total) })),
+          semComprovante: a.semDoc,
         }
       : null;
 

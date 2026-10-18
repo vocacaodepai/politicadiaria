@@ -28,7 +28,13 @@ export type Expenses = {
   porAno: ExpenseYear[];
   porCategoria: { categoria: string; total: number }[];
   porMes: { mes: string; total: number }[];
+  /** Todos os meses do mandato (porMes traz só os 12 últimos). */
+  meses?: { mes: string; total: number }[];
   fornecedores: { nome: string; cnpj: string; total: number }[];
+  /** Câmara: soma das glosas (valores recusados) no mandato. */
+  glosas?: number;
+  /** Documentos sem link de comprovante (Câmara) ou sem número de documento (Senado) na fonte. */
+  semComprovante?: number;
 } | null;
 
 export type Propositions = {
@@ -281,6 +287,7 @@ export function congressUrls(): { path: string; lastModified: string; priority: 
     { path: "/congresso", lastModified: updated, priority: 0.8 },
     { path: "/congresso/deputados", lastModified: updated, priority: 0.7 },
     { path: "/congresso/senadores", lastModified: updated, priority: 0.7 },
+    ...(existsSync(join(DIR, "agenda", "eventos.json")) ? [{ path: "/congresso/agenda", lastModified: updated, priority: 0.7 }] : []),
     ...partyParams().map((p) => ({ path: `/congresso/partidos/${p.sigla}`, lastModified: updated, priority: 0.5 })),
     ...getDeputiesIndex().map((d) => ({ path: `/congresso/deputados/${d.slug}`, lastModified: updated, priority: 0.4 })),
     ...getSenatorsIndex().map((d) => ({ path: `/congresso/senadores/${d.slug}`, lastModified: updated, priority: 0.5 })),

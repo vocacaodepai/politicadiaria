@@ -24,7 +24,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     path: `/congresso/senadores/${s.slug}`,
     type: "profile",
   });
-  return s.foto ? { ...meta, openGraph: { ...meta.openGraph, images: [{ url: s.foto.url }] } } : meta;
+  const withFeed: Metadata = { ...meta, alternates: { ...meta.alternates, types: { "application/rss+xml": `/congresso/senadores/${s.slug}/feed.xml` } } };
+  return s.foto ? { ...withFeed, openGraph: { ...meta.openGraph, images: [{ url: s.foto.url }] } } : withFeed;
 }
 
 export default async function Page({ params }: { params: Params }) {

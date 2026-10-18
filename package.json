@@ -13,7 +13,11 @@
     "lint": "eslint && npm run check:content",
     "content:new": "node scripts/new-content.mjs",
     "seo:report": "node scripts/seo-report.mjs",
-    "congress:update": "node scripts/build-congress-data.mjs",
+    "congress:data": "node scripts/build-congress-data.mjs",
+    "congress:agenda": "node scripts/build-congress-agenda.mjs",
+    "congress:recursos": "node scripts/build-congress-recursos.mjs",
+    "congress:campanha": "node scripts/build-campanha-parlamentares.mjs",
+    "congress:update": "node scripts/build-congress-data.mjs && node scripts/build-congress-agenda.mjs && node scripts/build-congress-recursos.mjs && (node scripts/build-campanha-parlamentares.mjs || echo 'campanha: não coletada agora, dados anteriores mantidos')",
     "eleicoes:update": "node scripts/build-eleicoes-data.mjs"
   },
   "dependencies": {

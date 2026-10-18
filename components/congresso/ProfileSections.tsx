@@ -113,7 +113,34 @@ export function CostSection({ casa, rem, expenses, since }: { casa: Casa; rem: R
 
 /* --------------------------------------------------------- despesas */
 
-export function ExpensesSection({ expenses, casa, updated }: { expenses: Expenses; casa: Casa; updated: string }) {
+/** Página oficial onde o valor pode ser conferido (consulta da cota, por ano ou mês). */
+export function expenseSourceUrl(casa: Casa, id: number, ano: number, mes?: number, anoFim?: number): string {
+  if (casa === "camara") {
+    const mm = (m: number) => String(m).padStart(2, "0");
+    const ini = mes ? `${mm(mes)}${ano}` : `${mm(ano === 2023 ? 2 : 1)}${ano}`;
+    const fim = mes ? `${mm(mes)}${ano}` : `12${anoFim ?? ano}`;
+    return `https://www.camara.leg.br/cota-parlamentar/consulta-cota-parlamentar?ideDeputado=${id}&dataInicio=${ini}&dataFim=${fim}`;
+  }
+  return `https://www6g.senado.leg.br/transparencia/sen/${id}/?ano=${ano}${mes ? `&mes=${mes}` : ""}`;
+}
+
+/** Valor em R$ que leva à fonte oficial (abre em nova aba). */
+export function SourceValue({ value, href, short = false, label }: { value: number; href: string; short?: boolean; label?: string }) {
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      title={label ?? "Conferir na fonte oficial"}
+      aria-label={`${short ? formatBRLShort(value) : formatBRL(value)} (abre a fonte oficial em nova aba)`}
+      className="underline decoration-dotted underline-offset-2 hover:text-accent"
+    >
+      {short ? formatBRLShort(value) : formatBRL(value)}
+    </a>
+  );
+}
+
+export function ExpensesSection({ expenses, casa, updated, id }: { expenses: Expenses; casa: Casa; updated: string; id: number }) {
   const name = casa === "camara" ? "cota parlamentar (CEAP)" : "CEAPS";
   if (!expenses) {
     return (
@@ -125,17 +152,20 @@ export function ExpensesSection({ expenses, casa, updated }: { expenses: Expense
   const last12 = expenses.porMes.slice(-12);
   const maxMonth = Math.max(1, ...last12.map((m) => m.total));
   const latestYear = expenses.porAno.at(-1);
+  const lastYear = latestYear?.ano ?? new Date().getFullYear();
+  const monthsOf = (ano: number) => (expenses.meses ?? []).filter((m) => m.mes.startsWith(`${ano}-`));
+  const MESES = ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"];
   return (
     <Card
       id="despesas"
       title={`Despesas da ${name}`}
-      note={`Valores líquidos (já descontadas glosas) reembolsados no mandato atual, desde fevereiro de 2023. O ano mais recente (${latestYear?.ano}) está incompleto. Dados oficiais, atualizados em ${updated}.`}
+      note={`Valores líquidos (já descontadas glosas) reembolsados no mandato atual, desde fevereiro de 2023. O ano mais recente (${latestYear?.ano}) está incompleto. Cada valor sublinhado leva à fonte oficial. Dados oficiais, atualizados em ${updated}.`}
     >
       <p className="text-sm text-muted">
-        Total no mandato: <strong className="text-foreground">{formatBRL(expenses.total)}</strong> em {formatInt(expenses.documentos)} documentos.
+        Total no mandato: <strong className="text-foreground"><SourceValue value={expenses.total} href={expenseSourceUrl(casa, id, 2023, undefined, lastYear)} /></strong> em {formatInt(expenses.documentos)} documentos.
       </p>
 
-      <h3 className="mt-5 label-mono text-muted">Por ano</h3>
+      <h3 className="mt-5 label-mono text-muted">Total por ano</h3>
       <div className="mt-2 overflow-x-auto">
         <table className="w-full min-w-[420px] border-collapse text-sm">
           <caption className="sr-only">Despesas por ano</caption>
@@ -150,11 +180,74 @@ export function ExpensesSection({ expenses, casa, updated }: { expenses: Expense
                     <span className="block h-full rounded-sm bg-accent" style={{ width: `${(y.total / Math.max(1, ...expenses.porAno.map((x) => x.total))) * 100}%` }} />
                   </span>
                 </td>
-                <td className="whitespace-nowrap py-2 text-right font-mono text-xs tabular-nums">{formatBRL(y.total)}</td>
+                <td className="whitespace-nowrap py-2 text-right font-mono text-xs tabular-nums">
+                  <SourceValue value={y.total} href={expenseSourceUrl(casa, id, y.ano)} />
+                </td>
               </tr>
             ))}
           </tbody>
         </table>
+      </div>
+
+      <h3 className="mt-6 label-mono text-muted">Mês a mês e por categoria, em cada ano</h3>
+      <div className="mt-2 space-y-2">
+        {[...expenses.porAno].reverse().map((y) => {
+          const months = monthsOf(y.ano);
+          return (
+            <details key={y.ano} className="rounded-lg border border-border px-3 py-2" open={y.ano === lastYear}>
+              <summary className="cursor-pointer text-sm font-medium">
+                {y.ano}: <span className="font-mono tabular-nums">{formatBRL(y.total)}</span>
+              </summary>
+              <div className="mt-3 grid gap-6 sm:grid-cols-2">
+                <div>
+                  <p className="label-mono text-muted">Por mês</p>
+                  <table className="mt-1 w-full border-collapse text-sm">
+                    <caption className="sr-only">Despesas por mês em {y.ano}</caption>
+                    <tbody>
+                      {months.length ? (
+                        months.map((m) => {
+                          const n = Number(m.mes.slice(5, 7));
+                          return (
+                            <tr key={m.mes} className="border-t border-border">
+                              <th scope="row" className="py-1 pr-2 text-left font-normal capitalize">
+                                {MESES[n - 1]}
+                              </th>
+                              <td className="py-1 text-right font-mono text-xs tabular-nums">
+                                <SourceValue value={m.total} href={expenseSourceUrl(casa, id, y.ano, n)} />
+                              </td>
+                            </tr>
+                          );
+                        })
+                      ) : (
+                        <tr>
+                          <td className="py-1 text-xs text-muted">Detalhe mensal ainda não coletado.</td>
+                        </tr>
+                      )}
+                    </tbody>
+                  </table>
+                </div>
+                <div>
+                  <p className="label-mono text-muted">Por categoria</p>
+                  <table className="mt-1 w-full border-collapse text-sm">
+                    <caption className="sr-only">Despesas por categoria em {y.ano}</caption>
+                    <tbody>
+                      {y.categorias.map((c) => (
+                        <tr key={c.categoria} className="border-t border-border align-top">
+                          <th scope="row" className="py-1 pr-2 text-left text-xs font-normal leading-snug">
+                            {sentence(c.categoria)}
+                          </th>
+                          <td className="whitespace-nowrap py-1 text-right font-mono text-xs tabular-nums">
+                            <SourceValue value={c.total} href={expenseSourceUrl(casa, id, y.ano)} />
+                          </td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </details>
+          );
+        })}
       </div>
 
       <h3 className="mt-6 label-mono text-muted">Por categoria (mandato atual)</h3>
@@ -170,7 +263,6 @@ export function ExpensesSection({ expenses, casa, updated }: { expenses: Expense
         }))}
       />
 
-
       <h3 className="mt-6 label-mono text-muted">Últimos {last12.length} meses</h3>
       <div
         className="mt-2 flex h-28 items-end gap-1 [&>span]:min-w-0 [&>span]:flex-1 [&>span]:rounded-t-sm [&>span]:bg-accent"
@@ -182,22 +274,49 @@ export function ExpensesSection({ expenses, casa, updated }: { expenses: Expense
         ))}
       </div>
       <p className="mt-1 text-[10px] text-muted">
-        {monthLabel(last12[0].mes)} a {monthLabel(last12[last12.length - 1].mes)}; passe o cursor sobre cada barra para ver o valor.
+        {monthLabel(last12[0].mes)} a {monthLabel(last12[last12.length - 1].mes)}; passe o cursor sobre cada barra para ver o valor. Os valores mês a mês estão na lista acima, com link para a fonte.
       </p>
 
       {expenses.fornecedores.length > 0 && (
         <>
-          <h3 className="mt-6 label-mono text-muted">Maiores fornecedores (pessoas jurídicas)</h3>
+          <h3 className="mt-6 label-mono text-muted">Maiores fornecedores (empresas, com CNPJ)</h3>
           <ul className="mt-2 divide-y divide-border text-sm">
             {expenses.fornecedores.map((f) => (
               <li key={f.cnpj} className="flex justify-between gap-3 py-1.5">
-                <span className="min-w-0 truncate">{f.nome}</span>
-                <span className="shrink-0 font-mono text-xs tabular-nums text-muted">{formatBRL(f.total)}</span>
+                <span className="min-w-0">
+                  <span className="block truncate">{f.nome}</span>
+                  <span className="block font-mono text-[10px] text-muted">CNPJ {f.cnpj.replace(/^(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})$/, "$1.$2.$3/$4-$5")}</span>
+                </span>
+                <span className="shrink-0 font-mono text-xs tabular-nums text-muted">
+                  <SourceValue value={f.total} href={expenseSourceUrl(casa, id, 2023, undefined, lastYear)} label="Conferir as notas na fonte oficial" />
+                </span>
               </li>
             ))}
           </ul>
+          <p className="mt-1 text-[11px] text-muted">
+            Só empresas entram na lista. Quando o nome de um fornecedor trazia o CPF de uma pessoa física, o número é ocultado ({"***.***.***-**"}); o CNPJ da empresa permanece visível.
+          </p>
         </>
       )}
+
+      <h3 className="mt-6 label-mono text-muted">Comprovantes e sigilo</h3>
+      <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-muted">
+        <li>
+          Despesa ou documento sigiloso:{" "}
+          <strong className="text-foreground">não informado pela fonte</strong>. As bases abertas da {casa === "camara" ? "CEAP" : "CEAPS"} não trazem um campo de sigilo; o que a fonte marca como ausência de comprovante aparece abaixo.
+        </li>
+        {typeof expenses.semComprovante === "number" && (
+          <li>
+            {casa === "camara" ? "Documentos sem link de comprovante na fonte" : "Documentos sem número de documento na fonte"}:{" "}
+            <strong className="text-foreground">{formatInt(expenses.semComprovante)}</strong> de {formatInt(expenses.documentos)} ({formatPct(pct(expenses.semComprovante, expenses.documentos), 1)}).
+          </li>
+        )}
+        {casa === "camara" && typeof expenses.glosas === "number" && (
+          <li>
+            Valores glosados (recusados pela Câmara) no mandato: <strong className="text-foreground">{formatBRL(expenses.glosas)}</strong>. Os valores desta página já descontam as glosas.
+          </li>
+        )}
+      </ul>
     </Card>
   );
 }

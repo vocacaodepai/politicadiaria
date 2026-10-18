@@ -8,6 +8,8 @@ import { NEWS_DESCRIPTION, NEWS_TITLE, NewsListing } from "./NewsListing";
 import { listingMetadata, pagedTitle } from "./metadata";
 import { NEWS_PER_PAGE, countPages, slicePage } from "./paginate";
 import { pageHref } from "@/components/Pagination";
+import { ParlamentarNewsFilter } from "@/components/ParlamentarNewsFilter";
+import { getParlamentarNewsIndex } from "@/lib/congress-news-filter";
 
 const BASE = "/noticias";
 
@@ -62,6 +64,7 @@ export function NoticiasPage({ page }: { page: number }) {
           { name: "Notícias", path: BASE },
         ])}
       />
+      {page === 1 && <ParlamentarNewsFilter index={getParlamentarNewsIndex()} />}
       <NewsListing
         groups={groups}
         total={all.length}

@@ -24,7 +24,8 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
     path: `/congresso/deputados/${d.slug}`,
     type: "profile",
   });
-  return d.foto ? { ...meta, openGraph: { ...meta.openGraph, images: [{ url: d.foto.url }] } } : meta;
+  const withFeed: Metadata = { ...meta, alternates: { ...meta.alternates, types: { "application/rss+xml": `/congresso/deputados/${d.slug}/feed.xml` } } };
+  return d.foto ? { ...withFeed, openGraph: { ...meta.openGraph, images: [{ url: d.foto.url }] } } : withFeed;
 }
 
 export default async function Page({ params }: { params: Params }) {

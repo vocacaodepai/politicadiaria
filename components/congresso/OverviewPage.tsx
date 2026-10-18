@@ -9,6 +9,7 @@ import { absoluteUrl, breadcrumbJsonLd } from "@/lib/seo";
 import { UF_NAMES, formatBRL, formatBRLShort, formatInt, formatPct, getMeta, getRemuneracao, getSummary, partySlug, pct } from "@/lib/congress";
 import { THEMES } from "./NumerosPage";
 import { getNumeros, hasEvolucao, hasNumeros, type NumeroRow } from "@/lib/congress-extra";
+import { hasAgenda } from "@/lib/congress-agenda";
 import { BarList, StackedBar } from "./Bars";
 import { LegislatureNotice } from "./LegislatureNotice";
 import { Card, StatTile } from "./Stat";
@@ -85,7 +86,7 @@ export function OverviewPage() {
           <StatTile label="Cota usada na legislatura" value={formatBRLShort(spendTotal)} hint="CEAP e CEAPS, desde fev/2023" href={nums ? "/congresso/numeros/cota-camara" : undefined} />
         </div>
 
-        <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           <Link href="/congresso/plenario" className="card-hover rounded-xl border border-border border-t-[3px] border-t-foreground bg-surface p-5">
             <p className="label-mono text-accent">Visualização</p>
             <p className="mt-1 font-display text-xl font-bold">O plenário em um mapa →</p>
@@ -96,6 +97,13 @@ export function OverviewPage() {
               <p className="label-mono text-accent">Comparativo</p>
               <p className="mt-1 font-display text-xl font-bold">Evolução das bancadas →</p>
               <p className="mt-1 text-sm text-muted">Quem cresceu e quem encolheu entre três legislaturas.</p>
+            </Link>
+          )}
+          {hasAgenda() && (
+            <Link href="/congresso/agenda" className="card-hover rounded-xl border border-border border-t-[3px] border-t-foreground bg-surface p-5">
+              <p className="label-mono text-accent">Agenda</p>
+              <p className="mt-1 font-display text-xl font-bold">O que o Congresso tem marcado →</p>
+              <p className="mt-1 text-sm text-muted">Sessões, comissões e audiências, com local, situação e link oficial.</p>
             </Link>
           )}
           <Link href="/congresso/deputados" className="card-hover rounded-xl border border-border bg-surface p-5">

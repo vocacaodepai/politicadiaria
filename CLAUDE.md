@@ -146,6 +146,28 @@ Commons.** Nunca imagem gerada por IA, nunca captura de página da Amazon.
   residencial). "Ausência" é **ausência em votação nominal**, não falta em sessão: licenças e
   missões oficiais existem e a página explica isso. Tom neutro, sem ranking de valor.
 - Texto de notícia que cita um parlamentar deve linkar a página dele quando existir.
+- **Agenda** (`/congresso/agenda` e bloco "Agenda" em cada parlamentar): `scripts/build-congress-agenda.mjs`
+  (`npm run congress:agenda`) coleta os eventos da Câmara (`/eventos`, `/deputados/{id}/eventos`) e do
+  Senado (comissões, Plenário, Congresso Nacional) de 7 dias atrás a 14 à frente, em
+  `data/congresso/agenda/` (`eventos.json`, `parlamentares/c-<id>.json`, `s-<id>.json`, `meta.json`).
+  Cada item tem horário de Brasília, tipo, local, situação, link oficial e se a fonte marca a reunião
+  como reservada (a Câmara não informa: "não informado pela fonte"). Vínculo `registro` = a fonte lista o
+  parlamentar; `membro` = integra o órgão. Convocação não é presença.
+- **Gastos**: `despesas` (CEAP/CEAPS) agora traz todos os meses, 10 maiores fornecedores (CNPJ),
+  glosas e documentos sem comprovante; todo valor da página leva à fonte. **CPF nunca aparece**: o
+  coletor mascara CPF em nome de fornecedor (`***.***.***-**`) e o `check-content` falha se achar CPF em
+  `data/congresso/`. `scripts/build-congress-recursos.mjs` (`npm run congress:recursos`) junta, em
+  `data/congresso/recursos/`, verba de gabinete e pessoal, auxílio-moradia, imóvel funcional e viagens
+  (página oficial do deputado no Portal da Câmara; API `recursos-utilizados` do Senado). "Gastos
+  pessoais" (gasto privado) não são dado público: a página explica e não coleta.
+- **Campanha**: `scripts/build-campanha-parlamentares.mjs` (`npm run congress:campanha`) lê os dados abertos
+  do TSE (2022 e 2026: candidaturas, bens, receitas, despesas) e grava `data/congresso/campanha/`.
+  Vincula candidato a parlamentar só com nome civil + data de nascimento iguais; senão
+  "não vinculado com segurança". Doador só agregado por origem, sem CPF.
+- **Seguir/Citado em**: cada parlamentar tem `feed.xml` (RSS: votos, ausências em votação nominal, notícias,
+  checagens e resenhas que o citam, agenda); o índice "citado em" sai dos links `/congresso/...` no
+  corpo do conteúdo (`lib/congress-mentions.ts`) e alimenta `/noticias?parlamentar=<slug>`. Alerta por
+  e-mail ficou para uma etapa futura (não anunciar no site).
 
 ## Rotinas diárias
 
