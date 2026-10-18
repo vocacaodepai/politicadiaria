@@ -111,7 +111,7 @@ function CamaraBlock({ r, rem, expenses, id }: { r: CamaraRecursos; rem: Remuner
                   {a.ano}: gasto <span className="font-mono tabular-nums">{formatBRL(a.totalGasto)}</span> de <span className="font-mono tabular-nums">{formatBRL(a.totalDisponivel)}</span> disponíveis ({formatPct(pct(a.totalGasto, a.totalDisponivel), 1)})
                 </summary>
                 <div className="mt-2 overflow-x-auto">
-                  <table className="w-full min-w-[360px] border-collapse text-sm">
+                  <table className="w-full min-w-[320px] border-collapse text-sm">
                     <caption className="sr-only">Verba de gabinete em {a.ano}</caption>
                     <thead>
                       <tr className="text-left">

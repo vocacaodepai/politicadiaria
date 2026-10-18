@@ -11,9 +11,13 @@ Horário: 04:17 (Brasília), uma vez por dia. Nome do clone: `pd-congresso`. Sig
    - `scripts/build-congress-agenda.mjs`: agenda de 7 dias atrás a 14 à frente (`data/congresso/agenda/`).
      Menos de 2 minutos.
    - `scripts/build-congress-recursos.mjs`: verba de gabinete, pessoal, auxílio-moradia, imóvel funcional e
-     viagens (`data/congresso/recursos/`). A página da Câmara limita o ritmo (HTTP 429): o script espera
-     1,3 s entre requisições e reaproveita os anos já fechados da coleta anterior; a primeira execução
-     completa leva cerca de 1 hora, as seguintes cerca de 20 minutos.
+     viagens (`data/congresso/recursos/`). A página da Câmara limita o ritmo (HTTP 429, cerca de 10 a 20
+     requisições por minuto): o script faz pausa coletiva ao receber 429 e tem orçamento de tempo
+     (`--budget-min=40` por padrão, `--gap=2000` ms). Fase 1: página do deputado e ano corrente para todos
+     (os coletados há mais tempo primeiro); fase 2: anos anteriores, do mais recente ao mais antigo, só de quem
+     ainda não os tem (anos fechados vêm da coleta anterior). Ao estourar o orçamento grava o que tem e o
+     restante entra nas rodadas seguintes (`avisos` de cada arquivo diz quais anos faltam). Primeira carga
+     completa: várias rodadas. O quadro de pessoal do gabinete vem do arquivo aberto de funcionários.
    - `scripts/build-campanha-parlamentares.mjs`: gastos de campanha 2022 e 2026 a partir dos dados abertos
      do TSE (`data/congresso/campanha/`). Baixa cerca de 450 MB para `.cache/`. Se o TSE falhar, os
      dados anteriores ficam e a rotina segue (registre na resposta final).
