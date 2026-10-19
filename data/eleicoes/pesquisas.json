@@ -544,6 +544,26 @@
  ],
  "segundoTurno2026": [
   {
+   "id": "atlasintel-2026-10-18",
+   "instituto": "AtlasIntel",
+   "rotulo": "AtlasIntel",
+   "campoInicio": "2026-10-13",
+   "campoFim": "2026-10-18",
+   "amostra": 4998,
+   "margem": 1,
+   "registro": "BR-02418/2026",
+   "publicadoEm": "2026-10-19",
+   "materia": {
+    "url": "https://timesbrasil.com.br/eleicoes-2026/atlas-bloomberg-pesquisa-flavio-bolsonaro-lula-segundo-turno",
+    "veiculo": "Times Brasil",
+    "titulo": "Pesquisa Atlas/Bloomberg mostra Flávio Bolsonaro com 49,8% e Lula com 47,6%"
+   },
+   "lula": 47.6,
+   "flavio": 49.8,
+   "indecisos": 2.6,
+   "base": "totais"
+  },
+  {
    "id": "poderdata-2026-10-15",
    "instituto": "PoderData",
    "rotulo": "PoderData/Aya",
