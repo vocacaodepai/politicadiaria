@@ -1,0 +1,460 @@
+{
+  "atualizadoEm": "2026-10-18T21:50:00-03:00",
+  "status": "parcial",
+  "statusRotulo": "Cobertura parcial",
+  "aviso": "Este painel só registra o que está em fonte aberta e conferida. Os blocos 1 e 2 do debate constam do minuto a minuto de O Tempo, que termina no fim do segundo bloco. O terceiro bloco e as considerações finais ainda não têm registro confiável e aparecem como pendentes. As checagens têm veredito apenas quando há fonte aberta que o sustente.",
+  "evento": {
+    "titulo": "Debate do 2º turno na Band: Flávio Bolsonaro e Lula",
+    "dataPrevista": "2026-10-18T20:00:00-03:00",
+    "inicioRegistrado": "2026-10-18T20:15:00-03:00",
+    "emissora": "Band (com Jovem Pan, TV Gazeta, TV Cultura e O Estado de S. Paulo)",
+    "mediadores": "Adriana Araújo e Eduardo Oinegue",
+    "transmissao": "https://www.youtube.com/live/Gqc1rQtzWUk",
+    "formato": [
+      "Bloco 1: uma pergunta dos mediadores a cada candidato, seguida de 30 minutos de confronto direto (15 minutos para cada um, de uso livre).",
+      "Bloco 2: perguntas dos mediadores, seguidas de perguntas de um candidato ao outro.",
+      "Bloco 3: mesma regra do bloco 2, encerrando com as considerações finais dos candidatos."
+    ],
+    "fontesFormato": [
+      4,
+      3
+    ]
+  },
+  "candidatos": [
+    {
+      "id": "flavio",
+      "nome": "Flávio Bolsonaro",
+      "partido": "PL",
+      "primeiroTurno": "47,03% dos votos válidos",
+      "fonte": "TSE, apuração do 1º turno (data/eleicoes/resultados.json)"
+    },
+    {
+      "id": "lula",
+      "nome": "Lula",
+      "partido": "PT",
+      "primeiroTurno": "45,16% dos votos válidos",
+      "fonte": "TSE, apuração do 1º turno (data/eleicoes/resultados.json)"
+    }
+  ],
+  "fontes": [
+    {
+      "n": 1,
+      "rotulo": "Debate Lula x Flávio Bolsonaro (TV Band, 18/10/2026): minuto a minuto",
+      "veiculo": "O Tempo",
+      "url": "https://www.otempo.com.br/eleicoes/2026/presidentes/2026/10/18/debate-na-band-entre-lula-e-flavio-bolsonaro-acompanhe-em-tempo-real",
+      "conferidaEm": "2026-10-18T21:30:00-03:00",
+      "nota": "Blog ao vivo sem horário absoluto por registro; a ordem segue a da página. Termina em 'Fim do segundo bloco'."
+    },
+    {
+      "n": 2,
+      "rotulo": "Acompanhe o Debate da Band ao vivo: Lula x Flávio Bolsonaro",
+      "veiculo": "TVT News",
+      "url": "https://tvtnews.com.br/debate-na-band-lula-x-flavio-bolsonaro/",
+      "conferidaEm": "2026-10-18T21:30:00-03:00",
+      "nota": "Blog ao vivo com horários de abertura e comentários de colunistas, que a página trata como avaliação."
+    },
+    {
+      "n": 3,
+      "rotulo": "Debate Band/Jovem Pan: acompanhe ao vivo o 1º confronto direto entre Flávio e Lula",
+      "veiculo": "Jovem Pan",
+      "url": "https://jovempan.com.br/politica/debate-band-jovem-pan-acompanhe-ao-vivo-o-1o-confronto-direto-entre-flavio-e-lula/",
+      "conferidaEm": "2026-10-18T21:35:00-03:00",
+      "nota": "Página ao vivo com manchetes dos momentos do debate e o formato."
+    },
+    {
+      "n": 4,
+      "rotulo": "Flávio e Lula se enfrentam em primeiro debate do 2º turno",
+      "veiculo": "CNN Brasil",
+      "url": "https://www.cnnbrasil.com.br/eleicoes/flavio-e-lula-1o-debate-da-eleicao-presidencial/",
+      "conferidaEm": "2026-10-18T21:35:00-03:00",
+      "nota": "Prévia com formato, mediadores e contexto do 1º turno. Sem falas do debate."
+    }
+  ],
+  "pendencias": [
+    "Bloco 3 e considerações finais: sem registro em fonte aberta conferida até esta atualização.",
+    "Checagem em tempo real do Aos Fatos: a página existe, mas não abriu na conferência. Enquanto não abrir, nenhum veredito dela entra aqui.",
+    "Horários absolutos de cada fala: as fontes abertas não os trazem; os blocos mostram só o que foi registrado.",
+    "Transcrição integral: não há transcrição oficial aberta; nada aqui é citação literal além do que está marcado como tal."
+  ],
+  "blocos": [
+    {
+      "id": "chegada",
+      "horarioRotulo": "19h26 a 20h15",
+      "horario": "2026-10-18T19:26:00-03:00",
+      "bloco": "Antes do debate",
+      "tema": "Chegadas, expectativas e atraso",
+      "afirmacoes": [
+        {
+          "candidato": "Flávio Bolsonaro",
+          "tipo": "resumo",
+          "texto": "Chegou à Band às 19h26. Disse ter a melhor expectativa possível, afirmou que queria o debate já no 1º turno e prometeu falar de um projeto de prosperidade.",
+          "fontes": [
+            1
+          ]
+        },
+        {
+          "candidato": "Lula",
+          "tipo": "resumo",
+          "texto": "Chegou às 19h38 e disse esperar um debate propositivo, sem xingamentos.",
+          "fontes": [
+            1
+          ]
+        }
+      ],
+      "contexto": "A Band informou que o início passaria das 20h para as 20h15, porque os candidatos chegaram em cima da hora. Segundo a TVT News, a explicação das regras começou por volta das 20h20.",
+      "fontesContexto": [
+        1,
+        2
+      ],
+      "respostaOutroLado": null,
+      "checagens": []
+    },
+    {
+      "id": "b1-seguranca",
+      "horarioRotulo": "Bloco 1 (horário não registrado)",
+      "horario": null,
+      "bloco": "Bloco 1: perguntas dos mediadores",
+      "tema": "Segurança pública",
+      "pergunta": "Adriana Araújo citou mais de 40 mil mortes violentas no ano anterior e o avanço de facções, e perguntou sobre as propostas de combate a elas e a discussão da maioridade penal.",
+      "afirmacoes": [
+        {
+          "candidato": "Flávio Bolsonaro",
+          "tipo": "resumo",
+          "texto": "Disse que classificará as facções como narcoterroristas, que retomará territórios dominados por criminosos e que abrirá mais de meio milhão de vagas no sistema penitenciário.",
+          "fontes": [
+            1
+          ]
+        },
+        {
+          "candidato": "Lula",
+          "tipo": "resumo",
+          "texto": "Disse que nenhum estado resolveu o problema, citou a lei antifacção do seu governo e o aumento de penas para participação em facções, e criticou Flávio por não ter votado na PEC da Segurança Pública. Afirmou que criará o Ministério da Segurança Pública se a PEC for aprovada.",
+          "fontes": [
+            1
+          ]
+        }
+      ],
+      "respostaOutroLado": "Cada candidato respondeu à mesma pergunta; a fonte não registra réplica direta neste ponto.",
+      "checagens": [
+        {
+          "candidato": "Lula",
+          "afirmacao": "Flávio Bolsonaro não votou na PEC da Segurança Pública.",
+          "veredito": "Sem dado",
+          "nota": "Sem checagem em fonte aberta conferida. O registro de votação está nos dados abertos do Senado e da Câmara; a conferência está na fila.",
+          "fontes": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-economia",
+      "horarioRotulo": "Bloco 1 (horário não registrado)",
+      "horario": null,
+      "bloco": "Bloco 1: perguntas dos mediadores",
+      "tema": "Economia e juros",
+      "pergunta": "Eduardo Oinegue perguntou como o país pode sair da armadilha histórica de crescimento travado pelos juros altos.",
+      "afirmacoes": [
+        {
+          "candidato": "Flávio Bolsonaro",
+          "tipo": "resumo",
+          "texto": "Criticou o pacote de bondade do governo, que segundo ele usa a máquina pública para a reeleição, e disse que os indicadores financeiros melhoraram após o 1º turno.",
+          "fontes": [
+            1
+          ]
+        },
+        {
+          "candidato": "Lula",
+          "tipo": "resumo",
+          "texto": "Reconheceu a dificuldade de governar, destacou a distribuição de renda e os incentivos aos MEIs e prometeu economia digital e verde no próximo mandato.",
+          "fontes": [
+            1
+          ]
+        }
+      ],
+      "respostaOutroLado": null,
+      "checagens": [
+        {
+          "candidato": "Flávio Bolsonaro",
+          "afirmacao": "Os indicadores financeiros melhoraram após o 1º turno.",
+          "veredito": "Sem dado",
+          "nota": "A frase não diz qual indicador nem o período, então não há o que conferir. Câmbio, Bolsa e juros futuros são públicos (Banco Central e B3), mas não foram cotejados aqui.",
+          "fontes": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1-confronto",
+      "horarioRotulo": "Confronto direto do bloco 1 (horário não registrado)",
+      "horario": null,
+      "bloco": "Bloco 1: confronto direto",
+      "tema": "Troca de perguntas e acusações entre os candidatos",
+      "pergunta": "Os dois candidatos tinham 15 minutos cada, de uso livre, para perguntar e responder.",
+      "afirmacoes": [
+        {
+          "candidato": "Lula",
+          "tipo": "resumo",
+          "texto": "Questionou o voto de Flávio, em 2009, contra o aumento da licença-maternidade, quando era deputado estadual no Rio de Janeiro. Segundo a TVT News, Lula disse que Flávio não respondeu, e Flávio levou o assunto para o INSS.",
+          "fontes": [
+            1,
+            2
+          ]
+        },
+        {
+          "candidato": "Flávio Bolsonaro",
+          "tipo": "resumo",
+          "texto": "Respondeu perguntando sobre Roberta Luchsinger e associou a lobista a Lulinha, filho do presidente. Perguntou por que Lulinha estava, nas palavras dele, fugido na Espanha, e recomendou a Lula que não coloque a mão no fogo pelo filho.",
+          "fontes": [
+            1,
+            3
+          ]
+        },
+        {
+          "candidato": "Lula",
+          "tipo": "resumo",
+          "texto": "Disse que o caso Luchsinger está com a Polícia Federal e ligou a lobista ao chamado Careca do INSS, a quem descreveu como aliado de Flávio. Afirmou acreditar na inocência do filho, que vai depor, e cobrou explicações sobre o esquema do INSS no governo de Jair Bolsonaro.",
+          "fontes": [
+            1
+          ]
+        },
+        {
+          "candidato": "Lula",
+          "tipo": "resumo",
+          "texto": "Citou Daniel Vorcaro e acusou Flávio de ter mentido 44 vezes sobre a relação com ele.",
+          "fontes": [
+            1
+          ]
+        },
+        {
+          "candidato": "Flávio Bolsonaro",
+          "tipo": "resumo",
+          "texto": "Respondeu que, no espaço do debate, só Lula foi condenado, e citou Sergio Moro e Deltan Dallagnol na plateia. Disse que quem prendeu Vorcaro foi o ministro André Mendonça, e não a polícia do governo, e que o dinheiro recebido por Vorcaro foi usado no filme sobre Jair Bolsonaro.",
+          "fontes": [
+            1
+          ]
+        },
+        {
+          "candidato": "Flávio Bolsonaro",
+          "tipo": "resumo",
+          "texto": "Acusou o governo de comprar votos com o pacote de bondade e o reajuste do Bolsa Família, e perguntou sobre o fato de Lula receber mais de 70% dos votos de presos.",
+          "fontes": [
+            1,
+            3
+          ]
+        },
+        {
+          "candidato": "Lula",
+          "tipo": "resumo",
+          "texto": "Atribuiu o pagamento do reajuste do Bolsa Família a um equívoco do Ministério da Fazenda, que segundo ele foi corrigido depois. Sobre os presos, respondeu pedindo voto de todos, inclusive do pai de Flávio.",
+          "fontes": [
+            1,
+            3
+          ]
+        },
+        {
+          "candidato": "Lula",
+          "tipo": "resumo",
+          "texto": "Perguntou se Flávio manteria a escala 6x1 e questionou a defesa dele à retirada da identificação de munições. Perguntou se Flávio usaria a motosserra de Javier Milei e disse que, se reeleito, manterá o modelo Lula.",
+          "fontes": [
+            1
+          ]
+        },
+        {
+          "candidato": "Flávio Bolsonaro",
+          "tipo": "resumo",
+          "texto": "Disse que Lula mente sobre a escala 6x1 e que vai manter o fim da escala, mas defende uma ideia melhor. Sobre as munições, respondeu que o governo Lula não fiscaliza as fronteiras. Citou a amizade de Lula com Daniel Ortega, da Nicarágua.",
+          "fontes": [
+            1
+          ]
+        },
+        {
+          "candidato": "Lula",
+          "tipo": "resumo",
+          "texto": "Respondeu que Eduardo Bolsonaro estava, nas palavras dele, fugido nos EUA, chamou Flávio de irresponsável e afirmou que ele é pior que o pai.",
+          "fontes": [
+            1
+          ]
+        },
+        {
+          "candidato": "Flávio Bolsonaro",
+          "tipo": "resumo",
+          "texto": "Disse que o irmão está exilado, reagiu a uma interrupção dizendo ter 56 milhões de votos e pediu a Lula que ficasse perto dele no palco. Lula recusou, dizendo preferir manter distância da família Bolsonaro.",
+          "fontes": [
+            1
+          ]
+        }
+      ],
+      "respostaOutroLado": "Flávio Bolsonaro pediu dois direitos de resposta. Segundo O Tempo, um foi concedido, depois de ele ser chamado de miliciano. Na resposta, apresentou propostas para as favelas, com o objetivo de tirar as facções dessas comunidades.",
+      "fontesResposta": [
+        1
+      ],
+      "checagens": [
+        {
+          "candidato": "Flávio Bolsonaro",
+          "afirmacao": "Flávio votou, em 2009, contra o aumento da licença-maternidade (afirmação de Lula).",
+          "veredito": "Sem dado",
+          "nota": "Sem checagem em fonte aberta conferida. O registro de votação da Assembleia Legislativa do Rio de Janeiro é a fonte primária; ainda não foi aberto aqui.",
+          "fontes": [
+            1,
+            2
+          ]
+        },
+        {
+          "candidato": "Lula",
+          "afirmacao": "Flávio Bolsonaro mentiu 44 vezes sobre a relação com Daniel Vorcaro.",
+          "veredito": "Sem dado",
+          "nota": "O número foi dito por Lula no debate e não foi encontrada checagem aberta que o sustente ou contradiga. Fica registrado como afirmação do candidato.",
+          "fontes": [
+            1
+          ]
+        },
+        {
+          "candidato": "Flávio Bolsonaro",
+          "afirmacao": "Só Lula foi condenado entre as pessoas presentes no espaço do debate.",
+          "veredito": "Sem dado",
+          "nota": "A frase envolve decisões judiciais de datas e instâncias diferentes. Sem a fonte do STF aberta nesta conferência, não há veredito. Fica registrada como fala do candidato.",
+          "fontes": [
+            1
+          ]
+        },
+        {
+          "candidato": "Flávio Bolsonaro",
+          "afirmacao": "Lula recebe mais de 70% dos votos de presos.",
+          "veredito": "Sem dado",
+          "nota": "Dado não localizado em fonte oficial aberta (o TSE divulga votação por seção, inclusive em estabelecimentos prisionais, mas a conta não foi feita).",
+          "fontes": [
+            1,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-saude",
+      "horarioRotulo": "Bloco 2 (horário não registrado)",
+      "horario": null,
+      "bloco": "Bloco 2: perguntas dos mediadores",
+      "tema": "Saúde e SUS",
+      "pergunta": "Adriana Araújo disse que a população tem dificuldade para marcar consultas e exames no SUS e que o país gasta 4% do PIB com saúde, enquanto organizações do setor consideram necessários 6%.",
+      "afirmacoes": [
+        {
+          "candidato": "Flávio Bolsonaro",
+          "tipo": "resumo",
+          "texto": "Propôs levar o modelo Einstein, em referência ao hospital paulista, para o SUS.",
+          "fontes": [
+            1
+          ]
+        },
+        {
+          "candidato": "Lula",
+          "tipo": "resumo",
+          "texto": "Disse que a gestão da família Bolsonaro na saúde foi o pior período do país, com milhares de mortes na pandemia, e perguntou se Flávio quer privatizar o SUS. A TVT News registra que Lula lembrou cerca de 700 mil mortes por Covid-19.",
+          "fontes": [
+            1,
+            2
+          ]
+        }
+      ],
+      "respostaOutroLado": "A discussão esquentou e a mediadora pediu respeito. Segundo O Tempo, Flávio reconheceu que a saúde não foi um dos setores com melhores resultados no governo do pai.",
+      "fontesResposta": [
+        1
+      ],
+      "checagens": [
+        {
+          "candidato": "Lula",
+          "afirmacao": "Cerca de 700 mil mortes por Covid-19 no Brasil.",
+          "veredito": "Sem dado",
+          "nota": "A cifra consta só na página da TVT News. O painel oficial do Ministério da Saúde é a fonte; ainda não foi aberto nesta conferência.",
+          "fontes": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b2-confronto",
+      "horarioRotulo": "Confronto direto do bloco 2 (horário não registrado)",
+      "horario": null,
+      "bloco": "Bloco 2: confronto direto",
+      "tema": "Saidinhas, saúde e dívidas das famílias",
+      "pergunta": "Formato de pergunta, resposta, réplica e tréplica.",
+      "afirmacoes": [
+        {
+          "candidato": "Flávio Bolsonaro",
+          "tipo": "resumo",
+          "texto": "Citou as mortes de Renata da Silva Teles e do sargento Roger Dias, atribuídas a suspeitos durante saídas temporárias, e perguntou se Lula é favorável às saidinhas. Na réplica, disse que Lula se preocupa mais com os direitos dos presos do que com as vítimas e que votou a favor do fim da escala 6x1 por considerar o melhor para os trabalhadores.",
+          "fontes": [
+            1
+          ]
+        },
+        {
+          "candidato": "Lula",
+          "tipo": "resumo",
+          "texto": "Disse que Flávio prometeu indulto ao pai e defendeu o direito de presos que cumprem os requisitos saírem temporariamente. Na tréplica, afirmou que a inflação de alimentos foi maior no governo de Jair Bolsonaro e que, naquele governo, o salário mínimo não teve aumento acima da inflação.",
+          "fontes": [
+            1
+          ]
+        },
+        {
+          "candidato": "Lula",
+          "tipo": "resumo",
+          "texto": "Disse que Jair Bolsonaro não ouviu a ciência na pandemia e teve três ministros da Saúde. Listou ações do seu governo, como o Mais Médicos e melhorias em hospitais federais do Rio de Janeiro, e acusou Flávio de cobrar pedágios de servidores nessas unidades.",
+          "fontes": [
+            1
+          ]
+        },
+        {
+          "candidato": "Flávio Bolsonaro",
+          "tipo": "resumo",
+          "texto": "Chamou Lula de mentiroso e prometeu criar o Ministério da Prosperidade. Sobre endividamento, projetou queda dos juros após a eleição e propôs comprar dívidas de pessoas físicas dos bancos por valor menor, com suspensão das cobranças por seis meses (pessoas físicas) e um ano (pessoas jurídicas).",
+          "fontes": [
+            1
+          ]
+        }
+      ],
+      "respostaOutroLado": null,
+      "checagens": [
+        {
+          "candidato": "Lula",
+          "afirmacao": "A inflação de alimentos foi maior no governo Bolsonaro do que no governo Lula.",
+          "veredito": "Sem dado",
+          "nota": "A comparação depende do período e do índice (IPCA, grupo Alimentação e bebidas, do IBGE). A conta não foi feita aqui; não há veredito.",
+          "fontes": [
+            1
+          ]
+        },
+        {
+          "candidato": "Lula",
+          "afirmacao": "No governo anterior, o salário mínimo não teve aumento acima da inflação.",
+          "veredito": "Sem dado",
+          "nota": "Depende do período e do deflator. Fontes primárias: decretos do salário mínimo e IPCA do IBGE. Conta ainda não feita.",
+          "fontes": [
+            1
+          ]
+        },
+        {
+          "candidato": "Flávio Bolsonaro",
+          "afirmacao": "Votou a favor do fim da escala 6x1.",
+          "veredito": "Sem dado",
+          "nota": "Não localizamos o registro de votação em fonte aberta nesta conferência. O Tempo registra que Flávio diz manter o fim da escala, mas defende uma ideia melhor, e que Lula o questionou sobre o tema.",
+          "fontes": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b3",
+      "horarioRotulo": "Aguardando registro",
+      "horario": null,
+      "bloco": "Bloco 3 e considerações finais",
+      "tema": "Pendente",
+      "pendente": true,
+      "afirmacoes": [],
+      "respostaOutroLado": null,
+      "checagens": []
+    }
+  ]
+}
