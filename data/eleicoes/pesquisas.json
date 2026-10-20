@@ -544,6 +544,46 @@
  ],
  "segundoTurno2026": [
   {
+   "id": "data-ranking-2026-10-16",
+   "instituto": "Data Ranking",
+   "rotulo": "Data Ranking/Fonte83",
+   "campoInicio": "2026-10-14",
+   "campoFim": "2026-10-16",
+   "amostra": 2100,
+   "margem": 2.15,
+   "registro": "BR-00152/2026",
+   "publicadoEm": "2026-10-20",
+   "materia": {
+    "url": "https://www.polemicaparaiba.com.br/politica/data-ranking-lula-tem-454-e-flavio-bolsonaro-446-aponta-pesquisa/",
+    "veiculo": "Polêmica Paraíba",
+    "titulo": "Pesquisa Data Ranking aponta cenário de disputa acirrada entre Lula e Flávio Bolsonaro"
+   },
+   "lula": 45.4,
+   "flavio": 44.6,
+   "indecisos": 4,
+   "base": "totais"
+  },
+  {
+   "id": "real-time-big-data-2026-10-19",
+   "instituto": "Real Time Big Data",
+   "rotulo": "Real Time Big Data",
+   "campoInicio": "2026-10-15",
+   "campoFim": "2026-10-19",
+   "amostra": 2000,
+   "margem": 2,
+   "registro": "BR-02952/2026",
+   "publicadoEm": "2026-10-20",
+   "materia": {
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/real-time-big-data-presidente-outubro-2026-segundo-turno/",
+    "veiculo": "Gazeta do Povo",
+    "titulo": "Real Time Big Data divulga pesquisa para presidente no 2º turno"
+   },
+   "lula": 45,
+   "flavio": 48,
+   "indecisos": 2,
+   "base": "totais"
+  },
+  {
    "id": "atlasintel-2026-10-18",
    "instituto": "AtlasIntel",
    "rotulo": "AtlasIntel",
