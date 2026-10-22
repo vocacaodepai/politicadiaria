@@ -10,7 +10,7 @@ export const item: NewsItem = {
   sourceUrl:
     "https://agenciabrasil.ebc.com.br/radioagencia-nacional/justica/audio/2026-10/stf-vai-rever-decisao-sobre-pagamentos-do-sus-hospitais-particulares",
   date: "2026-10-20",
-  publishedAt: "2026-10-21T07:30:00-03:00",
+  publishedAt: "2026-10-22T07:41:00-03:00",
   topic: "justica",
   imageQuery: "Supremo Tribunal Federal building",
   content: `

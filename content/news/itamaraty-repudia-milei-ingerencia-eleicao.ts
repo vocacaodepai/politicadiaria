@@ -10,7 +10,7 @@ export const item: NewsItem = {
   sourceUrl:
     "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/itamaraty-acusa-milei-de-tentar-interferir-na-eleicao-brasileira",
   date: "2026-10-20",
-  publishedAt: "2026-10-21T07:25:00-03:00",
+  publishedAt: "2026-10-22T07:41:00-03:00",
   topic: "brasil",
   imageQuery: "Palácio Itamaraty Brasília",
   content: `
@@ -32,8 +32,8 @@ export const item: NewsItem = {
 
     <h2>Por que isso importa</h2>
     <p>Primeiro, pelo efeito sobre a diplomacia. O Brasil já opera sem embaixador em Buenos Aires há mais de dois meses, e uma nova troca de notas tende a prolongar esse quadro. A normalização da representação, seja qual for o resultado de 25 de outubro, depende de gestos dos dois lados, e a fonte não aponta nenhum deles por ora.</p>
-    <p>Segundo, pelo ambiente eleitoral. As falas de Milei foram feitas a cinco dias da votação, e a resposta do governo brasileiro vem de um ministério subordinado ao presidente que disputa a reeleição. Por isso é importante separar o que é fato registrado, a nota do Itamaraty e as publicações de Milei, do que é avaliação de cada parte. A campanha de Flávio Bolsonaro não é citada na reportagem como autora das publicações do presidente argentino, e esta nota também não atribui a ela essas declarações.</p>
-    <p>Terceiro, pelo comércio. Montadoras, produtores de alimentos e transportadoras dos dois países dependem de regras estáveis no Mercosul. Mudanças no clima político podem influenciar negociações, ainda que a fonte não relate nenhuma medida comercial nova nesta semana.</p>
+    <p>Segundo, pelo ambiente eleitoral. As falas de Milei foram feitas em 20 de outubro, a cinco dias da votação, e a resposta do governo brasileiro vem de um ministério subordinado ao presidente que disputa a reeleição. Por isso é importante separar o que é fato registrado, a nota do Itamaraty e as publicações de Milei, do que é avaliação de cada parte. A campanha de Flávio Bolsonaro não é citada na reportagem como autora das publicações do presidente argentino, e esta nota também não atribui a ela essas declarações.</p>
+    <p>Terceiro, pelo comércio. Montadoras, produtores de alimentos e transportadoras dos dois países dependem de regras estáveis no Mercosul. Mudanças no clima político podem influenciar negociações, ainda que a fonte não relate nenhuma medida comercial nova até a publicação da reportagem.</p>
 
     <h2>O que observar a seguir</h2>
     <p>Os próximos dias trazem o último debate entre os candidatos, na Globo, na sexta-feira (23), cujas regras estão na nota sobre o <a href="/noticias/debate-globo-lula-flavio-sexta-23-regras">formato do confronto</a>, e o calendário final de campanha, resumido em <a href="/noticias/calendario-ultima-semana-segundo-turno-tse">prazos da última semana do segundo turno</a>. Para acompanhar pesquisas e resultados já apurados, o painel <a href="/eleicoes">Eleições 2026</a> reúne os números com fonte e data.</p>
