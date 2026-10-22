@@ -1,0 +1,67 @@
+{
+ "atualizadoEm": "2026-10-18",
+ "coletadoEm": "2026-10-18T14:41:11.363Z",
+ "janelaSolicitada": {
+  "de": "2026-02-01",
+  "ate": "2026-10-18"
+ },
+ "cobertura": {
+  "de": "2026-01-29",
+  "ate": "2026-10-15",
+  "janelaSolicitada": {
+   "de": "2026-02-01",
+   "ate": "2026-10-18"
+  },
+  "julgamentos": 162,
+  "comVotoIndividual": 40,
+  "votosIndividuais": 100,
+  "fonte": "Portal de Notícias do STF (noticias.stf.jus.br)",
+  "fonteUrl": "https://noticias.stf.jus.br/",
+  "limite": "Cobre as notícias de julgamento que o portal publicou na janela. O voto de cada ministro só aparece quando a notícia o descreve em frase explícita. Votações sem notícia, sessões sem voto individual divulgado e o Plenário Virtual detalhado (portal de jurisprudência, Corte Aberta) não estão aqui."
+ },
+ "contagens": {
+  "ministros": 10,
+  "vagas": 1,
+  "julgamentos": 162,
+  "pautas": 56,
+  "sessoes": 17
+ },
+ "fontes": [
+  {
+   "id": "noticias-stf",
+   "nome": "Portal de Notícias do STF",
+   "url": "https://noticias.stf.jus.br/",
+   "uso": "pautas, destaques do Plenário Virtual e notícias de julgamento",
+   "acesso": "ok"
+  },
+  {
+   "id": "eventos-stf",
+   "nome": "Calendário de eventos do STF",
+   "url": "https://noticias.stf.jus.br/events/",
+   "uso": "sessões do Plenário e das Turmas",
+   "acesso": "ok"
+  },
+  {
+   "id": "portal-stf",
+   "nome": "Portal do STF (Corte Aberta, jurisprudência, ministros)",
+   "url": "https://portal.stf.jus.br/",
+   "uso": "referência oficial; recusa clientes automáticos (HTTP 403), por isso não é coletado",
+   "acesso": "bloqueado"
+  },
+  {
+   "id": "wikipedia",
+   "nome": "Wikipédia (REST)",
+   "url": "https://pt.wikipedia.org/wiki/Supremo_Tribunal_Federal",
+   "uso": "composição, datas de posse, indicação e votação no Senado (fonte secundária)",
+   "acesso": "ok"
+  },
+  {
+   "id": "commons",
+   "nome": "Wikimedia Commons",
+   "url": "https://commons.wikimedia.org/",
+   "uso": "fotos com licença livre e crédito",
+   "acesso": "ok"
+  }
+ ],
+ "avisos": []
+}

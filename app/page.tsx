@@ -5,6 +5,7 @@ import { ArticleCard } from "@/components/ArticleCard";
 import { CategoryChips } from "@/components/CategoryChips";
 import { Container } from "@/components/Container";
 import { CongressPromo } from "@/components/CongressPromo";
+import { StfPromo } from "@/components/stf/StfPromo";
 import { ChecagemStrip } from "@/components/ChecagemStrip";
 import { EleicoesStrip } from "@/components/EleicoesStrip";
 import { CoverImage } from "@/components/CoverImage";
@@ -155,6 +156,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col gap-6 lg:col-span-4 lg:pl-8">
             <CongressPromo />
+            <StfPromo />
             {topBooks[0] && <ArticleCard article={topBooks[0]} variant="horizontal" />}
             <FeaturedList title="Comece por estes livros" exclude={[]} />
           </div>
