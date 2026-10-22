@@ -11,10 +11,16 @@ const FILL: Record<Tone, string> = {
   n: "bg-foreground/55",
 };
 
-export function SubNav({ active }: { active: "painel" | "pesquisas" }) {
+export type SubNavId = "painel" | "apuracao" | "pesquisas" | "debate" | "agenda" | "campanha";
+
+export function SubNav({ active }: { active: SubNavId }) {
   const items = [
     { id: "painel", href: "/eleicoes", label: "Painel e resultados" },
+    { id: "apuracao", href: "/eleicoes/apuracao", label: "Apuração ao vivo" },
     { id: "pesquisas", href: "/eleicoes/pesquisas", label: "Pesquisas e ranking de acerto" },
+    { id: "debate", href: "/eleicoes/debate-band", label: "Debate da Band" },
+    { id: "agenda", href: "/eleicoes/agenda", label: "Agenda" },
+    { id: "campanha", href: "/eleicoes/campanha", label: "Gastos e bens" },
   ] as const;
   return (
     <nav aria-label="Seções de Eleições 2026" className="mt-6 flex flex-wrap gap-x-6 gap-y-2 border-y-2 border-foreground/80 py-2">

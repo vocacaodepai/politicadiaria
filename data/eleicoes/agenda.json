@@ -1,0 +1,51 @@
+{
+  "atualizadoEm": "2026-10-18T09:30:00-03:00",
+  "observacao": "Só entram eventos com fonte aberta (imprensa identificada ou perfil oficial da campanha), conferida na data de verificação. Eventos futuros aparecem como previstos, segundo a fonte, e podem mudar. A agenda dos governadores em segundo turno (AC, AM, DF, ES, RN, TO) ainda não tem evento verificado.",
+  "eventos": [
+    {
+      "id": "flavio-2026-10-18-paulista",
+      "candidato": "Flávio Bolsonaro",
+      "cargo": "Presidente",
+      "dataHora": "2026-10-18T10:00:00-03:00",
+      "tipo": "Ato de campanha",
+      "descricao": "Evento \"Bloco do 22\" na Avenida Paulista, com concentração perto do número 1.811 e fala no Masp.",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "fonte": {
+        "rotulo": "Metrópoles",
+        "url": "https://www.metropoles.com/brasil/eleicoes-2026-confira-as-agendas-de-flavio-e-lula-neste-domingo-18-10"
+      },
+      "verificadoEm": "2026-10-18"
+    },
+    {
+      "id": "flavio-2026-10-18-debate-band",
+      "candidato": "Flávio Bolsonaro",
+      "cargo": "Presidente",
+      "dataHora": "2026-10-18T20:00:00-03:00",
+      "tipo": "Debate",
+      "descricao": "Debate presidencial do pool Band, nos estúdios da emissora, no Morumbi.",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "fonte": {
+        "rotulo": "Metrópoles",
+        "url": "https://www.metropoles.com/brasil/eleicoes-2026-confira-as-agendas-de-flavio-e-lula-neste-domingo-18-10"
+      },
+      "verificadoEm": "2026-10-18"
+    },
+    {
+      "id": "lula-2026-10-18-debate-band",
+      "candidato": "Lula",
+      "cargo": "Presidente",
+      "dataHora": "2026-10-18T20:00:00-03:00",
+      "tipo": "Debate",
+      "descricao": "Debate presidencial do pool Band, nos estúdios da emissora, no Morumbi.",
+      "cidade": "São Paulo",
+      "uf": "SP",
+      "fonte": {
+        "rotulo": "Metrópoles",
+        "url": "https://www.metropoles.com/brasil/eleicoes-2026-confira-as-agendas-de-flavio-e-lula-neste-domingo-18-10"
+      },
+      "verificadoEm": "2026-10-18"
+    }
+  ]
+}

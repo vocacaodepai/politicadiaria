@@ -1,0 +1,47 @@
+{
+  "atualizadoEm": "2026-10-18T09:30:00-03:00",
+  "observacao": "Este arquivo só recebe o que tem fonte aberta. As falas (campo temas[].falas) só entram depois do debate, com transcrição ou vídeo da emissora, e as checagens só apontam para itens que existem em /checagem. Esquema e rotina em docs/rotinas/eleicoes.md.",
+  "debates": [
+    {
+      "id": "band-2026-10-18",
+      "titulo": "Debate da Band: Lula x Flávio Bolsonaro",
+      "data": "2026-10-18",
+      "horaInicio": "20:00",
+      "horaFimPrevista": "22:00",
+      "fuso": "America/Sao_Paulo",
+      "emissora": "Band",
+      "pool": ["Band TV", "TV Cultura", "TV Gazeta", "O Estado de S. Paulo", "Jovem Pan News", "Band News FM"],
+      "local": "Estúdios da Band, Morumbi, São Paulo (SP)",
+      "participantes": ["Lula", "Flávio Bolsonaro"],
+      "mediadores": ["Eduardo Oinegue", "Adriana Araújo"],
+      "status": "agendado",
+      "formato": [
+        { "bloco": "Bloco 1", "descricao": "Duas perguntas dos mediadores a cada candidato, seguidas de confronto direto, com banco de tempo de 15 minutos para cada um." },
+        { "bloco": "Bloco 2", "descricao": "Perguntas dos mediadores e perguntas entre os candidatos. A pergunta dura 1 minuto e 30 segundos, resposta e tréplica dividem 4 minutos, e a réplica tem 2 minutos." },
+        { "bloco": "Bloco 3", "descricao": "Perguntas dos mediadores, seguidas de novo confronto direto." },
+        { "bloco": "Encerramento", "descricao": "Considerações finais de cada candidato." }
+      ],
+      "regras": [
+        "Ordem de fala definida por sorteio.",
+        "Flávio Bolsonaro ocupa o lado esquerdo do estúdio e Lula, o direito.",
+        "128 jornalistas de 71 veículos, 16 deles estrangeiros, estão credenciados."
+      ],
+      "fontes": [
+        {
+          "rotulo": "Ric.com.br, 17/10/2026: Lula e Flávio se enfrentam em primeiro debate na TV; veja regras e horário",
+          "url": "https://ric.com.br/politica/eleicoes/debate-band-lula-flavio-bolsonaro-se-enfrentam-veja-regras-horario/",
+          "verificadoEm": "2026-10-18"
+        },
+        {
+          "rotulo": "Metrópoles, 18/10/2026: confira as agendas de Flávio e Lula neste domingo",
+          "url": "https://www.metropoles.com/brasil/eleicoes-2026-confira-as-agendas-de-flavio-e-lula-neste-domingo-18-10",
+          "verificadoEm": "2026-10-18"
+        }
+      ],
+      "noticiaRegras": "debate-band-segundo-turno-regras-lula-flavio",
+      "temas": [],
+      "tempoDeFala": [],
+      "checagens": []
+    }
+  ]
+}
