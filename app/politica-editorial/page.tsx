@@ -85,6 +85,12 @@ export default function PoliticaEditorialPage() {
           Opinião, análise e comentário recebem rótulo próprio e não se misturam ao relato dos fatos.
         </li>
         <li>Se a fonte corrigir um fato, a notícia é atualizada com a correção indicada.</li>
+        <li>
+          Toda notícia traz um selo de verificação no topo (fonte primária conferida, apoiada em imprensa
+          identificada ou fonte única atribuída), as datas de publicação e de atualização e, quando houver, a
+          lista do que não foi verificado. As correções ficam no histórico público em{" "}
+          <Link href="/correcoes">/correcoes</Link>, e o item corrigido mostra &quot;Corrigido em dd/mm&quot;.
+        </li>
       </ul>
 
       <h2 id="congresso">5. Congresso por dentro: metodologia dos dados</h2>

@@ -18,6 +18,15 @@ parte da cobertura é nacional (mundo entra, mas em menor proporção). Cinco fr
 5. **Checagem** (`/checagem`): verificação de boatos e notícias falsas, com veredito, fontes
    numeradas ("checado em N fontes") e a mesma régua para qualquer campo político.
 
+Páginas de apoio: **Busca** (`/busca`, índice `search-index.json` de notícias, checagens, resenhas e
+parlamentares, filtros por tipo, tópico e data), **Resumo da manhã** (`/resumo`: 5 notícias das últimas 24h,
+pesquisa mais recente lida de `data/eleicoes/pesquisas.json` sem alterá-lo e checagem mais recente; newsletter
+em `docs/newsletter.md`), **Correções** (`/correcoes`, `data/correcoes.json` mais o `corrections` das checagens),
+**Guias de leitura** (`/guias/<slug>`, `lib/guias.ts`, só com resenhas existentes e fora de `content/articles`),
+**Documentos primários** (`/documentos`, `data/documentos/documentos.json`: só entra como verificado o que foi
+aberto em fonte oficial; 403 = "não verificado", sem número de memória) e **feeds RSS** (`/feed.xml` geral,
+`/noticias/feed.xml`, `/checagens/feed.xml`, `/artigos/feed.xml`).
+
 Monetização: Google AdSense e Programa de Associados da Amazon, tag **`politicadiaria-20`**
 (também em `site.amazonTag`, `lib/articles.ts`).
 
@@ -62,6 +71,7 @@ Campos do bloco `review` (`lib/types.ts`): `tool` (título do livro), `bookAutho
 fontes, Atualidade, Leitura, cada 0-10), `pros`, `cons`, `price` ("R$ 40 a R$ 70, verificado em
 dd/mm/aaaa"), `bestFor`, `url` (Amazon), `affiliate: true`, `ctaLabel`.
 
+- Resenha com **5 a 8 `<h2>`** (mais que isso é aviso no `check-content`; resenhas antigas ficam como estão).
 - Só livro **real**, com ISBN verificado (Open Library, Google Books, site da editora). Nunca
   inventar livro, autor, ano, editora, número de páginas, citação ou trecho.
 - **Nunca alegar leitura pessoal** ("li", "fiquei dias com ele"). É análise editorial a partir da
@@ -120,6 +130,9 @@ Commons.** Nunca imagem gerada por IA, nunca captura de página da Amazon.
 
 - `publishedAt` (ISO 8601 com offset de Brasília, hora real de agora), `topic`, `imageQuery`,
   `sourceName` e `sourceUrl` (https, aberta e conferida) em toda notícia nova.
+- **Selo de verificação** no topo de toda notícia (`lib/verification.ts`): `verification: { level, notes?, unverified? }`
+  com `level` `primaria` | `imprensa` | `unica`; `updatedAt` opcional. Notícia nova preenche; sem o campo o nível é
+  calculado pelo `sourceUrl` e marcado como automático. Notícia antiga não é reescrita.
 - Mínimo de 900 palavras e 3 `<h2>`: o fato em 2 parágrafos com a fonte citada e linkada, um h2
   de contexto, um h2 "Por que isso importa" com análise factual (o que muda, quem é afetado,
   próximos passos), e mais um ou dois desdobramentos. 3 a 6 links internos (notícias, resenhas,

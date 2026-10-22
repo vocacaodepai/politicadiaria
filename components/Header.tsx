@@ -50,6 +50,7 @@ export const INSTITUTIONAL_NAV = [
   { href: "/autor/equipe-editorial", label: "Quem escreve" },
   { href: "/contato", label: "Contato" },
   { href: "/politica-editorial", label: "Política editorial" },
+  { href: "/correcoes", label: "Correções" },
   { href: "/publicidade-e-afiliados", label: "Publicidade e afiliados" },
   { href: "/politica-de-privacidade", label: "Política de privacidade" },
   { href: "/termos-de-uso", label: "Termos de uso" },

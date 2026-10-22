@@ -144,6 +144,17 @@ export const newsTopics = [
 
 export type NewsTopic = (typeof newsTopics)[number]["slug"];
 
+/** primaria: fonte oficial conferida; imprensa: apoiada em veículos identificados; unica: fonte única, atribuída. */
+export type VerificationLevel = "primaria" | "imprensa" | "unica";
+
+export type NewsVerification = {
+  level: VerificationLevel;
+  /** Nota curta sobre o que foi conferido (ex.: "Placar conferido no painel da Câmara"). */
+  notes?: string;
+  /** O que ainda não foi confirmado por fonte aberta, uma frase por item. */
+  unverified?: string[];
+};
+
 export type NewsItem = {
   slug: string;
   title: string;
@@ -173,6 +184,13 @@ export type NewsItem = {
   imageQuery?: string;
   /** Tópico usado só pelo filtro em /noticias. Opcional nas notícias antigas. */
   topic?: NewsTopic;
+  /** Horário da última atualização (ISO 8601 com offset de Brasília). Só quando o texto foi corrigido ou ampliado. */
+  updatedAt?: string;
+  /**
+   * Selo de verificação (ver lib/verification.ts). Opcional: sem ele, o nível é calculado
+   * pelo endereço de `sourceUrl` e pelos links do texto. Notícias novas preenchem.
+   */
+  verification?: NewsVerification;
   /** Perguntas frequentes exibidas em acordeão ao fim da matéria. */
   faq?: NewsFaqItem[];
   /** Quiz curto pra fixar o aprendizado, exibido ao fim da matéria. */

@@ -36,7 +36,7 @@ compra" e "Imagens". Todo artigo do site é resenha de livro (`kind: "review"`).
 ## Escrever
 
 - `npm run content:new -- artigo <slug> <categoria>` cria o esqueleto (já com o bloco `review`).
-- Siga `docs/padrao-editorial.md` seção 4: 1.400 a 1.900 palavras, 5 a 8 h2, 6+ links internos
+- Siga `docs/padrao-editorial.md` seção 4: 1.400 a 1.900 palavras, **5 a 8 `<h2>` (limite único; mais de 8 vira aviso no `check-content`, não erro, e resenhas antigas não são reescritas)**, 6+ links internos
   (outras resenhas, notícias, `/congresso`), 2 a 4 externos, FAQ de 4 a 6, keyPoints, sources.
 - Nota pelos cinco critérios com pesos iguais; justifique cada critério no texto. Aponte as
   principais críticas feitas à obra e o público ideal. Nunca alegue leitura pessoal.
@@ -47,3 +47,11 @@ compra" e "Imagens". Todo artigo do site é resenha de livro (`kind: "review"`).
 
 Quais 3 livros entraram, se lint/build/check-content passaram e o link
 https://www.politicadiaria.com.br
+
+## Guias "Os 5 livros para entender X"
+
+Os guias de entrada ficam em `/guias/<slug>` (`lib/guias.ts`, `app/guias/`), **fora de `content/articles`**,
+porque todo artigo do site é resenha. Um guia só reúne resenhas que já existem, lê delas nota, preço e link
+de compra (nunca recalcula nem muda), declara o critério da ordem de leitura e só aceita livros dentro da
+linha editorial. Criar ou editar guia é mudança em `lib/`, não é tarefa desta rotina. O `check-content`
+barra guia que aponta para slug sem resenha.

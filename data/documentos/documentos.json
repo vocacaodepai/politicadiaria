@@ -1,0 +1,55 @@
+{
+  "observacao": "Documentos-chave das eleições 2026. Só entra como verificado o que foi aberto em fonte oficial na data indicada. Quando o endereço oficial recusou o acesso automatizado (HTTP 403), o item fica como não verificado, sem números ou datas reproduzidos de memória. Para conferir, abra o link oficial.",
+  "documentos": [
+    {
+      "id": "data-primeiro-turno-2026",
+      "titulo": "Data do primeiro turno das eleições de 2026",
+      "orgao": "TSE, configuração oficial do portal de resultados",
+      "status": "verificado",
+      "verificadoEm": "2026-10-18",
+      "url": "https://resultados.tse.jus.br/oficial/comum/config/ele-c.json",
+      "verificado": "O arquivo oficial registra o ciclo ele2026 com data 04/10/2026 (eleição ordinária federal e estadual, 1º turno).",
+      "observacao": "A data do segundo turno não consta de forma inequívoca neste arquivo e não é reproduzida aqui."
+    },
+    {
+      "id": "lei-9504-art-1",
+      "titulo": "Lei das Eleições (Lei 9.504/1997), art. 1º: dia da eleição",
+      "orgao": "Presidência da República, Planalto",
+      "status": "verificado",
+      "verificadoEm": "2026-10-18",
+      "url": "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm",
+      "verificado": "O art. 1º determina que as eleições para Presidente, Governador, Senador, Deputados, Prefeito e Vereador se dão, em todo o País, no primeiro domingo de outubro do ano respectivo.",
+      "observacao": null
+    },
+    {
+      "id": "calendario-eleitoral-2026",
+      "titulo": "Calendário Eleitoral das eleições 2026",
+      "orgao": "TSE",
+      "status": "nao-verificado",
+      "verificadoEm": null,
+      "url": "https://www.tse.jus.br/eleicoes/calendario-eleitoral/calendario-eleitoral",
+      "verificado": null,
+      "observacao": "Em 18/10/2026 o endereço respondeu HTTP 403 ao acesso automatizado. Nenhuma data do calendário é reproduzida aqui; confira no link oficial. O endereço também não foi confirmado como o vigente."
+    },
+    {
+      "id": "resolucao-calendario-2026",
+      "titulo": "Resolução do TSE que fixa o calendário das eleições 2026",
+      "orgao": "TSE",
+      "status": "nao-verificado",
+      "verificadoEm": null,
+      "url": "https://www.tse.jus.br/legislacao/compilada/res",
+      "verificado": null,
+      "observacao": "O número e o texto da resolução não foram conferidos porque o portal do TSE recusou o acesso automatizado (HTTP 403) em 18/10/2026. O link leva à lista oficial de resoluções."
+    },
+    {
+      "id": "resolucao-propaganda-2026",
+      "titulo": "Resolução do TSE sobre propaganda eleitoral nas eleições 2026",
+      "orgao": "TSE",
+      "status": "nao-verificado",
+      "verificadoEm": null,
+      "url": "https://www.tse.jus.br/legislacao/compilada/res",
+      "verificado": null,
+      "observacao": "O número e o texto da resolução não foram conferidos porque o portal do TSE recusou o acesso automatizado (HTTP 403) em 18/10/2026. O link leva à lista oficial de resoluções."
+    }
+  ]
+}
