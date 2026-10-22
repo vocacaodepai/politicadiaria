@@ -10,7 +10,7 @@ export const item: NewsItem = {
   sourceUrl:
     "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-10/itamaraty-acusa-milei-de-tentar-interferir-na-eleicao-brasileira",
   date: "2026-10-20",
-  publishedAt: "2026-10-22T07:41:00-03:00",
+  publishedAt: "2026-10-22T13:31:00-03:00",
   topic: "brasil",
   imageQuery: "Palácio Itamaraty Brasília",
   content: `
