@@ -13,7 +13,7 @@
     ],
     "fonteDatas": "https://resultados.tse.jus.br/oficial/comum/config/ele-c.json"
   },
-  "atualizadoEm": "2026-10-23T14:52:45-03:00",
+  "atualizadoEm": "2026-10-23T20:51:57-03:00",
   "coletadoPor": "scripts/build-eleicoes-data.mjs",
   "avisosColeta": [],
   "fontesResultados": [
