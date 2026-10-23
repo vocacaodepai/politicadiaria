@@ -604,6 +604,26 @@
    "base": "totais"
   },
   {
+   "id": "quaest-2026-10-21",
+   "instituto": "Quaest",
+   "rotulo": "Quaest",
+   "campoInicio": "2026-10-17",
+   "campoFim": "2026-10-20",
+   "amostra": 2154,
+   "margem": 2,
+   "registro": "BR-08535/2026",
+   "publicadoEm": "2026-10-21",
+   "materia": {
+    "url": "https://www.metropoles.com/brasil/quaest-flavio-bolsonaro-tem-45-e-lula-44-no-2o-turno",
+    "veiculo": "Metrópoles",
+    "titulo": "Quaest: Flávio Bolsonaro tem 45% e Lula, 44%, no 2º turno"
+   },
+   "lula": 44,
+   "flavio": 45,
+   "indecisos": 11,
+   "base": "totais"
+  },
+  {
    "id": "data-ranking-2026-10-16",
    "instituto": "Data Ranking",
    "rotulo": "Data Ranking/Fonte83",
