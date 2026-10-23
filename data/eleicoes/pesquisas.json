@@ -544,6 +544,66 @@
  ],
  "segundoTurno2026": [
   {
+   "id": "real-time-big-data-2026-10-22",
+   "instituto": "Real Time Big Data",
+   "rotulo": "Real Time Big Data",
+   "campoInicio": "2026-10-19",
+   "campoFim": "2026-10-22",
+   "amostra": 2000,
+   "margem": 2,
+   "registro": "BR-09670/2026",
+   "publicadoEm": "2026-10-23",
+   "materia": {
+    "url": "https://ndmais.com.br/politica/pesquisa-real-time-big-data-flavio-bolsonaro-lula-23-outubro-2026",
+    "veiculo": "ND Mais",
+    "titulo": "A 2 dias da eleição, Real Time Big Data mostra Flávio Bolsonaro no maior patamar da série contra Lula"
+   },
+   "lula": 45,
+   "flavio": 49,
+   "indecisos": 6,
+   "base": "totais"
+  },
+  {
+   "id": "datafolha-2026-10-22",
+   "instituto": "Datafolha",
+   "rotulo": "DataFolha",
+   "campoInicio": "2026-10-20",
+   "campoFim": "2026-10-22",
+   "amostra": 2520,
+   "margem": 2,
+   "registro": "BR-09709/2026",
+   "publicadoEm": "2026-10-22",
+   "materia": {
+    "url": "https://tvtnews.com.br/datafolha-pesquisa-presidente-2-turno-pos-debate/",
+    "veiculo": "TVT News",
+    "titulo": "Datafolha divulga pesquisa para presidente no 2º turno pós-debate da Band"
+   },
+   "lula": 46,
+   "flavio": 47,
+   "indecisos": 7,
+   "base": "totais"
+  },
+  {
+   "id": "indexa-2026-10-21",
+   "instituto": "Indexa",
+   "rotulo": "Indexa",
+   "campoInicio": "2026-10-20",
+   "campoFim": "2026-10-21",
+   "amostra": 2000,
+   "margem": 2.2,
+   "registro": "BR-02348/2026",
+   "publicadoEm": "2026-10-22",
+   "materia": {
+    "url": "https://www.cartacapital.com.br/cartaexpressa/pesquisa-indexa-mostra-flavio-bolsonaro-com-506-ante-494-de-lula/",
+    "veiculo": "CartaCapital",
+    "titulo": "Pesquisa Indexa mostra Flávio Bolsonaro com 50,6%, ante 49,4% de Lula"
+   },
+   "lula": 44.1,
+   "flavio": 45.2,
+   "indecisos": 10.7,
+   "base": "totais"
+  },
+  {
    "id": "data-ranking-2026-10-16",
    "instituto": "Data Ranking",
    "rotulo": "Data Ranking/Fonte83",
