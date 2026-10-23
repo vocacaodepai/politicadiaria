@@ -2,6 +2,13 @@
  "observacao": "Instituições que aparecem nas pesquisas compiladas. O campo rotulos guarda como contratante e instituto aparecem nas fontes (por exemplo, Globo/Datafolha). Ibope (2018) e Ipec (2022) são tratados como institutos distintos porque são registros diferentes nas fontes.",
  "institutos": [
   {
+   "slug": "alfa-inteligencia",
+   "nome": "Alfa Inteligência",
+   "rotulos": [
+    "Alfa Inteligência"
+   ]
+  },
+  {
    "slug": "atlasintel",
    "nome": "AtlasIntel",
    "rotulos": [
