@@ -1,0 +1,44 @@
+import type { NewsItem } from "@/lib/types";
+
+export const item: NewsItem = {
+  slug: "perdao-dividas-bares-restaurantes-eventos-projeto",
+  title: "Governo vai propor perdão de dívidas a bares, restaurantes e eventos",
+  summary:
+    "Ministro Paulo Pereira disse a Hugo Motta que o Planalto enviará à Câmara projeto nos moldes do perdão do MEI. Texto, valores e tipos de dívida ainda não foram divulgados.",
+  author: "Equipe Política Diária",
+  sourceName: "Agência Câmara de Notícias",
+  sourceUrl:
+    "https://www.camara.leg.br/noticias/1313433-governo-vai-apresentar-projeto-de-lei-para-perdoar-dividas-dos-setores-de-eventos-bares-e-restaurantes",
+  date: "2026-10-23",
+  publishedAt: "2026-10-23T12:40:00-03:00",
+  topic: "economia",
+  imageQuery: "Câmara dos Deputados plenário Brasília",
+  content: `
+    <p>O governo federal vai enviar ao Congresso um projeto de lei para perdoar dívidas dos setores de eventos, bares e restaurantes. O anúncio foi feito nesta sexta-feira (23) pelo ministro do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte, Paulo Pereira, depois de conversar com o presidente da Câmara dos Deputados, <a href="/congresso/deputados/hugo-motta-160674">Hugo Motta (Republicanos-PB)</a>, segundo a <a href="https://www.camara.leg.br/noticias/1313433-governo-vai-apresentar-projeto-de-lei-para-perdoar-dividas-dos-setores-de-eventos-bares-e-restaurantes" target="_blank" rel="noopener noreferrer nofollow">Agência Câmara de Notícias</a>.</p>
+    <p>De acordo com a agência, o modelo será o mesmo do perdão já aprovado para os Microempreendedores Individuais (MEIs). O ministro afirmou que esses setores foram muito penalizados nos últimos anos e que o perdão alcança dívidas de difícil recuperação, o que permitiria às empresas voltar à formalidade e a recolher tributos. A Agência Câmara informa que o texto deve ser enviado "nos próximos dias", sem data definida.</p>
+
+    <h2>O que se sabe e o que ainda não foi informado</h2>
+    <p>A reportagem da Agência Câmara é curta e deixa pontos em aberto. Ela não diz quais dívidas entrariam no perdão (tributos federais, contribuições, dívidas com bancos públicos ou outras), não traz valores nem estimativa de quantas empresas seriam atingidas e não cita nenhum programa específico já existente para esses setores. Também não informa se haverá limite de faturamento, prazo para aderir ou condição de pagamento posterior.</p>
+    <p>Por isso, qualquer número sobre custo ou alcance do projeto, neste momento, seria especulação. O que está confirmado é a declaração do ministro, o encontro com o presidente da Câmara e a intenção de usar como referência o desenho aplicado aos MEIs. Quando o texto for protocolado, a numeração do projeto, a justificativa e a estimativa de impacto fiscal, se houver, estarão no site da Câmara.</p>
+    <p>Segundo a mesma reportagem, Paulo Pereira disse ainda que o governo quer acelerar e ampliar mudanças no Simples Nacional, com uma "sofisticação" do modelo e a criação de "rampas", isto é, degraus de transição para que as empresas cresçam sem mudar de regime de forma abrupta. O ministro também afirmou que o presidente Luiz Inácio Lula da Silva deve anunciar nos próximos dias uma linha de financiamento do BNDES para pequenos negócios, com juros subsidiados. Os detalhes dessa linha não foram divulgados.</p>
+
+    <h2>O precedente: o perdão e o novo teto do MEI</h2>
+    <p>O modelo citado pelo ministro é a Lei Complementar 238/26, sancionada na quarta-feira (21). Ela perdoa dívidas de MEIs com a União constituídas até 13 de outubro de 2026, eleva o teto anual de faturamento de R$ 81 mil para R$ 110 mil em 2027 e R$ 140 mil em 2028 e permite a contratação de até dois empregados. O detalhamento está na notícia sobre a <a href="/noticias/lula-sanciona-lc-238-mei-teto-perdao">sanção da lei do MEI</a>, e a votação no Senado, por 78 votos a 0, na <a href="/noticias/mei-teto-110-mil-perdao-dividas-senado">cobertura da aprovação pelo Senado</a>.</p>
+    <p>No caso do MEI, o benefício não é automático: o empreendedor precisa manter as contribuições em dia por seis meses após a entrada em vigor da lei e cumprir as demais condições previstas no texto, conforme descrito pela Agência Senado. Se o projeto para bares, restaurantes e eventos seguir o mesmo caminho, é razoável esperar regras de contrapartida semelhantes, mas isso só poderá ser confirmado quando o texto for apresentado.</p>
+    <p>A diferença de porte também importa. O MEI é o menor enquadramento do sistema tributário brasileiro, com faturamento anual limitado e recolhimento fixo mensal. Bares, restaurantes e empresas de eventos incluem desde microempreendedores até empresas maiores, com regimes tributários variados. Um perdão nesses moldes teria de definir quem entra, e esse recorte é o ponto que mais deve pesar na discussão no Congresso.</p>
+
+    <h2>Por que isso importa</h2>
+    <p>Para o empresário do setor, a mudança em estudo pode significar a retirada de dívidas antigas que travam o acesso a crédito, a participação em licitações e a emissão de certidões. O argumento apresentado pelo ministro é o de que cobrar o que dificilmente será recebido custa caro ao Estado e mantém o negócio fora da formalidade, o que reduz a arrecadação futura. Esse é o raciocínio do governo; o texto ainda não existe, e os efeitos reais dependerão do desenho final.</p>
+    <p>Para as contas públicas, perdoar dívida significa abrir mão de uma receita que já estava registrada, ainda que com baixa chance de cobrança. Medidas desse tipo costumam ser avaliadas pelo custo fiscal, e a Lei de Responsabilidade Fiscal exige estimativa de impacto quando há renúncia de receita. Como o governo ainda não divulgou números, não é possível dizer quanto seria. O debate sobre o equilíbrio entre incentivo a pequenos negócios e meta fiscal já aparece em outras frentes, como a pauta tratada na notícia sobre o <a href="/noticias/ibovespa-dolar-apos-primeiro-turno">comportamento do mercado após o primeiro turno</a>.</p>
+    <p>Há também o contexto do calendário. O anúncio ocorre a dois dias do segundo turno da eleição presidencial, marcado para domingo (25), e logo depois de uma lei com o mesmo tipo de benefício. Os dois lados da disputa já se manifestaram sobre o tema do MEI: na votação do Senado, parlamentares da oposição e do governo votaram a favor, e alguns afirmaram que a medida tinha efeito eleitoral, como registrado na cobertura da Agência Senado. Esta reportagem não atribui o mérito ou a motivação da proposta a nenhum candidato. A legislação eleitoral tem regras próprias sobre a distribuição de benefícios em ano de eleição, e eventuais questionamentos competem à Justiça Eleitoral.</p>
+
+    <h2>O caminho do projeto no Congresso</h2>
+    <p>Se for enviado como projeto de lei ordinária, o texto começa a tramitar na Câmara, onde o presidente da Casa define a distribuição às comissões e a possibilidade de pedir urgência. Dependendo do conteúdo, por exemplo se alterar regras gerais do Simples Nacional ou do sistema tributário, pode ser necessária uma lei complementar, que exige maioria absoluta dos deputados e dos senadores. A reportagem da Agência Câmara não informa o tipo de proposição escolhido.</p>
+    <p>O calendário legislativo depois do segundo turno ainda precisa ser definido, e o projeto terá de disputar espaço com outras pautas econômicas. O ministro indicou pressa, mas a velocidade dependerá do desejo de Motta de pautar e do apoio das bancadas. Se houver acordo, a tramitação pode ser rápida, como aconteceu com a lei do MEI, aprovada pela Câmara em 14 de outubro e pelo Senado em 15 de outubro e sancionada em 21 de outubro.</p>
+
+    <h2>O que observar a seguir</h2>
+    <p>O primeiro ponto é a data e a forma do envio: se por projeto de lei ordinária ou complementar, e com ou sem pedido de urgência. O segundo é o conteúdo: quais dívidas, qual teto de enquadramento, que contrapartidas e qual estimativa de renúncia. O terceiro é o anúncio da linha do BNDES, que o ministro disse ser esperado nos próximos dias, com taxas e público definidos.</p>
+    <p>Enquanto isso, empresários do setor devem tratar a notícia como intenção do governo, e não como direito já criado. Não há lei em vigor que perdoe essas dívidas, e golpes que prometem quitar débitos mediante pagamento de taxa costumam aparecer em torno de anúncios assim. A orientação segura é consultar apenas os canais oficiais da Receita Federal, da Procuradoria-Geral da Fazenda Nacional e do Portal do Empreendedor.</p>
+    <p>O painel <a href="/eleicoes">Eleições 2026</a> reúne os dados do TSE sobre o segundo turno, com fonte e data de cada número. Outras medidas recentes de efeito sobre o orçamento das famílias e das empresas estão na nota sobre a <a href="/noticias/desenrola-3-edital-portaria-3127-leilao">terceira fase do Desenrola</a>.</p>
+  `,
+};
