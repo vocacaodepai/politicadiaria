@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-10-24T08:52:00-03:00",
+ "atualizadoEm": "2026-10-24T14:51:51-03:00",
  "presidente": {
   "turno1": {
    "turno": 1,
@@ -2296,9 +2296,9 @@
      }
     ],
     "tse": {
-     "data": "06/10/2026",
-     "hora": "16:59:15",
-     "ultimaTotalizacao": "04/10/2026 22:54:57"
+     "data": "24/10/2026",
+     "hora": "12:42:07",
+     "ultimaTotalizacao": "24/10/2026 12:41:15"
     }
    },
    "turno2": null,
@@ -2592,11 +2592,11 @@
      "pctAbstencao": 18.39
     },
     "votos": {
-     "validos": 1986668,
+     "validos": 1986441,
      "brancos": 76524,
      "pctBrancos": 3.53,
-     "nulos": 104522,
-     "pctNulos": 4.82,
+     "nulos": 104749,
+     "pctNulos": 4.83,
      "totais": 2167714
     },
     "candidatos": [
@@ -2676,23 +2676,12 @@
       "votos": 434,
       "pct": 0.02,
       "situacao": "Não eleito"
-     },
-     {
-      "numero": "29",
-      "nome": "Henrique Lyra",
-      "partido": "PCO",
-      "federacao": null,
-      "coligacao": null,
-      "vice": "Maviael Ribeiro",
-      "votos": 227,
-      "pct": 0.01,
-      "situacao": "Não eleito"
      }
     ],
     "tse": {
-     "data": "04/10/2026",
-     "hora": "23:02:10",
-     "ultimaTotalizacao": "04/10/2026 23:01:26"
+     "data": "24/10/2026",
+     "hora": "12:06:47",
+     "ultimaTotalizacao": "24/10/2026 12:05:28"
     }
    },
    "turno2": {
@@ -3170,8 +3159,8 @@
      }
     ],
     "tse": {
-     "data": "15/10/2026",
-     "hora": "13:22:51",
+     "data": "24/10/2026",
+     "hora": "11:26:57",
      "ultimaTotalizacao": "04/10/2026 21:55:27"
     }
    },
@@ -3777,14 +3766,14 @@
     "nome": "Humberto Costa",
     "partido": "PT",
     "votos": 2531389,
-    "pct": 27.19
+    "pct": 27.24
    },
    {
     "uf": "PE",
     "nome": "Marília Arraes",
     "partido": "PDT",
     "votos": 2325127,
-    "pct": 24.97
+    "pct": 25.02
    },
    {
     "uf": "PI",

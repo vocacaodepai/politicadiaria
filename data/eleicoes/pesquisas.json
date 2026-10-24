@@ -1,5 +1,5 @@
 {
- "coletadoEm": "2026-10-17",
+ "coletadoEm": "2026-10-24",
  "observacao": "Pesquisas registradas na Justiça Eleitoral e divulgadas por institutos e veículos de imprensa. Os números foram compilados da tabela pública da Wikipédia (CC BY-SA), conferidos com o título e o endereço da matéria de imprensa de cada linha. O número de registro (BR-xxxxx/aaaa) só consta quando a compilação o traz; o sistema PesqEle do TSE não pôde ser consultado de forma automatizada.",
  "compilacao": [
   {
@@ -543,6 +543,66 @@
   }
  ],
  "segundoTurno2026": [
+  {
+   "id": "franca-2026-10-23",
+   "instituto": "Instituto França",
+   "rotulo": "Instituto França",
+   "campoInicio": "2026-10-21",
+   "campoFim": "2026-10-23",
+   "amostra": 1537,
+   "margem": 2.5,
+   "registro": "BR-04863/2026",
+   "publicadoEm": "2026-10-24",
+   "materia": {
+    "url": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-presidencial-Instituto-Franca-24out2026.pdf",
+    "veiculo": "Instituto França (dossiê para a imprensa)",
+    "titulo": "Pesquisa França Nacional: Presidência da República, cenário de 2º turno"
+   },
+   "lula": 43.1,
+   "flavio": 45.6,
+   "indecisos": 11.3,
+   "base": "totais"
+  },
+  {
+   "id": "vox-brasil-2026-10-22",
+   "instituto": "Vox Brasil",
+   "rotulo": "Vox Brasil",
+   "campoInicio": "2026-10-20",
+   "campoFim": "2026-10-22",
+   "amostra": 2100,
+   "margem": 2.15,
+   "registro": "BR-03259/2026",
+   "publicadoEm": "2026-10-23",
+   "materia": {
+    "url": "https://static.poder360.com.br/uploads/2026/10/RELATORIO-VOX-BRASIL-NACIONAL-11-2-TURNO-23-10-2026.pdf",
+    "veiculo": "Instituto Vox Brasil (relatório)",
+    "titulo": "Vox Brasil: cenário nacional do 2º turno, eleições 2026"
+   },
+   "lula": 45.4,
+   "flavio": 44.3,
+   "indecisos": 10.3,
+   "base": "totais"
+  },
+  {
+   "id": "poderdata-2026-10-21",
+   "instituto": "PoderData",
+   "rotulo": "PoderData/Aya",
+   "campoInicio": "2026-10-19",
+   "campoFim": "2026-10-21",
+   "amostra": 4000,
+   "margem": 1.6,
+   "registro": "BR-07926/2026",
+   "publicadoEm": "2026-10-22",
+   "materia": {
+    "url": "https://www.poder360.com.br/poderdata/flavio-tem-51-e-lula-tem-49-dos-votos-validos-diz-poderdata-aya/",
+    "veiculo": "Poder360",
+    "titulo": "Flávio tem 51% e Lula tem 49% dos votos válidos, diz PoderData/Aya"
+   },
+   "lula": 49,
+   "flavio": 51,
+   "indecisos": null,
+   "base": "validos"
+  },
   {
    "id": "verita-2026-10-22",
    "instituto": "Veritá",
