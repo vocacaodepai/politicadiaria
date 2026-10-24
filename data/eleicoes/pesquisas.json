@@ -544,6 +544,126 @@
  ],
  "segundoTurno2026": [
   {
+   "id": "quaest-2026-10-24",
+   "instituto": "Quaest",
+   "rotulo": "Quaest",
+   "campoInicio": "2026-10-23",
+   "campoFim": "2026-10-24",
+   "amostra": 3702,
+   "margem": 2,
+   "registro": "BR-09158/2026",
+   "publicadoEm": "2026-10-24",
+   "materia": {
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/quaest-presidente-outubro-2026-vespera-segundo-turno/",
+    "veiculo": "Gazeta do Povo",
+    "titulo": "Quaest divulga pesquisa para presidente na véspera do 2º turno"
+   },
+   "lula": 42,
+   "flavio": 44,
+   "indecisos": 7,
+   "base": "totais"
+  },
+  {
+   "id": "datafolha-2026-10-24",
+   "instituto": "Datafolha",
+   "rotulo": "DataFolha",
+   "campoInicio": "2026-10-23",
+   "campoFim": "2026-10-24",
+   "amostra": 4050,
+   "margem": 2,
+   "registro": null,
+   "publicadoEm": "2026-10-24",
+   "materia": {
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/datafolha-presidente-outubro-2026-vespera-segundo-turno/",
+    "veiculo": "Gazeta do Povo",
+    "titulo": "Datafolha divulga pesquisa para presidente na véspera do 2º turno"
+   },
+   "lula": 45,
+   "flavio": 47,
+   "indecisos": 4,
+   "base": "totais"
+  },
+  {
+   "id": "gerp-2026-10-24",
+   "instituto": "Gerp",
+   "rotulo": "Gerp",
+   "campoInicio": "2026-10-22",
+   "campoFim": "2026-10-24",
+   "amostra": 2400,
+   "margem": 2,
+   "registro": "BR-09327/2026",
+   "publicadoEm": "2026-10-24",
+   "materia": {
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/gerp-presidente-outubro-1026-vespera-segundo-turno/",
+    "veiculo": "Gazeta do Povo",
+    "titulo": "Gerp divulga pesquisa para presidente na véspera do 2º turno"
+   },
+   "lula": 44,
+   "flavio": 47,
+   "indecisos": 8,
+   "base": "totais"
+  },
+  {
+   "id": "nexus-btg-2026-10-24",
+   "instituto": "BTG/Nexus",
+   "rotulo": "BTG/Nexus",
+   "campoInicio": "2026-10-23",
+   "campoFim": "2026-10-24",
+   "amostra": 2000,
+   "margem": 2.2,
+   "registro": "BR-08234/2026",
+   "publicadoEm": "2026-10-24",
+   "materia": {
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/nexus-btg-pactual-presidente-outubro-2026-vespera-segundo-turno/",
+    "veiculo": "Gazeta do Povo",
+    "titulo": "Nexus/BTG Pactual divulga pesquisa para presidente na véspera do 2º turno"
+   },
+   "lula": 44.9,
+   "flavio": 45.7,
+   "indecisos": 3.4,
+   "base": "totais"
+  },
+  {
+   "id": "atlasintel-2026-10-23",
+   "instituto": "AtlasIntel",
+   "rotulo": "AtlasIntel",
+   "campoInicio": "2026-10-18",
+   "campoFim": "2026-10-23",
+   "amostra": 4990,
+   "margem": 1,
+   "registro": "BR-06380/2026",
+   "publicadoEm": "2026-10-24",
+   "materia": {
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/atlasintel-presidente-outubro-2026-vespera-segundo-turno/",
+    "veiculo": "Gazeta do Povo",
+    "titulo": "AtlasIntel divulga pesquisa para presidente na véspera do 2º turno"
+   },
+   "lula": 49.2,
+   "flavio": 50.8,
+   "indecisos": null,
+   "base": "validos"
+  },
+  {
+   "id": "cnt-mda-2026-10-23",
+   "instituto": "CNT/MDA",
+   "rotulo": "CNT/MDA",
+   "campoInicio": "2026-10-21",
+   "campoFim": "2026-10-23",
+   "amostra": 2032,
+   "margem": 2.2,
+   "registro": "BR-02136/2026",
+   "publicadoEm": "2026-10-24",
+   "materia": {
+    "url": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/cnt-mda-presidente-outubro-2026-vespera-segundo-turno/",
+    "veiculo": "Gazeta do Povo",
+    "titulo": "CNT/MDA divulga pesquisa para presidente na véspera do 2º turno"
+   },
+   "lula": 49.3,
+   "flavio": 50.7,
+   "indecisos": null,
+   "base": "validos"
+  },
+  {
    "id": "franca-2026-10-23",
    "instituto": "Instituto França",
    "rotulo": "Instituto França",
