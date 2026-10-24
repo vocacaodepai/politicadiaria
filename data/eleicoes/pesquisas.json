@@ -544,6 +544,26 @@
  ],
  "segundoTurno2026": [
   {
+   "id": "verita-2026-10-22",
+   "instituto": "Veritá",
+   "rotulo": "Veritá",
+   "campoInicio": "2026-10-18",
+   "campoFim": "2026-10-22",
+   "amostra": 15554,
+   "margem": 1,
+   "registro": "BR-06070/2026",
+   "publicadoEm": "2026-10-23",
+   "materia": {
+    "url": "https://exame.com/brasil/pesquisa-verita-flavio-bolsonaro-tem-513-e-lula-487-dos-votos-validos/",
+    "veiculo": "Exame",
+    "titulo": "Pesquisa Veritá para presidente: Flávio Bolsonaro tem 51,3% e Lula, 48,7%, dos votos válidos"
+   },
+   "lula": 47.5,
+   "flavio": 50.2,
+   "indecisos": 2.3,
+   "base": "totais"
+  },
+  {
    "id": "alfa-inteligencia-2026-10-22",
    "instituto": "Alfa Inteligência",
    "rotulo": "Alfa Inteligência",
