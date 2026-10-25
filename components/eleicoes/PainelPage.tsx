@@ -535,6 +535,11 @@ export function PainelPage() {
         </nav>
 
         <Presidente />
+        <Link href="/promessas" className="mt-10 block border-2 border-foreground bg-surface p-4 hover:bg-surface-2">
+          <span className="label-mono text-accent">Depois da eleição</span>
+          <span className="mt-1 block font-display text-xl font-bold leading-tight sm:text-2xl">Painel de promessas: o que cada candidato prometeu</span>
+          <span className="mt-1 block text-sm text-muted">Propostas dos planos de governo de Lula e Flávio Bolsonaro, com página e fonte. A partir da posse, o painel acompanha o eleito com dados oficiais.</span>
+        </Link>
         <Governadores />
         <Senado />
         <Camara />

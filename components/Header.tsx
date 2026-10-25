@@ -34,6 +34,7 @@ export const PRIMARY_NAV: NavItem[] = [
     ],
   },
   { href: "/checagem", label: "Checagem" },
+  { href: "/promessas", label: "Promessas" },
   {
     href: "/artigos",
     label: "Livros",
