@@ -14,6 +14,7 @@ const COLLECTIONS = [
   { dir: "content/articles", exportName: "articles", itemExport: "article", type: "Article" },
   { dir: "content/news", exportName: "news", itemExport: "item", type: "NewsItem" },
   { dir: "content/checagens", exportName: "checagens", itemExport: "checagem", type: "FactCheck" },
+  { dir: "content/historia", exportName: "historia", itemExport: "entry", type: "HistoryArticle" },
 ];
 
 const slugRe = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
