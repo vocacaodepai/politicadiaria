@@ -52,11 +52,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/s?k=9788580330182&tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver Os Intelectuais e a Sociedade na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/91QUZPiTklL._SL1500_.jpg",
+      alt: "Capa do livro Os Intelectuais e a Sociedade, de Thomas Sowell, edição É Realizações 2011",
+      asin: "8580330181",
+      width: 1018,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Quem forma a opinião pública, e quem responde quando as ideias dão errado? A pergunta atravessa <em>Os Intelectuais e a Sociedade</em>, do economista americano Thomas Sowell, um dos livros contemporâneos mais discutidos entre leitores de política de orientação liberal e conservadora. Esta é uma análise editorial da obra, feita a partir da ficha da edição brasileira, de registros públicos sobre o autor e de resenhas citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É um ensaio de combate intelectual, bem escrito e provocador, que acerta ao propor um critério simples: ideias influentes deveriam ser julgadas pelos resultados que produzem. Seu ponto forte é a clareza do argumento e a coragem de fazer uma pergunta que quase nenhuma categoria profissional gosta de ouvir. O ponto fraco é o rigor: a tese é ampla demais e os exemplos são escolhidos para sustentá-la.</p>
     <p>A nota final é <strong>7,5 em 10</strong>. A pontuação avalia a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura) e não a concordância do leitor ou da redação com o autor. As críticas feitas ao livro estão listadas mais abaixo, para que cada um forme o próprio juízo.</p>
 

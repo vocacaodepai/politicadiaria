@@ -52,11 +52,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/s?k=9788571644366&tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver Mauá na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/91Iy1YpI+-L._SL1500_.jpg",
+      alt: "Capa do livro Mauá: Empresário do Império, de Jorge Caldeira, edição Companhia das Letras 1995",
+      asin: "8571644365",
+      width: 1039,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Antes de existir bolsa de valores, banco central ou agências de fomento, um gaúcho nascido em 1813 construiu no Brasil estaleiros, ferrovias, bancos e uma rede de negócios que chegou a vários países. Seu nome é Irineu Evangelista de Sousa, o Barão e depois Visconde de Mauá, e a biografia mais conhecida sobre ele é <em>Mauá: Empresário do Império</em>, do historiador Jorge Caldeira. Esta é uma análise editorial da obra, feita a partir da ficha da edição brasileira, de registros públicos sobre o biografado e o autor e de fontes citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É uma biografia de fôlego que usa a vida de um empresário para discutir a relação entre mercado e Estado no Brasil imperial. O ponto forte é a ambição: o livro não se limita à trajetória pessoal e explica o ambiente em que o personagem atuou. O ponto de atenção é o tamanho e o fato de que, como toda biografia, tende a ver o mundo a partir do protagonista.</p>
     <p>A nota final é <strong>7,9 em 10</strong>. A pontuação avalia a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura) e não a concordância do leitor ou da redação com o autor. As críticas feitas a esse tipo de obra estão listadas mais abaixo.</p>
 

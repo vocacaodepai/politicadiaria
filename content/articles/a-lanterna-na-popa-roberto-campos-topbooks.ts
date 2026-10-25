@@ -52,11 +52,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/s?k=9788574752853&tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver A Lanterna na Popa na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/61jzCmClX0L._SL1438_.jpg",
+      alt: "Capa do livro A Lanterna na Popa: Memórias, de Roberto Campos, edição Topbooks 1999",
+      asin: "8574752851",
+      width: 1000,
+      height: 1438,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Poucos políticos e economistas brasileiros deixaram um relato tão extenso de suas décadas no poder quanto Roberto Campos. <em>A Lanterna na Popa</em>, lançado em 1994, percorre da diplomacia ao Senado, passando por ministérios e pela Câmara dos Deputados, e virou referência entre quem estuda a economia política do país. Esta é uma análise editorial da obra, feita a partir da ficha da edição, de registros públicos sobre o autor e de fontes citadas no texto, sem alegar leitura integral do volume.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É um documento valioso e um livro cansativo. O valor está no testemunho: Campos esteve perto de decisões centrais de várias épocas e escreve com ironia e franqueza. O limite está no formato, que é de memórias, e portanto traz a versão do autor sobre episódios em que ele teve papel e interesse. Quem lê precisa cotejar com historiadores e com quem discordou dele.</p>
     <p>A nota final é <strong>7,4 em 10</strong>. A pontuação julga a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura) e não a posição do autor ou do leitor. As críticas feitas a Campos e ao livro estão em seção própria.</p>
 

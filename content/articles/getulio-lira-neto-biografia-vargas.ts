@@ -51,11 +51,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/8535920935?tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver Getúlio 1 na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/91k6twLKCCL._SL1500_.jpg",
+      alt: "Capa do livro Getúlio 1 (1882-1930), de Lira Neto, edição Companhia das Letras 2012",
+      asin: "8535920935",
+      width: 1022,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Poucas figuras da história brasileira foram tão escritas, discutidas e disputadas quanto Getúlio Vargas. Por isso, uma biografia nova costuma ser lida com desconfiança: de que lado está o autor? Ao abrir sua trilogia sobre o político gaúcho, o jornalista Lira Neto apostou em fontes e em narrativa. Esta é uma análise editorial do primeiro volume, feita a partir da apresentação da editora, da ficha da edição e de fontes públicas citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É uma biografia sólida, bem pesquisada e legível. Quem quer entender como Vargas se formou politicamente e como chegou ao poder em 1930 encontra aqui um retrato detalhado e documentado. O ponto de atenção é o tamanho: são 664 páginas só para o período até a Revolução, e a trajetória completa pede os outros dois volumes.</p>
     <p>A nota final é <strong>8,3 em 10</strong>. A obra pontua alto em rigor e em clareza, com desconto em atualidade, por ser de 2012. A nota julga a qualidade do livro, não a opinião de quem o lê sobre o biografado.</p>
 

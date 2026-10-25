@@ -52,11 +52,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/s?k=9786586029727&tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver O Caminho da Servidão na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/61XgkB3IDBL._SL1000_.jpg",
+      alt: "Capa do livro O Caminho da Servidão, de Friedrich A. Hayek, edição LVM Editora 2022",
+      asin: "6586029724",
+      width: 1000,
+      height: 1000,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Poucos livros de política econômica foram tão citados, defendidos e atacados quanto <em>O Caminho da Servidão</em>, do economista austríaco Friedrich August von Hayek. Publicado em 1944, no meio da Segunda Guerra Mundial, ele virou referência do liberalismo e alvo permanente de críticas de quem defende maior presença do Estado na economia. Esta é uma análise editorial da obra, feita a partir da ficha da edição brasileira, de registros bibliográficos e de fontes públicas citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É um clássico de leitura obrigatória para quem quer entender o liberalismo do século XX. O argumento é claro, a influência histórica é enorme e a edição da LVM traz material de apoio útil. O principal limite é a natureza da tese: ela é uma advertência baseada em lógica e em história europeia, e não uma demonstração empírica que valha para qualquer país e época.</p>
     <p>A nota final é <strong>7,7 em 10</strong>. A pontuação avalia a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura), e não concordância com as ideias do autor. A resenha lista as críticas feitas ao livro para que o leitor decida por conta própria.</p>
 

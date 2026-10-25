@@ -93,6 +93,16 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/ISBN10?tag=${AMAZON_TAG}",
     affiliate: true,
     ctaLabel: "Ver o livro na Amazon",
+    // Foto real do livro (hotlink, nunca baixar): ver docs/rotinas/livros.md, passo "Foto do livro".
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/<id>._SL1500_.jpg",
+      alt: "Capa do livro <título>, de <autor>, edição <editora> <ano>",
+      asin: "ISBN10",
+      width: 0,
+      height: 0,
+      source: "amazon",
+      verifiedAt: "${today}",
+    },
   },
   content: \`
     <p></p>

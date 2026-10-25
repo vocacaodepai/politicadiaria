@@ -51,11 +51,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/s?k=9788595070073&tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver Reflexões sobre a Revolução na França na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/9140LT91hYL._SL1500_.jpg",
+      alt: "Capa do livro Reflexões sobre a Revolução na França, de Edmund Burke, edição Vide Editorial 2017",
+      asin: "8595070075",
+      width: 1031,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Em novembro de 1790, quando a Revolução Francesa ainda era vista com entusiasmo por muitos na Inglaterra, o parlamentar Edmund Burke publicou um texto que previa um mau fim para ela. <em>Reflexões sobre a Revolução na França</em> tornou-se, com o tempo, um dos livros fundadores do conservadorismo moderno e uma referência obrigatória da teoria política. Esta é uma análise editorial da obra, feita a partir da ficha da edição brasileira, de registros bibliográficos e de fontes públicas citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É uma leitura exigente e recompensadora. Poucos livros discutem com tanta força a relação entre tradição, instituições e mudança política. O preço é a dificuldade: a prosa é longa, os exemplos são do século XVIII e o leitor precisa de apoio, que a edição da Vide oferece com notas e um ensaio introdutório.</p>
     <p>A nota final é <strong>7,6 em 10</strong>. A pontuação avalia a qualidade da obra e não a posição política do leitor. A resenha reúne as críticas feitas ao livro, algumas delas formuladas ainda no tempo de Burke.</p>
 

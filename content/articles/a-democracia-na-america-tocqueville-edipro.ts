@@ -52,11 +52,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/s?k=9788552100751&tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver A Democracia na América na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/71SLqR0Og1L._SL1500_.jpg",
+      alt: "Capa do livro A democracia na América: edição integral, de Alexis de Tocqueville, edição Edipro 2019",
+      asin: "8552100754",
+      width: 1041,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Quando o debate público fala em polarização, desconfiança nas instituições ou excesso de poder do Estado, um nome volta com frequência: Alexis de Tocqueville. <em>A Democracia na América</em> é uma das obras mais citadas sobre o tema, e por isso vale perguntar o que ela de fato diz e o que ainda serve. Esta é uma análise editorial da obra, feita a partir da ficha da edição, da sinopse da loja, de verbetes públicos e de comentários citados no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É um clássico necessário para quem estuda democracia e instituições, com ideias que continuam em uso no debate. A leitura, porém, é longa e densa, e algumas previsões do autor foram superadas pela história. Funciona melhor como obra de referência, lida aos poucos, do que como leitura rápida de ocasião.</p>
     <p>A nota final é <strong>7,8 em 10</strong>. A pontuação avalia a qualidade da obra e não a concordância do leitor com o autor. A resenha lista as críticas feitas ao livro e as observações editoriais sobre seus limites.</p>
 

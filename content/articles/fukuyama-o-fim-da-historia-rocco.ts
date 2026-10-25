@@ -52,11 +52,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/s?k=9788532501295&tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver O fim da história na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/51Avhu3LOCL._SL1030_.jpg",
+      alt: "Capa do livro O fim da história e o último homem, de Francis Fukuyama, edição Rocco 2015",
+      asin: "853250129X",
+      width: 689,
+      height: 1030,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Poucas frases de ciência política ficaram tão conhecidas, e tão mal compreendidas, quanto o &quot;fim da história&quot;. O livro de Francis Fukuyama que a popularizou saiu em 1992, pouco depois da dissolução da União Soviética, e virou ponto de partida para quase todo debate sobre democracia, capitalismo e disputa entre potências. Esta é uma análise editorial da obra, feita a partir da ficha da edição brasileira, de registros públicos sobre o livro e de fontes citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É uma leitura exigente e valiosa para quem quer entender como a democracia liberal foi pensada como destino político depois da Guerra Fria. A tese é ambiciosa, o diálogo com a filosofia é sério e o debate que o livro provocou continua vivo. Os limites são o texto denso e um diagnóstico que os fatos posteriores puseram à prova, algo que o próprio autor reconheceu em parte.</p>
     <p>A nota final é <strong>7,8 em 10</strong>. A pontuação avalia a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura), e não concordância com as ideias do autor. A resenha lista as críticas feitas ao livro para que o leitor decida por conta própria.</p>
 

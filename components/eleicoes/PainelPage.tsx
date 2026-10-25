@@ -512,6 +512,15 @@ export function PainelPage() {
         />
         <SubNav active="painel" />
 
+        <Link
+          href="/eleicoes/dia-da-eleicao"
+          className="mt-6 block border-2 border-accent bg-surface p-4 hover:bg-surface-2"
+        >
+          <span className="label-mono text-accent">2º turno · domingo, 25 de outubro</span>
+          <span className="mt-1 block font-display text-xl font-bold leading-tight sm:text-2xl">Dia da eleição: como votar e acompanhar a apuração</span>
+          <span className="mt-1 block text-sm text-muted">Horário, documentos, celular, ordem do voto e apuração de presidente e governadores com dados do TSE.</span>
+        </Link>
+
         <div className="mt-6 grid grid-cols-2 gap-3 lg:grid-cols-4">
           <Tile label="Presidente" value={`${sobrenome(fin[0].nome)} x ${sobrenome(fin[1].nome)}`} hint={`2º turno em ${fmtDate(meta.eleicao.turno2)}`} />
           <Tile label="Governadores" value={`${gov.length - segundo.length} eleitos`} hint={`${segundo.length} estados em 2º turno: ${segundo.map((g) => g.uf).join(", ")}`} />

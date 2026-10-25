@@ -451,5 +451,6 @@ export function eleicoesUrls(): { path: string; lastModified: string; priority: 
   return [
     { path: "/eleicoes", lastModified: updated, priority: 0.9 },
     { path: "/eleicoes/pesquisas", lastModified: updated, priority: 0.8 },
+    { path: "/eleicoes/dia-da-eleicao", lastModified: updated, priority: 0.9 },
   ];
 }

@@ -52,11 +52,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/s?k=9788539006700&tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver Ordem Mundial na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/71mrqrCXcrL._SL1500_.jpg",
+      alt: "Capa do livro Ordem mundial, de Henry Kissinger, edição Objetiva 2015",
+      asin: "8539006707",
+      width: 1044,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Quando a notícia internacional parece uma sucessão de crises sem ligação, um livro como <em>Ordem Mundial</em>, de Henry Kissinger, tenta oferecer um fio condutor. O autor foi conselheiro de Segurança Nacional e Secretário de Estado dos Estados Unidos nos anos 1970, e escreveu o livro como síntese de uma vida de estudo e de prática diplomática. Esta é uma análise editorial da obra, feita a partir da ficha da edição brasileira, da apresentação da editora e de resenhas públicas citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É um livro erudito e útil para quem quer pensar a política internacional em escala histórica. A tese é clara e a reflexão sobre legitimidade e poder é valiosa mesmo para quem discorda das conclusões. Os limites são o recorte centrado no Ocidente, a densidade do texto e o fato de ter sido escrito em 2014.</p>
     <p>A nota final é <strong>7,4 em 10</strong>. A pontuação mede a qualidade da obra, e não a simpatia do leitor por um estilo de política externa. A resenha reúne as críticas feitas ao livro para que cada um tire suas conclusões.</p>
 

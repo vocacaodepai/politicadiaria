@@ -60,11 +60,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/8501103667?tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver Livre para Escolher na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/91e2Nzi9C8L._SL1500_.jpg",
+      alt: "Capa do livro Livre para escolher: Um depoimento pessoal, de Milton Friedman e Rose Friedman, edição Record 2015",
+      asin: "8501103667",
+      width: 1005,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Em qualquer debate sobre o tamanho do Estado, mais cedo ou mais tarde aparece o nome de Milton Friedman. <em>Livre para Escolher</em> é o livro em que ele e a mulher, Rose, apresentaram ao grande público a defesa do livre mercado, com exemplos, histórias e propostas. Esta é uma análise editorial feita a partir da ficha da edição brasileira, de enciclopédias e de fontes citadas no texto, sem alegação de leitura pessoal.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É um clássico de divulgação, claro e organizado, que explica a lógica de uma corrente econômica em linguagem comum. Cumpre bem a função de introdução. Seu limite é o de qualquer livro de tese: apresenta o caso a favor do mercado com convicção e dá menos espaço a quem discorda. Lido junto das críticas, é uma boa porta de entrada para o debate.</p>
     <p>A nota final é <strong>7,8 em 10</strong>. A pontuação julga a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura), e não a posição política do leitor. As críticas feitas ao livro aparecem em seção própria.</p>
 

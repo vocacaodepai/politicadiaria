@@ -118,6 +118,16 @@ export default function Home() {
 
       <NewsTicker />
 
+      <Container className="mt-4">
+        <Link
+          href="/eleicoes/dia-da-eleicao"
+          className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 border-2 border-accent px-4 py-3 hover:bg-surface-2"
+        >
+          <span className="font-display text-lg font-bold leading-tight">2º turno, domingo 25/10: como votar e acompanhar a apuração</span>
+          <span className="label-mono text-accent">Dia da eleição, com dados do TSE</span>
+        </Link>
+      </Container>
+
       {/* Hero: notícia de abertura + últimas + Congresso */}
       <Container as="section" className="pt-6 sm:pt-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-0">
