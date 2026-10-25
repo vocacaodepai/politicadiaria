@@ -10,6 +10,7 @@
 import { readFileSync, readdirSync } from "node:fs";
 import { resolve } from "node:path";
 import { checkChecagens, loadChecagens } from "./lib/check-checagens.mjs";
+import { checkCpfCongresso } from "./lib/check-cpf-congresso.mjs";
 
 const ROOT = resolve(new URL("..", import.meta.url).pathname);
 const ARTICLES_DIR = resolve(ROOT, "content/articles");
@@ -357,6 +358,8 @@ function check() {
 }
 
 const stats = check();
+// Privacidade: nenhum CPF em data/congresso/ nem em public/data/congresso/ (CNPJ de empresa pode).
+const congressFiles = checkCpfCongresso(ROOT, errors);
 
 for (const w of warnings) console.warn(`aviso: ${w}`);
 if (errors.length) {
@@ -365,5 +368,5 @@ if (errors.length) {
   process.exit(1);
 }
 console.log(
-  `check-content: ok (${stats.articles} artigos, ${stats.news} notícias, ${stats.checagens} checagens, ${warnings.length} aviso(s))`
+  `check-content: ok (${stats.articles} artigos, ${stats.news} notícias, ${stats.checagens} checagens, ${congressFiles} arquivos de dados do Congresso sem CPF, ${warnings.length} aviso(s))`
 );
