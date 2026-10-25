@@ -52,6 +52,15 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/8539007606?tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver Liderança na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/61XB7V-TBML._SL1500_.jpg",
+      alt: "Capa do livro Liderança: Seis estudos sobre estratégia, de Henry Kissinger, edição Objetiva 2023",
+      asin: "8539007606",
+      width: 1044,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Em <em>Liderança: seis estudos sobre estratégia</em>, Henry Kissinger troca o tratado de relações internacionais pelo retrato de pessoas. O livro examina seis estadistas do século XX que ele conheceu, em alguns casos como amigo, e pergunta o que cada um fez diante de uma encruzilhada histórica. Esta é uma análise editorial feita a partir da ficha da edição brasileira, da estrutura da obra descrita em fontes públicas e da recepção crítica citada no texto, sem alegação de leitura pessoal.</p>

@@ -53,6 +53,15 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/8562816833?tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver Ação Humana na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/81MTFS0hmDL._SL1500_.jpg",
+      alt: "Capa do livro Ação Humana: Um Tratado de Economia, de Ludwig von Mises, edição LVM Editora 2017 (Instituto Ludwig von Mises Brasil)",
+      asin: "8562816833",
+      width: 1011,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Poucos livros de economia têm a reputação de <em>Ação Humana</em>: mais de mil páginas, sete partes e uma tese que pretende explicar de uma só vez o que é uma escolha, o que é um preço e por que a intervenção do Estado produz efeitos que seus autores não previram. Para quem quer entender o liberalismo econômico pela fonte, é a obra central de Ludwig von Mises. Esta é uma análise editorial feita a partir da ficha da edição brasileira, do índice e de fontes públicas citadas no texto, sem alegação de leitura pessoal.</p>
