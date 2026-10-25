@@ -1,6 +1,6 @@
 # Rotinas automáticas da Política Diária: regras comuns
 
-Vale para todas as rotinas (notícias, livros, Congresso). Cada rotina roda sozinha, sem
+Vale para todas as rotinas (notícias, livros, Congresso, checagem, eleições e História). Cada rotina roda sozinha, sem
 perguntar nada, e termina com o conteúdo publicado na `main` (deploy automático na Vercel).
 
 ## Ambiente e git
@@ -28,7 +28,7 @@ Corrija sozinho até passar. Se sobrar erro real que você não resolveu, não m
 ## Segurança (toda rodada)
 
 - Escopo de arquivos: `content/` (itens e índices gerados), `public/images/covers/` e, só na
-  rotina do Congresso, `data/congresso/`. Nunca altere `docs/`, `CLAUDE.md`, `lib/`, `app/`,
+  rotina do Congresso, `data/congresso/`; na de História, `content/historia/` e `public/images/`. Nunca altere `docs/`, `CLAUDE.md`, `lib/`, `app/`,
   `components/`, `scripts/` nem configuração (rodar scripts é permitido, editar não).
   `git diff --stat` só pode ter esses caminhos.
 - Nenhum segredo no diff (Pexels, Pixabay, AdSense, qualquer chave). `.env.local` fica fora do git.
@@ -50,7 +50,8 @@ Corrija sozinho até passar. Se sobrar erro real que você não resolveu, não m
   acusação sem decisão judicial (ver CLAUDE.md, "Linha editorial").
 - Sem travessão (—), sem "Em resumo", sem "É importante ressaltar", sem "como já discutimos".
 - Nunca mencione IA, Claude ou Anthropic no conteúdo do site.
-- Cada URL externa é aberta com WebFetch e conferida antes de entrar (não abre = não entra).
+- Cada URL externa é aberta com WebFetch e conferida antes de entrar (não abre = não entra). Na
+  rotina de História, todo link externo do texto também precisa estar em `sources` (o validador confere).
 - Capas: melhor foto que encaixar, começando pelo Wikimedia Commons
   (`node scripts/wikimedia-cover.mjs search` e `get`), abrindo a imagem para conferir o tema.
   Nunca imagem de IA. Todo `coverImage` leva autor, fonte e link.
