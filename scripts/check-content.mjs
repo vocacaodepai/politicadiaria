@@ -10,6 +10,7 @@
 import { readFileSync, readdirSync } from "node:fs";
 import { resolve } from "node:path";
 import { checkChecagens, loadChecagens } from "./lib/check-checagens.mjs";
+import { checkEleicoesExtra } from "./lib/check-eleicoes-extra.mjs";
 
 const ROOT = resolve(new URL("..", import.meta.url).pathname);
 const ARTICLES_DIR = resolve(ROOT, "content/articles");
@@ -326,6 +327,8 @@ function check() {
     errors, warnings, TODAY, FORBIDDEN, ALLOWED_TAGS, decodeEntities, readField, readContent, articleSlugs, newsSlugs,
   };
   const checagens = checkChecagens(loadChecagens(CHECAGENS_DIR, ctx), ctx);
+
+  checkEleicoesExtra({ root: ROOT, errors, TODAY });
 
   return { articles: articles.length, news: news.length, checagens };
 }

@@ -1,0 +1,155 @@
+{
+  "status": "nao_coletado",
+  "motivo": "API do DivulgaCandContas indisponível (HTTP 403 em /eleicao/ordinarias). Nenhum valor foi coletado nem estimado.",
+  "coletadoEm": "2026-10-18T10:08:59-03:00",
+  "fonte": {
+    "rotulo": "TSE, DivulgaCandContas",
+    "url": "https://divulgacandcontas.tse.jus.br/"
+  },
+  "candidatos": [
+    {
+      "nome": "Mailza Assis",
+      "partido": "PP",
+      "cargo": "Governador",
+      "uf": "AC",
+      "receitas": null,
+      "despesas": null,
+      "bensDeclarados": null,
+      "ultimaPrestacao": null,
+      "sigilo": null,
+      "urlTse": null
+    },
+    {
+      "nome": "Alan Rick",
+      "partido": "REPUBLICANOS",
+      "cargo": "Governador",
+      "uf": "AC",
+      "receitas": null,
+      "despesas": null,
+      "bensDeclarados": null,
+      "ultimaPrestacao": null,
+      "sigilo": null,
+      "urlTse": null
+    },
+    {
+      "nome": "Omar Aziz",
+      "partido": "PSD",
+      "cargo": "Governador",
+      "uf": "AM",
+      "receitas": null,
+      "despesas": null,
+      "bensDeclarados": null,
+      "ultimaPrestacao": null,
+      "sigilo": null,
+      "urlTse": null
+    },
+    {
+      "nome": "Professora Maria do Carmo",
+      "partido": "PL",
+      "cargo": "Governador",
+      "uf": "AM",
+      "receitas": null,
+      "despesas": null,
+      "bensDeclarados": null,
+      "ultimaPrestacao": null,
+      "sigilo": null,
+      "urlTse": null
+    },
+    {
+      "nome": "Celina Leão",
+      "partido": "PP",
+      "cargo": "Governador",
+      "uf": "DF",
+      "receitas": null,
+      "despesas": null,
+      "bensDeclarados": null,
+      "ultimaPrestacao": null,
+      "sigilo": null,
+      "urlTse": null
+    },
+    {
+      "nome": "Leandro Grass",
+      "partido": "PT",
+      "cargo": "Governador",
+      "uf": "DF",
+      "receitas": null,
+      "despesas": null,
+      "bensDeclarados": null,
+      "ultimaPrestacao": null,
+      "sigilo": null,
+      "urlTse": null
+    },
+    {
+      "nome": "Lorenzo Pazolini",
+      "partido": "REPUBLICANOS",
+      "cargo": "Governador",
+      "uf": "ES",
+      "receitas": null,
+      "despesas": null,
+      "bensDeclarados": null,
+      "ultimaPrestacao": null,
+      "sigilo": null,
+      "urlTse": null
+    },
+    {
+      "nome": "Ricardo Ferraço",
+      "partido": "MDB",
+      "cargo": "Governador",
+      "uf": "ES",
+      "receitas": null,
+      "despesas": null,
+      "bensDeclarados": null,
+      "ultimaPrestacao": null,
+      "sigilo": null,
+      "urlTse": null
+    },
+    {
+      "nome": "Allyson",
+      "partido": "UNIÃO",
+      "cargo": "Governador",
+      "uf": "RN",
+      "receitas": null,
+      "despesas": null,
+      "bensDeclarados": null,
+      "ultimaPrestacao": null,
+      "sigilo": null,
+      "urlTse": null
+    },
+    {
+      "nome": "Cadu de Lula",
+      "partido": "PT",
+      "cargo": "Governador",
+      "uf": "RN",
+      "receitas": null,
+      "despesas": null,
+      "bensDeclarados": null,
+      "ultimaPrestacao": null,
+      "sigilo": null,
+      "urlTse": null
+    },
+    {
+      "nome": "Professora Dorinha",
+      "partido": "UNIÃO",
+      "cargo": "Governador",
+      "uf": "TO",
+      "receitas": null,
+      "despesas": null,
+      "bensDeclarados": null,
+      "ultimaPrestacao": null,
+      "sigilo": null,
+      "urlTse": null
+    },
+    {
+      "nome": "Vicentinho Júnior",
+      "partido": "PSDB",
+      "cargo": "Governador",
+      "uf": "TO",
+      "receitas": null,
+      "despesas": null,
+      "bensDeclarados": null,
+      "ultimaPrestacao": null,
+      "sigilo": null,
+      "urlTse": null
+    }
+  ]
+}

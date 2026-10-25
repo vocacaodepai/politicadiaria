@@ -1,0 +1,35 @@
+{
+  "status": "nao_coletado",
+  "motivo": "API do DivulgaCandContas indisponível (HTTP 403 em /eleicao/ordinarias). Nenhum valor foi coletado nem estimado.",
+  "coletadoEm": "2026-10-18T10:08:59-03:00",
+  "fonte": {
+    "rotulo": "TSE, DivulgaCandContas",
+    "url": "https://divulgacandcontas.tse.jus.br/"
+  },
+  "candidatos": [
+    {
+      "nome": "Flávio Bolsonaro",
+      "partido": "PL",
+      "cargo": "Presidente",
+      "uf": null,
+      "receitas": null,
+      "despesas": null,
+      "bensDeclarados": null,
+      "ultimaPrestacao": null,
+      "sigilo": null,
+      "urlTse": null
+    },
+    {
+      "nome": "Lula",
+      "partido": "PT",
+      "cargo": "Presidente",
+      "uf": null,
+      "receitas": null,
+      "despesas": null,
+      "bensDeclarados": null,
+      "ultimaPrestacao": null,
+      "sigilo": null,
+      "urlTse": null
+    }
+  ]
+}

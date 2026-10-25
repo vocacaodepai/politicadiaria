@@ -1,4 +1,4 @@
-# Rotina: Eleições 2026 (`/eleicoes` e `/eleicoes/pesquisas`)
+# Rotina: Eleições 2026 (`/eleicoes`, `/eleicoes/pesquisas`, `/apuracao`, `/agenda`, `/debate-band`, `/campanha`)
 
 Vale junto com `CLAUDE.md`, `docs/padrao-editorial.md` e `docs/rotinas/comum.md`. Roda de hora em hora
 (dia 4 e 25 de outubro e dias seguintes) ou uma vez por dia no restante do período.
@@ -16,6 +16,9 @@ Nunca `lib/`, `app/`, `components/`, `scripts/`, `docs/`, `CLAUDE.md` nem config
 | `meta.json` | datas, fontes, calendário, avisos | script (campos `atualizadoEm`, `eleicao`, `fontesResultados`, `avisosColeta`); calendário e `fontes` à mão |
 | `pesquisas.json` | institutos e imprensa, com registro no TSE | à mão, de fonte aberta conferida |
 | `institutos.json` | nomes e rótulos dos institutos | à mão, quando entrar instituto novo |
+| `debates.json` | emissoras e imprensa | à mão, de fonte aberta (seção 6) |
+| `agenda.json` | imprensa identificada ou perfil oficial da campanha | à mão, de fonte aberta (seção 7) |
+| `campanha/presidente.json`, `campanha/governadores.json` | API pública do TSE (DivulgaCandContas) | `npm run campanha:update` (seção 8) |
 
 ## 1. Resultados (todo ciclo)
 
@@ -75,6 +78,59 @@ npm run lint && npm run build
 
 Commit só dos arquivos de `data/eleicoes/`, mensagem em português ("Eleições: apuração de <data> às <hh:mm>"), push para `main`.
 Notícias sobre o tema seguem `docs/rotinas/noticias.md` e devem linkar `/eleicoes` e, se citarem pesquisa, `/eleicoes/pesquisas`.
+
+## 6. Debates (`debates.json`, página `/eleicoes/debate-band`)
+
+Esquema por item de `debates[]`: `id`, `titulo`, `data` (AAAA-MM-DD), `horaInicio` e `horaFimPrevista` (HH:MM, fuso Brasília),
+`emissora`, `pool`, `local`, `participantes` (nomes exatos usados nas falas), `mediadores`, `status` (`agendado`, `realizado`,
+`cancelado`), `formato` (`bloco`, `descricao`), `regras`, `fontes` (`rotulo`, `url` https, `verificadoEm`), `noticiaRegras`
+(slug em `content/news`), `temas`, `tempoDeFala` e `checagens`.
+
+Como preencher depois do debate (nunca antes, nunca de memória):
+
+1. Troque `status` para `realizado` só quando o debate tiver terminado (fonte: emissora ou imprensa).
+2. `temas[]`: `{ id, titulo, falas: [] }`. Cada fala: `candidato` (de `participantes`), `texto` (trecho literal conferido na
+   transmissão, transcrição da emissora ou veículo identificado, até 60 palavras, sem travessão), `minuto` ("42min" ou null),
+   `fonte` com URL aberta e `verificadoEm`, e `checagem` (slug de `content/checagens`) ou null. Sem fonte aberta, sem fala.
+   Mesma régua para os dois candidatos: mesmo número de temas, sem adjetivo, sem juízo.
+3. `checagens[]`: `{ afirmacao, candidato, situacao: "em_checagem"|"checada", checagem: slug|null, fonte }`. `checada` exige slug
+   existente. A checagem em si segue `docs/rotinas/checagem.md`.
+4. `tempoDeFala[]`: `{ candidato, segundos, fonte }`, só com contagem oficial da emissora ou medição com fonte.
+5. Atualize `atualizadoEm` (ISO com offset). `npm run check:content` valida tudo (URLs https, datas, candidatos, slugs).
+
+## 7. Agenda (`agenda.json`, página `/eleicoes/agenda`)
+
+Evento: `id` único, `candidato`, `cargo` (`Presidente` ou `Governador`; governador leva `ufCandidato`), `dataHora` (ISO com
+offset), `tipo`, `descricao`, `cidade`, `uf` (do evento), `fonte` (`rotulo`, `url` https aberta) e `verificadoEm`. Só entra evento com
+fonte aberta e conferida (imprensa identificada ou perfil oficial da campanha). A página marca eventos futuros como "previsto,
+segundo <fonte>". Cubra Lula, Flávio Bolsonaro e os candidatos a governador dos estados em 2º turno (AC, AM, DF, ES, RN, TO) com
+a mesma régua; sem fonte, sem evento. Não apague eventos passados no dia.
+
+## 8. Gastos de campanha e bens (`campanha/*.json`, página `/eleicoes/campanha`)
+
+```bash
+NODE_USE_ENV_PROXY=1 npm run campanha:update
+```
+
+O script (`scripts/build-campanha-data.mjs`) descobre os ids da eleição 2026 em `/eleicao/ordinarias` do DivulgaCandContas e lê
+candidatos, bens e prestação de contas de Presidente (Lula e Flávio Bolsonaro) e governadores em 2º turno. Grava só totais e
+categorias (receitas, despesas, bens por tipo): nunca nome ou CPF de doador, fornecedor ou pessoa física. Campo que a API não traz
+fica `null` e a página mostra "não informado pela fonte". O campo `sigilo` só é preenchido quando a fonte o tem.
+
+- Se a API responder 403 ou cair, o script mantém o arquivo anterior com dados coletados ou grava `status: "nao_coletado"` com o
+  motivo. A página mostra "não coletado ainda". Nunca estime valores.
+- Na coleta de 18/10/2026 a API respondeu 403 do ambiente de desenvolvimento, então os dois arquivos estão `nao_coletado`.
+- Primeira execução com acesso: o script foi escrito sem ver a resposta real. Confira os totais contra a página do candidato em
+  `https://divulgacandcontas.tse.jus.br/` e ajuste os nomes de campo do script antes de publicar (via pedido ao coordenador, pois
+  `scripts/` está fora do escopo da rotina).
+- Cada valor é exibido com "Fonte: TSE, prestação de contas parcial de dd/mm/aaaa" (campo `ultimaPrestacao`).
+
+## 9. Apuração ao vivo (`/eleicoes/apuracao`)
+
+Lê `resultados.json`. A página consulta `/eleicoes/apuracao/dados.json` a cada 60 segundos e atualiza sem recarregar; se a consulta
+falhar, mostra o último dado com o aviso. O arquivo só muda quando `npm run eleicoes:update` é rodado e publicado, então
+nos dias 25/10 e seguintes rode a seção 1 de hora em hora (ou com mais frequência) e dê push. Antes da primeira totalização do
+TSE o painel mostra "aguardando apuração"; a comparação com a última rodada de pesquisas só aparece com votos apurados.
 
 ## Linha editorial
 
