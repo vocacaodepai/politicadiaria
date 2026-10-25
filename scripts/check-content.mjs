@@ -10,6 +10,7 @@
 import { readFileSync, readdirSync } from "node:fs";
 import { resolve } from "node:path";
 import { checkChecagens, loadChecagens } from "./lib/check-checagens.mjs";
+import { checkPromessas } from "./lib/check-promessas.mjs";
 import { checkCpfCongresso } from "./lib/check-cpf-congresso.mjs";
 
 const ROOT = resolve(new URL("..", import.meta.url).pathname);
@@ -354,7 +355,10 @@ function check() {
   };
   const checagens = checkChecagens(loadChecagens(CHECAGENS_DIR, ctx), ctx);
 
-  return { articles: articles.length, news: news.length, checagens };
+  // Painel de promessas (/promessas): validação própria em scripts/lib/check-promessas.mjs.
+  const promessas = checkPromessas(ctx).propostas;
+
+  return { articles: articles.length, news: news.length, checagens, promessas };
 }
 
 const stats = check();
@@ -368,5 +372,5 @@ if (errors.length) {
   process.exit(1);
 }
 console.log(
-  `check-content: ok (${stats.articles} artigos, ${stats.news} notícias, ${stats.checagens} checagens, ${congressFiles} arquivos de dados do Congresso sem CPF, ${warnings.length} aviso(s))`
+  `check-content: ok (${stats.articles} artigos, ${stats.news} notícias, ${stats.checagens} checagens, ${stats.promessas} promessas, ${congressFiles} arquivos de dados do Congresso sem CPF, ${warnings.length} aviso(s))`
 );

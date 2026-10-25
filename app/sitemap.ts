@@ -8,6 +8,7 @@ import { congressUrls } from "@/lib/congress";
 import { congressExtraUrls } from "@/lib/congress-extra";
 import { eleicoesUrls } from "@/lib/eleicoes";
 import { sortedNews } from "@/lib/news";
+import { promessasUrls } from "@/lib/promessas";
 import { absoluteUrl } from "@/lib/seo";
 
 export const dynamic = "force-static";
@@ -149,6 +150,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: u.priority,
   }));
 
+  const promessas: Entry[] = promessasUrls().map((u) => ({
+    url: absoluteUrl(u.path),
+    lastModified: u.lastModified,
+    changeFrequency: "weekly",
+    priority: u.priority,
+  }));
+
   return [
     ...home,
     ...artigos,
@@ -162,5 +170,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...congresso,
     ...eleicoes,
     ...checagem,
+    ...promessas,
   ];
 }

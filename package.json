@@ -8,6 +8,7 @@
     "build": "next build",
     "build:gh-pages": "npm run check:content && STATIC_EXPORT=true next build",
     "start": "next start",
+    "check:promessas": "node scripts/check-promessas.mjs",
     "content:index": "node scripts/build-content-index.mjs",
     "test:cpf": "node --test scripts/lib/cpf.test.mjs",
     "check:content": "node scripts/build-content-index.mjs && node scripts/check-content.mjs",

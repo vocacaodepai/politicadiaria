@@ -1,0 +1,1164 @@
+{
+  "candidato": "flavio",
+  "propostas": [
+    {
+      "id": "FLAV-SEG-01",
+      "area": "seguranca-publica",
+      "titulo": "Declarar facções como organizações narcoterroristas",
+      "texto": "Declarar PCC, CV, milícias e demais facções \"organizações narcoterroristas\"; bloquear ativos e combater lavagem de dinheiro.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "13"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-SEG-02",
+      "area": "seguranca-publica",
+      "titulo": "Reduzir a maioridade penal",
+      "texto": "Apoiar e sancionar a redução da maioridade penal de 18 para 16 anos e punir como adultos maiores de 14 anos por crimes graves (estupro, tráfico, tortura, assassinato).",
+      "meta": "Redução da maioridade penal para 16 anos e punição de maiores de 14 anos por crimes graves.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "vai apoiar e sancionar a redução da maioridade penal de 18 para 16 anos",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "13"
+      },
+      "indicador": {
+        "nome": "Dados Abertos da Câmara dos Deputados (tramitação de proposições)",
+        "url": "https://dadosabertos.camara.leg.br/",
+        "serie": "Situação de PEC e projetos"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "Divergência entre fontes: o plano (p. 13) diz 16 anos, com punição de maiores de 14 anos por crimes graves. A Agência Brasil (18/09/2026) fala em redução para 14 anos. Prevalece o texto do plano."
+    },
+    {
+      "id": "FLAV-SEG-03",
+      "area": "seguranca-publica",
+      "titulo": "Sistema Nacional de Fronteira",
+      "texto": "Criar o Sistema Nacional de Fronteira, \"tropa de elite\" de Exército, Marinha e FAB, e ocupar portos e aeroportos com tropas especiais da Marinha e da Aeronáutica.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "13-15"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "O plano cita 16 mil quilômetros de fronteira e 1 policial por 100 km (p. 13)."
+    },
+    {
+      "id": "FLAV-SEG-04",
+      "area": "seguranca-publica",
+      "titulo": "Cinco presídios de segurança máxima",
+      "texto": "Construir 5 presídios de segurança máxima (complexo \"TREVA\", com os 5 federais atuais), com isolamento de chefes de facção.",
+      "meta": "5 presídios de segurança máxima.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "O Brasil terá 5 novos presídios de segurança máxima no modelo adotado por El Salvador.",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "14"
+      },
+      "indicador": {
+        "nome": "Levantamento de Informações Penais, Sisdepen (Senappen)",
+        "url": "https://www.gov.br/senappen/pt-br/servicos/sisdepen",
+        "serie": "Vagas e população prisional"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-SEG-05",
+      "area": "seguranca-publica",
+      "titulo": "Meio milhão de vagas prisionais",
+      "texto": "Criar meio milhão de vagas prisionais com os estados e zerar o déficit carcerário.",
+      "meta": "500 mil novas vagas prisionais.",
+      "prazo": "4 anos.",
+      "origem": "plano",
+      "citacao": "meio milhão de novas vagas no sistema prisional em 4 anos",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "14"
+      },
+      "indicador": {
+        "nome": "Levantamento de Informações Penais, Sisdepen (Senappen)",
+        "url": "https://www.gov.br/senappen/pt-br/servicos/sisdepen",
+        "serie": "Vagas e população prisional"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-SEG-06",
+      "area": "seguranca-publica",
+      "titulo": "Endurecer progressão de regime e penas",
+      "texto": "Acabar com a progressão de regime em crimes hediondos; cumprimento integral da pena por assassinos e agressores de mulheres; pena inicial quadruplicada para furto e receptação de celular.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "vai usar toda a sua força para acabar com a progressão de regime de quem comete crimes hediondos",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "15"
+      },
+      "indicador": {
+        "nome": "Dados Abertos da Câmara dos Deputados (tramitação de proposições)",
+        "url": "https://dadosabertos.camara.leg.br/",
+        "serie": "Situação de PEC e projetos"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-SEG-07",
+      "area": "seguranca-publica",
+      "titulo": "Monitorar agressores de mulheres com tornozeleira",
+      "texto": "Monitorar por tornozeleira eletrônica agressores de mulheres com medida protetiva; plataforma integrada de denúncia; avaliação de risco.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "14, 18-19"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "O plano cita mais de meio milhão de mulheres com medida protetiva."
+    },
+    {
+      "id": "FLAV-SEG-08",
+      "area": "seguranca-publica",
+      "titulo": "Castração química para condenados por estupro",
+      "texto": "Aprovar e implementar castração química de condenados por estupro e abuso de crianças.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "14"
+      },
+      "indicador": {
+        "nome": "Dados Abertos da Câmara dos Deputados (tramitação de proposições)",
+        "url": "https://dadosabertos.camara.leg.br/",
+        "serie": "Situação de PEC e projetos"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-SEG-09",
+      "area": "seguranca-publica",
+      "titulo": "Muralha Brasileira e novas câmeras",
+      "texto": "Sistema \"Muralha Brasileira\" de reconhecimento facial integrado a bancos de dados criminais e mais de 1 milhão de novas câmeras.",
+      "meta": "Mais de 1 milhão de novas câmeras.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "mais de 1 milhão de novas câmeras espalhadas por todo o país",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "15"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-SEG-10",
+      "area": "seguranca-publica",
+      "titulo": "Dobrar os investimentos federais em segurança",
+      "texto": "Dobrar os investimentos federais em segurança pública ao longo do mandato (plano cita 0,4% dos gastos federais hoje).",
+      "meta": "Dobrar os investimentos federais em segurança pública.",
+      "prazo": "Ao longo do mandato (4 anos).",
+      "origem": "plano",
+      "citacao": "vai dobrar os investimentos federais em segurança pública ao longo do mandato",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "15"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "O plano cita que a segurança pública representa 0,4% dos gastos federais hoje (p. 15)."
+    },
+    {
+      "id": "FLAV-SEG-11",
+      "area": "seguranca-publica",
+      "titulo": "Redirecionar recursos de famílias de detentos às de vítimas",
+      "texto": "Redirecionar para famílias de vítimas os recursos hoje destinados às famílias de detentos.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "15"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-ECO-01",
+      "area": "economia",
+      "titulo": "Crescimento de 4% ao ano na próxima década",
+      "texto": "Crescimento sustentado de 4% ao ano na próxima década (o plano cita média de 2% nas duas últimas décadas).",
+      "meta": "Crescimento sustentado de 4% ao ano.",
+      "prazo": "Próxima década.",
+      "origem": "plano",
+      "citacao": "Nossa meta é dobrar esse ritmo e alcançar um crescimento sustentado de 4% ao ano ao longo da próxima década",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "49"
+      },
+      "indicador": {
+        "nome": "Índice de volume trimestral do PIB (IBGE, SIDRA, tabela 1620)",
+        "url": "https://sidra.ibge.gov.br/tabela/1620",
+        "serie": "Contas Nacionais Trimestrais"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-ECO-02",
+      "area": "economia",
+      "titulo": "Reformular regras fiscais e reduzir a dívida/PIB",
+      "texto": "Reformular as regras fiscais, entregar superávits primários, limitar crédito subsidiado com recursos do Tesouro, criar regra de controle de gastos discricionários dos três Poderes; estabilizar e depois reduzir a dívida/PIB.",
+      "meta": "Estabilidade e depois queda da relação dívida/PIB, sem número.",
+      "prazo": "\"No menor prazo possível\", segundo o plano.",
+      "origem": "plano",
+      "citacao": "A meta é alcançar, no menor prazo possível, a estabilidade e depois a queda da relação Dívida/PIB",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "71"
+      },
+      "indicador": {
+        "nome": "Dívida bruta do governo geral, % do PIB (Banco Central, SGS, série 13762)",
+        "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados/ultimos/20?formato=json",
+        "serie": "SGS 13762"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "Dado da Aos Fatos (entrevista de 16/10/2026): a dívida bruta era de R$ 11,1 trilhões, 82,9% do PIB, em agosto de 2026."
+    },
+    {
+      "id": "FLAV-ECO-03",
+      "area": "economia",
+      "titulo": "Cortar no mínimo 10 ministérios e despesas administrativas",
+      "texto": "Cortar no mínimo 10 ministérios, reduzir cargos comissionados e despesas administrativas, combater penduricalhos e supersalários, fazer reforma administrativa e revisão normativa infralegal.",
+      "meta": "Corte de no mínimo 10 ministérios.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "o corte de no mínimo 10 ministérios",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "69"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-ECO-05",
+      "area": "economia",
+      "titulo": "Reduzir o IVA e a carga sobre produção e consumo",
+      "texto": "Revisar e \"redimensionar\" a reforma tributária, reduzir o IVA, reduzir a carga sobre produção e consumo, reduzir impostos sobre energia e combustíveis, desonerar exportações e investimentos.",
+      "meta": "Sem alíquota no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "reduzir o IVA, hoje projetado num dos patamares mais altos do mundo",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "30, 72"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "O plano cita IVA projetado em torno de 30%, contra média de 19% na OCDE (p. 30)."
+    },
+    {
+      "id": "FLAV-ECO-06",
+      "area": "economia",
+      "titulo": "Juros em linha com a média internacional",
+      "texto": "Criar condições para juros básicos \"em linha com a média internacional\" via estabilização da dívida; não fixa meta de Selic.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "32-33"
+      },
+      "indicador": {
+        "nome": "Meta Selic definida pelo Copom (Banco Central, SGS, série 432)",
+        "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/20?formato=json",
+        "serie": "SGS 432"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "O plano não fixa meta de Selic."
+    },
+    {
+      "id": "FLAV-ECO-07",
+      "area": "economia",
+      "titulo": "Reajustar salário mínimo e aposentadorias acima da inflação",
+      "texto": "Reajustar o salário mínimo e as aposentadorias acima da inflação, compromisso feito no debate da TV Globo em 23/10/2026. Não consta como medida detalhada no plano de governo.",
+      "meta": "Reajuste acima da inflação, sem fórmula.",
+      "prazo": "Sem prazo.",
+      "origem": "campanha",
+      "citacao": "Com certeza eu vou reajustar sim salário mínimo acima da inflação, aposentadoria acima da inflação",
+      "fonte": {
+        "nome": "Poder360, \"Lula e Flávio concordam em mínimo acima da inflação e em mais 6 temas\" (debate da Globo, 23/10/2026)",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-concordam-em-minimo-acima-da-inflacao-e-em-mais-6-temas/",
+        "pagina": "",
+        "tipo": "imprensa"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "Compromisso feito em debate, não no plano. Em 11/10/2026 o candidato também disse que manteria o reajuste do mínimo (Poder360)."
+    },
+    {
+      "id": "FLAV-ECO-08",
+      "area": "economia",
+      "titulo": "Lei das Estatais e desestatização caso a caso",
+      "texto": "Fortalecer a Lei das Estatais, profissionalizar o recrutamento para direção das estatais, blindar fundos de pensão de estatais e retomar o Programa Nacional de Desestatização, avaliando caso a caso.",
+      "meta": "Sem lista de empresas.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "retomar o Programa Nacional de Desestatização com critério, avaliando caso a caso onde a presença do Estado deixou de fazer sentido",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "70"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "No debate da Globo (23/10/2026) o candidato disse que não privatizará Caixa, Banco do Brasil e Petrobras (ver \"O que disseram que não farão\"). O plano não lista empresas."
+    },
+    {
+      "id": "FLAV-ECO-10",
+      "area": "economia",
+      "titulo": "Programa Ganha, Ganha e Banco da Prosperidade",
+      "texto": "Programa Ganha, Ganha (pontuação positiva por cursos, trabalho regular e contas em dia, convertida em juros menores, cashback e crédito), de adesão voluntária; CAIXA como Banco da Prosperidade, com orientação financeira; proibir o uso de recursos de programas sociais em apostas.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "ninguém perde direitos ou benefícios por não aderir",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "20"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "No plano, a adesão ao Ganha, Ganha é voluntária e \"ninguém perde direitos ou benefícios por não aderir\" (p. 20)."
+    },
+    {
+      "id": "FLAV-ECO-11",
+      "area": "economia",
+      "titulo": "Revogaço regulatório e abertura de empresas",
+      "texto": "\"Revogaço regulatório\", agências reguladoras com critérios técnicos de indicação, abertura de empresas mais simples, outorgas de irrigação simplificadas.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "27, 69"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-TRAB-01",
+      "area": "trabalho-e-previdencia",
+      "titulo": "Reduzir o custo do trabalho e criar contrato de primeiro emprego",
+      "texto": "Reduzir gradualmente o custo do trabalho \"sem retirar direitos\"; contrato para 18 a 24 anos no primeiro emprego com menor custo na folha; contrato mais atrativo para desempregados há 12 meses ou mais com 50 anos ou mais.",
+      "meta": "Sem alíquota no documento.",
+      "prazo": "Redução gradual, sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "Vamos reduzir gradualmente o custo do trabalho, sem retirar direitos",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "43"
+      },
+      "indicador": {
+        "nome": "Taxa de desocupação, PNAD Contínua (IBGE, SIDRA, tabela 6381)",
+        "url": "https://sidra.ibge.gov.br/tabela/6381",
+        "serie": "Taxa de desocupação em trimestres móveis"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-TRAB-02",
+      "area": "trabalho-e-previdencia",
+      "titulo": "Negociado sobre o legislado e banco nacional de vagas",
+      "texto": "Negociado sobre o legislado; banco nacional de vagas; manter ganhos do trabalho por aplicativos, com proteção sem sindicatos \"à frente do processo\".",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "defendemos o negociado sobre o legislado",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "44"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-PREV-01",
+      "area": "trabalho-e-previdencia",
+      "titulo": "Pacote antifraude na Previdência e gestão do INSS",
+      "texto": "Reeditar pacote antifraude na Previdência (modelo da MP 871/2019), mudar governança do consignado do INSS com dupla checagem, digitalizar processos e profissionalizar a gestão do INSS. O plano não propõe nova reforma de regras de aposentadoria.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "Reeditaremos um pacote antifraude na Previdência",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "72"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "O plano não propõe nova reforma das regras de aposentadoria. Cita fila de 3 milhões de requerimentos no início de 2026."
+    },
+    {
+      "id": "FLAV-SOC-01",
+      "area": "protecao-social-e-moradia",
+      "titulo": "Manter programas sociais com melhor gestão",
+      "texto": "Manter os programas sociais existentes, inclusive o Bolsa Família, com melhor gestão e combate a fraudes; dar prioridade a beneficiários em qualificação e primeiro emprego; garantir retorno sem fila ao benefício após o seguro-desemprego.",
+      "meta": "Sem valor novo no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "Quem depende hoje da ajuda do Estado para pôr comida na mesa não vai ter essa ajuda tirada.",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "42"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "Em 23/10/2026 o candidato reafirmou o piso de R$ 600 e propôs regra de transição para quem conseguir emprego com carteira ou abrir negócio, segundo o Poder360. A duração da transição não consta no plano e não foi localizada em fonte aberta."
+    },
+    {
+      "id": "FLAV-SOC-02",
+      "area": "protecao-social-e-moradia",
+      "titulo": "Creches em tempo integral e voucher-creche",
+      "texto": "Ampliar creches em período integral e dar voucher-creche para rede privada credenciada onde faltar vaga; Rede Nacional de Cuidado (centros-dia e atendimento domiciliar).",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "a família receberá um voucher-creche para acesso à rede privada credenciada até a vaga pública surgir",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "21"
+      },
+      "indicador": {
+        "nome": "Censo Escolar (Inep)",
+        "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar",
+        "serie": "Matrículas e infraestrutura das escolas"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-SOC-03",
+      "area": "protecao-social-e-moradia",
+      "titulo": "Brasil por Elas: Central da Mulher e acolhimento",
+      "texto": "Central da Mulher (espaços físicos e aplicativo), bônus de internet, Escola Brasil por Elas, assessoria para escritura da casa em nome da mulher e ampliação de espaços de acolhimento.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "17-22"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "A Agência Lupa (23/10/2026) rotulou como falsa a fala \"Eu vou criar a casa da mulher brasileira\", porque o programa existe desde 2013."
+    },
+    {
+      "id": "FLAV-SOC-04",
+      "area": "protecao-social-e-moradia",
+      "titulo": "Retomar o Casa Verde e Amarela",
+      "texto": "Retomar o Casa Verde e Amarela; parcerias público-privadas para moradia e infraestrutura; regularização fundiária.",
+      "meta": "2,5 milhões de residências.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "Vamos retomar o Casa Verde e Amarela, com meta de 2,5 milhões de residências",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "47"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-SOC-05",
+      "area": "protecao-social-e-moradia",
+      "titulo": "Marco Legal do Saneamento e escolas com água",
+      "texto": "Aplicar plenamente o Marco Legal do Saneamento; nenhuma escola sem água até 2030; meta do Lixão Zero.",
+      "meta": "Nenhuma escola sem água; água e esgoto para praticamente toda a população.",
+      "prazo": "Escolas com água até 2030; universalização até 2033 (meta do marco legal citada no plano).",
+      "origem": "plano",
+      "citacao": "nenhuma escola sem água até 2030",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "47"
+      },
+      "indicador": {
+        "nome": "SNIS, saneamento (Ministério das Cidades)",
+        "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/snis",
+        "serie": "Indicadores de água e esgoto"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-SOC-06",
+      "area": "protecao-social-e-moradia",
+      "titulo": "Casa Segura para Envelhecer e atenção à pessoa com deficiência",
+      "texto": "Casa Segura para Envelhecer (subsídio à acessibilidade para famílias de menor renda), aplicativo de companhia e alerta, mais instituições de longa permanência, Centros de Referência em TEA.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "25, 38-39"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-EDU-01",
+      "area": "educacao",
+      "titulo": "Alfabetização pelo método fônico",
+      "texto": "Priorizar o método fônico; Programa Acolher (aluno de bom desempenho remunerado para reforço).",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "Vamos priorizar o método fônico",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "35"
+      },
+      "indicador": {
+        "nome": "Saeb (Inep)",
+        "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb",
+        "serie": "Avaliação da educação básica"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-EDU-02",
+      "area": "educacao",
+      "titulo": "Gestão por resultados, escolas cívico-militares e voucher",
+      "texto": "Gestão e financiamento por resultados, ampliar Escolas Cívico-Militares, voucher educacional onde faltar vaga, robótica e internet nas escolas, educação \"livre de doutrinação político-partidária\", escola em tempo integral e Escola nas Férias.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "Vamos ampliar as Escolas Cívico-Militares",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "35"
+      },
+      "indicador": {
+        "nome": "Censo Escolar (Inep)",
+        "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar",
+        "serie": "Matrículas e infraestrutura das escolas"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-EDU-03",
+      "area": "educacao",
+      "titulo": "Educação técnica e Empréstimo Contingente à Renda",
+      "texto": "Ampliar educação técnica no ensino médio com o setor produtivo; Política Nacional de Formação de Talentos; transferir governança do ensino superior ao Ministério da Ciência, Tecnologia e Inovação; trocar o financiamento estudantil por Empréstimo Contingente à Renda.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "vamos adotar o Empréstimo Contingente à Renda",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "37"
+      },
+      "indicador": {
+        "nome": "Censo da Educação Superior (Inep)",
+        "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-da-educacao-superior",
+        "serie": "Matrículas e cursos"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-SAU-01",
+      "area": "saude",
+      "titulo": "Prontuário eletrônico único e digitalização do SUS",
+      "texto": "Implantar o prontuário eletrônico único, vinculado ao CPF e ao Gov.br, interoperável entre as redes pública e privada; digitalizar o SUS; usar inteligência artificial para agendar consultas e exames.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "Vamos implantar o prontuário eletrônico único, vinculado ao CPF e integrado ao Gov.br",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "26"
+      },
+      "indicador": {
+        "nome": "Rede Nacional de Dados em Saúde (Ministério da Saúde)",
+        "url": "https://www.gov.br/saude/pt-br/composicao/seidigi/rnds",
+        "serie": "Adesão e registros integrados"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "A Aos Fatos (16/10/2026) registra que a Rede Nacional de Dados em Saúde, criada em 2020, já compartilha registros, embora nem todos os prontuários estejam integrados."
+    },
+    {
+      "id": "FLAV-SAU-02",
+      "area": "saude",
+      "titulo": "Correção da tabela SUS e ampliação da rede",
+      "texto": "Correção da tabela SUS; ampliar Saúde da Família; Programa de Atendimento aos Idosos; contratar exames na rede privada em horários ociosos; telessaúde; remédio em domicílio; modernizar hospitais universitários (Ebserh).",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "Vamos garantir as condições para que seja possível a correção efetiva da tabela SUS",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "37"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-SAU-03",
+      "area": "saude",
+      "titulo": "Ampliar a atenção à saúde mental",
+      "texto": "Ampliar atenção à saúde mental (TDAH, depressão, ansiedade, Alzheimer).",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "39"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-ENE-01",
+      "area": "energia-e-infraestrutura",
+      "titulo": "Simplificar a conta de luz e reduzir encargos",
+      "texto": "Simplificar a conta de luz, racionalizar encargos e subsídios, reduzir gradualmente a CDE e as fontes incentivadas, mantida a tarifa social; reduzir impostos sobre energia e combustíveis.",
+      "meta": "Sem percentual no documento.",
+      "prazo": "Redução gradual, sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "promover a redução gradual da CDE e das fontes incentivadas, mantida a tarifa social",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "31, 53"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-ENE-02",
+      "area": "energia-e-infraestrutura",
+      "titulo": "Segurança energética, gás não convencional e refino",
+      "texto": "Criar o Programa Nacional de Segurança Energética (refino, escoamento, transporte); permitir a exploração de gás não convencional (fracking); ampliar a rede de gás e a produção de fertilizantes a partir do gás.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "permitir a exploração do gás não convencional (fracking)",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "52"
+      },
+      "indicador": {
+        "nome": "Boletim Mensal da Produção de Petróleo e Gás Natural (ANP)",
+        "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/boletins-anp/boletim-mensal-da-producao-de-petroleo-e-gas-natural",
+        "serie": "Produção mensal"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "A Aos Fatos (16/10/2026) rotulou como \"enganou\" a declaração de campanha de que a margem equatorial traria mais de R$ 100 bilhões \"de largada\". Essa declaração não está no plano."
+    },
+    {
+      "id": "FLAV-ENE-03",
+      "area": "energia-e-infraestrutura",
+      "titulo": "Combustível do Futuro, baterias e data centers",
+      "texto": "Aplicar a Lei do Combustível do Futuro; metas de SAF previstas em lei a partir de 2027; Renovabio no exterior; programa de armazenamento com baterias; polo de data centers.",
+      "meta": "Metas de SAF previstas em lei.",
+      "prazo": "A partir de 2027.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "53-55"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "Metas de SAF previstas em lei a partir de 2027."
+    },
+    {
+      "id": "FLAV-INF-01",
+      "area": "energia-e-infraestrutura",
+      "titulo": "Investir R$ 900 bilhões em infraestrutura em quatro anos",
+      "texto": "Investir R$ 900 bilhões em quatro anos em rodovias, hidrovias, portos, aeroportos e ferrovias (com PPPs, concessões e fundo de ativos da União); Ferrogrão, Trem do Nordeste (1.400 km), Transnordestina; Hidrovia do Tapajós; Corredores Logísticos Inteligentes.",
+      "meta": "R$ 900 bilhões investidos em rodovias, hidrovias, portos, aeroportos e ferrovias.",
+      "prazo": "4 anos.",
+      "origem": "plano",
+      "citacao": "Vamos investir R$ 900 bilhões em quatro anos em rodovias, hidrovias, portos, aeroportos e ferrovias.",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "51"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "Inclui Ferrogrão, Trem do Nordeste (1.400 km), Transnordestina e Hidrovia do Tapajós, segundo o plano."
+    },
+    {
+      "id": "FLAV-INF-02",
+      "area": "energia-e-infraestrutura",
+      "titulo": "Prazos no licenciamento ambiental e estabilidade de regras",
+      "texto": "Licenciamento ambiental com prazos definidos e licença concedida se o órgão não decidir no prazo; regras estáveis de até 20 anos para grandes projetos; Estado indeniza se voltar atrás de licença regular.",
+      "meta": "Licença concedida se o órgão não decidir no prazo; regras estáveis para grandes projetos.",
+      "prazo": "Estabilidade de até 20 anos.",
+      "origem": "plano",
+      "citacao": "Se não decidir nem se manifestar dentro desse prazo, a licença deve ser concedida",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "50"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-INF-03",
+      "area": "energia-e-infraestrutura",
+      "titulo": "Concluir obras hídricas no Nordeste",
+      "texto": "Concluir obras hídricas do Nordeste (Ramal do Apodi, Adutora do Seridó, Canal do Xingó e outros) e barragens e drenagem contra cheias.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "52, 60"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-INF-04",
+      "area": "energia-e-infraestrutura",
+      "titulo": "Estratégia de minerais críticos",
+      "texto": "Estratégia de minerais críticos (marco regulatório estável, licenciamento ágil, verticalização, Estado como regulador).",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "55-56"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-AGR-01",
+      "area": "agropecuaria",
+      "titulo": "Seguro rural, armazenagem e titulação de propriedades",
+      "texto": "Ampliar seguro rural e armazenagem de safras, titulação de pequenas propriedades (o plano cita 450 mil títulos no governo anterior), produção nacional de fertilizantes (potássio e fosfato), ampliar área irrigada.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "31-32, 54-55"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-AMB-01",
+      "area": "meio-ambiente-e-clima",
+      "titulo": "Zerar o desmatamento ilegal até 2029",
+      "texto": "Meta de zerar o desmatamento ilegal até 2029; combater queimadas e crimes ambientais; Cadastro Ambiental Rural; pagamento por serviços ambientais.",
+      "meta": "Zerar o desmatamento ilegal.",
+      "prazo": "2029.",
+      "origem": "plano",
+      "citacao": "Teremos a meta de zerar o desmatamento ilegal até 2029",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "58"
+      },
+      "indicador": {
+        "nome": "Desmatamento na Amazônia Legal (INPE, TerraBrasilis)",
+        "url": "https://terrabrasilis.dpi.inpe.br/app/dashboard/deforestation/biomes/legal_amazon/increments",
+        "serie": "Prodes, incremento anual"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "O Prodes mede o desmatamento total; a série oficial não separa o desmatamento ilegal, o que exigirá decisão metodológica na hora do acompanhamento."
+    },
+    {
+      "id": "FLAV-AMB-02",
+      "area": "meio-ambiente-e-clima",
+      "titulo": "Eliminar sobreposições entre Ibama, Funai e ICMBio",
+      "texto": "Eliminar sobreposições entre Ibama, Funai e ICMBio; exigir transparência de financiadores e projetos de ONGs com recursos internacionais que judicializam ações contra a União; autonomia a povos indígenas e quilombolas para decidir atividades produtivas em suas terras, com indenização por restrições.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "50, 59"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-AMB-03",
+      "area": "meio-ambiente-e-clima",
+      "titulo": "Mercado regulado de carbono e bioeconomia",
+      "texto": "Consolidar o mercado regulado de carbono; bioeconomia.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "57"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-EXT-01",
+      "area": "politica-externa-e-defesa",
+      "titulo": "Retomar a adesão à OCDE e abrir o comércio",
+      "texto": "Retomar o cronograma de adesão à OCDE, incluindo fim gradual do IOF sobre câmbio; abertura comercial; plano de integração a cadeias globais de valor; internacionalização de pequenas empresas.",
+      "meta": "Brasil entre os principais destinos de investimento em transição energética.",
+      "prazo": "2030 (meta citada no plano).",
+      "origem": "plano",
+      "citacao": "retomar o cronograma interrompido de adesão à OCDE",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "63"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-EXT-02",
+      "area": "politica-externa-e-defesa",
+      "titulo": "Diplomacia pragmática e reaproximação com EUA, Argentina e Israel",
+      "texto": "\"Diplomacia guiada pelo profissionalismo e pelo pragmatismo\", reaproximação com EUA, Argentina e Israel, soluções diplomáticas contra sanções ao agro.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "54, 61-62"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-INS-01",
+      "area": "estado-e-instituicoes",
+      "titulo": "Mudanças no Judiciário e no STF",
+      "texto": "Fim das competências criminais originárias do STF; limitar decisões monocráticas; revisar escopo de ADPFs e legitimados; quarentena de 1 ano para ministros de Estado serem indicados ao STF; impedimento de parentes até 3º grau; mais sociedade civil no CNJ e no CNMP.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "Fim das competências criminais originárias do STF",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "65"
+      },
+      "indicador": {
+        "nome": "Dados Abertos da Câmara dos Deputados (tramitação de proposições)",
+        "url": "https://dadosabertos.camara.leg.br/",
+        "serie": "Situação de PEC e projetos"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-INS-02",
+      "area": "estado-e-instituicoes",
+      "titulo": "Fim da reeleição para presidente",
+      "texto": "Fim da reeleição para Presidente da República (o plano cita PEC no Senado, de autoria do próprio candidato).",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "E propomos o fim da reeleição para o cargo de Presidente da República.",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "66"
+      },
+      "indicador": {
+        "nome": "Senado Federal (consulta de matérias em tramitação)",
+        "url": "https://www12.senado.leg.br/hpsenado",
+        "serie": "Situação de PEC e projetos"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-INS-03",
+      "area": "estado-e-instituicoes",
+      "titulo": "Acabar com estrutura estatal de vigilância do que se diz",
+      "texto": "\"Tesouraço na Censura\": acabar com estrutura estatal que \"vigie, rotule ou puna\" o que as pessoas dizem e revogar atos do governo atual contra críticos.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "66-67"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-INS-04",
+      "area": "estado-e-instituicoes",
+      "titulo": "Revisar o pacto federativo e dar transparência às emendas",
+      "texto": "Revisar pacto federativo e processos orçamentários; mais transparência e rastreabilidade das emendas, priorizando políticas do PPA.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "68-69"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-DIG-01",
+      "area": "estado-e-instituicoes",
+      "titulo": "Digitalizar 100% dos serviços públicos federais",
+      "texto": "Digitalizar 100% dos serviços públicos federais \"passíveis de digitalização\"; identidade digital única no Gov.br; não pedir de novo documento que o Estado já tem.",
+      "meta": "100% dos serviços públicos federais passíveis de digitalização.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "Vamos digitalizar 100% dos serviços públicos do Governo Federal passíveis de digitalização",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "25"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-TEC-01",
+      "area": "estado-e-instituicoes",
+      "titulo": "Estratégia Nacional de Inteligência Artificial",
+      "texto": "Estratégia Nacional de Inteligência Artificial para empresas, legislação de \"liberdade de criar e inovar\", defesa cibernética.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "56-57"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "FLAV-COS-01",
+      "area": "costumes-e-direitos",
+      "titulo": "Valores declarados e esporte feminino",
+      "texto": "Declarar valores (vida desde a concepção, família, liberdade religiosa e de expressão), sem medida legislativa concreta no plano; garantir que a categoria feminina no esporte seja disputada por atletas do sexo feminino; escola sem doutrinação político-partidária.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "Vamos assegurar que a categoria feminina, da base ao alto rendimento, seja disputada por atletas do sexo feminino",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "41"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "Item de valores, com poucas medidas concretas; a única medida verificável é a regra do esporte feminino."
+    },
+    {
+      "id": "FLAV-COS-02",
+      "area": "costumes-e-direitos",
+      "titulo": "Preservar o patrimônio histórico e ajustar leis de incentivo à cultura",
+      "texto": "Preservar patrimônio histórico e ajustar leis de incentivo para favorecer outros polos regionais.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Para o Brasil Vencer o Atraso, plano de governo de Flávio Bolsonaro (divulgado pela campanha; cópia hospedada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "tipo": "plano",
+        "pagina": "41"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    }
+  ]
+}

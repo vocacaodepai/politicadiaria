@@ -2,7 +2,7 @@
 
 **Política Diária** (www.politicadiaria.com.br) é um site brasileiro de política nacional e
 internacional. **O foco é o Brasil**: a notícia em destaque da home é sempre do Brasil e a maior
-parte da cobertura é nacional (mundo entra, mas em menor proporção). Cinco frentes:
+parte da cobertura é nacional (mundo entra, mas em menor proporção). Seis frentes:
 
 1. **Notícias diárias** (`/noticias`): política do Brasil e do mundo, sempre com fonte primária.
 2. **Congresso por dentro** (`/congresso`): quem são os 513 deputados federais e os 81
@@ -17,6 +17,11 @@ parte da cobertura é nacional (mundo entra, mas em menor proporção). Cinco fr
    no menu e destaque na home enquanto houver eleição. Dados em `data/eleicoes/` com fonte e data.
 5. **Checagem** (`/checagem`): verificação de boatos e notícias falsas, com veredito, fontes
    numeradas ("checado em N fontes") e a mesma régua para qualquer campo político.
+6. **Promessas** (`/promessas`): painel público de acompanhamento das promessas do presidente. Replica as propostas
+   dos planos de governo de Lula e Flávio Bolsonaro (2026), cada uma com citação (até 25 palavras), página do documento
+   e indicador oficial conferido. Depois da posse (01/01/2027) acompanha só o eleito; as do outro candidato ficam como
+   arquivo da campanha. Dados em `data/promessas/` (`meta.json` com `eleito`, `posse`; `lula.json`, `flavio.json`).
+   Mesma régua para qualquer eleito, sem nota nem adjetivo; "contrariada" só com fonte oficial.
 
 Monetização: Google AdSense e Programa de Associados da Amazon, tag **`politicadiaria-20`**
 (também em `site.amazonTag`, `lib/articles.ts`).
@@ -158,9 +163,9 @@ Commons.** Nunca imagem gerada por IA, nunca captura de página da Amazon.
 
 As rotinas agendadas publicam sozinhas; as instruções vivem em `docs/rotinas/` e valem como
 parte deste arquivo: `comum.md` (regras comuns), `noticias.md` (de hora em hora), `livros.md`, `congresso.md`,
-`checagem.md` e `eleicoes.md`.
+`checagem.md`, `eleicoes.md` e `promessas.md`.
 Rotinas de conteúdo só alteram `content/`, `public/images/covers/` (e `data/congresso/` na rotina
-do Congresso); nunca `docs/`, `CLAUDE.md`, `lib/`, `app/`, `components/`, `scripts/` nem
+do Congresso, `data/promessas/` na de promessas); nunca `docs/`, `CLAUDE.md`, `lib/`, `app/`, `components/`, `scripts/` nem
 configuração.
 
 ## Identidade visual
