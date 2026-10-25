@@ -1,0 +1,493 @@
+{
+ "atualizadoEm": "2026-10-18",
+ "presidente": "Edson Fachin",
+ "vicePresidente": "Alexandre de Moraes",
+ "vagas": 1,
+ "ministros": [
+  {
+   "slug": "gilmar-mendes",
+   "nome": "Gilmar Mendes",
+   "nomeCompleto": "Gilmar Ferreira Mendes",
+   "wikipedia": "Gilmar_Mendes",
+   "nascimento": "1955-12-30",
+   "nascimentoLocal": "Diamantino , MT",
+   "formacao": "Graduação e mestrado em direito pela Universidade de Brasília , mestrado e doutorado em direito pela Universidade de Münster",
+   "indicadoPor": "Fernando Henrique Cardoso",
+   "posse": "2002-06-20",
+   "aposentadoriaCompulsoria": "2030-12-30",
+   "carreira": "Oficial de chancelaria (1976: 1982), procurador da República (1985: 1988), adjunto da Subsecretaria Geral da Presidência da República (1990: 1991), consultor jurídico da Secretaria Geral da Presidência da República (1991: 1992), assessor técnico do Ministério da Justiça (1995: 1996), subchefe para assuntos jurídicos da Casa Civil (1996: 2000), advogado-geral da União (2000: 2002), professor adjunto da Universidade de Brasília (1995: 2022)",
+   "turma": "Segunda Turma",
+   "turmaPresidente": false,
+   "cargo": "Ministro",
+   "senado": {
+    "data": "2002-05-28",
+    "favoraveis": 57,
+    "contrarios": 15,
+    "trecho": "A dificuldade fará com que ele chegue ao Supremo com respaldo maior. ” Após aprovado na CCJ, a indicação foi votada no plenário do Senado no dia 22 de maio, e novamente aprovada, por 57 votos a favor e 15 contra, o triplo do segundo candidato ao posto com maior rejeição, o ministro Eros Grau , e a nomeação foi publicada no dia 28 de maio de 2002.",
+    "fonte": "Wikipédia (artigo do ministro)",
+    "fonteUrl": "https://pt.wikipedia.org/wiki/Gilmar_Mendes"
+   },
+   "foto": {
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Gilmar_Mendes_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "credito": "Fabio Rodrigues Pozzebom/ABr / Wikimedia Commons",
+    "creditoUrl": "https://commons.wikimedia.org/wiki/File:Gilmar_Mendes_(cropped).jpg",
+    "licenca": "CC BY 3.0 br",
+    "fonte": "wikimedia"
+   },
+   "estatisticas": {
+    "cobertura": {
+     "de": "2026-01-29",
+     "ate": "2026-10-15"
+    },
+    "relatoriasEmJulgamentos": 3,
+    "relatoriasNaPauta": 14,
+    "votosRegistrados": 14,
+    "votosPorTipo": {
+     "votou como relator": 1,
+     "ficou vencido": 3,
+     "divergiu": 2,
+     "votou": 2,
+     "acompanhou o relator": 3,
+     "pediu vista": 3
+    },
+    "tempoMedioPedidoVista": null,
+    "decisoesMonocraticasPorAno": null,
+    "nota": "Contagens limitadas às notícias do portal na janela de cobertura. Tempo de pedido de vista e decisões monocráticas por ano dependem de bases do portal de jurisprudência e da Corte Aberta, não acessíveis por script nesta coleta: não coletado."
+   },
+   "aliases": [
+    "Gilmar Mendes",
+    "Gilmar"
+   ]
+  },
+  {
+   "slug": "carmen-lucia",
+   "nome": "Cármen Lúcia",
+   "nomeCompleto": "Cármen Lúcia Antunes Rocha",
+   "wikipedia": "Cármen_Lúcia",
+   "nascimento": "1954-04-19",
+   "nascimentoLocal": "Montes Claros , MG",
+   "formacao": "Graduação em direito pela Pontifícia Universidade Católica de Minas Gerais , mestrado em direito constitucional pela Universidade Federal de Minas Gerais",
+   "indicadoPor": "Luiz Inácio Lula da Silva",
+   "posse": "2006-06-21",
+   "aposentadoriaCompulsoria": "2029-04-19",
+   "carreira": "Procuradora do Estado de Minas Gerais (1983: 2006), procuradora-geral do Estado de Minas Gerais (2001: 2002),  professora da Pontifícia Universidade Católica de Minas Gerais (1983: atualidade)",
+   "turma": "Primeira Turma",
+   "turmaPresidente": false,
+   "cargo": "Ministro",
+   "senado": null,
+   "foto": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Carmen_L%C3%BAcia_cerim%C3%B4nia_de_posse.jpg/500px-Carmen_L%C3%BAcia_cerim%C3%B4nia_de_posse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credito": "(Wilson Dias/Agência Brasil) / Wikimedia Commons",
+    "creditoUrl": "https://commons.wikimedia.org/wiki/File:Carmen_L%C3%BAcia_cerim%C3%B4nia_de_posse.jpg",
+    "licenca": "CC BY 3.0 br",
+    "fonte": "wikimedia"
+   },
+   "estatisticas": {
+    "cobertura": {
+     "de": "2026-01-29",
+     "ate": "2026-10-15"
+    },
+    "relatoriasEmJulgamentos": 2,
+    "relatoriasNaPauta": 5,
+    "votosRegistrados": 7,
+    "votosPorTipo": {
+     "ficou vencido": 6,
+     "acompanhou o relator": 1
+    },
+    "tempoMedioPedidoVista": null,
+    "decisoesMonocraticasPorAno": null,
+    "nota": "Contagens limitadas às notícias do portal na janela de cobertura. Tempo de pedido de vista e decisões monocráticas por ano dependem de bases do portal de jurisprudência e da Corte Aberta, não acessíveis por script nesta coleta: não coletado."
+   },
+   "aliases": [
+    "Cármen Lúcia",
+    "Carmen Lúcia"
+   ]
+  },
+  {
+   "slug": "dias-toffoli",
+   "nome": "Dias Toffoli",
+   "nomeCompleto": "José Antonio Dias Toffoli",
+   "wikipedia": "Dias_Toffoli",
+   "nascimento": "1967-11-15",
+   "nascimentoLocal": "Marília , SP",
+   "formacao": "Graduação em direito pela Universidade de São Paulo",
+   "indicadoPor": "Luiz Inácio Lula da Silva",
+   "posse": "2009-10-23",
+   "aposentadoriaCompulsoria": "2042-11-15",
+   "carreira": "Advogado (1991: 2009), assessor parlamentar na Assembleia Legislativa de São Paulo (1994), assessor jurídico da liderança do Partido dos Trabalhadores na Câmara dos Deputados (1995: 2000), professor do Centro de Ensino Unificado de Brasília (1996: 2002), subchefe para assuntos jurídicos da Casa Civil (2003: 2005), advogado-geral da União (2007: 2009)",
+   "turma": "Segunda Turma",
+   "turmaPresidente": false,
+   "cargo": "Ministro",
+   "senado": {
+    "data": null,
+    "favoraveis": 58,
+    "contrarios": 9,
+    "trecho": "A sabatina seguiu então ao Plenário do Senado, que também aprovou a nomeação por 58 votos a favor, 9 contra e 3 abstenções.",
+    "fonte": "Wikipédia (artigo do ministro)",
+    "fonteUrl": "https://pt.wikipedia.org/wiki/Dias_Toffoli"
+   },
+   "foto": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Dias_Toffoli_em_setembro_de_2018_%28recorte%29.jpg/500px-Dias_Toffoli_em_setembro_de_2018_%28recorte%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credito": "Cesar Itiberê/PR / Wikimedia Commons",
+    "creditoUrl": "https://commons.wikimedia.org/wiki/File:Dias_Toffoli_em_setembro_de_2018_(recorte).jpg",
+    "licenca": "CC BY 2.0",
+    "fonte": "wikimedia"
+   },
+   "estatisticas": {
+    "cobertura": {
+     "de": "2026-01-29",
+     "ate": "2026-10-15"
+    },
+    "relatoriasEmJulgamentos": 4,
+    "relatoriasNaPauta": 27,
+    "votosRegistrados": 8,
+    "votosPorTipo": {
+     "impedimento ou suspeição": 4,
+     "votou": 1,
+     "divergiu": 1,
+     "ficou vencido": 1,
+     "acompanhou o relator": 1
+    },
+    "tempoMedioPedidoVista": null,
+    "decisoesMonocraticasPorAno": null,
+    "nota": "Contagens limitadas às notícias do portal na janela de cobertura. Tempo de pedido de vista e decisões monocráticas por ano dependem de bases do portal de jurisprudência e da Corte Aberta, não acessíveis por script nesta coleta: não coletado."
+   },
+   "aliases": [
+    "Dias Toffoli",
+    "Toffoli"
+   ]
+  },
+  {
+   "slug": "luiz-fux",
+   "nome": "Luiz Fux",
+   "nomeCompleto": "Luiz Fux",
+   "wikipedia": "Luiz_Fux",
+   "nascimento": "1953-04-26",
+   "nascimentoLocal": "Rio de Janeiro , RJ",
+   "formacao": "Graduação e doutorado em direito pela Universidade do Estado do Rio de Janeiro",
+   "indicadoPor": "Dilma Rousseff",
+   "posse": "2011-03-03",
+   "aposentadoriaCompulsoria": "2028-04-26",
+   "carreira": "Promotor de justiça do Ministério Público do Estado do Rio de Janeiro (1979: 1982), juiz de direito (1983: 1997), desembargador do Tribunal de Justiça do Estado do Rio de Janeiro (1997: 2001), ministro do Superior Tribunal de Justiça (2001: 2011), professor da Universidade do Estado do Rio de Janeiro (1977: atualidade)",
+   "turma": "Segunda Turma",
+   "turmaPresidente": true,
+   "cargo": "Ministro",
+   "senado": null,
+   "foto": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/19.12.2025_-_Luiz_Fux.jpg/500px-19.12.2025_-_Luiz_Fux.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credito": "Rosinei Coutinho/STF / Wikimedia Commons",
+    "creditoUrl": "https://commons.wikimedia.org/wiki/File:19.12.2025_-_Luiz_Fux.jpg",
+    "licenca": "Public domain",
+    "fonte": "wikimedia"
+   },
+   "estatisticas": {
+    "cobertura": {
+     "de": "2026-01-29",
+     "ate": "2026-10-15"
+    },
+    "relatoriasEmJulgamentos": 4,
+    "relatoriasNaPauta": 4,
+    "votosRegistrados": 5,
+    "votosPorTipo": {
+     "ficou vencido": 2,
+     "divergiu": 1,
+     "acompanhou o relator": 2
+    },
+    "tempoMedioPedidoVista": null,
+    "decisoesMonocraticasPorAno": null,
+    "nota": "Contagens limitadas às notícias do portal na janela de cobertura. Tempo de pedido de vista e decisões monocráticas por ano dependem de bases do portal de jurisprudência e da Corte Aberta, não acessíveis por script nesta coleta: não coletado."
+   },
+   "aliases": [
+    "Luiz Fux",
+    "Fux"
+   ]
+  },
+  {
+   "slug": "edson-fachin",
+   "nome": "Edson Fachin",
+   "nomeCompleto": "Luiz Edson Fachin",
+   "wikipedia": "Edson_Fachin",
+   "nascimento": "1958-02-08",
+   "nascimentoLocal": "Rondinha , RS",
+   "formacao": "Graduação em direito pela Universidade Federal do Paraná , mestrado e doutorado em direito pela Pontifícia Universidade Católica de São Paulo",
+   "indicadoPor": "Dilma Rousseff",
+   "posse": "2015-06-16",
+   "aposentadoriaCompulsoria": "2033-02-08",
+   "carreira": "Advogado (1980: 2015), procurador do Estado do Paraná (1990: 2006), professor da Universidade Federal do Paraná (1991: 2015)",
+   "turma": null,
+   "turmaPresidente": false,
+   "cargo": "Presidente do STF",
+   "senado": null,
+   "foto": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Edson_Fachin_%28cropped%29.jpg/500px-Edson_Fachin_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credito": "Antonio Cruz/Agência Brasil / Wikimedia Commons",
+    "creditoUrl": "https://commons.wikimedia.org/wiki/File:Edson_Fachin_(cropped).jpg",
+    "licenca": "CC BY 3.0 br",
+    "fonte": "wikimedia"
+   },
+   "estatisticas": {
+    "cobertura": {
+     "de": "2026-01-29",
+     "ate": "2026-10-15"
+    },
+    "relatoriasEmJulgamentos": 4,
+    "relatoriasNaPauta": 56,
+    "votosRegistrados": 10,
+    "votosPorTipo": {
+     "ficou vencido": 4,
+     "votou como relator": 2,
+     "votou": 2,
+     "acompanhou o relator": 2
+    },
+    "tempoMedioPedidoVista": null,
+    "decisoesMonocraticasPorAno": null,
+    "nota": "Contagens limitadas às notícias do portal na janela de cobertura. Tempo de pedido de vista e decisões monocráticas por ano dependem de bases do portal de jurisprudência e da Corte Aberta, não acessíveis por script nesta coleta: não coletado."
+   },
+   "aliases": [
+    "Edson Fachin",
+    "Fachin"
+   ]
+  },
+  {
+   "slug": "alexandre-de-moraes",
+   "nome": "Alexandre de Moraes",
+   "nomeCompleto": "Alexandre de Moraes",
+   "wikipedia": "Alexandre_de_Moraes",
+   "nascimento": "1968-12-13",
+   "nascimentoLocal": "São Paulo , SP",
+   "formacao": "Graduação e doutorado em direito pela Universidade de São Paulo",
+   "indicadoPor": "Michel Temer",
+   "posse": "2017-03-22",
+   "aposentadoriaCompulsoria": "2043-12-13",
+   "carreira": "Promotor de justiça do Ministério Público do Estado de São Paulo (1991: 2002), secretário de Justiça de São Paulo (2002: 2005), conselheiro do Conselho Nacional de Justiça (2005: 2007), secretário de Transportes do Município de São Paulo (2007: 2010), advogado (2010: 2014), secretário de Segurança Pública de São Paulo (2015: 2016), ministro da Justiça (2016: 2017), professor da Universidade de São Paulo (1992: atualidade), professor da Universidade Presbiteriana Mackenzie (1998: atualidade)",
+   "turma": "Primeira Turma",
+   "turmaPresidente": false,
+   "cargo": "Vice-presidente do STF",
+   "senado": null,
+   "foto": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Ministro_Alexandre_de_Moraes_como_presidente_do_TSE.jpg/500px-Ministro_Alexandre_de_Moraes_como_presidente_do_TSE.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credito": "Isac Nóbrega / Wikimedia Commons",
+    "creditoUrl": "https://commons.wikimedia.org/wiki/File:Ministro_Alexandre_de_Moraes_como_presidente_do_TSE.jpg",
+    "licenca": "CC BY 2.0",
+    "fonte": "wikimedia"
+   },
+   "estatisticas": {
+    "cobertura": {
+     "de": "2026-01-29",
+     "ate": "2026-10-15"
+    },
+    "relatoriasEmJulgamentos": 18,
+    "relatoriasNaPauta": 42,
+    "votosRegistrados": 10,
+    "votosPorTipo": {
+     "votou como relator": 2,
+     "votou": 3,
+     "ficou vencido": 4,
+     "acompanhou o relator": 1
+    },
+    "tempoMedioPedidoVista": null,
+    "decisoesMonocraticasPorAno": null,
+    "nota": "Contagens limitadas às notícias do portal na janela de cobertura. Tempo de pedido de vista e decisões monocráticas por ano dependem de bases do portal de jurisprudência e da Corte Aberta, não acessíveis por script nesta coleta: não coletado."
+   },
+   "aliases": [
+    "Alexandre de Moraes",
+    "Moraes"
+   ]
+  },
+  {
+   "slug": "nunes-marques",
+   "nome": "Nunes Marques",
+   "nomeCompleto": "Kassio Nunes Marques",
+   "wikipedia": "Nunes_Marques",
+   "nascimento": "1972-05-16",
+   "nascimentoLocal": "Teresina , PI",
+   "formacao": "Graduação em direito pela Universidade Federal do Piauí , mestrado em direito constitucional pela Universidade Autônoma de Lisboa e doutorado em direito pela Universidade de Salamanca",
+   "indicadoPor": "Jair Bolsonaro",
+   "posse": "2020-11-05",
+   "aposentadoriaCompulsoria": "2047-05-16",
+   "carreira": "Advogado (1996: 2011), conselheiro seccional da Ordem dos Advogados do Brasil - Seção Piauí (2007: 2009), juiz do Tribunal Regional Eleitoral do Piauí (2008: 2011), desembargador do Tribunal Regional Federal da 1.ª Região (2011: 2020)",
+   "turma": "Segunda Turma",
+   "turmaPresidente": false,
+   "cargo": "Ministro",
+   "senado": {
+    "data": "2020-10-21",
+    "favoraveis": 57,
+    "contrarios": 10,
+    "trecho": "Em 21 de outubro de 2020, Nunes foi sabatinado pelo Senado Federal, sendo no mesmo dia aprovado pela Comissão de Constituição e Justiça com 22 votos favoráveis e 5 contrários, e pelo plenário com 57 votos favoráveis, 10 contrários e 1 abstenção.",
+    "fonte": "Wikipédia (artigo do ministro)",
+    "fonteUrl": "https://pt.wikipedia.org/wiki/Nunes_Marques"
+   },
+   "foto": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/K%C3%A1ssio_Nunes_Marques.jpg/500px-K%C3%A1ssio_Nunes_Marques.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credito": "Marcos Corrêa/PR / Wikimedia Commons",
+    "creditoUrl": "https://commons.wikimedia.org/wiki/File:K%C3%A1ssio_Nunes_Marques.jpg",
+    "licenca": "CC BY 2.0",
+    "fonte": "wikimedia"
+   },
+   "estatisticas": {
+    "cobertura": {
+     "de": "2026-01-29",
+     "ate": "2026-10-15"
+    },
+    "relatoriasEmJulgamentos": 18,
+    "relatoriasNaPauta": 12,
+    "votosRegistrados": 11,
+    "votosPorTipo": {
+     "ficou vencido": 7,
+     "votou": 1,
+     "pediu vista": 1,
+     "acompanhou o relator": 2
+    },
+    "tempoMedioPedidoVista": null,
+    "decisoesMonocraticasPorAno": null,
+    "nota": "Contagens limitadas às notícias do portal na janela de cobertura. Tempo de pedido de vista e decisões monocráticas por ano dependem de bases do portal de jurisprudência e da Corte Aberta, não acessíveis por script nesta coleta: não coletado."
+   },
+   "aliases": [
+    "Nunes Marques"
+   ]
+  },
+  {
+   "slug": "andre-mendonca",
+   "nome": "André Mendonça",
+   "nomeCompleto": "André Luiz de Almeida Mendonça",
+   "wikipedia": "André_Mendonça",
+   "nascimento": "1972-12-27",
+   "nascimentoLocal": "Santos , SP",
+   "formacao": "Graduação em direito pelo Centro Universitário de Bauru , especialização em direito público pela Universidade de Brasília , mestrado e doutorado em direito pela Universidade de Salamanca",
+   "indicadoPor": "Jair Bolsonaro",
+   "posse": "2021-12-16",
+   "aposentadoriaCompulsoria": "2047-12-27",
+   "carreira": "Advogado da BR Distribuidora (1997: 2000), advogado da União (2000: 2021), assessor especial da Controladoria-Geral da União (2016: 2018), advogado-geral da União (2019: 2020; 2021), ministro da Justiça e Segurança Pública (2020: 2021)",
+   "turma": "Segunda Turma",
+   "turmaPresidente": false,
+   "cargo": "Ministro",
+   "senado": null,
+   "foto": null,
+   "estatisticas": {
+    "cobertura": {
+     "de": "2026-01-29",
+     "ate": "2026-10-15"
+    },
+    "relatoriasEmJulgamentos": 6,
+    "relatoriasNaPauta": 7,
+    "votosRegistrados": 7,
+    "votosPorTipo": {
+     "ficou vencido": 4,
+     "acompanhou o relator": 2,
+     "divergiu": 1
+    },
+    "tempoMedioPedidoVista": null,
+    "decisoesMonocraticasPorAno": null,
+    "nota": "Contagens limitadas às notícias do portal na janela de cobertura. Tempo de pedido de vista e decisões monocráticas por ano dependem de bases do portal de jurisprudência e da Corte Aberta, não acessíveis por script nesta coleta: não coletado."
+   },
+   "aliases": [
+    "André Mendonça",
+    "Mendonça"
+   ]
+  },
+  {
+   "slug": "cristiano-zanin",
+   "nome": "Cristiano Zanin",
+   "nomeCompleto": "Cristiano Zanin Martins",
+   "wikipedia": "Cristiano_Zanin",
+   "nascimento": "1975-11-15",
+   "nascimentoLocal": "Piracicaba , SP",
+   "formacao": "Graduação em direito e especialização em direito processual civil pela Pontifícia Universidade Católica de São Paulo",
+   "indicadoPor": "Luiz Inácio Lula da Silva",
+   "posse": "2023-08-03",
+   "aposentadoriaCompulsoria": "2050-11-15",
+   "carreira": "Advogado (2000: 2023)",
+   "turma": "Primeira Turma",
+   "turmaPresidente": false,
+   "cargo": "Ministro",
+   "senado": {
+    "data": "2023-06-21",
+    "favoraveis": 58,
+    "contrarios": 18,
+    "trecho": "Em 21 de junho de 2023, foi sabatinado pelo Senado Federal, sendo no mesmo dia aprovado pela Comissão de Constituição e Justiça com 21 votos favoráveis e cinco contrários, e pelo plenário com 58 votos favoráveis e 18 contrários.",
+    "fonte": "Wikipédia (artigo do ministro)",
+    "fonteUrl": "https://pt.wikipedia.org/wiki/Cristiano_Zanin"
+   },
+   "foto": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/17.06.2026_-_Cristiano_Zanin_%28cropped%29.jpg/500px-17.06.2026_-_Cristiano_Zanin_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "credito": "Rosinei Coutinho/STF / Wikimedia Commons",
+    "creditoUrl": "https://commons.wikimedia.org/wiki/File:17.06.2026_-_Cristiano_Zanin_(cropped).jpg",
+    "licenca": "Public domain",
+    "fonte": "wikimedia"
+   },
+   "estatisticas": {
+    "cobertura": {
+     "de": "2026-01-29",
+     "ate": "2026-10-15"
+    },
+    "relatoriasEmJulgamentos": 12,
+    "relatoriasNaPauta": 14,
+    "votosRegistrados": 7,
+    "votosPorTipo": {
+     "votou": 2,
+     "acompanhou o relator": 2,
+     "ficou vencido": 1,
+     "pediu vista": 2
+    },
+    "tempoMedioPedidoVista": null,
+    "decisoesMonocraticasPorAno": null,
+    "nota": "Contagens limitadas às notícias do portal na janela de cobertura. Tempo de pedido de vista e decisões monocráticas por ano dependem de bases do portal de jurisprudência e da Corte Aberta, não acessíveis por script nesta coleta: não coletado."
+   },
+   "aliases": [
+    "Cristiano Zanin",
+    "Zanin"
+   ]
+  },
+  {
+   "slug": "flavio-dino",
+   "nome": "Flávio Dino",
+   "nomeCompleto": "Flávio Dino de Castro e Costa",
+   "wikipedia": "Flávio_Dino",
+   "nascimento": "1968-04-30",
+   "nascimentoLocal": "São Luís , MA",
+   "formacao": "Graduação em direito pela Universidade Federal do Maranhão , mestrado em direito pela Universidade Federal de Pernambuco",
+   "indicadoPor": "Luiz Inácio Lula da Silva",
+   "posse": "2024-02-22",
+   "aposentadoriaCompulsoria": "2043-04-30",
+   "carreira": "Juiz federal da 1.ª Região (1994: 2006), deputado federal pelo Maranhão (2007: 2011), presidente da Embratur (2011: 2014), governador do Maranhão (2015: 2022), senador pelo Maranhão (2023: 2024), ministro da Justiça e Segurança Pública (2023: 2024), professor da Universidade Federal do Maranhão (1994: atualidade)",
+   "turma": "Primeira Turma",
+   "turmaPresidente": true,
+   "cargo": "Ministro",
+   "senado": {
+    "data": null,
+    "favoraveis": 47,
+    "contrarios": 31,
+    "trecho": "No dia 13 de dezembro, a indicação foi aprovada pelo plenário do Senado Federal, com 47 votos favoráveis e 31 contrários.",
+    "fonte": "Wikipédia (artigo do ministro)",
+    "fonteUrl": "https://pt.wikipedia.org/wiki/Flávio_Dino"
+   },
+   "foto": null,
+   "estatisticas": {
+    "cobertura": {
+     "de": "2026-01-29",
+     "ate": "2026-10-15"
+    },
+    "relatoriasEmJulgamentos": 6,
+    "relatoriasNaPauta": 12,
+    "votosRegistrados": 17,
+    "votosPorTipo": {
+     "divergiu": 7,
+     "ficou vencido": 5,
+     "pediu vista": 2,
+     "acompanhou o relator": 2,
+     "votou como relator": 1
+    },
+    "tempoMedioPedidoVista": null,
+    "decisoesMonocraticasPorAno": null,
+    "nota": "Contagens limitadas às notícias do portal na janela de cobertura. Tempo de pedido de vista e decisões monocráticas por ano dependem de bases do portal de jurisprudência e da Corte Aberta, não acessíveis por script nesta coleta: não coletado."
+   },
+   "aliases": [
+    "Flávio Dino",
+    "Dino"
+   ]
+  }
+ ],
+ "fonteNome": "Wikipédia (Supremo Tribunal Federal), conferida com o portal do STF",
+ "fonteUrl": "https://pt.wikipedia.org/wiki/Supremo_Tribunal_Federal",
+ "fontePortalUrl": "https://portal.stf.jus.br/ministros/"
+}

@@ -7,6 +7,7 @@ import { checagemUrls } from "@/lib/checagens";
 import { congressUrls } from "@/lib/congress";
 import { congressExtraUrls } from "@/lib/congress-extra";
 import { eleicoesUrls } from "@/lib/eleicoes";
+import { stfUrls } from "@/lib/stf";
 import { sortedNews } from "@/lib/news";
 import { absoluteUrl } from "@/lib/seo";
 
@@ -149,6 +150,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: u.priority,
   }));
 
+  const stf: Entry[] = stfUrls().map((u) => ({
+    url: absoluteUrl(u.path),
+    lastModified: u.lastModified,
+    changeFrequency: "weekly",
+    priority: u.priority,
+  }));
+
   return [
     ...home,
     ...artigos,
@@ -162,5 +170,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...congresso,
     ...eleicoes,
     ...checagem,
+    ...stf,
   ];
 }

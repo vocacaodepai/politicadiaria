@@ -14,6 +14,7 @@
     "content:new": "node scripts/new-content.mjs",
     "seo:report": "node scripts/seo-report.mjs",
     "congress:update": "node scripts/build-congress-data.mjs",
+    "stf:update": "node scripts/build-stf-data.mjs",
     "eleicoes:update": "node scripts/build-eleicoes-data.mjs"
   },
   "dependencies": {

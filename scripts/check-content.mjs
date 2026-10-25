@@ -10,6 +10,7 @@
 import { readFileSync, readdirSync } from "node:fs";
 import { resolve } from "node:path";
 import { checkChecagens, loadChecagens } from "./lib/check-checagens.mjs";
+import { checkStf } from "./lib/check-stf.mjs";
 
 const ROOT = resolve(new URL("..", import.meta.url).pathname);
 const ARTICLES_DIR = resolve(ROOT, "content/articles");
@@ -327,7 +328,10 @@ function check() {
   };
   const checagens = checkChecagens(loadChecagens(CHECAGENS_DIR, ctx), ctx);
 
-  return { articles: articles.length, news: news.length, checagens };
+  // Supremo (/stf): dados gerados em data/stf/ por scripts/build-stf-data.mjs.
+  const stf = checkStf(ROOT, { errors, warnings, TODAY }).stf;
+
+  return { articles: articles.length, news: news.length, checagens, stf };
 }
 
 const stats = check();
@@ -339,5 +343,5 @@ if (errors.length) {
   process.exit(1);
 }
 console.log(
-  `check-content: ok (${stats.articles} artigos, ${stats.news} notícias, ${stats.checagens} checagens, ${warnings.length} aviso(s))`
+  `check-content: ok (${stats.articles} artigos, ${stats.news} notícias, ${stats.checagens} checagens, ${stats.stf} julgamentos do STF, ${warnings.length} aviso(s))`
 );
