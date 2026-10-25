@@ -1,4 +1,5 @@
 import { articles, categories } from "@/lib/articles";
+import { historia } from "@/lib/historia";
 import { news } from "@/lib/news";
 import type { SearchItem } from "@/lib/search";
 
@@ -23,6 +24,14 @@ export function GET() {
       excerpt: n.summary,
       category: "Notícias",
       date: n.date,
+    })),
+    ...historia.map((h) => ({
+      type: "historia" as const,
+      slug: h.slug,
+      title: h.title,
+      excerpt: h.summary,
+      category: "História",
+      date: h.date,
     })),
   ].sort((a, b) => b.date.localeCompare(a.date));
 

@@ -143,7 +143,7 @@ export function SearchDialog({ className = "" }: { className?: string }) {
                       className="block rounded-lg px-3 py-3 transition hover:bg-surface-2"
                     >
                       <span className="label-mono text-accent">
-                        {r.type === "artigo" ? r.category : "Notícia"}
+                        {r.type === "artigo" ? r.category : r.type === "historia" ? "História" : "Notícia"}
                       </span>
                       <span className="mt-0.5 block font-display text-[15px] font-semibold leading-snug">
                         {r.title}

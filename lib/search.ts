@@ -1,6 +1,6 @@
 /** Busca client-side simples (sem dependência externa) sobre o índice estático. */
 export type SearchItem = {
-  type: "artigo" | "noticia";
+  type: "artigo" | "noticia" | "historia";
   slug: string;
   title: string;
   excerpt: string;
@@ -45,5 +45,7 @@ export function searchItems(items: SearchItem[], query: string, limit = 12): Sea
 }
 
 export function hrefFor(item: SearchItem): string {
-  return item.type === "artigo" ? `/artigos/${item.slug}` : `/noticias/${item.slug}`;
+  if (item.type === "artigo") return `/artigos/${item.slug}`;
+  if (item.type === "historia") return `/historia/${item.slug}`;
+  return `/noticias/${item.slug}`;
 }

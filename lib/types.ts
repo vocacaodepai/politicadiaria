@@ -252,3 +252,95 @@ export type FactCheck = {
   /** Correções feitas depois da publicação. */
   corrections?: { date: string; text: string }[];
 };
+
+/* ---------- História (história política e eleitoral do Brasil) ---------- */
+
+/** Períodos da história política, na ordem do filtro (do mais recente para o mais antigo). */
+export const historyPeriods = [
+  {
+    slug: "nova-republica",
+    label: "Nova República",
+    years: "1985 até hoje",
+    description:
+      "Da eleição de Tancredo Neves pelo Colégio Eleitoral, em 1985, à Constituição de 1988 e às eleições presidenciais diretas de 1989 até hoje.",
+  },
+  {
+    slug: "ditadura-militar",
+    label: "Ditadura Militar",
+    years: "1964 a 1985",
+    description:
+      "Os governos militares, os atos institucionais, o bipartidarismo e as eleições indiretas para presidente feitas pelo Congresso e pelo Colégio Eleitoral.",
+  },
+  {
+    slug: "republica-1946",
+    label: "República de 1946",
+    years: "1945 a 1964",
+    description:
+      "O período entre o fim do Estado Novo e março de 1964, com eleições diretas para presidente a cada cinco anos sob a Constituição de 1946.",
+  },
+  {
+    slug: "era-vargas",
+    label: "Era Vargas",
+    years: "1930 a 1945",
+    description:
+      "O Governo Provisório, a Constituição de 1934 e o Estado Novo, entre a eleição de 1930 e a deposição de Getúlio Vargas em 1945.",
+  },
+  {
+    slug: "republica-velha",
+    label: "República Velha",
+    years: "1889 a 1930",
+    description:
+      "A Primeira República, da proclamação em 1889 ao fim do período em 1930, com eleições diretas, voto aberto e o sistema de alianças entre os estados.",
+  },
+  {
+    slug: "imperio",
+    label: "Império",
+    years: "1822 a 1889",
+    description:
+      "O Brasil monárquico, com chefe de Estado hereditário, eleições para a Câmara dos Deputados e a Constituição de 1824.",
+  },
+] as const;
+
+export type HistoryPeriod = (typeof historyPeriods)[number]["slug"];
+
+export type HistorySourceKind = "primaria" | "imprensa" | "referencia";
+
+export type HistorySource = {
+  /** Título da página ou do documento consultado. */
+  label: string;
+  /** Quem publica (TSE, Agência Brasil, Agência Câmara, STF...). */
+  publisher: string;
+  /** https, aberta e conferida antes de entrar. */
+  url: string;
+  kind: HistorySourceKind;
+  /** O que esta fonte sustenta no texto, em uma frase. */
+  note: string;
+};
+
+export type HistoryArticle = {
+  slug: string;
+  /** Título com palavra-chave natural, 50 a 70 caracteres, sem travessão. */
+  title: string;
+  /** Resumo e meta description (120 a 160 caracteres). */
+  summary: string;
+  author: string;
+  /** Data de publicação (AAAA-MM-DD). */
+  date: string;
+  /** Data da última revisão editorial (AAAA-MM-DD). */
+  updated?: string;
+  period: HistoryPeriod;
+  /** Ano da eleição ou do fato, usado para casar com a linha do tempo. */
+  year: number;
+  /** Data do fato (1º turno ou votação), AAAA-MM-DD, usada para ordenar do mais recente ao mais antigo. */
+  eventDate: string;
+  /** Frase concreta, em inglês, para a cascata de imagens (Wikimedia Commons primeiro). */
+  imageQuery: string;
+  /** Resumo em 3 pontos exibido logo após o cabeçalho. */
+  keyPoints: string[];
+  /** Fontes realmente abertas e conferidas. */
+  sources: HistorySource[];
+  /** Slugs de resenhas em content/articles relacionadas ao tema (só as que existem). */
+  relatedBooks?: string[];
+  content: string;
+  faq: FaqItem[];
+};
