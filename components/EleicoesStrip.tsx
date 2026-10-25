@@ -27,6 +27,12 @@ export function EleicoesStrip() {
             </li>
           ))}
         </ul>
+        <Link
+          href="/eleicoes/dia-da-eleicao"
+          className="mt-4 block border-2 border-accent bg-accent px-4 py-3 text-center font-sans text-sm font-bold uppercase tracking-[0.1em] text-accent-foreground hover:opacity-90 sm:inline-block"
+        >
+          Dia da eleição: como votar e apuração com dados do TSE
+        </Link>
         <div className="mt-4 flex flex-wrap gap-4 text-sm font-semibold">
           <Link href="/eleicoes" className="text-accent hover:underline">Painel das eleições</Link>
           <Link href="/eleicoes/pesquisas" className="text-accent hover:underline">Pesquisas e ranking de acerto</Link>
