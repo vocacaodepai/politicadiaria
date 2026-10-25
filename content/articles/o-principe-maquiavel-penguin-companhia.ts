@@ -50,11 +50,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/8563560034?tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver O Príncipe na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/81ff41K5JyL._SL1500_.jpg",
+      alt: "Capa do livro O príncipe (tradução direto do italiano), de Nicolau Maquiavel, edição Penguin-Companhia (Companhia das Letras) 2010",
+      asin: "8563560034",
+      width: 975,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>&quot;Maquiavélico&quot; virou adjetivo de uso comum, quase sempre para acusar alguém de esperteza sem escrúpulos. O livro que deu origem à palavra é menos simples do que o adjetivo sugere. <em>O Príncipe</em> existe em dezenas de edições em português, e a escolha da tradução faz diferença. Esta é uma análise editorial da obra e da edição Penguin-Companhia, feita a partir da ficha do catálogo, da apresentação da editora e de fontes públicas citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É leitura indispensável para quem se interessa por política, e por sorte é curta. O livro mostra como um autor do início do século XVI separa a análise do poder das exortações morais, e isso continua provocando debate. O principal cuidado é não ler com olhos do presente: o texto se dirige a príncipes e a situações da Itália renascentista.</p>
     <p>A nota final é <strong>8,7 em 10</strong>, a mais alta desta rodada de resenhas. A nota julga a obra e a edição, não a opinião de quem a lê ou a usa.</p>
 

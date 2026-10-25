@@ -59,6 +59,28 @@ export const categories = [
 
 export type Category = (typeof categories)[number]["slug"];
 
+/**
+ * Foto real do livro, só referenciada (hotlink): a imagem NÃO é baixada nem hospedada no repo.
+ * `url` é lida na página do livro (Amazon Brasil: m.media-amazon.com) ou, na falta dela, na
+ * Open Library (covers.openlibrary.org), e conferida com `curl -sI` (HTTP 200, image/*).
+ * É exibida sempre dentro de um link de afiliado para a Amazon (tag politicadiaria-20).
+ */
+export type ProductImage = {
+  /** https, domínio m.media-amazon.com ou covers.openlibrary.org. */
+  url: string;
+  /** Texto alternativo descritivo, ex.: "Capa do livro X, de Y, edição Z 2023". */
+  alt: string;
+  /** ASIN da Amazon Brasil (para livro, o ISBN-10); monta o link /dp/<asin>?tag=... */
+  asin: string;
+  /** Dimensões reais da imagem (reservam o espaço e evitam salto de layout). */
+  width: number;
+  height: number;
+  /** De onde veio a imagem. */
+  source: "amazon" | "openlibrary";
+  /** Data em que a URL foi aberta e conferida (AAAA-MM-DD). */
+  verifiedAt: string;
+};
+
 /** Dados estruturados da resenha de um livro (artigos com kind: "review"). */
 export type ReviewData = {
   /** Título do livro avaliado. */
@@ -85,6 +107,8 @@ export type ReviewData = {
   affiliate?: boolean;
   /** Texto do botão principal. Padrão: "Ver o livro na Amazon". */
   ctaLabel?: string;
+  /** Foto real do livro (hotlink, ver `ProductImage`). Opcional: sem ela, vale a capa por imageQuery/gradiente. */
+  productImage?: ProductImage;
 };
 
 export type Article = {
@@ -104,8 +128,8 @@ export type Article = {
   imageQuery: string;
   seed: number;
   /**
-   * Foto real do produto (self-hosted em /public/images/products), usada no lugar do
-   * banco de imagens para a capa do livro, quando houver imagem de edição livre de uso.
+   * Foto livre e atribuída (self-hosted), usada no lugar do banco de imagens na capa do artigo.
+   * A foto do livro em si fica em `review.productImage` (hotlink, não é hospedada aqui).
    */
   coverImage?: { url: string; width: number; height: number; credit: string; creditUrl: string };
   content: string; // HTML

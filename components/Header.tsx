@@ -17,6 +17,7 @@ export const PRIMARY_NAV: NavItem[] = [
     label: "Eleições 2026",
     highlight: true,
     children: [
+      { href: "/eleicoes/dia-da-eleicao", label: "Dia da eleição e apuração", description: "Como votar no 2º turno e a apuração com dados do TSE" },
       { href: "/eleicoes", label: "Painel das eleições", description: "Resultados, quem está na frente e o 2º turno" },
       { href: "/eleicoes/pesquisas", label: "Pesquisas e ranking", description: "Intenção de voto e quais institutos mais acertaram" },
     ],
@@ -35,6 +36,7 @@ export const PRIMARY_NAV: NavItem[] = [
   },
   { href: "/checagem", label: "Checagem" },
   { href: "/historia", label: "História" },
+  { href: "/promessas", label: "Promessas" },
   {
     href: "/artigos",
     label: "Livros",

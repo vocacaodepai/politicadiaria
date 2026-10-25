@@ -58,11 +58,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/8544000010?tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver o Leviatã na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/A194TdWrFJL._SL1500_.jpg",
+      alt: "Capa do livro Leviatã: ou Matéria, forma e poder de um Estado eclesiástico e civil, de Thomas Hobbes, edição Martin Claret 2014",
+      asin: "8544000010",
+      width: 997,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Quando se discute quanto poder o Estado deve ter em troca de segurança, a conversa costuma voltar a um livro de 1651. O <em>Leviatã</em>, do filósofo inglês Thomas Hobbes, é uma das obras mais citadas da teoria política e um dos textos de referência para entender o poder. Esta é uma análise editorial da obra, feita a partir da ficha da edição brasileira, de verbetes de enciclopédias e de fontes públicas citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É uma leitura exigente e compensadora para quem quer entender a lógica por trás da ideia de soberania. O ponto forte é o encadeamento do argumento: cada passo depende do anterior, e o leitor vê a política sendo construída a partir de premissas explícitas. O ponto fraco é a leitura, pelas frases longas do século XVII e pelas partes dedicadas à teologia.</p>
     <p>A nota final é <strong>7,6 em 10</strong>. A pontuação avalia a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura), e não concordância com as ideias do autor. A resenha lista as críticas feitas ao livro para que o leitor decida por conta própria.</p>
 

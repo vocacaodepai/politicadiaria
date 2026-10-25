@@ -50,11 +50,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/8537818003?tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver Como as Democracias Morrem na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/71BZMhhozxL._SL1500_.jpg",
+      alt: "Capa do livro Como as democracias morrem, de Steven Levitsky e Daniel Ziblatt, edição Zahar (Companhia das Letras) 2018",
+      asin: "8537818003",
+      width: 1044,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Poucos livros de ciência política viraram tema de conversa fora da universidade como <em>Como as Democracias Morrem</em>. A obra, de dois professores de Harvard, foi lida como alerta por uns, criticada como exagero por outros e usada em debates de países muito diferentes. Esta é uma análise editorial do livro e da edição brasileira, feita a partir da apresentação da editora, da ficha técnica e de fontes públicas citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É uma boa introdução ao tema da erosão democrática, escrita com clareza e com exemplos de vários continentes. Seu valor está em oferecer critérios que o leitor pode aplicar a qualquer governo e a qualquer oposição. Seu limite é o recorte: a origem do livro está no contexto americano do final da década de 2010, e parte da crítica o vê como desequilibrado.</p>
     <p>A nota final é <strong>8,2 em 10</strong>. A pontuação reflete clareza e leitura fácil, com descontos em profundidade e atualidade. A nota julga a qualidade da obra, não a posição de quem a lê.</p>
 

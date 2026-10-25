@@ -71,6 +71,11 @@ export function Footer() {
               </Link>
             </li>
             <li>
+              <Link href="/promessas" className="text-foreground/90 transition hover:text-accent">
+                Painel de promessas
+              </Link>
+            </li>
+            <li>
               <Link href="/reviews" className="text-foreground/90 transition hover:text-accent">
                 Livros mais bem avaliados
               </Link>

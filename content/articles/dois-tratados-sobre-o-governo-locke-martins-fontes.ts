@@ -52,11 +52,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/s?k=9788580633801&tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver Dois Tratados sobre o Governo na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/717xLCbvNiL._SL1500_.jpg",
+      alt: "Capa do livro Dois Tratados sobre o Governo, de John Locke, edição Martins Fontes (Selo Martins) 2020",
+      asin: "858063380X",
+      width: 1012,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Quando alguém afirma que o poder só é legítimo se vier do consentimento dos governados, está repetindo, muitas vezes sem saber, um argumento que John Locke organizou há mais de trezentos anos. <em>Dois Tratados sobre o Governo</em> é uma das obras mais citadas da teoria política moderna e uma das mais frequentemente lidas pela metade. Esta é uma análise editorial do livro, feita a partir da ficha da edição brasileira, de registros públicos sobre a obra e de fontes citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É leitura obrigatória para quem quer entender de onde vêm as ideias de governo limitado, direitos individuais e direito de resistência. O Segundo Tratado, mais curto e direto, é o coração do livro e continua influente. O Primeiro Tratado, uma polêmica contra um autor hoje pouco lido, exige paciência. Quem ler com caneta na mão e com as críticas em mente tirará muito proveito.</p>
     <p>A nota final é <strong>8,2 em 10</strong>. A pontuação julga a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura) e não a posição política do leitor. As críticas feitas ao livro, algumas severas, aparecem em seção própria.</p>
 

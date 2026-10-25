@@ -1,0 +1,265 @@
+{
+  "eleito": null,
+  "posse": "2027-01-01",
+  "atualizadoEm": "2026-10-24",
+  "segundoTurno": "2026-10-25",
+  "candidatos": {
+    "lula": {
+      "nome": "Lula",
+      "nomeCompleto": "Luiz Inácio Lula da Silva",
+      "partido": "PT",
+      "plano": {
+        "titulo": "Programa de Governo 2026 de Lula",
+        "paginas": 84,
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "hospedadoPor": "Congresso em Foco",
+        "materia": "https://www.congressoemfoco.com.br/noticia/121121/pt-registra-novo-plano-de-governo-de-lula-no-tse-veja-a-integra",
+        "divulgadoEm": "2026-08-08",
+        "sha256": "75e2dab7b9af27454a5c1a44c3bb0d7e0eaddbd1c355ccf1536f0d0be927e47b"
+      },
+      "naoFara": [
+        {
+          "texto": "Manter o Piso Nacional do Magistério.",
+          "citacao": "O Piso Nacional do Magistério será mantido",
+          "data": "2026-08-08",
+          "fonte": {
+            "nome": "Programa de Governo 2026 de Lula",
+            "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+            "pagina": "33"
+          }
+        },
+        {
+          "texto": "Manter o Farmácia Popular 100% gratuito.",
+          "citacao": "O programa será mantido, 100% gratuito",
+          "data": "2026-08-08",
+          "fonte": {
+            "nome": "Programa de Governo 2026 de Lula",
+            "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+            "pagina": "36"
+          }
+        },
+        {
+          "texto": "Manter a política de controle de armas e munições.",
+          "citacao": "manteremos uma política de controle de armas e munições",
+          "data": "2026-08-08",
+          "fonte": {
+            "nome": "Programa de Governo 2026 de Lula",
+            "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+            "pagina": "28"
+          }
+        }
+      ]
+    },
+    "flavio": {
+      "nome": "Flávio Bolsonaro",
+      "nomeCompleto": "Flávio Bolsonaro",
+      "partido": "PL",
+      "plano": {
+        "titulo": "Para o Brasil Vencer o Atraso",
+        "paginas": 76,
+        "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+        "hospedadoPor": "Poder360",
+        "materia": "https://www.poder360.com.br/poder-flash/leia-a-integra-do-plano-de-governo-de-flavio-bolsonaro/",
+        "divulgadoEm": "2026-08-13",
+        "sha256": "ff60b7ae45083471448af7fa0bf62bbe7ce209a1d21682b3482f142e0cb8b4f0"
+      },
+      "naoFara": [
+        {
+          "texto": "Não acabar com o Bolsa Família.",
+          "citacao": "Não vai ter fim de Bolsa Família",
+          "data": "2026-10-11",
+          "fonte": {
+            "nome": "Poder360, Flávio promete manter Bolsa Família",
+            "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-promete-manter-bolsa-familia-bolsonaro-triplicou/"
+          }
+        },
+        {
+          "texto": "Não privatizar Banco do Brasil, Caixa e Petrobras.",
+          "citacao": "Eu não vou privatizar Banco do Brasil, Caixa e Petrobras",
+          "data": "2026-10-23",
+          "fonte": {
+            "nome": "Poder360, debate da Globo",
+            "url": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-concordam-em-minimo-acima-da-inflacao-e-em-mais-6-temas/"
+          },
+          "contexto": "A Aos Fatos (16/10/2026) registra que, em dezembro de 2025, o candidato se disse favorável à privatização dos Correios e de alguns setores da Petrobras, e que em fevereiro de 2026 falou em privatizar 95% das estatais, sem detalhar quais."
+        },
+        {
+          "texto": "Não retirar o Bolsa Família de quem depende da ajuda do Estado.",
+          "citacao": "Quem depende hoje da ajuda do Estado para pôr comida na mesa não vai ter essa ajuda tirada.",
+          "data": "2026-08-13",
+          "fonte": {
+            "nome": "Para o Brasil Vencer o Atraso",
+            "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+            "pagina": "42"
+          }
+        },
+        {
+          "texto": "Reduzir o custo do trabalho sem retirar direitos.",
+          "citacao": "Vamos reduzir gradualmente o custo do trabalho, sem retirar direitos",
+          "data": "2026-08-13",
+          "fonte": {
+            "nome": "Para o Brasil Vencer o Atraso",
+            "url": "https://static.poder360.com.br/uploads/2026/08/FLAVIO-BOLSONARO-PARA-O-BRASIL-VENCER-O-ATRASO-1-1.pdf",
+            "pagina": "43"
+          }
+        }
+      ]
+    }
+  },
+  "checagensAgencias": [
+    {
+      "candidato": "flavio",
+      "propostaId": "FLAV-SOC-03",
+      "tema": "Casa da Mulher Brasileira",
+      "rotulo": "Falso",
+      "agencia": "Agência Lupa",
+      "data": "2026-10-23",
+      "resumo": "O programa Casa da Mulher Brasileira existe desde 2013 e havia 13 unidades em funcionamento, segundo a Lupa.",
+      "fonte": {
+        "nome": "Agência Lupa, checagem ao vivo do debate da Globo",
+        "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+      },
+      "alegacao": "Afirmou que criaria a Casa da Mulher Brasileira."
+    },
+    {
+      "candidato": "flavio",
+      "tema": "Juros do Plano Safra",
+      "rotulo": "Falso",
+      "agencia": "Agência Lupa",
+      "data": "2026-10-23",
+      "resumo": "Segundo a Lupa, os juros nominais das linhas do Plano Safra 2026/2027 ficam entre 8% e 12,5%, e uma taxa de 12,5% corresponde a cerca de 7,9% em termos reais.",
+      "fonte": {
+        "nome": "Agência Lupa, checagem ao vivo do debate da Globo",
+        "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+      },
+      "alegacao": "Afirmou que produtores pagam juros reais próximos de 20% no Plano Safra."
+    },
+    {
+      "candidato": "flavio",
+      "propostaId": "FLAV-SOC-01",
+      "tema": "Valor do Bolsa Família",
+      "rotulo": "Exagerado",
+      "agencia": "Agência Lupa",
+      "data": "2026-10-23",
+      "resumo": "Segundo a Lupa, o valor de R$ 600 foi decidido em junho de 2022, e a proposta orçamentária enviada para 2023 previa R$ 400.",
+      "fonte": {
+        "nome": "Agência Lupa, checagem ao vivo do debate da Globo",
+        "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+      },
+      "alegacao": "Afirmou que o governo Bolsonaro levou o Bolsa Família a, no mínimo, R$ 600."
+    },
+    {
+      "candidato": "flavio",
+      "propostaId": "FLAV-SOC-05",
+      "tema": "Marco Legal do Saneamento",
+      "rotulo": "Verdadeiro",
+      "agencia": "Agência Lupa",
+      "data": "2026-10-23",
+      "resumo": "O novo marco legal foi sancionado em 2020, a partir de projeto apresentado pelo Executivo no primeiro ano do mandato de Jair Bolsonaro, segundo a Lupa.",
+      "fonte": {
+        "nome": "Agência Lupa, checagem ao vivo do debate da Globo",
+        "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+      },
+      "alegacao": "Afirmou que o governo Bolsonaro fez o Marco Legal do Saneamento Básico."
+    },
+    {
+      "candidato": "flavio",
+      "tema": "Transposição do Rio São Francisco",
+      "rotulo": "Exagerado",
+      "agencia": "Agência Lupa",
+      "data": "2026-10-23",
+      "resumo": "A Lupa registra que nem toda a transposição foi concluída e que o projeto foi assinado no governo Lula, em 2004.",
+      "fonte": {
+        "nome": "Agência Lupa, checagem ao vivo do debate da Globo",
+        "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+      },
+      "alegacao": "Afirmou que o governo Bolsonaro concluiu a transposição do Rio São Francisco."
+    },
+    {
+      "candidato": "lula",
+      "tema": "Obras paradas herdadas",
+      "rotulo": "Subestimado",
+      "agencia": "Agência Lupa",
+      "data": "2026-10-23",
+      "resumo": "A Lupa confrontou o número com o painel do Tribunal de Contas da União e classificou a fala como subestimada.",
+      "fonte": {
+        "nome": "Agência Lupa, checagem ao vivo do debate da Globo",
+        "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+      },
+      "alegacao": "Afirmou que herdou 6.000 obras paradas."
+    },
+    {
+      "candidato": "lula",
+      "tema": "Crescimento da economia desde 2010",
+      "rotulo": "Falso",
+      "agencia": "Agência Lupa",
+      "data": "2026-10-23",
+      "resumo": "Segundo a Lupa, o PIB cresceu 3% ou mais em outros governos, como em 2011, quando a alta foi de 3,9%.",
+      "fonte": {
+        "nome": "Agência Lupa, checagem ao vivo do debate da Globo",
+        "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+      },
+      "alegacao": "Afirmou que a economia não crescia acima de 3% desde 2010."
+    },
+    {
+      "candidato": "lula",
+      "tema": "Perdão de dívidas de MEIs",
+      "rotulo": "Verdadeiro",
+      "agencia": "Agência Lupa",
+      "data": "2026-10-23",
+      "resumo": "A lei foi sancionada em 21/10/2026. A Lupa ressalva que os números (cerca de 3,6 milhões de MEIs e R$ 12,57 bilhões) são estimativa de alcance, não dívida já baixada.",
+      "fonte": {
+        "nome": "Agência Lupa, checagem ao vivo do debate da Globo",
+        "url": "https://www.agencialupa.org/checagem/2026/10/23/ao-vivo-checagem-do-ultimo-debate-entre-lula-e-flavio-bolsonaro-no-segundo-turno/"
+      },
+      "alegacao": "Afirmou que o governo anunciou o perdão de quase R$ 15 bilhões em dívidas de 4 milhões de MEIs."
+    },
+    {
+      "candidato": "flavio",
+      "propostaId": "FLAV-ENE-02",
+      "tema": "Margem equatorial",
+      "rotulo": "Enganou",
+      "agencia": "Aos Fatos",
+      "data": "2026-10-16",
+      "resumo": "A Aos Fatos diz não haver registro público que sustente o valor logo no início das operações.",
+      "fonte": {
+        "nome": "Aos Fatos, checagem da entrevista de Flávio à TV Globo",
+        "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-globo-segundo-turno/"
+      },
+      "alegacao": "Afirmou que a exploração de petróleo na margem equatorial traria mais de R$ 100 bilhões de início."
+    },
+    {
+      "candidato": "flavio",
+      "propostaId": "FLAV-SAU-01",
+      "tema": "Prontuário eletrônico único",
+      "rotulo": "Contexto, sem rótulo",
+      "agencia": "Aos Fatos",
+      "data": "2026-10-16",
+      "resumo": "A agência registra que o Brasil já conta com sistemas que cumprem essa função, como a Rede Nacional de Dados em Saúde, criada em 2020.",
+      "fonte": {
+        "nome": "Aos Fatos, checagem da entrevista de Flávio à TV Globo",
+        "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-globo-segundo-turno/"
+      },
+      "alegacao": "Prometeu criar um prontuário eletrônico único para conectar as informações de saúde."
+    },
+    {
+      "candidato": "flavio",
+      "propostaId": "FLAV-ECO-08",
+      "tema": "Privatização de estatais",
+      "rotulo": "Contexto, sem rótulo",
+      "agencia": "Aos Fatos",
+      "data": "2026-10-16",
+      "resumo": "A Aos Fatos escreve que o candidato omitiu declarações anteriores suas e de integrantes da campanha sobre privatizações.",
+      "fonte": {
+        "nome": "Aos Fatos, checagem da entrevista de Flávio à TV Globo",
+        "url": "https://www.aosfatos.org/noticias/checamos-flavio-bolsonaro-globo-segundo-turno/"
+      },
+      "alegacao": "Disse que a campanha adversária o acusa de pretender privatizar Banco do Brasil, Caixa e Petrobras."
+    }
+  ],
+  "limitacoes": [
+    "Os planos foram lidos em cópias divulgadas pela campanha e hospedadas por veículos de imprensa. Não foram comparados com o arquivo do TSE, que não pôde ser aberto na coleta (erro 403). Por isso o painel não os chama de planos registrados no TSE.",
+    "Propostas feitas só em entrevistas e debates entram apenas quando há fonte aberta e declaração entre aspas; aparecem marcadas como compromisso de campanha.",
+    "O painel não mede promessas ainda não iniciadas: o acompanhamento real começa na posse, em 01/01/2027."
+  ]
+}

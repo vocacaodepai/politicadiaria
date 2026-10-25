@@ -1,0 +1,1077 @@
+{
+  "candidato": "lula",
+  "propostas": [
+    {
+      "id": "LULA-ECO-01",
+      "area": "economia",
+      "titulo": "Manter o arcabouço fiscal e a qualidade do gasto",
+      "texto": "Manter o arcabouço fiscal, controlar o crescimento do gasto primário e melhorar a qualidade do gasto; resultado fiscal viria de crescimento, eficiência e \"justiça tributária\".",
+      "meta": "Sem meta fiscal numérica para 2027 a 2030 no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "manteremos o novo arcabouço fiscal, que controlou o crescimento das despesas sem prejudicar as políticas sociais",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "49"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "O plano projeta déficit primário próximo de 0,4% do PIB em 2026 (p. 11)."
+    },
+    {
+      "id": "LULA-ECO-02",
+      "area": "economia",
+      "titulo": "Criar condições para queda sustentada dos juros",
+      "texto": "Criar condições para queda sustentada dos juros, com inflação controlada e política fiscal responsável.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "vamos criar as condições para uma redução sustentada das taxas de juros, com inflação controlada",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "49"
+      },
+      "indicador": {
+        "nome": "Meta Selic definida pelo Copom (Banco Central, SGS, série 432)",
+        "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.432/dados/ultimos/20?formato=json",
+        "serie": "SGS 432"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-ECO-03",
+      "area": "economia",
+      "titulo": "Manter a inflação sob controle",
+      "texto": "Manter inflação sob controle de forma duradoura, com renda real crescendo acima do custo de vida.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "49"
+      },
+      "indicador": {
+        "nome": "IPCA, série histórica (IBGE, SIDRA, tabela 1737)",
+        "url": "https://sidra.ibge.gov.br/tabela/1737",
+        "serie": "IPCA mensal e acumulado"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-ECO-04",
+      "area": "economia",
+      "titulo": "Elevar a taxa de investimento e o Novo PAC",
+      "texto": "Elevar a taxa de investimento da economia, com segunda edição do Novo PAC, concessões e obras.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "vamos elevar a taxa de investimento da economia",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "48"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "O plano cita R$ 300 bilhões de investimento em infraestrutura previstos para fechar 2026. É balanço do mandato atual, não meta nova."
+    },
+    {
+      "id": "LULA-ECO-05",
+      "area": "economia",
+      "titulo": "Justiça tributária e regulamentação da reforma do consumo",
+      "texto": "Dar continuidade à justiça tributária (tributação de altas rendas, offshores e fundos exclusivos; isenção de Imposto de Renda até R$ 5 mil, já aprovada); regulamentar a reforma do consumo; usar o Imposto Seletivo contra produtos nocivos à saúde; dar tratamento tributário justo às pequenas empresas.",
+      "meta": "Sem nova alíquota no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "11, 19, 57, 59"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "O plano trata a isenção de Imposto de Renda até R$ 5.000 (p. 19) como medida já aprovada, sem nova faixa. A Gazeta do Povo descreve o plano como se ampliasse a isenção; prevalece o texto do plano."
+    },
+    {
+      "id": "LULA-ECO-06",
+      "area": "economia",
+      "titulo": "Debater o sistema de emendas parlamentares",
+      "texto": "Enfrentar a \"distorção\" do sistema de emendas parlamentares, levando o tema a debate com a sociedade; PPA 2028-2031 mais participativo.",
+      "meta": "Sem proposta de corte no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "É preciso que o tema das emendas parlamentares seja debatido com a sociedade.",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "16"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "O plano cita R$ 50 bilhões em emendas no orçamento de 2026 (p. 15)."
+    },
+    {
+      "id": "LULA-ECO-07",
+      "area": "economia",
+      "titulo": "Continuar a valorização do salário mínimo",
+      "texto": "Continuar a política de valorização do salário mínimo (ganho real anual).",
+      "meta": "Sem fórmula nova no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "o novo mandato de Lula dará continuidade à política de valorização do salário mínimo",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "74"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-ECO-08",
+      "area": "economia",
+      "titulo": "Nova Indústria Brasil e minerais críticos",
+      "texto": "Aprimorar a Nova Indústria Brasil; criar política específica para minerais críticos e terras raras; manter financiamento direcionado e conteúdo local.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "50-52"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "O plano cita R$ 860 bilhões de financiamento em 2023 a 2026 (balanço, não meta nova)."
+    },
+    {
+      "id": "LULA-ECO-09",
+      "area": "economia",
+      "titulo": "Crédito, fundos garantidores e controle de apostas",
+      "texto": "Manter fundos garantidores, controle de gastos em apostas on-line e regras de concessão de crédito; ampliar crédito a pequenos negócios.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "49, 57-58"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-TRAB-01",
+      "area": "trabalho-e-previdencia",
+      "titulo": "Fim da escala 6x1 e jornada de 40 horas",
+      "texto": "Atuar pelo fim da escala 6x1 e pela jornada de 40 horas semanais, sem redução salarial, nos termos aprovados na Câmara.",
+      "meta": "Jornada de 40 horas semanais, sem redução salarial.",
+      "prazo": "Sem prazo no documento do plano.",
+      "origem": "plano",
+      "citacao": "assegurar o fim da escala 6x1 e a redução da jornada de trabalho para 40 horas, sem redução salarial",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "75"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "Divergência entre fontes: o Senado Notícias (14/10/2026) informa que o Senado aprovou a PEC do fim da escala 6x1 por 75 votos a 1 e que a jornada máxima semanal passa a 42 horas em 15 de dezembro, com mudanças progressivas, e o Congresso promulgou a emenda. O texto do plano fala em 40 horas; a data das 40 horas não foi localizada. Este painel só acompanha o que o eleito fizer a partir da posse."
+    },
+    {
+      "id": "LULA-TRAB-02",
+      "area": "trabalho-e-previdencia",
+      "titulo": "Proteção a trabalhadores de plataformas",
+      "texto": "Sistema de proteção para trabalhadores de plataformas (regras de relação de trabalho, remuneração, previdência, transparência algorítmica).",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "74-75"
+      },
+      "indicador": {
+        "nome": "Dados Abertos da Câmara dos Deputados (tramitação de proposições)",
+        "url": "https://dadosabertos.camara.leg.br/",
+        "serie": "Situação de PEC e projetos"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-TRAB-03",
+      "area": "trabalho-e-previdencia",
+      "titulo": "Combater a pejotização e fortalecer a inspeção do trabalho",
+      "texto": "Combater pejotização espúria, fortalecer inspeção do trabalho, alterar regras de precarização da legislação trabalhista e retomar assistência sindical em rescisões.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "74-75"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-PREV-01",
+      "area": "trabalho-e-previdencia",
+      "titulo": "Modernizar o INSS e reestruturar o custeio da Previdência",
+      "texto": "Concluir modernização do atendimento do INSS, reduzir filas, \"reestruturar a base de financiamento da Previdência\" com mais fontes de custeio, criar mecanismos contributivos flexíveis, incluir previdência na regulação de plataformas. O plano não propõe nova reforma de regras de aposentadoria.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "buscar reestruturar a base de financiamento da Previdência, buscando a diversidade das fontes de custeio",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "77"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "O plano não propõe nova reforma das regras de aposentadoria."
+    },
+    {
+      "id": "LULA-SEG-01",
+      "area": "seguranca-publica",
+      "titulo": "Criar o Ministério da Segurança Pública",
+      "texto": "Criar o Ministério da Segurança Pública, condicionado à aprovação da PEC da Segurança Pública enviada pelo Executivo.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "Uma vez aprovada a PEC da Segurança Pública proposta pelo Executivo, criaremos o Ministério da Segurança Pública",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "30"
+      },
+      "indicador": {
+        "nome": "Dados Abertos da Câmara dos Deputados (tramitação de proposições)",
+        "url": "https://dadosabertos.camara.leg.br/",
+        "serie": "Situação de PEC e projetos"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "Condicionado à aprovação da PEC da Segurança Pública proposta pelo Executivo."
+    },
+    {
+      "id": "LULA-SEG-02",
+      "area": "seguranca-publica",
+      "titulo": "Fortalecer a Lei Antifacção e o combate ao crime organizado",
+      "texto": "Fortalecer a Lei Antifacção (sancionada em 2026) e o Programa Brasil Contra o Crime Organizado (lançado em maio/2026), com asfixia financeira, tráfico de armas, retomada de territórios; R$ 10 bilhões do FIIS para estados e municípios.",
+      "meta": "R$ 10 bilhões do FIIS para estados e municípios.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "27-28"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "A Lei Antifacção foi sancionada em 2026 e o programa Brasil Contra o Crime Organizado foi lançado em maio de 2026, segundo o plano."
+    },
+    {
+      "id": "LULA-SEG-03",
+      "area": "seguranca-publica",
+      "titulo": "Manter a política de controle de armas e munições",
+      "texto": "Manter política de controle de armas e munições, melhorar rastreabilidade e fiscalização (PF e Exército) de CACs e empresas de segurança.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "manteremos uma política de controle de armas e munições",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "28"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-SEG-04",
+      "area": "seguranca-publica",
+      "titulo": "Plano Pena Justa e sistema penitenciário federal",
+      "texto": "Cumprir metas do Plano Pena Justa; Pacto Nacional de Execução Penal; ampliar capacidade e isolamento no sistema penitenciário federal; protocolo nacional para presos de alta periculosidade.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "28"
+      },
+      "indicador": {
+        "nome": "Levantamento de Informações Penais, Sisdepen (Senappen)",
+        "url": "https://www.gov.br/senappen/pt-br/servicos/sisdepen",
+        "serie": "Vagas e população prisional"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-SEG-05",
+      "area": "seguranca-publica",
+      "titulo": "Câmeras corporais e policiamento de proximidade",
+      "texto": "Ampliar programa de câmeras corporais com padrões nacionais; policiamento de proximidade; reforçar controle da atividade policial.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "30"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-SAU-01",
+      "area": "saude",
+      "titulo": "Prontuário único e saúde digital",
+      "texto": "Consolidar prontuário único do cidadão (RNDS), agendamento e resultados de exames no celular; usar inteligência artificial em triagem e regulação; ampliar teleconsultas.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "35"
+      },
+      "indicador": {
+        "nome": "Rede Nacional de Dados em Saúde (Ministério da Saúde)",
+        "url": "https://www.gov.br/saude/pt-br/composicao/seidigi/rnds",
+        "serie": "Adesão e registros integrados"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-SAU-02",
+      "area": "saude",
+      "titulo": "Ampliar o Agora tem Especialistas",
+      "texto": "Ampliar o Agora tem Especialistas: fila única digital ordenada por risco clínico, transporte sanitário em todas as regiões de saúde, terceiro turno, parcerias com hospitais privados.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "37-38"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-SAU-03",
+      "area": "saude",
+      "titulo": "Manter o Farmácia Popular 100% gratuito",
+      "texto": "Manter o Farmácia Popular 100% gratuito e incluir exames laboratoriais para hipertensão e diabetes.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "O programa será mantido, 100% gratuito",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "36"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-SAU-04",
+      "area": "saude",
+      "titulo": "Mais Médicos, saúde da família e vacinação",
+      "texto": "Manter o Mais Médicos, apoiar equipes de saúde da família, vacinação nas escolas (HPV), dengue e VSR.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "35-37"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-SAU-05",
+      "area": "saude",
+      "titulo": "Rede de câncer e saúde mental",
+      "texto": "Consolidar rede de câncer (Supercentro de telediagnóstico, Unacons/Cacons, radioterapia) e ampliar Caps.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "38-39"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-EDU-01",
+      "area": "educacao",
+      "titulo": "Alfabetização: 80% das crianças na idade certa",
+      "texto": "Seguir pactos com estados e municípios para chegar a 80% das crianças alfabetizadas na idade certa (66% em 2025, segundo o plano).",
+      "meta": "80% das crianças alfabetizadas na idade certa.",
+      "prazo": "Sem ano no documento.",
+      "origem": "plano",
+      "citacao": "chegarmos à meta de 80% das nossas crianças alfabetizadas na idade certa",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "31"
+      },
+      "indicador": {
+        "nome": "Indicador Criança Alfabetizada (Inep)",
+        "url": "",
+        "serie": "Percentual de crianças alfabetizadas na idade certa"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-EDU-02",
+      "area": "educacao",
+      "titulo": "Tempo integral, creches e metas do PNE",
+      "texto": "Prioridade absoluta à educação em tempo integral e expansão de creches via Novo PAC; cumprir as metas do PNE 2026-2036.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "31-32"
+      },
+      "indicador": {
+        "nome": "Censo Escolar (Inep)",
+        "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar",
+        "serie": "Matrículas e infraestrutura das escolas"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-EDU-03",
+      "area": "educacao",
+      "titulo": "Fortalecer o Pé-de-Meia",
+      "texto": "Dar continuidade e fortalecer o Pé-de-Meia, programa de incentivo à permanência no ensino médio.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "Vamos dar continuidade e fortalecer o Pé-de-Meia.",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "32"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-EDU-04",
+      "area": "educacao",
+      "titulo": "Internet de qualidade em todas as escolas",
+      "texto": "Universalizar internet de qualidade nas escolas (75% atendidas segundo o plano).",
+      "meta": "100% das escolas com internet de qualidade.",
+      "prazo": "Sem ano no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "32"
+      },
+      "indicador": {
+        "nome": "Censo Escolar (Inep)",
+        "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-escolar",
+        "serie": "Matrículas e infraestrutura das escolas"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-EDU-05",
+      "area": "educacao",
+      "titulo": "Institutos Federais e ensino superior público",
+      "texto": "Continuar expansão dos Institutos Federais (priorizar interiorização), concluir ITA no Ceará, Universidade Indígena e Universidade do Esporte, nova expansão da educação superior pública.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "33"
+      },
+      "indicador": {
+        "nome": "Censo da Educação Superior (Inep)",
+        "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/censo-da-educacao-superior",
+        "serie": "Matrículas e cursos"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-EDU-06",
+      "area": "educacao",
+      "titulo": "Piso do magistério e bolsas para professores",
+      "texto": "Manter o Piso Nacional do Magistério; Pé-de-Meia Licenciatura; Bolsa Mais Professores.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "O Piso Nacional do Magistério será mantido",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "33"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-ENE-01",
+      "area": "energia-e-infraestrutura",
+      "titulo": "Renováveis, armazenamento e transmissão de energia",
+      "texto": "Ampliar renováveis, armazenamento e baterias, leilões de transmissão; reduzir produção de carvão; repotenciar hidrelétricas.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "64-65"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-ENE-02",
+      "area": "energia-e-infraestrutura",
+      "titulo": "Debate sobre energia mais barata e tarifa social",
+      "texto": "Promover debate sobre barateamento da energia para residências e empresas; manter Tarifa Social/Luz do Povo e Luz para Todos.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "65-66"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-ENE-03",
+      "area": "energia-e-infraestrutura",
+      "titulo": "Petrobras: exploração, refino, distribuição e fertilizantes",
+      "texto": "Petrobras ampliar exploração onshore e offshore e refino, voltar ao segmento de distribuição de combustíveis, aumentar produção de fertilizantes; manter regras de conteúdo local.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "A Petrobras deverá retornar ao segmento de distribuição de combustíveis",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "67"
+      },
+      "indicador": {
+        "nome": "Boletim Mensal da Produção de Petróleo e Gás Natural (ANP)",
+        "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/publicacoes/boletins-anp/boletim-mensal-da-producao-de-petroleo-e-gas-natural",
+        "serie": "Produção mensal"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "A Gazeta do Povo afirma que o plano não menciona mais a Petrobras na distribuição de combustíveis; o texto do PDF analisado (p. 67) menciona. A análise pode se referir a versão anterior do plano."
+    },
+    {
+      "id": "LULA-ENE-04",
+      "area": "energia-e-infraestrutura",
+      "titulo": "Biocombustíveis, hidrogênio e energia nuclear",
+      "texto": "Aprimorar o RenovaBio, ampliar SAF, biometano, hidrogênio; preservar competência nuclear para uso pacífico.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "67-68"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "As misturas E32 e B15 aparecem no plano como medidas já adotadas."
+    },
+    {
+      "id": "LULA-INF-01",
+      "area": "energia-e-infraestrutura",
+      "titulo": "Novo PAC 2: concessões e logística",
+      "texto": "Novo PAC 2: manter ritmo das concessões rodoviárias, intensificar ferrovias (novos leilões e repactuação de contratos), aeroportos regionais, arrendamentos portuários.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "53-54"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-INF-02",
+      "area": "energia-e-infraestrutura",
+      "titulo": "Manter e ampliar o Minha Casa Minha Vida",
+      "texto": "Manter e ampliar o Minha Casa Minha Vida para todas as faixas; Compra Assistida; Reforma Casa Brasil.",
+      "meta": "3 milhões de moradias contratadas (meta já fixada pelo governo).",
+      "prazo": "Até o fim de 2026.",
+      "origem": "plano",
+      "citacao": "O MCMV será mantido e ampliado no próximo mandato, para todas as faixas de renda",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "45"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "A meta de 3 milhões de moradias contratadas até o fim de 2026 já estava fixada pelo governo atual."
+    },
+    {
+      "id": "LULA-INF-03",
+      "area": "energia-e-infraestrutura",
+      "titulo": "Universalizar água tratada e esgoto",
+      "texto": "Apoiar estados e municípios a universalizar água tratada e esgoto, priorizando periferias.",
+      "meta": "Água tratada e esgoto para toda a população.",
+      "prazo": "Sem ano no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "46"
+      },
+      "indicador": {
+        "nome": "SNIS, saneamento (Ministério das Cidades)",
+        "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/snis",
+        "serie": "Indicadores de água e esgoto"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-INF-04",
+      "area": "energia-e-infraestrutura",
+      "titulo": "Ampliar fibra óptica e 5G",
+      "texto": "Reduzir o déficit de fibra óptica (11% dos municípios) e ampliar 5G no campo; manter FUST.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "55"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-AMB-01",
+      "area": "meio-ambiente-e-clima",
+      "titulo": "Desmatamento líquido zero até 2030",
+      "texto": "Alcançar desmatamento líquido zero até 2030 e implementar plano de manejo integrado do fogo.",
+      "meta": "Desmatamento líquido zero.",
+      "prazo": "2030.",
+      "origem": "plano",
+      "citacao": "continuaremos trabalhando para alcançar o desmatamento líquido zero até 2030, meta que reafirmamos",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "70"
+      },
+      "indicador": {
+        "nome": "Desmatamento na Amazônia Legal (INPE, TerraBrasilis)",
+        "url": "https://terrabrasilis.dpi.inpe.br/app/dashboard/deforestation/biomes/legal_amazon/increments",
+        "serie": "Prodes, incremento anual"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-AMB-02",
+      "area": "meio-ambiente-e-clima",
+      "titulo": "Cumprir a NDC e regulamentar o mercado de carbono",
+      "texto": "Cumprir a NDC (redução de 59% a 67% das emissões líquidas até 2035 em relação a 2005), regulamentar o SBCE, usar Fundo Clima e Eco Invest.",
+      "meta": "Redução de 59% a 67% das emissões líquidas em relação a 2005.",
+      "prazo": "2035.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "69-71"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "A NDC (59% a 67% de redução até 2035) já foi entregue, segundo o plano."
+    },
+    {
+      "id": "LULA-AMB-03",
+      "area": "meio-ambiente-e-clima",
+      "titulo": "Adaptação climática e prevenção de desastres",
+      "texto": "Institucionalizar adaptação climática como eixo do planejamento público; segurança hídrica e prevenção de desastres.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "72-73"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-EXT-01",
+      "area": "politica-externa-e-defesa",
+      "titulo": "Aprofundar o Mercosul e a integração regional",
+      "texto": "Aprofundar Mercosul e integração regional; promover mercado comum sul-americano de energia.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "Promoveremos um mercado comum sul-americano de energia, com interconexões e coordenação regulatória.",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "80"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-EXT-02",
+      "area": "politica-externa-e-defesa",
+      "titulo": "Novos acordos comerciais e reforma de organismos",
+      "texto": "Novos acordos comerciais e mercados; aproximação com BRICS e Sul Global; reforma do Conselho de Segurança da ONU, da OMC e do FMI.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "80-81"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-EXT-03",
+      "area": "politica-externa-e-defesa",
+      "titulo": "Base industrial de defesa e inteligência de Estado",
+      "texto": "Fortalecer a Base Industrial de Defesa, defesa cibernética e inteligência de Estado civil, \"rejeitando seu uso para fins de perseguição política\".",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "78-79"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-EST-01",
+      "area": "estado-e-instituicoes",
+      "titulo": "Participação social e regulação das plataformas digitais",
+      "texto": "Aprofundar participação social, conselhos e conferências; regulação \"democrática\" de redes sociais e plataformas; letramento digital; Conselho Nacional pela Soberania Digital.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "15-17"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-EST-02",
+      "area": "estado-e-instituicoes",
+      "titulo": "Plano de Integridade e Portal da Transparência",
+      "texto": "Seguir o Plano de Integridade e Combate à Corrupção 2025-2027; evoluir o Portal da Transparência.",
+      "meta": "Seguir o Plano de Integridade e Combate à Corrupção.",
+      "prazo": "2025 a 2027 (plano em vigor).",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "18"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "O Plano de Integridade 2025 a 2027 já está em vigor; a proposta é segui-lo."
+    },
+    {
+      "id": "LULA-SOC-01",
+      "area": "protecao-social-e-moradia",
+      "titulo": "Manter e ampliar a proteção social e o Bolsa Família",
+      "texto": "\"Manter, aperfeiçoar e ampliar\" políticas de proteção social e transferência de renda; Bolsa Família como política de combate às desigualdades.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "18-19"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-SOC-02",
+      "area": "protecao-social-e-moradia",
+      "titulo": "Política Nacional de Cuidados e atenção ao idoso",
+      "texto": "Fortalecer a Política Nacional de Cuidados (Cuidotecas, cuidadores) e dar escala nacional ao PADI Brasil (atenção domiciliar ao idoso, hoje em 2.655 municípios).",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "22, 26"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-SOC-03",
+      "area": "protecao-social-e-moradia",
+      "titulo": "Concluir 30 Casas da Mulher Brasileira",
+      "texto": "Concluir 30 Casas da Mulher Brasileira e 15 Centros de Referência; ampliar Salas Lilás; kits de monitoramento de agressores.",
+      "meta": "30 Casas da Mulher Brasileira e 15 Centros de Referência concluídos.",
+      "prazo": "Sem ano no documento.",
+      "origem": "plano",
+      "citacao": "concluiremos as 30 Casas da Mulher Brasileira e os 15 Centros de Referência da Mulher Brasileira",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "21"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-SOC-04",
+      "area": "protecao-social-e-moradia",
+      "titulo": "Demarcação de terras indígenas e titulação quilombola",
+      "texto": "Continuar demarcação e desintrusão de terras indígenas e titulação de territórios quilombolas.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "20, 60"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-AGR-01",
+      "area": "agropecuaria",
+      "titulo": "Plano Safra, agricultura familiar e reforma agrária",
+      "texto": "Expandir Plano Safra (agricultura familiar e empresarial), PAA, seguro rural, Garantia-Safra; reforma agrária.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "58-62"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-AGR-02",
+      "area": "agropecuaria",
+      "titulo": "Compras da agricultura familiar na merenda escolar",
+      "texto": "Apoiar estados e municípios a cumprir 45% de compras da agricultura familiar e 80% de alimentos in natura ou minimamente processados na alimentação escolar.",
+      "meta": "45% de compras da agricultura familiar e 80% de alimentos in natura ou minimamente processados na alimentação escolar.",
+      "prazo": "Percentuais já fixados; sem prazo novo.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "58-59"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": "Os percentuais de 45% e 80% já são os fixados para a alimentação escolar."
+    },
+    {
+      "id": "LULA-COS-01",
+      "area": "costumes-e-direitos",
+      "titulo": "Direitos reprodutivos, população LGBTQIAP+ e ECA Digital",
+      "texto": "Garantir \"direitos sexuais e reprodutivos\"; políticas para população LGBTQIAP+; ECA Digital, regulamentação de telas por faixa etária, proteção digital de crianças.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "21, 23-24"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    },
+    {
+      "id": "LULA-CUL-01",
+      "area": "cultura",
+      "titulo": "Lei Rouanet, Aldir Blanc e regulação do streaming",
+      "texto": "Aperfeiçoar Lei Rouanet e Lei Aldir Blanc; regulamentação do streaming (VOD); direito autoral em ambiente digital.",
+      "meta": "Sem meta numérica no documento.",
+      "prazo": "Sem prazo no documento.",
+      "origem": "plano",
+      "citacao": "",
+      "fonte": {
+        "nome": "Programa de Governo 2026 de Lula (plano divulgado pela campanha; cópia hospedada pelo Congresso em Foco)",
+        "url": "https://static.congressoemfoco.com.br/2026/08/08/attachment/2026/08/08/32ce89_programa_governo_lula_2026.pdf",
+        "tipo": "plano",
+        "pagina": "40-42"
+      },
+      "status": "prometida",
+      "historico": [],
+      "notas": ""
+    }
+  ]
+}

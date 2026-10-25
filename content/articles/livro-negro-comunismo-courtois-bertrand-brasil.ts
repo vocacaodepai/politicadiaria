@@ -59,11 +59,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/s?k=9788528607321&tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver O Livro Negro do Comunismo na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/81qX5cG2B2L._SL1500_.jpg",
+      alt: "Capa do livro O Livro Negro do Comunismo: Crimes, terror e repressão, de Stéphane Courtois (org.), Nicolas Werth, Jean-Louis Panné, Andrzej Paczkowski e Karel Bartošek, edição Bertrand Brasil 2019",
+      asin: "8528607321",
+      width: 1010,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Poucos livros de história provocaram tanto debate público quanto <em>O Livro Negro do Comunismo</em>. Lançado na França em 1997, ele reúne o trabalho de historiadores europeus sobre a repressão em regimes comunistas e virou ponto de partida de discussões que continuam até hoje. Esta é uma análise editorial feita a partir da ficha da edição brasileira, de enciclopédias e de fontes citadas no texto, sem alegação de leitura pessoal.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É uma obra de referência, documentada e de grande influência, mas também uma obra controversa, e a controvérsia nasce dentro dela. A soma final de mortes, defendida por Courtois, é contestada por colegas que escreveram capítulos do próprio livro. Quem lê com as críticas ao lado encontra um inventário valioso. Quem lê só a introdução leva uma imagem incompleta.</p>
     <p>A nota final é <strong>7,6 em 10</strong>. A pontuação julga a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura), e não a posição política do leitor. As críticas feitas ao livro aparecem em seção própria.</p>
 

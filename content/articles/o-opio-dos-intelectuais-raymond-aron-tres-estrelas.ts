@@ -58,11 +58,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/8568493289?tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver O Ópio dos Intelectuais na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/61-9ZEfGNCL._SL1019_.jpg",
+      alt: "Capa do livro O Ópio dos Intelectuais, de Raymond Aron, edição Três Estrelas 2016",
+      asin: "8568493289",
+      width: 709,
+      height: 1019,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Poucos ensaios políticos do século 20 têm um título tão citado e um conteúdo tão pouco lido quanto <em>O Ópio dos Intelectuais</em>, de Raymond Aron. A frase brinca com a ideia de Marx de que a religião seria o ópio do povo e a vira de cabeça para baixo: para Aron, o marxismo teria sido o ópio dos intelectuais franceses do pós-guerra. Esta é uma análise editorial da obra, feita a partir da ficha da edição brasileira, de verbetes e de resenhas públicas citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É um clássico do liberalismo político e uma leitura valiosa para quem quer entender o debate de ideias da Guerra Fria. A força do livro está na profundidade e na coragem intelectual de um autor que enfrentou o seu próprio meio. O limite está no tempo: o debate francês de 1955 não é o brasileiro de 2026, e o leitor precisa de contexto para tirar o melhor proveito.</p>
     <p>A nota final é <strong>8,0 em 10</strong>. A pontuação avalia a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura) e não a concordância do leitor ou da redação com o autor. As críticas feitas ao livro estão na seção própria, mais abaixo.</p>
 

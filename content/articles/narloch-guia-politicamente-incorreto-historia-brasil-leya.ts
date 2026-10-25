@@ -51,11 +51,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/s?k=9788562936067&tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver o Guia na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/81I6OA6f5XL._SL1500_.jpg",
+      alt: "Capa do livro Guia politicamente incorreto da história do Brasil, de Leandro Narloch, edição LeYa 2009",
+      asin: "8562936065",
+      width: 1125,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Poucos livros de divulgação histórica no Brasil foram tão vendidos e tão discutidos quanto o <em>Guia Politicamente Incorreto da História do Brasil</em>, do jornalista Leandro Narloch. Lançado em 2009, ele propõe reexaminar versões consagradas do passado nacional, e dividiu leitores e historiadores desde o início. Esta é uma análise editorial da obra, feita a partir de registros bibliográficos, de verbetes públicos que reúnem a recepção e de fontes citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É uma leitura rápida, bem-humorada e provocativa, que cumpre a função de despertar o gosto pela discussão histórica. O ponto fraco, apontado por vários historiadores, é o rigor: a obra seleciona episódios que contrariam a versão tradicional e nem sempre os coloca em seu contexto completo. O livro funciona melhor como convite ao debate do que como fonte de consulta.</p>
     <p>A nota final é <strong>6,8 em 10</strong>. A pontuação avalia a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura), e não concordância com as ideias do autor. A resenha lista as críticas feitas ao livro para que o leitor decida por conta própria.</p>
 

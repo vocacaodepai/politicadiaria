@@ -52,11 +52,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/s?k=9786555603927&tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver Capitalismo e Liberdade na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/51OQl4gYDNL._SL1005_.jpg",
+      alt: "Capa do livro Capitalismo e Liberdade, de Milton Friedman, edição Intrínseca 2023",
+      asin: "6555603925",
+      width: 670,
+      height: 1005,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Poucos livros de economia política sobreviveram tanto ao seu tempo quanto <em>Capitalismo e Liberdade</em>, publicado nos Estados Unidos em 1962. O autor, Milton Friedman, ganhou o Prêmio Nobel de Economia em 1976, e o livro reúne em linguagem acessível as ideias que ele defendeu a vida inteira sobre o tamanho e as funções do Estado. Esta é uma análise editorial da obra, feita a partir da ficha da edição brasileira, de registros públicos sobre o autor e de fontes citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É um dos textos fundadores do liberalismo econômico contemporâneo e continua sendo leitura útil, mesmo para quem discorda dele. O ponto forte é a clareza: Friedman toma um princípio simples, a liberdade individual como valor central, e o testa em temas concretos, da moeda à educação. O ponto fraco é a distância no tempo: parte dos exemplos pertence a outro país e a outra época.</p>
     <p>A nota final é <strong>8,1 em 10</strong>. A pontuação avalia a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura) e não a concordância do leitor ou da redação com o autor. As críticas feitas ao livro estão listadas mais abaixo.</p>
 

@@ -50,11 +50,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/8535925481?tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver Raízes do Brasil na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/91Tyq-pOAeL._SL1500_.jpg",
+      alt: "Capa do livro Raízes do Brasil, de Sérgio Buarque de Holanda, edição Companhia das Letras 2015",
+      asin: "8535925481",
+      width: 999,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Quando alguém diz que o brasileiro é &quot;cordial&quot; na política, quase sempre está citando, sem saber, uma frase de 1936. <em>Raízes do Brasil</em>, de Sérgio Buarque de Holanda, é um dos livros mais citados da interpretação do país e um dos mais mal compreendidos. Esta é uma análise editorial da obra, feita a partir da apresentação da editora, da ficha da edição e de fontes públicas citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É um clássico curto, de leitura exigente mas viável. Quem quer entender de onde vem a discussão sobre a mistura entre vida pública e privada no Brasil encontra aqui a formulação original. Quem espera um manual de história política, com datas e personagens em sequência, vai estranhar o estilo ensaístico.</p>
     <p>A nota final é <strong>8,0 em 10</strong>. A obra pontua alto em profundidade e em clareza para um texto erudito, com descontos em atualidade e em facilidade de leitura. A nota julga a qualidade do livro, não a posição política de quem o lê.</p>
 

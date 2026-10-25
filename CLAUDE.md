@@ -2,7 +2,7 @@
 
 **Política Diária** (www.politicadiaria.com.br) é um site brasileiro de política nacional e
 internacional. **O foco é o Brasil**: a notícia em destaque da home é sempre do Brasil e a maior
-parte da cobertura é nacional (mundo entra, mas em menor proporção). Seis frentes:
+parte da cobertura é nacional (mundo entra, mas em menor proporção). Sete frentes:
 
 1. **Notícias diárias** (`/noticias`): política do Brasil e do mundo, sempre com fonte primária.
 2. **Congresso por dentro** (`/congresso`): quem são os 513 deputados federais e os 81
@@ -24,6 +24,11 @@ parte da cobertura é nacional (mundo entra, mas em menor proporção). Seis fre
    índice. Conteúdo em `content/historia/`; fatos, datas, números e fontes primárias (TSE, Câmara, Senado,
    Planalto, Arquivo Nacional, CPDOC/FGV, IBGE, Diário Oficial). A eleição em andamento (2026) só entra
    depois da apuração e da diplomação; até lá o índice aponta para `/eleicoes`.
+7. **Promessas** (`/promessas`): painel público de acompanhamento das promessas do presidente. Replica as propostas
+   dos planos de governo de Lula e Flávio Bolsonaro (2026), cada uma com citação (até 25 palavras), página do documento
+   e indicador oficial conferido. Depois da posse (01/01/2027) acompanha só o eleito; as do outro candidato ficam como
+   arquivo da campanha. Dados em `data/promessas/` (`meta.json` com `eleito`, `posse`; `lula.json`, `flavio.json`).
+   Mesma régua para qualquer eleito, sem nota nem adjetivo; "contrariada" só com fonte oficial.
 
 Monetização: Google AdSense e Programa de Associados da Amazon, tag **`politicadiaria-20`**
 (também em `site.amazonTag`, `lib/articles.ts`).
@@ -72,7 +77,8 @@ ao longo do dia. Política internacional usa `mundo`/`americas`/`europa`/`orient
 Campos do bloco `review` (`lib/types.ts`): `tool` (título do livro), `bookAuthor`, `publisher`,
 `year`, `pages`, `score` (0-10, uma casa decimal), `criteria` (Clareza, Profundidade, Rigor e
 fontes, Atualidade, Leitura, cada 0-10), `pros`, `cons`, `price` ("R$ 40 a R$ 70, verificado em
-dd/mm/aaaa"), `bestFor`, `url` (Amazon), `affiliate: true`, `ctaLabel`.
+dd/mm/aaaa"), `bestFor`, `url` (Amazon), `affiliate: true`, `ctaLabel`, `productImage` (`url`, `alt`, `asin`, `width`, `height`,
+`source`, `verifiedAt`).
 
 - Só livro **real**, com ISBN verificado (Open Library, Google Books, site da editora). Nunca
   inventar livro, autor, ano, editora, número de páginas, citação ou trecho.
@@ -98,8 +104,9 @@ liberada em `lib/html.ts`):
 </div>
 ```
 
-`rel="sponsored noopener noreferrer"` e `target="_blank"` sempre. A caixa "Transparência" já
-aparece sozinha abaixo do veredito (`ReviewDisclosure`); não repita no corpo.
+`rel="sponsored noopener noreferrer"` e `target="_blank"` sempre. A página já monta sozinha
+"Onde comprar", "Resumo em 30 segundos", "Veredito final", "Análise detalhada", "Como avaliamos",
+FAQ, "Leia também" e a caixa "Transparência" (`ReviewDisclosure`); não repita no corpo.
 
 ### Títulos
 
@@ -119,9 +126,14 @@ Commons.** Nunca imagem gerada por IA, nunca captura de página da Amazon.
   Em notícia de cena concreta, 1 ou 2 imagens no corpo (`<figure><img><figcaption>`) com URL
   `upload.wikimedia.org` que a própria API retornou e legenda `Foto: <autor> / Wikimedia Commons
   (<licença>)`. Nunca inventar URL.
-- **Capa de livro**: não baixar nem hospedar capa de edição (direito de autor). Use foto do
-  autor (se tiver no Commons), da instituição ou do tema. `coverImage` só com imagem livre e
-  atribuída (`scripts/wikimedia-cover.mjs search` e `get`).
+- **Foto do livro (regra de 25/10/2026, decisão do dono; substitui a antiga proibição de capa de
+  edição):** toda resenha leva `review.productImage`, a foto real do livro **sem baixar nem
+  hospedar**: só referenciar a imagem do CDN da Amazon (`m.media-amazon.com`), exibida dentro de
+  link de afiliado (`/dp/<ASIN>?tag=politicadiaria-20`). A URL é lida na página da Amazon Brasil e
+  conferida (`curl -sI`, imagem aberta e igual ao livro). Passo a passo em `docs/rotinas/livros.md`.
+  Continua proibido: imagem de IA, captura de tela da Amazon, URL inventada, arquivo de capa no repo.
+  Se a imagem falhar, o site cai na capa por `imageQuery` (autor no Commons, instituição ou tema;
+  `coverImage` só com imagem livre e atribuída, `scripts/wikimedia-cover.mjs search` e `get`).
 - Em notícia, "via Política Diária" é o crédito visível; o veículo/fonte original fica citado e
   linkado no texto e na caixa "Fonte original".
 - **Parlamentares**: foto oficial da API (`urlFoto` da Câmara; `UrlFotoParlamentar` do Senado),
@@ -163,9 +175,9 @@ Commons.** Nunca imagem gerada por IA, nunca captura de página da Amazon.
 
 As rotinas agendadas publicam sozinhas; as instruções vivem em `docs/rotinas/` e valem como
 parte deste arquivo: `comum.md` (regras comuns), `noticias.md` (de hora em hora), `livros.md`, `congresso.md`,
-`checagem.md`, `eleicoes.md` e `historia.md` (uma eleição ou período por rodada, de trás para frente).
+`checagem.md`, `eleicoes.md`, `promessas.md` e `historia.md` (uma eleição ou período por rodada, de trás para frente).
 Rotinas de conteúdo só alteram `content/`, `public/images/covers/` (e `data/congresso/` na rotina
-do Congresso; `public/images/` na de História, só se preciso); nunca `docs/`, `CLAUDE.md`, `lib/`,
+do Congresso, `data/promessas/` na de promessas; `public/images/` na de História, só se preciso); nunca `docs/`, `CLAUDE.md`, `lib/`,
 `app/`, `components/`, `scripts/` nem configuração.
 
 ## Identidade visual
