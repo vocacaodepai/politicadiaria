@@ -43,6 +43,18 @@ e pule o que já foi coberto.
   "Equipe Política Diária", `publishedAt` com a hora real de agora em Brasília, `topic`,
   `imageQuery` específico (pessoa/instituição/lugar do fato; ver CLAUDE.md "Imagens"), content,
   faq opcional (2 ou 3).
+- **Selo de verificação (obrigatório em notícia nova):** preencha `verification: { level, notes?, unverified? }`.
+  - `level: "primaria"` só se os fatos centrais foram conferidos em página de órgão oficial que você abriu
+    (gov.br, leg.br, jus.br, ONU, FMI etc.); `"imprensa"` se vêm de veículos identificados que você abriu
+    (cite e linke 2 ou mais no texto); `"unica"` se só há uma fonte aberta.
+  - `notes`: uma frase do que foi conferido ("Placar conferido no painel da Câmara").
+  - `unverified`: lista curta do que NÃO foi confirmado por fonte aberta (um item por pendência). Sem
+    pendência, omita. Nunca preencha para parecer cauteloso, nem omita para parecer completo.
+  - Sem `verification`, o site calcula o nível pelo endereço de `sourceUrl` e avisa que a classificação é
+    automática. O `check-content` dá aviso (não erro) em notícia nova sem o campo.
+- `updatedAt` (ISO 8601 com offset de Brasília) só quando o texto for corrigido ou ampliado depois de
+  publicado; registre também em `data/correcoes.json` quando for correção de erro (só fora das rotinas de
+  conteúdo, que não alteram `data/`: nesse caso, avise no PR).
 - content: 900+ palavras em HTML, 3+ `<h2>`, estrutura do `docs/padrao-editorial.md` (fato em 2
   parágrafos com fonte linkada, contexto, "Por que isso importa", desdobramentos). 3 a 6 links
   internos reais; se citar parlamentar com página em `data/congresso`, linke

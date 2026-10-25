@@ -6,7 +6,7 @@ import { SearchPage } from "@/components/SearchPage";
 
 export const metadata: Metadata = {
   title: "Buscar",
-  description: "Busque notícias de política, resenhas de livros e parlamentares na Política Diária.",
+  description: "Busque notícias, checagens, resenhas de livros e parlamentares na Política Diária, com filtros por tipo, tópico e data.",
   alternates: alternatesFor("/busca"),
   robots: { index: false, follow: true },
 };

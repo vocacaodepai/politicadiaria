@@ -1,11 +1,25 @@
-/** Busca client-side simples (sem dependência externa) sobre o índice estático. */
+/** Busca client-side simples (sem dependência externa) sobre o índice estático /search-index.json. */
+export type SearchType = "artigo" | "noticia" | "checagem" | "parlamentar";
+
 export type SearchItem = {
-  type: "artigo" | "noticia";
+  type: SearchType;
   slug: string;
   title: string;
+  /** Resumo curto. */
   excerpt: string;
+  /** Tópico para exibição e filtro (tópico da notícia, tema do livro, tema da checagem, casa legislativa). */
   category: string;
+  /** AAAA-MM-DD; vazio para parlamentares (sem data). */
   date: string;
+  /** Caminho quando não segue o padrão do tipo (parlamentares). */
+  path?: string;
+};
+
+export const typeLabels: Record<SearchType, string> = {
+  noticia: "Notícias",
+  checagem: "Checagens",
+  artigo: "Resenhas",
+  parlamentar: "Parlamentares",
 };
 
 export function normalize(text: string): string {
@@ -13,6 +27,21 @@ export function normalize(text: string): string {
     .normalize("NFD")
     .replace(/[̀-ͯ]/g, "")
     .toLowerCase();
+}
+
+export type SearchFilters = { types?: SearchType[]; topic?: string; from?: string; to?: string };
+
+export function applyFilters(items: SearchItem[], f: SearchFilters): SearchItem[] {
+  return items.filter((i) => {
+    if (f.types && f.types.length && !f.types.includes(i.type)) return false;
+    if (f.topic && i.category !== f.topic) return false;
+    if (f.from || f.to) {
+      if (!i.date) return false;
+      if (f.from && i.date < f.from) return false;
+      if (f.to && i.date > f.to) return false;
+    }
+    return true;
+  });
 }
 
 export function searchItems(items: SearchItem[], query: string, limit = 12): SearchItem[] {
@@ -45,5 +74,14 @@ export function searchItems(items: SearchItem[], query: string, limit = 12): Sea
 }
 
 export function hrefFor(item: SearchItem): string {
-  return item.type === "artigo" ? `/artigos/${item.slug}` : `/noticias/${item.slug}`;
+  if (item.path) return item.path;
+  if (item.type === "artigo") return `/artigos/${item.slug}`;
+  if (item.type === "checagem") return `/checagem/${item.slug}`;
+  return `/noticias/${item.slug}`;
+}
+
+/** Rótulo curto da linha de resultado. */
+export function resultLabel(item: SearchItem): string {
+  const t = typeLabels[item.type].replace(/s$/, "");
+  return item.type === "noticia" || item.type === "artigo" ? `${t} · ${item.category}` : item.type === "checagem" ? `Checagem · ${item.category}` : item.category;
 }
