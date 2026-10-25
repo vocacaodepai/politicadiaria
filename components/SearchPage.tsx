@@ -78,7 +78,7 @@ export function SearchPage() {
                 <li key={`${r.type}-${r.slug}`}>
                   <Link href={hrefFor(r)} className="block px-5 py-4 transition hover:bg-surface-2">
                     <span className="label-mono text-accent">
-                      {r.type === "artigo" ? r.category : "Notícia"}
+                      {r.type === "artigo" ? r.category : r.type === "historia" ? "História" : "Notícia"}
                     </span>
                     <span className="mt-1 block font-display text-lg font-semibold leading-snug">
                       {r.title}

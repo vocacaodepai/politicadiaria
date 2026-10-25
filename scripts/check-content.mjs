@@ -10,6 +10,7 @@
 import { readFileSync, readdirSync } from "node:fs";
 import { resolve } from "node:path";
 import { checkChecagens, loadChecagens } from "./lib/check-checagens.mjs";
+import { checkHistoria, loadHistoria } from "./lib/check-historia.mjs";
 import { checkPromessas } from "./lib/check-promessas.mjs";
 import { checkCpfCongresso } from "./lib/check-cpf-congresso.mjs";
 
@@ -17,6 +18,7 @@ const ROOT = resolve(new URL("..", import.meta.url).pathname);
 const ARTICLES_DIR = resolve(ROOT, "content/articles");
 const NEWS_DIR = resolve(ROOT, "content/news");
 const CHECAGENS_DIR = resolve(ROOT, "content/checagens");
+const HISTORIA_DIR = resolve(ROOT, "content/historia");
 
 // Artigos com data igual ou posterior a esta seguem o padrão editorial novo
 // (>= 10 links internos, >= 900 palavras, 3 keyPoints, FAQ). Os mais antigos só geram aviso.
@@ -353,12 +355,17 @@ function check() {
   const ctx = {
     errors, warnings, TODAY, FORBIDDEN, ALLOWED_TAGS, decodeEntities, readField, readContent, articleSlugs, newsSlugs,
   };
-  const checagens = checkChecagens(loadChecagens(CHECAGENS_DIR, ctx), ctx);
+  const checagensList = loadChecagens(CHECAGENS_DIR, ctx);
+  const checagens = checkChecagens(checagensList, ctx);
+
+  // História (/historia): validação própria em scripts/lib/check-historia.mjs.
+  const historiaCtx = { ...ctx, checagemSlugs: new Set(checagensList.map((c) => c.slug)) };
+  const historia = checkHistoria(loadHistoria(HISTORIA_DIR, historiaCtx), historiaCtx);
 
   // Painel de promessas (/promessas): validação própria em scripts/lib/check-promessas.mjs.
   const promessas = checkPromessas(ctx).propostas;
 
-  return { articles: articles.length, news: news.length, checagens, promessas };
+  return { articles: articles.length, news: news.length, checagens, historia, promessas };
 }
 
 const stats = check();
@@ -372,5 +379,5 @@ if (errors.length) {
   process.exit(1);
 }
 console.log(
-  `check-content: ok (${stats.articles} artigos, ${stats.news} notícias, ${stats.checagens} checagens, ${stats.promessas} promessas, ${congressFiles} arquivos de dados do Congresso sem CPF, ${warnings.length} aviso(s))`
+  `check-content: ok (${stats.articles} artigos, ${stats.news} notícias, ${stats.checagens} checagens, ${stats.historia} artigos de história, ${stats.promessas} promessas, ${congressFiles} arquivos de dados do Congresso sem CPF, ${warnings.length} aviso(s))`
 );

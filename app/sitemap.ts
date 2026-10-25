@@ -7,6 +7,7 @@ import { checagemUrls } from "@/lib/checagens";
 import { congressUrls } from "@/lib/congress";
 import { congressExtraUrls } from "@/lib/congress-extra";
 import { eleicoesUrls } from "@/lib/eleicoes";
+import { historiaUrls, historyPeriods } from "@/lib/historia";
 import { sortedNews } from "@/lib/news";
 import { promessasUrls } from "@/lib/promessas";
 import { absoluteUrl } from "@/lib/seo";
@@ -150,6 +151,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: u.priority,
   }));
 
+  const historiaPages: Entry[] = historiaUrls(historyPeriods).map((u) => ({
+    url: absoluteUrl(u.path),
+    lastModified: u.lastModified,
+    changeFrequency: "weekly",
+    priority: u.priority,
+  }));
+
   const promessas: Entry[] = promessasUrls().map((u) => ({
     url: absoluteUrl(u.path),
     lastModified: u.lastModified,
@@ -170,6 +178,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...congresso,
     ...eleicoes,
     ...checagem,
+    ...historiaPages,
     ...promessas,
   ];
 }

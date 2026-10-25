@@ -1,7 +1,8 @@
 # Padrão editorial da Política Diária
 
 Vale para todo item em `content/articles/<slug>.ts` (resenhas de livro) e
-`content/news/<slug>.ts` (notícias). O script `npm run check:content` confere a parte
+`content/news/<slug>.ts` (notícias); a seção História (`content/historia/`) segue a mesma voz e as mesmas regras
+de link, com regras próprias em `docs/rotinas/historia.md`. O script `npm run check:content` confere a parte
 mecânica; o resto é responsabilidade de quem escreve.
 
 ## 1. Voz e propósito

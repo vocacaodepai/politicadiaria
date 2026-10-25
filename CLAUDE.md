@@ -2,7 +2,7 @@
 
 **Política Diária** (www.politicadiaria.com.br) é um site brasileiro de política nacional e
 internacional. **O foco é o Brasil**: a notícia em destaque da home é sempre do Brasil e a maior
-parte da cobertura é nacional (mundo entra, mas em menor proporção). Seis frentes:
+parte da cobertura é nacional (mundo entra, mas em menor proporção). Sete frentes:
 
 1. **Notícias diárias** (`/noticias`): política do Brasil e do mundo, sempre com fonte primária.
 2. **Congresso por dentro** (`/congresso`): quem são os 513 deputados federais e os 81
@@ -17,7 +17,14 @@ parte da cobertura é nacional (mundo entra, mas em menor proporção). Seis fre
    no menu e destaque na home enquanto houver eleição. Dados em `data/eleicoes/` com fonte e data.
 5. **Checagem** (`/checagem`): verificação de boatos e notícias falsas, com veredito, fontes
    numeradas ("checado em N fontes") e a mesma régua para qualquer campo político.
-6. **Promessas** (`/promessas`): painel público de acompanhamento das promessas do presidente. Replica as propostas
+6. **História** (`/historia`): a política e as eleições do Brasil contadas **de trás para frente**, da
+   eleição mais recente para a mais antiga, em artigos otimizados para busca (contexto, candidatos,
+   propostas com fonte, resultado oficial em tabela, o que veio depois). Linha do tempo e filtro por
+   período (Nova República, Ditadura Militar, República de 1946, Era Vargas, República Velha, Império) no
+   índice. Conteúdo em `content/historia/`; fatos, datas, números e fontes primárias (TSE, Câmara, Senado,
+   Planalto, Arquivo Nacional, CPDOC/FGV, IBGE, Diário Oficial). A eleição em andamento (2026) só entra
+   depois da apuração e da diplomação; até lá o índice aponta para `/eleicoes`.
+7. **Promessas** (`/promessas`): painel público de acompanhamento das promessas do presidente. Replica as propostas
    dos planos de governo de Lula e Flávio Bolsonaro (2026), cada uma com citação (até 25 palavras), página do documento
    e indicador oficial conferido. Depois da posse (01/01/2027) acompanha só o eleito; as do outro candidato ficam como
    arquivo da campanha. Dados em `data/promessas/` (`meta.json` com `eleito`, `posse`; `lula.json`, `flavio.json`).
@@ -28,7 +35,7 @@ Monetização: Google AdSense e Programa de Associados da Amazon, tag **`politic
 
 ## Linha editorial (vale para tudo)
 
-- **Notícias, Eleições, Checagem e Congresso são apartidários.** Fato separado de opinião. Nenhum adjetivo sobre partido, político ou governo.
+- **Notícias, Eleições, Checagem, Congresso e História são apartidários.** Fato separado de opinião. Nenhum adjetivo sobre partido, político ou governo.
   Nada de "esquerda boa / direita má" nem o contrário. Tratar todos os campos pela mesma régua.
 - **Linha editorial dos livros (declarada ao leitor em `/politica-editorial`):** só resenhamos
   obras de política com viés de **centro-direita e direita** (liberal, conservadora, libertária,
@@ -36,6 +43,11 @@ Monetização: Google AdSense e Programa de Associados da Amazon, tag **`politic
   o poder. **Não publicar livros comunistas, marxistas, socialistas ou de esquerda.** Dentro da
   seleção, a **nota julga a qualidade da obra** (clareza, profundidade, rigor e fontes, atualidade,
   leitura), nunca a posição do autor, e a resenha lista as críticas feitas à obra.
+- **História (`/historia`)**: fatos verificáveis primeiro (quem fez o quê, quando, atos formais,
+  resultado oficial) e, onde historiadores ou campos políticos divergem de interpretação ou de nome
+  (31 de março de 1964, impeachment de 2016, 1930), cada termo vem **atribuído a quem o usa**, sem
+  carimbar nenhum lado. A mesma régua para todos; distorção de qualquer lado se corrige com fato e
+  fonte. Citação literal só curta (até 25 palavras) e verificada. Detalhes em `docs/rotinas/historia.md`.
 - Fonte primária sempre que existir: Diário Oficial, Câmara, Senado, STF, TSE, Planalto, ONU, FMI
   etc., além de veículos de imprensa identificados. Todo link externo é aberto e conferido
   antes de entrar (não abre = não entra).
@@ -163,10 +175,10 @@ Commons.** Nunca imagem gerada por IA, nunca captura de página da Amazon.
 
 As rotinas agendadas publicam sozinhas; as instruções vivem em `docs/rotinas/` e valem como
 parte deste arquivo: `comum.md` (regras comuns), `noticias.md` (de hora em hora), `livros.md`, `congresso.md`,
-`checagem.md`, `eleicoes.md` e `promessas.md`.
+`checagem.md`, `eleicoes.md`, `promessas.md` e `historia.md` (uma eleição ou período por rodada, de trás para frente).
 Rotinas de conteúdo só alteram `content/`, `public/images/covers/` (e `data/congresso/` na rotina
-do Congresso, `data/promessas/` na de promessas); nunca `docs/`, `CLAUDE.md`, `lib/`, `app/`, `components/`, `scripts/` nem
-configuração.
+do Congresso, `data/promessas/` na de promessas; `public/images/` na de História, só se preciso); nunca `docs/`, `CLAUDE.md`, `lib/`,
+`app/`, `components/`, `scripts/` nem configuração.
 
 ## Identidade visual
 

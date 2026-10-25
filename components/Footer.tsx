@@ -61,6 +61,16 @@ export function Footer() {
               </Link>
             </li>
             <li>
+              <Link href="/historia" className="text-foreground/90 transition hover:text-accent">
+                História das eleições
+              </Link>
+            </li>
+            <li>
+              <Link href="/checagem" className="text-foreground/90 transition hover:text-accent">
+                Checagem de boatos
+              </Link>
+            </li>
+            <li>
               <Link href="/promessas" className="text-foreground/90 transition hover:text-accent">
                 Painel de promessas
               </Link>
