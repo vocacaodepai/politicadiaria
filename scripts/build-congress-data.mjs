@@ -26,6 +26,7 @@ import { inflateRawSync } from "node:zlib";
 import { StringDecoder } from "node:string_decoder";
 import { pipeline } from "node:stream/promises";
 import { Readable } from "node:stream";
+import { assertNoCpf, stripCpf } from "./lib/cpf.mjs";
 
 const ROOT = resolve(new URL("..", import.meta.url).pathname);
 const CACHE = join(ROOT, ".cache", "congress");
@@ -277,14 +278,16 @@ function encodeVotes(rows, n) {
 }
 function writeExtras(casa, id, extras) {
   const dir = join(PUB, "extras", casa);
+  assertNoCpf(extras, `extras/${casa}/${id}`);
   mkdirSync(dir, { recursive: true });
   writeFileSync(join(dir, `${id}.json`), JSON.stringify(extras));
 }
 const writeJson = (path, data) => {
+  assertNoCpf(data, path);
   mkdirSync(resolve(path, ".."), { recursive: true });
   writeFileSync(path, JSON.stringify(data));
 };
-/** CNPJ tem 14 dígitos; CPF (pessoa física) não é publicado. */
+/** CNPJ tem 14 dígitos; CPF (pessoa física) não é publicado (nem dentro do nome do fornecedor: ver scripts/lib/cpf.mjs). */
 const isCnpj = (s) => String(s ?? "").replace(/\D/g, "").length === 14;
 const topN = (map, n) => [...map.entries()].sort((a, b) => b[1] - a[1]).slice(0, n);
 
@@ -470,7 +473,7 @@ async function buildCamara(list) {
       if (isCnpj(r.txtCNPJCPF)) {
         const key = r.txtCNPJCPF.replace(/\D/g, "");
         a.forn.set(key, (a.forn.get(key) ?? 0) + v);
-        a.fornNome.set(key, r.txtFornecedor);
+        a.fornNome.set(key, stripCpf(r.txtFornecedor));
       }
     }
   }
@@ -821,7 +824,7 @@ async function buildSenado() {
       if (isCnpj(r.cpfCnpj)) {
         const key = String(r.cpfCnpj).replace(/\D/g, "");
         a.forn.set(key, (a.forn.get(key) ?? 0) + v);
-        a.fornNome.set(key, r.fornecedor);
+        a.fornNome.set(key, stripCpf(r.fornecedor));
       }
     }
   }
