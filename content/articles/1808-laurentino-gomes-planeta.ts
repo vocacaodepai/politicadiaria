@@ -60,11 +60,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/8576653206?tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver 1808 na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/6111hjdCsdL._SL1200_.jpg",
+      alt: "Capa do livro 1808: Como uma rainha louca, um príncipe medroso e uma corte corrupta enganaram Napoleão e mudaram a história de Portugal e do Brasil, de Laurentino Gomes, edição Planeta 2007",
+      asin: "8576653206",
+      width: 1200,
+      height: 1200,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Entre os livros de história do Brasil publicados neste século, <em>1808</em> é um dos que mais ultrapassaram o público acadêmico. O jornalista Laurentino Gomes reconstrói a fuga da família real portuguesa para a colônia americana e as consequências do episódio para os dois países. Esta é uma análise editorial da obra, feita a partir da ficha da edição, de catálogos públicos e de estudos sobre o livro citados no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É uma leitura que cumpre o que promete: conta bem uma história política decisiva e desperta interesse por um período que o ensino escolar costuma tratar de forma seca. O ponto forte é o ritmo. O ponto fraco é a distância entre o texto e a prática da pesquisa histórica, que leva parte dos historiadores a tratá-lo como divulgação, e não como interpretação nova do período.</p>
     <p>A nota final é <strong>7,7 em 10</strong>. A pontuação avalia a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura), e não concordância com qualquer visão do passado. A resenha lista as críticas feitas ao livro para que o leitor decida por conta própria.</p>
 

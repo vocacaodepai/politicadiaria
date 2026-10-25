@@ -52,11 +52,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/6586217237?tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver A Mentalidade Conservadora na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/81klBf83D6L._SL1500_.jpg",
+      alt: "Capa do livro A Mentalidade Conservadora: de Edmund Burke a T. S. Eliot, de Russell Kirk, edição É Realizações 2020",
+      asin: "6586217237",
+      width: 1036,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Poucos livros de ideias políticas geraram tantos debates sobre o que significa ser conservador quanto <em>A Mentalidade Conservadora</em>, do americano Russell Kirk. A obra saiu nos Estados Unidos em 1953 e chegou ao leitor brasileiro numa edição de 832 páginas da É Realizações, em 2020. Esta é uma análise editorial, feita a partir da ficha da edição, de registros públicos sobre o autor e a obra e das resenhas citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É um livro de referência, não de introdução. Kirk reconstrói a história do pensamento conservador anglo-americano a partir de Edmund Burke e entrega ao leitor uma grade para entender o que une autores tão diferentes entre si. O ponto forte é a profundidade e o apoio em fontes. O ponto fraco é o tamanho e a densidade, somados ao foco restrito ao mundo anglo-americano.</p>
     <p>A nota final é <strong>7,7 em 10</strong>. A pontuação avalia a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura) e não a concordância do leitor ou da redação com o autor. As críticas feitas ao livro estão listadas mais abaixo.</p>
 

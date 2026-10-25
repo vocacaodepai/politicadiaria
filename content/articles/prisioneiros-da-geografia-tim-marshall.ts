@@ -50,11 +50,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/8537817570?tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver Prisioneiros da Geografia na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/81hgN8dtZDL._SL1500_.jpg",
+      alt: "Capa do livro Prisioneiros da geografia: 10 mapas que explicam tudo o que você precisa saber sobre política global, de Tim Marshall, edição Zahar (Companhia das Letras) 2018",
+      asin: "8537817570",
+      width: 1044,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Quem acompanha o noticiário internacional costuma ouvir explicações que começam no mapa: por que a Rússia busca portos de águas quentes, por que a China se preocupa com seus mares, por que o Oriente Médio tem fronteiras tão disputadas. <em>Prisioneiros da Geografia</em>, do jornalista britânico Tim Marshall, organiza esse tipo de raciocínio em um livro de divulgação. Esta é uma análise editorial da obra, feita a partir da ficha da edição brasileira, da apresentação da editora e de fontes públicas citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É uma boa porta de entrada para a geopolítica. O livro é claro, bem organizado e fácil de ler, e dá ao leitor um repertório de mapas mentais para interpretar crises. Seu limite é o método: ao colocar a geografia no centro, deixa em segundo plano política interna, economia, ideologia e escolhas individuais.</p>
     <p>A nota final é <strong>7,4 em 10</strong>. A pontuação reflete clareza e leitura agradável, com descontos em profundidade, rigor e atualidade. A nota avalia a qualidade da obra, não a visão de mundo de quem a lê.</p>
 

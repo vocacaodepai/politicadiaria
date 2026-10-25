@@ -52,11 +52,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/s?k=9788501103628&tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver Pare de Acreditar no Governo na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/91K4Qxg0OeL._SL1500_.jpg",
+      alt: "Capa do livro Pare de acreditar no governo: Por que os brasileiros não confiam nos políticos e amam o Estado, de Bruno Garschagen, edição Record 2015",
+      asin: "8501103624",
+      width: 1012,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Em toda eleição aparece o mesmo paradoxo: pesquisas mostram desconfiança forte dos políticos, e mesmo assim o eleitor espera que o próximo governo resolva saúde, emprego, preço e segurança. <em>Pare de Acreditar no Governo</em>, de Bruno Garschagen, parte exatamente dessa contradição. Esta é uma análise editorial da obra, feita a partir da ficha da edição, da apresentação da editora, do sumário e de comentários públicos citados no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É um ensaio leve, de posição declarada, que serve bem como porta de entrada para quem nunca leu sobre a relação histórica entre brasileiros e Estado. A tese é clara e a escrita é acessível. Os limites são o recorte que termina no governo Dilma Rousseff, o espaço pequeno para interpretações rivais e o caráter de ensaio de opinião, menos que de pesquisa acadêmica.</p>
     <p>A nota final é <strong>7,1 em 10</strong>. A pontuação mede a qualidade da obra: clareza, profundidade, rigor, atualidade e leitura. Ela não mede se o leitor concorda com a visão liberal do autor, e a resenha lista as ressalvas para que cada um julgue.</p>
 

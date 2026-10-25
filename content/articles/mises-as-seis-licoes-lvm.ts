@@ -52,11 +52,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/s?k=9788593751257&tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver As Seis Lições na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/71M-fsD472L._SL1500_.jpg",
+      alt: "Capa do livro As Seis Lições: Reflexões sobre política econômica para hoje e amanhã, de Ludwig von Mises, edição LVM Editora 2019",
+      asin: "8593751253",
+      width: 1044,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Entre os livros de economia política que circulam no Brasil, <em>As Seis Lições</em> é um dos mais curtos e mais citados. Reúne palestras do economista austríaco Ludwig von Mises sobre capitalismo, socialismo, intervencionismo e inflação, e costuma ser indicado como porta de entrada para a escola austríaca. Esta é uma análise editorial da obra, feita a partir da ficha da edição brasileira, do índice publicado pelo Mises Institute e de fontes públicas citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É uma leitura rápida, clara e bem organizada, que serve para conhecer a defesa do livre mercado pela voz de um de seus autores centrais. O ponto forte é a acessibilidade: cada palestra trata de um tema e pode ser lida em separado. O ponto fraco é a falta de evidência empírica, já que o texto afirma suas conclusões com firmeza, mas quase não mostra dados que as sustentem.</p>
     <p>A nota final é <strong>7,5 em 10</strong>. A pontuação avalia a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura), e não concordância com as ideias do autor. A resenha lista as críticas feitas ao livro para que o leitor decida por conta própria.</p>
 

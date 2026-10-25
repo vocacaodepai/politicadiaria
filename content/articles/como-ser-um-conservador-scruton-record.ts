@@ -52,11 +52,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/s?k=9788501103710&tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver Como Ser um Conservador na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/71ogRs9pFvL._SL1500_.jpg",
+      alt: "Capa do livro Como Ser um Conservador, de Roger Scruton, edição Record 2015",
+      asin: "8501103713",
+      width: 1011,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Poucos livros de ideias políticas publicados em português na última década tentaram responder a uma pergunta tão simples quanto <em>Como Ser um Conservador</em>: o que, afinal, quer dizer ser conservador? O autor é o filósofo inglês Roger Scruton, e a resposta que ele dá é menos partidária do que o título sugere. Esta é uma análise editorial da obra, feita a partir da ficha da edição brasileira, de registros públicos sobre o autor e de resenhas e fontes citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É um ensaio bem escrito que apresenta o conservadorismo como uma atitude de gratidão e de cuidado com o que recebemos de gerações anteriores. O ponto forte é a clareza de quem domina o assunto e escreve para o leitor comum. O ponto fraco é o rigor: o livro defende uma tese com elegância, mas raramente a submete a dados ou ao confronto direto com os argumentos contrários.</p>
     <p>A nota final é <strong>7,6 em 10</strong>. A pontuação avalia a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura) e não a concordância do leitor ou da redação com o autor. As críticas feitas ao livro estão listadas mais abaixo, para que cada um forme o próprio juízo.</p>
 

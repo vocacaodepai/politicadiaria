@@ -1,5 +1,8 @@
 import Link from "next/link";
+import { CRITERION_WEIGHT_PCT, productHref } from "@/lib/review";
 import type { ReviewData } from "@/lib/types";
+import { BuyButton } from "./BuyButton";
+import { ProductImage } from "./ProductImage";
 
 function barClass(score: number): string {
   if (score >= 7) return "bg-success";
@@ -14,26 +17,43 @@ function scoreClass(score: number): string {
 }
 
 /**
- * Veredito do review no topo do corpo: nota, barras por critério, prós e
- * contras, para quem é, preço e o botão para o site da ferramenta.
+ * Caixa "Análise detalhada" da resenha: foto do livro, nota, ficha do livro,
+ * subnotas (com o peso de cada critério), prós e contras, para quem é, preço e botão.
  */
 export function ReviewVerdict({ review }: { review: ReviewData }) {
-  const rel = review.affiliate ? "sponsored nofollow noopener" : "nofollow noopener";
+  const href = productHref(review);
+  const ficha: [string, string][] = [
+    ["Autor", review.bookAuthor],
+    ...(review.publisher ? ([["Editora", review.publisher]] as [string, string][]) : []),
+    ...(review.year ? ([["Ano da edição", String(review.year)]] as [string, string][]) : []),
+    ...(review.pages ? ([["Páginas", String(review.pages)]] as [string, string][]) : []),
+    ...(review.productImage ? ([["ISBN-10 (ASIN)", review.productImage.asin]] as [string, string][]) : []),
+  ];
   const scoreText = review.score.toFixed(1);
   return (
     <section aria-labelledby="veredito" className="overflow-hidden rounded-xl border border-border bg-surface">
-      <div className="grid gap-8 p-6 sm:p-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
+      <div className="grid gap-8 p-5 sm:p-8 md:grid-cols-[minmax(0,1fr)_minmax(0,1fr)]">
         <div>
-          <p className="label-mono text-accent">Veredito</p>
-          <h2 id="veredito" className="mt-1 font-display text-2xl font-bold tracking-tight">
-            {review.tool}
-          </h2>
-          <p className="mt-1 text-sm text-muted">
-            {review.bookAuthor}
-            {review.publisher ? ` · ${review.publisher}` : ""}
-            {review.year ? ` · ${review.year}` : ""}
-            {review.pages ? ` · ${review.pages} páginas` : ""}
-          </p>
+          <p className="label-mono text-accent">Análise detalhada</p>
+          <div className="mt-2 flex gap-4">
+            {review.productImage && (
+              <ProductImage image={review.productImage} href={href} sizes="96px" className="w-20 shrink-0 self-start sm:w-24" />
+            )}
+            <div className="min-w-0">
+              <h2 id="veredito" className="font-display text-2xl font-bold leading-tight tracking-tight">
+                {review.tool}
+              </h2>
+              <p className="mt-1 text-sm text-muted">{review.bookAuthor}</p>
+            </div>
+          </div>
+          <dl className="mt-5 grid grid-cols-[auto_1fr] gap-x-5 gap-y-1.5 border-y border-border py-3 text-sm">
+            {ficha.map(([k, v]) => (
+              <div key={k} className="contents">
+                <dt className="label-mono text-muted">{k}</dt>
+                <dd className="font-medium">{v}</dd>
+              </div>
+            ))}
+          </dl>
           <p className="mt-4 flex items-baseline gap-1 font-mono">
             <span className={`text-5xl font-semibold leading-none tracking-tight sm:text-6xl ${scoreClass(review.score)}`}>
               {scoreText}
@@ -46,7 +66,9 @@ export function ReviewVerdict({ review }: { review: ReviewData }) {
               return (
                 <div key={c.label}>
                   <div className="flex items-center justify-between gap-3 font-mono text-xs">
-                    <dt className="text-muted">{c.label}</dt>
+                    <dt className="text-muted">
+                      {c.label} <span className="opacity-70">· peso {CRITERION_WEIGHT_PCT}%</span>
+                    </dt>
                     <dd className="font-semibold">{c.score.toFixed(1)}</dd>
                   </div>
                   <div
@@ -97,14 +119,7 @@ export function ReviewVerdict({ review }: { review: ReviewData }) {
             <dt className="label-mono self-start pt-0.5 text-muted">Preço</dt>
             <dd className="font-mono text-sm font-semibold">{review.price}</dd>
           </dl>
-          <a
-            href={review.url}
-            target="_blank"
-            rel={rel}
-            className="inline-flex items-center justify-center gap-2 rounded-lg bg-accent px-5 py-3 font-display text-sm font-semibold text-accent-foreground transition hover:opacity-90"
-          >
-            {review.ctaLabel ?? "Ver o livro na Amazon"} <span aria-hidden="true">↗</span>
-          </a>
+          <BuyButton href={href} label={review.ctaLabel ?? "Ver o livro na Amazon"} />
         </div>
       </div>
       <p className="flex flex-wrap gap-x-4 gap-y-1 border-t border-border bg-surface-2 px-6 py-3 font-mono text-[11px] text-muted sm:px-8">

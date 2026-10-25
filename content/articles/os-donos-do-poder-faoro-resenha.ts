@@ -50,11 +50,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/6559210960?tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver Os Donos do Poder na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/91LD-IBv8jS._SL1500_.jpg",
+      alt: "Capa do livro Os donos do poder: Formação do patronato político brasileiro, de Raymundo Faoro, edição Companhia das Letras 2021",
+      asin: "6559210960",
+      width: 1023,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Poucos livros de interpretação do Brasil viraram vocabulário de debate público como <em>Os Donos do Poder</em>. Quando alguém fala em patrimonialismo, em estamento burocrático ou em Estado que serve a quem o controla, a referência costuma remeter a Raymundo Faoro. Esta é uma análise editorial da obra, feita a partir da ficha da edição, da apresentação da editora e de fontes públicas citadas ao longo do texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É um clássico de leitura exigente. Quem procura uma explicação sobre por que o poder público no Brasil convive tantas vezes com interesses privados encontra aqui a formulação mais influente da literatura nacional. Quem procura um livro curto, narrativo e fácil provavelmente vai achar o caminho pesado.</p>
     <p>A nota final é <strong>7,7 em 10</strong>. A obra pontua alto em profundidade e em rigor, e perde pontos em clareza e em facilidade de leitura. A nota julga a qualidade do livro, não a posição política de quem o lê ou o cita.</p>
 

@@ -71,7 +71,8 @@ export const article: Article = {
   imageQuery, seed (sequencial, maior que todos), kind: "review",
   author: "Equipe Política Diária", keyPoints (3), sources (2-5),
   review: { tool, bookAuthor, publisher, year, pages, score, criteria[5], pros, cons,
-            price, bestFor, url, affiliate: true, ctaLabel },
+            price, bestFor, url, affiliate: true, ctaLabel,
+            productImage: { url, alt, asin, width, height, source, verifiedAt } },
   content, faq (4-6),
 };
 ```
@@ -82,7 +83,14 @@ export const article: Article = {
   o autor (só fatos verificáveis); o que o livro faz bem; limites e críticas feitas à obra; a
   quem serve e a quem não serve; edição indicada e preço (com "verificado em dd/mm/aaaa");
   livros para ler depois; nota final e critérios; FAQ.
-- Nota: média dos cinco critérios, uma casa decimal. A nota julga a obra, não a ideologia.
+- A página monta sozinha, a partir dos campos: foto do livro e caixa "Onde comprar", "Resumo em
+  30 segundos" (os `keyPoints`), "Veredito final" (derivado da nota), "Análise detalhada" (ficha,
+  subnotas, prós e contras), "Como avaliamos" (pesos de 20% por critério), FAQ, "Leia também" e a
+  caixa de transparência. O corpo não repete essas caixas; o primeiro `<h2>` é "Veredito da redação".
+- `productImage` é obrigatório: foto real do livro, só referenciada (hotlink), sem baixar nem
+  hospedar. Regra completa em `docs/rotinas/livros.md` (passo "Foto do livro"). **Mudança de política
+  (25/10/2026, decisão do dono):** vale no lugar da antiga regra "não usar capa de edição".
+- Nota: média simples dos cinco critérios, uma casa decimal (pesos iguais, 20% cada). A nota julga a obra, não a ideologia.
 - Botão `buy-btn` com link de afiliado no meio do corpo (ver CLAUDE.md).
 - `faq`: perguntas como a pessoa digita ("X vale a pena?", "qual a melhor edição?", "por onde
   começar?"), respostas de 40 a 80 palavras. `keyPoints`: 3 frases completas.

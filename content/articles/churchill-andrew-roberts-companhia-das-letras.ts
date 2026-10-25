@@ -52,11 +52,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/s?k=9788535933239&tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver Churchill na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/61FbprhoxCL._SL1465_.jpg",
+      alt: "Capa do livro Churchill, de Andrew Roberts, edição Companhia das Letras 2020",
+      asin: "8535933239",
+      width: 1000,
+      height: 1465,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Poucos estadistas foram tão biografados quanto Winston Churchill. A pergunta de quem se interessa por política é, portanto, se vale gastar semanas com mais uma biografia dele. <em>Churchill</em>, de Andrew Roberts, publicada no Brasil pela Companhia das Letras, tenta responder que sim. Esta é uma análise editorial da obra, feita a partir da ficha da edição, da apresentação da editora e de resenhas públicas citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É uma biografia de referência, bem escrita e baseada em pesquisa ampla, indicada para quem quer entender como um político decidiu em tempos de guerra. Os pontos fracos são o foco quase exclusivo no personagem, a avaliação de alguns episódios que resenhistas consideram benevolente e o tamanho, de cerca de 1.200 páginas.</p>
     <p>A nota final é <strong>8,2 em 10</strong>. A pontuação avalia a obra, e não a admiração do leitor pelo biografado. A resenha reúne as críticas feitas ao livro por quem o leu e resenhou.</p>
 

@@ -60,11 +60,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/8535909699?tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver D. Pedro II na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/81rU-vweGVL._SL1500_.jpg",
+      alt: "Capa do livro D. Pedro II, de José Murilo de Carvalho, edição Companhia das Letras (coleção Perfis Brasileiros) 2007",
+      asin: "8535909699",
+      width: 973,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Dom Pedro II governou o Brasil por quase cinco décadas e deixou o poder em 15 de novembro de 1889, no dia da Proclamação da República. A imagem pública que ficou dele, a do monarca sábio e amante das ciências, convive com outra, a de um homem que não gostava do cargo. É essa tensão que José Murilo de Carvalho escolhe como fio da biografia. Esta é uma análise editorial do livro, feita a partir da ficha da edição, de registros públicos sobre o autor e o imperador e de fontes citadas no texto, sem alegação de leitura pessoal.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É uma das melhores portas de entrada para o Segundo Reinado. O livro é curto, bem escrito e organizado em torno de uma ideia clara, e por isso funciona tanto para o estudante quanto para o leitor curioso. Não substitui obras maiores sobre o período e deixa lacunas, sobretudo no debate sobre a escravidão e na política econômica. Como perfil, cumpre o que promete.</p>
     <p>A nota final é <strong>8,5 em 10</strong>. A pontuação julga a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura), e não a posição política do leitor sobre monarquia ou república. As críticas feitas ao livro estão em seção própria.</p>
 

@@ -59,11 +59,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/8582850468?tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver Sobre a Liberdade na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/81SuDWW8b9L._SL1500_.jpg",
+      alt: "Capa do livro Sobre a liberdade / A sujeição das mulheres, de John Stuart Mill, edição Penguin-Companhia (Companhia das Letras) 2017",
+      asin: "8582850468",
+      width: 975,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Em qualquer discussão sobre censura, liberdade de expressão ou limites do poder do Estado, mais cedo ou mais tarde alguém cita John Stuart Mill. Seu ensaio de 1859 virou referência obrigatória da tradição liberal e continua sendo lido por quem quer entender por que uma sociedade deveria tolerar opiniões que considera erradas. Esta é uma análise editorial do livro, feita a partir da ficha da edição brasileira, de enciclopédias e de fontes citadas no texto, sem alegação de leitura pessoal.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É um clássico curto, de leitura possível e de grande atualidade. O capítulo sobre liberdade de pensamento e discussão e o princípio do dano sozinhos justificam a leitura. A obra tem limites: o critério central é mais difícil de aplicar do que parece, e boa parte da discussão posterior é sobre isso. Lida com as críticas em mente, rende muito.</p>
     <p>A nota final é <strong>8,3 em 10</strong>. A pontuação julga a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura), e não a posição política do leitor. As críticas feitas ao livro aparecem em seção própria.</p>
 

@@ -50,11 +50,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/6555605405?tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver Por que as Nações Fracassam na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/71HuxbH0adL._SL1500_.jpg",
+      alt: "Capa do livro Por que as nações fracassam: As origens do poder, da prosperidade e da pobreza, de Daron Acemoglu e James A. Robinson, edição Intrínseca 2022",
+      asin: "6555605405",
+      width: 1119,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Por que países vizinhos, com clima parecido e povos aparentados, chegam a níveis tão diferentes de renda? A pergunta atravessa a economia, a história e a ciência política, e <em>Por que as Nações Fracassam</em> é uma das tentativas mais conhecidas de respondê-la. Esta é uma análise editorial da obra e da edição brasileira, feita a partir de catálogos, de fontes públicas citadas no texto e de resenhas e debates acadêmicos registrados nelas.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É um livro de divulgação bem escrito, com uma tese forte e muitos exemplos. Quem lê sai com um vocabulário útil, o de instituições inclusivas e extrativas, para comparar países e épocas. O ponto de atenção é que a própria tese é contestada por economistas respeitados, e o livro deve ser lido como uma proposta entre outras.</p>
     <p>A nota final é <strong>8,3 em 10</strong>. A obra pontua alto em clareza, leitura e atualidade, com descontos em rigor, por causa das críticas metodológicas. A nota julga a qualidade do livro, não o campo político de quem o cita.</p>
 

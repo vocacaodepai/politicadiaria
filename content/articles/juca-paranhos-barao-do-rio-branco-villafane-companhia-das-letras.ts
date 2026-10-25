@@ -59,11 +59,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/853593152X?tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver a biografia de Rio Branco na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/71rP7ZJna+L._SL1500_.jpg",
+      alt: "Capa do livro Juca Paranhos, o Barão do Rio Branco, de Luís Cláudio Villafañe G. Santos, edição Companhia das Letras 2018",
+      asin: "853593152X",
+      width: 1042,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>José Maria da Silva Paranhos Filho, o Barão do Rio Branco, é lembrado nas escolas como o diplomata que resolveu questões de fronteira do Brasil e deu nome a ruas, avenidas e cidades. A biografia escrita por Luís Cláudio Villafañe G. Santos, publicada em 2018 pela Companhia das Letras, propõe um retrato menos monumental. Esta é uma análise editorial da obra, feita a partir da ficha da edição, de entrevista do autor e de fontes públicas citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É a melhor porta de entrada para entender a diplomacia brasileira na virada do século 19 para o 20 e, ao mesmo tempo, um bom exemplo de biografia que respeita o personagem sem idolatrá-lo. O ponto forte é o rigor da pesquisa e a coragem de mostrar contradições. O ponto fraco é a extensão, que exige um leitor disposto a acompanhar mais de 500 páginas.</p>
     <p>A nota final é <strong>8,5 em 10</strong>. A pontuação avalia a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura) e não a concordância do leitor ou da redação com o autor. As críticas feitas ao livro estão na seção própria, mais abaixo.</p>
 
