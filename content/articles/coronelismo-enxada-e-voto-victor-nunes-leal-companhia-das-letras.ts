@@ -60,11 +60,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/8535921303?tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver Coronelismo, Enxada e Voto na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/91gO2GXjn5S._SL1500_.jpg",
+      alt: "Capa do livro Coronelismo, Enxada e Voto, de Victor Nunes Leal, edição Companhia das Letras 2012",
+      asin: "8535921303",
+      width: 1011,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Poucas palavras da política brasileira são usadas com tanta frequência e entendidas com tão pouco rigor quanto "coronelismo". O termo aparece em debates sobre voto, prefeituras, concessões de rádio e televisão e favores de toda espécie. Quem quer saber de onde o conceito veio e o que ele realmente quer dizer precisa chegar ao livro de Victor Nunes Leal. Esta é uma análise editorial da obra, feita a partir da ficha da edição, do sumário público e de fontes citadas no texto, sem alegação de leitura pessoal.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É um clássico de leitura exigente e recompensa grande. Quem lê entende que o coronelismo não era só mando de fazendeiro, e sim um sistema de trocas entre o poder privado dos proprietários rurais e o poder público, com o voto no meio. Não é livro para quem procura leitura leve, e o leitor deve ter à mão alguma noção da República Velha. Em troca, ganha uma chave de interpretação que ainda ajuda a ler a política local.</p>
     <p>A nota final é <strong>8,4 em 10</strong>. A pontuação julga a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura), e não a posição política do leitor. As críticas feitas ao livro aparecem em seção própria.</p>
 

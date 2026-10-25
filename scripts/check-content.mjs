@@ -35,6 +35,31 @@ const TODAY = new Intl.DateTimeFormat("en-CA", {
   day: "2-digit",
 }).format(new Date());
 
+// Foto real do livro (review.productImage): só referência (hotlink), nunca arquivo no repo.
+const PRODUCT_IMAGE_HOSTS = ["m.media-amazon.com", "covers.openlibrary.org"];
+function checkProductImage(raw, where, errors) {
+  const m = /\n\s*productImage:\s*\{([\s\S]*?)\n\s*\},/.exec(raw);
+  if (!m) {
+    errors.push(`${where}: review.productImage ausente (foto real do livro: url, alt, asin, width, height, source, verifiedAt)`);
+    return;
+  }
+  const f = (k) => new RegExp(`\\b${k}:\\s*"([^"]*)"`).exec(m[1])?.[1] ?? "";
+  const n = (k) => Number(new RegExp(`\\b${k}:\\s*(\\d+)`).exec(m[1])?.[1] ?? 0);
+  let host = "";
+  try {
+    const u = new URL(f("url"));
+    host = u.protocol === "https:" ? u.hostname : "";
+  } catch {}
+  if (!PRODUCT_IMAGE_HOSTS.includes(host)) {
+    errors.push(`${where}: review.productImage.url precisa ser https em ${PRODUCT_IMAGE_HOSTS.join(" ou ")}`);
+  }
+  if (f("alt").length < 15) errors.push(`${where}: review.productImage.alt precisa ser descritivo (capa do livro, autor)`);
+  if (!/^[0-9A-Z]{10}$/.test(f("asin"))) errors.push(`${where}: review.productImage.asin inválido (ISBN-10/ASIN de 10 caracteres)`);
+  if (n("width") < 100 || n("height") < 100) errors.push(`${where}: review.productImage.width/height ausentes`);
+  if (!["amazon", "openlibrary"].includes(f("source"))) errors.push(`${where}: review.productImage.source precisa ser "amazon" ou "openlibrary"`);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(f("verifiedAt"))) errors.push(`${where}: review.productImage.verifiedAt precisa ser AAAA-MM-DD`);
+}
+
 const FORBIDDEN = [
   { re: /<\s*script\b/i, label: "<script>" },
   { re: /<\s*iframe\b/i, label: "<iframe>" },
@@ -214,6 +239,7 @@ function check() {
       if (it.reviewScore !== null && (it.reviewScore < 0 || it.reviewScore > 10)) {
         errors.push(`${where}: review.score fora de 0-10`);
       }
+      if (it.hasReview) checkProductImage(it.raw, where, errors);
     }
     if (it.kind === "noticias") {
       if (!/^https:\/\//.test(it.sourceUrl)) errors.push(`${where}: sourceUrl precisa ser https`);

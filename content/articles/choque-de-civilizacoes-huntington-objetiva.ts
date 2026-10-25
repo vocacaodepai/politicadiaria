@@ -60,11 +60,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/8573021306?tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver O Choque de Civilizações na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/51d4IAimCUL._SL1000_.jpg",
+      alt: "Capa do livro O Choque de Civilizações e a Recomposição da Ordem Mundial, de Samuel P. Huntington, edição Objetiva 1997",
+      asin: "8573021306",
+      width: 1000,
+      height: 1000,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Poucas obras de política internacional escritas nos anos 1990 continuam sendo citadas com tanta frequência quanto <em>O Choque de Civilizações</em>. O livro do cientista político americano Samuel Huntington propõe que, encerrada a Guerra Fria, o mundo passaria a se dividir menos por ideologia e mais por cultura e religião. Esta é uma análise editorial da obra, feita a partir da ficha da edição brasileira, do catálogo da editora e de fontes públicas citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É um livro que vale conhecer pelo que provocou, mesmo para quem discorda dele. O ponto forte é a ideia central, simples de enunciar e capaz de organizar um debate inteiro. O ponto fraco é o método: a divisão do mundo em civilizações é contestada por muitos especialistas, e alguns conflitos recentes ocorreram dentro de uma mesma civilização, e não entre elas.</p>
     <p>A nota final é <strong>7,2 em 10</strong>. A pontuação avalia a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura), e não concordância com a tese. A resenha lista as críticas feitas ao livro para que o leitor decida por conta própria.</p>
 

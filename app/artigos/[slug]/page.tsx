@@ -17,6 +17,10 @@ import { Breadcrumbs } from "@/components/article/Breadcrumbs";
 import { JsonLd } from "@/components/article/JsonLd";
 import { KeyTakeaways } from "@/components/article/KeyTakeaways";
 import { NextArticle } from "@/components/article/NextArticle";
+import { ReviewFinal } from "@/components/article/ReviewFinal";
+import { ReviewHero } from "@/components/article/ReviewHero";
+import { ReviewMethod } from "@/components/article/ReviewMethod";
+import { ReviewSummary } from "@/components/article/ReviewSummary";
 import { ReviewDisclosure, ReviewVerdict } from "@/components/article/ReviewVerdict";
 import { ShareBar } from "@/components/article/ShareBar";
 import { TableOfContents } from "@/components/article/TableOfContents";
@@ -144,6 +148,7 @@ export default async function ArticlePage({ params }: { params: Params }) {
             ...(review.publisher ? { publisher: { "@type": "Organization", name: review.publisher } } : {}),
             ...(review.year ? { datePublished: String(review.year) } : {}),
             ...(review.pages ? { numberOfPages: review.pages } : {}),
+            ...(review.productImage ? { image: review.productImage.url } : {}),
             url: review.url,
             ...(offer ? { offers: offer } : {}),
           },
@@ -202,6 +207,14 @@ export default async function ArticlePage({ params }: { params: Params }) {
               {article.title}
             </h1>
             <p className="mt-4 text-lg leading-relaxed text-muted">{article.excerpt}</p>
+            {isReview && (
+              <p className="label-mono mt-4 inline-flex items-center gap-2 rounded-lg border border-border bg-surface px-2.5 py-1 text-muted">
+                <span aria-hidden="true" className="text-success">
+                  ✓
+                </span>
+                Análise editorial da obra, da ficha da edição e de fontes públicas
+              </p>
+            )}
 
             <div className="mt-6 flex flex-col gap-4 border-y border-border py-4 sm:flex-row sm:items-center sm:justify-between">
               <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5 font-mono text-xs text-muted">
@@ -240,33 +253,51 @@ export default async function ArticlePage({ params }: { params: Params }) {
             </div>
           </header>
 
-          <CoverImage
-            query={article.imageQuery}
-            seed={article.seed}
-            alt={article.title}
-            className="mt-8 max-w-3xl"
-            priority
-            sizes="(max-width: 1024px) 100vw, 800px"
-            showCredit
-            creditPlacement="below"
-            label={label}
-            override={article.coverImage}
-          />
+          {isReview && review?.productImage ? (
+            <ReviewHero
+              review={review}
+              fallback={
+                <CoverImage
+                  query={article.imageQuery}
+                  seed={article.seed}
+                  alt={article.title}
+                  className="aspect-[3/4] w-full rounded-lg"
+                  sizes="220px"
+                  showCredit
+                  label={label}
+                  override={article.coverImage}
+                />
+              }
+            />
+          ) : (
+            <CoverImage
+              query={article.imageQuery}
+              seed={article.seed}
+              alt={article.title}
+              className="mt-8 max-w-3xl"
+              priority
+              sizes="(max-width: 1024px) 100vw, 800px"
+              showCredit
+              creditPlacement="below"
+              label={label}
+              override={article.coverImage}
+            />
+          )}
         </Container>
 
         <Container className="mt-10 grid gap-10 lg:grid-cols-[minmax(0,1fr)_320px]">
           <div className="min-w-0">
-            {isReview && review && (
-              <div className="mb-8">
-                <ReviewVerdict review={review} />
-                <ReviewDisclosure affiliate={review.affiliate} />
-              </div>
-            )}
-
-            {article.keyPoints && article.keyPoints.length > 0 && (
+            {isReview && review ? (
               <div className="mb-8 max-w-[68ch]">
-                <KeyTakeaways points={article.keyPoints} />
+                <ReviewSummary points={article.keyPoints} review={review} />
               </div>
+            ) : (
+              article.keyPoints &&
+              article.keyPoints.length > 0 && (
+                <div className="mb-8 max-w-[68ch]">
+                  <KeyTakeaways points={article.keyPoints} />
+                </div>
+              )
             )}
 
             <TocDetails entries={toc} className="mb-8 max-w-[68ch] lg:hidden" />
@@ -277,6 +308,17 @@ export default async function ArticlePage({ params }: { params: Params }) {
                 <div className="prose-article max-w-[68ch]" dangerouslySetInnerHTML={{ __html: html }} />
               </Fragment>
             ))}
+
+            {isReview && review && (
+              <div className="max-w-3xl">
+                <ReviewFinal review={review} />
+                <div className="mt-10">
+                  <ReviewVerdict review={review} />
+                </div>
+                <ReviewMethod review={review} />
+                <ReviewDisclosure affiliate={review.affiliate} />
+              </div>
+            )}
 
             <div className="max-w-[68ch]">
               <AuthorBox className="mt-10" />
@@ -301,7 +343,7 @@ export default async function ArticlePage({ params }: { params: Params }) {
           <section aria-label="Continue lendo">
             <SectionHeading
               label={label}
-              title="Continue lendo"
+              title={isReview ? "Leia também" : "Continue lendo"}
               href={`/categoria/${article.category}`}
               linkText={`Mais em ${label}`}
             />

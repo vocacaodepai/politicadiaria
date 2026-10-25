@@ -59,11 +59,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/853900299X?tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver Sobre a China na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/61Env1CIscL._SL1500_.jpg",
+      alt: "Capa do livro Sobre a China, de Henry Kissinger, edição Objetiva (Companhia das Letras) 2011",
+      asin: "853900299X",
+      width: 1045,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Poucos livros sobre a China foram escritos por alguém que esteve sentado à mesa com Mao Tsé-tung e Zhou Enlai. <em>Sobre a China</em>, de Henry Kissinger, tem essa marca: o autor foi um dos arquitetos da reaproximação entre Washington e Pequim nos anos 1970 e escreveu o livro em 2011 como um estudo de estratégia, história e negociação. Esta é uma análise editorial feita a partir da ficha da edição brasileira, de enciclopédias e de resenhas públicas citadas no texto, sem alegação de leitura pessoal.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É um livro de grande interesse para quem quer entender como a China vê a ordem internacional e como a diplomacia americana lidou com ela no século 20. O ponto forte é a combinação de erudição histórica com a experiência direta do autor. O ponto fraco, apontado por vários resenhistas, é que a mesma experiência torna o livro favorável a seus interlocutores e ao próprio papel do autor nos acontecimentos.</p>
     <p>A nota final é <strong>8,0 em 10</strong>. A pontuação julga a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura), e não a posição política do leitor. As críticas feitas ao livro aparecem em seção própria.</p>
 

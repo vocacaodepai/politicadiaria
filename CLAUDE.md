@@ -60,7 +60,8 @@ ao longo do dia. Política internacional usa `mundo`/`americas`/`europa`/`orient
 Campos do bloco `review` (`lib/types.ts`): `tool` (título do livro), `bookAuthor`, `publisher`,
 `year`, `pages`, `score` (0-10, uma casa decimal), `criteria` (Clareza, Profundidade, Rigor e
 fontes, Atualidade, Leitura, cada 0-10), `pros`, `cons`, `price` ("R$ 40 a R$ 70, verificado em
-dd/mm/aaaa"), `bestFor`, `url` (Amazon), `affiliate: true`, `ctaLabel`.
+dd/mm/aaaa"), `bestFor`, `url` (Amazon), `affiliate: true`, `ctaLabel`, `productImage` (`url`, `alt`, `asin`, `width`, `height`,
+`source`, `verifiedAt`).
 
 - Só livro **real**, com ISBN verificado (Open Library, Google Books, site da editora). Nunca
   inventar livro, autor, ano, editora, número de páginas, citação ou trecho.
@@ -86,8 +87,9 @@ liberada em `lib/html.ts`):
 </div>
 ```
 
-`rel="sponsored noopener noreferrer"` e `target="_blank"` sempre. A caixa "Transparência" já
-aparece sozinha abaixo do veredito (`ReviewDisclosure`); não repita no corpo.
+`rel="sponsored noopener noreferrer"` e `target="_blank"` sempre. A página já monta sozinha
+"Onde comprar", "Resumo em 30 segundos", "Veredito final", "Análise detalhada", "Como avaliamos",
+FAQ, "Leia também" e a caixa "Transparência" (`ReviewDisclosure`); não repita no corpo.
 
 ### Títulos
 
@@ -107,9 +109,14 @@ Commons.** Nunca imagem gerada por IA, nunca captura de página da Amazon.
   Em notícia de cena concreta, 1 ou 2 imagens no corpo (`<figure><img><figcaption>`) com URL
   `upload.wikimedia.org` que a própria API retornou e legenda `Foto: <autor> / Wikimedia Commons
   (<licença>)`. Nunca inventar URL.
-- **Capa de livro**: não baixar nem hospedar capa de edição (direito de autor). Use foto do
-  autor (se tiver no Commons), da instituição ou do tema. `coverImage` só com imagem livre e
-  atribuída (`scripts/wikimedia-cover.mjs search` e `get`).
+- **Foto do livro (regra de 25/10/2026, decisão do dono; substitui a antiga proibição de capa de
+  edição):** toda resenha leva `review.productImage`, a foto real do livro **sem baixar nem
+  hospedar**: só referenciar a imagem do CDN da Amazon (`m.media-amazon.com`), exibida dentro de
+  link de afiliado (`/dp/<ASIN>?tag=politicadiaria-20`). A URL é lida na página da Amazon Brasil e
+  conferida (`curl -sI`, imagem aberta e igual ao livro). Passo a passo em `docs/rotinas/livros.md`.
+  Continua proibido: imagem de IA, captura de tela da Amazon, URL inventada, arquivo de capa no repo.
+  Se a imagem falhar, o site cai na capa por `imageQuery` (autor no Commons, instituição ou tema;
+  `coverImage` só com imagem livre e atribuída, `scripts/wikimedia-cover.mjs search` e `get`).
 - Em notícia, "via Política Diária" é o crédito visível; o veículo/fonte original fica citado e
   linkado no texto e na caixa "Fonte original".
 - **Parlamentares**: foto oficial da API (`urlFoto` da Câmara; `UrlFotoParlamentar` do Senado),

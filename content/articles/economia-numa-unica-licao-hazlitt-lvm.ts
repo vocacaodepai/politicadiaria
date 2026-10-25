@@ -52,11 +52,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/8562816175?tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver Economia numa única lição na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/51ZTxcxvAaL._SL1000_.jpg",
+      alt: "Capa do livro Economia numa única lição, de Henry Hazlitt, edição LVM Editora 2010",
+      asin: "8562816175",
+      width: 1000,
+      height: 1000,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Quando o governo anuncia uma obra, um subsídio ou um controle de preços, os jornais mostram quem ganha de imediato. Poucos mostram quem paga depois. <em>Economia numa Única Lição</em>, do americano Henry Hazlitt, é um livro inteiro dedicado a essa segunda pergunta. Esta é uma análise editorial da obra, feita a partir da ficha da edição brasileira, de registros públicos sobre o autor e de fontes citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É uma das introduções mais claras à economia de mercado em língua portuguesa e um bom treino para desconfiar de promessas fáceis de política econômica. O ponto forte é a clareza: o leitor aprende uma regra simples e a vê funcionar em capítulo após capítulo. O ponto fraco é o rigor, porque o livro afirma muito, demonstra pouco com dados e quase não enfrenta as escolas rivais.</p>
     <p>A nota final é <strong>7,6 em 10</strong>. A pontuação avalia a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura) e não a concordância do leitor ou da redação com o autor. As críticas feitas ao livro estão listadas mais abaixo.</p>
 

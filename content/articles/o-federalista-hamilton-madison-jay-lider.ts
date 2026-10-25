@@ -59,11 +59,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/8588466325?tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver O Federalista na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/71rl9XPo9AL._SL1500_.jpg",
+      alt: "Capa do livro O Federalista, de Alexander Hamilton, James Madison e John Jay, edição Líder 2003",
+      asin: "8588466325",
+      width: 996,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Em 1787, os Estados Unidos tinham uma Constituição recém-redigida e um problema político: ela precisava ser ratificada pelos estados. Em Nova York, três homens publicaram em jornais uma série de ensaios assinados com o nome de Publius para defender o texto. Esses ensaios, reunidos depois em livro, formam <em>O Federalista</em>, uma das obras de referência para quem estuda instituições. Esta é uma análise editorial feita a partir da ficha da edição brasileira, de registros públicos e de fontes citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É leitura essencial para quem quer entender por que as democracias criam freios e contrapesos, e uma das melhores portas de entrada para o raciocínio institucional. O ponto forte é a profundidade: os autores discutem com franqueza o problema do poder e das facções. O ponto fraco é o ritmo, já que são textos longos de uma polêmica de 1787 e exigem paciência.</p>
     <p>A nota final é <strong>8,3 em 10</strong>. A pontuação avalia a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura) e não a concordância do leitor ou da redação com os autores. As críticas feitas ao livro estão na seção própria, mais abaixo. Não avaliamos aqui a qualidade da tradução, apenas a obra.</p>
 

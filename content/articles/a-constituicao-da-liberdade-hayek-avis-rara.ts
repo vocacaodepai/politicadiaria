@@ -52,6 +52,15 @@ export const article: Article = {
     url: "https://www.amazon.com.br/s?k=9786559572038&tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver A Constituição da Liberdade na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/91YxaoOtu6L._SL1500_.jpg",
+      alt: "Capa do livro A Constituição da Liberdade, de F. A. Hayek, edição Avis Rara 2022",
+      asin: "655957203X",
+      width: 1044,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Quando se pergunta onde está a defesa mais sistemática da liberdade individual dentro do pensamento liberal do século XX, <em>A Constituição da Liberdade</em> costuma aparecer entre as primeiras respostas. Friedrich Hayek escreveu o livro como um tratado sobre coerção, lei e instituições, e não como panfleto: a pergunta que o guia é como organizar a vida em sociedade para reduzir ao mínimo o poder de uns sobre os outros. Esta é uma análise editorial feita a partir da ficha da edição brasileira, da estrutura da obra e da recepção crítica descrita em fontes públicas, sem alegação de leitura pessoal.</p>

@@ -52,11 +52,20 @@ export const article: Article = {
     url: "https://www.amazon.com.br/dp/8542208706?tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver Civilização na Amazon",
+    productImage: {
+      url: "https://m.media-amazon.com/images/I/91Sn9QRH2lL._SL1500_.jpg",
+      alt: "Capa do livro Civilização: Ocidente x Oriente, de Niall Ferguson, edição Crítica 2017",
+      asin: "8542208706",
+      width: 1037,
+      height: 1500,
+      source: "amazon",
+      verifiedAt: "2026-10-25",
+    },
   },
   content: `
     <p>Por que um conjunto de pequenos reinos do oeste da Europa passou, a partir de 1500, a controlar boa parte do planeta, enquanto impérios muito maiores ficaram para trás? A pergunta guia <em>Civilização: Ocidente x Oriente</em>, do historiador Niall Ferguson, e a resposta dele é uma das mais discutidas da história comparada recente. Esta é uma análise editorial, feita a partir da ficha da edição brasileira, de registros públicos sobre o autor e a obra e das resenhas citadas no texto.</p>
 
-    <h2>Veredito em 30 segundos</h2>
+    <h2>Veredito da redação</h2>
     <p>É um livro ambicioso e fácil de ler, que transforma cinco séculos de história numa tese simples e organizada. O ponto forte é a narrativa: Ferguson escreve como quem fala a um público amplo e entrega uma grade para comparar civilizações. O ponto fraco é o rigor, porque a própria simplicidade da tese é o que mais atrai críticas de outros historiadores.</p>
     <p>A nota final é <strong>7,5 em 10</strong>. A pontuação avalia a qualidade da obra (clareza, profundidade, rigor, atualidade e leitura) e não a concordância do leitor ou da redação com o autor. As críticas feitas ao livro estão listadas mais abaixo.</p>
 
