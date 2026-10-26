@@ -1,7 +1,7 @@
 {
-  "eleito": null,
-  "posse": "2027-01-01",
-  "atualizadoEm": "2026-10-24",
+  "eleito": "lula",
+  "posse": "2027-01-05",
+  "atualizadoEm": "2026-10-26",
   "segundoTurno": "2026-10-25",
   "candidatos": {
     "lula": {
@@ -260,6 +260,6 @@
   "limitacoes": [
     "Os planos foram lidos em cópias divulgadas pela campanha e hospedadas por veículos de imprensa. Não foram comparados com o arquivo do TSE, que não pôde ser aberto na coleta (erro 403). Por isso o painel não os chama de planos registrados no TSE.",
     "Propostas feitas só em entrevistas e debates entram apenas quando há fonte aberta e declaração entre aspas; aparecem marcadas como compromisso de campanha.",
-    "O painel não mede promessas ainda não iniciadas: o acompanhamento real começa na posse, em 01/01/2027."
+    "O painel não mede promessas ainda não iniciadas: o acompanhamento real começa na posse, em 05/01/2027."
   ]
 }

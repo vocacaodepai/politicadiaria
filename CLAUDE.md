@@ -26,7 +26,7 @@ parte da cobertura é nacional (mundo entra, mas em menor proporção). Sete fre
    depois da apuração e da diplomação; até lá o índice aponta para `/eleicoes`.
 7. **Promessas** (`/promessas`): painel público de acompanhamento das promessas do presidente. Replica as propostas
    dos planos de governo de Lula e Flávio Bolsonaro (2026), cada uma com citação (até 25 palavras), página do documento
-   e indicador oficial conferido. Depois da posse (01/01/2027) acompanha só o eleito; as do outro candidato ficam como
+   e indicador oficial conferido. Depois da posse (05/01/2027) acompanha só o eleito; as do outro candidato ficam como
    arquivo da campanha. Dados em `data/promessas/` (`meta.json` com `eleito`, `posse`; `lula.json`, `flavio.json`).
    Mesma régua para qualquer eleito, sem nota nem adjetivo; "contrariada" só com fonte oficial.
 
