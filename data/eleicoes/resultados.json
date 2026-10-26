@@ -1,5 +1,5 @@
 {
- "atualizadoEm": "2026-10-25T20:51:56-03:00",
+ "atualizadoEm": "2026-10-26T08:53:14-03:00",
  "presidente": {
   "turno1": {
    "turno": 1,
@@ -167,23 +167,23 @@
    "turno": 2,
    "apuracao": {
     "secoesTotal": 499248,
-    "secoesTotalizadas": 389821,
-    "pctSecoesTotalizadas": 78.081634779
+    "secoesTotalizadas": 499248,
+    "pctSecoesTotalizadas": 100
    },
    "eleitorado": {
     "aptos": 158745502,
-    "comparecimento": 99645071,
-    "pctComparecimento": 81.01,
-    "abstencoes": 23352625,
-    "pctAbstencao": 18.99
+    "comparecimento": 128236074,
+    "pctComparecimento": 80.78,
+    "abstencoes": 30509005,
+    "pctAbstencao": 19.22
    },
    "votos": {
-    "validos": 96493356,
-    "brancos": 1094318,
-    "pctBrancos": 1.1,
-    "nulos": 2057397,
-    "pctNulos": 2.06,
-    "totais": 99645071
+    "validos": 124082273,
+    "brancos": 1430496,
+    "pctBrancos": 1.12,
+    "nulos": 2723305,
+    "pctNulos": 2.12,
+    "totais": 128236074
    },
    "candidatos": [
     {
@@ -193,9 +193,9 @@
      "federacao": "BRASIL DA ESPERANÇA",
      "coligacao": "BRASIL PRONTO PRA MAIS",
      "vice": "Geraldo Alckmin",
-     "votos": 49413736,
-     "pct": 51.21,
-     "situacao": ""
+     "votos": 64256232,
+     "pct": 51.79,
+     "situacao": "Eleito"
     },
     {
      "numero": "22",
@@ -204,15 +204,15 @@
      "federacao": null,
      "coligacao": null,
      "vice": "Alfredo Gaspar",
-     "votos": 47079620,
-     "pct": 48.79,
-     "situacao": ""
+     "votos": 59826041,
+     "pct": 48.21,
+     "situacao": "Não eleito"
     }
    ],
    "tse": {
     "data": "25/10/2026",
-    "hora": "20:51:10",
-    "ultimaTotalizacao": "25/10/2026 20:51:04"
+    "hora": "23:27:02",
+    "ultimaTotalizacao": "25/10/2026 23:26:38"
    }
   }
  },
@@ -318,23 +318,23 @@
    "turno2": {
     "apuracao": {
      "secoesTotal": 2270,
-     "secoesTotalizadas": 2248,
-     "pctSecoesTotalizadas": 99.030837004
+     "secoesTotalizadas": 2270,
+     "pctSecoesTotalizadas": 100
     },
     "eleitorado": {
      "aptos": 613336,
-     "comparecimento": 448926,
-     "pctComparecimento": 73.87,
-     "abstencoes": 158796,
-     "pctAbstencao": 26.13
+     "comparecimento": 453334,
+     "pctComparecimento": 73.91,
+     "abstencoes": 160002,
+     "pctAbstencao": 26.09
     },
     "votos": {
-     "validos": 407695,
-     "brancos": 11885,
-     "pctBrancos": 2.65,
-     "nulos": 29346,
-     "pctNulos": 6.54,
-     "totais": 448926
+     "validos": 411743,
+     "brancos": 11979,
+     "pctBrancos": 2.64,
+     "nulos": 29612,
+     "pctNulos": 6.53,
+     "totais": 453334
     },
     "candidatos": [
      {
@@ -344,9 +344,9 @@
       "federacao": "UNIÃO PROGRESSISTA",
       "coligacao": "AVANÇA ACRE",
       "vice": "Jessica Sales",
-      "votos": 269914,
-      "pct": 66.2,
-      "situacao": ""
+      "votos": 272635,
+      "pct": 66.21,
+      "situacao": "Eleito"
      },
      {
       "numero": "10",
@@ -355,19 +355,19 @@
       "federacao": null,
       "coligacao": "TRABALHO DA ESPERANÇA",
       "vice": "Ricardo Leite",
-      "votos": 137781,
-      "pct": 33.8,
-      "situacao": ""
+      "votos": 139108,
+      "pct": 33.79,
+      "situacao": "Não eleito"
      }
     ],
     "tse": {
      "data": "25/10/2026",
-     "hora": "20:50:35",
-     "ultimaTotalizacao": "25/10/2026 18:49:52"
+     "hora": "21:26:35",
+     "ultimaTotalizacao": "25/10/2026 19:26:09"
     }
    },
    "segundoTurno": true,
-   "eleito": null
+   "eleito": "Mailza Assis"
   },
   {
    "uf": "AL",
@@ -652,23 +652,23 @@
    "turno2": {
     "apuracao": {
      "secoesTotal": 8157,
-     "secoesTotalizadas": 7640,
-     "pctSecoesTotalizadas": 93.661885497
+     "secoesTotalizadas": 8157,
+     "pctSecoesTotalizadas": 100
     },
     "eleitorado": {
      "aptos": 2796187,
-     "comparecimento": 2073949,
-     "pctComparecimento": 78.6,
-     "abstencoes": 564646,
-     "pctAbstencao": 21.4
+     "comparecimento": 2189860,
+     "pctComparecimento": 78.32,
+     "abstencoes": 606327,
+     "pctAbstencao": 21.68
     },
     "votos": {
-     "validos": 1963105,
-     "brancos": 38516,
-     "pctBrancos": 1.86,
-     "nulos": 72328,
-     "pctNulos": 3.49,
-     "totais": 2073949
+     "validos": 2074303,
+     "brancos": 39610,
+     "pctBrancos": 1.81,
+     "nulos": 75947,
+     "pctNulos": 3.47,
+     "totais": 2189860
     },
     "candidatos": [
      {
@@ -678,9 +678,9 @@
       "federacao": null,
       "coligacao": "FORÇA AMAZONAS",
       "vice": "Alessandra Campelo",
-      "votos": 1192865,
-      "pct": 60.76,
-      "situacao": ""
+      "votos": 1273975,
+      "pct": 61.42,
+      "situacao": "Eleito"
      },
      {
       "numero": "22",
@@ -689,19 +689,19 @@
       "federacao": null,
       "coligacao": "MUDAR É URGENTE",
       "vice": "Coronel Anibal",
-      "votos": 770240,
-      "pct": 39.24,
-      "situacao": ""
+      "votos": 800328,
+      "pct": 38.58,
+      "situacao": "Não eleito"
      }
     ],
     "tse": {
      "data": "25/10/2026",
-     "hora": "20:50:35",
-     "ultimaTotalizacao": "25/10/2026 19:50:25"
+     "hora": "22:10:45",
+     "ultimaTotalizacao": "25/10/2026 21:10:25"
     }
    },
    "segundoTurno": true,
-   "eleito": null
+   "eleito": "Omar Aziz"
   },
   {
    "uf": "BA",
@@ -1074,23 +1074,23 @@
    "turno2": {
     "apuracao": {
      "secoesTotal": 6969,
-     "secoesTotalizadas": 6796,
-     "pctSecoesTotalizadas": 97.517577845
+     "secoesTotalizadas": 6969,
+     "pctSecoesTotalizadas": 100
     },
     "eleitorado": {
      "aptos": 2244176,
-     "comparecimento": 1811288,
-     "pctComparecimento": 82.61,
-     "abstencoes": 381293,
-     "pctAbstencao": 17.39
+     "comparecimento": 1854323,
+     "pctComparecimento": 82.63,
+     "abstencoes": 389853,
+     "pctAbstencao": 17.37
     },
     "votos": {
-     "validos": 1686125,
-     "brancos": 54494,
+     "validos": 1726272,
+     "brancos": 55771,
      "pctBrancos": 3.01,
-     "nulos": 70669,
+     "nulos": 72280,
      "pctNulos": 3.9,
-     "totais": 1811288
+     "totais": 1854323
     },
     "candidatos": [
      {
@@ -1100,9 +1100,9 @@
       "federacao": "UNIÃO PROGRESSISTA",
       "coligacao": "PROPÓSITO E AÇÃO",
       "vice": "Gustavo Rocha",
-      "votos": 964467,
-      "pct": 57.2,
-      "situacao": ""
+      "votos": 987142,
+      "pct": 57.18,
+      "situacao": "Eleito"
      },
      {
       "numero": "13",
@@ -1111,19 +1111,19 @@
       "federacao": "BRASIL DA ESPERANÇA",
       "coligacao": "DF DO POVO",
       "vice": "Dora Gomes",
-      "votos": 721658,
-      "pct": 42.8,
-      "situacao": ""
+      "votos": 739130,
+      "pct": 42.82,
+      "situacao": "Não eleito"
      }
     ],
     "tse": {
      "data": "25/10/2026",
-     "hora": "20:50:05",
-     "ultimaTotalizacao": "25/10/2026 20:49:34"
+     "hora": "21:28:25",
+     "ultimaTotalizacao": "25/10/2026 21:28:09"
     }
    },
    "segundoTurno": true,
-   "eleito": null
+   "eleito": "Celina Leão"
   },
   {
    "uf": "ES",
@@ -1215,23 +1215,23 @@
    "turno2": {
     "apuracao": {
      "secoesTotal": 9844,
-     "secoesTotalizadas": 9509,
-     "pctSecoesTotalizadas": 96.596911824
+     "secoesTotalizadas": 9844,
+     "pctSecoesTotalizadas": 100
     },
     "eleitorado": {
      "aptos": 2987603,
-     "comparecimento": 2322744,
-     "pctComparecimento": 80.48,
-     "abstencoes": 563399,
-     "pctAbstencao": 19.52
+     "comparecimento": 2405654,
+     "pctComparecimento": 80.52,
+     "abstencoes": 581949,
+     "pctAbstencao": 19.48
     },
     "votos": {
-     "validos": 2131340,
-     "brancos": 62764,
+     "validos": 2207937,
+     "brancos": 64871,
      "pctBrancos": 2.7,
-     "nulos": 128640,
-     "pctNulos": 5.54,
-     "totais": 2322744
+     "nulos": 132846,
+     "pctNulos": 5.52,
+     "totais": 2405654
     },
     "candidatos": [
      {
@@ -1241,9 +1241,9 @@
       "federacao": null,
       "coligacao": "PAZ PRA VIVER UM NOVO TEMPO",
       "vice": "Eliane Leal",
-      "votos": 1108204,
-      "pct": 52,
-      "situacao": ""
+      "votos": 1151818,
+      "pct": 52.17,
+      "situacao": "Eleito"
      },
      {
       "numero": "15",
@@ -1252,19 +1252,19 @@
       "federacao": null,
       "coligacao": "AGORA É O FUTURO",
       "vice": "Camillo Neves",
-      "votos": 1023136,
-      "pct": 48,
-      "situacao": ""
+      "votos": 1056119,
+      "pct": 47.83,
+      "situacao": "Não eleito"
      }
     ],
     "tse": {
      "data": "25/10/2026",
-     "hora": "20:49:05",
-     "ultimaTotalizacao": "25/10/2026 20:48:20"
+     "hora": "21:32:45",
+     "ultimaTotalizacao": "25/10/2026 21:32:14"
     }
    },
    "segundoTurno": true,
-   "eleito": null
+   "eleito": "Lorenzo Pazolini"
   },
   {
    "uf": "GO",
@@ -2687,23 +2687,23 @@
    "turno2": {
     "apuracao": {
      "secoesTotal": 8115,
-     "secoesTotalizadas": 7568,
-     "pctSecoesTotalizadas": 93.25939618
+     "secoesTotalizadas": 8115,
+     "pctSecoesTotalizadas": 100
     },
     "eleitorado": {
      "aptos": 2656286,
-     "comparecimento": 2076958,
-     "pctComparecimento": 83.89,
-     "abstencoes": 398725,
-     "pctAbstencao": 16.11
+     "comparecimento": 2229510,
+     "pctComparecimento": 83.93,
+     "abstencoes": 426776,
+     "pctAbstencao": 16.07
     },
     "votos": {
-     "validos": 1969012,
-     "brancos": 33308,
-     "pctBrancos": 1.6,
-     "nulos": 74638,
-     "pctNulos": 3.59,
-     "totais": 2076958
+     "validos": 2113423,
+     "brancos": 35873,
+     "pctBrancos": 1.61,
+     "nulos": 80214,
+     "pctNulos": 3.6,
+     "totais": 2229510
     },
     "candidatos": [
      {
@@ -2713,9 +2713,9 @@
       "federacao": "BRASIL DA ESPERANÇA",
       "coligacao": "TIME QUE CUIDA",
       "vice": "Larissa",
-      "votos": 1004846,
-      "pct": 51.03,
-      "situacao": ""
+      "votos": 1073024,
+      "pct": 50.77,
+      "situacao": "Eleito"
      },
      {
       "numero": "44",
@@ -2724,19 +2724,19 @@
       "federacao": "UNIÃO PROGRESSISTA",
       "coligacao": "ESPERANÇA E TRABALHO'",
       "vice": "Hermano",
-      "votos": 964166,
-      "pct": 48.97,
-      "situacao": ""
+      "votos": 1040399,
+      "pct": 49.23,
+      "situacao": "Não eleito"
      }
     ],
     "tse": {
      "data": "25/10/2026",
-     "hora": "20:50:35",
-     "ultimaTotalizacao": "25/10/2026 20:50:17"
+     "hora": "21:24:45",
+     "ultimaTotalizacao": "25/10/2026 21:24:24"
     }
    },
    "segundoTurno": true,
-   "eleito": null
+   "eleito": "Cadu de Lula"
   },
   {
    "uf": "RS",
@@ -3440,23 +3440,23 @@
    "turno2": {
     "apuracao": {
      "secoesTotal": 4384,
-     "secoesTotalizadas": 4247,
-     "pctSecoesTotalizadas": 96.875
+     "secoesTotalizadas": 4384,
+     "pctSecoesTotalizadas": 100
     },
     "eleitorado": {
      "aptos": 1180466,
-     "comparecimento": 924027,
-     "pctComparecimento": 80.72,
-     "abstencoes": 220660,
-     "pctAbstencao": 19.28
+     "comparecimento": 953385,
+     "pctComparecimento": 80.76,
+     "abstencoes": 227081,
+     "pctAbstencao": 19.24
     },
     "votos": {
-     "validos": 844882,
-     "brancos": 19543,
-     "pctBrancos": 2.11,
-     "nulos": 59602,
-     "pctNulos": 6.45,
-     "totais": 924027
+     "validos": 871159,
+     "brancos": 20323,
+     "pctBrancos": 2.13,
+     "nulos": 61903,
+     "pctNulos": 6.49,
+     "totais": 953385
     },
     "candidatos": [
      {
@@ -3466,9 +3466,9 @@
       "federacao": "PSDB CIDADANIA",
       "coligacao": "PRA CIMA TOCANTINS",
       "vice": "Amélio Cayres",
-      "votos": 544248,
-      "pct": 64.42,
-      "situacao": ""
+      "votos": 562083,
+      "pct": 64.52,
+      "situacao": "Eleito"
      },
      {
       "numero": "44",
@@ -3477,19 +3477,19 @@
       "federacao": "UNIÃO PROGRESSISTA",
       "coligacao": "UNIÃO PELO TOCANTINS",
       "vice": "Atos Gomes",
-      "votos": 300634,
-      "pct": 35.58,
-      "situacao": ""
+      "votos": 309076,
+      "pct": 35.48,
+      "situacao": "Não eleito"
      }
     ],
     "tse": {
      "data": "25/10/2026",
-     "hora": "20:49:35",
-     "ultimaTotalizacao": "25/10/2026 20:48:43"
+     "hora": "21:45:15",
+     "ultimaTotalizacao": "25/10/2026 21:44:50"
     }
    },
    "segundoTurno": true,
-   "eleito": null
+   "eleito": "Vicentinho Júnior"
   }
  ],
  "senado": {
