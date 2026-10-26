@@ -13,7 +13,7 @@
     ],
     "fonteDatas": "https://resultados.tse.jus.br/oficial/comum/config/ele-c.json"
   },
-  "atualizadoEm": "2026-10-25T20:51:56-03:00",
+  "atualizadoEm": "2026-10-26T08:53:14-03:00",
   "coletadoPor": "scripts/build-eleicoes-data.mjs",
   "avisosColeta": [],
   "fontesResultados": [
@@ -31,8 +31,8 @@
       "url": "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/br/br-c0001-e006258-u.json",
       "arquivoTse": {
         "data": "25/10/2026",
-        "hora": "20:51:10",
-        "ultimaTotalizacao": "25/10/2026 20:51:04"
+        "hora": "23:27:02",
+        "ultimaTotalizacao": "25/10/2026 23:26:38"
       }
     },
     {
