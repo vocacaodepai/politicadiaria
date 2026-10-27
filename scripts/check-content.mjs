@@ -40,7 +40,19 @@ const TODAY = new Intl.DateTimeFormat("en-CA", {
 
 // Foto real do livro (review.productImage): só referência (hotlink), nunca arquivo no repo.
 const PRODUCT_IMAGE_HOSTS = ["m.media-amazon.com", "covers.openlibrary.org"];
-function checkProductImage(raw, where, errors) {
+// Resenhas com store "shopee": link curto de afiliado e foto do CDN da Shopee (hotlink).
+const SHOPEE_LINK_HOST = "s.shopee.com.br";
+const SHOPEE_IMAGE_HOST = "cf.shopee.com.br";
+const STORES = ["amazon", "shopee"];
+function httpsHost(url) {
+  try {
+    const u = new URL(url);
+    return u.protocol === "https:" ? u.hostname : "";
+  } catch {
+    return "";
+  }
+}
+function checkProductImage(raw, where, errors, store = "amazon") {
   const m = /\n\s*productImage:\s*\{([\s\S]*?)\n\s*\},/.exec(raw);
   if (!m) {
     errors.push(`${where}: review.productImage ausente (foto real do livro: url, alt, asin, width, height, source, verifiedAt)`);
@@ -53,13 +65,15 @@ function checkProductImage(raw, where, errors) {
     const u = new URL(f("url"));
     host = u.protocol === "https:" ? u.hostname : "";
   } catch {}
-  if (!PRODUCT_IMAGE_HOSTS.includes(host)) {
-    errors.push(`${where}: review.productImage.url precisa ser https em ${PRODUCT_IMAGE_HOSTS.join(" ou ")}`);
+  const imageHosts = store === "shopee" ? [SHOPEE_IMAGE_HOST] : PRODUCT_IMAGE_HOSTS;
+  if (!imageHosts.includes(host)) {
+    errors.push(`${where}: review.productImage.url precisa ser https em ${imageHosts.join(" ou ")}${store === "shopee" ? " (store shopee)" : ""}`);
   }
   if (f("alt").length < 15) errors.push(`${where}: review.productImage.alt precisa ser descritivo (capa do livro, autor)`);
   if (!/^[0-9A-Z]{10}$/.test(f("asin"))) errors.push(`${where}: review.productImage.asin inválido (ISBN-10/ASIN de 10 caracteres)`);
   if (n("width") < 100 || n("height") < 100) errors.push(`${where}: review.productImage.width/height ausentes`);
-  if (!["amazon", "openlibrary"].includes(f("source"))) errors.push(`${where}: review.productImage.source precisa ser "amazon" ou "openlibrary"`);
+  const sources = store === "shopee" ? ["shopee"] : ["amazon", "openlibrary"];
+  if (!sources.includes(f("source"))) errors.push(`${where}: review.productImage.source precisa ser ${sources.map((s) => `"${s}"`).join(" ou ")}${store === "shopee" ? " (store shopee)" : ""}`);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(f("verifiedAt"))) errors.push(`${where}: review.productImage.verifiedAt precisa ser AAAA-MM-DD`);
 }
 
@@ -154,6 +168,16 @@ function extractArticles() {
         const m = /\n\s*review:\s*\{[\s\S]*?\n\s*url:\s*"([^"]*)"/.exec(src);
         return m ? m[1] : "";
       })(),
+      // Loja da resenha ("amazon" quando ausente) e campos lidos só para as regras da Shopee.
+      reviewStore: (() => {
+        const m = /\n\s*review:\s*\{[\s\S]*?\n\s*store:\s*"([^"]*)"/.exec(src);
+        return m ? m[1] : "amazon";
+      })(),
+      reviewAffiliate: /\n\s*review:\s*\{[\s\S]*?\n\s*affiliate:\s*true\b/.test(src),
+      reviewPrice: (() => {
+        const m = /\n\s*review:\s*\{[\s\S]*?\n\s*price:\s*"([^"]*)"/.exec(src);
+        return m ? m[1] : "";
+      })(),
       reviewScore: (() => {
         const m = /\n\s*review:\s*\{[\s\S]*?\n\s*score:\s*([\d.]+)/.exec(src);
         return m ? Number(m[1]) : null;
@@ -236,13 +260,23 @@ function check() {
       if (it.articleKind === "review" && !it.hasReview) errors.push(`${where}: kind "review" sem o objeto review`);
       // Todo artigo do site é resenha de livro, com link de afiliado da Amazon Brasil.
       if (it.articleKind !== "review") errors.push(`${where}: todo artigo precisa ser resenha de livro (kind: "review")`);
-      if (it.hasReview && !/^https:\/\/www\.amazon\.com\.br\/.*[?&]tag=politicadiaria-20(?:&|$)/.test(it.reviewUrl)) {
+      if (it.hasReview && !STORES.includes(it.reviewStore)) {
+        errors.push(`${where}: review.store inválido "${it.reviewStore}" (use "amazon" ou "shopee"; ausente = amazon)`);
+      } else if (it.hasReview && it.reviewStore === "shopee") {
+        if (httpsHost(it.reviewUrl) !== SHOPEE_LINK_HOST) {
+          errors.push(`${where}: review.url (store shopee) precisa ser link curto de afiliado https://${SHOPEE_LINK_HOST}/...`);
+        }
+        if (!it.reviewAffiliate) errors.push(`${where}: review.affiliate precisa ser true (store shopee)`);
+        if (!/\b\d{2}\/\d{2}\/\d{4}\b/.test(it.reviewPrice)) {
+          errors.push(`${where}: review.price (store shopee) precisa da data de verificação (dd/mm/aaaa)`);
+        }
+      } else if (it.hasReview && !/^https:\/\/www\.amazon\.com\.br\/.*[?&]tag=politicadiaria-20(?:&|$)/.test(it.reviewUrl)) {
         errors.push(`${where}: review.url precisa ser link da Amazon Brasil com tag=politicadiaria-20`);
       }
       if (it.reviewScore !== null && (it.reviewScore < 0 || it.reviewScore > 10)) {
         errors.push(`${where}: review.score fora de 0-10`);
       }
-      if (it.hasReview) checkProductImage(it.raw, where, errors);
+      if (it.hasReview) checkProductImage(it.raw, where, errors, it.reviewStore);
     }
     if (it.kind === "noticias") {
       if (!/^https:\/\//.test(it.sourceUrl)) errors.push(`${where}: sourceUrl precisa ser https`);

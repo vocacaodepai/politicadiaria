@@ -1,5 +1,5 @@
 import { site } from "@/lib/articles";
-import type { ReviewData } from "@/lib/types";
+import type { ReviewData, ReviewStore } from "@/lib/types";
 
 /** Peso de cada critério na nota final: média simples dos cinco, 20% cada. */
 export const CRITERION_WEIGHT_PCT = 20;
@@ -20,8 +20,27 @@ export function reviewVerdict(score: number): { label: string; tone: "good" | "o
   return { label: "Leia com ressalvas", tone: "warn" };
 }
 
-/** Link de afiliado da página do livro (ASIN = ISBN-10), para a foto e o botão. */
+/** Loja da resenha; sem `store`, vale a Amazon (artigos antigos). */
+export function reviewStore(review: Pick<ReviewData, "store">): ReviewStore {
+  return review.store === "shopee" ? "shopee" : "amazon";
+}
+
+/** Nome da loja para os textos da página. */
+export function storeName(store: ReviewStore): string {
+  return store === "shopee" ? "Shopee" : "Amazon";
+}
+
+/** Texto do botão principal: o `ctaLabel` da resenha ou o padrão da loja. */
+export function ctaLabel(review: ReviewData): string {
+  return review.ctaLabel ?? (reviewStore(review) === "shopee" ? "Ver o livro na Shopee" : "Ver o livro na Amazon");
+}
+
+/**
+ * Link de afiliado para a foto e o botão. Amazon: página do livro (ASIN = ISBN-10) com a tag do site.
+ * Shopee: o link curto de afiliado em `review.url`, exatamente como a API devolveu.
+ */
 export function productHref(review: ReviewData): string {
+  if (reviewStore(review) === "shopee") return review.url;
   const asin = review.productImage?.asin;
   return asin ? `https://www.amazon.com.br/dp/${asin}?tag=${site.amazonTag}` : review.url;
 }

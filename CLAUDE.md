@@ -9,7 +9,8 @@ parte da cobertura é nacional (mundo entra, mas em menor proporção). Sete fre
    senadores, com uma página por parlamentar (votos, ausências em votações nominais, gastos da
    cota, salário e benefícios), a partir dos dados abertos da Câmara e do Senado.
 3. **Resenhas de livros** (`/artigos`, `/reviews`): **todo artigo do site é resenha de livro de
-   política** (`kind: "review"`), com nota de 0 a 10 e link de afiliado da Amazon Brasil.
+   política** (`kind: "review"`), com nota de 0 a 10 e link de afiliado da Amazon Brasil ou da Shopee
+   (`review.store`, ver abaixo).
    Não existe artigo "guia" nem comparativo de produto.
 
 4. **Eleições 2026** (`/eleicoes`): painel com resultados do TSE (quem está na frente, 2º turno,
@@ -30,8 +31,11 @@ parte da cobertura é nacional (mundo entra, mas em menor proporção). Sete fre
    arquivo da campanha. Dados em `data/promessas/` (`meta.json` com `eleito`, `posse`; `lula.json`, `flavio.json`).
    Mesma régua para qualquer eleito, sem nota nem adjetivo; "contrariada" só com fonte oficial.
 
-Monetização: Google AdSense e Programa de Associados da Amazon, tag **`politicadiaria-20`**
-(também em `site.amazonTag`, `lib/articles.ts`).
+Monetização: Google AdSense, Programa de Associados da Amazon (tag **`politicadiaria-20`**, também em
+`site.amazonTag`, `lib/articles.ts`) e Programa de Afiliados da Shopee (link curto `s.shopee.com.br`
+gerado pela API de afiliados). Por dia: 3 resenhas com produtos da Amazon e 3 com produtos da Shopee.
+As credenciais da API da Shopee ficam só em variáveis de ambiente (`SHOPEE_APP_ID`, `SHOPEE_APP_SECRET`),
+**nunca** em arquivo, commit, doc, log ou PR.
 
 ## Linha editorial (vale para tudo)
 
@@ -80,6 +84,10 @@ fontes, Atualidade, Leitura, cada 0-10), `pros`, `cons`, `price` ("R$ 40 a R$ 70
 dd/mm/aaaa"), `bestFor`, `url` (Amazon), `affiliate: true`, `ctaLabel`, `productImage` (`url`, `alt`, `asin`, `width`, `height`,
 `source`, `verifiedAt`).
 
+- **Loja** (`review.store?: "amazon" | "shopee"`): ausente = `"amazon"` (todos os artigos antigos, sem
+  mudança). Com `store: "shopee"` valem as regras da seção "Link e botão de compra" para a Shopee, e a
+  página troca sozinha os textos de "Onde comprar", botões e Transparência, com o aviso de que preço,
+  edição e disponibilidade variam por vendedor. A rotina da Shopee está em `docs/rotinas/livros-shopee.md`.
 - Só livro **real**, com ISBN verificado (Open Library, Google Books, site da editora). Nunca
   inventar livro, autor, ano, editora, número de páginas, citação ou trecho.
 - **Nunca alegar leitura pessoal** ("li", "fiquei dias com ele"). É análise editorial a partir da
@@ -92,7 +100,7 @@ dd/mm/aaaa"), `bestFor`, `url` (Amazon), `affiliate: true`, `ctaLabel`, `product
 
 ### Link e botão de compra
 
-`review.url` é sempre `https://www.amazon.com.br/dp/<ISBN-10>?tag=politicadiaria-20`
+**Amazon (padrão, `store` ausente):** `review.url` é sempre `https://www.amazon.com.br/dp/<ISBN-10>?tag=politicadiaria-20`
 (para livro, o ASIN é o ISBN-10; confira que a página do ISBN existe). Se só houver ISBN-13,
 use `https://www.amazon.com.br/s?k=<ISBN-13>&tag=politicadiaria-20`. O `check-content` barra
 qualquer `review.url` sem a tag. No corpo, pelo menos um botão de compra (classe `buy-btn`,
@@ -104,7 +112,14 @@ liberada em `lib/html.ts`):
 </div>
 ```
 
-`rel="sponsored noopener noreferrer"` e `target="_blank"` sempre. A página já monta sozinha
+`rel="sponsored noopener noreferrer"` e `target="_blank"` sempre.
+
+**Shopee (`store: "shopee"`):** `review.url` é o link curto de afiliado que a API devolve em `offerLink`
+(https, host `s.shopee.com.br`), `affiliate: true`, `ctaLabel: "Ver <Título> na Shopee"` e `price` com data de
+verificação. Botão no corpo igual ao da Amazon, com o `offerLink` e o texto "Ver <Título> na Shopee ↗".
+Busca da oferta: `node scripts/shopee-offer.mjs --isbn <ISBN-13>` (lê `SHOPEE_APP_ID` e `SHOPEE_APP_SECRET`
+do ambiente; `--mock` para teste sem credenciais). Conferir que título, autor e edição do anúncio batem com o
+livro e escolher loja confiável. O `check-content` barra Shopee sem esses requisitos. Nunca inventar link. A página já monta sozinha
 "Onde comprar", "Resumo em 30 segundos", "Veredito final", "Análise detalhada", "Como avaliamos",
 FAQ, "Leia também" e a caixa "Transparência" (`ReviewDisclosure`); não repita no corpo.
 
@@ -132,6 +147,9 @@ Commons.** Nunca imagem gerada por IA, nunca captura de página da Amazon.
   link de afiliado (`/dp/<ASIN>?tag=politicadiaria-20`). A URL é lida na página da Amazon Brasil e
   conferida (`curl -sI`, imagem aberta e igual ao livro). Passo a passo em `docs/rotinas/livros.md`.
   Continua proibido: imagem de IA, captura de tela da Amazon, URL inventada, arquivo de capa no repo.
+  **Shopee (`store: "shopee"`):** a foto é a `imageUrl` da API (host `cf.shopee.com.br`, `productImage.source:
+  "shopee"`), também só referenciada (hotlink), nunca baixada nem hospedada, conferida com `curl -sI` e aberta
+  antes de entrar; passo a passo em `docs/rotinas/livros-shopee.md`.
   Se a imagem falhar, o site cai na capa por `imageQuery` (autor no Commons, instituição ou tema;
   `coverImage` só com imagem livre e atribuída, `scripts/wikimedia-cover.mjs search` e `get`).
 - Em notícia, "via Política Diária" é o crédito visível; o veículo/fonte original fica citado e
@@ -175,7 +193,7 @@ Commons.** Nunca imagem gerada por IA, nunca captura de página da Amazon.
 
 As rotinas agendadas publicam sozinhas; as instruções vivem em `docs/rotinas/` e valem como
 parte deste arquivo: `comum.md` (regras comuns), `noticias.md` (de hora em hora), `livros.md`, `congresso.md`,
-`checagem.md`, `eleicoes.md`, `promessas.md` e `historia.md` (uma eleição ou período por rodada, de trás para frente).
+`livros-shopee.md` (3 resenhas por dia com a Shopee, 06:23), `checagem.md`, `eleicoes.md`, `promessas.md` e `historia.md` (uma eleição ou período por rodada, de trás para frente).
 Rotinas de conteúdo só alteram `content/`, `public/images/covers/` (e `data/congresso/` na rotina
 do Congresso, `data/promessas/` na de promessas; `public/images/` na de História, só se preciso); nunca `docs/`, `CLAUDE.md`, `lib/`,
 `app/`, `components/`, `scripts/` nem configuração.

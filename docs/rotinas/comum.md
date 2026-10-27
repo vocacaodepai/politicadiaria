@@ -1,6 +1,6 @@
 # Rotinas automáticas da Política Diária: regras comuns
 
-Vale para todas as rotinas (notícias, livros, Congresso, checagem, eleições e História). Cada rotina roda sozinha, sem
+Vale para todas as rotinas (notícias, livros, livros Shopee, Congresso, checagem, eleições e História). Cada rotina roda sozinha, sem
 perguntar nada, e termina com o conteúdo publicado na `main` (deploy automático na Vercel).
 
 ## Ambiente e git
@@ -31,7 +31,7 @@ Corrija sozinho até passar. Se sobrar erro real que você não resolveu, não m
   rotina do Congresso, `data/congresso/`; na de História, `content/historia/` e `public/images/`. Nunca altere `docs/`, `CLAUDE.md`, `lib/`, `app/`,
   `components/`, `scripts/` nem configuração (rodar scripts é permitido, editar não).
   `git diff --stat` só pode ter esses caminhos.
-- Nenhum segredo no diff (Pexels, Pixabay, AdSense, qualquer chave). `.env.local` fica fora do git.
+- Nenhum segredo no diff (Pexels, Pixabay, AdSense, Shopee `SHOPEE_APP_ID`/`SHOPEE_APP_SECRET`, qualquer chave). `.env.local` fica fora do git.
 - Nenhum HTML com script, iframe ou handler (o `check-content` barra).
 
 ## Publicar

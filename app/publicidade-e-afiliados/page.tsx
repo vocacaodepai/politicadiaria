@@ -7,7 +7,7 @@ import { author } from "@/lib/author";
 const PATH = "/publicidade-e-afiliados";
 const TITLE = "Publicidade e afiliados";
 const DESCRIPTION =
-  "Como a Política Diária se sustenta: anúncios do Google AdSense e links de afiliado da Amazon nas resenhas de livros, sempre sinalizados e sem mudar nota nem opinião.";
+  "Como a Política Diária se sustenta: anúncios do Google AdSense e links de afiliado da Amazon e da Shopee nas resenhas de livros, sempre sinalizados e sem mudar nota nem opinião.";
 
 function ExternalLink({ href, children }: { href: string; children: React.ReactNode }) {
   return (
@@ -47,6 +47,12 @@ export default function PublicidadeEAfiliadosPage() {
           na Amazon é um link de afiliado (tag politicadiaria-20) e pode gerar comissão para o site,
           sem custo adicional para você. Como Associado da Amazon, a {site.name} ganha com compras
           qualificadas.
+        </li>
+        <li>
+          <strong>Programa de Afiliados da Shopee</strong>: em parte das <Link href="/artigos">resenhas de livros</Link>, o link
+          para comprar o livro leva a um anúncio na Shopee por link de afiliado (s.shopee.com.br) e pode gerar comissão para o
+          site, sem custo adicional para você. Na Shopee o anúncio é de um vendedor: preço, edição e
+          disponibilidade variam por vendedor, e a troca e a entrega seguem as regras do vendedor e da loja.
         </li>
       </ul>
       <p>Não há conteúdo patrocinado, publieditorial nem &quot;matéria paga&quot;, e não haverá. Partido, governo, candidato e parlamentar também não pagam por espaço, nota ou destaque. Como compromisso editorial, não colocamos anúncio acima do título da página.</p>
@@ -91,7 +97,7 @@ export default function PublicidadeEAfiliadosPage() {
         <li>
           O preço informado, quando houver, é o preço público do livro no momento da escrita da
           resenha, sem inflar para justificar a comissão. O preço pode mudar a qualquer momento na
-          Amazon; o valor exato sempre aparece atualizado na própria página do produto.
+          Amazon ou na Shopee; o valor exato sempre aparece atualizado na própria página do produto.
         </li>
         <li>
           Um link de afiliado só aparece nas resenhas de livros. Nunca em notícia, nem nas páginas de parlamentares do Congresso por dentro.
