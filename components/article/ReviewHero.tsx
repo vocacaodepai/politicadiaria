@@ -1,5 +1,5 @@
 import type { ReactNode } from "react";
-import { productHref, reviewVerdict } from "@/lib/review";
+import { ctaLabel, productHref, reviewStore, reviewVerdict } from "@/lib/review";
 import type { ReviewData } from "@/lib/types";
 import { BuyButton } from "./BuyButton";
 import { ProductImage } from "./ProductImage";
@@ -42,11 +42,18 @@ export function ReviewHero({ review, fallback }: { review: ReviewData; fallback:
           <span className="label-mono mr-2 text-muted">Preço</span>
           <span className="font-mono font-semibold">{review.price}</span>
         </p>
-        <BuyButton href={href} label={review.ctaLabel ?? "Ver o livro na Amazon"} className="mt-5 w-full sm:w-auto" />
-        <p className="mt-3 text-xs leading-relaxed text-muted">
-          Preço e disponibilidade mudam na loja. A foto e o botão levam à página do livro na Amazon Brasil por
-          link de afiliado.
-        </p>
+        <BuyButton href={href} label={ctaLabel(review)} className="mt-5 w-full sm:w-auto" />
+        {reviewStore(review) === "shopee" ? (
+          <p className="mt-3 text-xs leading-relaxed text-muted">
+            Anúncio de vendedor da Shopee: preço, edição e disponibilidade variam por vendedor. A foto e o botão
+            levam ao anúncio por link de afiliado.
+          </p>
+        ) : (
+          <p className="mt-3 text-xs leading-relaxed text-muted">
+            Preço e disponibilidade mudam na loja. A foto e o botão levam à página do livro na Amazon Brasil por
+            link de afiliado.
+          </p>
+        )}
       </aside>
     </div>
   );

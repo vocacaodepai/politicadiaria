@@ -4,7 +4,7 @@ Site brasileiro de política nacional e internacional (www.politicadiaria.com.br
 notícias diárias, "Congresso por dentro" (uma página para cada um dos 513 deputados e 81
 senadores, com votos, ausências em votações nominais, gastos e salário, a partir dos dados
 abertos da Câmara e do Senado) e resenhas de livros de política com link de afiliado da
-Amazon (tag `politicadiaria-20`). Publicação diária por rotinas automáticas (ver
+Amazon (tag `politicadiaria-20`) e Shopee. Publicação diária por rotinas automáticas (ver
 `docs/rotinas/`). Construído sobre o mesmo código-base do Portal da AI.
 
 ## Stack
