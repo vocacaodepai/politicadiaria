@@ -198,8 +198,8 @@ export function acompanhamentoAtivo(c: CandidatoSlug): boolean {
 export function statusNota(c: CandidatoSlug): string {
   const modo = modoDe(c);
   if (modo === "arquivo") return "Arquivo da campanha, sem acompanhamento";
-  if (modo === "aguardando") return "Sem acompanhamento ainda: o eleito será conhecido em 25/10/2026 e o acompanhamento começa na posse, em 01/01/2027";
-  if (!acompanhamentoAtivo(c)) return "Sem acompanhamento ainda: começa na posse, em 01/01/2027";
+  if (modo === "aguardando") return "Sem acompanhamento ainda: o eleito será conhecido em 25/10/2026 e o acompanhamento começa na posse, em 05/01/2027";
+  if (!acompanhamentoAtivo(c)) return "Sem acompanhamento ainda: começa na posse, em 05/01/2027";
   return "Em acompanhamento";
 }
 

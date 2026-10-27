@@ -127,7 +127,7 @@ export function PromessasPage({ candidato }: { candidato?: CandidatoSlug }) {
           </h1>
           <p className="mt-3 max-w-3xl text-lg leading-relaxed text-muted">
             O que Lula e Flávio Bolsonaro propuseram nos planos de governo de 2026, proposta por proposta, com a citação e a
-            página do documento. A partir da posse, em 01/01/2027, o painel mostra o que caminhou e o que não caminhou nas
+            página do documento. A partir da posse, em 05/01/2027, o painel mostra o que caminhou e o que não caminhou nas
             promessas de quem for eleito, com dados oficiais.
           </p>
         </header>

@@ -1,7 +1,7 @@
 # Rotina: Promessas (`/promessas`)
 
 Vale junto com `CLAUDE.md`, `docs/padrao-editorial.md` e `docs/rotinas/comum.md`. Roda uma vez por dia
-depois da eleição e, a partir da posse (01/01/2027), uma vez por dia até o fim do mandato. Antes da posse
+depois da eleição e, a partir da posse (05/01/2027), uma vez por dia até o fim do mandato. Antes da posse
 a rotina só confere `meta.json` e não muda nenhum status.
 
 ## Escopo de arquivos permitido
