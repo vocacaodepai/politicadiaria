@@ -86,27 +86,35 @@ export function OverviewPage() {
         </div>
 
         <div className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-          <Link href="/congresso/plenario" className="card-hover rounded-xl border border-border border-t-[3px] border-t-foreground bg-surface p-5">
-            <p className="label-mono text-accent">Visualização</p>
-            <p className="mt-1 font-display text-xl font-bold">O plenário em um mapa →</p>
-            <p className="mt-1 text-sm text-muted">Um ponto por parlamentar, por partido. Filtre e abra a ficha.</p>
+          <Link href="/congresso/plenario" className="group flex min-h-36 flex-col justify-between p-5 text-white transition hover:-translate-y-0.5 hover:shadow-lg bg-[#1E3A8A]">
+            <p className="label-mono text-white/80">Visualização</p>
+            <div>
+              <p className="font-display text-2xl font-extrabold leading-tight">O plenário em um mapa →</p>
+              <p className="mt-1 text-sm text-white/85">Um ponto por parlamentar, por partido. Filtre e abra a ficha.</p>
+            </div>
           </Link>
           {hasEvolucao() && (
-            <Link href="/congresso/evolucao" className="card-hover rounded-xl border border-border border-t-[3px] border-t-foreground bg-surface p-5">
-              <p className="label-mono text-accent">Comparativo</p>
-              <p className="mt-1 font-display text-xl font-bold">Evolução das bancadas →</p>
-              <p className="mt-1 text-sm text-muted">Quem cresceu e quem encolheu entre três legislaturas.</p>
-            </Link>
-          )}
-          <Link href="/congresso/deputados" className="card-hover rounded-xl border border-border bg-surface p-5">
-            <p className="label-mono text-accent">Câmara dos Deputados</p>
-            <p className="mt-1 font-display text-xl font-bold">Ver os 513 deputados federais →</p>
-            <p className="mt-1 text-sm text-muted">Busque por nome, partido ou estado.</p>
+          <Link href="/congresso/evolucao" className="group flex min-h-36 flex-col justify-between p-5 text-white transition hover:-translate-y-0.5 hover:shadow-lg bg-[#0F766E]">
+            <p className="label-mono text-white/80">Comparativo</p>
+            <div>
+              <p className="font-display text-2xl font-extrabold leading-tight">Evolução das bancadas →</p>
+              <p className="mt-1 text-sm text-white/85">Quem cresceu e quem encolheu entre três legislaturas.</p>
+            </div>
           </Link>
-          <Link href="/congresso/senadores" className="card-hover rounded-xl border border-border bg-surface p-5">
-            <p className="label-mono text-accent">Senado Federal</p>
-            <p className="mt-1 font-display text-xl font-bold">Ver os 81 senadores →</p>
-            <p className="mt-1 text-sm text-muted">Três senadores por estado e pelo Distrito Federal.</p>
+          )}
+          <Link href="/congresso/deputados" className="group flex min-h-36 flex-col justify-between p-5 text-white transition hover:-translate-y-0.5 hover:shadow-lg bg-[#A16207]">
+            <p className="label-mono text-white/80">Câmara dos Deputados</p>
+            <div>
+              <p className="font-display text-2xl font-extrabold leading-tight">513 deputados federais →</p>
+              <p className="mt-1 text-sm text-white/85">Busque por nome, partido ou estado.</p>
+            </div>
+          </Link>
+          <Link href="/congresso/senadores" className="group flex min-h-36 flex-col justify-between p-5 text-white transition hover:-translate-y-0.5 hover:shadow-lg bg-[#9F1239]">
+            <p className="label-mono text-white/80">Senado Federal</p>
+            <div>
+              <p className="font-display text-2xl font-extrabold leading-tight">81 senadores →</p>
+              <p className="mt-1 text-sm text-white/85">Três por estado e pelo Distrito Federal.</p>
+            </div>
           </Link>
         </div>
 

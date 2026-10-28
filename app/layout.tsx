@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Libre_Franklin, Playfair_Display, Source_Serif_4 } from "next/font/google";
+import { Inter, Newsreader } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -11,27 +11,27 @@ import { author } from "@/lib/author";
 import { safeJsonLd } from "@/lib/seo";
 import { Analytics } from "@vercel/analytics/next";
 
-// Tipografia de jornal: manchetes em serifa de alto contraste (Playfair Display),
-// texto corrido em serifa de leitura (Source Serif 4) e rótulos/navegação em
-// grotesca clássica (Libre Franklin). Todas livres (OFL).
-const sans = Libre_Franklin({
+// Tipografia editorial: manchetes e texto corrido em Newsreader (serifa de
+// leitura, família livre OFL) e rótulos/navegação/números em Inter. Parecida
+// com a de portais de dados e jornalismo digital, sem copiar fonte de ninguém.
+const sans = Inter({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["400", "500", "600", "700", "800"],
   variable: "--font-sans-news",
   display: "swap",
 });
 
-const display = Playfair_Display({
+const display = Newsreader({
   subsets: ["latin"],
-  weight: ["600", "700", "800", "900"],
+  weight: ["500", "600", "700", "800"],
   style: ["normal", "italic"],
   variable: "--font-display-news",
   display: "swap",
 });
 
-const serif = Source_Serif_4({
+const serif = Newsreader({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["400", "500", "600"],
   style: ["normal", "italic"],
   variable: "--font-serif-news",
   display: "swap",

@@ -4,15 +4,13 @@ import { AdSlot } from "@/components/AdSlot";
 import { ArticleCard } from "@/components/ArticleCard";
 import { CategoryChips } from "@/components/CategoryChips";
 import { Container } from "@/components/Container";
-import { CongressPromo } from "@/components/CongressPromo";
 import { ChecagemStrip } from "@/components/ChecagemStrip";
-import { EleicoesStrip } from "@/components/EleicoesStrip";
-import { CoverImage } from "@/components/CoverImage";
-import { NewsList } from "@/components/NewsRow";
+import { FerramentasGrid } from "@/components/FerramentasGrid";
+import { NewsCard } from "@/components/NewsCard";
 import { NewsTicker } from "@/components/NewsTicker";
 import { ScoreScaleNote } from "@/components/ScoreScaleNote";
 import { SectionHeading } from "@/components/SectionHeading";
-import { FeaturedList, Sidebar } from "@/components/Sidebar";
+import { Sidebar } from "@/components/Sidebar";
 import {
   type Article,
   type Category,
@@ -22,8 +20,8 @@ import {
   site,
   sortedArticles,
 } from "@/lib/articles";
-import { news, newsImageSeed, sortedNews, splitHomeNews } from "@/lib/news";
-import { absoluteUrl, formatDate, metaDescription, safeJsonLd, alternatesFor } from "@/lib/seo";
+import { news, sortedNews, splitHomeNews } from "@/lib/news";
+import { absoluteUrl, metaDescription, safeJsonLd, alternatesFor } from "@/lib/seo";
 
 const HOME_TITLE = "Política Diária: notícias de política, Congresso por dentro e livros para entender o poder";
 const HOME_DESCRIPTION = metaDescription(site.description);
@@ -95,8 +93,9 @@ export default function Home() {
 
   // Foco no Brasil: a abertura é sempre uma notícia do Brasil, e o mundo vem depois, em menor espaço.
   const { lead: leadNews, brazil, world } = splitHomeNews(sortedNews());
-  const todayNews = brazil.slice(0, 6);
-  const moreNews = brazil.slice(6, 12);
+  const heroCards = brazil.slice(0, 3);
+  const sideNews = brazil.slice(3, 9);
+  const moreNews = brazil.slice(9, 15);
   const worldNews = world.slice(0, 4);
 
   const itemListJsonLd = {
@@ -120,58 +119,45 @@ export default function Home() {
 
       <Container className="mt-4">
         <Link
-          href="/eleicoes/dia-da-eleicao"
-          className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 border-2 border-accent px-4 py-3 hover:bg-surface-2"
+          href="/eleicoes"
+          className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 border-y-2 border-foreground py-2 hover:text-accent"
         >
-          <span className="font-display text-lg font-bold leading-tight">2º turno, domingo 25/10: como votar e acompanhar a apuração</span>
-          <span className="label-mono text-accent">Dia da eleição, com dados do TSE</span>
+          <span className="label-mono">Eleições 2026</span>
+          <span className="text-sm font-semibold">Resultados do TSE, pesquisas e ranking de acerto dos institutos →</span>
         </Link>
       </Container>
 
-      {/* Hero: notícia de abertura + últimas + Congresso */}
+      {/* Hero no estilo de jornal: abertura com foto, secundárias com foto e coluna de últimas */}
       <Container as="section" className="pt-6 sm:pt-8">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-12 lg:gap-0">
           <div className="lg:col-span-8 lg:border-r lg:border-border lg:pr-8">
-            {leadNews && (
-              <article className="group border-b border-foreground pb-6">
-                <p className="label-mono text-accent">Em destaque · {formatDate(leadNews.date, "short")}</p>
-                <h2 className="mt-2 font-display text-[2rem] font-black leading-[1.08] tracking-tight sm:text-5xl">
-                  <Link href={`/noticias/${leadNews.slug}`} className="transition group-hover:text-accent">
-                    {leadNews.title}
-                  </Link>
-                </h2>
-                <p className="mt-3 max-w-3xl font-serif text-lg leading-relaxed text-muted sm:text-xl">
-                  {leadNews.summary}
-                </p>
-                {leadNews.imageQuery && (
-                  <Link href={`/noticias/${leadNews.slug}`} className="mt-5 block aspect-[16/9] w-full overflow-hidden">
-                    <CoverImage
-                      query={leadNews.imageQuery}
-                      seed={newsImageSeed(leadNews.slug)}
-                      alt={leadNews.title}
-                      priority
-                      showCredit={false}
-                      className="h-full w-full"
-                    />
-                  </Link>
-                )}
-              </article>
-            )}
-            {todayNews.length > 0 && (
-              <div className="mt-2">
-                <NewsList items={todayNews} columns={1} />
+            {leadNews && <NewsCard item={leadNews} variant="lead" priority />}
+            {heroCards.length > 0 && (
+              <div className="mt-8 grid gap-6 border-t border-foreground pt-6 sm:grid-cols-3">
+                {heroCards.map((n) => (
+                  <NewsCard key={n.slug} item={n} />
+                ))}
               </div>
             )}
           </div>
-          <div className="flex flex-col gap-6 lg:col-span-4 lg:pl-8">
-            <CongressPromo />
-            {topBooks[0] && <ArticleCard article={topBooks[0]} variant="horizontal" />}
-            <FeaturedList title="Comece por estes livros" exclude={[]} />
-          </div>
+          <aside className="lg:col-span-4 lg:pl-8" aria-label="Últimas notícias">
+            <p className="label-mono border-b-[3px] border-foreground pb-2">Últimas</p>
+            {sideNews.map((n) => (
+              <NewsCard key={n.slug} item={n} variant="side" />
+            ))}
+            <Link href="/noticias" className="mt-3 inline-block text-sm font-bold text-accent hover:underline">
+              Todas as notícias →
+            </Link>
+          </aside>
         </div>
       </Container>
 
-      <EleicoesStrip />
+      {/* Ferramentas políticas */}
+      <Container as="section" className="mt-12" aria-label="Ferramentas políticas">
+        <SectionHeading label="Ferramentas" title="Ferramentas políticas" href="/ferramentas" linkText="Ver todas" />
+        <FerramentasGrid />
+      </Container>
+
       <ChecagemStrip />
 
       <Container className="mt-8">
@@ -185,14 +171,22 @@ export default function Home() {
       {moreNews.length > 0 && (
         <Container as="section" className="mt-12">
           <SectionHeading label="Brasil" title="Mais notícias do Brasil" href="/noticias" linkText="Ver todas" />
-          <NewsList items={moreNews} columns={2} />
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {moreNews.map((n) => (
+              <NewsCard key={n.slug} item={n} />
+            ))}
+          </div>
         </Container>
       )}
 
       {worldNews.length > 0 && (
         <Container as="section" className="mt-12">
           <SectionHeading label="Mundo" title="Política internacional" href="/noticias" linkText="Ver mais" />
-          <NewsList items={worldNews} columns={2} />
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {worldNews.map((n) => (
+              <NewsCard key={n.slug} item={n} />
+            ))}
+          </div>
         </Container>
       )}
 
