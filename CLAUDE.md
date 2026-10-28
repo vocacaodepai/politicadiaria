@@ -183,8 +183,8 @@ do Congresso, `data/promessas/` na de promessas; `public/images/` na de Históri
 ## Identidade visual
 
 Estilo de **jornal** (referências: grandes sites de notícia). Nome "Política Diária" em serifa de alto
-contraste, sem ícone: manchetes em **Playfair Display**, texto corrido em **Source Serif 4**, rótulos,
-navegação e metadados em **Libre Franklin** (todas livres, via `next/font`). Cabeçalho com data, nome
+contraste, sem ícone: manchetes e texto corrido em **Newsreader**, rótulos,
+navegação e metadados em **Inter** (livres, via `next/font`). Cabeçalho com data, nome
 centralizado, filete duplo e seções em maiúsculas (`components/Header.tsx`); filetes grossos nos títulos
 de seção; cantos retos e sombras discretas (tokens `--radius-*` em `app/globals.css`). Monograma "PD" só
 para favicon e redes (`lib/logo.ts`; `node scripts/build-brand-assets.mjs` regenera `app/icon.svg` e

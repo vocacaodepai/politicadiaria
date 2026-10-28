@@ -115,6 +115,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: path === "/sobre" ? 0.4 : 0.3,
   }));
 
+  const ferramentas: Entry[] = [
+    { url: absoluteUrl("/ferramentas"), lastModified: newestArticle, changeFrequency: "weekly", priority: 0.7 },
+  ];
+
   const artigoPages: Entry[] = articles.map((a) => ({
     url: absoluteUrl(`/artigos/${a.slug}`),
     lastModified: articleModified(a),
@@ -177,6 +181,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...noticiaPages,
     ...congresso,
     ...eleicoes,
+    ...ferramentas,
     ...checagem,
     ...historiaPages,
     ...promessas,
