@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { type Article, categories } from "@/lib/articles";
 import { formatDate, readingTime } from "@/lib/seo";
-import { CoverImage } from "./CoverImage";
+import { ArticleCover } from "./ArticleCover";
 
 type Variant = "default" | "featured" | "horizontal" | "compact";
 
@@ -54,15 +54,12 @@ export function ArticleCard({
       >
         <Link href={href} className="absolute inset-0 z-10" aria-label={article.title} />
         <div className="aspect-[16/10] flex-1 sm:aspect-[16/9] lg:aspect-auto lg:min-h-[22rem]">
-          <CoverImage
-            query={article.imageQuery}
-            seed={article.seed}
+          <ArticleCover
+            article={article}
             alt={article.title}
             className="h-full w-full"
             priority={priority}
             sizes="(max-width: 1024px) 100vw, 66vw"
-            showCredit={false}
-            override={article.coverImage}
             label={label}
           />
         </div>
@@ -94,14 +91,11 @@ export function ArticleCard({
     return (
       <article className="group flex gap-3">
         <Link href={href} className="relative block h-16 w-24 shrink-0 overflow-hidden rounded-lg border border-border" tabIndex={-1} aria-hidden="true">
-          <CoverImage
-            query={article.imageQuery}
-            seed={article.seed}
+          <ArticleCover
+            article={article}
             alt=""
             className="h-full w-full"
             sizes="96px"
-            showCredit={false}
-            override={article.coverImage}
           />
         </Link>
         <div className="min-w-0">
@@ -121,14 +115,11 @@ export function ArticleCard({
     return (
       <article className="group grid grid-cols-[40%_1fr] overflow-hidden rounded-xl border border-border bg-surface card-hover">
         <Link href={href} className="relative block h-full min-h-[128px] overflow-hidden" tabIndex={-1} aria-hidden="true">
-          <CoverImage
-            query={article.imageQuery}
-            seed={article.seed}
+          <ArticleCover
+            article={article}
             alt=""
             className="h-full w-full"
             sizes="(max-width: 1024px) 40vw, 160px"
-            showCredit={false}
-            override={article.coverImage}
             label={label}
           />
         </Link>
@@ -156,16 +147,13 @@ export function ArticleCard({
       data-review-tool={article.review?.tool}
     >
       <Link href={href} className="relative block aspect-[16/10] w-full overflow-hidden" tabIndex={-1} aria-hidden="true">
-        <CoverImage
-          query={article.imageQuery}
-          seed={article.seed}
+        <ArticleCover
+          article={article}
           alt=""
           className="h-full w-full"
           priority={priority}
           sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-          showCredit={false}
           label={label}
-          override={article.coverImage}
         />
         <span className="label-mono absolute left-3 top-3 rounded-md bg-ink/70 px-2 py-1 text-white backdrop-blur-sm">
           {label}
