@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import { checagemPessoas } from "@/lib/checagens-meta";
 import { factCheckVerdicts, type FactCheckVerdict } from "@/lib/types";
 import { FactCheckCard, type FactCheckCardData } from "./FactCheckCard";
 
@@ -27,19 +28,30 @@ export function FactCheckBrowser({
 }) {
   const [verdict, setVerdict] = useState<FactCheckVerdict | "todos">("todos");
   const [query, setQuery] = useState("");
+  const [person, setPerson] = useState("");
 
-  const filtering = verdict !== "todos" || query.trim() !== "";
+  const filtering = verdict !== "todos" || query.trim() !== "" || person !== "";
+
+  const people = useMemo(
+    () =>
+      checagemPessoas
+        .map((p) => ({ ...p, n: items.filter((c) => c.people.includes(p.slug)).length }))
+        .filter((p) => p.n > 0)
+        .sort((a, b) => b.n - a.n),
+    [items],
+  );
 
   const visible = useMemo(() => {
     const terms = normalize(query).split(/\s+/).filter(Boolean);
     return items.filter((c) => {
       if (!filtering && c.slug === hideSlug) return false;
       if (verdict !== "todos" && c.verdict !== verdict) return false;
+      if (person && !c.people.includes(person)) return false;
       if (terms.length === 0) return true;
       const haystack = normalize(`${c.title} ${c.summary} ${c.claim} ${c.topic}`);
       return terms.every((t) => haystack.includes(t));
     });
-  }, [items, verdict, query, filtering, hideSlug]);
+  }, [items, verdict, query, person, filtering, hideSlug]);
 
   const chip = (active: boolean) =>
     `inline-flex items-center gap-1.5 border px-3 py-1.5 text-xs font-bold uppercase tracking-[0.06em] transition ${
@@ -84,6 +96,19 @@ export function FactCheckBrowser({
           />
         </div>
       </div>
+
+      {people.length > 0 && (
+        <div className="mt-4">
+          <p className="label-mono mb-2 text-muted">Filtrar por pessoa citada</p>
+          <div role="group" aria-label="Filtrar por pessoa citada" className="flex flex-wrap gap-2">
+            {people.map((p) => (
+              <button key={p.slug} type="button" className={chip(person === p.slug)} aria-pressed={person === p.slug} onClick={() => setPerson(person === p.slug ? "" : p.slug)}>
+                {p.nome} <span className="font-medium opacity-75">{p.n}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
 
       <p className="mt-4 text-xs text-muted" aria-live="polite">
         {filtering
