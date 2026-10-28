@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { checagemPath, checagemUpdated } from "@/lib/checagens-meta";
+import { checagemPath, checagemUpdated, pessoasCitadas } from "@/lib/checagens-meta";
 import { formatDate } from "@/lib/seo";
 import type { FactCheck } from "@/lib/types";
 import { VerdictSeal } from "./VerdictSeal";
@@ -9,6 +9,7 @@ export type FactCheckCardData = Pick<FactCheck, "slug" | "title" | "summary" | "
   updated: string;
   sourceCount: number;
   claim: string;
+  people: string[];
 };
 
 export function toCardData(c: FactCheck): FactCheckCardData {
@@ -22,6 +23,7 @@ export function toCardData(c: FactCheck): FactCheckCardData {
     updated: checagemUpdated(c),
     sourceCount: c.sources.length,
     claim: c.claim.text,
+    people: pessoasCitadas({ title: c.title, summary: c.summary, claim: c.claim.text }),
   };
 }
 

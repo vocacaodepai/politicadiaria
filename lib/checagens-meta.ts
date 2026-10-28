@@ -64,3 +64,21 @@ export function checagemPath(slug: string): string {
 export function checagemUpdated(c: Pick<FactCheck, "date" | "updated">): string {
   return c.updated && c.updated > c.date ? c.updated : c.date;
 }
+
+/** Pessoas por quem o leitor pode filtrar as checagens (a alegação cita a pessoa no título, no resumo ou no texto). */
+export const checagemPessoas = [
+  { slug: "lula", nome: "Lula", re: /\bLula\b/i },
+  { slug: "flavio-bolsonaro", nome: "Flávio Bolsonaro", re: /\bFl[aá]vio\b/i },
+  { slug: "jair-bolsonaro", nome: "Jair Bolsonaro", re: /\bJair Bolsonaro\b/i },
+  { slug: "alexandre-de-moraes", nome: "Alexandre de Moraes", re: /\bMoraes\b/i },
+  { slug: "renan-santos", nome: "Renan Santos", re: /\bRenan Santos\b/i },
+  { slug: "tarcisio", nome: "Tarcísio de Freitas", re: /\bTarc[ií]sio\b/i },
+  { slug: "michelle-bolsonaro", nome: "Michelle Bolsonaro", re: /\bMichelle\b/i },
+  { slug: "acm-neto", nome: "ACM Neto", re: /\bACM Neto\b/i },
+] as const;
+
+/** Slugs das pessoas citadas na checagem. */
+export function pessoasCitadas(c: { title: string; summary: string; claim: string }): string[] {
+  const text = `${c.title} ${c.summary} ${c.claim}`;
+  return checagemPessoas.filter((p) => p.re.test(text)).map((p) => p.slug);
+}
