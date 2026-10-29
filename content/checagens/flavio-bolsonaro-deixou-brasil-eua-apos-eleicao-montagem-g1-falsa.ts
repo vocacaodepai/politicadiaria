@@ -18,7 +18,7 @@ export const checagem: FactCheck = {
   },
   date: "2026-10-26",
   checkedAt: "2026-10-26T20:20:00-03:00",
-  updated: "2026-10-26",
+  updated: "2026-10-29",
   topic: "Eleições 2026",
   points: [
     {
@@ -78,6 +78,12 @@ export const checagem: FactCheck = {
     { date: "2026-09-14", text: "O Aos Fatos checa a primeira reutilização do vídeo, com a alegação de que o candidato viajou para fugir de uma investigação." },
     { date: "2026-10-25", text: "Segundo turno. A montagem que imita o g1 passa a circular durante a apuração." },
     { date: "2026-10-26", text: "Lupa e Boatos.org publicam as checagens." },
+  ],
+  corrections: [
+    {
+      date: "2026-10-29",
+      text: "Atualizado em 29/10/2026: esta checagem trata da alegação que circulou em 25 e 26/10, de que Flávio Bolsonaro já teria deixado o Brasil naquele momento, com base em uma montagem e em um vídeo de maio. Depois, em 27/10, a Direção Nacional de Migrações da Argentina confirmou que ele entrou no país por terra, e em 28/10 o g1 informou que ele chegou aos Estados Unidos. A conclusão sobre a montagem e sobre o vídeo de maio não muda. Veja a checagem sobre a foto gerada por IA com Donald Trump.",
+    },
   ],
   content: `
     <h2>O que as fontes dizem</h2>
