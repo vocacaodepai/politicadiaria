@@ -2,61 +2,64 @@
 // Para publicar, crie content/articles/<slug>.ts e rode `npm run check:content`.
 import type { Article } from "@/lib/types";
 
-import { article as i0 } from "./ciencia-e-politica-duas-vocacoes-max-weber-cultrix";
-import { article as i1 } from "./o-abolicionismo-joaquim-nabuco-best-seller";
-import { article as i2 } from "./a-marcha-da-insensatez-tuchman-best-seller";
-import { article as i3 } from "./depoimento-carlos-lacerda-nova-fronteira";
-import { article as i4 } from "./a-lei-bastiat-lvm-editora";
-import { article as i5 } from "./a-corrupcao-da-inteligencia-flavio-gordon-record";
-import { article as i6 } from "./stalin-paradoxos-do-poder-kotkin-objetiva";
-import { article as i7 } from "./o-poder-bertrand-de-jouvenel-peixoto-neto";
-import { article as i8 } from "./a-vinganca-da-geografia-kaplan-campus";
-import { article as i9 } from "./direitos-maximos-deveres-minimos-garschagen-record";
-import { article as i10 } from "./reagan-e-thatcher-richard-aldous-record";
-import { article as i11 } from "./conflito-de-visoes-sowell-e-realizacoes";
-import { article as i12 } from "./a-riqueza-das-nacoes-adam-smith-nova-fronteira";
-import { article as i13 } from "./do-espirito-das-leis-montesquieu-martin-claret";
-import { article as i14 } from "./a-politica-da-prudencia-russell-kirk-e-realizacoes";
-import { article as i15 } from "./a-constituicao-da-liberdade-hayek-avis-rara";
-import { article as i16 } from "./lideranca-seis-estudos-kissinger-objetiva";
-import { article as i17 } from "./acao-humana-mises-lvm";
-import { article as i18 } from "./juca-paranhos-barao-do-rio-branco-villafane-companhia-das-letras";
-import { article as i19 } from "./o-federalista-hamilton-madison-jay-lider";
-import { article as i20 } from "./o-opio-dos-intelectuais-raymond-aron-tres-estrelas";
-import { article as i21 } from "./livre-para-escolher-friedman-record";
-import { article as i22 } from "./sobre-a-china-kissinger-objetiva";
-import { article as i23 } from "./livro-negro-comunismo-courtois-bertrand-brasil";
-import { article as i24 } from "./sobre-a-liberdade-mill-companhia-das-letras";
-import { article as i25 } from "./d-pedro-ii-jose-murilo-de-carvalho-companhia-das-letras";
-import { article as i26 } from "./coronelismo-enxada-e-voto-victor-nunes-leal-companhia-das-letras";
-import { article as i27 } from "./leviata-hobbes-martin-claret";
-import { article as i28 } from "./1808-laurentino-gomes-planeta";
-import { article as i29 } from "./choque-de-civilizacoes-huntington-objetiva";
-import { article as i30 } from "./civilizacao-ocidente-x-oriente-niall-ferguson-critica";
-import { article as i31 } from "./economia-numa-unica-licao-hazlitt-lvm";
-import { article as i32 } from "./a-mentalidade-conservadora-russell-kirk-e-realizacoes";
-import { article as i33 } from "./maua-empresario-do-imperio-jorge-caldeira-companhia-das-letras";
-import { article as i34 } from "./os-intelectuais-e-a-sociedade-sowell-e-realizacoes";
-import { article as i35 } from "./capitalismo-e-liberdade-friedman-intrinseca";
-import { article as i36 } from "./a-lanterna-na-popa-roberto-campos-topbooks";
-import { article as i37 } from "./dois-tratados-sobre-o-governo-locke-martins-fontes";
-import { article as i38 } from "./como-ser-um-conservador-scruton-record";
-import { article as i39 } from "./narloch-guia-politicamente-incorreto-historia-brasil-leya";
-import { article as i40 } from "./fukuyama-o-fim-da-historia-rocco";
-import { article as i41 } from "./mises-as-seis-licoes-lvm";
-import { article as i42 } from "./churchill-andrew-roberts-companhia-das-letras";
-import { article as i43 } from "./pare-de-acreditar-no-governo-garschagen-record";
-import { article as i44 } from "./a-democracia-na-america-tocqueville-edipro";
-import { article as i45 } from "./reflexoes-revolucao-franca-burke-vide";
-import { article as i46 } from "./ordem-mundial-kissinger-objetiva";
-import { article as i47 } from "./o-caminho-da-servidao-hayek-lvm";
-import { article as i48 } from "./getulio-lira-neto-biografia-vargas";
-import { article as i49 } from "./como-as-democracias-morrem-levitsky-ziblatt";
-import { article as i50 } from "./por-que-as-nacoes-fracassam-acemoglu";
-import { article as i51 } from "./o-principe-maquiavel-penguin-companhia";
-import { article as i52 } from "./raizes-do-brasil-sergio-buarque";
-import { article as i53 } from "./prisioneiros-da-geografia-tim-marshall";
-import { article as i54 } from "./os-donos-do-poder-faoro-resenha";
+import { article as i0 } from "./diplomacia-kissinger-saraiva";
+import { article as i1 } from "./fatos-e-falacias-da-economia-sowell-record";
+import { article as i2 } from "./a-rebeliao-das-massas-ortega-y-gasset-vide";
+import { article as i3 } from "./ciencia-e-politica-duas-vocacoes-max-weber-cultrix";
+import { article as i4 } from "./o-abolicionismo-joaquim-nabuco-best-seller";
+import { article as i5 } from "./a-marcha-da-insensatez-tuchman-best-seller";
+import { article as i6 } from "./depoimento-carlos-lacerda-nova-fronteira";
+import { article as i7 } from "./a-lei-bastiat-lvm-editora";
+import { article as i8 } from "./a-corrupcao-da-inteligencia-flavio-gordon-record";
+import { article as i9 } from "./stalin-paradoxos-do-poder-kotkin-objetiva";
+import { article as i10 } from "./o-poder-bertrand-de-jouvenel-peixoto-neto";
+import { article as i11 } from "./a-vinganca-da-geografia-kaplan-campus";
+import { article as i12 } from "./direitos-maximos-deveres-minimos-garschagen-record";
+import { article as i13 } from "./reagan-e-thatcher-richard-aldous-record";
+import { article as i14 } from "./conflito-de-visoes-sowell-e-realizacoes";
+import { article as i15 } from "./a-riqueza-das-nacoes-adam-smith-nova-fronteira";
+import { article as i16 } from "./do-espirito-das-leis-montesquieu-martin-claret";
+import { article as i17 } from "./a-politica-da-prudencia-russell-kirk-e-realizacoes";
+import { article as i18 } from "./a-constituicao-da-liberdade-hayek-avis-rara";
+import { article as i19 } from "./lideranca-seis-estudos-kissinger-objetiva";
+import { article as i20 } from "./acao-humana-mises-lvm";
+import { article as i21 } from "./juca-paranhos-barao-do-rio-branco-villafane-companhia-das-letras";
+import { article as i22 } from "./o-federalista-hamilton-madison-jay-lider";
+import { article as i23 } from "./o-opio-dos-intelectuais-raymond-aron-tres-estrelas";
+import { article as i24 } from "./livre-para-escolher-friedman-record";
+import { article as i25 } from "./sobre-a-china-kissinger-objetiva";
+import { article as i26 } from "./livro-negro-comunismo-courtois-bertrand-brasil";
+import { article as i27 } from "./sobre-a-liberdade-mill-companhia-das-letras";
+import { article as i28 } from "./d-pedro-ii-jose-murilo-de-carvalho-companhia-das-letras";
+import { article as i29 } from "./coronelismo-enxada-e-voto-victor-nunes-leal-companhia-das-letras";
+import { article as i30 } from "./leviata-hobbes-martin-claret";
+import { article as i31 } from "./1808-laurentino-gomes-planeta";
+import { article as i32 } from "./choque-de-civilizacoes-huntington-objetiva";
+import { article as i33 } from "./civilizacao-ocidente-x-oriente-niall-ferguson-critica";
+import { article as i34 } from "./economia-numa-unica-licao-hazlitt-lvm";
+import { article as i35 } from "./a-mentalidade-conservadora-russell-kirk-e-realizacoes";
+import { article as i36 } from "./maua-empresario-do-imperio-jorge-caldeira-companhia-das-letras";
+import { article as i37 } from "./os-intelectuais-e-a-sociedade-sowell-e-realizacoes";
+import { article as i38 } from "./capitalismo-e-liberdade-friedman-intrinseca";
+import { article as i39 } from "./a-lanterna-na-popa-roberto-campos-topbooks";
+import { article as i40 } from "./dois-tratados-sobre-o-governo-locke-martins-fontes";
+import { article as i41 } from "./como-ser-um-conservador-scruton-record";
+import { article as i42 } from "./narloch-guia-politicamente-incorreto-historia-brasil-leya";
+import { article as i43 } from "./fukuyama-o-fim-da-historia-rocco";
+import { article as i44 } from "./mises-as-seis-licoes-lvm";
+import { article as i45 } from "./churchill-andrew-roberts-companhia-das-letras";
+import { article as i46 } from "./pare-de-acreditar-no-governo-garschagen-record";
+import { article as i47 } from "./a-democracia-na-america-tocqueville-edipro";
+import { article as i48 } from "./reflexoes-revolucao-franca-burke-vide";
+import { article as i49 } from "./ordem-mundial-kissinger-objetiva";
+import { article as i50 } from "./o-caminho-da-servidao-hayek-lvm";
+import { article as i51 } from "./getulio-lira-neto-biografia-vargas";
+import { article as i52 } from "./como-as-democracias-morrem-levitsky-ziblatt";
+import { article as i53 } from "./por-que-as-nacoes-fracassam-acemoglu";
+import { article as i54 } from "./o-principe-maquiavel-penguin-companhia";
+import { article as i55 } from "./raizes-do-brasil-sergio-buarque";
+import { article as i56 } from "./prisioneiros-da-geografia-tim-marshall";
+import { article as i57 } from "./os-donos-do-poder-faoro-resenha";
 
 export const articles: Article[] = [
   i0,
@@ -114,4 +117,7 @@ export const articles: Article[] = [
   i52,
   i53,
   i54,
+  i55,
+  i56,
+  i57,
 ];
