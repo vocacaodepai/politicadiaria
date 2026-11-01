@@ -1,0 +1,42 @@
+import type { NewsItem } from "@/lib/types";
+
+export const item: NewsItem = {
+  slug: "eua-eleicoes-meio-de-mandato-terca-brasil",
+  title: "EUA votam na terça no meio do mandato de Trump: o que está em jogo",
+  summary:
+    "Democratas lideram as pesquisas para Câmara e Senado em 3 de novembro. O governo Lula vê o resultado como divisor de águas na relação com Washington.",
+  author: "Equipe Política Diária",
+  sourceName: "Agência Brasil (Reuters)",
+  sourceUrl:
+    "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/papa-leao-torna-se-primeiro-pontifice-votar-nas-eleicoes-nos-eua",
+  date: "2026-11-01",
+  publishedAt: "2026-11-01T05:23:49-03:00",
+  topic: "americas",
+  imageQuery: "United States Capitol building",
+  content: `
+    <p>Os Estados Unidos realizam na terça-feira (3) as eleições de meio de mandato, que renovam toda a Câmara dos Representantes e parte do Senado no segundo ano do segundo governo de Donald Trump. A véspera ganhou um detalhe incomum: segundo o Vaticano, o papa Leão XIV votou pelo correio, a partir de Chicago, o que a Santa Sé chamou de primeira vez para um pontífice, como informou a <a href="https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/papa-leao-torna-se-primeiro-pontifice-votar-nas-eleicoes-nos-eua" target="_blank" rel="noopener noreferrer nofollow">Agência Brasil</a>, em texto da Reuters. O Vaticano não disse em quem ele votou.</p>
+    <p>A mesma reportagem afirma que a queda de popularidade de Trump prejudica as chances dos republicanos de manterem a maioria nas duas casas, em meio à insatisfação com o custo de vida e com a guerra contra o Irã. Para o leitor brasileiro, o interesse vai além da curiosidade: o governo Lula, segundo a cobertura do g1 já publicada aqui, trata o resultado como um possível divisor de águas na relação entre os dois países.</p>
+
+    <h2>O que as urnas americanas decidem na terça</h2>
+    <p>Estão em disputa as 435 cadeiras da Câmara e cerca de 35 das 100 vagas do Senado, além de governos estaduais. No Senado, os republicanos têm hoje 53 cadeiras e os democratas, 47, segundo o levantamento do <a href="https://www.yahoo.com/news/politics/article/the-2026-midterms-are-next-week-which-party-has-a-better-chance-of-winning-heres-what-the-latest-polls-say-155319308.html" target="_blank" rel="noopener noreferrer nofollow">Yahoo News</a>, atualizado no sábado (31). Para controlar a casa, os democratas precisam chegar a 51 cadeiras; em caso de empate em 50 a 50, o voto de desempate caberia ao vice-presidente, JD Vance.</p>
+    <p>Segundo a mesma publicação, uma Câmara em mãos democratas poderia travar a agenda do presidente, abrir investigações sobre o governo e, em tese, reabrir a discussão sobre um novo processo de impeachment. Um Senado democrata teria poder para barrar indicações de Trump à Suprema Corte. São cenários descritos pelo veículo, não resultados dados, e dependem de uma votação que ainda não aconteceu.</p>
+    <p>Boa parte da disputa se dá em estados onde a margem é curta. O Yahoo cita, entre as corridas observadas, Maine, Michigan, Ohio, Texas, Geórgia, Carolina do Norte, Nova Hampshire, Kansas, Iowa, Nebraska, Carolina do Sul e Alasca, com resultados de pesquisas que variam de um estado para outro. Em alguns deles, como o Texas, uma pesquisa isolada chegou a mostrar o candidato republicano à frente, enquanto a maioria indicava vantagem democrata.</p>
+
+    <h2>O que dizem as pesquisas</h2>
+    <p>Na pesquisa genérica de voto para o Congresso, os democratas lideram por quase 9 pontos na média, margem que, segundo o Yahoo, se mantém há um mês. A reportagem compara com 2018, quando a vantagem democrata nesta altura era de 7,2 pontos e o partido acabou ganhando 41 cadeiras na Câmara, e com 2022, quando os republicanos tinham 2,7 pontos de vantagem.</p>
+    <p>A aprovação de Trump aparece perto do piso do mandato. Pela média do Silver Bulletin citada pelo Yahoo, 37,3% aprovam e 59,9% desaprovam, saldo de menos 22,6 pontos. Os institutos medem de modo diferente: o saldo é de menos 26 no levantamento do New York Times com o Siena e de menos 35 nos da CNN com a SSRS e da Reuters com o Ipsos. Na avaliação do governo sobre a inflação, 25% aprovam e 70% desaprovam.</p>
+    <p>A própria publicação faz a ressalva que vale para qualquer pesquisa: são retratos do momento e já erraram antes. Os democratas aparecem como favoritos, mas o veículo acrescenta que isso vale "a menos que as pesquisas estejam erradas". Pesquisa não é resultado, e a apuração oficial é feita estado a estado pelas autoridades eleitorais americanas.</p>
+
+    <h2>Por que isso importa</h2>
+    <p>O primeiro efeito é interno aos Estados Unidos: a composição do Congresso define o que a Casa Branca consegue aprovar, investigar e confirmar nos dois últimos anos do mandato. É esse o argumento central da cobertura americana, que trata a eleição como um referendo sobre a gestão de Trump, e não como uma escolha entre propostas específicas.</p>
+    <p>O segundo efeito alcança o Brasil. As relações entre Brasília e Washington passaram por atritos nas últimas semanas. Trump disse a jornalistas que falará com o presidente reeleito, mas chamou a eleição brasileira de "vergonhosa", sem apresentar provas, como mostra a notícia sobre a <a href="/noticias/trump-falara-lula-eleicao-vergonhosa-vieira-g20">fala sobre Lula e o G20</a>. O resultado oficial, proclamado pelo Tribunal Superior Eleitoral, está no painel <a href="/eleicoes">Eleições 2026</a>, e o TSE já havia afirmado que não houve irregularidades, conforme a notícia sobre a <a href="/noticias/trump-eleicao-brasil-fraudada-prorrogacao">primeira declaração de Trump</a>.</p>
+    <p>O terceiro ponto é a atuação do Congresso americano em temas que tocam o Brasil. Parlamentares democratas já criticaram a concessão de visto ao senador Flávio Bolsonaro e cobraram explicações da Casa Branca, como relata a notícia sobre as <a href="/noticias/democratas-eua-criticam-visto-flavio-bolsonaro">críticas dos democratas ao visto</a>. A composição das duas casas pode alterar o peso dessas cobranças, embora a política externa continue sob controle do Executivo. Em outra frente, o Departamento de Estado negou ter ajudado na saída do senador do país, versão registrada na notícia sobre a <a href="/noticias/rubio-nega-ajuda-eua-saida-flavio">fala de Rubio</a>.</p>
+    <p>Também há o lado comercial. A relação bilateral envolve tarifas e minerais críticos, assuntos que passam pelo Executivo americano, mas que o Congresso pode influenciar por meio de audiências, resoluções e do orçamento. Um Legislativo em oposição ao presidente tende a ampliar o número de audiências sobre esses temas, o que é uma expectativa de analistas, não um fato já ocorrido.</p>
+
+    <h2>Calendário e próximos passos</h2>
+    <p>A votação ocorre na terça-feira (3), e a apuração começa assim que as urnas fecham nos diferentes fusos do país. Como parte dos votos é enviada pelo correio, como fez o papa, a contagem em alguns estados pode levar dias, e disputas muito apertadas só se definem depois. Por isso, o resultado da noite de terça pode ser parcial para o Senado, que depende de corridas decididas por poucos votos.</p>
+    <p>Para o Brasil, o primeiro marco depois da eleição é a conversa entre Trump e Lula, ainda sem data. O segundo é a Cúpula do G20, prevista para dezembro, na Flórida, onde o governo espera um encontro entre os dois presidentes, segundo a cobertura citada acima. O terceiro é o andamento do inquérito contra Flávio Bolsonaro no Supremo Tribunal Federal, no qual ele é investigado, o que não significa que seja réu nem condenado.</p>
+    <p>A Reuters informa ainda que o papa deve viajar à América do Sul na próxima semana, e que ele passou por cirurgia em 13 de outubro para retirar o lobo inferior do pulmão direito, sem necessidade de tratamento adicional, segundo médicos. Esses dados são do Vaticano e da agência, e não têm relação direta com a disputa, mas ajudam a situar a atenção internacional sobre a eleição.</p>
+    <p>Em síntese de método: este texto separa o que é fato verificável, como a data, o número de cadeiras e a composição atual do Senado, do que é projeção de pesquisa ou avaliação de terceiros. A cobertura da relação entre Brasil e Estados Unidos continua nas <a href="/noticias">notícias do site</a>, e o resultado das urnas americanas será noticiado quando houver apuração divulgada pelas autoridades eleitorais.</p>
+  `,
+};
