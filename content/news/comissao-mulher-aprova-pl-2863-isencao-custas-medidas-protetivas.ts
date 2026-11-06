@@ -10,7 +10,7 @@ export const item: NewsItem = {
   sourceUrl:
     "https://www.camara.leg.br/noticias/1316669-comissao-aprova-dispensa-de-custas-processuais-para-medidas-protetivas-da-lei-maria-da-penha",
   date: "2026-11-06",
-  publishedAt: "2026-11-06T09:28:00-03:00",
+  publishedAt: "2026-11-06T09:27:00-03:00",
   topic: "congresso",
   imageQuery: "Câmara dos Deputados plenário Brasília",
   content: `
