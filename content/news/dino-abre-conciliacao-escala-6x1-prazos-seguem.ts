@@ -10,7 +10,7 @@ export const item: NewsItem = {
   sourceUrl:
     "https://www.cnnbrasil.com.br/politica/stf-nao-quer-substituir-congresso-e-governo-em-debate-sobre-6x1-diz-dino/",
   date: "2026-11-10",
-  publishedAt: "2026-11-10T16:58:00-03:00",
+  publishedAt: "2026-11-10T16:27:00-03:00",
   topic: "justica",
   imageQuery: "Supremo Tribunal Federal building",
   content: `

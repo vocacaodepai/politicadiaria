@@ -10,7 +10,7 @@ export const item: NewsItem = {
   sourceUrl:
     "https://www.gov.br/saude/pt-br/assuntos/noticias/2026/novembro/brasil-anuncia-marco-de-financiamento-do-plano-de-acao-em-saude-de-belem-na-cop31",
   date: "2026-11-10",
-  publishedAt: "2026-11-10T17:12:00-03:00",
+  publishedAt: "2026-11-10T16:28:00-03:00",
   topic: "mundo",
   imageQuery: "Antalya Turkey",
   content: `
