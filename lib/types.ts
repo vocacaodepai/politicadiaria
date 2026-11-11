@@ -66,23 +66,31 @@ export type Category = (typeof categories)[number]["slug"];
  * É exibida sempre dentro de um link de afiliado para a Amazon (tag politicadiaria-20).
  */
 export type ProductImage = {
-  /** https, domínio m.media-amazon.com ou covers.openlibrary.org. */
+  /** https, domínio m.media-amazon.com ou covers.openlibrary.org (Shopee: cf.shopee.com.br). */
   url: string;
   /** Texto alternativo descritivo, ex.: "Capa do livro X, de Y, edição Z 2023". */
   alt: string;
-  /** ASIN da Amazon Brasil (para livro, o ISBN-10); monta o link /dp/<asin>?tag=... */
+  /** ASIN da Amazon Brasil (para livro, o ISBN-10); monta o link /dp/<asin>?tag=... Na Shopee guarda o ISBN-10 só para a ficha. */
   asin: string;
   /** Dimensões reais da imagem (reservam o espaço e evitam salto de layout). */
   width: number;
   height: number;
   /** De onde veio a imagem. */
-  source: "amazon" | "openlibrary";
+  source: "amazon" | "openlibrary" | "shopee";
   /** Data em que a URL foi aberta e conferida (AAAA-MM-DD). */
   verifiedAt: string;
 };
 
+/** Loja do link de afiliado da resenha. Ausente = "amazon". */
+export type ReviewStore = "amazon" | "shopee";
+
 /** Dados estruturados da resenha de um livro (artigos com kind: "review"). */
 export type ReviewData = {
+  /**
+   * Loja do link de afiliado. Ausente = "amazon" (todos os artigos antigos).
+   * "shopee": `url` é o link curto de afiliado (s.shopee.com.br) e `productImage` vem de cf.shopee.com.br.
+   */
+  store?: ReviewStore;
   /** Título do livro avaliado. */
   tool: string;
   /** Autor ou autores do livro. */
@@ -101,11 +109,11 @@ export type ReviewData = {
   price: string;
   /** Para quem o livro é ideal, em uma frase. */
   bestFor: string;
-  /** Link de afiliado da Amazon Brasil com a tag do site (https). */
+  /** Link de afiliado: Amazon Brasil com a tag do site (https) ou, em store "shopee", link curto s.shopee.com.br. */
   url: string;
   /** Se há links de afiliado no artigo (exibe o aviso). Padrão: true nas resenhas. */
   affiliate?: boolean;
-  /** Texto do botão principal. Padrão: "Ver o livro na Amazon". */
+  /** Texto do botão principal. Padrão: "Ver o livro na Amazon" (ou "... na Shopee" em store "shopee"). */
   ctaLabel?: string;
   /** Foto real do livro (hotlink, ver `ProductImage`). Opcional: sem ela, vale a capa por imageQuery/gradiente. */
   productImage?: ProductImage;

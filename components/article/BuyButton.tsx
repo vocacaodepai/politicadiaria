@@ -1,4 +1,4 @@
-/** Botão de compra (afiliado Amazon): rel e target fixos, igual em todas as caixas da resenha. */
+/** Botão de compra (link de afiliado, Amazon ou Shopee): rel e target fixos, igual em todas as caixas da resenha. */
 export function BuyButton({
   href,
   label,

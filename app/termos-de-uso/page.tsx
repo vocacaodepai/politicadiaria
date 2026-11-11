@@ -48,7 +48,7 @@ export default function TermosDeUsoPage() {
       </p>
       <p>
         Valores, números e prazos são os observados na data de publicação ou de atualização e podem
-        mudar sem aviso. Preços de livros na Amazon variam, e o valor exato aparece na página da
+        mudar sem aviso. Preços de livros na Amazon e na Shopee variam, e o valor exato aparece na página da
         loja. Confirme sempre na fonte oficial antes de tomar uma decisão.
       </p>
 
@@ -89,7 +89,7 @@ export default function TermosDeUsoPage() {
       <h2 id="publicidade-e-afiliados">5. Publicidade e links de afiliado</h2>
       <p>
         O site pode exibir anúncios de terceiros, em especial do Google AdSense, identificados como
-        publicidade. Também pode conter links de afiliado da Amazon nas resenhas de livros: se você
+        publicidade. Também pode conter links de afiliado da Amazon e da Shopee nas resenhas de livros: se você
         comprar por um deles, o site pode receber uma comissão, sem custo adicional para você. Esses
         links são sinalizados na página e não influenciam nota nem opinião. As regras completas estão em{" "}
         <Link href="/publicidade-e-afiliados">publicidade e afiliados</Link>. Os anunciantes são

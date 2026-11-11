@@ -28,6 +28,7 @@ import { TocDetails } from "@/components/article/TocDetails";
 import { faqJsonLd, parseOffer } from "@/components/article/schema";
 import { articles, getArticleBySlug, getCategory, getNextArticle, getRelatedArticles, site } from "@/lib/articles";
 import { author } from "@/lib/author";
+import { reviewStore } from "@/lib/review";
 import { prepareArticleHtml, tocH2 } from "@/lib/html";
 import { absoluteUrl, breadcrumbJsonLd, formatDate, metaDescription, readingTime, alternatesFor } from "@/lib/seo";
 
@@ -316,7 +317,7 @@ export default async function ArticlePage({ params }: { params: Params }) {
                   <ReviewVerdict review={review} />
                 </div>
                 <ReviewMethod review={review} />
-                <ReviewDisclosure affiliate={review.affiliate} />
+                <ReviewDisclosure affiliate={review.affiliate} store={reviewStore(review)} />
               </div>
             )}
 

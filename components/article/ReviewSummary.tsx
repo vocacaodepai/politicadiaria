@@ -1,4 +1,4 @@
-import { productHref } from "@/lib/review";
+import { ctaLabel, productHref } from "@/lib/review";
 import type { ReviewData } from "@/lib/types";
 import { BuyButton } from "./BuyButton";
 
@@ -20,7 +20,7 @@ export function ReviewSummary({ points, review }: { points?: string[]; review: R
           </li>
         ))}
       </ul>
-      <BuyButton href={productHref(review)} label={review.ctaLabel ?? "Ver o livro na Amazon"} className="mt-5" />
+      <BuyButton href={productHref(review)} label={ctaLabel(review)} className="mt-5" />
     </section>
   );
 }

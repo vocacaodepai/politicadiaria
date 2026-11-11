@@ -222,8 +222,8 @@ export default function PoliticaEditorialPage() {
 
       <h2 id="independencia">11. Independência editorial</h2>
       <p>
-        O site se sustenta com anúncios do Google AdSense e com links de afiliado da Amazon, só nas
-        resenhas de livros. Anunciante não escolhe pauta, não lê texto antes da publicação e não
+        O site se sustenta com anúncios do Google AdSense e com links de afiliado da Amazon e da
+        Shopee, só nas resenhas de livros. Anunciante não escolhe pauta, não lê texto antes da publicação e não
         recebe nota ou menção em troca de investimento. Partido, governo, candidato ou parlamentar
         não pagam por conteúdo nem por posição no site. As regras completas estão em{" "}
         <Link href="/publicidade-e-afiliados">publicidade e afiliados</Link>.
@@ -249,8 +249,8 @@ export default function PoliticaEditorialPage() {
       <h2 id="conflitos">14. Conflitos de interesse</h2>
       <p>
         A redação não tem emprego ou contrato com partidos, governos, parlamentares, editoras ou
-        autores dos livros resenhados. O único vínculo comercial é o programa de afiliados da Amazon,
-        descrito em publicidade e afiliados. Se isso mudar, o conflito é declarado nesta página e nos
+        autores dos livros resenhados. Os únicos vínculos comerciais são os programas de afiliados da Amazon e da Shopee,
+        descritos em publicidade e afiliados. Se isso mudar, o conflito é declarado nesta página e nos
         textos afetados.
       </p>
 

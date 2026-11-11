@@ -18,7 +18,7 @@ export function ScoreScaleNote() {
         Nota de 0 a 10, com casa decimal de propósito
       </h2>
       <p className="mt-2 max-w-3xl text-sm leading-relaxed text-muted">
-        A nota não é a avaliação de estrelas da Amazon: é a nossa análise editorial do livro, considerando
+        A nota não é a avaliação de estrelas da Amazon, da Shopee ou de outra loja: é a nossa análise editorial do livro, considerando
         clareza, profundidade, rigor das fontes, atualidade e fluidez de leitura. A casa decimal (ex.: 7,8) é
         proposital: mostra a diferença entre dois livros que, arredondados, pareceriam iguais. A nota avalia a
         qualidade da obra, nunca concorda ou discorda da posição política do autor.

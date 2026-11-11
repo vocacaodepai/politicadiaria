@@ -1,4 +1,4 @@
-import { productHref, reviewVerdict, sentence } from "@/lib/review";
+import { ctaLabel, productHref, reviewVerdict, sentence } from "@/lib/review";
 import type { ReviewData } from "@/lib/types";
 import { BuyButton } from "./BuyButton";
 import { ProductImage } from "./ProductImage";
@@ -39,7 +39,7 @@ export function ReviewFinal({ review }: { review: ReviewData }) {
               <strong>Principal ressalva:</strong> {sentence(caveat)}
             </p>
           )}
-          <BuyButton href={href} label={review.ctaLabel ?? "Ver o livro na Amazon"} className="mt-4" />
+          <BuyButton href={href} label={ctaLabel(review)} className="mt-4" />
         </div>
       </div>
     </section>

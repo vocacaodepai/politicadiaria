@@ -11,6 +11,7 @@
     "check:promessas": "node scripts/check-promessas.mjs",
     "content:index": "node scripts/build-content-index.mjs",
     "test:cpf": "node --test scripts/lib/cpf.test.mjs",
+    "test:shopee": "node --test scripts/lib/shopee.test.mjs",
     "check:content": "node scripts/build-content-index.mjs && node scripts/check-content.mjs",
     "lint": "eslint && npm run check:content",
     "content:new": "node scripts/new-content.mjs",

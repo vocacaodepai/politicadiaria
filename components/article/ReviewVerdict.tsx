@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { CRITERION_WEIGHT_PCT, productHref } from "@/lib/review";
-import type { ReviewData } from "@/lib/types";
+import { CRITERION_WEIGHT_PCT, ctaLabel, productHref, reviewStore, storeName } from "@/lib/review";
+import type { ReviewData, ReviewStore } from "@/lib/types";
 import { BuyButton } from "./BuyButton";
 import { ProductImage } from "./ProductImage";
 
@@ -27,7 +27,7 @@ export function ReviewVerdict({ review }: { review: ReviewData }) {
     ...(review.publisher ? ([["Editora", review.publisher]] as [string, string][]) : []),
     ...(review.year ? ([["Ano da edição", String(review.year)]] as [string, string][]) : []),
     ...(review.pages ? ([["Páginas", String(review.pages)]] as [string, string][]) : []),
-    ...(review.productImage ? ([["ISBN-10 (ASIN)", review.productImage.asin]] as [string, string][]) : []),
+    ...(review.productImage ? ([[reviewStore(review) === "shopee" ? "ISBN-10" : "ISBN-10 (ASIN)", review.productImage.asin]] as [string, string][]) : []),
   ];
   const scoreText = review.score.toFixed(1);
   return (
@@ -119,7 +119,7 @@ export function ReviewVerdict({ review }: { review: ReviewData }) {
             <dt className="label-mono self-start pt-0.5 text-muted">Preço</dt>
             <dd className="font-mono text-sm font-semibold">{review.price}</dd>
           </dl>
-          <BuyButton href={href} label={review.ctaLabel ?? "Ver o livro na Amazon"} />
+          <BuyButton href={href} label={ctaLabel(review)} />
         </div>
       </div>
       <p className="flex flex-wrap gap-x-4 gap-y-1 border-t border-border bg-surface-2 px-6 py-3 font-mono text-[11px] text-muted sm:px-8">
@@ -131,7 +131,7 @@ export function ReviewVerdict({ review }: { review: ReviewData }) {
 }
 
 /** Aviso curto de transparência exibido em todo review. */
-export function ReviewDisclosure({ affiliate = false }: { affiliate?: boolean }) {
+export function ReviewDisclosure({ affiliate = false, store = "amazon" }: { affiliate?: boolean; store?: ReviewStore }) {
   return (
     <aside
       aria-label="Transparência"
@@ -143,6 +143,12 @@ export function ReviewDisclosure({ affiliate = false }: { affiliate?: boolean })
         {affiliate
           ? "Alguns links desta página são de afiliado. Se você comprar por eles, a Política Diária pode receber uma comissão, sem custo extra para você, e isso não muda a nota nem a opinião. "
           : "Não há links de afiliado nesta página. "}
+        {affiliate && store === "shopee" ? (
+          <>
+            O link leva a um anúncio de vendedor da {storeName(store)}: preço, edição e disponibilidade variam por
+            vendedor, e a política de troca e a entrega são as do vendedor e da loja.{" "}
+          </>
+        ) : null}
         Saiba mais em{" "}
         <Link href="/publicidade-e-afiliados" className="font-medium text-accent hover:underline">
           publicidade e afiliados
