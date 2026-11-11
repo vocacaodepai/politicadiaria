@@ -655,3 +655,17 @@ h3 {
   outline: 2px solid var(--ring);
   outline-offset: 3px;
 }
+
+/* Rostos no plenário: foto dentro de um fundo na cor do partido */
+.plen-svg-ghost .plen-dot {
+  fill: transparent;
+}
+.plen-face {
+  background: hsl(var(--plen-h) var(--plen-s) var(--plen-l));
+  border: max(2px, 0.18em) solid hsl(var(--plen-h) var(--plen-s) var(--plen-l));
+  box-shadow: 0 0 0 1px var(--background);
+}
+.plen-face[data-off] {
+  opacity: 0.15;
+  filter: grayscale(1);
+}

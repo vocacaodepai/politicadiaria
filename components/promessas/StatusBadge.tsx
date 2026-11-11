@@ -22,3 +22,13 @@ export function StatusBadge({ status, label, className = "" }: { status: Promess
     </span>
   );
 }
+
+/** Cor de cada status nas barras e nos cartões do painel (sempre acompanhada do rótulo escrito). */
+export const STATUS_COLOR: Record<PromessaStatus, string> = {
+  prometida: "#64748B",
+  "em tramitacao": "#1E40AF",
+  "em andamento": "#A16207",
+  entregue: "#15803D",
+  contrariada: "#B91C1C",
+  "sem dados": "#A8A29E",
+};

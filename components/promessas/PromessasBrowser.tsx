@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { StatusBadge } from "./StatusBadge";
+import { STATUS_COLOR, StatusBadge } from "./StatusBadge";
 import type { PromessaStatus } from "@/lib/promessas";
 
 export type PromessaCardData = {
@@ -142,9 +142,9 @@ export function PromessasBrowser({
       </p>
 
       {visible.length > 0 ? (
-        <ul className="mt-3 grid gap-x-8 gap-y-0 md:grid-cols-2">
+        <ul className="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {visible.map((p) => (
-            <li key={p.id} className="border-b border-border py-4">
+            <li key={p.id} className="flex flex-col border border-border border-t-4 bg-surface p-4 transition hover:shadow-md" style={{ borderTopColor: STATUS_COLOR[p.status] }}>
               <div className="flex flex-wrap items-center gap-2">
                 <StatusBadge status={p.status} label={p.statusText} />
                 {p.origem === "campanha" && (
@@ -156,7 +156,7 @@ export function PromessasBrowser({
                   {p.titulo}
                 </Link>
               </h3>
-              <p className="mt-1 text-sm leading-relaxed text-muted">{p.texto.length > 190 ? `${p.texto.slice(0, 187).replace(/[\s,;:.]+$/, "")}...` : p.texto}</p>
+              <p className="mt-1 text-sm leading-relaxed text-muted">{p.texto.length > 130 ? `${p.texto.slice(0, 127).replace(/[\s,;:.]+$/, "")}...` : p.texto}</p>
               <p className="label-mono mt-2 text-[11px] text-muted">
                 {p.areaLabel} | {p.id}
               </p>
