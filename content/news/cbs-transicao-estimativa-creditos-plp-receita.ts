@@ -1,0 +1,54 @@
+import type { NewsItem } from "@/lib/types";
+
+export const item: NewsItem = {
+  slug: "cbs-transicao-estimativa-creditos-plp-receita",
+  title: "Receita propõe estimar créditos da CBS na primeira apuração, em 2027",
+  summary:
+    "O secretário Robinson Barreirinhas disse que o governo enviará ao Congresso projeto de lei complementar com regra opcional de transição para a CBS em 2027.",
+  author: "Equipe Política Diária",
+  sourceName: "Agência Brasil",
+  sourceUrl: "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-apresentara-texto-que-facilita-adaptacao-a-reforma-tributaria",
+  date: "2026-11-11",
+  publishedAt: "2026-11-11T15:26:53-03:00",
+  topic: "economia",
+  imageQuery: "Ministério da Fazenda Brasília Esplanada dos Ministérios",
+  content: `
+    <p>O governo federal vai enviar ao Congresso Nacional uma proposta de regra de transição para a cobrança da Contribuição sobre Bens e Serviços (CBS), o novo tributo federal da reforma tributária sobre o consumo. O anúncio foi feito na quarta-feira (11) pelo secretário especial da Receita Federal, Robinson Barreirinhas, em entrevista coletiva no Ministério da Fazenda sobre o Programa de Conformidade da Reforma Tributária, conforme relatou a <a href="https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/governo-apresentara-texto-que-facilita-adaptacao-a-reforma-tributaria" target="_blank" rel="noopener noreferrer nofollow">Agência Brasil</a>. A regra será opcional: na primeira apuração da CBS, prevista para fevereiro de 2027, a empresa poderá basear o cálculo numa estimativa dos créditos a que tem direito, e as diferenças serão acertadas na apuração do mês seguinte.</p>
+    <p>Segundo a <a href="https://www.brasil247.com/economia/receita-propoe-prazo-extra-de-30-dias-para-ajuste-do-pagamento-da-cbs/" target="_blank" rel="noopener noreferrer nofollow">Brasil 247</a>, que também acompanhou o anúncio, o instrumento será um projeto de lei complementar e a medida equivale a dar às empresas 30 dias a mais para o ajuste definitivo do valor devido. A proposta ainda não é lei e o texto do projeto não foi divulgado até a publicação desta notícia. O <a href="https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/novembro/receita-federal-e-orgaos-parceiros-detalham-proximos-passos-da-reforma-tributaria" target="_blank" rel="noopener noreferrer nofollow">Ministério da Fazenda</a> registrou a mesma coletiva e confirmou que há uma proposta de lei complementar sobre o crédito vinculado ao pagamento e ao split payment.</p>
+
+    <h2>Como funcionaria a estimativa de créditos</h2>
+    <p>Na reforma tributária, a CBS substitui o PIS e a Cofins e é não cumulativa: a empresa desconta do que deve o tributo pago nas etapas anteriores da cadeia, os chamados créditos. Segundo a Agência Brasil, o mecanismo proposto é voltado a empresas que ainda se adaptam às novas regras de crédito, sobretudo nas operações entre empresas, até que o split payment esteja plenamente implantado. O split payment é o recolhimento do tributo no momento do pagamento, separado automaticamente do valor devido ao fornecedor.</p>
+    <p>A Brasil 247 descreve o problema que a regra pretende resolver: pelo desenho da reforma, o crédito só é reconhecido depois que o fornecedor paga o tributo. Sem uma solução, uma empresa poderia ter de recolher a CBS antes de poder usar o crédito correspondente. Na proposta, no vencimento a empresa poderia usar uma estimativa dos créditos gerados pelas compras de insumos, e no mês seguinte faria o cálculo definitivo com os tributos que os fornecedores de fato recolheram, registrados nos sistemas da Receita.</p>
+    <p>Barreirinhas afirmou, conforme a Agência Brasil, que "esse modelo pode funcionar como mecanismo de transição". O primeiro recolhimento da CBS vence no fim de fevereiro de 2027 e se refere às operações de janeiro, mês em que as empresas passam a emitir documentos fiscais com as novas regras. De acordo com a Brasil 247, a regra de transição valeria durante todo o ano de 2027.</p>
+
+    <h2>Outras medidas citadas na coletiva</h2>
+    <p>A coletiva também tratou do calendário de implantação. A Agência Brasil informa que uma nova versão do regulamento deve ser publicada "nos próximos dias", e o Ministério da Fazenda a chama de "Regulamento 2.0", esperada ainda nesta semana. Normas complementares estão previstas até o início de dezembro, por meio de atos conjuntos da Receita Federal e do Comitê Gestor do IBS (CGIBS). O ambiente piloto será aberto a todos os contribuintes em novembro, segundo a pasta.</p>
+    <p>A Brasil 247 relata que a obrigatoriedade dos novos modelos de documento fiscal para empresas do Simples Nacional que vendem bens a outros contribuintes, e para setores como transporte aéreo, plataformas digitais, venda de imóveis e transporte público municipal, passa de janeiro para março de 2027. O Ministério da Fazenda também menciona o adiamento da exigência de documentos em situações específicas para março. Barreirinhas justificou, segundo a Brasil 247, que "os sistemas dessas empresas podem não estar prontos ainda, porque muitas vezes são empresas pequenas".</p>
+    <p>Sobre penalidades, a Fazenda informa que o Programa de Conformidade de 2027 busca permitir a correção preventiva de erros, sem punição durante a transição. O secretário disse que contribuintes de boa-fé, que não omitam dados, não serão punidos por dúvidas fundamentadas. A Brasil 247 acrescenta que a proteção não vale quando houver sinais de sonegação ou descumprimento intencional. Esse programa já havia sido citado na cobertura do <a href="/noticias/durigan-descarta-adiar-reforma-tributaria-2028-receita-sem-multas">descarte do adiamento da reforma tributária para 2028</a> pelo ministro Dario Durigan.</p>
+
+    <h2>Contexto: pressão por adiamento e calendário mantido</h2>
+    <p>O anúncio ocorre depois de entidades empresariais pedirem que 2027 seja mantido como período de testes e que a cobrança comece apenas em 2028, com argumentos como instabilidade de sistemas e mudanças frequentes de regras. O governo diz que o calendário não muda. Segundo a Brasil 247, Barreirinhas declarou: "Vale a pena avançar na reforma tributária. Adiar não é solução de nada, adia-se também os problemas."</p>
+    <p>Outros pontos da reforma seguem em tramitação. A alíquota de referência da CBS, estimada em 11,3% pelo Tribunal de Contas da União, depende de resolução do Senado, como descrito em <a href="/noticias/tcu-aprova-calculo-11-3-contribuicao-consumo-2027">TCU aprova cálculo de 11,3% para a contribuição sobre o consumo</a> e em <a href="/noticias/renan-braga-relator-cbs-audiencias-11-novembro">Renan anuncia Braga como relator</a>. O Imposto Seletivo tem alíquotas fixadas em medida provisória, tema de <a href="/noticias/imposto-seletivo-mp-1399-aliquotas-2027">MP 1.399 fixa alíquotas do Imposto Seletivo</a>. E o cronograma do split payment, que a Receita indica como obrigatório entre empresas só a partir de 2028, foi apresentado em <a href="/noticias/split-payment-98-por-cento-b2b-outubro-2027-fin">Fin prevê split payment em 98% das operações entre empresas</a>.</p>
+    <p>Para a Receita, o desenho do período inicial inclui outras regras de crédito. De acordo com a Agência Brasil, os tributos pagos na compra de máquinas, equipamentos e imóveis geram crédito imediato, e o secretário afirmou que uma empresa que faça um grande investimento "pode ficar meses ou até anos sem pagar CBS". A devolução de créditos deve levar 30, 60 ou 90 dias, conforme o grau de conformidade da empresa, contra até um ano no sistema atual. O IPI terá alíquota zero para a maior parte dos produtos, restando apenas em casos ligados à Zona Franca de Manaus. A regulamentação, segundo o secretário, recebeu quase 5 mil sugestões em sua primeira versão.</p>
+
+    <h2>Por que isso importa</h2>
+    <p>O ponto mais sensível da primeira apuração da CBS é o fluxo de caixa. Se o crédito só puder ser usado depois que o fornecedor recolher o tributo, a empresa compradora pode pagar mais do que deve naquele mês e esperar para recuperar a diferença. A estimativa opcional tenta reduzir esse descompasso nos meses iniciais, enquanto o split payment ainda não cobre todas as operações. Quem optar por ela terá de acertar a diferença no mês seguinte, o que exige controle de entradas e de documentos fiscais.</p>
+    <p>A medida afeta sobretudo as empresas que compram muitos insumos de outras empresas e as que dependem de sistemas de emissão de notas ainda em ajuste. Para pequenas empresas do Simples Nacional que vendem a outros contribuintes, o adiamento para março dá mais tempo para adaptar sistemas. Para o contribuinte final, o efeito direto depende da alíquota e do calendário geral, que o governo diz manter.</p>
+    <p>A proposta também recoloca o Congresso no centro da discussão. Como a regra exige lei complementar, o texto precisará ser apresentado e votado pelas duas Casas antes de valer. O governo não informou, nas reportagens consultadas, em qual Casa o texto começará a tramitar nem em que data será enviado. O tempo é curto: a primeira apuração está prevista para fevereiro de 2027, e o Congresso tem ainda a pauta de fim de ano, que inclui o ajuste fiscal e a resolução da alíquota da CBS.</p>
+
+    <h2>O que observar a seguir</h2>
+    <p>O primeiro passo é a publicação do texto do projeto de lei complementar, que mostrará se a estimativa se baseia nas notas fiscais de compras de insumos, como relata a Brasil 247, e como será o acerto das diferenças. O segundo é a divulgação da nova versão do regulamento, anunciada para os próximos dias. O terceiro é a definição das normas complementares, previstas até o início de dezembro. Por fim, a oposição entre o pedido de adiamento de entidades empresariais e a manutenção do calendário pelo governo deve continuar a ser discutida no Congresso. Os prazos e as regras definitivas devem ser conferidos nos comunicados da Receita Federal e do Ministério da Fazenda.</p>
+  `,
+  faq: [
+    {
+      question: "O que o governo propôs sobre a CBS na primeira apuração?",
+      answer:
+        "Segundo a Agência Brasil, o secretário da Receita, Robinson Barreirinhas, anunciou que o governo enviará ao Congresso regra opcional de transição. Na primeira apuração, em fevereiro de 2027, a empresa poderá usar estimativa dos créditos a que tem direito, com ajuste das diferenças na apuração seguinte. A proposta ainda não é lei.",
+    },
+    {
+      question: "A reforma tributária será adiada para 2028?",
+      answer:
+        "Não, segundo o governo. Em reportagem da Brasil 247, o secretário Barreirinhas disse que adiar não resolve os problemas. Entidades empresariais pedem cobrança apenas a partir de 2028, o que exigiria mudar a lei no Congresso. O Ministério da Fazenda mantém o início da CBS em janeiro de 2027.",
+    },
+  ],
+};
