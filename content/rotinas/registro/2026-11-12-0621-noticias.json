@@ -1,0 +1,12 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-12T06:21:18-03:00",
+  "fim": "2026-11-12T06:26:10-03:00",
+  "branch": "claude/pd-noticias-20261112-0623",
+  "publicou": [
+    "alcolumbre-suspende-sessao-plp-299-votacao-quinta"
+  ],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}
