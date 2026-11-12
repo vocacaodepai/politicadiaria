@@ -8,7 +8,7 @@ import { ListingHeader } from "@/components/listing/ListingHeader";
 import { listingMetadata } from "@/components/listing/metadata";
 import { countLabel } from "@/components/listing/paginate";
 import { categories, getReviews, site, type Article } from "@/lib/articles";
-import { reviewVerdict } from "@/lib/review";
+import { productHref, reviewVerdict } from "@/lib/review";
 import { absoluteUrl, breadcrumbJsonLd } from "@/lib/seo";
 
 const PATH = "/livros";
@@ -17,19 +17,6 @@ const DESCRIPTION =
   "Os livros de política resenhados na Política Diária, organizados por tema e ordenados pela nota, com autor e link para ver cada obra na Amazon.";
 
 export const metadata: Metadata = listingMetadata({ title: TITLE, description: DESCRIPTION, path: PATH });
-
-/** Garante a tag de afiliado do site no link da Amazon (o check-content já barra link sem ela). */
-function affiliateUrl(url: string): string {
-  try {
-    const u = new URL(url);
-    if (/(^|\.)amazon\.com\.br$/i.test(u.hostname) && u.searchParams.get("tag") !== site.amazonTag) {
-      u.searchParams.set("tag", site.amazonTag);
-    }
-    return u.toString();
-  } catch {
-    return url;
-  }
-}
 
 function formatScore(score: number): string {
   return score.toFixed(1).replace(".", ",");
@@ -80,7 +67,7 @@ function BookCard({ article }: { article: Article }) {
         <p className="label-mono mt-3 text-muted">{verdict.label}</p>
         <p className="mt-2 line-clamp-3 font-serif text-sm leading-relaxed text-foreground/90">{review.bestFor}</p>
         <div className="mt-auto flex flex-col gap-2 pt-5 sm:flex-row sm:items-center sm:justify-between">
-          <BuyButton href={affiliateUrl(review.url)} label="Ver na Amazon" />
+          <BuyButton href={productHref(review)} label="Ver na Amazon" />
           <Link
             href={`/artigos/${article.slug}`}
             className="text-center font-display text-sm font-semibold text-accent hover:underline sm:text-right"
