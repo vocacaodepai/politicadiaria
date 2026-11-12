@@ -54,7 +54,10 @@ export const item: NewsItem = {
 - `content`: 900+ palavras, 3+ `<h2>`. Abertura em 2 parágrafos com o fato (quem, o quê, quando,
   onde) e a fonte citada e linkada (`rel="noopener noreferrer nofollow"`). Depois: contexto
   (histórico, números, o que diz a lei), "Por que isso importa" (análise factual do efeito),
-  desdobramentos e o que observar a seguir. 3 a 6 links internos. Sem lista de fontes no fim.
+  desdobramentos e o que observar a seguir. 3 a 6 links internos. Sem lista de fontes no fim do
+  texto: a caixa "Fontes desta notícia" é gerada pelo componente (`components/article/NewsSources.tsx`)
+  a partir de `sourceName`/`sourceUrl` e dos links externos do corpo, com os domínios oficiais
+  (`lib/sources.ts`) marcados como fonte primária. Quem escreve só precisa linkar cada fonte no texto.
 - Internacional: situar o leitor brasileiro (relação com o Brasil, comércio, diplomacia).
 - Tags permitidas: p, h2, h3, h4, ul, ol, li, a, strong, em, b, i, br, hr, blockquote, code, pre,
   table, thead, tbody, tr, th, td, div, span, img, figure, figcaption, small, mark, sup, sub, dl,
