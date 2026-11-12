@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-12T06:26:10-03:00",
+  "atualizadoEm": "2026-11-12T07:29:19-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -110,10 +110,14 @@
       "rotina": "noticias",
       "tema": "PL 464/2026: curatela fraudulenta de idoso",
       "motivo": "fonte-unica",
-      "fontesAbertas": [],
+      "fontesAbertas": [
+        "https://www.camara.leg.br/noticias/1318722-camara-aprova-perda-de-heranca-para-quem-tentar-interditar-idosos-de-forma-fraudulenta",
+        "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2602370"
+      ],
       "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
-      "ultimaRevisao": "2026-11-12T06:26:10-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-12T07:29:19-03:00",
+      "status": "publicada",
+      "slug": "camara-aprova-perda-heranca-curatela-abusiva"
     },
     {
       "id": "greve-geral-espanha",
