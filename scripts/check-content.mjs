@@ -26,6 +26,12 @@ const STRICT_FROM_DATE = "2026-10-07";
 // Notícias com data igual ou posterior a esta precisam do mesmo tamanho de texto
 // dos artigos (>= 900 palavras, >= 3 h2). As notícias já publicadas antes ficam como estão.
 const NEWS_STRICT_FROM_DATE = "2026-10-07";
+// Notícias com data igual ou posterior a esta têm título de até 65 caracteres (o Google corta
+// o título no resultado de busca por volta disso). Acima do limite gera aviso, não erro; as
+// notícias anteriores seguem com o aviso antigo (acima de 70) e não são editadas.
+const NEWS_TITLE_FROM_DATE = "2026-11-12";
+const NEWS_TITLE_MAX = 65;
+const TITLE_MAX_LEGACY = 70;
 const MIN_INTERNAL_LINKS = 6;
 const MIN_WORDS_STRICT = 900;
 const MIN_WORDS_WARN = 600;
@@ -226,7 +232,10 @@ function check() {
     else if (it.date > TODAY) errors.push(`${where}: data no futuro (${it.date} > hoje ${TODAY} em America/Sao_Paulo)`);
     if (it.updated && it.updated < it.date) errors.push(`${where}: updated (${it.updated}) anterior a date (${it.date})`);
     if (!it.title) errors.push(`${where}: sem title`);
-    if (it.title.length > 70) warnings.push(`${where}: title com ${it.title.length} caracteres (Google corta em ~60-70)`);
+    const titleMax = it.kind === "noticias" && it.date >= NEWS_TITLE_FROM_DATE ? NEWS_TITLE_MAX : TITLE_MAX_LEGACY;
+    if (it.title.length > titleMax) {
+      warnings.push(`${where}: title com ${it.title.length} caracteres (limite ${titleMax}; Google corta em ~60-70)`);
+    }
     if (it.kind === "artigos") {
       if (!it.excerpt) errors.push(`${where}: sem excerpt`);
       else if (it.excerpt.length > 180) warnings.push(`${where}: excerpt com ${it.excerpt.length} caracteres (meta description ideal < 160)`);

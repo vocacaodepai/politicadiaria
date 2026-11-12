@@ -49,6 +49,7 @@ export const PRIMARY_NAV: NavItem[] = [
     children: [
       { href: "/artigos", label: "Todas as resenhas", description: "Livros de política com nota de 0 a 10" },
       { href: "/reviews", label: "Mais bem avaliados", description: "Ranking pela nota final" },
+      { href: "/livros", label: "Vitrine por tema", description: "Os livros resenhados, separados por tema e ordenados pela nota" },
     ],
   },
   { href: "/sobre", label: "Sobre" },

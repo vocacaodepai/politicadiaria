@@ -90,6 +90,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 0.7,
     },
+    {
+      url: absoluteUrl("/livros"),
+      lastModified: newest(getReviews().map(articleModified)) ?? newestArticle,
+      changeFrequency: "weekly",
+      priority: 0.7,
+    },
   ];
 
   const categorias = categories.flatMap((c) =>
