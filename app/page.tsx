@@ -6,6 +6,7 @@ import { CategoryChips } from "@/components/CategoryChips";
 import { Container } from "@/components/Container";
 import { ChecagemStrip } from "@/components/ChecagemStrip";
 import { FerramentasGrid } from "@/components/FerramentasGrid";
+import { HojeBlock } from "@/components/hoje/HojeBlock";
 import { NewsCard } from "@/components/NewsCard";
 import { NewsTicker } from "@/components/NewsTicker";
 import { ScoreScaleNote } from "@/components/ScoreScaleNote";
@@ -151,6 +152,9 @@ export default function Home() {
           </aside>
         </div>
       </Container>
+
+      {/* Últimas publicações do dia, com link para a linha do tempo em /hoje */}
+      <HojeBlock />
 
       {/* Ferramentas políticas */}
       <Container as="section" className="mt-12" aria-label="Ferramentas políticas">

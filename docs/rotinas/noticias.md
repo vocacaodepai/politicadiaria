@@ -50,6 +50,10 @@ e pule o que já foi coberto.
 - 1 ou 2 imagens no corpo via API do Wikimedia Commons quando a cena for concreta
   (licença conferida, legenda com autor/licença); sem imagem boa, siga sem.
 - Atribua posições a quem as emitiu; no caso de disputa política, registre a posição de cada lado.
+- **Temas (`/temas`):** se a notícia continua um caso que já tem tema em `content/temas.ts`,
+  acrescente o slug dela à lista `noticias` desse tema (não edite a notícia: o box "Este texto faz
+  parte do tema" aparece sozinho). Não crie tema novo nem mude a `descricao` sem pedido do dono.
+  O `npm run check:content` barra slug que não exista em `content/news/`.
 
 ## Fila de pautas e registro
 

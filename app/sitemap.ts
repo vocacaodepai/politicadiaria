@@ -10,6 +10,9 @@ import { eleicoesUrls } from "@/lib/eleicoes";
 import { historiaUrls, historyPeriods } from "@/lib/historia";
 import { sortedNews } from "@/lib/news";
 import { promessasUrls } from "@/lib/promessas";
+import { getResumo, resumoDays, resumoPath, RESUMO_PATH } from "@/lib/resumo";
+import { TEMAS_PATH, temaPath, temas } from "@/lib/temas";
+import { newsToTimeline } from "@/lib/timeline";
 import { absoluteUrl } from "@/lib/seo";
 
 export const dynamic = "force-static";
@@ -175,8 +178,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: u.priority,
   }));
 
+  const days = resumoDays();
+  const acompanhamento: Entry[] = [
+    { url: absoluteUrl("/hoje"), lastModified: newestNews, changeFrequency: "hourly", priority: 0.8 },
+    { url: absoluteUrl(TEMAS_PATH), lastModified: newest(temas.map((t) => (t.last ? newsToTimeline(t.last).day : ""))), changeFrequency: "daily", priority: 0.7 },
+    ...temas.map((t): Entry => ({
+      url: absoluteUrl(temaPath(t.slug)),
+      lastModified: t.last ? newsToTimeline(t.last).day : undefined,
+      changeFrequency: "daily",
+      priority: 0.7,
+    })),
+    { url: absoluteUrl(RESUMO_PATH), lastModified: days[0], changeFrequency: "daily", priority: 0.5 },
+    ...days.filter((d) => getResumo(d)).map((d, i): Entry => ({
+      url: absoluteUrl(resumoPath(d)),
+      lastModified: d,
+      changeFrequency: i === 0 ? "hourly" : "yearly",
+      priority: 0.4,
+    })),
+  ];
+
   return [
     ...home,
+    ...acompanhamento,
     ...artigos,
     ...noticias,
     ...reviews,
