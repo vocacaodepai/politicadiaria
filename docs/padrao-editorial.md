@@ -37,7 +37,7 @@ mecânica; o resto é responsabilidade de quem escreve.
 ```ts
 export const item: NewsItem = {
   slug: "keyword-curta-sem-acento",
-  title: "55 a 75 caracteres, factual, sem clickbait",
+  title: "55 a 65 caracteres (título de até 65 caracteres), factual, sem clickbait",
   summary: "140 a 158 caracteres (meta description)",
   author: "Equipe Política Diária",
   sourceName: "Nome da fonte",
