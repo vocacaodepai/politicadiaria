@@ -8,9 +8,9 @@ mesmo tom.
 
 ## Escopo de arquivos
 
-Só `content/checagens/` (arquivos novos e o `index.ts` gerado). Nunca altere `docs/`,
-`CLAUDE.md`, `lib/`, `app/`, `components/`, `scripts/` nem configuração. `git diff --stat` só
-pode mostrar `content/checagens/`.
+Só `content/checagens/` (arquivos novos e o `index.ts` gerado), a fila `content/pautas/fila.json`
+e o registro `content/rotinas/registro/`. Nunca altere `docs/`, `CLAUDE.md`, `lib/`, `app/`,
+`components/`, `scripts/` nem configuração. `git diff --stat` só pode mostrar esses caminhos.
 
 ## Passo a passo
 
@@ -81,10 +81,19 @@ pode mostrar `content/checagens/`.
 
 ## Regras de comunicação
 
-- **Informe só quando publicar.** Rodada sem checagem publicável termina em silêncio: sem PR,
-  sem mensagem, e o clone é removido.
+- **Informe só quando publicar.** Rodada sem checagem publicável termina sem mensagem, mas com
+  PR só da fila e do registro (ver "Fila de pautas e registro"), e o clone é removido.
 - No máximo **3 checagens por rodada**. Nunca repita alegação já checada (compare alegação e
   slug: 3 ou mais palavras do slug novo já juntas num slug existente = rejeite).
+
+## Fila de pautas e registro
+
+- No início: leia `content/pautas/fila.json` e reavalie as pautas `aberta` com `"rotina": "checagem"`.
+- Ao fim, publicando ou não: atualize a fila (abrir, publicar, descartar) e crie
+  `content/rotinas/registro/AAAA-MM-DD-HHMM-checagem.json` com o que a rodada publicou, descartou e teve
+  bloqueado (formato em `comum.md`, "Fila de pautas e registro da rodada").
+- Boato sem fonte primária nem duas fontes independentes abertas vai para a fila com `motivo`
+  `sem-fonte-primaria` ou `fonte-unica`.
 
 ## Correções e atualizações
 

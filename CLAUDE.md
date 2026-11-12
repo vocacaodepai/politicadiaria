@@ -178,7 +178,11 @@ parte deste arquivo: `comum.md` (regras comuns), `noticias.md` (de hora em hora)
 `checagem.md`, `eleicoes.md`, `promessas.md` e `historia.md` (uma eleição ou período por rodada, de trás para frente).
 Rotinas de conteúdo só alteram `content/`, `public/images/covers/` (e `data/congresso/` na rotina
 do Congresso, `data/promessas/` na de promessas; `public/images/` na de História, só se preciso); nunca `docs/`, `CLAUDE.md`, `lib/`,
-`app/`, `components/`, `scripts/` nem configuração.
+`app/`, `components/`, `scripts/` nem configuração. Toda rotina, inclusive as de dados, lê e
+atualiza a fila de pautas (`content/pautas/fila.json`) e grava um arquivo por rodada em
+`content/rotinas/registro/` (o que publicou, descartou e teve bloqueado; formato em
+`docs/rotinas/comum.md`). Esses arquivos alimentam só o painel interno `/interno/rotinas`
+(noindex, fora do sitemap e do menu).
 
 ## Identidade visual
 

@@ -11,7 +11,8 @@ mais antiga, **uma eleição ou um período por rodada**.
 
 ## Escopo de arquivos
 
-Só `content/historia/` (arquivos novos e o `index.ts` gerado) e `public/images/` (só se uma imagem
+Só `content/historia/` (arquivos novos e o `index.ts` gerado), a fila `content/pautas/fila.json`,
+o registro `content/rotinas/registro/` e `public/images/` (só se uma imagem
 do corpo precisar ser hospedada, o que normalmente não é o caso: use a URL `upload.wikimedia.org`
 devolvida pela API). Nunca altere `docs/`, `CLAUDE.md`, `lib/`, `app/`, `components/`, `scripts/`
 nem configuração. `git diff --stat` só pode mostrar esses caminhos.
@@ -140,6 +141,14 @@ regras de eleição do validador). Campos:
 3. `npm run build`.
 4. Releia como leitor: um apoiador de cada campo concordaria que cada **fato** está certo e que a
    mesma régua foi aplicada? Há fonte para cada número?
+
+## Fila de pautas e registro
+
+- No início: leia `content/pautas/fila.json` e reavalie as pautas `aberta` com `"rotina": "historia"`.
+- Ao fim, publicando ou não: atualize a fila (abrir, publicar, descartar) e crie
+  `content/rotinas/registro/AAAA-MM-DD-HHMM-historia.json` com o que a rodada publicou, descartou e teve
+  bloqueado (formato em `comum.md`, "Fila de pautas e registro da rodada").
+- Fonte que não abriu entra em `bloqueios` (por exemplo `www.tse.jus.br`, `http-403`).
 
 ## Informe final
 
