@@ -1,0 +1,35 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-12T17:21:54-03:00",
+  "fim": "2026-11-12T17:27:28-03:00",
+  "branch": "claude/pd-noticias-20261112-1725",
+  "publicou": [
+    "alcolumbre-recurso-cpmi-master-ccj"
+  ],
+  "descartou": [
+    {
+      "tema": "STF julga isenção de pena em crimes patrimoniais contra mulheres (ADPFs 1185 e 1241): Dino acompanha o relator, julgamento segue",
+      "motivo": "aguardando-fato",
+      "pauta": "stf-adpf-1185-1241-isencao-pena-crimes-patrimoniais-mulheres"
+    },
+    {
+      "tema": "PLP 299 no Senado: sem votação registrada até 17h16; Marinho pede adiamento de 10 dias úteis (RQS 777)",
+      "motivo": "aguardando-fato"
+    },
+    {
+      "tema": "Comissão externa da Câmara apresentará relatório sobre Fundão na terça (17)",
+      "motivo": "aguardando-fato"
+    },
+    {
+      "tema": "STF valida regra do Amazonas sobre prescrição em processos do TCE",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "istoe.com.br",
+      "erro": "http-5xx"
+    }
+  ],
+  "pr": null
+}
