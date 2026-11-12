@@ -365,7 +365,48 @@ function check() {
   // Painel de promessas (/promessas): validação própria em scripts/lib/check-promessas.mjs.
   const promessas = checkPromessas(ctx).propostas;
 
-  return { articles: articles.length, news: news.length, checagens, historia, promessas };
+  // Temas (/temas): todo slug de content/temas.ts precisa existir em content/news/.
+  const temas = checkTemas(newsSlugs);
+
+  return { articles: articles.length, news: news.length, checagens, historia, promessas, temas };
+}
+
+/**
+ * Confere content/temas.ts: slug de tema único e em kebab-case, título e descrição
+ * presentes, sem travessão, e cada notícia listada existente em content/news/.
+ */
+function checkTemas(newsSlugs) {
+  let src;
+  try {
+    src = readFileSync(resolve(ROOT, "content/temas.ts"), "utf8");
+  } catch {
+    return 0;
+  }
+  const where = "content/temas.ts";
+  if (src.includes("\u2014")) errors.push(`${where}: travessão (\u2014) não é permitido`);
+  const blocks = src.split(/\n  \{\n/).slice(1);
+  const seen = new Set();
+  for (const b of blocks) {
+    const slug = (b.match(/slug:\s*"([^"]+)"/) || [])[1];
+    if (!slug) {
+      errors.push(`${where}: tema sem slug`);
+      continue;
+    }
+    if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) errors.push(`${where}: slug de tema inválido "${slug}"`);
+    if (seen.has(slug)) errors.push(`${where}: tema duplicado "${slug}"`);
+    seen.add(slug);
+    if (!/titulo:\s*"[^"]+"/.test(b)) errors.push(`${where}: tema "${slug}" sem titulo`);
+    if (!/descricao:\s*\n?\s*"[^"]{40,}"/.test(b)) errors.push(`${where}: tema "${slug}" sem descricao`);
+    const list = (b.match(/noticias:\s*\[([\s\S]*?)\]/) || [])[1];
+    if (list === undefined) {
+      errors.push(`${where}: tema "${slug}" sem lista noticias`);
+      continue;
+    }
+    for (const m of list.matchAll(/"([^"]+)"/g)) {
+      if (!newsSlugs.has(m[1])) errors.push(`${where}: tema "${slug}" cita notícia inexistente "${m[1]}"`);
+    }
+  }
+  return seen.size;
 }
 
 const stats = check();
@@ -379,5 +420,5 @@ if (errors.length) {
   process.exit(1);
 }
 console.log(
-  `check-content: ok (${stats.articles} artigos, ${stats.news} notícias, ${stats.checagens} checagens, ${stats.historia} artigos de história, ${stats.promessas} promessas, ${congressFiles} arquivos de dados do Congresso sem CPF, ${warnings.length} aviso(s))`
+  `check-content: ok (${stats.articles} artigos, ${stats.news} notícias, ${stats.checagens} checagens, ${stats.historia} artigos de história, ${stats.promessas} promessas, ${stats.temas} temas, ${congressFiles} arquivos de dados do Congresso sem CPF, ${warnings.length} aviso(s))`
 );

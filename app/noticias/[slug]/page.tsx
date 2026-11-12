@@ -9,6 +9,7 @@ import { NewsList } from "@/components/NewsRow";
 import { QuizWidget } from "@/components/QuizWidget";
 import { ReadingProgress } from "@/components/ReadingProgress";
 import { SectionHeading } from "@/components/SectionHeading";
+import { TemaBox } from "@/components/TemaBox";
 import { AuthorAvatar } from "@/components/article/AuthorAvatar";
 import { AuthorBox } from "@/components/article/AuthorBox";
 import { Breadcrumbs } from "@/components/article/Breadcrumbs";
@@ -195,6 +196,8 @@ export default async function NewsPage({ params }: { params: Params }) {
                 <p>{item.summary}</p>
               </div>
             )}
+
+            <TemaBox newsSlug={item.slug} className="mt-10" />
 
             <section
               aria-labelledby="fonte-original"
