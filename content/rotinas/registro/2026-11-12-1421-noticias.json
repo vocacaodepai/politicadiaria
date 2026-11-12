@@ -1,0 +1,38 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-12T14:21:09-03:00",
+  "fim": "2026-11-12T14:30:02-03:00",
+  "branch": "claude/pd-noticias-20261112-1421",
+  "publicou": [
+    "caio-roberto-tornozeleira-zona-de-influencia"
+  ],
+  "descartou": [
+    {
+      "tema": "Congresso conclui votação do PLN 23 com R$ 149,4 bi para benefícios",
+      "motivo": "ja-publicado"
+    },
+    {
+      "tema": "PLN 7: dispensa de regras fiscais para a Copa do Mundo Feminina de 2027",
+      "motivo": "ja-publicado"
+    },
+    {
+      "tema": "STF julga isenção de pena em crimes patrimoniais contra mulheres (ADPFs 1185 e 1241)",
+      "motivo": "aguardando-fato"
+    },
+    {
+      "tema": "Operação Falso Mérito da PF sobre fraude no concurso da corporação",
+      "motivo": "fora-do-escopo"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "paraibaja.com.br",
+      "erro": "http-403"
+    },
+    {
+      "host": "wscom.com.br",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}
