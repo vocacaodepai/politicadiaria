@@ -13,5 +13,5 @@
     { "host": "www.estadao.com.br", "erro": "outro", "detalhe": "página não abriu na ferramenta de leitura" },
     { "host": "checamos.afp.com", "erro": "outro", "detalhe": "página não abriu na ferramenta de leitura" }
   ],
-  "pr": null
+  "pr": 484
 }
