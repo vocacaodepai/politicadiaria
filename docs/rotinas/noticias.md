@@ -50,6 +50,12 @@ e pule o que já foi coberto.
 - 1 ou 2 imagens no corpo via API do Wikimedia Commons quando a cena for concreta
   (licença conferida, legenda com autor/licença); sem imagem boa, siga sem.
 - Atribua posições a quem as emitiu; no caso de disputa política, registre a posição de cada lado.
+- **Placar oficial:** se o texto cita de forma inequívoca uma proposição do Congresso (PL, PLP, PEC,
+  MPV, PDL etc., com número e ano), registre em `content/proposicoes-noticias.json`:
+  `"<slug>": [{ "sigla": "PLP", "numero": 230, "ano": 2025 }]` (sigla oficial em maiúsculas, MP é
+  `MPV`, número sem ponto, ano da Casa de origem). Só sigla, número e ano: nunca escreva placar,
+  data ou resultado ali. A notícia passa a mostrar o placar oficial quando a rotina do Congresso
+  resolver a votação; não edite notícia publicada para isso. `npm run check:content` valida o arquivo.
 
 ## Informe
 

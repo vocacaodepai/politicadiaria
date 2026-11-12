@@ -13,6 +13,7 @@ import { checkChecagens, loadChecagens } from "./lib/check-checagens.mjs";
 import { checkHistoria, loadHistoria } from "./lib/check-historia.mjs";
 import { checkPromessas } from "./lib/check-promessas.mjs";
 import { checkCpfCongresso } from "./lib/check-cpf-congresso.mjs";
+import { checkProposicoesNoticias } from "./lib/check-proposicoes-noticias.mjs";
 
 const ROOT = resolve(new URL("..", import.meta.url).pathname);
 const ARTICLES_DIR = resolve(ROOT, "content/articles");
@@ -364,6 +365,9 @@ function check() {
 
   // Painel de promessas (/promessas): validação própria em scripts/lib/check-promessas.mjs.
   const promessas = checkPromessas(ctx).propostas;
+
+  // Placar oficial nas notícias: mapeamento notícia -> proposição (content/proposicoes-noticias.json).
+  checkProposicoesNoticias(ROOT, newsSlugs, errors);
 
   return { articles: articles.length, news: news.length, checagens, historia, promessas };
 }
