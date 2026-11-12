@@ -1,0 +1,17 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-12T19:41:32-03:00",
+  "fim": "2026-11-12T19:46:57-03:00",
+  "branch": "claude/pd-checagem-20261112-1945",
+  "publicou": ["dino-nao-adiou-jornada-42-horas-para-2027-prazo-segue-16-dezembro"],
+  "descartou": [
+    { "tema": "Vídeo que diria mostrar Lula afastado dos demais líderes na COP31", "motivo": "fonte-unica", "pauta": "video-lula-afastado-lideres-cop31" },
+    { "tema": "Documento falso atribuído à PF sobre mensagens de Nikolas Ferreira e Vorcaro", "motivo": "fora-do-escopo" }
+  ],
+  "bloqueios": [
+    { "host": "lupa.uol.com.br", "erro": "outro", "detalhe": "página não abriu na ferramenta de leitura" },
+    { "host": "www.estadao.com.br", "erro": "outro", "detalhe": "página não abriu na ferramenta de leitura" },
+    { "host": "checamos.afp.com", "erro": "outro", "detalhe": "página não abriu na ferramenta de leitura" }
+  ],
+  "pr": null
+}
