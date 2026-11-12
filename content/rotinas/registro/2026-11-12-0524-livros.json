@@ -1,0 +1,24 @@
+{
+  "rotina": "livros",
+  "inicio": "2026-11-12T05:24:19-03:00",
+  "fim": "2026-11-12T05:46:09-03:00",
+  "branch": "claude/pd-livros-20261112-0524",
+  "publicou": [
+    "uma-nacao-duas-culturas-himmelfarb-e-realizacoes",
+    "churchill-e-orwell-thomas-ricks-zahar",
+    "eichmann-em-jerusalem-hannah-arendt"
+  ],
+  "descartou": [
+    { "tema": "O Poder da Geografia, de Tim Marshall (Zahar)", "motivo": "fonte-bloqueada", "pauta": "livro-o-poder-da-geografia-tim-marshall" },
+    { "tema": "Tolos, Fraudes e Militantes, de Roger Scruton (Record)", "motivo": "fonte-bloqueada", "pauta": "livro-tolos-fraudes-e-militantes-scruton" },
+    { "tema": "A Segunda Guerra Mundial, de Martin Gilbert (Casa da Palavra)", "motivo": "numeros-divergentes", "pauta": "livro-segunda-guerra-mundial-martin-gilbert" },
+    { "tema": "Guia Politicamente Incorreto da História do Mundo, de Leandro Narloch", "motivo": "numeros-divergentes" }
+  ],
+  "bloqueios": [
+    { "host": "www.amazon.com.br", "erro": "http-5xx", "detalhe": "503 na página do produto; foto e preço vieram da Open Library e de livraria" },
+    { "host": "www.googleapis.com", "erro": "http-429" },
+    { "host": "periodicos.ufpel.edu.br", "erro": "http-403" },
+    { "host": "www.jornalopcao.com.br", "erro": "http-403" }
+  ],
+  "pr": null
+}
