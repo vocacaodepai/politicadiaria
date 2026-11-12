@@ -145,9 +145,11 @@ regras de eleição do validador). Campos:
 ## Fila de pautas e registro
 
 - No início: leia `content/pautas/fila.json` e reavalie as pautas `aberta` com `"rotina": "historia"`.
-- Ao fim, publicando ou não: atualize a fila (abrir, publicar, descartar) e crie
+- Ao fim, se a rodada publicou, teve bloqueio de fonte/ferramenta ou descarte novo relevante:
+  atualize a fila (abrir, publicar, descartar) e crie
   `content/rotinas/registro/AAAA-MM-DD-HHMM-historia.json` com o que a rodada publicou, descartou e teve
-  bloqueado (formato em `comum.md`, "Fila de pautas e registro da rodada").
+  bloqueado (formato em `comum.md`, "Fila de pautas e registro da rodada"). Rodada sem nada
+  novo não grava registro nem abre PR.
 - Fonte que não abriu entra em `bloqueios` (por exemplo `www.tse.jus.br`, `http-403`).
 
 ## Informe final

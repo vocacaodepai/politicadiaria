@@ -78,9 +78,11 @@ político ou governo, sem causa e sem previsão.
 ## Fila de pautas e registro
 
 - No início: leia `content/pautas/fila.json` e reavalie as pautas `aberta` com `"rotina": "promessas"`.
-- Ao fim, publicando ou não: atualize a fila (abrir, publicar, descartar) e crie
+- Ao fim, se a rodada publicou, teve bloqueio de fonte/ferramenta ou descarte novo relevante:
+  atualize a fila (abrir, publicar, descartar) e crie
   `content/rotinas/registro/AAAA-MM-DD-HHMM-promessas.json` com o que a rodada publicou, descartou e teve
-  bloqueado (formato em `comum.md`, "Fila de pautas e registro da rodada").
+  bloqueado (formato em `comum.md`, "Fila de pautas e registro da rodada"). Rodada sem nada
+  novo não grava registro nem abre PR.
 - Fato sem fonte oficial aberta vai para a fila com `motivo` `sem-fonte-primaria`.
 
 ## Validar
@@ -91,4 +93,4 @@ político ou governo, sem causa e sem previsão.
 ## O que reportar
 
 Ao final, uma linha por proposta alterada (id, status anterior, status novo, fonte) e a contagem por status. Se
-nenhuma proposta mudou, diga isso e faça commit só do registro da rodada. Registre propostas que ficaram sem fonte oficial para o dono decidir.
+nenhuma proposta mudou, diga isso; só faça commit (do registro e da fila) se houve bloqueio de fonte ou descarte novo relevante, senão não faça commit. Registre propostas que ficaram sem fonte oficial para o dono decidir.

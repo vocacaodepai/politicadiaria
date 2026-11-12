@@ -5,10 +5,12 @@ perguntar nada, e termina com o conteúdo publicado na `main` (deploy automátic
 
 ## Ambiente e git
 
-- Trabalhe num clone próprio e isolado em `/tmp` (rotinas podem rodar em paralelo). Antes de
-  clonar, limpe clones antigos: `rm -rf /tmp/pd-*` (ignore erro). Clone:
-  `git clone https://github.com/vocacaodepai/politicadiaria /tmp/pd-<rotina>-$(date +%s)`.
-  Ao final, sempre `rm -rf` do seu clone, publicando ou não.
+- Trabalhe num clone próprio e isolado em `/tmp`. As rotinas rodam em paralelo (notícias de hora
+  em hora, livros, Congresso, checagem e as demais ao mesmo tempo), então **nunca apague clones
+  de outras rodadas**: nada de `rm -rf /tmp/pd-*` nem outro glob. Crie um diretório único e clone
+  nele:
+  `D=$(mktemp -d /tmp/pd-<rotina>-XXXXXX) && git clone https://github.com/vocacaodepai/politicadiaria "$D" && cd "$D"`.
+  Ao final, publicando ou não, remova só o seu: `cd / && rm -rf "$D"`.
 - Branch da rodada: `git checkout -B claude/pd-<rotina>-$(TZ=America/Sao_Paulo date +%Y%m%d-%H%M) origin/main`,
   depois `npm ci --silent`.
 - Datas sempre em `America/Sao_Paulo`. Nunca publique data futura.
@@ -17,7 +19,7 @@ perguntar nada, e termina com o conteúdo publicado na `main` (deploy automátic
   `grep -h sourceUrl content/news/*.ts | tail -80`). Não repita fato, fonte nem tema: rejeite a
   pauta se 3 ou mais palavras do slug novo já aparecem juntas em um slug existente.
 
-## Fila de pautas e registro da rodada (toda rotina, toda rodada)
+## Fila de pautas e registro da rodada (toda rotina)
 
 Dois arquivos internos, lidos só pelo painel `/interno/rotinas` (noindex, fora do sitemap) e
 validados pelo `check-content`. Sem dado pessoal, sem opinião, sem travessão.
@@ -26,9 +28,12 @@ validados pelo `check-content`. Sem dado pessoal, sem opinião, sem travessão.
 `content/pautas/fila.json`. Para cada pauta `aberta` da sua rotina (campo `rotina`), procure de
 novo o que faltava (segunda fonte, documento oficial, fato novo). Ela entra na rodada como
 qualquer outra pauta, com as mesmas regras de fonte. Não procure de novo o que continua igual:
-atualize só `ultimaRevisao`.
+atualize só `ultimaRevisao` (isso só vai para o git se a rodada tiver algo a gravar, ver abaixo).
 
-**Ao fim**, publique ou não:
+**Ao fim**, veja se a rodada tem algo novo para registrar: conteúdo publicado, bloqueio de fonte
+ou ferramenta (HTTP 4xx/5xx, captcha, timeout, sem créditos etc.) ou descarte novo relevante (pauta
+que ainda não está na fila ou mudança de status de uma pauta da fila). **Rodada sem nada novo não
+grava nada e não abre PR**: nem registro, nem `ultimaRevisao` na fila. Havendo algo novo:
 
 1. Atualize a fila (`atualizadoEm` com a hora atual):
    - pauta nova descartada por motivo que pode mudar (fonte única, aguardando fato, números
@@ -38,7 +43,7 @@ atualize só `ultimaRevisao`.
    - pauta da fila que virou conteúdo: `"status": "publicada"` e `"slug"` do item publicado;
    - pauta que não vai mais sair (fato superado, já coberto, fora do escopo): `"status": "descartada"`.
    Nunca apague item da fila. `tema` é factual e curto (até 160 caracteres), sem URL.
-2. Crie **um arquivo por rodada** em `content/rotinas/registro/AAAA-MM-DD-HHMM-<rotina>.json`
+2. Crie **um arquivo de registro** em `content/rotinas/registro/AAAA-MM-DD-HHMM-<rotina>.json`
    (data e hora de início em Brasília; um arquivo por rodada evita conflito entre rotinas em
    paralelo):
 
@@ -66,9 +71,11 @@ atualize só `ultimaRevisao`.
      `http-401`, `http-403`, `http-404`, `http-429`, `http-5xx`, `captcha`, `timeout`,
      `sem-creditos`, `dns`, `tls`, `proxy`, `outro`; `detalhe` opcional, curto, sem segredo.
    - `pr`: o número do PR quando já souber, senão `null` (o painel acha o PR pela `branch`).
-3. **Rodada sem publicação também registra.** Em vez de terminar sem commit, abra o PR só com a
-   fila e o registro, valide e mescle como qualquer rodada, sem mensagem ao usuário. O "termine
-   em silêncio" das rotinas vale para o informe, não para o registro.
+3. **Quando gravar o registro.** Rodada que publicou: o registro e a fila vão no mesmo PR da
+   publicação. Rodada que não publicou, mas teve bloqueio de fonte/ferramenta ou descarte novo
+   relevante: abra um PR só com a fila e o registro, valide e mescle como qualquer rodada, sem
+   mensagem ao usuário. Rodada sem publicação, sem bloqueio e sem descarte novo: nada de commit,
+   nada de PR; remova o clone e termine em silêncio.
 4. Conflito em `content/pautas/fila.json` (duas rotinas mexeram ao mesmo tempo):
    `git merge origin/main`, mantenha as mudanças dos dois lados item a item (pelo `id`), rode
    `npm run check:content` e dê push.

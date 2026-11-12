@@ -74,15 +74,17 @@ diplomação (imprensa cita 18/12, uma publicação cita 19/12), a conferir no c
 npm run lint && npm run build
 ```
 
-Commit só dos arquivos de `data/eleicoes/`, da fila e do registro da rodada, mensagem em português ("Eleições: apuração de <data> às <hh:mm>"), push para `main`.
+Commit só dos arquivos de `data/eleicoes/` e, quando houver algo a registrar (ver abaixo), da fila e do registro da rodada, mensagem em português ("Eleições: apuração de <data> às <hh:mm>"), push para `main`.
 Notícias sobre o tema seguem `docs/rotinas/noticias.md` e devem linkar `/eleicoes` e, se citarem pesquisa, `/eleicoes/pesquisas`.
 
 ## Fila de pautas e registro
 
 - No início: leia `content/pautas/fila.json` e reavalie as pautas `aberta` com `"rotina": "eleicoes"`.
-- Ao fim, publicando ou não: atualize a fila (abrir, publicar, descartar) e crie
+- Ao fim, se a rodada publicou, teve bloqueio de fonte/ferramenta ou descarte novo relevante:
+  atualize a fila (abrir, publicar, descartar) e crie
   `content/rotinas/registro/AAAA-MM-DD-HHMM-eleicoes.json` com o que a rodada publicou, descartou e teve
-  bloqueado (formato em `comum.md`, "Fila de pautas e registro da rodada").
+  bloqueado (formato em `comum.md`, "Fila de pautas e registro da rodada"). Rodada sem nada
+  novo não grava registro nem abre PR.
 - Pesquisa sem registro ou sem matéria localizável vai para a fila com `motivo` `sem-fonte-primaria`.
   `publicou` traz `data/eleicoes` quando os dados mudaram.
 

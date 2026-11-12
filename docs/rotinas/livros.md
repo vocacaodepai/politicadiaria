@@ -74,9 +74,11 @@ de tela da página da Amazon, URL inventada ou deduzida, e commitar a imagem no 
 ## Fila de pautas e registro
 
 - No início: leia `content/pautas/fila.json` e reavalie as pautas `aberta` com `"rotina": "livros"`.
-- Ao fim, publicando ou não: atualize a fila (abrir, publicar, descartar) e crie
+- Ao fim, se a rodada publicou, teve bloqueio de fonte/ferramenta ou descarte novo relevante:
+  atualize a fila (abrir, publicar, descartar) e crie
   `content/rotinas/registro/AAAA-MM-DD-HHMM-livros.json` com o que a rodada publicou, descartou e teve
-  bloqueado (formato em `comum.md`, "Fila de pautas e registro da rodada").
+  bloqueado (formato em `comum.md`, "Fila de pautas e registro da rodada"). Rodada sem nada
+  novo não grava registro nem abre PR.
 
 ## Informe final
 

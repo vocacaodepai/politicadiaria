@@ -15,7 +15,8 @@ e o registro `content/rotinas/registro/`. Nunca altere `docs/`, `CLAUDE.md`, `li
 ## Passo a passo
 
 1. Clone e branch como em `comum.md`, com `<rotina>` = `checagem`:
-   `git clone https://github.com/vocacaodepai/politicadiaria /tmp/pd-checagem-$(date +%s)`.
+   `D=$(mktemp -d /tmp/pd-checagem-XXXXXX) && git clone https://github.com/vocacaodepai/politicadiaria "$D"`
+   (rotinas rodam em paralelo: nunca apague `/tmp/pd-*` com glob; no fim, remova só o seu `$D`).
    Leia `CLAUDE.md`, `docs/padrao-editorial.md` e este arquivo. Liste o que existe:
    `ls content/checagens` e `grep -h "title:" content/checagens/*.ts`.
 2. **Caçar boatos das últimas 24 horas** (America/Sao_Paulo). Fontes de pauta:
@@ -81,17 +82,20 @@ e o registro `content/rotinas/registro/`. Nunca altere `docs/`, `CLAUDE.md`, `li
 
 ## Regras de comunicação
 
-- **Informe só quando publicar.** Rodada sem checagem publicável termina sem mensagem, mas com
-  PR só da fila e do registro (ver "Fila de pautas e registro"), e o clone é removido.
+- **Informe só quando publicar.** Rodada sem checagem publicável termina sem mensagem. Só abre
+  PR (com a fila e o registro) se houve bloqueio de fonte/ferramenta ou descarte novo relevante
+  (ver "Fila de pautas e registro"); sem nada novo, nada de PR. O clone é removido.
 - No máximo **3 checagens por rodada**. Nunca repita alegação já checada (compare alegação e
   slug: 3 ou mais palavras do slug novo já juntas num slug existente = rejeite).
 
 ## Fila de pautas e registro
 
 - No início: leia `content/pautas/fila.json` e reavalie as pautas `aberta` com `"rotina": "checagem"`.
-- Ao fim, publicando ou não: atualize a fila (abrir, publicar, descartar) e crie
+- Ao fim, se a rodada publicou, teve bloqueio de fonte/ferramenta ou descarte novo relevante:
+  atualize a fila (abrir, publicar, descartar) e crie
   `content/rotinas/registro/AAAA-MM-DD-HHMM-checagem.json` com o que a rodada publicou, descartou e teve
-  bloqueado (formato em `comum.md`, "Fila de pautas e registro da rodada").
+  bloqueado (formato em `comum.md`, "Fila de pautas e registro da rodada"). Rodada sem nada
+  novo não grava registro nem abre PR.
 - Boato sem fonte primária nem duas fontes independentes abertas vai para a fila com `motivo`
   `sem-fonte-primaria` ou `fonte-unica`.
 
