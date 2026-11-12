@@ -1,0 +1,12 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-12T12:21:10-03:00",
+  "fim": "2026-11-12T12:25:19-03:00",
+  "branch": "claude/pd-noticias-20261112-1223",
+  "publicou": [
+    "juiz-libera-r-2-4-milhoes-leilao-triplex-guaruja-oas"
+  ],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}
