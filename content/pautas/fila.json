@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-12T17:27:28-03:00",
+  "atualizadoEm": "2026-11-12T18:26:18-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -219,12 +219,14 @@
       "tema": "STF julga isenção de pena em crimes patrimoniais contra mulheres no ambiente familiar (ADPFs 1185 e 1241); julgamento na pauta de 12/11",
       "motivo": "aguardando-fato",
       "fontesAbertas": [
-        "https://noticias.stf.jus.br/postsnoticias/confira-a-pauta-do-stf-desta-quinta-feira-12-3/"
+        "https://noticias.stf.jus.br/postsnoticias/confira-a-pauta-do-stf-desta-quinta-feira-12-3/",
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/stf-derruba-imunidade-para-punir-violencia-patrimonial-contra-mulheres",
+        "https://sbtnews.sbt.com.br/noticia/brasil/stf-afasta-imunidade-em-crimes-patrimoniais-contra-mulheres"
       ],
       "primeiraVezVisto": "2026-11-12T14:21:09-03:00",
-      "ultimaRevisao": "2026-11-12T17:27:28-03:00",
-      "status": "aberta",
-      "falta": "resultado do julgamento no Plenário (Toffoli e Dino votaram; demais ministros pendentes)"
+      "ultimaRevisao": "2026-11-12T18:26:18-03:00",
+      "status": "publicada",
+      "slug": "stf-derruba-imunidade-violencia-patrimonial-artigo-181"
     }
   ]
 }

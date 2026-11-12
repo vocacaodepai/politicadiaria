@@ -1,0 +1,17 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-12T18:21:33-03:00",
+  "fim": "2026-11-12T18:26:18-03:00",
+  "branch": "claude/pd-noticias-20261112-1824",
+  "publicou": [
+    "stf-derruba-imunidade-violencia-patrimonial-artigo-181"
+  ],
+  "descartou": [
+    {
+      "tema": "PLP 299: adiamento ou votação no Senado",
+      "motivo": "aguardando-fato"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
