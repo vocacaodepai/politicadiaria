@@ -1,0 +1,18 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-12T05:21:39-03:00",
+  "fim": "2026-11-12T05:26:25-03:00",
+  "branch": "claude/pd-noticias-20261112-0525",
+  "publicou": [
+    "gonet-pede-manter-prisao-preventiva-vorcaro"
+  ],
+  "descartou": [
+    {
+      "tema": "Smartphones no Senado: Alcolumbre diz que Pregão 290/2026 é comodato",
+      "motivo": "fonte-unica",
+      "pauta": "smartphones-senado"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
