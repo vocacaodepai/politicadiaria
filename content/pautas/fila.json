@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-12T05:26:25-03:00",
+  "atualizadoEm": "2026-11-12T05:46:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -143,6 +143,45 @@
       "fontesAbertas": [],
       "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
       "ultimaRevisao": "2026-11-12T05:26:25-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "livro-o-poder-da-geografia-tim-marshall",
+      "rotina": "livros",
+      "tema": "Resenha de O Poder da Geografia, de Tim Marshall (Zahar, 2022, ISBN 9786559790678)",
+      "motivo": "fonte-bloqueada",
+      "falta": "foto do livro: sem registro nem capa na Open Library e Amazon com HTTP 503",
+      "fontesAbertas": [
+        "https://www.companhiadasletras.com.br/livro/9786559790678/o-poder-da-geografia"
+      ],
+      "primeiraVezVisto": "2026-11-12T05:24:19-03:00",
+      "ultimaRevisao": "2026-11-12T05:46:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "livro-tolos-fraudes-e-militantes-scruton",
+      "rotina": "livros",
+      "tema": "Resenha de Tolos, Fraudes e Militantes, de Roger Scruton (Record, 2018, ISBN 9788501113023)",
+      "motivo": "fonte-bloqueada",
+      "falta": "foto do livro: sem registro nem capa na Open Library e Amazon com HTTP 503",
+      "fontesAbertas": [
+        "https://www.record.com.br/en/products/tolos-fraudes-e-militantes"
+      ],
+      "primeiraVezVisto": "2026-11-12T05:24:19-03:00",
+      "ultimaRevisao": "2026-11-12T05:46:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "livro-segunda-guerra-mundial-martin-gilbert",
+      "rotina": "livros",
+      "tema": "Resenha de A Segunda Guerra Mundial, de Martin Gilbert (Casa da Palavra, 2014)",
+      "motivo": "numeros-divergentes",
+      "falta": "ISBN e páginas da edição impressa divergem entre fontes (9788577344666 ou 9788577344673; 976 ou 1274 páginas)",
+      "fontesAbertas": [
+        "https://openlibrary.org/books/OL51726163M"
+      ],
+      "primeiraVezVisto": "2026-11-12T05:24:19-03:00",
+      "ultimaRevisao": "2026-11-12T05:46:00-03:00",
       "status": "aberta"
     }
   ]
