@@ -1,0 +1,12 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-12T20:21:28-03:00",
+  "fim": "2026-11-12T20:27:39-03:00",
+  "branch": "claude/pd-noticias-20261112-2021",
+  "publicou": [
+    "senado-aprova-urgencia-plp-299-40-a-38"
+  ],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}

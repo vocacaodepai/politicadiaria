@@ -24,6 +24,7 @@ export const temas: Tema[] = [
       "moretti-ajuste-fiscal-50-60-bilhoes-2027-cmo",
       "plp-299-2026-wagner-projeto-fiscal-texto-trava-despesas",
       "alcolumbre-suspende-sessao-plp-299-votacao-quinta",
+      "senado-aprova-urgencia-plp-299-40-a-38",
     ],
   },
   {
