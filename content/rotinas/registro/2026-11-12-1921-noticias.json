@@ -1,0 +1,36 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-12T19:21:28-03:00",
+  "fim": "2026-11-12T19:30:23-03:00",
+  "branch": "claude/pd-noticias-20261112-1921",
+  "publicou": [
+    "zanin-nega-liminar-psd-ruas-governador-eleito-rj",
+    "paraguai-promotoria-busca-mburuvicha-roga-caso-ueno"
+  ],
+  "descartou": [
+    {
+      "tema": "PLP 299: urgência aprovada, mérito sem desfecho confirmado",
+      "motivo": "aguardando-fato",
+      "pauta": "plp-299-senado-urgencia-merito-pendente"
+    },
+    {
+      "tema": "PLN 18/2026 aprovado pelo Congresso (remanejamento)",
+      "motivo": "ja-publicado"
+    },
+    {
+      "tema": "STF suspende lei de MT sobre velocidade da internet nas faturas",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.ministeriopublico.gov.py",
+      "erro": "http-5xx"
+    },
+    {
+      "host": "midiamax.com.br",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}

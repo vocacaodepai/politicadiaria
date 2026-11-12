@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-12T18:26:18-03:00",
+  "atualizadoEm": "2026-11-12T19:30:23-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -227,6 +227,21 @@
       "ultimaRevisao": "2026-11-12T18:26:18-03:00",
       "status": "publicada",
       "slug": "stf-derruba-imunidade-violencia-patrimonial-artigo-181"
+    },
+    {
+      "id": "plp-299-senado-urgencia-merito-pendente",
+      "rotina": "noticias",
+      "tema": "PLP 299/2026: Senado aprovou urgência por 40 a 38 em 12/11; votação do mérito sem desfecho confirmado (relatos divergem sobre adiamento)",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [
+        "https://www.otempo.com.br/politica/2026/11/12/senado-aprova-urgencia-do-pacote-fiscal-por-40-a-38-e-governo-fica-a-um-voto-do-minimo",
+        "https://www.gazetaweb.com/noticias/brasil/senado-aprova-urgencia-e-deve-votar-ajuste-fiscal-de-lula-ainda-nesta-5-948909",
+        "https://www25.senado.leg.br/web/atividade/materias/-/materia/176328"
+      ],
+      "primeiraVezVisto": "2026-11-12T19:21:28-03:00",
+      "ultimaRevisao": "2026-11-12T19:30:23-03:00",
+      "status": "aberta",
+      "falta": "resultado do mérito ou adiamento confirmado na Agência Senado ou em 2 veículos"
     }
   ]
 }
