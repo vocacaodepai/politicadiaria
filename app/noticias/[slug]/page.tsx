@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { AdSlot } from "@/components/AdSlot";
 import { Container } from "@/components/Container";
-import { CoverImage } from "@/components/CoverImage";
+import { CoverImage, getCoverPhoto } from "@/components/CoverImage";
 import { FaqAccordion } from "@/components/FaqAccordion";
 import { NewsList } from "@/components/NewsRow";
 import { QuizWidget } from "@/components/QuizWidget";
@@ -11,12 +11,15 @@ import { ReadingProgress } from "@/components/ReadingProgress";
 import { SectionHeading } from "@/components/SectionHeading";
 import { AuthorAvatar } from "@/components/article/AuthorAvatar";
 import { AuthorBox } from "@/components/article/AuthorBox";
+import { NewsSources } from "@/components/article/NewsSources";
 import { Breadcrumbs } from "@/components/article/Breadcrumbs";
 import { JsonLd } from "@/components/article/JsonLd";
+import { newsArticleJsonLd } from "@/lib/structured-data";
 import { faqJsonLd } from "@/components/article/schema";
 import { site } from "@/lib/articles";
 import { author } from "@/lib/author";
 import { prepareArticleHtml } from "@/lib/html";
+import { buildNewsSources } from "@/lib/sources";
 import { getNewsBySlug, getRelatedNews, news, newsImageSeed } from "@/lib/news";
 import { absoluteUrl, breadcrumbJsonLd, formatDate, formatTime, metaDescription, relativeDay, alternatesFor } from "@/lib/seo";
 
@@ -59,21 +62,12 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   };
 }
 
-function sourceHost(url: string): string {
-  try {
-    return new URL(url).hostname.replace(/^www\./, "");
-  } catch {
-    return "";
-  }
-}
-
 export default async function NewsPage({ params }: { params: Params }) {
   const { slug } = await params;
   const item = getNewsBySlug(slug);
   if (!item) notFound();
 
   const path = `/noticias/${item.slug}`;
-  const url = absoluteUrl(path);
   const isHouseAuthor = item.author === author.name;
   const timeLabel = formatTime(item.publishedAt);
   // Notícia não tem anúncio no meio do texto: o corpo vem inteiro (adBreaks vazio).
@@ -81,32 +75,15 @@ export default async function NewsPage({ params }: { params: Params }) {
   const body = prepared?.parts.join("") ?? "";
   const showAd = (prepared?.words ?? 0) >= 250;
   const related = getRelatedNews(item, 6);
-  const host = sourceHost(item.sourceUrl);
+  const sources = buildNewsSources(item, body);
 
-  const authorLd = isHouseAuthor
-    ? { "@type": "Person", name: author.name, url: absoluteUrl(author.url), image: absoluteUrl(author.image) }
-    : { "@type": "Person", name: item.author };
-
-  const newsArticle = {
-    "@context": "https://schema.org",
-    "@type": "NewsArticle",
-    "@id": `${url}#article`,
-    headline: item.title,
-    description: metaDescription(item.summary),
-    image: [absoluteUrl(`${path}/opengraph-image`)],
-    datePublished: item.date,
-    dateModified: item.date,
-    author: authorLd,
-    publisher: { "@id": `${site.url}/#organization` },
-    mainEntityOfPage: { "@type": "WebPage", "@id": url },
-    isPartOf: { "@id": `${site.url}/#website` },
-    isBasedOn: item.sourceUrl,
-    articleSection: "Notícias",
-    keywords: item.sourceName,
-    ...(prepared ? { wordCount: prepared.words } : {}),
-    inLanguage: "pt-BR",
-    url,
-  };
+  const cover = item.imageQuery ? await getCoverPhoto(item.imageQuery, newsImageSeed(item.slug)) : null;
+  const newsArticle = newsArticleJsonLd(item, {
+    path,
+    coverUrl: cover?.url,
+    wordCount: prepared?.words,
+    citation: sources.filter((s) => !s.original).map((s) => s.url),
+  });
 
   const breadcrumbs = breadcrumbJsonLd([
     { name: "Início", path: "/" },
@@ -196,26 +173,7 @@ export default async function NewsPage({ params }: { params: Params }) {
               </div>
             )}
 
-            <section
-              aria-labelledby="fonte-original"
-              className="mt-10 flex flex-col gap-4 rounded-xl border border-border bg-surface p-5 sm:flex-row sm:items-center sm:justify-between sm:p-6"
-            >
-              <div className="min-w-0">
-                <p className="label-mono text-muted">Fonte original</p>
-                <h2 id="fonte-original" className="mt-1 font-display text-lg font-bold tracking-tight">
-                  {item.sourceName}
-                </h2>
-                {host && <p className="mt-0.5 font-mono text-xs text-muted">{host}</p>}
-              </div>
-              <a
-                href={item.sourceUrl}
-                target="_blank"
-                rel="nofollow noopener noreferrer"
-                className="inline-flex shrink-0 items-center justify-center gap-2 rounded-lg border border-border bg-background px-4 py-2.5 font-display text-sm font-semibold transition hover:border-accent hover:text-accent"
-              >
-                Ler na fonte original <span aria-hidden="true">↗</span>
-              </a>
-            </section>
+            <NewsSources sources={sources} className="mt-10" />
 
             {showAd && <AdSlot format="in-article" className="ad-in-article mt-10" />}
 

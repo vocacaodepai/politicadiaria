@@ -35,7 +35,7 @@ export const categories = [
     slug: "ideias-politicas",
     label: "Ideias Políticas",
     description:
-      "Liberalismo, conservadorismo, socialismo e outras tradições, dos clássicos aos autores contemporâneos, com resenha clara de cada obra.",
+      "Liberalismo, conservadorismo, libertarianismo, tradição ocidental e os clássicos do pensamento político, com resenha clara de cada obra.",
   },
   {
     slug: "economia-e-estado",

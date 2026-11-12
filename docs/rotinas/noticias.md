@@ -39,7 +39,7 @@ e pule o que já foi coberto.
 
 - `npm run content:new -- noticia <slug>` (slug curto com a keyword, sem acentos; se a notícia for
   de ontem, ajuste `date`).
-- Campos: title (55 a 75, factual), summary (140 a 158), sourceName, sourceUrl (https), author
+- Campos: title (55 a 65 caracteres, factual; título de até 65 caracteres, o `check-content` avisa acima disso), summary (140 a 158), sourceName, sourceUrl (https), author
   "Equipe Política Diária", `publishedAt` com a hora real de agora em Brasília, `topic`,
   `imageQuery` específico (pessoa/instituição/lugar do fato; ver CLAUDE.md "Imagens"), content,
   faq opcional (2 ou 3).
