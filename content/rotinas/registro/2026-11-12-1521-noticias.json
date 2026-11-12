@@ -1,0 +1,22 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-12T15:21:24-03:00",
+  "fim": "2026-11-12T15:28:45-03:00",
+  "branch": "claude/pd-noticias-20261112-1525",
+  "publicou": [
+    "stf-jornada-8h24-sem-hora-extra-transicao-42-horas"
+  ],
+  "descartou": [
+    {
+      "tema": "STF julga isenção de pena em crimes patrimoniais contra mulheres (ADPFs 1185 e 1241)",
+      "motivo": "aguardando-fato",
+      "pauta": "stf-adpf-1185-1241-isencao-pena-crimes-patrimoniais-mulheres"
+    },
+    {
+      "tema": "Decreto 13.160 inclui MMA, MME e Itamaraty no comitê executivo do conselho de minerais críticos",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
