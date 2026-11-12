@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-12T12:25:19-03:00",
+  "atualizadoEm": "2026-11-12T15:28:45-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -212,6 +212,19 @@
       "primeiraVezVisto": "2026-11-12T11:26:50-03:00",
       "ultimaRevisao": "2026-11-12T12:25:19-03:00",
       "status": "aberta"
+    },
+    {
+      "id": "stf-adpf-1185-1241-isencao-pena-crimes-patrimoniais-mulheres",
+      "rotina": "noticias",
+      "tema": "STF julga isenção de pena em crimes patrimoniais contra mulheres no ambiente familiar (ADPFs 1185 e 1241); julgamento na pauta de 12/11",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [
+        "https://noticias.stf.jus.br/postsnoticias/confira-a-pauta-do-stf-desta-quinta-feira-12-3/"
+      ],
+      "primeiraVezVisto": "2026-11-12T14:21:09-03:00",
+      "ultimaRevisao": "2026-11-12T15:28:45-03:00",
+      "status": "aberta",
+      "falta": "resultado do julgamento no Plenário"
     }
   ]
 }

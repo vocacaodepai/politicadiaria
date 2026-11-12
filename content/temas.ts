@@ -45,6 +45,7 @@ export const temas: Tema[] = [
       "dino-abre-conciliacao-escala-6x1-prazos-seguem",
       "stf-audiencia-6x1-empresas-pedem-adiar-dino-decide-em-dias",
       "dino-decide-ate-sexta-13-implementacao-escala-5x2-plenario",
+      "stf-jornada-8h24-sem-hora-extra-transicao-42-horas",
     ],
   },
   {
