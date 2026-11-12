@@ -1,0 +1,14 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-12T13:21:18-03:00",
+  "fim": "2026-11-12T13:29:12-03:00",
+  "branch": "claude/pd-noticias-20261112-1321",
+  "publicou": [
+    "congresso-envia-25-plns-sancao-angra-3-eletronuclear"
+  ],
+  "descartou": [],
+  "bloqueios": [
+    { "host": "www.camara.leg.br", "erro": "proxy", "detalhe": "conexão reiniciada no curl; página aberta via WebFetch" }
+  ],
+  "pr": null
+}
