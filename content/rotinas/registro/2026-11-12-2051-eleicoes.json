@@ -1,0 +1,12 @@
+{
+  "rotina": "eleicoes",
+  "inicio": "2026-11-12T20:51:35-03:00",
+  "fim": "2026-11-12T20:52:55-03:00",
+  "branch": "claude/pd-eleicoes-20261112-2051",
+  "publicou": [],
+  "descartou": [],
+  "bloqueios": [
+    { "host": "api.firecrawl.dev", "erro": "sem-creditos", "detalhe": "busca da data da diplomacao feita por outra ferramenta" }
+  ],
+  "pr": null
+}
