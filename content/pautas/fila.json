@@ -1,0 +1,146 @@
+{
+  "atualizadoEm": "2026-11-12T04:50:00-03:00",
+  "pautas": [
+    {
+      "id": "abin-contestacao-flavio-bolsonaro",
+      "rotina": "noticias",
+      "tema": "Abin e contestação de Flávio Bolsonaro (fonte única: Metrópoles)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T04:50:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "refit-mprj",
+      "rotina": "noticias",
+      "tema": "Refit e MPRJ (números divergentes entre as fontes)",
+      "motivo": "numeros-divergentes",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T04:50:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "decreto-escala-6x1-adiado",
+      "rotina": "noticias",
+      "tema": "Decreto da escala 6x1 adiado",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T04:50:00-03:00",
+      "status": "publicada",
+      "slug": "decreto-6x1-adiado-volta-viagem-lula"
+    },
+    {
+      "id": "brb-acao-ex-gestores",
+      "rotina": "noticias",
+      "tema": "BRB: ação contra ex-gestores",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T04:50:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "quaest-65-democracia",
+      "rotina": "noticias",
+      "tema": "Quaest: 65% e democracia",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T04:50:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "flavio-csp-videoconferencia",
+      "rotina": "noticias",
+      "tema": "Flávio Bolsonaro na CSP por videoconferência",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T04:50:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "terras-raras-china-ustr",
+      "rotina": "noticias",
+      "tema": "Terras raras: China e USTR",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T04:50:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "smartphones-senado",
+      "rotina": "noticias",
+      "tema": "Smartphones no Senado",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T04:50:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "tcu-cbs-11-3",
+      "rotina": "noticias",
+      "tema": "TCU e CBS de 11,3%",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T04:50:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "delegados-pf-damares-amin",
+      "rotina": "noticias",
+      "tema": "Delegados da PF (Damares e Amin)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T04:50:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "pl-464-2026-curatela-idoso",
+      "rotina": "noticias",
+      "tema": "PL 464/2026: curatela fraudulenta de idoso",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T04:50:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "greve-geral-espanha",
+      "rotina": "noticias",
+      "tema": "Greve geral na Espanha",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T04:50:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "russia-ucrania-abu-dhabi",
+      "rotina": "noticias",
+      "tema": "Negociação Rússia-Ucrânia em Abu Dhabi",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T04:50:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "impeachment-hegseth-massie",
+      "rotina": "noticias",
+      "tema": "Impeachment de Hegseth (resolução de Massie)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T04:50:00-03:00",
+      "status": "aberta"
+    }
+  ]
+}

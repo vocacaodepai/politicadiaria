@@ -5,10 +5,12 @@ perguntar nada, e termina com o conteúdo publicado na `main` (deploy automátic
 
 ## Ambiente e git
 
-- Trabalhe num clone próprio e isolado em `/tmp` (rotinas podem rodar em paralelo). Antes de
-  clonar, limpe clones antigos: `rm -rf /tmp/pd-*` (ignore erro). Clone:
-  `git clone https://github.com/vocacaodepai/politicadiaria /tmp/pd-<rotina>-$(date +%s)`.
-  Ao final, sempre `rm -rf` do seu clone, publicando ou não.
+- Trabalhe num clone próprio e isolado em `/tmp`. As rotinas rodam em paralelo (notícias de hora
+  em hora, livros, Congresso, checagem e as demais ao mesmo tempo), então **nunca apague clones
+  de outras rodadas**: nada de `rm -rf /tmp/pd-*` nem outro glob. Crie um diretório único e clone
+  nele:
+  `D=$(mktemp -d /tmp/pd-<rotina>-XXXXXX) && git clone https://github.com/vocacaodepai/politicadiaria "$D" && cd "$D"`.
+  Ao final, publicando ou não, remova só o seu: `cd / && rm -rf "$D"`.
 - Branch da rodada: `git checkout -B claude/pd-<rotina>-$(TZ=America/Sao_Paulo date +%Y%m%d-%H%M) origin/main`,
   depois `npm ci --silent`.
 - Datas sempre em `America/Sao_Paulo`. Nunca publique data futura.
@@ -16,6 +18,67 @@ perguntar nada, e termina com o conteúdo publicado na `main` (deploy automátic
 - Liste o que já existe (`ls content/articles content/news`, `grep -h "title:" content/*/*.ts | tail -80`,
   `grep -h sourceUrl content/news/*.ts | tail -80`). Não repita fato, fonte nem tema: rejeite a
   pauta se 3 ou mais palavras do slug novo já aparecem juntas em um slug existente.
+
+## Fila de pautas e registro da rodada (toda rotina)
+
+Dois arquivos internos, lidos só pelo painel `/interno/rotinas` (noindex, fora do sitemap) e
+validados pelo `check-content`. Sem dado pessoal, sem opinião, sem travessão.
+
+**No início**, anote a hora de início (`TZ=America/Sao_Paulo date -Iseconds`) e leia
+`content/pautas/fila.json`. Para cada pauta `aberta` da sua rotina (campo `rotina`), procure de
+novo o que faltava (segunda fonte, documento oficial, fato novo). Ela entra na rodada como
+qualquer outra pauta, com as mesmas regras de fonte. Não procure de novo o que continua igual:
+atualize só `ultimaRevisao` (isso só vai para o git se a rodada tiver algo a gravar, ver abaixo).
+
+**Ao fim**, veja se a rodada tem algo novo para registrar: conteúdo publicado, bloqueio de fonte
+ou ferramenta (HTTP 4xx/5xx, captcha, timeout, sem créditos etc.) ou descarte novo relevante (pauta
+que ainda não está na fila ou mudança de status de uma pauta da fila). **Rodada sem nada novo não
+grava nada e não abre PR**: nem registro, nem `ultimaRevisao` na fila. Havendo algo novo:
+
+1. Atualize a fila (`atualizadoEm` com a hora atual):
+   - pauta nova descartada por motivo que pode mudar (fonte única, aguardando fato, números
+     divergentes, fonte bloqueada): acrescente
+     `{ "id", "rotina", "tema", "motivo", "fontesAbertas": [urls abertas e conferidas], "primeiraVezVisto", "ultimaRevisao", "status": "aberta" }`
+     (`falta` opcional: o que falta para publicar, em poucas palavras);
+   - pauta da fila que virou conteúdo: `"status": "publicada"` e `"slug"` do item publicado;
+   - pauta que não vai mais sair (fato superado, já coberto, fora do escopo): `"status": "descartada"`.
+   Nunca apague item da fila. `tema` é factual e curto (até 160 caracteres), sem URL.
+2. Crie **um arquivo de registro** em `content/rotinas/registro/AAAA-MM-DD-HHMM-<rotina>.json`
+   (data e hora de início em Brasília; um arquivo por rodada evita conflito entre rotinas em
+   paralelo):
+
+   ```json
+   {
+     "rotina": "noticias",
+     "inicio": "2026-11-12T14:05:12-03:00",
+     "fim": "2026-11-12T14:41:30-03:00",
+     "branch": "claude/pd-noticias-20261112-1405",
+     "publicou": ["slug-da-noticia"],
+     "descartou": [{ "tema": "Greve geral na Espanha", "motivo": "fonte-unica", "pauta": "greve-geral-espanha" }],
+     "bloqueios": [{ "host": "www.tse.jus.br", "erro": "http-403" }],
+     "pr": null
+   }
+   ```
+
+   - `rotina`: `noticias`, `checagem`, `eleicoes`, `congresso`, `livros`, `historia` ou `promessas`.
+   - `publicou`: slugs de `content/` (notícias, checagens, resenhas, História); nas rotinas de
+     dados, o caminho alterado (`data/congresso`, `data/eleicoes`, `data/promessas`). Lista vazia
+     se nada entrou.
+   - `descartou[].motivo`: `fonte-unica`, `aguardando-fato`, `sem-angulo`, `numeros-divergentes`,
+     `sem-fonte-primaria`, `fonte-bloqueada`, `ja-publicado` ou `fora-do-escopo`. `pauta` (opcional)
+     é o `id` na fila.
+   - `bloqueios[]`: `host` só o nome (`api.firecrawl.dev`, `www.tse.jus.br`) e `erro` um de
+     `http-401`, `http-403`, `http-404`, `http-429`, `http-5xx`, `captcha`, `timeout`,
+     `sem-creditos`, `dns`, `tls`, `proxy`, `outro`; `detalhe` opcional, curto, sem segredo.
+   - `pr`: o número do PR quando já souber, senão `null` (o painel acha o PR pela `branch`).
+3. **Quando gravar o registro.** Rodada que publicou: o registro e a fila vão no mesmo PR da
+   publicação. Rodada que não publicou, mas teve bloqueio de fonte/ferramenta ou descarte novo
+   relevante: abra um PR só com a fila e o registro, valide e mescle como qualquer rodada, sem
+   mensagem ao usuário. Rodada sem publicação, sem bloqueio e sem descarte novo: nada de commit,
+   nada de PR; remova o clone e termine em silêncio.
+4. Conflito em `content/pautas/fila.json` (duas rotinas mexeram ao mesmo tempo):
+   `git merge origin/main`, mantenha as mudanças dos dois lados item a item (pelo `id`), rode
+   `npm run check:content` e dê push.
 
 ## Validar (o build falha se o padrão não for cumprido)
 
@@ -28,7 +91,9 @@ Corrija sozinho até passar. Se sobrar erro real que você não resolveu, não m
 ## Segurança (toda rodada)
 
 - Escopo de arquivos: `content/` (itens e índices gerados), `public/images/covers/` e, só na
-  rotina do Congresso, `data/congresso/`; na de História, `content/historia/` e `public/images/`. Nunca altere `docs/`, `CLAUDE.md`, `lib/`, `app/`,
+  rotina do Congresso, `data/congresso/`; na de História, `content/historia/` e `public/images/`.
+  Toda rotina pode, além do próprio escopo, mexer em `content/pautas/fila.json` e criar o seu
+  arquivo em `content/rotinas/registro/`. Nunca altere `docs/`, `CLAUDE.md`, `lib/`, `app/`,
   `components/`, `scripts/` nem configuração (rodar scripts é permitido, editar não).
   `git diff --stat` só pode ter esses caminhos.
 - Nenhum segredo no diff (Pexels, Pixabay, AdSense, qualquer chave). `.env.local` fica fora do git.

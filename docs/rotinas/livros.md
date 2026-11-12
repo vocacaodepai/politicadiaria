@@ -71,6 +71,15 @@ de tela da página da Amazon, URL inventada ou deduzida, e commitar a imagem no 
 - `imageQuery`: autor (se houver foto no Commons), instituição ou tema; nunca capa de edição.
 - Título variado entre os três da rodada (ver CLAUDE.md "Títulos").
 
+## Fila de pautas e registro
+
+- No início: leia `content/pautas/fila.json` e reavalie as pautas `aberta` com `"rotina": "livros"`.
+- Ao fim, se a rodada publicou, teve bloqueio de fonte/ferramenta ou descarte novo relevante:
+  atualize a fila (abrir, publicar, descartar) e crie
+  `content/rotinas/registro/AAAA-MM-DD-HHMM-livros.json` com o que a rodada publicou, descartou e teve
+  bloqueado (formato em `comum.md`, "Fila de pautas e registro da rodada"). Rodada sem nada
+  novo não grava registro nem abre PR.
+
 ## Informe final
 
 Quais 3 livros entraram, de onde veio a foto de cada um (Amazon ou Open Library), se lint/build/check-content passaram e o link

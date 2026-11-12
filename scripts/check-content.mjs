@@ -13,6 +13,7 @@ import { checkChecagens, loadChecagens } from "./lib/check-checagens.mjs";
 import { checkHistoria, loadHistoria } from "./lib/check-historia.mjs";
 import { checkPromessas } from "./lib/check-promessas.mjs";
 import { checkCpfCongresso } from "./lib/check-cpf-congresso.mjs";
+import { checkFila, checkRegistro } from "./lib/check-rotinas.mjs";
 
 const ROOT = resolve(new URL("..", import.meta.url).pathname);
 const ARTICLES_DIR = resolve(ROOT, "content/articles");
@@ -369,15 +370,26 @@ function check() {
 
   // História (/historia): validação própria em scripts/lib/check-historia.mjs.
   const historiaCtx = { ...ctx, checagemSlugs: new Set(checagensList.map((c) => c.slug)) };
-  const historia = checkHistoria(loadHistoria(HISTORIA_DIR, historiaCtx), historiaCtx);
+  const historiaList = loadHistoria(HISTORIA_DIR, historiaCtx);
+  const historia = checkHistoria(historiaList, historiaCtx);
 
   // Painel de promessas (/promessas): validação própria em scripts/lib/check-promessas.mjs.
   const promessas = checkPromessas(ctx).propostas;
 
+  // Fila de pautas e registro das rodadas (internos, só para /interno/rotinas): scripts/lib/check-rotinas.mjs.
+  const contentSlugs = new Set([
+    ...articleSlugs,
+    ...newsSlugs,
+    ...checagensList.map((c) => c.slug),
+    ...historiaList.map((h) => h.slug),
+  ]);
+  const pautas = checkFila(ROOT, { errors, contentSlugs });
+  const rodadas = checkRegistro(ROOT, { errors, contentSlugs });
+
   // Temas (/temas): todo slug de content/temas.ts precisa existir em content/news/.
   const temas = checkTemas(newsSlugs);
 
-  return { articles: articles.length, news: news.length, checagens, historia, promessas, temas };
+  return { articles: articles.length, news: news.length, checagens, historia, promessas, temas, pautas, rodadas };
 }
 
 /**
@@ -429,5 +441,5 @@ if (errors.length) {
   process.exit(1);
 }
 console.log(
-  `check-content: ok (${stats.articles} artigos, ${stats.news} notícias, ${stats.checagens} checagens, ${stats.historia} artigos de história, ${stats.promessas} promessas, ${stats.temas} temas, ${congressFiles} arquivos de dados do Congresso sem CPF, ${warnings.length} aviso(s))`
+  `check-content: ok (${stats.articles} artigos, ${stats.news} notícias, ${stats.checagens} checagens, ${stats.historia} artigos de história, ${stats.promessas} promessas, ${stats.temas} temas, ${stats.pautas} pautas na fila, ${stats.rodadas} rodadas no registro, ${congressFiles} arquivos de dados do Congresso sem CPF, ${warnings.length} aviso(s))`
 );

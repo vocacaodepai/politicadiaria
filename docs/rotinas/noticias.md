@@ -2,7 +2,7 @@
 
 Horário: **de hora em hora, das 06:00 às 23:00 (Brasília)**. Nome do clone: `pd-noticias`.
 Siga `docs/rotinas/comum.md` além do que está aqui. Se não houver notícia nova de verdade,
-termine em silêncio, sem commit e sem mensagem. Publique **no máximo 2 notícias por rodada**
+termine em silêncio, sem mensagem (e sem commit, a não ser que haja bloqueio ou descarte novo para registrar, ver abaixo). Publique **no máximo 2 notícias por rodada**
 (1 já basta quando só houver um fato novo relevante). Não force: rodada vazia é normal.
 
 ## Foco no Brasil (regra do dono do site)
@@ -54,6 +54,17 @@ e pule o que já foi coberto.
   acrescente o slug dela à lista `noticias` desse tema (não edite a notícia: o box "Este texto faz
   parte do tema" aparece sozinho). Não crie tema novo nem mude a `descricao` sem pedido do dono.
   O `npm run check:content` barra slug que não exista em `content/news/`.
+
+## Fila de pautas e registro
+
+- No início: leia `content/pautas/fila.json` e reavalie as pautas `aberta` com `"rotina": "noticias"`.
+- Ao fim, se a rodada publicou, teve bloqueio de fonte/ferramenta ou descarte novo relevante:
+  atualize a fila (abrir, publicar, descartar) e crie
+  `content/rotinas/registro/AAAA-MM-DD-HHMM-noticias.json` com o que a rodada publicou, descartou e teve
+  bloqueado (formato em `comum.md`, "Fila de pautas e registro da rodada"). Rodada sem nada
+  novo não grava registro nem abre PR.
+- Pauta descartada por fonte única ou por números divergentes vai para a fila, não para o prompt
+  da próxima rodada. Quem lê a lista de descartes é a fila.
 
 ## Informe
 
