@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-12T07:29:19-03:00",
+  "atualizadoEm": "2026-11-12T08:28:13-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -146,7 +146,7 @@
       "motivo": "fonte-unica",
       "fontesAbertas": [],
       "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
-      "ultimaRevisao": "2026-11-12T06:26:10-03:00",
+      "ultimaRevisao": "2026-11-12T08:28:13-03:00",
       "status": "aberta"
     },
     {
@@ -187,6 +187,17 @@
       "primeiraVezVisto": "2026-11-12T05:24:19-03:00",
       "ultimaRevisao": "2026-11-12T05:46:00-03:00",
       "status": "aberta"
+    },
+    {
+      "id": "camara-eua-hegseth-judiciario-211-204",
+      "rotina": "noticias",
+      "tema": "Câmara dos EUA envia resolução de impeachment de Hegseth à Comissão de Justiça por 211 a 204",
+      "motivo": "sem-angulo",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-12T08:28:13-03:00",
+      "ultimaRevisao": "2026-11-12T08:28:13-03:00",
+      "status": "aberta",
+      "falta": "fonte aberta e ângulo brasileiro concreto"
     }
   ]
 }

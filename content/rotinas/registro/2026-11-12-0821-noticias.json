@@ -1,0 +1,41 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-12T08:21:59-03:00",
+  "fim": "2026-11-12T08:28:13-03:00",
+  "branch": "claude/pd-noticias-20261112-0822",
+  "publicou": [
+    "posse-lula-seguranca-22-orgaos-ate-10-janeiro"
+  ],
+  "descartou": [
+    {
+      "tema": "Relatório preliminar da LDO de 2027 aprovado na CMO",
+      "motivo": "ja-publicado"
+    },
+    {
+      "tema": "Fachin e Moraes recebem relatores do Orçamento de 2027 no STF",
+      "motivo": "sem-angulo"
+    },
+    {
+      "tema": "Herzog dá a Eisenkot mandato para formar governo em Israel",
+      "motivo": "ja-publicado"
+    },
+    {
+      "tema": "Câmara dos EUA envia impeachment de Hegseth à Comissão de Justiça",
+      "motivo": "sem-angulo",
+      "pauta": "camara-eua-hegseth-judiciario-211-204"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.poder360.com.br",
+      "erro": "outro",
+      "detalhe": "WebFetch não consegue abrir o domínio"
+    },
+    {
+      "host": "www.ssp.df.gov.br",
+      "erro": "http-5xx",
+      "detalhe": "503 na lista de notícias"
+    }
+  ],
+  "pr": null
+}
