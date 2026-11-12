@@ -43,7 +43,7 @@ export function authorLd(name?: string) {
 
 export function newsArticleJsonLd(
   item: NewsItem,
-  opts: { path: string; coverUrl?: string | null; wordCount?: number }
+  opts: { path: string; coverUrl?: string | null; wordCount?: number; citation?: string[] }
 ) {
   const url = absoluteUrl(opts.path);
   // publishedAt (com hora e offset de Brasília) quando existe; senão, a data do dia.
@@ -63,6 +63,8 @@ export function newsArticleJsonLd(
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
     isPartOf: { "@id": `${site.url}/#website` },
     isBasedOn: item.sourceUrl,
+    // Outras fontes citadas no texto (caixa "Fontes desta notícia"), além da fonte original.
+    ...(opts.citation && opts.citation.length > 0 ? { citation: opts.citation } : {}),
     articleSection: "Notícias",
     keywords: item.sourceName,
     ...(opts.wordCount ? { wordCount: opts.wordCount } : {}),

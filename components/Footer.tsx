@@ -81,6 +81,11 @@ export function Footer() {
               </Link>
             </li>
             <li>
+              <Link href="/livros" className="text-foreground/90 transition hover:text-accent">
+                Vitrine de livros
+              </Link>
+            </li>
+            <li>
               <Link href="/busca" className="text-foreground/90 transition hover:text-accent">
                 Buscar no site
               </Link>
