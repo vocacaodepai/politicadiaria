@@ -10,7 +10,7 @@ export const item: NewsItem = {
   sourceUrl:
     "https://www.camara.leg.br/noticias/1318733-relator-de-mudancas-no-codigo-de-transito-altera-texto-para-facilitar-aprovacao",
   date: "2026-11-11",
-  publishedAt: "2026-11-11T23:35:00-03:00",
+  publishedAt: "2026-11-11T23:25:00-03:00",
   topic: "congresso",
   imageQuery: "Plenário da Câmara dos Deputados",
   content: `
