@@ -1,0 +1,10 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-13T03:21:25-03:00",
+  "fim": "2026-11-13T03:27:22-03:00",
+  "branch": "claude/pd-noticias-20261113-0321",
+  "publicou": ["mp-sp-inquerito-virada-esportiva-21-milhoes"],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}
