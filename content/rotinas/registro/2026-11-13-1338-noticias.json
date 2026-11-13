@@ -1,0 +1,35 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-13T13:38:27-03:00",
+  "fim": "2026-11-13T13:47:07-03:00",
+  "branch": "claude/pd-noticias-20261113-1338",
+  "publicou": [
+    "pl-269-proibe-arma-alvo-medida-protetiva"
+  ],
+  "descartou": [
+    {
+      "tema": "STF: referendo da liminar de Dino sobre a jornada 5x2 tem 2 votos (só CNN Brasil)",
+      "motivo": "fonte-unica",
+      "pauta": "stf-referendo-liminar-dino-jornada-5x2-sessao-virtual"
+    },
+    {
+      "tema": "PL 2902/26 amplia definição de terrorismo (apresentado em junho de 2026)",
+      "motivo": "sem-angulo"
+    },
+    {
+      "tema": "Lula chega às Filipinas para a cúpula da Asean (agenda oficial 14 e 15/11)",
+      "motivo": "ja-publicado"
+    },
+    {
+      "tema": "STF suspende lei de MT sobre velocidade da internet nas faturas (ADI 8044)",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "portal.stf.jus.br",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}
