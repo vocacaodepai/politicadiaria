@@ -1,0 +1,18 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-13T14:21:16-03:00",
+  "fim": "2026-11-13T14:26:14-03:00",
+  "branch": "claude/pd-noticias-20261113-1424",
+  "publicou": [
+    "ruas-lauro-rangel-seguranca-plano-territorios-stf"
+  ],
+  "descartou": [],
+  "bloqueios": [
+    {
+      "host": "odia.ig.com.br",
+      "erro": "outro",
+      "detalhe": "WebFetch recusou o domínio"
+    }
+  ],
+  "pr": null
+}
