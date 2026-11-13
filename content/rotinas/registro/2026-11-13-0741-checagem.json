@@ -1,0 +1,44 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-13T07:41:11-03:00",
+  "fim": "2026-11-13T07:50:11-03:00",
+  "branch": "claude/pd-checagem-20261113-0741",
+  "publicou": [
+    "enem-2026-tem-matematica-prova-e-no-segundo-dia-15-de-novembro",
+    "split-payment-nao-tributa-pix-transferencias-entre-pessoas"
+  ],
+  "descartou": [
+    {
+      "tema": "Vídeo que diria mostrar Lula afastado dos demais líderes na COP31",
+      "motivo": "fonte-unica",
+      "pauta": "video-lula-afastado-lideres-cop31"
+    },
+    {
+      "tema": "Vídeo de fila no GP de F1 em Interlagos apresentado como brasileiros deixando o Paraguai",
+      "motivo": "fonte-unica",
+      "pauta": "video-fila-interlagos-brasileiros-deixando-paraguai"
+    },
+    {
+      "tema": "PF teria concluído investigação de repasses de Vorcaro à Dark Horse",
+      "motivo": "ja-publicado"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "checamos.afp.com",
+      "erro": "outro",
+      "detalhe": "página não abriu na ferramenta de leitura"
+    },
+    {
+      "host": "lupa.uol.com.br",
+      "erro": "outro",
+      "detalhe": "página não abriu na ferramenta de leitura"
+    },
+    {
+      "host": "c-level.folha.uol.com.br",
+      "erro": "outro",
+      "detalhe": "página não abriu na ferramenta de leitura"
+    }
+  ],
+  "pr": null
+}

@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-13T07:37:04-03:00",
+  "atualizadoEm": "2026-11-13T07:47:58-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -257,7 +257,7 @@
         "https://www.aosfatos.org/noticias/video-lula-presidentes-cop31/"
       ],
       "primeiraVezVisto": "2026-11-12T19:44:00-03:00",
-      "ultimaRevisao": "2026-11-12T19:48:00-03:00",
+      "ultimaRevisao": "2026-11-13T07:47:58-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre a foto oficial"
     },
@@ -310,6 +310,19 @@
       "primeiraVezVisto": "2026-11-13T07:37:04-03:00",
       "ultimaRevisao": "2026-11-13T07:37:04-03:00",
       "status": "aberta"
+    },
+    {
+      "id": "video-fila-interlagos-brasileiros-deixando-paraguai",
+      "rotina": "checagem",
+      "tema": "Vídeo de fila no GP de F1 em Interlagos apresentado como brasileiros deixando o Paraguai após a crise do Ueno Bank",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://aosfatos.org/noticias/fila-formula-1-saida-brasileiros-paraguai/"
+      ],
+      "primeiraVezVisto": "2026-11-13T07:47:58-03:00",
+      "ultimaRevisao": "2026-11-13T07:47:58-03:00",
+      "status": "aberta",
+      "falta": "segunda fonte independente aberta sobre local e data do vídeo"
     }
   ]
 }
