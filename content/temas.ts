@@ -25,6 +25,7 @@ export const temas: Tema[] = [
       "plp-299-2026-wagner-projeto-fiscal-texto-trava-despesas",
       "alcolumbre-suspende-sessao-plp-299-votacao-quinta",
       "senado-aprova-urgencia-plp-299-40-a-38",
+      "senado-aprova-texto-base-plp-299-45-a-31",
     ],
   },
   {

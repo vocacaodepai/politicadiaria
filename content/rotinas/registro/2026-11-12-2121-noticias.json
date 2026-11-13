@@ -1,0 +1,12 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-12T21:21:05-03:00",
+  "fim": "2026-11-12T21:25:10-03:00",
+  "branch": "claude/pd-noticias-20261112-2121",
+  "publicou": [
+    "senado-aprova-texto-base-plp-299-45-a-31"
+  ],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}

@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-12T20:27:39-03:00",
+  "atualizadoEm": "2026-11-12T21:25:10-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -237,12 +237,16 @@
         "https://www.otempo.com.br/politica/2026/11/12/senado-aprova-urgencia-do-pacote-fiscal-por-40-a-38-e-governo-fica-a-um-voto-do-minimo",
         "https://www.gazetaweb.com/noticias/brasil/senado-aprova-urgencia-e-deve-votar-ajuste-fiscal-de-lula-ainda-nesta-5-948909",
         "https://www25.senado.leg.br/web/atividade/materias/-/materia/176328",
-        "https://www.diariodepernambuco.com.br/economia/2026/11/11729017-senado-aprova-urgencia-para-pacote-que-preve-cortes-e-revisao-de-beneficios-fiscais.html"
+        "https://www.diariodepernambuco.com.br/economia/2026/11/11729017-senado-aprova-urgencia-para-pacote-que-preve-cortes-e-revisao-de-beneficios-fiscais.html",
+        "https://www12.senado.leg.br/noticias/senado-agora/2026/11/12/ajuste-fiscal",
+        "https://www.cnnbrasil.com.br/politica/senado-aprova-plp-do-ajuste-fiscal/",
+        "https://sbtnews.sbt.com.br/noticia/economia/senado-aprova-ajuste-fiscal-de-lula-com-r-56-bi-de-impacto"
       ],
       "primeiraVezVisto": "2026-11-12T19:21:28-03:00",
-      "ultimaRevisao": "2026-11-12T20:27:39-03:00",
-      "status": "aberta",
-      "falta": "resultado do mérito ou adiamento confirmado na Agência Senado ou em 2 veículos"
+      "ultimaRevisao": "2026-11-12T21:25:10-03:00",
+      "status": "publicada",
+      "falta": "resultado do mérito ou adiamento confirmado na Agência Senado ou em 2 veículos",
+      "slug": "senado-aprova-texto-base-plp-299-45-a-31"
     },
     {
       "id": "video-lula-afastado-lideres-cop31",
