@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-12T21:25:10-03:00",
+  "atualizadoEm": "2026-11-13T00:29:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -260,6 +260,17 @@
       "ultimaRevisao": "2026-11-12T19:48:00-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre a foto oficial"
+    },
+    {
+      "id": "bndes-cop31-52-bilhoes",
+      "rotina": "noticias",
+      "tema": "Anúncio de R$ 52 bilhões do BNDES na COP31",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "falta": "fonte oficial (BNDES ou Agência Gov) ou dois veículos de editoria",
+      "primeiraVezVisto": "2026-11-13T00:29:00-03:00",
+      "ultimaRevisao": "2026-11-13T00:29:00-03:00",
+      "status": "aberta"
     }
   ]
 }
