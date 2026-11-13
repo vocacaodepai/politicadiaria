@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-13T06:28:24-03:00",
+  "atualizadoEm": "2026-11-13T07:37:04-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -283,6 +283,32 @@
       ],
       "primeiraVezVisto": "2026-11-13T05:41:06-03:00",
       "ultimaRevisao": "2026-11-13T05:41:06-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "mpt-assedio-eleitoral-5637-escola-itajai",
+      "rotina": "noticias",
+      "tema": "MPT soma 5.637 casos de assédio eleitoral até 12/11; escola de Itajaí (SC) demite professora após foto com gesto de apoio a Lula",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-11/professora-e-demitida-de-escola-em-sc-apos-foto-em-apoio-lula"
+      ],
+      "falta": "painel ou nota do MPT com o total, ou segunda fonte independente",
+      "primeiraVezVisto": "2026-11-13T07:37:04-03:00",
+      "ultimaRevisao": "2026-11-13T07:37:04-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "gaza-ataque-hospital-nasser-12-novembro",
+      "rotina": "noticias",
+      "tema": "Ataque israelense ao Hospital Nasser, em Khan Younis, mata ao menos seis pessoas, segundo a defesa civil de Gaza",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/gaza-ataque-israelense-hospital-deixa-6-mortos-diz-defesa-civil"
+      ],
+      "falta": "segunda fonte independente (Reuters via Agência Brasil é a única aberta)",
+      "primeiraVezVisto": "2026-11-13T07:37:04-03:00",
+      "ultimaRevisao": "2026-11-13T07:37:04-03:00",
       "status": "aberta"
     }
   ]
