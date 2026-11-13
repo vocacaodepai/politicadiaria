@@ -1,0 +1,17 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-13T07:26:53-03:00",
+  "fim": "2026-11-13T07:37:13-03:00",
+  "branch": "claude/pd-noticias-20261113-0727",
+  "publicou": ["argentina-inflacao-outubro-22-indec-maior-desde-abril"],
+  "descartou": [
+    { "tema": "MPT: 5.637 casos de assédio eleitoral e demissão de professora em Itajaí (SC)", "motivo": "fonte-unica", "pauta": "mpt-assedio-eleitoral-5637-escola-itajai" },
+    { "tema": "Ataque israelense ao Hospital Nasser, em Gaza", "motivo": "fonte-unica", "pauta": "gaza-ataque-hospital-nasser-12-novembro" },
+    { "tema": "Balanço do Banco do Brasil e inadimplência do agro", "motivo": "ja-publicado" }
+  ],
+  "bloqueios": [
+    { "host": "www.cnnbrasil.com.br", "erro": "http-403" },
+    { "host": "www.indec.gob.ar", "erro": "outro", "detalhe": "página sem o informe do IPC" }
+  ],
+  "pr": null
+}
