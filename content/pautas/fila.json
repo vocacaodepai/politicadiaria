@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-13T12:46:37-03:00",
+  "atualizadoEm": "2026-11-13T13:50:42-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -257,7 +257,7 @@
         "https://www.aosfatos.org/noticias/video-lula-presidentes-cop31/"
       ],
       "primeiraVezVisto": "2026-11-12T19:44:00-03:00",
-      "ultimaRevisao": "2026-11-13T07:47:58-03:00",
+      "ultimaRevisao": "2026-11-13T13:50:42-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre a foto oficial"
     },
@@ -320,7 +320,7 @@
         "https://aosfatos.org/noticias/fila-formula-1-saida-brasileiros-paraguai/"
       ],
       "primeiraVezVisto": "2026-11-13T07:47:58-03:00",
-      "ultimaRevisao": "2026-11-13T07:47:58-03:00",
+      "ultimaRevisao": "2026-11-13T13:50:42-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre local e data do vídeo"
     },
@@ -352,6 +352,32 @@
       "ultimaRevisao": "2026-11-13T11:00:29-03:00",
       "status": "publicada",
       "slug": "pf-segunda-fase-operacao-make-up-emendas-dark-horse"
+    },
+    {
+      "id": "video-congestionamento-ponte-amizade-fuga-paraguai",
+      "rotina": "checagem",
+      "tema": "Vídeo de fila de carros na Ponte da Amizade apresentado como fuga de brasileiros do Paraguai após a crise do Ueno Bank (Aos Fatos: gravado em 10 de outubro)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://aosfatos.org/noticias/video-congestionamento-paraguai/"
+      ],
+      "primeiraVezVisto": "2026-11-13T13:50:42-03:00",
+      "ultimaRevisao": "2026-11-13T13:50:42-03:00",
+      "status": "aberta",
+      "falta": "segunda fonte independente aberta (checagem da AFP não abriu)"
+    },
+    {
+      "id": "foto-protesto-1-milhao-contra-milei-copa-2022",
+      "rotina": "checagem",
+      "tema": "Foto de multidão no Obelisco de Buenos Aires apresentada como protesto de 1 milhão de argentinos contra Milei (Lupa: festa da Copa de 2022)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.agencialupa.org/noticias/2026/11/13/foto-nao-mostra-protesto-de-1-milhao-de-pessoas-contra-o-governo-milei/"
+      ],
+      "primeiraVezVisto": "2026-11-13T13:50:42-03:00",
+      "ultimaRevisao": "2026-11-13T13:50:42-03:00",
+      "status": "aberta",
+      "falta": "segunda fonte independente aberta sobre a origem da foto (AFP e Fast Check não abriram)"
     }
   ]
 }
