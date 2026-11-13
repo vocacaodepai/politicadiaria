@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-13T05:28:16-03:00",
+  "atualizadoEm": "2026-11-13T05:41:06-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -155,26 +155,26 @@
       "rotina": "livros",
       "tema": "Resenha de O Poder da Geografia, de Tim Marshall (Zahar, 2022, ISBN 9786559790678)",
       "motivo": "fonte-bloqueada",
-      "falta": "foto do livro: sem registro nem capa na Open Library e Amazon com HTTP 503",
       "fontesAbertas": [
         "https://www.companhiadasletras.com.br/livro/9786559790678/o-poder-da-geografia"
       ],
       "primeiraVezVisto": "2026-11-12T05:24:19-03:00",
-      "ultimaRevisao": "2026-11-12T05:46:00-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-13T05:41:06-03:00",
+      "status": "publicada",
+      "slug": "o-poder-da-geografia-marshall-zahar"
     },
     {
       "id": "livro-tolos-fraudes-e-militantes-scruton",
       "rotina": "livros",
       "tema": "Resenha de Tolos, Fraudes e Militantes, de Roger Scruton (Record, 2018, ISBN 9788501113023)",
       "motivo": "fonte-bloqueada",
-      "falta": "foto do livro: sem registro nem capa na Open Library e Amazon com HTTP 503",
       "fontesAbertas": [
         "https://www.record.com.br/en/products/tolos-fraudes-e-militantes"
       ],
       "primeiraVezVisto": "2026-11-12T05:24:19-03:00",
-      "ultimaRevisao": "2026-11-12T05:46:00-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-13T05:41:06-03:00",
+      "status": "publicada",
+      "slug": "tolos-fraudes-militantes-scruton-record"
     },
     {
       "id": "livro-segunda-guerra-mundial-martin-gilbert",
@@ -186,7 +186,7 @@
         "https://openlibrary.org/books/OL51726163M"
       ],
       "primeiraVezVisto": "2026-11-12T05:24:19-03:00",
-      "ultimaRevisao": "2026-11-12T05:46:00-03:00",
+      "ultimaRevisao": "2026-11-13T05:41:06-03:00",
       "status": "aberta"
     },
     {
@@ -270,6 +270,19 @@
       "falta": "fonte oficial (BNDES ou Agência Gov) ou dois veículos de editoria",
       "primeiraVezVisto": "2026-11-13T00:29:00-03:00",
       "ultimaRevisao": "2026-11-13T05:28:16-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "livro-antigo-regime-revolucao-tocqueville",
+      "rotina": "livros",
+      "tema": "Resenha de O Antigo Regime e a Revolução, de Alexis de Tocqueville (Edipro, 2017, ISBN 9788572839822)",
+      "motivo": "numeros-divergentes",
+      "falta": "confirmar editora do ISBN 9788572839822 (listagens atribuem a Edipro e à loja da Editora UnB) em fonte da editora",
+      "fontesAbertas": [
+        "https://www.estantevirtual.com.br/livro/o-antigo-regime-e-a-revolucao-095-6953-000-BK"
+      ],
+      "primeiraVezVisto": "2026-11-13T05:41:06-03:00",
+      "ultimaRevisao": "2026-11-13T05:41:06-03:00",
       "status": "aberta"
     }
   ]
