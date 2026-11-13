@@ -1,0 +1,26 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-13T04:21:12-03:00",
+  "fim": "2026-11-13T04:27:43-03:00",
+  "branch": "claude/pd-noticias-20261113-0421",
+  "publicou": [
+    "tcu-auditoria-presidios-bloqueadores-10-por-cento"
+  ],
+  "descartou": [
+    {
+      "tema": "Banco do Brasil aponta recusa de produtores em renegociar dívidas do agro",
+      "motivo": "ja-publicado"
+    },
+    {
+      "tema": "CAS do Senado aprova estabilidade de gestantes e vacina contra herpes-zóster no SUS",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.stj.jus.br",
+      "erro": "http-401"
+    }
+  ],
+  "pr": null
+}
