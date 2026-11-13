@@ -1,0 +1,23 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-13T19:21:31-03:00",
+  "fim": "2026-11-13T19:25:57-03:00",
+  "branch": "claude/pd-noticias-20261113-1920",
+  "publicou": [
+    "paraguai-acusa-ex-presidente-associacao-criminosa"
+  ],
+  "descartou": [
+    {
+      "tema": "FAA suspende todas as decolagens nos EUA",
+      "motivo": "fonte-unica",
+      "pauta": "eua-faa-suspensao-nacional-decolagens-13-novembro"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.france24.com",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}
