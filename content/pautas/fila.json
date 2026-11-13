@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-13T12:46:37-03:00",
+  "atualizadoEm": "2026-11-13T13:45:30-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -269,7 +269,7 @@
       "fontesAbertas": [],
       "falta": "fonte oficial (BNDES ou Agência Gov) ou dois veículos de editoria",
       "primeiraVezVisto": "2026-11-13T00:29:00-03:00",
-      "ultimaRevisao": "2026-11-13T11:00:29-03:00",
+      "ultimaRevisao": "2026-11-13T13:45:30-03:00",
       "status": "aberta"
     },
     {
@@ -295,7 +295,7 @@
       ],
       "falta": "painel ou nota do MPT com o total, ou segunda fonte independente",
       "primeiraVezVisto": "2026-11-13T07:37:04-03:00",
-      "ultimaRevisao": "2026-11-13T11:00:29-03:00",
+      "ultimaRevisao": "2026-11-13T13:45:30-03:00",
       "status": "aberta"
     },
     {
@@ -308,7 +308,7 @@
       ],
       "falta": "segunda fonte independente (Reuters via Agência Brasil é a única aberta)",
       "primeiraVezVisto": "2026-11-13T07:37:04-03:00",
-      "ultimaRevisao": "2026-11-13T11:00:29-03:00",
+      "ultimaRevisao": "2026-11-13T13:45:30-03:00",
       "status": "aberta"
     },
     {
@@ -330,12 +330,13 @@
       "tema": "STF julga em sessão virtual extraordinária, de 13/11 às 11h a 16/11, o referendo da liminar de Dino sobre a jornada 5x2",
       "motivo": "aguardando-fato",
       "fontesAbertas": [
-        "https://www.infomoney.com.br/politica/fim-da-escala-6x1-stf-analisa-a-partir-de-sexta-feira-decisao-de-dino/"
+        "https://www.infomoney.com.br/politica/fim-da-escala-6x1-stf-analisa-a-partir-de-sexta-feira-decisao-de-dino/",
+        "https://www.cnnbrasil.com.br/politica/stf-dino-fim-da-6x1/"
       ],
       "primeiraVezVisto": "2026-11-13T08:31:06-03:00",
-      "ultimaRevisao": "2026-11-13T12:46:37-03:00",
+      "ultimaRevisao": "2026-11-13T13:45:30-03:00",
       "status": "aberta",
-      "falta": "abertura da sessão e votos dos ministros"
+      "falta": "segunda fonte para os votos (CNN Brasil registra 2 votos, Dino e Moraes) ou resultado ao fim da sessão em 16/11"
     },
     {
       "id": "pf-operacao-make-up-segunda-fase",
