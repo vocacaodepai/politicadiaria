@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-13T14:26:14-03:00",
+  "atualizadoEm": "2026-11-13T15:27:35-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -334,7 +334,7 @@
         "https://www.cnnbrasil.com.br/politica/stf-dino-fim-da-6x1/"
       ],
       "primeiraVezVisto": "2026-11-13T08:31:06-03:00",
-      "ultimaRevisao": "2026-11-13T14:26:14-03:00",
+      "ultimaRevisao": "2026-11-13T15:27:35-03:00",
       "status": "aberta",
       "falta": "segunda fonte para os votos (CNN Brasil registra 2 votos, Dino e Moraes) ou resultado ao fim da sessão em 16/11"
     },
@@ -379,6 +379,19 @@
       "ultimaRevisao": "2026-11-13T13:50:42-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre a origem da foto (AFP e Fast Check não abriram)"
+    },
+    {
+      "id": "agu-parecer-adpf-1362-psd-segundo-turno-rio",
+      "rotina": "noticias",
+      "tema": "AGU envia ao STF parecer contra pedido do PSD por segundo turno no Rio e pede referendo da decisão de Zanin",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.infomoney.com.br/politica/apos-decisao-de-zanin-agu-se-manifesta-contra-pedido-do-psd-sobre-2o-turno-no-rio/"
+      ],
+      "falta": "nota da AGU ou segunda fonte independente (texto é da Agência O Globo)",
+      "primeiraVezVisto": "2026-11-13T15:27:35-03:00",
+      "ultimaRevisao": "2026-11-13T15:27:35-03:00",
+      "status": "aberta"
     }
   ]
 }
