@@ -1,0 +1,28 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-13T17:21:14-03:00",
+  "fim": "2026-11-13T17:27:11-03:00",
+  "branch": "claude/pd-noticias-20261113-1720",
+  "publicou": [
+    "durigan-vital-barreirinhas-cae-aliquota-cbs-terca"
+  ],
+  "descartou": [
+    {
+      "tema": "Lula chega a Manila para visita de Estado e cúpula da Asean",
+      "motivo": "aguardando-fato",
+      "pauta": "lula-filipinas-visita-estado-marcos-14-novembro"
+    },
+    {
+      "tema": "AGU envia ao STF parecer contra pedido do PSD por segundo turno no Rio",
+      "motivo": "fonte-unica",
+      "pauta": "agu-parecer-adpf-1362-psd-segundo-turno-rio"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.rappler.com",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}
