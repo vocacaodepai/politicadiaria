@@ -1,0 +1,19 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-13T19:41:19-03:00",
+  "fim": "2026-11-13T19:45:37-03:00",
+  "branch": "claude/pd-checagem-20261113-1941",
+  "publicou": ["fila-carros-ciudad-del-este-feriado-outubro-nao-e-fuga-do-paraguai"],
+  "descartou": [
+    { "tema": "Vídeo da Record de 2016 sobre pente-fino do INSS apresentado como medida atual", "motivo": "fonte-unica", "pauta": "video-record-2016-pente-fino-inss-aposentados-devolver" },
+    { "tema": "Vídeo de Lula afastado de líderes na COP31", "motivo": "fonte-unica", "pauta": "video-lula-afastado-lideres-cop31" },
+    { "tema": "Vídeo de fila em Interlagos apresentado como saída de brasileiros do Paraguai", "motivo": "fonte-unica", "pauta": "video-fila-interlagos-brasileiros-deixando-paraguai" },
+    { "tema": "Foto do Obelisco apresentada como protesto de 1 milhão contra Milei", "motivo": "fonte-unica", "pauta": "foto-protesto-1-milhao-contra-milei-copa-2022" }
+  ],
+  "bloqueios": [
+    { "host": "checamos.afp.com", "erro": "outro", "detalhe": "fetch recusado pela ferramenta" },
+    { "host": "g1.globo.com", "erro": "outro", "detalhe": "fetch recusado pela ferramenta" },
+    { "host": "www.youtube.com", "erro": "captcha" }
+  ],
+  "pr": null
+}
