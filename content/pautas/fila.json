@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-13T07:47:58-03:00",
+  "atualizadoEm": "2026-11-13T08:31:06-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -323,6 +323,32 @@
       "ultimaRevisao": "2026-11-13T07:47:58-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre local e data do vídeo"
+    },
+    {
+      "id": "stf-referendo-liminar-dino-jornada-5x2-sessao-virtual",
+      "rotina": "noticias",
+      "tema": "STF julga em sessão virtual extraordinária, de 13/11 às 11h a 16/11, o referendo da liminar de Dino sobre a jornada 5x2",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [
+        "https://www.infomoney.com.br/politica/fim-da-escala-6x1-stf-analisa-a-partir-de-sexta-feira-decisao-de-dino/"
+      ],
+      "primeiraVezVisto": "2026-11-13T08:31:06-03:00",
+      "ultimaRevisao": "2026-11-13T08:31:06-03:00",
+      "status": "aberta",
+      "falta": "abertura da sessão e votos dos ministros"
+    },
+    {
+      "id": "pf-operacao-make-up-segunda-fase",
+      "rotina": "noticias",
+      "tema": "PF deflagra 2ª fase da Operação Make Up, em Brasília, com mandado do STF sobre desvio de emendas parlamentares",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [
+        "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/11/pf-deflagra-2a-fase-da-operacao-make-up"
+      ],
+      "primeiraVezVisto": "2026-11-13T08:31:06-03:00",
+      "ultimaRevisao": "2026-11-13T08:31:06-03:00",
+      "status": "aberta",
+      "falta": "alvo, decisão do STF ou segunda fonte com detalhes"
     }
   ]
 }
