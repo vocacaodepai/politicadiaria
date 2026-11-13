@@ -15,5 +15,5 @@
     { "host": "g1.globo.com", "erro": "outro", "detalhe": "fetch recusado pela ferramenta" },
     { "host": "www.youtube.com", "erro": "captcha" }
   ],
-  "pr": null
+  "pr": 513
 }
