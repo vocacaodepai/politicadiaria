@@ -27,6 +27,7 @@ export const temas: Tema[] = [
       "senado-aprova-urgencia-plp-299-40-a-38",
       "senado-aprova-texto-base-plp-299-45-a-31",
       "dolar-5-65-pacote-fiscal-banco-do-brasil-ibovespa",
+      "ajuste-fiscal-lei-kandir-destaques-terca-senado",
     ],
   },
   {

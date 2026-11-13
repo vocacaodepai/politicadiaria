@@ -1,0 +1,22 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-13T06:21:35-03:00",
+  "fim": "2026-11-13T06:28:24-03:00",
+  "branch": "claude/pd-noticias-20261113-0621",
+  "publicou": [
+    "ajuste-fiscal-lei-kandir-destaques-terca-senado"
+  ],
+  "descartou": [
+    {
+      "tema": "Lula nas Filipinas: visita de Estado só em 14/11, sem fato concreto ocorrido",
+      "motivo": "aguardando-fato"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.folhavitoria.com.br",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}
