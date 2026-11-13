@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-13T16:25:51-03:00",
+  "atualizadoEm": "2026-11-13T17:27:02-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -90,10 +90,14 @@
       "rotina": "noticias",
       "tema": "TCU e CBS de 11,3%",
       "motivo": "fonte-unica",
-      "fontesAbertas": [],
+      "fontesAbertas": [
+        "https://www12.senado.leg.br/noticias/materias/2026/11/13/cae-ministro-da-fazenda-debate-aliquota-da-cbs-na-terca-feira",
+        "https://www12.senado.leg.br/noticias/materias/2026/11/10/senado-recebe-acordao-do-tcu-que-propoe-aliquota-de-11-3-para-a-cbs"
+      ],
       "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
-      "ultimaRevisao": "2026-11-12T11:26:50-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-13T17:27:02-03:00",
+      "status": "publicada",
+      "slug": "durigan-vital-barreirinhas-cae-aliquota-cbs-terca"
     },
     {
       "id": "delegados-pf-damares-amin",
@@ -269,7 +273,7 @@
       "fontesAbertas": [],
       "falta": "fonte oficial (BNDES ou Agência Gov) ou dois veículos de editoria",
       "primeiraVezVisto": "2026-11-13T00:29:00-03:00",
-      "ultimaRevisao": "2026-11-13T13:45:30-03:00",
+      "ultimaRevisao": "2026-11-13T17:27:02-03:00",
       "status": "aberta"
     },
     {
@@ -390,7 +394,20 @@
       ],
       "falta": "nota da AGU ou segunda fonte independente (texto é da Agência O Globo)",
       "primeiraVezVisto": "2026-11-13T15:27:35-03:00",
-      "ultimaRevisao": "2026-11-13T16:25:51-03:00",
+      "ultimaRevisao": "2026-11-13T17:27:02-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "lula-filipinas-visita-estado-marcos-14-novembro",
+      "rotina": "noticias",
+      "tema": "Lula chega a Manila para visita de Estado; reunião com Marcos em 14/11 e cúpula da Asean em 15/11",
+      "motivo": "aguardando-fato",
+      "falta": "resultado da reunião com Marcos ou anúncio na cúpula",
+      "fontesAbertas": [
+        "https://jornaldebrasilia.com.br/noticias/politica-e-poder/lula-chega-a-manila-para-visita-de-estado-e-reuniao-bilateral-com-canada-e-singapura/"
+      ],
+      "primeiraVezVisto": "2026-11-13T17:27:02-03:00",
+      "ultimaRevisao": "2026-11-13T17:27:02-03:00",
       "status": "aberta"
     }
   ]
