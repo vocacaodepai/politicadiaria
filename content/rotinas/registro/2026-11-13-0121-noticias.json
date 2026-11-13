@@ -1,0 +1,12 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-13T01:21:24-03:00",
+  "fim": "2026-11-13T01:26:27-03:00",
+  "branch": "claude/pd-noticias-20261113-0124",
+  "publicou": ["stf-encerra-adpf-165-planos-economicos-embargos"],
+  "descartou": [
+    { "tema": "Destaques do PLP 299 marcados para 17/11 no Senado", "motivo": "ja-publicado" }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
