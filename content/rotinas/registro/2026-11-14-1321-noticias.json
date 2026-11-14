@@ -1,0 +1,12 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-14T13:21:48-03:00",
+  "fim": "2026-11-14T13:25:55-03:00",
+  "branch": "claude/pd-noticias-20261114-1321",
+  "publicou": [
+    "gilmar-rebate-moro-anulacao-triplex-motivos-formais"
+  ],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}
