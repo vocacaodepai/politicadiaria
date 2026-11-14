@@ -1,0 +1,31 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-14T19:41:18-03:00",
+  "fim": "2026-11-14T19:43:13-03:00",
+  "branch": "claude/pd-checagem-20261114-1941",
+  "publicou": [],
+  "descartou": [
+    {
+      "tema": "Vídeo de Lula afastado dos líderes na COP31",
+      "motivo": "fonte-unica",
+      "pauta": "video-lula-afastado-lideres-cop31"
+    },
+    {
+      "tema": "Vídeo de fila em Interlagos apresentado como saída de brasileiros do Paraguai",
+      "motivo": "fonte-unica",
+      "pauta": "video-fila-interlagos-brasileiros-deixando-paraguai"
+    },
+    {
+      "tema": "Foto do Obelisco apresentada como protesto contra Milei",
+      "motivo": "fonte-unica",
+      "pauta": "foto-protesto-1-milhao-contra-milei-copa-2022"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.justicaeleitoral.jus.br",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}
