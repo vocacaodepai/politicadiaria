@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-13T20:25:17-03:00",
+  "atualizadoEm": "2026-11-13T23:23:09-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -408,7 +408,7 @@
         "https://jornaldebrasilia.com.br/noticias/politica-e-poder/lula-chega-a-manila-para-visita-de-estado-e-reuniao-bilateral-com-canada-e-singapura/"
       ],
       "primeiraVezVisto": "2026-11-13T17:27:02-03:00",
-      "ultimaRevisao": "2026-11-13T17:27:02-03:00",
+      "ultimaRevisao": "2026-11-13T23:23:09-03:00",
       "status": "aberta"
     },
     {
@@ -436,6 +436,19 @@
       "ultimaRevisao": "2026-11-13T19:45:24-03:00",
       "status": "aberta",
       "falta": "segunda fonte aberta (vídeo original no YouTube e checagem da Reuters não abriram)"
+    },
+    {
+      "id": "fachin-ministra-negra-stf-enajun",
+      "rotina": "noticias",
+      "tema": "Fachin defende indicação de ministra negra para a vaga no STF no encerramento do 9º Enajun, no Rio",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fachin-defende-indicacao-de-ministra-negra-para-o-stf"
+      ],
+      "falta": "segunda fonte de editoria ou nota oficial do STF/CNJ",
+      "primeiraVezVisto": "2026-11-13T23:23:09-03:00",
+      "ultimaRevisao": "2026-11-13T23:23:09-03:00",
+      "status": "aberta"
     }
   ]
 }
