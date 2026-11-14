@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-14T05:39:00-03:00",
+  "atualizadoEm": "2026-11-14T06:24:34-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -449,12 +449,15 @@
       "tema": "Fachin defende indicação de ministra negra para a vaga no STF no encerramento do 9º Enajun, no Rio",
       "motivo": "fonte-unica",
       "fontesAbertas": [
-        "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fachin-defende-indicacao-de-ministra-negra-para-o-stf"
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fachin-defende-indicacao-de-ministra-negra-para-o-stf",
+        "https://sbtnews.sbt.com.br/noticia/brasil/fachin-defende-nomeacao-de-ministra-negra-para-o-stf",
+        "https://www.metropoles.com/colunas/manoela-alcantara/fachin-vaga-stf-juizas-negras"
       ],
       "falta": "segunda fonte de editoria ou nota oficial do STF/CNJ",
       "primeiraVezVisto": "2026-11-13T23:23:09-03:00",
-      "ultimaRevisao": "2026-11-14T05:26:26-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-14T06:24:34-03:00",
+      "status": "publicada",
+      "slug": "fachin-defende-ministra-negra-stf-enajun"
     },
     {
       "id": "gilmar-rebate-moro-lula-2018-redes",
@@ -466,7 +469,7 @@
         "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/gilmar-diz-que-moro-agiu-para-impedir-candidatura-de-lula-em-2018"
       ],
       "primeiraVezVisto": "2026-11-14T00:23:33-03:00",
-      "ultimaRevisao": "2026-11-14T05:26:26-03:00",
+      "ultimaRevisao": "2026-11-14T06:24:34-03:00",
       "status": "aberta"
     },
     {
