@@ -52,6 +52,7 @@ export const temas: Tema[] = [
       "dino-decide-ate-sexta-13-implementacao-escala-5x2-plenario",
       "stf-jornada-8h24-sem-hora-extra-transicao-42-horas",
       "camara-senado-contestam-liminar-dino-emenda-141",
+      "fux-destaque-6x1-plenario-fisico-stf",
     ],
   },
   {

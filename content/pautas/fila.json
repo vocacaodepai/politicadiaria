@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-14T18:28:22-03:00",
+  "atualizadoEm": "2026-11-14T19:25:40-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -346,9 +346,10 @@
         "https://www.congressoemfoco.com.br/noticia/131599/dino-diz-que-decisao-sobre-6x1-nao-abre-excecoes-ou-permite-negociacao"
       ],
       "primeiraVezVisto": "2026-11-13T08:31:06-03:00",
-      "ultimaRevisao": "2026-11-14T11:28:27-03:00",
-      "status": "aberta",
-      "falta": "resultado ao fim da sessão virtual em 16/11 (Agência Brasil registra 4 votos: Dino, Moraes, Cármen Lúcia e Gilmar)"
+      "ultimaRevisao": "2026-11-14T19:25:40-03:00",
+      "status": "publicada",
+      "falta": "resultado ao fim da sessão virtual em 16/11 (Agência Brasil registra 4 votos: Dino, Moraes, Cármen Lúcia e Gilmar)",
+      "slug": "fux-destaque-6x1-plenario-fisico-stf"
     },
     {
       "id": "pf-operacao-make-up-segunda-fase",
