@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-14T03:22:25-03:00",
+  "atualizadoEm": "2026-11-14T04:26:20-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -404,13 +404,16 @@
       "rotina": "noticias",
       "tema": "Lula chega a Manila para visita de Estado; reunião com Marcos em 14/11 e cúpula da Asean em 15/11",
       "motivo": "aguardando-fato",
-      "falta": "resultado da reunião com Marcos ou anúncio na cúpula",
       "fontesAbertas": [
-        "https://jornaldebrasilia.com.br/noticias/politica-e-poder/lula-chega-a-manila-para-visita-de-estado-e-reuniao-bilateral-com-canada-e-singapura/"
+        "https://jornaldebrasilia.com.br/noticias/politica-e-poder/lula-chega-a-manila-para-visita-de-estado-e-reuniao-bilateral-com-canada-e-singapura/",
+        "https://www.cnnbrasil.com.br/politica/na-1a-visita-de-estado-apos-reeleicao-lula-critica-extremismo-e-ingerencia/",
+        "https://www.metropoles.com/mundo/apos-reuniao-com-lider-filipino-lula-apoia-palestinos-e-repudia-guerras",
+        "https://agenciagov.ebc.com.br/distribuicao/viagens-internacionais/261114034005_13-11-26-pr-lula-filipinas-assina-atos"
       ],
       "primeiraVezVisto": "2026-11-13T17:27:02-03:00",
-      "ultimaRevisao": "2026-11-14T03:22:25-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-14T04:26:20-03:00",
+      "status": "publicada",
+      "slug": "lula-marcos-manila-atos-assinados-ingerencia"
     },
     {
       "id": "eua-faa-suspensao-nacional-decolagens-13-novembro",
