@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-14T13:45:04-03:00",
+  "atualizadoEm": "2026-11-14T14:29:34-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -399,7 +399,7 @@
       ],
       "falta": "nota da AGU ou segunda fonte independente (texto é da Agência O Globo)",
       "primeiraVezVisto": "2026-11-13T15:27:35-03:00",
-      "ultimaRevisao": "2026-11-13T17:27:02-03:00",
+      "ultimaRevisao": "2026-11-14T14:29:34-03:00",
       "status": "aberta"
     },
     {
@@ -532,6 +532,32 @@
       "falta": "resultado do julgamento (votos até 23/11); segunda fonte achada (Correio Braziliense); voto citado na notícia de Gilmar e Moro",
       "primeiraVezVisto": "2026-11-14T10:27:56-03:00",
       "ultimaRevisao": "2026-11-14T13:25:55-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "atlasintel-bloomberg-aprovacao-lula-novembro-2026",
+      "rotina": "noticias",
+      "tema": "AtlasIntel/Bloomberg (5 a 9/11): 47,7% aprovam e 50,3% desaprovam o governo Lula",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.correiobraziliense.com.br/politica/2026/11/7538370-governo-lula-e-desaprovado-por-503-e-aprovado-por-477-diz-pesquisa.html"
+      ],
+      "falta": "divulgação da AtlasIntel ou da Bloomberg, ou veículo de outro grupo; comparação com outubro diverge entre sites",
+      "primeiraVezVisto": "2026-11-14T14:29:34-03:00",
+      "ultimaRevisao": "2026-11-14T14:29:34-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "celac-carta-secretario-geral-onu-latino",
+      "rotina": "noticias",
+      "tema": "Líderes da Celac, entre eles Lula e Milei, enviam carta ao Conselho de Segurança por secretário-geral da ONU latino-americano",
+      "motivo": "numeros-divergentes",
+      "fontesAbertas": [
+        "https://www.correiobraziliense.com.br/politica/2026/11/7538113-lula-e-milei-se-unem-a-lideres-da-celac-por-secretario-geral-latino-na-onu.html"
+      ],
+      "falta": "texto da carta ou nota oficial com a lista de signatários (sites citam 20 e 24 países)",
+      "primeiraVezVisto": "2026-11-14T14:29:34-03:00",
+      "ultimaRevisao": "2026-11-14T14:29:34-03:00",
       "status": "aberta"
     }
   ]
