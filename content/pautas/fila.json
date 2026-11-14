@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-14T14:29:34-03:00",
+  "atualizadoEm": "2026-11-14T15:28:30-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -544,7 +544,7 @@
       ],
       "falta": "divulgação da AtlasIntel ou da Bloomberg, ou veículo de outro grupo; comparação com outubro diverge entre sites",
       "primeiraVezVisto": "2026-11-14T14:29:34-03:00",
-      "ultimaRevisao": "2026-11-14T14:29:34-03:00",
+      "ultimaRevisao": "2026-11-14T15:28:30-03:00",
       "status": "aberta"
     },
     {
@@ -558,6 +558,19 @@
       "falta": "texto da carta ou nota oficial com a lista de signatários (sites citam 20 e 24 países)",
       "primeiraVezVisto": "2026-11-14T14:29:34-03:00",
       "ultimaRevisao": "2026-11-14T14:29:34-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "pdt-diretorio-federacao-psb-14-novembro",
+      "rotina": "noticias",
+      "tema": "Direção nacional do PDT analisa neste sábado (14) a proposta de federação com o PSB",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [
+        "https://pdt.org.br/index.php/executiva-nacional-aprova-ingresso-do-pdt-na-federacao-com-solidariedade-prd-e-avante/"
+      ],
+      "falta": "resultado da reunião em nota do PDT ou veículo de editoria",
+      "primeiraVezVisto": "2026-11-14T15:28:30-03:00",
+      "ultimaRevisao": "2026-11-14T15:28:30-03:00",
       "status": "aberta"
     }
   ]

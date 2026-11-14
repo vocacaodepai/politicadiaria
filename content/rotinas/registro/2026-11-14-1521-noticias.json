@@ -1,0 +1,37 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-14T15:21:30-03:00",
+  "fim": "2026-11-14T15:28:30-03:00",
+  "branch": "claude/pd-noticias-20261114-1521",
+  "publicou": [
+    "vistoria-veicular-idade-pl-467-viacao-transportes"
+  ],
+  "descartou": [
+    {
+      "tema": "Resultado da reunião do PDT sobre a federação com o PSB",
+      "motivo": "aguardando-fato",
+      "pauta": "pdt-diretorio-federacao-psb-14-novembro"
+    },
+    {
+      "tema": "Pesquisa AtlasIntel/Bloomberg sobre aprovação do governo Lula",
+      "motivo": "fonte-unica",
+      "pauta": "atlasintel-bloomberg-aprovacao-lula-novembro-2026"
+    },
+    {
+      "tema": "Ministro do MDIC vê como provável encontro de Lula e Trump no G20 de Miami",
+      "motivo": "sem-fonte-primaria"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.spacemoney.com.br",
+      "erro": "http-403"
+    },
+    {
+      "host": "www.camara.leg.br",
+      "erro": "http-429",
+      "detalhe": "inteiro teor via WebFetch; aberto depois com curl"
+    }
+  ],
+  "pr": null
+}
