@@ -1,0 +1,27 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-14T03:21:11-03:00",
+  "fim": "2026-11-14T03:22:25-03:00",
+  "branch": "claude/pd-noticias-20261114-0321",
+  "publicou": [],
+  "descartou": [
+    {
+      "tema": "Lula e Marcos em Manila: sem acordo assinado nem declaração conjunta publicados até 03h40 de Brasília",
+      "motivo": "aguardando-fato",
+      "pauta": "lula-filipinas-visita-estado-marcos-14-novembro"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "globalnation.inquirer.net",
+      "erro": "http-403",
+      "detalhe": "newsinfo.inquirer.net também 403"
+    },
+    {
+      "host": "api.firecrawl.dev",
+      "erro": "sem-creditos",
+      "detalhe": "não usado nesta rodada"
+    }
+  ],
+  "pr": null
+}
