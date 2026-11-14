@@ -1,0 +1,18 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-14T08:21:45-03:00",
+  "fim": "2026-11-14T08:25:24-03:00",
+  "branch": "claude/pd-noticias-20261114-0821",
+  "publicou": [
+    "toffoli-tres-dias-lula-alckmin-contas-campanha-tse"
+  ],
+  "descartou": [
+    {
+      "tema": "Gilmar Mendes rebate Sergio Moro sobre a anulação da condenação de Lula",
+      "motivo": "sem-angulo",
+      "pauta": "gilmar-rebate-moro-lula-2018-redes"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
