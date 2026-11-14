@@ -1,0 +1,23 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-14T19:21:38-03:00",
+  "fim": "2026-11-14T19:25:40-03:00",
+  "branch": "claude/pd-noticias-20261114-1921",
+  "publicou": [
+    "fux-destaque-6x1-plenario-fisico-stf"
+  ],
+  "descartou": [
+    {
+      "tema": "Resultado da reunião do PDT sobre a federação com o PSB",
+      "motivo": "aguardando-fato",
+      "pauta": "pdt-diretorio-federacao-psb-14-novembro"
+    },
+    {
+      "tema": "Desenho do Ministério da Segurança Pública com três secretarias da Justiça",
+      "motivo": "fonte-unica",
+      "pauta": "ministerio-seguranca-publica-desenho-mp-senasp-senappen-senad"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
