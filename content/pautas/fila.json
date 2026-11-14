@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-14T07:44:43-03:00",
+  "atualizadoEm": "2026-11-14T09:27:53-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -423,12 +423,17 @@
       "tema": "FAA suspende todas as decolagens nos EUA por falha nas comunicações do controle de tráfego aéreo, segunda suspensão nacional desde 2001",
       "motivo": "fonte-unica",
       "fontesAbertas": [
-        "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/eua-suspendem-todas-decolagens-devido-circunstancia-extraordinaria"
+        "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/eua-suspendem-todas-decolagens-devido-circunstancia-extraordinaria",
+        "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/",
+        "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next",
+        "https://abcnews.com/US/nationwide-ground-stop-ordered-airports-faa/story?id=138121848",
+        "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/anac-orienta-passageiros-consultar-aereas-sobre-voos-para-os-eua"
       ],
       "primeiraVezVisto": "2026-11-13T19:25:57-03:00",
-      "ultimaRevisao": "2026-11-13T20:25:17-03:00",
-      "status": "aberta",
-      "falta": "segunda fonte ou nota da FAA; causa, duração e efeito em voos entre Brasil e EUA"
+      "ultimaRevisao": "2026-11-14T09:27:53-03:00",
+      "status": "publicada",
+      "falta": "segunda fonte ou nota da FAA; causa, duração e efeito em voos entre Brasil e EUA",
+      "slug": "eua-param-decolagens-pane-controle-aereo-anac-orienta"
     },
     {
       "id": "video-record-2016-pente-fino-inss-aposentados-devolver",
