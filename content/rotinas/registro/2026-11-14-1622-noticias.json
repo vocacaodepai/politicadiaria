@@ -1,0 +1,31 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-14T16:22:08-03:00",
+  "fim": "2026-11-14T16:29:49-03:00",
+  "branch": "claude/pd-noticias-20261114-1621",
+  "publicou": [
+    "leiloes-energia-existente-14-bi-31-distribuidoras"
+  ],
+  "descartou": [
+    {
+      "tema": "Resultado da reunião do PDT sobre a federação com o PSB",
+      "motivo": "aguardando-fato",
+      "pauta": "pdt-diretorio-federacao-psb-14-novembro"
+    },
+    {
+      "tema": "MinC abre consulta pública sobre as regras da Lei Rouanet para 2027",
+      "motivo": "sem-angulo"
+    },
+    {
+      "tema": "Vídeo do ministro do Planejamento em defesa do ajuste fiscal",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.ccee.org.br",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}
