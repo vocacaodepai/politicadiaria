@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-14T12:30:36-03:00",
+  "atualizadoEm": "2026-11-14T13:25:55-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -473,11 +473,13 @@
       "falta": "segunda fonte achada (Jornal de Brasília); Correio Braziliense também noticiou; aguarda rodada com menos itens de justiça no dia",
       "fontesAbertas": [
         "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/gilmar-diz-que-moro-agiu-para-impedir-candidatura-de-lula-em-2018",
-        "https://jornaldebrasilia.com.br/noticias/politica-e-poder/gilmar-mendes-acusa-moro-de-manipular-justica-contra-lula/"
+        "https://jornaldebrasilia.com.br/noticias/politica-e-poder/gilmar-mendes-acusa-moro-de-manipular-justica-contra-lula/",
+        "https://www.correiobraziliense.com.br/politica/2026/11/7538512-moro-rebate-lula-sobre-triplex-e-gilmar-mendes-critica-atuacao-de-ex-juiz.html"
       ],
       "primeiraVezVisto": "2026-11-14T00:23:33-03:00",
-      "ultimaRevisao": "2026-11-14T12:30:36-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-14T13:25:55-03:00",
+      "status": "publicada",
+      "slug": "gilmar-rebate-moro-anulacao-triplex-motivos-formais"
     },
     {
       "id": "livro-acao-afirmativa-sowell",
@@ -523,11 +525,12 @@
       "tema": "Toffoli vota no plenário virtual do STF pela preservação definitiva do material da Operação Spoofing; demais votos até 23/11",
       "motivo": "aguardando-fato",
       "fontesAbertas": [
-        "https://www.infomoney.com.br/politica/toffoli-vota-pela-preservacao-de-mensagens-sobre-a-lava-jato-obtidas-por-hackers/"
+        "https://www.infomoney.com.br/politica/toffoli-vota-pela-preservacao-de-mensagens-sobre-a-lava-jato-obtidas-por-hackers/",
+        "https://www.correiobraziliense.com.br/politica/2026/11/7538289-stf-julga-preservacao-de-provas-da-vaza-jato-sobre-atuacao-de-moro-e-dallagnol.html"
       ],
-      "falta": "resultado do julgamento ou segunda fonte; dia já tem pautas de justiça",
+      "falta": "resultado do julgamento (votos até 23/11); segunda fonte achada (Correio Braziliense); voto citado na notícia de Gilmar e Moro",
       "primeiraVezVisto": "2026-11-14T10:27:56-03:00",
-      "ultimaRevisao": "2026-11-14T10:27:56-03:00",
+      "ultimaRevisao": "2026-11-14T13:25:55-03:00",
       "status": "aberta"
     }
   ]
