@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-14T17:30:00-03:00",
+  "atualizadoEm": "2026-11-14T18:28:22-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -78,12 +78,16 @@
       "tema": "Smartphones no Senado",
       "motivo": "fonte-unica",
       "fontesAbertas": [
-        "https://www12.senado.leg.br/noticias/materias/2026/11/11/davi-informa-que-senado-nao-esta-comprando-smartphones-para-os-parlamentares"
+        "https://www12.senado.leg.br/noticias/materias/2026/11/11/davi-informa-que-senado-nao-esta-comprando-smartphones-para-os-parlamentares",
+        "https://www.gazetadopovo.com.br/republica/claro-licitacao-iphones-senado/",
+        "https://www.infomoney.com.br/politica/claro-vence-pregao-do-senado-para-fornecer-iphones-e-celulares-por-r-496-milhoes/",
+        "https://www.cnnbrasil.com.br/politica/senado-fecha-pregao-de-iphones-para-parlamentares-por-r-495-milhoes/"
       ],
       "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
-      "ultimaRevisao": "2026-11-12T11:26:50-03:00",
-      "status": "aberta",
-      "falta": "segunda fonte ou edital do Pregão 290/2026 (Alcolumbre diz que é comodato, não compra)"
+      "ultimaRevisao": "2026-11-14T18:26:23-03:00",
+      "status": "publicada",
+      "falta": "segunda fonte ou edital do Pregão 290/2026 (Alcolumbre diz que é comodato, não compra)",
+      "slug": "senado-pregao-290-claro-habilitada-iphones-comodato"
     },
     {
       "id": "tcu-cbs-11-3",
@@ -572,6 +576,19 @@
       "primeiraVezVisto": "2026-11-14T15:28:30-03:00",
       "ultimaRevisao": "2026-11-14T17:30:00-03:00",
       "status": "aberta"
+    },
+    {
+      "id": "ministerio-seguranca-publica-desenho-mp-senasp-senappen-senad",
+      "rotina": "noticias",
+      "tema": "Planalto desenha MP do Ministério da Segurança Pública com Senasp, Senappen e Senad, PF, PRF e Força Nacional",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.cnnbrasil.com.br/politica/governo-desenha-ministerio-da-seguranca-com-tres-secretarias-da-justica/"
+      ],
+      "primeiraVezVisto": "2026-11-14T18:28:22-03:00",
+      "ultimaRevisao": "2026-11-14T18:28:22-03:00",
+      "status": "aberta",
+      "falta": "texto da MP ou nota oficial; reportagem cita só auxiliares não identificados"
     }
   ]
 }
