@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-14T06:24:34-03:00",
+  "atualizadoEm": "2026-11-14T07:27:11-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -464,12 +464,13 @@
       "rotina": "noticias",
       "tema": "Gilmar Mendes rebate em rede social o senador Sergio Moro sobre a anulação da condenação de Lula no caso triplex; Moro não comenta",
       "motivo": "fonte-unica",
-      "falta": "segunda fonte de editoria",
+      "falta": "segunda fonte achada (Jornal de Brasília); aguarda rodada com menos itens de justiça no dia",
       "fontesAbertas": [
-        "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/gilmar-diz-que-moro-agiu-para-impedir-candidatura-de-lula-em-2018"
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/gilmar-diz-que-moro-agiu-para-impedir-candidatura-de-lula-em-2018",
+        "https://jornaldebrasilia.com.br/noticias/politica-e-poder/gilmar-mendes-acusa-moro-de-manipular-justica-contra-lula/"
       ],
       "primeiraVezVisto": "2026-11-14T00:23:33-03:00",
-      "ultimaRevisao": "2026-11-14T06:24:34-03:00",
+      "ultimaRevisao": "2026-11-14T07:27:11-03:00",
       "status": "aberta"
     },
     {
@@ -481,6 +482,19 @@
       "fontesAbertas": [],
       "primeiraVezVisto": "2026-11-14T05:39:00-03:00",
       "ultimaRevisao": "2026-11-14T05:39:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "trf3-desarquiva-caso-comandante-crioulo-1973",
+      "rotina": "noticias",
+      "tema": "TRF3 atende ao MPF e manda desarquivar a investigação sobre a prisão, tortura e morte de Luiz José da Cunha, o Crioulo, em 1973",
+      "motivo": "aguardando-fato",
+      "falta": "data da decisão e número do processo, ou segunda fonte de editoria com esses dados",
+      "fontesAbertas": [
+        "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/mpf-obtem-liminar-para-desarquivar-investigacao-sobre-grave-violacao-de-direitos-humanos-na-ditadura"
+      ],
+      "primeiraVezVisto": "2026-11-14T07:27:11-03:00",
+      "ultimaRevisao": "2026-11-14T07:27:11-03:00",
       "status": "aberta"
     }
   ]

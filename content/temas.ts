@@ -28,6 +28,7 @@ export const temas: Tema[] = [
       "senado-aprova-texto-base-plp-299-45-a-31",
       "dolar-5-65-pacote-fiscal-banco-do-brasil-ibovespa",
       "ajuste-fiscal-lei-kandir-destaques-terca-senado",
+      "pt-projetos-grandes-fortunas-dividendos-lci-lca",
     ],
   },
   {
