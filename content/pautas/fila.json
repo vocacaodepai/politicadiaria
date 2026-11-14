@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-14T09:27:53-03:00",
+  "atualizadoEm": "2026-11-14T10:27:56-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -515,6 +515,19 @@
       "ultimaRevisao": "2026-11-14T07:44:43-03:00",
       "status": "publicada",
       "slug": "pix-mei-nao-comeca-so-em-2030-pagamentos-previstos-a-partir-de-2027"
+    },
+    {
+      "id": "stf-toffoli-voto-preservar-mensagens-spoofing",
+      "rotina": "noticias",
+      "tema": "Toffoli vota no plenário virtual do STF pela preservação definitiva do material da Operação Spoofing; demais votos até 23/11",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [
+        "https://www.infomoney.com.br/politica/toffoli-vota-pela-preservacao-de-mensagens-sobre-a-lava-jato-obtidas-por-hackers/"
+      ],
+      "falta": "resultado do julgamento ou segunda fonte; dia já tem pautas de justiça",
+      "primeiraVezVisto": "2026-11-14T10:27:56-03:00",
+      "ultimaRevisao": "2026-11-14T10:27:56-03:00",
+      "status": "aberta"
     }
   ]
 }
