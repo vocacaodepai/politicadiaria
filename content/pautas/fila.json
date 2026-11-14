@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-14T07:27:11-03:00",
+  "atualizadoEm": "2026-11-14T07:44:43-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -262,7 +262,7 @@
         "https://www.aosfatos.org/noticias/video-lula-presidentes-cop31/"
       ],
       "primeiraVezVisto": "2026-11-12T19:44:00-03:00",
-      "ultimaRevisao": "2026-11-13T19:45:24-03:00",
+      "ultimaRevisao": "2026-11-14T07:44:43-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre a foto oficial"
     },
@@ -326,7 +326,7 @@
         "https://aosfatos.org/noticias/fila-formula-1-saida-brasileiros-paraguai/"
       ],
       "primeiraVezVisto": "2026-11-13T07:47:58-03:00",
-      "ultimaRevisao": "2026-11-13T19:45:24-03:00",
+      "ultimaRevisao": "2026-11-14T07:44:43-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre local e data do vídeo"
     },
@@ -384,7 +384,7 @@
         "https://www.agencialupa.org/noticias/2026/11/13/foto-nao-mostra-protesto-de-1-milhao-de-pessoas-contra-o-governo-milei/"
       ],
       "primeiraVezVisto": "2026-11-13T13:50:42-03:00",
-      "ultimaRevisao": "2026-11-13T19:45:24-03:00",
+      "ultimaRevisao": "2026-11-14T07:44:43-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre a origem da foto (AFP e Fast Check não abriram)"
     },
@@ -439,7 +439,7 @@
         "https://www.agencialupa.org/verificacao/2026/11/13/e-de-2016-video-sobre-cobranca-de-valores-de-aposentados-pelo-inss/"
       ],
       "primeiraVezVisto": "2026-11-13T19:45:24-03:00",
-      "ultimaRevisao": "2026-11-13T19:45:24-03:00",
+      "ultimaRevisao": "2026-11-14T07:44:43-03:00",
       "status": "aberta",
       "falta": "segunda fonte aberta (vídeo original no YouTube e checagem da Reuters não abriram)"
     },
@@ -496,6 +496,20 @@
       "primeiraVezVisto": "2026-11-14T07:27:11-03:00",
       "ultimaRevisao": "2026-11-14T07:27:11-03:00",
       "status": "aberta"
+    },
+    {
+      "id": "pix-mei-pagamento-so-em-2030",
+      "rotina": "checagem",
+      "tema": "Postagens dizem que o governo confirmou o Pix MEI de R$ 5 mil só para 2030 (MEMP: execução de 2027 a 2030)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://aosfatos.org/noticias/pagamento-pix-mei/",
+        "https://www.gov.br/memp/pt-br/assuntos/noticias/congresso-aprova-pacote-do-mei-com-teto-de-ate-r-140-mil-dois-empregados-e-perdao-de-dividas-federais"
+      ],
+      "primeiraVezVisto": "2026-11-14T07:41:13-03:00",
+      "ultimaRevisao": "2026-11-14T07:44:43-03:00",
+      "status": "publicada",
+      "slug": "pix-mei-nao-comeca-so-em-2030-pagamentos-previstos-a-partir-de-2027"
     }
   ]
 }
