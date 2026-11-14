@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-14T05:26:26-03:00",
+  "atualizadoEm": "2026-11-14T05:39:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -185,13 +185,14 @@
       "rotina": "livros",
       "tema": "Resenha de A Segunda Guerra Mundial, de Martin Gilbert (Casa da Palavra, 2014)",
       "motivo": "numeros-divergentes",
-      "falta": "ISBN e páginas da edição impressa divergem entre fontes (9788577344666 ou 9788577344673; 976 ou 1274 páginas)",
       "fontesAbertas": [
-        "https://openlibrary.org/books/OL51726163M"
+        "https://openlibrary.org/books/OL51726163M",
+        "https://www.companhiadasletras.com.br/livro/9788539007578/a-segunda-guerra-mundial-vol1-1939-1942"
       ],
       "primeiraVezVisto": "2026-11-12T05:24:19-03:00",
-      "ultimaRevisao": "2026-11-13T05:41:06-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-14T05:39:00-03:00",
+      "status": "publicada",
+      "slug": "segunda-guerra-mundial-martin-gilbert-objetiva"
     },
     {
       "id": "camara-eua-hegseth-judiciario-211-204",
@@ -281,13 +282,14 @@
       "rotina": "livros",
       "tema": "Resenha de O Antigo Regime e a Revolução, de Alexis de Tocqueville (Edipro, 2017, ISBN 9788572839822)",
       "motivo": "numeros-divergentes",
-      "falta": "confirmar editora do ISBN 9788572839822 (listagens atribuem a Edipro e à loja da Editora UnB) em fonte da editora",
       "fontesAbertas": [
-        "https://www.estantevirtual.com.br/livro/o-antigo-regime-e-a-revolucao-095-6953-000-BK"
+        "https://www.estantevirtual.com.br/livro/o-antigo-regime-e-a-revolucao-095-6953-000-BK",
+        "https://edipro.com.br/livro/o-antigo-regime-e-a-revolucao/"
       ],
       "primeiraVezVisto": "2026-11-13T05:41:06-03:00",
-      "ultimaRevisao": "2026-11-13T05:41:06-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-14T05:39:00-03:00",
+      "status": "publicada",
+      "slug": "antigo-regime-e-a-revolucao-tocqueville-edipro"
     },
     {
       "id": "mpt-assedio-eleitoral-5637-escola-itajai",
@@ -465,6 +467,17 @@
       ],
       "primeiraVezVisto": "2026-11-14T00:23:33-03:00",
       "ultimaRevisao": "2026-11-14T05:26:26-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "livro-acao-afirmativa-sowell",
+      "rotina": "livros",
+      "tema": "Resenha de Ação Afirmativa ao Redor do Mundo, de Thomas Sowell (É Realizações, 2016, ISBN 9788580332445)",
+      "motivo": "fonte-bloqueada",
+      "falta": "confirmar ficha da edição no site da editora (sem resposta em 14/11/2026)",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-14T05:39:00-03:00",
+      "ultimaRevisao": "2026-11-14T05:39:00-03:00",
       "status": "aberta"
     }
   ]
