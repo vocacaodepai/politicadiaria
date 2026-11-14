@@ -1,0 +1,33 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-14T20:21:14-03:00",
+  "fim": "2026-11-14T20:32:13-03:00",
+  "branch": "claude/pd-noticias-20261114-2021",
+  "publicou": [
+    "zelensky-eua-otan-troca-saida-donbass",
+    "lei-rouanet-consulta-publica-regras-2027"
+  ],
+  "descartou": [
+    {
+      "tema": "Janones rebate críticas da esquerda ao ajuste fiscal em redes sociais",
+      "motivo": "sem-angulo"
+    },
+    {
+      "tema": "Roteiro brasileiro para afastamento dos combustíveis fósseis apresentado na COP31",
+      "motivo": "ja-publicado"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "brasilparticipativo.presidencia.gov.br",
+      "erro": "http-5xx",
+      "detalhe": "503 ao abrir a página da consulta"
+    },
+    {
+      "host": "www.gov.br",
+      "erro": "timeout",
+      "detalhe": "página do Participa Mais Brasil sobre a IN 2026"
+    }
+  ],
+  "pr": null
+}
