@@ -1,0 +1,22 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-14T21:21:19-03:00",
+  "fim": "2026-11-14T21:27:13-03:00",
+  "branch": "claude/pd-noticias-20261114-2121",
+  "publicou": [
+    "ccj-camara-politica-primeira-infancia-pl-4282"
+  ],
+  "descartou": [
+    {
+      "tema": "Resultado da reunião do PDT sobre a federação com o PSB",
+      "motivo": "aguardando-fato",
+      "pauta": "pdt-diretorio-federacao-psb-14-novembro"
+    },
+    {
+      "tema": "STJ: condomínio pode responder por furto após falha na portaria",
+      "motivo": "fora-do-escopo"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
