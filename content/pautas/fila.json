@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-15T05:46:00-03:00",
+  "atualizadoEm": "2026-11-15T06:27:30-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -575,7 +575,7 @@
       ],
       "falta": "resultado da reunião em nota do PDT ou veículo de editoria",
       "primeiraVezVisto": "2026-11-14T15:28:30-03:00",
-      "ultimaRevisao": "2026-11-15T00:24:11-03:00",
+      "ultimaRevisao": "2026-11-15T06:27:30-03:00",
       "status": "aberta"
     },
     {
@@ -598,12 +598,13 @@
       "motivo": "fonte-unica",
       "fontesAbertas": [
         "https://www.gmanetwork.com/news/topstories/nation/1009397/brazilian-president-lula-visits-philippines-for-asean-summit-state-visit/story/",
-        "https://www.cnnbrasil.com.br/internacional/nas-filipinas-lula-ataca-big-techs-e-tarifas-injustas-contra-sul-global/"
+        "https://www.cnnbrasil.com.br/internacional/nas-filipinas-lula-ataca-big-techs-e-tarifas-injustas-contra-sul-global/",
+        "https://radiogov.ebc.com.br/programas/audios-do-presidente-da-republica/presidente-lula-discursa-na-49a-cupula-da-asean"
       ],
       "primeiraVezVisto": "2026-11-14T22:27:01-03:00",
-      "ultimaRevisao": "2026-11-15T02:22:47-03:00",
+      "ultimaRevisao": "2026-11-15T06:27:30-03:00",
       "status": "aberta",
-      "falta": "texto de Lula na plenária em fonte oficial ou segundo veículo de outro grupo; Agência Gov e Agência Brasil ainda sem a plenária e asean.org não abriu"
+      "falta": "texto oficial da fala ou segundo veículo de outro grupo; Rádio Gov tem áudio de 1min57 sem transcrição e não diz se foi lido"
     },
     {
       "id": "pl-3137-2021-ipi-bebidas-amazonia-ocidental-cpovos",
