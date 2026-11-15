@@ -1,0 +1,36 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-15T00:21:41-03:00",
+  "fim": "2026-11-15T00:24:11-03:00",
+  "branch": "claude/pd-noticias-20261115-0021",
+  "publicou": [],
+  "descartou": [
+    {
+      "tema": "Lula na plenária da 49ª Cúpula da Asean em Manila",
+      "motivo": "aguardando-fato",
+      "pauta": "lula-asean-49-cupula-plenaria-manila-15-novembro"
+    },
+    {
+      "tema": "PL 3137/21 e as bebidas excluídas da isenção de IPI da Amazônia Ocidental",
+      "motivo": "fonte-bloqueada",
+      "pauta": "pl-3137-2021-ipi-bebidas-amazonia-ocidental-cpovos"
+    },
+    {
+      "tema": "Resultado da reunião do PDT sobre a federação com o PSB",
+      "motivo": "aguardando-fato",
+      "pauta": "pdt-diretorio-federacao-psb-14-novembro"
+    },
+    {
+      "tema": "Brasil e Filipinas assinam acordos sobre agro e livre concorrência",
+      "motivo": "ja-publicado"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.camara.leg.br",
+      "erro": "http-429",
+      "detalhe": "inteiro teor do parecer do PL 3137/21"
+    }
+  ],
+  "pr": null
+}
