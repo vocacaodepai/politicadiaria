@@ -1,0 +1,36 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-15T12:21:37-03:00",
+  "fim": "2026-11-15T12:28:57-03:00",
+  "branch": "claude/pd-noticias-20261115-1221",
+  "publicou": [
+    "milei-reafirma-reeleicao-2027-meta-comercio-2031"
+  ],
+  "descartou": [
+    {
+      "tema": "Resultado da reunião do PDT sobre a federação com o PSB",
+      "motivo": "aguardando-fato",
+      "pauta": "pdt-diretorio-federacao-psb-14-novembro"
+    },
+    {
+      "tema": "Eleição presidencial em Cabo Verde",
+      "motivo": "aguardando-fato"
+    },
+    {
+      "tema": "STF instala o Oxê de Xangô no Salão Nobre em 17/11",
+      "motivo": "fonte-unica"
+    },
+    {
+      "tema": "Lula se reúne com quatro ministros do STF sobre a escolha de novo integrante da Corte",
+      "motivo": "fonte-unica"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "servicios.infoleg.gob.ar",
+      "erro": "http-5xx",
+      "detalhe": "texto da Constituição argentina; usado argentina.gob.ar"
+    }
+  ],
+  "pr": null
+}
