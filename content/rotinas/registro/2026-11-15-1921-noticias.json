@@ -1,0 +1,23 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-15T19:21:36-03:00",
+  "fim": "2026-11-15T19:29:11-03:00",
+  "branch": "claude/pd-noticias-20261115-1921",
+  "publicou": [
+    "cabo-verde-neves-lidera-apuracao-parcial-presidenciais"
+  ],
+  "descartou": [
+    {
+      "tema": "Balanço do MEC e do Inep do segundo dia do Enem 2026: coletiva das 19h sem números publicados por Inep, Agência Gov ou Agência Brasil até 19h28",
+      "motivo": "aguardando-fato",
+      "pauta": "enem-2026-tentativas-ataque-hacker-site-inep"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.tsf.pt",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}

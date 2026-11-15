@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-15T18:24:48-03:00",
+  "atualizadoEm": "2026-11-15T19:28:57-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -710,12 +710,12 @@
       "rotina": "noticias",
       "tema": "Ministro da Educação relata tentativas de ataque hacker ao site do Inep no segundo dia do Enem 2026, sem número nem origem",
       "motivo": "fonte-unica",
-      "falta": "balanço oficial do MEC e do Inep, anunciado para depois das 18h30 de 15/11, ou segundo veículo de editoria com texto próprio",
+      "falta": "balanço oficial do MEC e do Inep da coletiva das 19h de 15/11 (ainda não publicado às 19h28) ou segundo veículo de editoria com texto próprio",
       "fontesAbertas": [
         "https://www.agazeta.com.br/enem/enem-2026-ministro-da-educacao-aponta-tentativas-de-ataque-hacker-1126"
       ],
       "primeiraVezVisto": "2026-11-15T15:25:33-03:00",
-      "ultimaRevisao": "2026-11-15T18:24:48-03:00",
+      "ultimaRevisao": "2026-11-15T19:28:57-03:00",
       "status": "aberta"
     },
     {
@@ -754,11 +754,15 @@
       "fontesAbertas": [
         "https://www.inforpress.cv/",
         "https://www.anacao.cv/noticia/2026/11/15/presidenciais-2026-candidato-jose-maria-neves-lidera-contagem-dos-votos-em-actualizacao/",
-        "https://observador.pt/2026/11/15/mesas-de-voto-fecham-e-arranca-contagem-para-escolha-de-presidente-da-republica-de-cabo-verde/"
+        "https://observador.pt/2026/11/15/mesas-de-voto-fecham-e-arranca-contagem-para-escolha-de-presidente-da-republica-de-cabo-verde/",
+        "https://executivedigest.sapo.pt/cabo-verde-eleicoes-jose-maria-neves-lidera-contagem-com-637-dos-votos/",
+        "https://sbtnews.sbt.com.br/noticia/mundo/jose-maria-neves-lidera-eleicao-em-cabo-verde-com-63-7",
+        "https://pt.euronews.com/2026/11/15/cabo-verde-vai-hoje-a-votos-e-pode-ter-a-primeira-mulher-eleita-presidente-da-republica"
       ],
       "primeiraVezVisto": "2026-11-15T15:25:33-03:00",
-      "ultimaRevisao": "2026-11-15T18:24:48-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-15T19:28:57-03:00",
+      "status": "publicada",
+      "slug": "cabo-verde-neves-lidera-apuracao-parcial-presidenciais"
     },
     {
       "id": "rede-adi-stf-lei-mg-26040-teto-caches-shows",
