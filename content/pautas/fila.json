@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-15T19:28:57-03:00",
+  "atualizadoEm": "2026-11-15T20:25:51-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -712,11 +712,14 @@
       "motivo": "fonte-unica",
       "falta": "balanço oficial do MEC e do Inep da coletiva das 19h de 15/11 (ainda não publicado às 19h28) ou segundo veículo de editoria com texto próprio",
       "fontesAbertas": [
-        "https://www.agazeta.com.br/enem/enem-2026-ministro-da-educacao-aponta-tentativas-de-ataque-hacker-1126"
+        "https://www.agazeta.com.br/enem/enem-2026-ministro-da-educacao-aponta-tentativas-de-ataque-hacker-1126",
+        "https://www.opovo.com.br/noticias/enem/2026/11/15/enem-2026-tem-maior-abstencao-dos-ultimos-5-anos-aponta-mec.html",
+        "https://www.metropoles.com/brasil/enem-2026-mais-de-um-terco-dos-candidatos-nao-compareceu-ao-2o-dia"
       ],
       "primeiraVezVisto": "2026-11-15T15:25:33-03:00",
-      "ultimaRevisao": "2026-11-15T19:28:57-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-15T20:25:51-03:00",
+      "status": "publicada",
+      "slug": "enem-segundo-dia-abstencao-36-ataques-site"
     },
     {
       "id": "alckmin-lula-decide-ministerio-na-volta",
