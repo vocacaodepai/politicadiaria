@@ -1,0 +1,32 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-15T14:21:39-03:00",
+  "fim": "2026-11-15T14:26:58-03:00",
+  "branch": "claude/pd-noticias-20261115-1421",
+  "publicou": [
+    "alckmin-ajuste-fiscal-votacao-camara-semana"
+  ],
+  "descartou": [
+    {
+      "tema": "Resultado da reunião do PDT sobre a federação com o PSB",
+      "motivo": "aguardando-fato",
+      "pauta": "pdt-diretorio-federacao-psb-14-novembro"
+    },
+    {
+      "tema": "PGR apoia pedido da AGU de R$ 324 milhões para a PVTAC do MPU na ADI 6601",
+      "motivo": "fonte-unica",
+      "pauta": "pgr-apoia-agu-adi-6601-324-milhoes-pvtac-mpu"
+    },
+    {
+      "tema": "Defesa da chapa Lula-Alckmin responde à Asepa sobre R$ 48,3 milhões em notas",
+      "motivo": "fonte-unica",
+      "pauta": "chapa-lula-alckmin-resposta-asepa-contas-48-milhoes"
+    },
+    {
+      "tema": "Eleição presidencial em Cabo Verde",
+      "motivo": "aguardando-fato"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
