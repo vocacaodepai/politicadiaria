@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-15T15:25:33-03:00",
+  "atualizadoEm": "2026-11-15T16:25:51-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -348,7 +348,7 @@
       "primeiraVezVisto": "2026-11-13T08:31:06-03:00",
       "ultimaRevisao": "2026-11-15T15:25:33-03:00",
       "status": "publicada",
-      "falta": "resultado ao fim da sessão virtual em 16/11 (Agência Brasil registra 4 votos: Dino, Moraes, Cármen Lúcia e Gilmar)",
+      "falta": "destaque de Fux em 14/11 tirou o caso do plenário virtual e anulou o placar de 4 a 0; julgamento recomeça no plenário físico, sem data; liminar segue valendo",
       "slug": "fux-destaque-6x1-plenario-fisico-stf"
     },
     {
@@ -710,12 +710,12 @@
       "rotina": "noticias",
       "tema": "Ministro da Educação relata tentativas de ataque hacker ao site do Inep no segundo dia do Enem 2026, sem número nem origem",
       "motivo": "fonte-unica",
-      "falta": "balanço oficial do Inep ou MEC sobre os ataques, ou segundo veículo de editoria com texto próprio",
+      "falta": "balanço oficial do MEC e do Inep, anunciado para depois das 18h30 de 15/11, ou segundo veículo de editoria com texto próprio",
       "fontesAbertas": [
         "https://www.agazeta.com.br/enem/enem-2026-ministro-da-educacao-aponta-tentativas-de-ataque-hacker-1126"
       ],
       "primeiraVezVisto": "2026-11-15T15:25:33-03:00",
-      "ultimaRevisao": "2026-11-15T15:25:33-03:00",
+      "ultimaRevisao": "2026-11-15T16:25:51-03:00",
       "status": "aberta"
     },
     {
@@ -742,7 +742,7 @@
         "https://www.infomoney.com.br/politica/apos-asean-e-cop-31-lula-embarca-para-madri-para-encontro-com-pedro-sanchez/"
       ],
       "primeiraVezVisto": "2026-11-15T15:25:33-03:00",
-      "ultimaRevisao": "2026-11-15T15:25:33-03:00",
+      "ultimaRevisao": "2026-11-15T16:25:51-03:00",
       "status": "aberta"
     },
     {
@@ -755,7 +755,33 @@
         "https://www.inforpress.cv/"
       ],
       "primeiraVezVisto": "2026-11-15T15:25:33-03:00",
-      "ultimaRevisao": "2026-11-15T15:25:33-03:00",
+      "ultimaRevisao": "2026-11-15T16:25:51-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "rede-adi-stf-lei-mg-26040-teto-caches-shows",
+      "rotina": "noticias",
+      "tema": "Rede contesta no STF a Lei 26.040/2026 de Minas, que limita gastos de prefeituras com cachês de shows; relator Zanin pede informações em dez dias",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.otempo.com.br/politica/aparte/2026/11/13/rede-contesta-no-stf-lei-que-limita-gastos-de-prefeituras-com-caches-de-artistas-em-minas"
+      ],
+      "falta": "número da ADI e andamento no portal do STF, ou segundo veículo de editoria (texto aberto é de coluna)",
+      "primeiraVezVisto": "2026-11-15T16:25:51-03:00",
+      "ultimaRevisao": "2026-11-15T16:25:51-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "erika-hilton-prazo-pagamento-nota-fiscal",
+      "rotina": "noticias",
+      "tema": "Erika Hilton anuncia que vai propor prazo máximo para pagamento a prestadores de serviço que emitem nota fiscal",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [
+        "https://www.correiobraziliense.com.br/politica/2026/11/7538876-erika-hilton-quer-limitar-prazo-de-pagamento-por-nota-fiscal.html"
+      ],
+      "falta": "projeto apresentado na Câmara, com número e texto",
+      "primeiraVezVisto": "2026-11-15T16:25:51-03:00",
+      "ultimaRevisao": "2026-11-15T16:25:51-03:00",
       "status": "aberta"
     }
   ]
