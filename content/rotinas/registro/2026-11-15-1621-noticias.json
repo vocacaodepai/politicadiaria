@@ -1,0 +1,44 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-15T16:21:15-03:00",
+  "fim": "2026-11-15T16:26:00-03:00",
+  "branch": "claude/pd-noticias-20261115-1621",
+  "publicou": [],
+  "descartou": [
+    {
+      "tema": "Ministro da Educação relata tentativas de ataque hacker ao site do Inep no segundo dia do Enem",
+      "motivo": "aguardando-fato",
+      "pauta": "enem-2026-tentativas-ataque-hacker-site-inep"
+    },
+    {
+      "tema": "Rede contesta no STF a lei de Minas que limita gastos de prefeituras com cachês de shows",
+      "motivo": "fonte-unica",
+      "pauta": "rede-adi-stf-lei-mg-26040-teto-caches-shows"
+    },
+    {
+      "tema": "Erika Hilton anuncia que vai propor prazo máximo para pagamento de serviços com nota fiscal",
+      "motivo": "aguardando-fato",
+      "pauta": "erika-hilton-prazo-pagamento-nota-fiscal"
+    },
+    {
+      "tema": "PL 5.810/2026 tipifica abuso de acesso profissional a dados pessoais; PL 5.812/2026 prevê entrega domiciliar do Farmácia Popular",
+      "motivo": "sem-angulo"
+    },
+    {
+      "tema": "Eleição presidencial em Cabo Verde: urnas fechadas, sem resultado provisório",
+      "motivo": "aguardando-fato",
+      "pauta": "cabo-verde-presidenciais-2026-resultado"
+    },
+    {
+      "tema": "Reunião de Lula com Pedro Sánchez em Madri na segunda-feira (16)",
+      "motivo": "aguardando-fato",
+      "pauta": "lula-sanchez-madri-16-novembro"
+    },
+    {
+      "tema": "Lula em Manila: salto tecnológico, big techs e tarifaço",
+      "motivo": "ja-publicado"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
