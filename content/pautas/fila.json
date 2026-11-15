@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-15T02:22:47-03:00",
+  "atualizadoEm": "2026-11-15T05:46:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -495,7 +495,7 @@
       "falta": "confirmar ficha da edição no site da editora (sem resposta em 14/11/2026)",
       "fontesAbertas": [],
       "primeiraVezVisto": "2026-11-14T05:39:00-03:00",
-      "ultimaRevisao": "2026-11-14T05:39:00-03:00",
+      "ultimaRevisao": "2026-11-15T05:46:00-03:00",
       "status": "aberta"
     },
     {
@@ -618,6 +618,46 @@
       "ultimaRevisao": "2026-11-15T00:24:11-03:00",
       "status": "aberta",
       "falta": "texto do parecer ou notícia da Agência Câmara; aprovação foi em 10/11"
+    },
+    {
+      "id": "livro-o-grande-debate-yuval-levin",
+      "rotina": "livros",
+      "tema": "Resenha de O Grande Debate, de Yuval Levin, sobre Burke e Paine (Record, 2017, ISBN 9788501109057)",
+      "motivo": "fonte-bloqueada",
+      "fontesAbertas": [
+        "https://www.record.com.br/en/products/o-grande-debate"
+      ],
+      "primeiraVezVisto": "2026-11-15T05:23:53-03:00",
+      "ultimaRevisao": "2026-11-15T05:46:00-03:00",
+      "status": "aberta",
+      "falta": "foto do livro: Amazon Brasil bloqueada e Open Library sem capa da edição"
+    },
+    {
+      "id": "livro-a-era-dos-muros-tim-marshall",
+      "rotina": "livros",
+      "tema": "Resenha de A Era dos Muros, de Tim Marshall (Zahar, 2021, ISBN 9788537819159)",
+      "motivo": "fonte-bloqueada",
+      "fontesAbertas": [
+        "https://www.companhiadasletras.com.br/livro/9788537819159/a-era-dos-muros"
+      ],
+      "primeiraVezVisto": "2026-11-15T05:23:53-03:00",
+      "ultimaRevisao": "2026-11-15T05:46:00-03:00",
+      "status": "aberta",
+      "falta": "foto do livro: Amazon Brasil bloqueada e Open Library sem capa da edição"
+    },
+    {
+      "id": "livro-castello-lira-neto",
+      "rotina": "livros",
+      "tema": "Resenha de Castello: A Marcha para a Ditadura, de Lira Neto (Contexto, 2004; Companhia das Letras, 2019)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.companhiadasletras.com.br/livro/9788535932737/castello",
+        "https://congressoemfoco.com.br/coluna/24235/a-biografia-de-castello-branco-e-o-que-ela-ensina-ao-brasil-de-hoje"
+      ],
+      "primeiraVezVisto": "2026-11-15T05:23:53-03:00",
+      "ultimaRevisao": "2026-11-15T05:46:00-03:00",
+      "status": "aberta",
+      "falta": "resenha crítica publicada que possa ser aberta (Jornal Opção deu 403) e capa da edição de 2019"
     }
   ]
 }

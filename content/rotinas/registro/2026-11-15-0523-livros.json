@@ -1,0 +1,65 @@
+{
+  "rotina": "livros",
+  "inicio": "2026-11-15T05:23:53-03:00",
+  "fim": "2026-11-15T05:46:00-03:00",
+  "branch": "claude/pd-livros-20261115-0523",
+  "publicou": [
+    "etica-protestante-espirito-capitalismo-weber",
+    "como-a-democracia-chega-ao-fim-runciman-todavia",
+    "uma-certa-ideia-de-brasil-malan-intrinseca"
+  ],
+  "descartou": [
+    {
+      "tema": "O Grande Debate, de Yuval Levin (Record)",
+      "motivo": "fonte-bloqueada",
+      "pauta": "livro-o-grande-debate-yuval-levin"
+    },
+    {
+      "tema": "A Era dos Muros, de Tim Marshall (Zahar)",
+      "motivo": "fonte-bloqueada",
+      "pauta": "livro-a-era-dos-muros-tim-marshall"
+    },
+    {
+      "tema": "Castello, de Lira Neto (Contexto e Companhia das Letras)",
+      "motivo": "fonte-unica",
+      "pauta": "livro-castello-lira-neto"
+    },
+    {
+      "tema": "Alexander Hamilton, de Ron Chernow (Intrínseca)",
+      "motivo": "sem-fonte-primaria"
+    },
+    {
+      "tema": "A Civilização do Espetáculo, de Mario Vargas Llosa (Objetiva)",
+      "motivo": "fonte-bloqueada"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.amazon.com.br",
+      "erro": "http-5xx",
+      "detalhe": "503 na página do produto; fotos vieram da Open Library e preços de comparadores"
+    },
+    {
+      "host": "www.googleapis.com",
+      "erro": "http-429"
+    },
+    {
+      "host": "www.jornalopcao.com.br",
+      "erro": "http-403"
+    },
+    {
+      "host": "todavialivros.com.br",
+      "erro": "http-403"
+    },
+    {
+      "host": "www.intrinseca.com.br",
+      "erro": "captcha",
+      "detalhe": "página de verificação"
+    },
+    {
+      "host": "www.estantevirtual.com.br",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}
