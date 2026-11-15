@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-15T06:27:30-03:00",
+  "atualizadoEm": "2026-11-15T07:27:51-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -575,7 +575,7 @@
       ],
       "falta": "resultado da reunião em nota do PDT ou veículo de editoria",
       "primeiraVezVisto": "2026-11-14T15:28:30-03:00",
-      "ultimaRevisao": "2026-11-15T06:27:30-03:00",
+      "ultimaRevisao": "2026-11-15T07:27:51-03:00",
       "status": "aberta"
     },
     {
@@ -602,7 +602,7 @@
         "https://radiogov.ebc.com.br/programas/audios-do-presidente-da-republica/presidente-lula-discursa-na-49a-cupula-da-asean"
       ],
       "primeiraVezVisto": "2026-11-14T22:27:01-03:00",
-      "ultimaRevisao": "2026-11-15T06:27:30-03:00",
+      "ultimaRevisao": "2026-11-15T07:27:51-03:00",
       "status": "aberta",
       "falta": "texto oficial da fala ou segundo veículo de outro grupo; Rádio Gov tem áudio de 1min57 sem transcrição e não diz se foi lido"
     },
@@ -613,12 +613,14 @@
       "motivo": "fonte-bloqueada",
       "fontesAbertas": [
         "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2298516",
-        "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2298516/tramitacoes?dataInicio=2026-10-01"
+        "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2298516/tramitacoes?dataInicio=2026-10-01",
+        "https://www.camara.leg.br/noticias/1319232-comissao-aprova-isencao-de-imposto-para-bebidas-a-base-de-frutos-regionais-da-amazonia"
       ],
       "primeiraVezVisto": "2026-11-15T00:24:11-03:00",
-      "ultimaRevisao": "2026-11-15T00:24:11-03:00",
-      "status": "aberta",
-      "falta": "texto do parecer ou notícia da Agência Câmara; aprovação foi em 10/11"
+      "ultimaRevisao": "2026-11-15T07:27:51-03:00",
+      "status": "publicada",
+      "falta": "texto do parecer ou notícia da Agência Câmara; aprovação foi em 10/11",
+      "slug": "pl-3137-isencao-ipi-bebidas-frutos-amazonia-comissao"
     },
     {
       "id": "livro-o-grande-debate-yuval-levin",

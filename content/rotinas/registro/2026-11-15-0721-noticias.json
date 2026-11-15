@@ -1,0 +1,33 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-15T07:21:03-03:00",
+  "fim": "2026-11-15T07:27:51-03:00",
+  "branch": "claude/pd-noticias-20261115-0721",
+  "publicou": [
+    "pl-3137-isencao-ipi-bebidas-frutos-amazonia-comissao"
+  ],
+  "descartou": [
+    {
+      "tema": "Lula na plenária da 49ª Cúpula da Asean em Manila",
+      "motivo": "fonte-unica",
+      "pauta": "lula-asean-49-cupula-plenaria-manila-15-novembro"
+    },
+    {
+      "tema": "Resultado da reunião do PDT sobre a federação com o PSB",
+      "motivo": "aguardando-fato",
+      "pauta": "pdt-diretorio-federacao-psb-14-novembro"
+    },
+    {
+      "tema": "Senado declara Claro vencedora do pregão de celulares em comodato",
+      "motivo": "ja-publicado"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.camara.leg.br",
+      "erro": "http-429",
+      "detalhe": "inteiro teor do PL 3137/2021 e do parecer"
+    }
+  ],
+  "pr": null
+}
