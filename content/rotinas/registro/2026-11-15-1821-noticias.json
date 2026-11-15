@@ -1,0 +1,42 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-15T18:21:13-03:00",
+  "fim": "2026-11-15T18:24:48-03:00",
+  "branch": "claude/pd-noticias-20261115-1821",
+  "publicou": [],
+  "descartou": [
+    {
+      "tema": "Balanço do MEC e do Inep do segundo dia do Enem 2026, com tentativas de ataque ao site: coletiva marcada para 19h",
+      "motivo": "aguardando-fato",
+      "pauta": "enem-2026-tentativas-ataque-hacker-site-inep"
+    },
+    {
+      "tema": "Eleição presidencial em Cabo Verde: só A Nação traz contagem parcial (80,5% das mesas), sem segunda fonte nem resultado da DGAPE",
+      "motivo": "fonte-unica",
+      "pauta": "cabo-verde-presidenciais-2026-resultado"
+    },
+    {
+      "tema": "Federação PDT e PSB: sem resultado novo da reunião do diretório do PDT",
+      "motivo": "aguardando-fato",
+      "pauta": "pdt-diretorio-federacao-psb-14-novembro"
+    },
+    {
+      "tema": "Defesa da chapa Lula-Alckmin à Asepa no TSE: sem segunda fonte com os valores",
+      "motivo": "fonte-unica",
+      "pauta": "chapa-lula-alckmin-resposta-asepa-contas-48-milhoes"
+    },
+    {
+      "tema": "PGR na ADI 6601 sobre a PVTAC do MPU: sem segunda fonte",
+      "motivo": "fonte-unica",
+      "pauta": "pgr-apoia-agu-adi-6601-324-milhoes-pvtac-mpu"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "eleicoes.cv",
+      "erro": "http-5xx",
+      "detalhe": "503 no portal de resultados provisórios"
+    }
+  ],
+  "pr": null
+}
