@@ -1,0 +1,37 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-14T22:21:56-03:00",
+  "fim": "2026-11-14T22:27:01-03:00",
+  "branch": "claude/pd-noticias-20261114-2221",
+  "publicou": [],
+  "descartou": [
+    {
+      "tema": "Receita detalha perdão automático de dívidas previdenciárias de MEIs a partir de 1º de janeiro de 2027",
+      "motivo": "ja-publicado"
+    },
+    {
+      "tema": "PGDAS-D atualizado para a reforma tributária e processamento final da opção pelo Simples Nacional 2027",
+      "motivo": "sem-angulo"
+    },
+    {
+      "tema": "Consulta pública do plano trienal de proteção de crianças no ambiente digital",
+      "motivo": "sem-angulo"
+    },
+    {
+      "tema": "Lula na plenária da 49ª Cúpula da Asean em Manila",
+      "motivo": "aguardando-fato",
+      "pauta": "lula-asean-49-cupula-plenaria-manila-15-novembro"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "coad.com.br",
+      "erro": "http-403"
+    },
+    {
+      "host": "mb.com.ph",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}

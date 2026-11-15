@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-14T21:27:13-03:00",
+  "atualizadoEm": "2026-11-14T22:27:01-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -590,6 +590,19 @@
       "ultimaRevisao": "2026-11-14T18:28:22-03:00",
       "status": "aberta",
       "falta": "texto da MP ou nota oficial; reportagem cita só auxiliares não identificados"
+    },
+    {
+      "id": "lula-asean-49-cupula-plenaria-manila-15-novembro",
+      "rotina": "noticias",
+      "tema": "Lula participa como convidado da presidência da plenária da 49ª Cúpula da Asean, em Manila, e pede apoio para o Brasil virar parceiro de diálogo pleno",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [
+        "https://www.gmanetwork.com/news/topstories/nation/1009397/brazilian-president-lula-visits-philippines-for-asean-summit-state-visit/story/"
+      ],
+      "primeiraVezVisto": "2026-11-14T22:27:01-03:00",
+      "ultimaRevisao": "2026-11-14T22:27:01-03:00",
+      "status": "aberta",
+      "falta": "fala de Lula na plenária ou documento da cúpula em fonte oficial ou dois veículos"
     }
   ]
 }
