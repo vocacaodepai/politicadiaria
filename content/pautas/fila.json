@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-15T16:25:51-03:00",
+  "atualizadoEm": "2026-11-15T17:26:55-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -715,7 +715,7 @@
         "https://www.agazeta.com.br/enem/enem-2026-ministro-da-educacao-aponta-tentativas-de-ataque-hacker-1126"
       ],
       "primeiraVezVisto": "2026-11-15T15:25:33-03:00",
-      "ultimaRevisao": "2026-11-15T16:25:51-03:00",
+      "ultimaRevisao": "2026-11-15T17:26:55-03:00",
       "status": "aberta"
     },
     {
@@ -755,7 +755,7 @@
         "https://www.inforpress.cv/"
       ],
       "primeiraVezVisto": "2026-11-15T15:25:33-03:00",
-      "ultimaRevisao": "2026-11-15T16:25:51-03:00",
+      "ultimaRevisao": "2026-11-15T17:26:55-03:00",
       "status": "aberta"
     },
     {
@@ -782,6 +782,20 @@
       "falta": "projeto apresentado na Câmara, com número e texto",
       "primeiraVezVisto": "2026-11-15T16:25:51-03:00",
       "ultimaRevisao": "2026-11-15T16:25:51-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "mdhc-9-entrega-certidoes-obito-ditadura-porto-alegre",
+      "rotina": "noticias",
+      "tema": "MDHC, CEMDP e MPF entregam 26 certidões de óbito retificadas de vítimas da ditadura em Porto Alegre em 16/11",
+      "motivo": "aguardando-fato",
+      "falta": "realização da cerimônia, com nomes das vítimas e balanço oficial",
+      "fontesAbertas": [
+        "https://agenciagov.ebc.com.br/noticias/202611/governo-do-brasil-realizara-9a-entrega-de-certidoes-de-obito-retificadas-de-vitimas-da-ditadura-em-porto-alegre-rs-na-segunda-feira-16",
+        "https://www.gov.br/mdh/pt-br/assuntos/noticias/2026/novembro/governo-do-brasil-realizara-9a-entrega-de-certidoes-de-obito-retificadas-de-vitimas-da-ditadura-em-porto-alegre-rs-na-segunda-feira-16"
+      ],
+      "primeiraVezVisto": "2026-11-15T17:26:55-03:00",
+      "ultimaRevisao": "2026-11-15T17:26:55-03:00",
       "status": "aberta"
     }
   ]
