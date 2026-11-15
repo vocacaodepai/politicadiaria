@@ -1,0 +1,44 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-15T13:21:46-03:00",
+  "fim": "2026-11-15T13:27:33-03:00",
+  "branch": "claude/pd-noticias-20261115-1321",
+  "publicou": [],
+  "descartou": [
+    {
+      "tema": "Defesa da chapa Lula-Alckmin responde à Asepa sobre R$ 48,3 milhões em notas",
+      "motivo": "fonte-unica",
+      "pauta": "chapa-lula-alckmin-resposta-asepa-contas-48-milhoes"
+    },
+    {
+      "tema": "PGR apoia pedido da AGU de R$ 324 milhões para a PVTAC do MPU na ADI 6601",
+      "motivo": "fonte-unica",
+      "pauta": "pgr-apoia-agu-adi-6601-324-milhoes-pvtac-mpu"
+    },
+    {
+      "tema": "STF instala o Oxê de Xangô no Salão Nobre em 17/11",
+      "motivo": "fonte-unica",
+      "pauta": "stf-oxe-de-xango-salao-nobre-17-novembro"
+    },
+    {
+      "tema": "Resultado da reunião do PDT sobre a federação com o PSB",
+      "motivo": "aguardando-fato",
+      "pauta": "pdt-diretorio-federacao-psb-14-novembro"
+    },
+    {
+      "tema": "Lula se reúne com quatro ministros do STF sobre a vaga na Corte",
+      "motivo": "fonte-unica"
+    },
+    {
+      "tema": "Emendas de Cleitinho para festas em MG antes de propor veto a repasses para shows",
+      "motivo": "sem-fonte-primaria"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.spacemoney.com.br",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}

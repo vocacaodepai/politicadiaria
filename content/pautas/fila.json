@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-15T12:28:57-03:00",
+  "atualizadoEm": "2026-11-15T13:27:33-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -575,7 +575,7 @@
       ],
       "falta": "resultado da reunião em nota do PDT ou veículo de editoria",
       "primeiraVezVisto": "2026-11-14T15:28:30-03:00",
-      "ultimaRevisao": "2026-11-15T12:28:57-03:00",
+      "ultimaRevisao": "2026-11-15T13:27:33-03:00",
       "status": "aberta"
     },
     {
@@ -664,6 +664,46 @@
       "ultimaRevisao": "2026-11-15T05:46:00-03:00",
       "status": "aberta",
       "falta": "resenha crítica publicada que possa ser aberta (Jornal Opção deu 403) e capa da edição de 2019"
+    },
+    {
+      "id": "chapa-lula-alckmin-resposta-asepa-contas-48-milhoes",
+      "rotina": "noticias",
+      "tema": "Defesa da chapa Lula-Alckmin responde à Asepa no TSE e diz que R$ 48,3 milhões em notas questionadas já estavam registrados ou documentados",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.gazetadopovo.com.br/republica/chapa-lula-minimiza-inconsistencias-afirma-comprovado-r-48-milhoes/",
+        "https://sbtnews.sbt.com.br/colunas/coluna-da-basilia/toffoli-cobra-prestacao-de-contas-de-lula-campanha-responde"
+      ],
+      "falta": "segunda fonte de editoria com os valores da manifestação (SBT só registra o envio de documentos) ou peça nos autos",
+      "primeiraVezVisto": "2026-11-15T13:27:33-03:00",
+      "ultimaRevisao": "2026-11-15T13:27:33-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "pgr-apoia-agu-adi-6601-324-milhoes-pvtac-mpu",
+      "rotina": "noticias",
+      "tema": "PGR apoia no STF (ADI 6601, relator Moraes) pedido da AGU de medidas orçamentárias para R$ 324 milhões da PVTAC do MPU",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.gazetadopovo.com.br/republica/pgr-apoia-pedido-agu-sobre-r-324-mi-para-penduricalho/"
+      ],
+      "falta": "segunda fonte de editoria independente ou manifestação da PGR (SpaceMoney deu 403)",
+      "primeiraVezVisto": "2026-11-15T13:27:33-03:00",
+      "ultimaRevisao": "2026-11-15T13:27:33-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "stf-oxe-de-xango-salao-nobre-17-novembro",
+      "rotina": "noticias",
+      "tema": "STF instala o Oxê de Xangô no Salão Nobre em 17/11, a pedido do Idafro",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/oxe-de-xango-simbolo-da-justica-sera-inaugurado-no-stf"
+      ],
+      "falta": "nota do STF ou veículo de outro grupo (demais sites republicam a Agência Brasil)",
+      "primeiraVezVisto": "2026-11-15T12:21:37-03:00",
+      "ultimaRevisao": "2026-11-15T13:27:33-03:00",
+      "status": "aberta"
     }
   ]
 }
