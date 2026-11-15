@@ -1,0 +1,60 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-15T15:21:30-03:00",
+  "fim": "2026-11-15T15:25:44-03:00",
+  "branch": "claude/pd-noticias-20261115-1521",
+  "publicou": [],
+  "descartou": [
+    {
+      "tema": "Ministro da Educação relata tentativas de ataque hacker ao site do Inep no segundo dia do Enem",
+      "motivo": "fonte-unica",
+      "pauta": "enem-2026-tentativas-ataque-hacker-site-inep"
+    },
+    {
+      "tema": "Alckmin diz que Lula decide o ministério do novo mandato depois de voltar da viagem",
+      "motivo": "aguardando-fato",
+      "pauta": "alckmin-lula-decide-ministerio-na-volta"
+    },
+    {
+      "tema": "Reunião de Lula com Pedro Sánchez em Madri na segunda-feira (16)",
+      "motivo": "aguardando-fato",
+      "pauta": "lula-sanchez-madri-16-novembro"
+    },
+    {
+      "tema": "Eleição presidencial em Cabo Verde: votação em curso, sem resultado",
+      "motivo": "aguardando-fato",
+      "pauta": "cabo-verde-presidenciais-2026-resultado"
+    },
+    {
+      "tema": "Resultado da reunião do PDT sobre a federação com o PSB",
+      "motivo": "aguardando-fato",
+      "pauta": "pdt-diretorio-federacao-psb-14-novembro"
+    },
+    {
+      "tema": "PGR apoia pedido da AGU de R$ 324 milhões para a PVTAC do MPU na ADI 6601",
+      "motivo": "fonte-unica",
+      "pauta": "pgr-apoia-agu-adi-6601-324-milhoes-pvtac-mpu"
+    },
+    {
+      "tema": "Defesa da chapa Lula-Alckmin responde à Asepa sobre R$ 48,3 milhões em notas",
+      "motivo": "fonte-unica",
+      "pauta": "chapa-lula-alckmin-resposta-asepa-contas-48-milhoes"
+    },
+    {
+      "tema": "STF instala o Oxê de Xangô no Salão Nobre em 17/11",
+      "motivo": "fonte-unica",
+      "pauta": "stf-oxe-de-xango-salao-nobre-17-novembro"
+    },
+    {
+      "tema": "Lula vê oportunidades na Ásia para minerais críticos",
+      "motivo": "ja-publicado"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.democrata.es",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}

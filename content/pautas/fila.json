@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-15T14:26:58-03:00",
+  "atualizadoEm": "2026-11-15T15:25:33-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -346,7 +346,7 @@
         "https://www.congressoemfoco.com.br/noticia/131599/dino-diz-que-decisao-sobre-6x1-nao-abre-excecoes-ou-permite-negociacao"
       ],
       "primeiraVezVisto": "2026-11-13T08:31:06-03:00",
-      "ultimaRevisao": "2026-11-14T19:25:40-03:00",
+      "ultimaRevisao": "2026-11-15T15:25:33-03:00",
       "status": "publicada",
       "falta": "resultado ao fim da sessão virtual em 16/11 (Agência Brasil registra 4 votos: Dino, Moraes, Cármen Lúcia e Gilmar)",
       "slug": "fux-destaque-6x1-plenario-fisico-stf"
@@ -575,7 +575,7 @@
       ],
       "falta": "resultado da reunião em nota do PDT ou veículo de editoria",
       "primeiraVezVisto": "2026-11-14T15:28:30-03:00",
-      "ultimaRevisao": "2026-11-15T14:26:58-03:00",
+      "ultimaRevisao": "2026-11-15T15:25:33-03:00",
       "status": "aberta"
     },
     {
@@ -676,7 +676,7 @@
       ],
       "falta": "segunda fonte de editoria com os valores da manifestação (SBT só registra o envio de documentos) ou peça nos autos",
       "primeiraVezVisto": "2026-11-15T13:27:33-03:00",
-      "ultimaRevisao": "2026-11-15T14:26:58-03:00",
+      "ultimaRevisao": "2026-11-15T15:25:33-03:00",
       "status": "aberta"
     },
     {
@@ -689,7 +689,7 @@
       ],
       "falta": "segunda fonte de editoria independente ou manifestação da PGR (SpaceMoney deu 403)",
       "primeiraVezVisto": "2026-11-15T13:27:33-03:00",
-      "ultimaRevisao": "2026-11-15T14:26:58-03:00",
+      "ultimaRevisao": "2026-11-15T15:25:33-03:00",
       "status": "aberta"
     },
     {
@@ -702,7 +702,60 @@
       ],
       "falta": "nota do STF ou veículo de outro grupo (demais sites republicam a Agência Brasil)",
       "primeiraVezVisto": "2026-11-15T12:21:37-03:00",
-      "ultimaRevisao": "2026-11-15T13:27:33-03:00",
+      "ultimaRevisao": "2026-11-15T15:25:33-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "enem-2026-tentativas-ataque-hacker-site-inep",
+      "rotina": "noticias",
+      "tema": "Ministro da Educação relata tentativas de ataque hacker ao site do Inep no segundo dia do Enem 2026, sem número nem origem",
+      "motivo": "fonte-unica",
+      "falta": "balanço oficial do Inep ou MEC sobre os ataques, ou segundo veículo de editoria com texto próprio",
+      "fontesAbertas": [
+        "https://www.agazeta.com.br/enem/enem-2026-ministro-da-educacao-aponta-tentativas-de-ataque-hacker-1126"
+      ],
+      "primeiraVezVisto": "2026-11-15T15:25:33-03:00",
+      "ultimaRevisao": "2026-11-15T15:25:33-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "alckmin-lula-decide-ministerio-na-volta",
+      "rotina": "noticias",
+      "tema": "Alckmin diz que Lula decide a formação do ministério do novo mandato depois de voltar da viagem, a partir de 16/11",
+      "motivo": "aguardando-fato",
+      "falta": "anúncio de nomes pelo Planalto; nomes cotados vêm só de fontes não identificadas",
+      "fontesAbertas": [
+        "https://www.otempo.com.br/politica/governo/2026/11/15/lula-deve-comecar-a-decidir-sobre-ministerios-nesta-segunda-feira-16-11-diz-alckmin",
+        "https://www.em.com.br/politica/2026/11/7538894-alckmin-defende-equilibrio-fiscal-e-destaca-investimentos-na-amazonia.html"
+      ],
+      "primeiraVezVisto": "2026-11-15T15:25:33-03:00",
+      "ultimaRevisao": "2026-11-15T15:25:33-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "lula-sanchez-madri-16-novembro",
+      "rotina": "noticias",
+      "tema": "Lula se reúne com Pedro Sánchez em Madri na segunda-feira (16) antes de voltar ao Brasil",
+      "motivo": "aguardando-fato",
+      "falta": "resultado da reunião (nota do Planalto, do governo espanhol ou de veículos)",
+      "fontesAbertas": [
+        "https://www.infomoney.com.br/politica/apos-asean-e-cop-31-lula-embarca-para-madri-para-encontro-com-pedro-sanchez/"
+      ],
+      "primeiraVezVisto": "2026-11-15T15:25:33-03:00",
+      "ultimaRevisao": "2026-11-15T15:25:33-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "cabo-verde-presidenciais-2026-resultado",
+      "rotina": "noticias",
+      "tema": "Cabo Verde vota para presidente em 15/11 com seis candidatos; resultado ainda não divulgado",
+      "motivo": "aguardando-fato",
+      "falta": "resultado provisório ou oficial da CNE de Cabo Verde",
+      "fontesAbertas": [
+        "https://www.inforpress.cv/"
+      ],
+      "primeiraVezVisto": "2026-11-15T15:25:33-03:00",
+      "ultimaRevisao": "2026-11-15T15:25:33-03:00",
       "status": "aberta"
     }
   ]
