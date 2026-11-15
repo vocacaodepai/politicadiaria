@@ -1,0 +1,22 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-15T02:21:10-03:00",
+  "fim": "2026-11-15T02:22:54-03:00",
+  "branch": "claude/pd-noticias-20261115-0221",
+  "publicou": [],
+  "descartou": [
+    {
+      "tema": "Lula na plenária da 49ª Cúpula da Asean em Manila",
+      "motivo": "fonte-unica",
+      "pauta": "lula-asean-49-cupula-plenaria-manila-15-novembro"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "asean.org",
+      "erro": "outro",
+      "detalhe": "redirecionamento 307 sem conteúdo"
+    }
+  ],
+  "pr": null
+}
