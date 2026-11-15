@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-15T17:26:55-03:00",
+  "atualizadoEm": "2026-11-15T18:24:48-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -575,7 +575,7 @@
       ],
       "falta": "resultado da reunião em nota do PDT ou veículo de editoria",
       "primeiraVezVisto": "2026-11-14T15:28:30-03:00",
-      "ultimaRevisao": "2026-11-15T15:25:33-03:00",
+      "ultimaRevisao": "2026-11-15T18:24:48-03:00",
       "status": "aberta"
     },
     {
@@ -676,7 +676,7 @@
       ],
       "falta": "segunda fonte de editoria com os valores da manifestação (SBT só registra o envio de documentos) ou peça nos autos",
       "primeiraVezVisto": "2026-11-15T13:27:33-03:00",
-      "ultimaRevisao": "2026-11-15T15:25:33-03:00",
+      "ultimaRevisao": "2026-11-15T18:24:48-03:00",
       "status": "aberta"
     },
     {
@@ -689,7 +689,7 @@
       ],
       "falta": "segunda fonte de editoria independente ou manifestação da PGR (SpaceMoney deu 403)",
       "primeiraVezVisto": "2026-11-15T13:27:33-03:00",
-      "ultimaRevisao": "2026-11-15T15:25:33-03:00",
+      "ultimaRevisao": "2026-11-15T18:24:48-03:00",
       "status": "aberta"
     },
     {
@@ -702,7 +702,7 @@
       ],
       "falta": "nota do STF ou veículo de outro grupo (demais sites republicam a Agência Brasil)",
       "primeiraVezVisto": "2026-11-15T12:21:37-03:00",
-      "ultimaRevisao": "2026-11-15T15:25:33-03:00",
+      "ultimaRevisao": "2026-11-15T18:24:48-03:00",
       "status": "aberta"
     },
     {
@@ -715,7 +715,7 @@
         "https://www.agazeta.com.br/enem/enem-2026-ministro-da-educacao-aponta-tentativas-de-ataque-hacker-1126"
       ],
       "primeiraVezVisto": "2026-11-15T15:25:33-03:00",
-      "ultimaRevisao": "2026-11-15T17:26:55-03:00",
+      "ultimaRevisao": "2026-11-15T18:24:48-03:00",
       "status": "aberta"
     },
     {
@@ -748,14 +748,16 @@
     {
       "id": "cabo-verde-presidenciais-2026-resultado",
       "rotina": "noticias",
-      "tema": "Cabo Verde vota para presidente em 15/11 com seis candidatos; resultado ainda não divulgado",
+      "tema": "Cabo Verde vota para presidente em 15/11 com seis candidatos; contagem provisória parcial em curso, sem resultado oficial",
       "motivo": "aguardando-fato",
-      "falta": "resultado provisório ou oficial da CNE de Cabo Verde",
+      "falta": "resultado provisório completo da DGAPE ou da CNE, ou segundo veículo de editoria com os números (A Nação dá contagem parcial com 80,5% das mesas)",
       "fontesAbertas": [
-        "https://www.inforpress.cv/"
+        "https://www.inforpress.cv/",
+        "https://www.anacao.cv/noticia/2026/11/15/presidenciais-2026-candidato-jose-maria-neves-lidera-contagem-dos-votos-em-actualizacao/",
+        "https://observador.pt/2026/11/15/mesas-de-voto-fecham-e-arranca-contagem-para-escolha-de-presidente-da-republica-de-cabo-verde/"
       ],
       "primeiraVezVisto": "2026-11-15T15:25:33-03:00",
-      "ultimaRevisao": "2026-11-15T17:26:55-03:00",
+      "ultimaRevisao": "2026-11-15T18:24:48-03:00",
       "status": "aberta"
     },
     {
