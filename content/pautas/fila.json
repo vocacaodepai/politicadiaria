@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-15T00:24:11-03:00",
+  "atualizadoEm": "2026-11-15T01:24:28-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -595,14 +595,15 @@
       "id": "lula-asean-49-cupula-plenaria-manila-15-novembro",
       "rotina": "noticias",
       "tema": "Lula participa como convidado da presidência da plenária da 49ª Cúpula da Asean, em Manila, e pede apoio para o Brasil virar parceiro de diálogo pleno",
-      "motivo": "aguardando-fato",
+      "motivo": "fonte-unica",
       "fontesAbertas": [
-        "https://www.gmanetwork.com/news/topstories/nation/1009397/brazilian-president-lula-visits-philippines-for-asean-summit-state-visit/story/"
+        "https://www.gmanetwork.com/news/topstories/nation/1009397/brazilian-president-lula-visits-philippines-for-asean-summit-state-visit/story/",
+        "https://www.cnnbrasil.com.br/internacional/nas-filipinas-lula-ataca-big-techs-e-tarifas-injustas-contra-sul-global/"
       ],
       "primeiraVezVisto": "2026-11-14T22:27:01-03:00",
-      "ultimaRevisao": "2026-11-15T00:24:11-03:00",
+      "ultimaRevisao": "2026-11-15T01:24:28-03:00",
       "status": "aberta",
-      "falta": "fala de Lula na plenária ou documento da cúpula em fonte oficial ou dois veículos"
+      "falta": "texto de Lula na plenária em fonte oficial ou segundo veículo de outro grupo; só a CNN Brasil traz o texto e o formato (lido ou distribuído) diverge"
     },
     {
       "id": "pl-3137-2021-ipi-bebidas-amazonia-ocidental-cpovos",
