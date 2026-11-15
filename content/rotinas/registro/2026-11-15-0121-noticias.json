@@ -1,0 +1,21 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-15T01:21:31-03:00",
+  "fim": "2026-11-15T01:26:31-03:00",
+  "branch": "claude/pd-noticias-20261115-0121",
+  "publicou": [],
+  "descartou": [
+    {
+      "tema": "Texto de Lula na plenária da 49ª Cúpula da Asean critica big techs e tarifas e propõe parceria de diálogo plena",
+      "motivo": "fonte-unica",
+      "pauta": "lula-asean-49-cupula-plenaria-manila-15-novembro"
+    },
+    {
+      "tema": "Resultado da reunião do PDT sobre a federação com o PSB",
+      "motivo": "aguardando-fato",
+      "pauta": "pdt-diretorio-federacao-psb-14-novembro"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
