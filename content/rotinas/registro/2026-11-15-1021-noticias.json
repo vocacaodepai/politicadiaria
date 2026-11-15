@@ -1,0 +1,27 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-15T10:21:11-03:00",
+  "fim": "2026-11-15T10:28:25-03:00",
+  "branch": "claude/pd-noticias-20261115-1021",
+  "publicou": [
+    "canada-carney-tfff-reuniao-lula-manila"
+  ],
+  "descartou": [
+    {
+      "tema": "Lula na plenária da 49ª Cúpula da Asean em Manila",
+      "motivo": "fonte-unica",
+      "pauta": "lula-asean-49-cupula-plenaria-manila-15-novembro"
+    },
+    {
+      "tema": "Resultado da reunião do PDT sobre a federação com o PSB",
+      "motivo": "aguardando-fato",
+      "pauta": "pdt-diretorio-federacao-psb-14-novembro"
+    },
+    {
+      "tema": "Eleição presidencial em Cabo Verde",
+      "motivo": "aguardando-fato"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
