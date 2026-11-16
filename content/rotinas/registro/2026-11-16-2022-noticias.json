@@ -1,0 +1,21 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-16T20:22:05-03:00",
+  "fim": "2026-11-16T20:28:07-03:00",
+  "branch": "claude/pd-noticias-20261116-2022",
+  "publicou": [
+    "credn-hamas-hezbollah-terroristas-pl-4894"
+  ],
+  "descartou": [
+    {
+      "tema": "Pauta do Plenário do Senado de 18/11 com prazo para verba de internet nas escolas e Estatuto do Aprendiz",
+      "motivo": "ja-publicado"
+    },
+    {
+      "tema": "Dólar fecha a R$ 5,77, maior valor desde abril de 2025",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
