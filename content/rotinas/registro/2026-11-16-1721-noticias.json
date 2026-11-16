@@ -1,0 +1,22 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-16T17:21:13-03:00",
+  "fim": "2026-11-16T17:25:34-03:00",
+  "branch": "claude/pd-noticias-20261116-1721",
+  "publicou": [
+    "orcamento-2027-saude-ianomami-409-milhoes-subcomissao"
+  ],
+  "descartou": [
+    {
+      "tema": "Entrega de certidões de óbito de vítimas da ditadura em Porto Alegre",
+      "motivo": "aguardando-fato",
+      "pauta": "mdhc-9-entrega-certidoes-obito-ditadura-porto-alegre"
+    },
+    {
+      "tema": "Audiências da comissão especial da PEC 32/2015 sobre maioridade penal em 17 e 18/11",
+      "motivo": "ja-publicado"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
