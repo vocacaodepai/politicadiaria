@@ -1,0 +1,14 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-16T13:21:49-03:00",
+  "fim": "2026-11-16T13:28:30-03:00",
+  "branch": "claude/pd-noticias-20261116-1321",
+  "publicou": ["quaest-92-apoiam-reducao-maioridade-penal"],
+  "descartou": [
+    { "tema": "Entrega de certidões de óbito de vítimas da ditadura em Porto Alegre", "motivo": "aguardando-fato", "pauta": "mdhc-9-entrega-certidoes-obito-ditadura-porto-alegre" },
+    { "tema": "Moraes nega visitas de Rogério Marinho e Tereza Cristina a Bolsonaro", "motivo": "fonte-unica", "pauta": "moraes-nega-visita-marinho-tereza-cristina-bolsonaro" },
+    { "tema": "STF tem 4 votos para manter início da escala 5x2 em dezembro", "motivo": "ja-publicado" }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
