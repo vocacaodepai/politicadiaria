@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-16T09:29:07-03:00",
+  "atualizadoEm": "2026-11-16T10:30:42-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -746,11 +746,14 @@
         "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/index.aspx",
         "https://www.lamoncloa.gob.es/presidente/agenda/Paginas/agenda.aspx?d=20261116",
         "https://www.infobae.com/espana/agencias/2026/11/16/sanchez-recibe-a-lula-en-moncloa-en-su-viaje-a-espana-para-apoyarle-ante-el-29n/",
-        "https://www.metropoles.com/mundo/lula-encontra-sanchez-na-espanha-e-encerra-1o-giro-externo-apos-reeleicao"
+        "https://www.metropoles.com/mundo/lula-encontra-sanchez-na-espanha-e-encerra-1o-giro-externo-apos-reeleicao",
+        "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/2026/161126-sanchez-encuentro-lula.aspx",
+        "https://infobae.com/america/agencias/2026/11/15/sanchez-se-reune-con-lula-en-moncloa-este-lunes-aunque-se-cancela-un-acto-de-campana-por-afonia-del-presidente-brasileno"
       ],
       "primeiraVezVisto": "2026-11-15T15:25:33-03:00",
-      "ultimaRevisao": "2026-11-16T09:29:07-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-16T10:30:42-03:00",
+      "status": "publicada",
+      "slug": "lula-sanchez-moncloa-nota-democracia-onu"
     },
     {
       "id": "cabo-verde-presidenciais-2026-resultado",
@@ -808,7 +811,7 @@
         "https://www.gov.br/mdh/pt-br/assuntos/noticias/2026/novembro/governo-do-brasil-realizara-9a-entrega-de-certidoes-de-obito-retificadas-de-vitimas-da-ditadura-em-porto-alegre-rs-na-segunda-feira-16"
       ],
       "primeiraVezVisto": "2026-11-15T17:26:55-03:00",
-      "ultimaRevisao": "2026-11-16T09:29:07-03:00",
+      "ultimaRevisao": "2026-11-16T10:30:42-03:00",
       "status": "aberta"
     },
     {

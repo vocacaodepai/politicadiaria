@@ -1,0 +1,24 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-16T10:26:20-03:00",
+  "fim": "2026-11-16T10:30:42-03:00",
+  "branch": "claude/pd-noticias-20261116-1026",
+  "publicou": [
+    "lula-sanchez-moncloa-nota-democracia-onu"
+  ],
+  "descartou": [
+    {
+      "tema": "Entrega de certidões de óbito de vítimas da ditadura em Porto Alegre",
+      "motivo": "aguardando-fato",
+      "pauta": "mdhc-9-entrega-certidoes-obito-ditadura-porto-alegre"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "istoe.com.br",
+      "erro": "http-5xx",
+      "detalhe": "502"
+    }
+  ],
+  "pr": null
+}
