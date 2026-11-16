@@ -1,0 +1,12 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-16T12:23:16-03:00",
+  "fim": "2026-11-16T12:27:07-03:00",
+  "branch": "claude/pd-noticias-20261116-1223",
+  "publicou": ["ibc-br-recua-0-9-terceiro-trimestre-2026"],
+  "descartou": [
+    { "tema": "Entrega de certidões de óbito de vítimas da ditadura em Porto Alegre", "motivo": "aguardando-fato", "pauta": "mdhc-9-entrega-certidoes-obito-ditadura-porto-alegre" }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
