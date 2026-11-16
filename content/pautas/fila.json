@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-15T22:36:00-03:00",
+  "atualizadoEm": "2026-11-15T23:26:28-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -805,6 +805,19 @@
       ],
       "primeiraVezVisto": "2026-11-15T17:26:55-03:00",
       "ultimaRevisao": "2026-11-15T17:26:55-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "pgr-primeiras-denuncias-caso-master-um-ano",
+      "rotina": "noticias",
+      "tema": "PGR prepara as primeiras denúncias do caso Master ao STF, em etapas, após o indiciamento de 15 pessoas pela PF",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.cnnbrasil.com.br/politica/pgr-prepara-primeiras-denuncias-no-caso-master-um-ano-apos-operacao/"
+      ],
+      "falta": "denúncia apresentada ao STF ou nota da PGR; estratégia vem de fontes não identificadas",
+      "primeiraVezVisto": "2026-11-15T23:26:28-03:00",
+      "ultimaRevisao": "2026-11-15T23:26:28-03:00",
       "status": "aberta"
     }
   ]

@@ -54,6 +54,7 @@ export const temas: Tema[] = [
       "stf-jornada-8h24-sem-hora-extra-transicao-42-horas",
       "camara-senado-contestam-liminar-dino-emenda-141",
       "fux-destaque-6x1-plenario-fisico-stf",
+      "pl-5830-jornada-servicos-saude-12x36",
     ],
   },
   {
