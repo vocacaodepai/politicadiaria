@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-15T23:26:28-03:00",
+  "atualizadoEm": "2026-11-16T05:39:01-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -495,7 +495,7 @@
       "falta": "confirmar ficha da edição no site da editora (sem resposta em 14/11/2026)",
       "fontesAbertas": [],
       "primeiraVezVisto": "2026-11-14T05:39:00-03:00",
-      "ultimaRevisao": "2026-11-15T05:46:00-03:00",
+      "ultimaRevisao": "2026-11-16T05:39:01-03:00",
       "status": "aberta"
     },
     {
@@ -634,7 +634,7 @@
         "https://www.record.com.br/en/products/o-grande-debate"
       ],
       "primeiraVezVisto": "2026-11-15T05:23:53-03:00",
-      "ultimaRevisao": "2026-11-15T05:46:00-03:00",
+      "ultimaRevisao": "2026-11-16T05:39:01-03:00",
       "status": "aberta",
       "falta": "foto do livro: Amazon Brasil bloqueada e Open Library sem capa da edição"
     },
@@ -647,7 +647,7 @@
         "https://www.companhiadasletras.com.br/livro/9788537819159/a-era-dos-muros"
       ],
       "primeiraVezVisto": "2026-11-15T05:23:53-03:00",
-      "ultimaRevisao": "2026-11-15T05:46:00-03:00",
+      "ultimaRevisao": "2026-11-16T05:39:01-03:00",
       "status": "aberta",
       "falta": "foto do livro: Amazon Brasil bloqueada e Open Library sem capa da edição"
     },
@@ -661,7 +661,7 @@
         "https://congressoemfoco.com.br/coluna/24235/a-biografia-de-castello-branco-e-o-que-ela-ensina-ao-brasil-de-hoje"
       ],
       "primeiraVezVisto": "2026-11-15T05:23:53-03:00",
-      "ultimaRevisao": "2026-11-15T05:46:00-03:00",
+      "ultimaRevisao": "2026-11-16T05:39:01-03:00",
       "status": "aberta",
       "falta": "resenha crítica publicada que possa ser aberta (Jornal Opção deu 403) e capa da edição de 2019"
     },
@@ -818,6 +818,30 @@
       "falta": "denúncia apresentada ao STF ou nota da PGR; estratégia vem de fontes não identificadas",
       "primeiraVezVisto": "2026-11-15T23:26:28-03:00",
       "ultimaRevisao": "2026-11-15T23:26:28-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "livro-carlos-lacerda-dulles",
+      "rotina": "livros",
+      "tema": "Resenha de Carlos Lacerda, a Vida de um Lutador, de John W. F. Dulles (Nova Fronteira, 2000)",
+      "motivo": "fonte-bloqueada",
+      "falta": "foto do livro: Amazon Brasil bloqueada e Open Library sem capa da edição",
+      "fontesAbertas": [
+        "https://openlibrary.org/books/OL3972980M"
+      ],
+      "primeiraVezVisto": "2026-11-16T05:39:01-03:00",
+      "ultimaRevisao": "2026-11-16T05:39:01-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "livro-o-presidente-o-papa-e-a-primeira-ministra-osullivan",
+      "rotina": "livros",
+      "tema": "Resenha de O Presidente, o Papa e a Primeira-Ministra, de John O'Sullivan (LVM)",
+      "motivo": "fonte-bloqueada",
+      "falta": "ISBN confirmado na editora e foto do livro (Amazon Brasil bloqueada, Open Library sem registro)",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-16T05:39:01-03:00",
+      "ultimaRevisao": "2026-11-16T05:39:01-03:00",
       "status": "aberta"
     }
   ]
