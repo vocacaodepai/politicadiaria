@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-16T07:48:49-03:00",
+  "atualizadoEm": "2026-11-16T08:26:09-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -746,7 +746,7 @@
         "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/index.aspx"
       ],
       "primeiraVezVisto": "2026-11-15T15:25:33-03:00",
-      "ultimaRevisao": "2026-11-16T07:31:33-03:00",
+      "ultimaRevisao": "2026-11-16T08:26:09-03:00",
       "status": "aberta"
     },
     {
@@ -805,7 +805,7 @@
         "https://www.gov.br/mdh/pt-br/assuntos/noticias/2026/novembro/governo-do-brasil-realizara-9a-entrega-de-certidoes-de-obito-retificadas-de-vitimas-da-ditadura-em-porto-alegre-rs-na-segunda-feira-16"
       ],
       "primeiraVezVisto": "2026-11-15T17:26:55-03:00",
-      "ultimaRevisao": "2026-11-16T06:29:48-03:00",
+      "ultimaRevisao": "2026-11-16T08:26:09-03:00",
       "status": "aberta"
     },
     {
@@ -877,12 +877,15 @@
       "tema": "Projeto Urna Transparente (UFPE, USP) aplica testes estatísticos de fraude à eleição de 2026 e não encontra anomalias",
       "motivo": "fonte-unica",
       "fontesAbertas": [
-        "https://www.oliberal.com/politica/eleicao-do-brasil-passa-em-testes-que-apontaram-fraudes-eleitorais-na-russia-nigeria-e-senegal-1.1194595"
+        "https://www.oliberal.com/politica/eleicao-do-brasil-passa-em-testes-que-apontaram-fraudes-eleitorais-na-russia-nigeria-e-senegal-1.1194595",
+        "https://www.kcl.ac.uk/electoral-fraud-and-the-brazilian-missing-peaks",
+        "https://www.diariodepernambuco.com.br/politica/2026/11/11728545-pesquisa-da-ufpe-nao-identifica-indicios-de-fraude-em-votacao-que-reelegeu-lula-presidente.html"
       ],
       "falta": "estudo publicado pelos pesquisadores ou veículo de outro grupo (texto é do Estadão Conteúdo)",
       "primeiraVezVisto": "2026-11-16T07:31:33-03:00",
-      "ultimaRevisao": "2026-11-16T07:31:33-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-16T08:26:09-03:00",
+      "status": "publicada",
+      "slug": "urna-transparente-ufpe-teste-fraude-eleicao-2026"
     },
     {
       "id": "mpm-seis-casos-assedio-mulheres-servico-militar",
