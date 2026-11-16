@@ -1,0 +1,12 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-16T19:21:56-03:00",
+  "fim": "2026-11-16T19:26:26-03:00",
+  "branch": "claude/pd-noticias-20261116-1921",
+  "publicou": ["emendas-orcamento-2027-57-bilhoes-prazo-23-novembro"],
+  "descartou": [
+    { "tema": "Fim da diligência da CDH do Senado em Bacabal (MA) sobre irmãos desaparecidos", "motivo": "ja-publicado" }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
