@@ -1,0 +1,21 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-16T07:41:38-03:00",
+  "fim": "2026-11-16T07:49:02-03:00",
+  "branch": "claude/pd-checagem-20261116-0741",
+  "publicou": ["video-bolsonaro-deixa-hospital-lesoes-pele-gravado-setembro-2025"],
+  "descartou": [
+    { "tema": "Suposta capa da Veja chamando Moro de juiz ladrão", "motivo": "fonte-unica", "pauta": "capa-falsa-veja-moro-ladrao-era-o-juiz" },
+    { "tema": "Vídeo de Lula afastado dos líderes na COP31", "motivo": "fonte-unica", "pauta": "video-lula-afastado-lideres-cop31" },
+    { "tema": "Vídeo de fila em Interlagos apresentado como saída de brasileiros do Paraguai", "motivo": "fonte-unica", "pauta": "video-fila-interlagos-brasileiros-deixando-paraguai" },
+    { "tema": "Foto do Obelisco apresentada como protesto contra Milei", "motivo": "fonte-unica", "pauta": "foto-protesto-1-milhao-contra-milei-copa-2022" },
+    { "tema": "Estudo Urna Transparente sem boato específico a checar", "motivo": "sem-angulo", "pauta": "urna-transparente-testes-estatisticos-eleicao-2026" }
+  ],
+  "bloqueios": [
+    { "host": "www.justicaeleitoral.jus.br", "erro": "http-403" },
+    { "host": "veja.abril.com.br", "erro": "outro", "detalhe": "ferramenta de leitura recusa o host" },
+    { "host": "www.estadao.com.br", "erro": "outro", "detalhe": "ferramenta de leitura recusa o host" },
+    { "host": "pleno.news", "erro": "http-403" }
+  ],
+  "pr": null
+}
