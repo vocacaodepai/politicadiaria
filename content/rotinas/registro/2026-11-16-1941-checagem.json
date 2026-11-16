@@ -1,0 +1,19 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-16T19:41:29-03:00",
+  "fim": "2026-11-16T19:45:38-03:00",
+  "branch": "claude/pd-checagem-20261116-1941",
+  "publicou": ["foto-lula-dez-dedos-cop31-gerada-por-ia"],
+  "descartou": [
+    { "tema": "Vídeos antigos de descarte de tomates ligados ao preço alto", "motivo": "fonte-unica", "pauta": "videos-descarte-tomates-preco-alto-antigos" },
+    { "tema": "Boato de que Flávio Dino adiou o fim da escala 6x1", "motivo": "ja-publicado" },
+    { "tema": "Vídeo de Lula afastado dos líderes na COP31", "motivo": "fonte-unica", "pauta": "video-lula-afastado-lideres-cop31" },
+    { "tema": "Suposta capa da Veja chamando Moro de juiz ladrão", "motivo": "fonte-unica", "pauta": "capa-falsa-veja-moro-ladrao-era-o-juiz" }
+  ],
+  "bloqueios": [
+    { "host": "www.lefigaro.fr", "erro": "outro", "detalhe": "ferramenta de leitura recusa o host" },
+    { "host": "www.afp.com", "erro": "outro", "detalhe": "ferramenta de leitura recusa o host" },
+    { "host": "oglobo.globo.com", "erro": "outro", "detalhe": "ferramenta de leitura recusa o host" }
+  ],
+  "pr": null
+}
