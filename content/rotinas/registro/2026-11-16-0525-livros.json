@@ -1,0 +1,26 @@
+{
+  "rotina": "livros",
+  "inicio": "2026-11-16T05:25:19-03:00",
+  "fim": "2026-11-16T05:38:00-03:00",
+  "branch": "claude/pd-livros-20261116-0525",
+  "publicou": [
+    "manual-politicamente-incorreto-comunismo-kengor-vide",
+    "economia-do-individuo-constantino-mises-brasil",
+    "breve-manual-de-conservadorismo-russell-kirk-trinitas"
+  ],
+  "descartou": [
+    { "tema": "Carlos Lacerda, a Vida de um Lutador, de John W. F. Dulles (Nova Fronteira)", "motivo": "fonte-bloqueada", "pauta": "livro-carlos-lacerda-dulles" },
+    { "tema": "O Presidente, o Papa e a Primeira-Ministra, de John O'Sullivan (LVM)", "motivo": "fonte-bloqueada", "pauta": "livro-o-presidente-o-papa-e-a-primeira-ministra-osullivan" },
+    { "tema": "Do Paraíso e do Poder, de Robert Kagan (Rocco, 2003)", "motivo": "fonte-bloqueada" },
+    { "tema": "A Estranha Morte da Europa, de Douglas Murray", "motivo": "fora-do-escopo" }
+  ],
+  "bloqueios": [
+    { "host": "www.amazon.com.br", "erro": "http-5xx", "detalhe": "503 na página do produto; fotos vieram da Open Library e preços de livrarias" },
+    { "host": "www.googleapis.com", "erro": "http-429" },
+    { "host": "www.estantevirtual.com.br", "erro": "http-403" },
+    { "host": "www.heritage.org", "erro": "http-403" },
+    { "host": "blackwells.co.uk", "erro": "http-403" },
+    { "host": "api.firecrawl.dev", "erro": "sem-creditos" }
+  ],
+  "pr": 569
+}
