@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-16T05:39:01-03:00",
+  "atualizadoEm": "2026-11-16T06:29:48-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -732,7 +732,7 @@
         "https://www.em.com.br/politica/2026/11/7538894-alckmin-defende-equilibrio-fiscal-e-destaca-investimentos-na-amazonia.html"
       ],
       "primeiraVezVisto": "2026-11-15T15:25:33-03:00",
-      "ultimaRevisao": "2026-11-15T15:25:33-03:00",
+      "ultimaRevisao": "2026-11-16T06:29:48-03:00",
       "status": "aberta"
     },
     {
@@ -745,7 +745,7 @@
         "https://www.infomoney.com.br/politica/apos-asean-e-cop-31-lula-embarca-para-madri-para-encontro-com-pedro-sanchez/"
       ],
       "primeiraVezVisto": "2026-11-15T15:25:33-03:00",
-      "ultimaRevisao": "2026-11-15T16:25:51-03:00",
+      "ultimaRevisao": "2026-11-16T06:29:48-03:00",
       "status": "aberta"
     },
     {
@@ -804,7 +804,7 @@
         "https://www.gov.br/mdh/pt-br/assuntos/noticias/2026/novembro/governo-do-brasil-realizara-9a-entrega-de-certidoes-de-obito-retificadas-de-vitimas-da-ditadura-em-porto-alegre-rs-na-segunda-feira-16"
       ],
       "primeiraVezVisto": "2026-11-15T17:26:55-03:00",
-      "ultimaRevisao": "2026-11-15T17:26:55-03:00",
+      "ultimaRevisao": "2026-11-16T06:29:48-03:00",
       "status": "aberta"
     },
     {
@@ -842,6 +842,32 @@
       "fontesAbertas": [],
       "primeiraVezVisto": "2026-11-16T05:39:01-03:00",
       "ultimaRevisao": "2026-11-16T05:39:01-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "marinho-canal-livre-nao-interditar-debates-presidencia-senado",
+      "rotina": "noticias",
+      "tema": "Rogério Marinho diz no Canal Livre que, se eleito presidente do Senado, não vai interditar debates e atuará como árbitro",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.terra.com.br/noticias/brasil/politica/rogerio-marinho-diz-que-nao-vai-interditar-debates-caso-seja-presidente-do-senado,1fb49c7a1fe94f13009151059775966ceu4pcbbh.html"
+      ],
+      "falta": "segunda fonte de editoria independente (demais sites republicam o Estadão Conteúdo)",
+      "primeiraVezVisto": "2026-11-16T06:29:48-03:00",
+      "ultimaRevisao": "2026-11-16T06:29:48-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "cleitinho-emenda-500-mil-show-mirabela",
+      "rotina": "noticias",
+      "tema": "Cleitinho cobra explicações sobre uso de emenda de R$ 500 mil em show em Mirabela (MG); ex-prefeito diz que verba seguiu o plano de ação",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.correiobraziliense.com.br/politica/2026/11/7539049-cleitinho-cobra-explicacoes-sobre-uso-de-emenda-em-show-de-claudia-leitte.html"
+      ],
+      "falta": "plano de ação no Transferegov ou veículo de outro grupo (texto é do Estado de Minas)",
+      "primeiraVezVisto": "2026-11-16T06:29:48-03:00",
+      "ultimaRevisao": "2026-11-16T06:29:48-03:00",
       "status": "aberta"
     }
   ]
