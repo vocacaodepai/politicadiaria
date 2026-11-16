@@ -1,0 +1,19 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-16T13:41:21-03:00",
+  "fim": "2026-11-16T13:52:00-03:00",
+  "branch": "claude/pd-checagem-20261116-1341",
+  "publicou": [],
+  "descartou": [
+    { "tema": "Boato de que Celso Portiolli demitiu Tiago Barnabé por recusar o gesto do L", "motivo": "fonte-unica", "pauta": "boato-portiolli-demitiu-barnabe-gesto-l" },
+    { "tema": "Suposta capa da Veja chamando Moro de juiz ladrão", "motivo": "fonte-unica", "pauta": "capa-falsa-veja-moro-ladrao-era-o-juiz" },
+    { "tema": "Vídeo de Lula afastado dos líderes na COP31", "motivo": "fonte-unica", "pauta": "video-lula-afastado-lideres-cop31" },
+    { "tema": "Vídeo de fila em Interlagos apresentado como saída de brasileiros do Paraguai", "motivo": "fonte-unica", "pauta": "video-fila-interlagos-brasileiros-deixando-paraguai" },
+    { "tema": "Foto do Obelisco apresentada como protesto contra Milei", "motivo": "fonte-unica", "pauta": "foto-protesto-1-milhao-contra-milei-copa-2022" }
+  ],
+  "bloqueios": [
+    { "host": "veja.abril.com.br", "erro": "outro", "detalhe": "ferramenta de leitura recusa o host" },
+    { "host": "checamos.afp.com", "erro": "outro", "detalhe": "ferramenta de leitura recusa o host" }
+  ],
+  "pr": null
+}
