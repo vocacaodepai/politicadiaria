@@ -1,0 +1,13 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-15T23:21:38-03:00",
+  "fim": "2026-11-15T23:26:44-03:00",
+  "branch": "claude/pd-noticias-20261115-2321",
+  "publicou": ["pl-5830-jornada-servicos-saude-12x36"],
+  "descartou": [
+    { "tema": "PGR prepara primeiras denúncias do caso Master: estratégia atribuída a fontes não identificadas em um só veículo", "motivo": "fonte-unica", "pauta": "pgr-primeiras-denuncias-caso-master-um-ano" },
+    { "tema": "Consulta pública do plano 2027-2029 de proteção de crianças no ambiente digital (aberta desde 13/11)", "motivo": "sem-angulo" }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
