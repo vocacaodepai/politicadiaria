@@ -1,0 +1,14 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-16T15:21:47-03:00",
+  "fim": "2026-11-16T15:30:08-03:00",
+  "branch": "claude/pd-noticias-20261116-1521",
+  "publicou": ["andrei-rodrigues-nega-crise-pf-dia-policial-federal"],
+  "descartou": [
+    { "tema": "Entrega de certidões de óbito de vítimas da ditadura em Porto Alegre", "motivo": "aguardando-fato", "pauta": "mdhc-9-entrega-certidoes-obito-ditadura-porto-alegre" },
+    { "tema": "Oposição israelense pede apurar papel do gabinete de Netanyahu em caso de fraude eleitoral", "motivo": "sem-angulo" },
+    { "tema": "Trump diz que pode se reunir com Kim Jong Un na China", "motivo": "sem-angulo" }
+  ],
+  "bloqueios": [],
+  "pr": 581
+}

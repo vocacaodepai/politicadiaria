@@ -1,0 +1,13 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-16T16:22:09-03:00",
+  "fim": "2026-11-16T16:29:16-03:00",
+  "branch": "claude/pd-noticias-20261116-1521",
+  "publicou": ["paraguai-pena-transferido-vinas-cue-privilegios"],
+  "descartou": [
+    { "tema": "Entrega de certidões de óbito de vítimas da ditadura em Porto Alegre", "motivo": "aguardando-fato", "pauta": "mdhc-9-entrega-certidoes-obito-ditadura-porto-alegre" },
+    { "tema": "Pauta do Plenário do Senado de 18/11 com prazo para verba de internet nas escolas e Estatuto do Aprendiz", "motivo": "ja-publicado" }
+  ],
+  "bloqueios": [],
+  "pr": 581
+}
