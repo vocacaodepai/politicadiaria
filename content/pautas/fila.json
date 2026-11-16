@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-16T17:25:34-03:00",
+  "atualizadoEm": "2026-11-16T18:26:48-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -676,7 +676,7 @@
       ],
       "falta": "segunda fonte de editoria com os valores da manifestação (SBT só registra o envio de documentos) ou peça nos autos",
       "primeiraVezVisto": "2026-11-15T13:27:33-03:00",
-      "ultimaRevisao": "2026-11-15T22:36:00-03:00",
+      "ultimaRevisao": "2026-11-16T18:26:48-03:00",
       "status": "aberta"
     },
     {
@@ -805,13 +805,13 @@
       "rotina": "noticias",
       "tema": "MDHC, CEMDP e MPF entregam 26 certidões de óbito retificadas de vítimas da ditadura em Porto Alegre em 16/11",
       "motivo": "aguardando-fato",
-      "falta": "realização da cerimônia (marcada para 15h na Procuradoria da República no RS), com nomes das vítimas e balanço oficial",
+      "falta": "registro oficial do ato (MDHC, Agência Gov, MPF) ou duas editorias; às 18h30 de 16/11 só havia o aviso de pauta, provável ausência de cobertura oficial",
       "fontesAbertas": [
         "https://agenciagov.ebc.com.br/noticias/202611/governo-do-brasil-realizara-9a-entrega-de-certidoes-de-obito-retificadas-de-vitimas-da-ditadura-em-porto-alegre-rs-na-segunda-feira-16",
         "https://www.gov.br/mdh/pt-br/assuntos/noticias/2026/novembro/governo-do-brasil-realizara-9a-entrega-de-certidoes-de-obito-retificadas-de-vitimas-da-ditadura-em-porto-alegre-rs-na-segunda-feira-16"
       ],
       "primeiraVezVisto": "2026-11-15T17:26:55-03:00",
-      "ultimaRevisao": "2026-11-16T17:25:34-03:00",
+      "ultimaRevisao": "2026-11-16T18:26:48-03:00",
       "status": "aberta"
     },
     {
