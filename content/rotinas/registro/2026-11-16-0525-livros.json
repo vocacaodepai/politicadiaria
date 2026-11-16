@@ -22,5 +22,5 @@
     { "host": "blackwells.co.uk", "erro": "http-403" },
     { "host": "api.firecrawl.dev", "erro": "sem-creditos" }
   ],
-  "pr": null
+  "pr": 569
 }
