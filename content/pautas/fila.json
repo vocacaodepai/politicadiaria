@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-16T06:29:48-03:00",
+  "atualizadoEm": "2026-11-16T07:31:33-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -740,12 +740,13 @@
       "rotina": "noticias",
       "tema": "Lula se reúne com Pedro Sánchez em Madri na segunda-feira (16) antes de voltar ao Brasil",
       "motivo": "aguardando-fato",
-      "falta": "resultado da reunião (nota do Planalto, do governo espanhol ou de veículos)",
+      "falta": "resultado da reunião (agenda da Moncloa confirma encontro às 11h de Madri; falta nota oficial ou veículos)",
       "fontesAbertas": [
-        "https://www.infomoney.com.br/politica/apos-asean-e-cop-31-lula-embarca-para-madri-para-encontro-com-pedro-sanchez/"
+        "https://www.infomoney.com.br/politica/apos-asean-e-cop-31-lula-embarca-para-madri-para-encontro-com-pedro-sanchez/",
+        "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/index.aspx"
       ],
       "primeiraVezVisto": "2026-11-15T15:25:33-03:00",
-      "ultimaRevisao": "2026-11-16T06:29:48-03:00",
+      "ultimaRevisao": "2026-11-16T07:31:33-03:00",
       "status": "aberta"
     },
     {
@@ -868,6 +869,45 @@
       "falta": "plano de ação no Transferegov ou veículo de outro grupo (texto é do Estado de Minas)",
       "primeiraVezVisto": "2026-11-16T06:29:48-03:00",
       "ultimaRevisao": "2026-11-16T06:29:48-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "urna-transparente-testes-estatisticos-eleicao-2026",
+      "rotina": "noticias",
+      "tema": "Projeto Urna Transparente (UFPE, USP) aplica testes estatísticos de fraude à eleição de 2026 e não encontra anomalias",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.oliberal.com/politica/eleicao-do-brasil-passa-em-testes-que-apontaram-fraudes-eleitorais-na-russia-nigeria-e-senegal-1.1194595"
+      ],
+      "falta": "estudo publicado pelos pesquisadores ou veículo de outro grupo (texto é do Estadão Conteúdo)",
+      "primeiraVezVisto": "2026-11-16T07:31:33-03:00",
+      "ultimaRevisao": "2026-11-16T07:31:33-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "mpm-seis-casos-assedio-mulheres-servico-militar",
+      "rotina": "noticias",
+      "tema": "MPM apura seis casos de possíveis crimes contra mulheres do primeiro serviço militar feminino em cinco cidades",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.cnnbrasil.com.br/politica/mp-militar-apura-seis-casos-de-assedio-a-mulheres-das-forcas-armadas/"
+      ],
+      "falta": "levantamento ou nota do MPM, ou segunda fonte de editoria",
+      "primeiraVezVisto": "2026-11-16T07:31:33-03:00",
+      "ultimaRevisao": "2026-11-16T07:31:33-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "pcdf-operacao-livro-e-certidoes-estrangeiros",
+      "rotina": "noticias",
+      "tema": "PCDF deflagra operação contra fraude em cartórios do DF que emitia certidões para estrangeiros obterem documentos brasileiros",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.gazetadopovo.com.br/republica/policia-civil-desarticula-rede-que-vendia-identidades-brasileiras-para-russos/"
+      ],
+      "falta": "nota da PCDF (site deu 503) ou segunda fonte de editoria",
+      "primeiraVezVisto": "2026-11-16T07:31:33-03:00",
+      "ultimaRevisao": "2026-11-16T07:31:33-03:00",
       "status": "aberta"
     }
   ]
