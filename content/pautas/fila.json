@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-16T18:26:48-03:00",
+  "atualizadoEm": "2026-11-16T19:45:16-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -266,7 +266,7 @@
         "https://www.aosfatos.org/noticias/video-lula-presidentes-cop31/"
       ],
       "primeiraVezVisto": "2026-11-12T19:44:00-03:00",
-      "ultimaRevisao": "2026-11-16T13:52:00-03:00",
+      "ultimaRevisao": "2026-11-16T19:45:16-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre a foto oficial"
     },
@@ -330,7 +330,7 @@
         "https://aosfatos.org/noticias/fila-formula-1-saida-brasileiros-paraguai/"
       ],
       "primeiraVezVisto": "2026-11-13T07:47:58-03:00",
-      "ultimaRevisao": "2026-11-16T13:52:00-03:00",
+      "ultimaRevisao": "2026-11-16T19:45:16-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre local e data do vídeo"
     },
@@ -390,7 +390,7 @@
         "https://www.agencialupa.org/noticias/2026/11/13/foto-nao-mostra-protesto-de-1-milhao-de-pessoas-contra-o-governo-milei/"
       ],
       "primeiraVezVisto": "2026-11-13T13:50:42-03:00",
-      "ultimaRevisao": "2026-11-16T13:52:00-03:00",
+      "ultimaRevisao": "2026-11-16T19:45:16-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre a origem da foto (AFP e Fast Check não abriram)"
     },
@@ -929,7 +929,7 @@
       ],
       "falta": "capa da edição 3021 ou segunda checagem aberta (site da Veja não abriu)",
       "primeiraVezVisto": "2026-11-16T07:48:49-03:00",
-      "ultimaRevisao": "2026-11-16T13:52:00-03:00",
+      "ultimaRevisao": "2026-11-16T19:45:16-03:00",
       "status": "aberta"
     },
     {
@@ -955,7 +955,20 @@
       ],
       "falta": "segunda checagem aberta ou nota do SBT",
       "primeiraVezVisto": "2026-11-16T13:52:00-03:00",
-      "ultimaRevisao": "2026-11-16T13:52:00-03:00",
+      "ultimaRevisao": "2026-11-16T19:45:16-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "videos-descarte-tomates-preco-alto-antigos",
+      "rotina": "checagem",
+      "tema": "Vídeos antigos de descarte de tomates ligados ao preço de R$ 22 o quilo ou a produtores bolsonaristas (Aos Fatos: gravados em 2024 e 2025)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://aosfatos.org/noticias/videos-que-mostram-descarte-de-tomates-nao-sao-recentes/"
+      ],
+      "falta": "segunda checagem aberta sobre os vídeos atuais",
+      "primeiraVezVisto": "2026-11-16T19:45:16-03:00",
+      "ultimaRevisao": "2026-11-16T19:45:16-03:00",
       "status": "aberta"
     }
   ]
