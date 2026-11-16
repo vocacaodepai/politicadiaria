@@ -1,0 +1,29 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-16T14:21:51-03:00",
+  "fim": "2026-11-16T14:29:40-03:00",
+  "branch": "claude/pd-noticias-20261116-1421",
+  "publicou": [
+    "fachin-reforma-judiciario-nao-pode-ser-contra-o-poder",
+    "pl-899-presos-federais-presidios-uniao-comissao"
+  ],
+  "descartou": [
+    {
+      "tema": "Entrega de certidões de óbito de vítimas da ditadura em Porto Alegre",
+      "motivo": "aguardando-fato",
+      "pauta": "mdhc-9-entrega-certidoes-obito-ditadura-porto-alegre"
+    },
+    {
+      "tema": "Senado retoma votação dos destaques do PLP 299/2026 na terça",
+      "motivo": "ja-publicado"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "dadosabertos.camara.leg.br",
+      "erro": "timeout",
+      "detalhe": "504 na rota de tramitações"
+    }
+  ],
+  "pr": null
+}
