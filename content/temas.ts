@@ -88,6 +88,7 @@ export const temas: Tema[] = [
       "comissao-especial-audiencias-maioridade-penal-10-11-novembro",
       "relator-mendonca-filho-maioridade-penal-16-anos-instituicoes-separadas",
       "maioridade-penal-relatorio-1-dezembro-comissao-especial",
+      "quaest-92-apoiam-reducao-maioridade-penal",
     ],
   },
 ];
