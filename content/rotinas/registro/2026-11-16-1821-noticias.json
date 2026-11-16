@@ -1,0 +1,13 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-16T18:21:21-03:00",
+  "fim": "2026-11-16T18:26:53-03:00",
+  "branch": "claude/pd-noticias-20261116-1821",
+  "publicou": ["lula-praia-neves-reeleito-cooperacao-cabo-verde"],
+  "descartou": [
+    { "tema": "Entrega de certidões de óbito de vítimas da ditadura em Porto Alegre", "motivo": "aguardando-fato", "pauta": "mdhc-9-entrega-certidoes-obito-ditadura-porto-alegre" },
+    { "tema": "Resposta da chapa Lula-Alckmin ao TSE sobre R$ 48,3 milhões em notas fiscais", "motivo": "fonte-unica", "pauta": "chapa-lula-alckmin-resposta-asepa-contas-48-milhoes" }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
