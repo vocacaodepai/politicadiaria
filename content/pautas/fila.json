@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-17T07:47:00-03:00",
+  "atualizadoEm": "2026-11-17T08:40:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1030,6 +1030,19 @@
       "ultimaRevisao": "2026-11-17T07:47:00-03:00",
       "status": "aberta",
       "falta": "segunda checagem aberta ou nota do gabinete"
+    },
+    {
+      "id": "ormuz-ataques-petroleiros-15-16-novembro",
+      "rotina": "noticias",
+      "tema": "Ataques e explosões de petroleiros no Estreito de Ormuz em 15 e 16/11; tripulação de um navio desaparecida, segundo a UKMTO",
+      "motivo": "numeros-divergentes",
+      "fontesAbertas": [
+        "https://www.metropoles.com/mundo/tripulacao-de-petroleiro-esta-desaparecida-apos-ataque-no-estreito-de-ormuz"
+      ],
+      "primeiraVezVisto": "2026-11-17T08:40:00-03:00",
+      "ultimaRevisao": "2026-11-17T08:40:00-03:00",
+      "status": "aberta",
+      "falta": "número de navios atingidos diverge (três, seis, sete) e efeito no preço do petróleo sem fonte"
     }
   ]
 }
