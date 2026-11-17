@@ -1,0 +1,26 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-17T07:21:32-03:00",
+  "fim": "2026-11-17T07:27:54-03:00",
+  "branch": "claude/pd-noticias-20261117-0721",
+  "publicou": [
+    "benedita-da-silva-encerra-disputas-eleitorais"
+  ],
+  "descartou": [
+    {
+      "tema": "CDH do Senado vai pedir ao Ministério da Justiça a federalização do caso dos irmãos sumidos em Bacabal (MA)",
+      "motivo": "aguardando-fato"
+    },
+    {
+      "tema": "Cidadania negocia incorporação ao PP",
+      "motivo": "ja-publicado"
+    },
+    {
+      "tema": "PGR contra soltura do ex-presidente do BRB",
+      "motivo": "fonte-unica",
+      "pauta": "pgr-contra-soltura-paulo-henrique-costa-brb"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
