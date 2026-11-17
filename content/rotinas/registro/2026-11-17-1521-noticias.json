@@ -1,0 +1,22 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-17T15:21:48-03:00",
+  "fim": "2026-11-17T15:26:02-03:00",
+  "branch": "claude/pd-noticias-20261117-1521",
+  "publicou": [
+    "motta-alcolumbre-moraes-julgamento-lei-dosimetria"
+  ],
+  "descartou": [
+    {
+      "tema": "Destaques do PLP 299/2026 no Senado",
+      "motivo": "aguardando-fato",
+      "pauta": "plp-299-destaques-senado-17-novembro"
+    },
+    {
+      "tema": "Câmara: governo quer votar o ajuste fiscal nesta terça",
+      "motivo": "aguardando-fato"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
