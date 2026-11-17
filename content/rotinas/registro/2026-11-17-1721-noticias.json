@@ -1,0 +1,23 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-17T17:21:32-03:00",
+  "fim": "2026-11-17T17:26:52-03:00",
+  "branch": "claude/pd-noticias-20261117-1721",
+  "publicou": [
+    "senado-envia-sancao-teto-28-5-bi-credito-exportacao"
+  ],
+  "descartou": [
+    {
+      "tema": "Destaques do PLP 299/2026 no Senado e votação na Câmara",
+      "motivo": "aguardando-fato",
+      "pauta": "plp-299-destaques-senado-17-novembro"
+    },
+    {
+      "tema": "Ipsos-Ipec sobre a saída de Flávio Bolsonaro do país",
+      "motivo": "fonte-unica",
+      "pauta": "ipsos-ipec-saida-flavio-pais-46-desaprovam"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
