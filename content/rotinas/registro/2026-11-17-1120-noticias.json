@@ -1,0 +1,12 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-17T11:20:58-03:00",
+  "fim": "2026-11-17T12:32:36-03:00",
+  "branch": "claude/pd-noticias-20261117-1120",
+  "publicou": [
+    "durigan-cae-cbs-media-8-5-regimes-especiais"
+  ],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}
