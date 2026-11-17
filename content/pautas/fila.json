@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-17T17:26:52-03:00",
+  "atualizadoEm": "2026-11-17T18:26:57-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1081,8 +1081,8 @@
         "https://www25.senado.leg.br/web/atividade/materias/-/materia/176328/votacoes"
       ],
       "primeiraVezVisto": "2026-11-17T13:27:56-03:00",
-      "ultimaRevisao": "2026-11-17T17:26:52-03:00",
-      "status": "aberta",
+      "ultimaRevisao": "2026-11-17T18:26:57-03:00",
+      "status": "descartada",
       "falta": "placar dos destaques registrado pelo Senado"
     },
     {
@@ -1097,6 +1097,20 @@
       "ultimaRevisao": "2026-11-17T13:52:00-03:00",
       "status": "aberta",
       "falta": "segunda checagem aberta ou nota do Banco Central ou da Casa da Moeda"
+    },
+    {
+      "id": "plp-299-destaques-senado-18-novembro",
+      "rotina": "noticias",
+      "tema": "Senado remarca para 18/11 a votação dos quatro destaques ao PLP 299/2026 (ajuste fiscal), a pedido do relator Eduardo Braga; Câmara vota depois",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [
+        "https://www12.senado.leg.br/noticias/materias/2026/11/17/votacao-de-destaques-ao-ajuste-fiscal-e-remarcada-na-quarta-feira",
+        "https://www.camara.leg.br/noticias/1320366-relator-defende-aprovacao-do-ajuste-fiscal-sem-mudancas-para-evitar-retorno-ao-senado"
+      ],
+      "primeiraVezVisto": "2026-11-17T18:26:57-03:00",
+      "ultimaRevisao": "2026-11-17T18:26:57-03:00",
+      "status": "aberta",
+      "falta": "placar dos destaques registrado pelo Senado em 18/11"
     }
   ]
 }
