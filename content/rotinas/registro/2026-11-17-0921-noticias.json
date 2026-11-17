@@ -1,0 +1,35 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-17T09:21:27-03:00",
+  "fim": "2026-11-17T09:26:53-03:00",
+  "branch": "claude/pd-noticias-20261117-0921",
+  "publicou": [
+    "decreto-sistema-satelites-defesa-telebras"
+  ],
+  "descartou": [
+    {
+      "tema": "Audiência de Durigan na CAE sobre a alíquota de 11,3% da CBS",
+      "motivo": "aguardando-fato"
+    },
+    {
+      "tema": "Destaques do PLP 299 e ajuste fiscal no Senado",
+      "motivo": "aguardando-fato"
+    },
+    {
+      "tema": "PL 2.107/2026 (Lei Benício) na pauta da CAS",
+      "motivo": "aguardando-fato"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.in.gov.br",
+      "erro": "http-5xx",
+      "detalhe": "502 no texto do Decreto 13.167"
+    },
+    {
+      "host": "commons.wikimedia.org",
+      "erro": "http-429"
+    }
+  ],
+  "pr": null
+}
