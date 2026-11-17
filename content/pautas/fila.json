@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-17T13:27:56-03:00",
+  "atualizadoEm": "2026-11-17T13:52:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -975,7 +975,7 @@
       ],
       "falta": "segunda checagem aberta sobre os vídeos atuais",
       "primeiraVezVisto": "2026-11-16T19:45:16-03:00",
-      "ultimaRevisao": "2026-11-17T07:47:00-03:00",
+      "ultimaRevisao": "2026-11-17T13:52:00-03:00",
       "status": "aberta"
     },
     {
@@ -1084,6 +1084,19 @@
       "ultimaRevisao": "2026-11-17T13:27:56-03:00",
       "status": "aberta",
       "falta": "placar dos destaques registrado pelo Senado"
+    },
+    {
+      "id": "boato-nota-r-100-rosto-lula-2030",
+      "rotina": "checagem",
+      "tema": "Suposta nota de R$ 100 com o rosto de Lula que a Casa da Moeda lançaria em 2030 (Boatos.org: montagem, sem anúncio do Banco Central)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.boatos.org/politica/casa-da-moeda-vai-lancar-nota-de-r-100-com-rosto-de-lula-em-2030.html"
+      ],
+      "primeiraVezVisto": "2026-11-17T13:52:00-03:00",
+      "ultimaRevisao": "2026-11-17T13:52:00-03:00",
+      "status": "aberta",
+      "falta": "segunda checagem aberta ou nota do Banco Central ou da Casa da Moeda"
     }
   ]
 }

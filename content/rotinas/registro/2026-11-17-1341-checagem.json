@@ -1,0 +1,33 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-17T13:41:34-03:00",
+  "fim": "2026-11-17T13:52:00-03:00",
+  "branch": "claude/pd-checagem-20261117-1341",
+  "publicou": [
+    "lula-nao-foi-internado-filipinas-rouquidao-agenda-mantida"
+  ],
+  "descartou": [
+    {
+      "tema": "Suposta nota de R$ 100 com o rosto de Lula em 2030",
+      "motivo": "fonte-unica",
+      "pauta": "boato-nota-r-100-rosto-lula-2030"
+    },
+    {
+      "tema": "Vídeos antigos de descarte de tomates ligados ao preço alto",
+      "motivo": "fonte-unica",
+      "pauta": "videos-descarte-tomates-preco-alto-antigos"
+    },
+    {
+      "tema": "Vídeo de tornado em Chapecó gravado em 2024 nos EUA (Lupa)",
+      "motivo": "fora-do-escopo"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.aosfatos.org",
+      "erro": "http-404",
+      "detalhe": "página de listagem de checagens"
+    }
+  ],
+  "pr": null
+}
