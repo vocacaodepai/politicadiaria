@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-17T12:35:00-03:00",
+  "atualizadoEm": "2026-11-17T13:27:56-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -676,7 +676,7 @@
       ],
       "falta": "segunda fonte de editoria com os valores da manifestação (SBT só registra o envio de documentos) ou peça nos autos",
       "primeiraVezVisto": "2026-11-15T13:27:33-03:00",
-      "ultimaRevisao": "2026-11-17T12:29:49-03:00",
+      "ultimaRevisao": "2026-11-17T13:27:56-03:00",
       "status": "aberta"
     },
     {
@@ -988,7 +988,7 @@
       ],
       "falta": "fim do julgamento e segunda fonte de editoria",
       "primeiraVezVisto": "2026-11-16T21:30:00-03:00",
-      "ultimaRevisao": "2026-11-17T12:29:49-03:00",
+      "ultimaRevisao": "2026-11-17T13:27:56-03:00",
       "status": "aberta"
     },
     {
@@ -1053,7 +1053,7 @@
         "https://www.cnnbrasil.com.br/politica/ipsos-ipec-46-desaprovam-saida-de-flavio-do-pais-27-aprovam-totalmente/"
       ],
       "primeiraVezVisto": "2026-11-17T12:29:49-03:00",
-      "ultimaRevisao": "2026-11-17T12:29:49-03:00",
+      "ultimaRevisao": "2026-11-17T13:27:56-03:00",
       "status": "aberta",
       "falta": "divulgação da Ipsos-Ipec ou veículo de outro grupo com os números"
     },
@@ -1063,12 +1063,27 @@
       "tema": "TJSP bloqueia cerca de R$ 180 mil da Meta por demora em remover vídeo de André Fernandes sobre Erika Hilton",
       "motivo": "fonte-unica",
       "fontesAbertas": [
-        "https://www.cnnbrasil.com.br/politica/justica-bloqueia-r180-mil-da-meta-por-nao-remover-post-contra-erika-hilton/"
+        "https://www.cnnbrasil.com.br/politica/justica-bloqueia-r180-mil-da-meta-por-nao-remover-post-contra-erika-hilton/",
+        "https://www.gazetadopovo.com.br/republica/justica-bloqueia-r-180-mil-da-meta-por-nao-excluir-video-com-criticas-a-erika-hilton/"
       ],
       "primeiraVezVisto": "2026-11-17T12:29:49-03:00",
-      "ultimaRevisao": "2026-11-17T12:29:49-03:00",
+      "ultimaRevisao": "2026-11-17T13:27:56-03:00",
+      "status": "publicada",
+      "slug": "justica-bloqueia-meta-180-mil-video-erika-hilton"
+    },
+    {
+      "id": "plp-299-destaques-senado-17-novembro",
+      "rotina": "noticias",
+      "tema": "Senado vota em 17/11 os quatro destaques da oposição ao PLP 299/2026 (ajuste fiscal); Câmara pode votar o texto no mesmo dia",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [
+        "https://www12.senado.leg.br/noticias/audios/2026/11/plenario-analisa-destaques-da-oposicao-ao-projeto-de-ajuste-fiscal",
+        "https://www25.senado.leg.br/web/atividade/materias/-/materia/176328/votacoes"
+      ],
+      "primeiraVezVisto": "2026-11-17T13:27:56-03:00",
+      "ultimaRevisao": "2026-11-17T13:27:56-03:00",
       "status": "aberta",
-      "falta": "decisão nos autos ou segunda fonte de editoria com o valor bloqueado"
+      "falta": "placar dos destaques registrado pelo Senado"
     }
   ]
 }
