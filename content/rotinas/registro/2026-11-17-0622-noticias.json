@@ -1,0 +1,28 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-17T06:22:14-03:00",
+  "fim": "2026-11-17T06:28:05-03:00",
+  "branch": "claude/pd-noticias-20261117-0622",
+  "publicou": [
+    "moraes-nega-visitas-senadores-bolsonaro-domiciliar"
+  ],
+  "descartou": [
+    {
+      "tema": "PGR contra soltura do ex-presidente do BRB",
+      "motivo": "fonte-unica",
+      "pauta": "pgr-contra-soltura-paulo-henrique-costa-brb"
+    },
+    {
+      "tema": "Pauta do Senado de 18/11 (PL 5.756/2026, internet nas escolas)",
+      "motivo": "ja-publicado"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "commons.wikimedia.org",
+      "erro": "http-429",
+      "detalhe": "API de busca de imagens"
+    }
+  ],
+  "pr": null
+}
