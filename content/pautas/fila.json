@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-17T05:43:16-03:00",
+  "atualizadoEm": "2026-11-17T06:28:05-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -943,12 +943,14 @@
       "tema": "Moraes nega pedido da defesa de Bolsonaro para visitas dos senadores Rogério Marinho e Tereza Cristina",
       "motivo": "fonte-unica",
       "fontesAbertas": [
-        "https://www.cnnbrasil.com.br/blogs/teo-cury/politica/moraes-nega-visita-de-rogerio-marinho-e-tereza-cristina-a-bolsonaro/"
+        "https://www.cnnbrasil.com.br/blogs/teo-cury/politica/moraes-nega-visita-de-rogerio-marinho-e-tereza-cristina-a-bolsonaro/",
+        "https://www.gazetadopovo.com.br/republica/moraes-barra-visita-de-rogerio-marinho-e-tereza-cristina-a-bolsonaro",
+        "https://www.cnnbrasil.com.br/politica/marinho-e-tereza-criticam-moraes-por-negar-visita-a-bolsonaro-arbitrario/"
       ],
-      "falta": "decisão nos autos ou veículo de outro grupo (texto aberto é blog da CNN Brasil)",
       "primeiraVezVisto": "2026-11-16T11:30:49-03:00",
-      "ultimaRevisao": "2026-11-16T13:28:30-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-17T06:28:05-03:00",
+      "status": "publicada",
+      "slug": "moraes-nega-visitas-senadores-bolsonaro-domiciliar"
     },
     {
       "id": "boato-portiolli-demitiu-barnabe-gesto-l",
@@ -1001,6 +1003,19 @@
       ],
       "primeiraVezVisto": "2026-11-17T05:23:44-03:00",
       "ultimaRevisao": "2026-11-17T05:43:16-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "pgr-contra-soltura-paulo-henrique-costa-brb",
+      "rotina": "noticias",
+      "tema": "PGR defende no STF manter a prisão preventiva do ex-presidente do BRB Paulo Henrique Costa, investigado no caso Master",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.gazetadopovo.com.br/republica/pgr-e-contra-soltura-do-ex-presidente-do-brb/"
+      ],
+      "falta": "segunda fonte de editoria ou nota da PGR",
+      "primeiraVezVisto": "2026-11-17T06:28:05-03:00",
+      "ultimaRevisao": "2026-11-17T06:28:05-03:00",
       "status": "aberta"
     }
   ]
