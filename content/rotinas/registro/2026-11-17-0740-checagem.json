@@ -1,0 +1,21 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-17T07:40:51-03:00",
+  "fim": "2026-11-17T07:47:04-03:00",
+  "branch": "claude/pd-checagem-20261117-0740",
+  "publicou": ["imagem-trump-bunker-apos-falha-aviacao-eua-e-montagem"],
+  "descartou": [
+    { "tema": "Vídeo antigo de protesto contra Lula na Fórmula 1 (Lupa, 16/11)", "motivo": "ja-publicado" },
+    { "tema": "Relato atribuído a Lucas Pavanato sobre ser mulher trans", "motivo": "fonte-unica", "pauta": "boato-lucas-pavanato-mulher-trans" },
+    { "tema": "Vídeos antigos de descarte de tomates ligados ao preço alto", "motivo": "fonte-unica", "pauta": "videos-descarte-tomates-preco-alto-antigos" },
+    { "tema": "Suposta capa da Veja chamando Moro de juiz ladrão", "motivo": "fonte-unica", "pauta": "capa-falsa-veja-moro-ladrao-era-o-juiz" }
+  ],
+  "bloqueios": [
+    { "host": "www.faa.gov", "erro": "http-403" },
+    { "host": "www.transportation.gov", "erro": "http-403" },
+    { "host": "www.justicaeleitoral.jus.br", "erro": "http-403" },
+    { "host": "lupa.uol.com.br", "erro": "outro", "detalhe": "ferramenta de leitura recusa o host" },
+    { "host": "www.estadao.com.br", "erro": "outro", "detalhe": "ferramenta de leitura recusa o host" }
+  ],
+  "pr": null
+}
