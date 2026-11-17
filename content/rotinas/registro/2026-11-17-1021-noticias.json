@@ -1,0 +1,17 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-17T10:21:57-03:00",
+  "fim": "2026-11-17T10:57:36-03:00",
+  "branch": "claude/pd-noticias-20261117-1021",
+  "publicou": [
+    "dino-converte-rito-merito-nova-jornada-cautelares"
+  ],
+  "descartou": [
+    {
+      "tema": "Audiência de Durigan na CAE sobre a alíquota de 11,3% da CBS",
+      "motivo": "aguardando-fato"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

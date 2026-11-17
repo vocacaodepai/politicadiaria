@@ -55,6 +55,7 @@ export const temas: Tema[] = [
       "camara-senado-contestam-liminar-dino-emenda-141",
       "fux-destaque-6x1-plenario-fisico-stf",
       "pl-5830-jornada-servicos-saude-12x36",
+      "dino-converte-rito-merito-nova-jornada-cautelares",
     ],
   },
   {
