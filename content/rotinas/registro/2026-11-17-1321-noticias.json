@@ -1,0 +1,41 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-17T13:21:47-03:00",
+  "fim": "2026-11-17T13:28:09-03:00",
+  "branch": "claude/pd-noticias-20261117-1321",
+  "publicou": [
+    "justica-bloqueia-meta-180-mil-video-erika-hilton"
+  ],
+  "descartou": [
+    {
+      "tema": "Destaques do PLP 299/2026 no plenário do Senado (votação à tarde, sem placar)",
+      "motivo": "aguardando-fato",
+      "pauta": "plp-299-destaques-senado-17-novembro"
+    },
+    {
+      "tema": "Ipsos-Ipec sobre a saída de Flávio Bolsonaro do país",
+      "motivo": "fonte-unica",
+      "pauta": "ipsos-ipec-saida-flavio-pais-46-desaprovam"
+    },
+    {
+      "tema": "TRE-CE e condenação de Ciro Gomes (julgamento suspenso por vista)",
+      "motivo": "aguardando-fato",
+      "pauta": "tre-ce-maioria-ciro-violencia-politica-genero-vista"
+    },
+    {
+      "tema": "Contas da chapa Lula-Alckmin no TSE (processo em instrução, sem data de julgamento)",
+      "motivo": "aguardando-fato",
+      "pauta": "chapa-lula-alckmin-resposta-asepa-contas-48-milhoes"
+    },
+    {
+      "tema": "Relator diz que votação do PL das big techs pode ficar para a próxima semana",
+      "motivo": "aguardando-fato"
+    },
+    {
+      "tema": "Comissão de Segurança da Câmara aprova PL 2443/2026 (FNSP para indenizar vítimas)",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
