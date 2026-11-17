@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-16T21:30:00-03:00",
+  "atualizadoEm": "2026-11-16T22:25:14-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -871,12 +871,14 @@
       "tema": "Cleitinho cobra explicações sobre uso de emenda de R$ 500 mil em show em Mirabela (MG); ex-prefeito diz que verba seguiu o plano de ação",
       "motivo": "fonte-unica",
       "fontesAbertas": [
-        "https://www.correiobraziliense.com.br/politica/2026/11/7539049-cleitinho-cobra-explicacoes-sobre-uso-de-emenda-em-show-de-claudia-leitte.html"
+        "https://www.correiobraziliense.com.br/politica/2026/11/7539049-cleitinho-cobra-explicacoes-sobre-uso-de-emenda-em-show-de-claudia-leitte.html",
+        "https://www.cnnbrasil.com.br/politica/ex-prefeito-de-mg-diz-que-vai-processar-cleitinho-por-expor-ligacao-gravada/"
       ],
       "falta": "plano de ação no Transferegov ou veículo de outro grupo (texto é do Estado de Minas)",
       "primeiraVezVisto": "2026-11-16T06:29:48-03:00",
-      "ultimaRevisao": "2026-11-16T06:29:48-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-16T22:25:14-03:00",
+      "status": "publicada",
+      "slug": "mirabela-ex-prefeito-processar-cleitinho-emenda-show"
     },
     {
       "id": "urna-transparente-testes-estatisticos-eleicao-2026",
