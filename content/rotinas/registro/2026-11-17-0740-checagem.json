@@ -17,5 +17,5 @@
     { "host": "lupa.uol.com.br", "erro": "outro", "detalhe": "ferramenta de leitura recusa o host" },
     { "host": "www.estadao.com.br", "erro": "outro", "detalhe": "ferramenta de leitura recusa o host" }
   ],
-  "pr": null
+  "pr": 593
 }
