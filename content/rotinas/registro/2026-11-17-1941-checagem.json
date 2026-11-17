@@ -1,0 +1,55 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-17T19:41:36-03:00",
+  "fim": "2026-11-17T19:45:00-03:00",
+  "branch": "claude/pd-checagem-20261117-1941",
+  "publicou": [],
+  "descartou": [
+    {
+      "tema": "Post atribuído a Marco Rubio sobre Lula ter conspirado contra os EUA com o Irã",
+      "motivo": "fonte-unica",
+      "pauta": "post-falso-rubio-lula-conspirou-ira"
+    },
+    {
+      "tema": "Suposta nota de R$ 100 com o rosto de Lula em 2030",
+      "motivo": "fonte-unica",
+      "pauta": "boato-nota-r-100-rosto-lula-2030"
+    },
+    {
+      "tema": "Vídeos antigos de descarte de tomates ligados ao preço alto",
+      "motivo": "fonte-unica",
+      "pauta": "videos-descarte-tomates-preco-alto-antigos"
+    },
+    {
+      "tema": "Documento falso da PF sobre mensagens de Nikolas Ferreira e Vorcaro (Aos Fatos, setembro de 2026)",
+      "motivo": "sem-angulo"
+    },
+    {
+      "tema": "Foto de Janja ao lado de suposto traficante (Aos Fatos, janeiro de 2023)",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.state.gov",
+      "erro": "http-403",
+      "detalhe": "newsroom do Departamento de Estado"
+    },
+    {
+      "host": "checamos.afp.com",
+      "erro": "outro",
+      "detalhe": "acesso recusado pela ferramenta"
+    },
+    {
+      "host": "www.estadao.com.br",
+      "erro": "outro",
+      "detalhe": "acesso recusado pela ferramenta"
+    },
+    {
+      "host": "projetocomprova.com.br",
+      "erro": "http-404",
+      "detalhe": "home"
+    }
+  ],
+  "pr": null
+}

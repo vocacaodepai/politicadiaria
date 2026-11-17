@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-17T19:26:50-03:00",
+  "atualizadoEm": "2026-11-17T19:45:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -975,7 +975,7 @@
       ],
       "falta": "segunda checagem aberta sobre os vídeos atuais",
       "primeiraVezVisto": "2026-11-16T19:45:16-03:00",
-      "ultimaRevisao": "2026-11-17T13:52:00-03:00",
+      "ultimaRevisao": "2026-11-17T19:45:00-03:00",
       "status": "aberta"
     },
     {
@@ -1094,7 +1094,7 @@
         "https://www.boatos.org/politica/casa-da-moeda-vai-lancar-nota-de-r-100-com-rosto-de-lula-em-2030.html"
       ],
       "primeiraVezVisto": "2026-11-17T13:52:00-03:00",
-      "ultimaRevisao": "2026-11-17T13:52:00-03:00",
+      "ultimaRevisao": "2026-11-17T19:45:00-03:00",
       "status": "aberta",
       "falta": "segunda checagem aberta ou nota do Banco Central ou da Casa da Moeda"
     },
@@ -1111,6 +1111,19 @@
       "ultimaRevisao": "2026-11-17T18:26:57-03:00",
       "status": "aberta",
       "falta": "placar dos destaques registrado pelo Senado em 18/11"
+    },
+    {
+      "id": "post-falso-rubio-lula-conspirou-ira",
+      "rotina": "checagem",
+      "tema": "Post atribuído a Marco Rubio dizendo que Lula conspirou contra os EUA na reunião com o presidente do Irã (Aos Fatos: perfil falso, sem registro oficial)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.aosfatos.org/noticias/falso-post-marco-rubio-lula-conspirar-eua-ira/"
+      ],
+      "primeiraVezVisto": "2026-11-17T19:45:00-03:00",
+      "ultimaRevisao": "2026-11-17T19:45:00-03:00",
+      "status": "aberta",
+      "falta": "segunda checagem aberta (Reuters bloqueada) ou página oficial do Departamento de Estado acessível"
     }
   ]
 }
