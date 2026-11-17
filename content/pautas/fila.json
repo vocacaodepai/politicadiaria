@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-17T07:27:54-03:00",
+  "atualizadoEm": "2026-11-17T07:47:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -266,7 +266,7 @@
         "https://www.aosfatos.org/noticias/video-lula-presidentes-cop31/"
       ],
       "primeiraVezVisto": "2026-11-12T19:44:00-03:00",
-      "ultimaRevisao": "2026-11-16T19:45:16-03:00",
+      "ultimaRevisao": "2026-11-17T07:47:00-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre a foto oficial"
     },
@@ -330,7 +330,7 @@
         "https://aosfatos.org/noticias/fila-formula-1-saida-brasileiros-paraguai/"
       ],
       "primeiraVezVisto": "2026-11-13T07:47:58-03:00",
-      "ultimaRevisao": "2026-11-16T19:45:16-03:00",
+      "ultimaRevisao": "2026-11-17T07:47:00-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre local e data do vídeo"
     },
@@ -390,7 +390,7 @@
         "https://www.agencialupa.org/noticias/2026/11/13/foto-nao-mostra-protesto-de-1-milhao-de-pessoas-contra-o-governo-milei/"
       ],
       "primeiraVezVisto": "2026-11-13T13:50:42-03:00",
-      "ultimaRevisao": "2026-11-16T19:45:16-03:00",
+      "ultimaRevisao": "2026-11-17T07:47:00-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre a origem da foto (AFP e Fast Check não abriram)"
     },
@@ -934,7 +934,7 @@
       ],
       "falta": "capa da edição 3021 ou segunda checagem aberta (site da Veja não abriu)",
       "primeiraVezVisto": "2026-11-16T07:48:49-03:00",
-      "ultimaRevisao": "2026-11-16T19:45:16-03:00",
+      "ultimaRevisao": "2026-11-17T07:47:00-03:00",
       "status": "aberta"
     },
     {
@@ -962,7 +962,7 @@
       ],
       "falta": "segunda checagem aberta ou nota do SBT",
       "primeiraVezVisto": "2026-11-16T13:52:00-03:00",
-      "ultimaRevisao": "2026-11-16T19:45:16-03:00",
+      "ultimaRevisao": "2026-11-17T07:47:00-03:00",
       "status": "aberta"
     },
     {
@@ -975,7 +975,7 @@
       ],
       "falta": "segunda checagem aberta sobre os vídeos atuais",
       "primeiraVezVisto": "2026-11-16T19:45:16-03:00",
-      "ultimaRevisao": "2026-11-16T19:45:16-03:00",
+      "ultimaRevisao": "2026-11-17T07:47:00-03:00",
       "status": "aberta"
     },
     {
@@ -1017,6 +1017,19 @@
       "primeiraVezVisto": "2026-11-17T06:28:05-03:00",
       "ultimaRevisao": "2026-11-17T06:28:05-03:00",
       "status": "aberta"
+    },
+    {
+      "id": "boato-lucas-pavanato-mulher-trans",
+      "rotina": "checagem",
+      "tema": "Vídeo com relato em primeira pessoa atribuído a Lucas Pavanato sobre ser mulher trans (Boatos.org: fala é de outra pessoa)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.boatos.org/politica/lucas-pavanato-era-uma-mulher-trans-antes-de-entrar-para-a-politica.html"
+      ],
+      "primeiraVezVisto": "2026-11-17T07:47:00-03:00",
+      "ultimaRevisao": "2026-11-17T07:47:00-03:00",
+      "status": "aberta",
+      "falta": "segunda checagem aberta ou nota do gabinete"
     }
   ]
 }
