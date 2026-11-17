@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-16T20:28:07-03:00",
+  "atualizadoEm": "2026-11-16T21:30:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -575,7 +575,7 @@
       ],
       "falta": "resultado da reunião em nota do PDT ou veículo de editoria",
       "primeiraVezVisto": "2026-11-14T15:28:30-03:00",
-      "ultimaRevisao": "2026-11-15T22:36:00-03:00",
+      "ultimaRevisao": "2026-11-16T21:30:00-03:00",
       "status": "aberta"
     },
     {
@@ -804,14 +804,15 @@
       "id": "mdhc-9-entrega-certidoes-obito-ditadura-porto-alegre",
       "rotina": "noticias",
       "tema": "MDHC, CEMDP e MPF entregam 26 certidões de óbito retificadas de vítimas da ditadura em Porto Alegre em 16/11",
-      "motivo": "aguardando-fato",
-      "falta": "registro oficial do ato (MDHC, Agência Gov, MPF) ou duas editorias; às 18h30 de 16/11 só havia o aviso de pauta, provável ausência de cobertura oficial",
+      "motivo": "numeros-divergentes",
+      "falta": "nota do MDHC ou MPF com o total entregue (aviso previa 26 certidões; Agência Brasil relata 14 famílias)",
       "fontesAbertas": [
         "https://agenciagov.ebc.com.br/noticias/202611/governo-do-brasil-realizara-9a-entrega-de-certidoes-de-obito-retificadas-de-vitimas-da-ditadura-em-porto-alegre-rs-na-segunda-feira-16",
-        "https://www.gov.br/mdh/pt-br/assuntos/noticias/2026/novembro/governo-do-brasil-realizara-9a-entrega-de-certidoes-de-obito-retificadas-de-vitimas-da-ditadura-em-porto-alegre-rs-na-segunda-feira-16"
+        "https://www.gov.br/mdh/pt-br/assuntos/noticias/2026/novembro/governo-do-brasil-realizara-9a-entrega-de-certidoes-de-obito-retificadas-de-vitimas-da-ditadura-em-porto-alegre-rs-na-segunda-feira-16",
+        "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-11/familias-de-14-vitimas-da-ditadura-tem-nova-certidao-de-obito-no-rs"
       ],
       "primeiraVezVisto": "2026-11-15T17:26:55-03:00",
-      "ultimaRevisao": "2026-11-16T18:26:48-03:00",
+      "ultimaRevisao": "2026-11-16T21:30:00-03:00",
       "status": "aberta"
     },
     {
@@ -969,6 +970,19 @@
       "falta": "segunda checagem aberta sobre os vídeos atuais",
       "primeiraVezVisto": "2026-11-16T19:45:16-03:00",
       "ultimaRevisao": "2026-11-16T19:45:16-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "tre-ce-maioria-ciro-violencia-politica-genero-vista",
+      "rotina": "noticias",
+      "tema": "TRE-CE forma maioria (4 votos) para manter condenação de Ciro Gomes por violência política de gênero contra Janaína Farias; vista adia resultado",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://diariodonordeste.verdesmares.com.br/pontopoder/tre-ce-forma-maioria-para-manter-condenacao-de-ciro-gomes-por-violencia-politica-de-genero-1.3806249"
+      ],
+      "falta": "fim do julgamento e segunda fonte de editoria",
+      "primeiraVezVisto": "2026-11-16T21:30:00-03:00",
+      "ultimaRevisao": "2026-11-16T21:30:00-03:00",
       "status": "aberta"
     }
   ]
