@@ -1,0 +1,28 @@
+{
+  "rotina": "livros",
+  "inicio": "2026-11-17T05:23:44-03:00",
+  "fim": "2026-11-17T05:45:42-03:00",
+  "branch": "claude/pd-livros-20261117-0523",
+  "publicou": [
+    "sabres-e-utopias-vargas-llosa-objetiva",
+    "os-romanov-montefiore-companhia-das-letras",
+    "forcas-armadas-e-politica-no-brasil-jose-murilo-de-carvalho-todavia"
+  ],
+  "descartou": [
+    { "tema": "Carlos Lacerda, a Vida de um Lutador, de John W. F. Dulles (Nova Fronteira)", "motivo": "fonte-bloqueada", "pauta": "livro-carlos-lacerda-dulles" },
+    { "tema": "O Presidente, o Papa e a Primeira-Ministra, de John O'Sullivan (LVM)", "motivo": "fonte-bloqueada", "pauta": "livro-o-presidente-o-papa-e-a-primeira-ministra-osullivan" },
+    { "tema": "Por que o Brasil é um país atrasado?, de Luiz Philippe de Orleans e Bragança (Maquinaria)", "motivo": "fonte-unica", "pauta": "livro-por-que-o-brasil-e-um-pais-atrasado-orleans-braganca" },
+    { "tema": "O relativo atraso brasileiro e sua difícil superação, de Antonio Paim (Senac, 2000)", "motivo": "sem-fonte-primaria" },
+    { "tema": "O Crepúsculo da Democracia, de Anne Applebaum (Record, 2021)", "motivo": "fonte-bloqueada" }
+  ],
+  "bloqueios": [
+    { "host": "www.amazon.com.br", "erro": "http-5xx", "detalhe": "503 nas páginas dos produtos; fotos vieram da Open Library" },
+    { "host": "www.googleapis.com", "erro": "http-429" },
+    { "host": "todavialivros.com.br", "erro": "http-403" },
+    { "host": "www.jornalopcao.com.br", "erro": "http-403" },
+    { "host": "www.nobelprize.org", "erro": "http-403" },
+    { "host": "revistas.intercom.org.br", "erro": "http-5xx" },
+    { "host": "ebrevistas.eb.mil.br", "erro": "http-5xx" }
+  ],
+  "pr": null
+}
