@@ -30,6 +30,7 @@ export const temas: Tema[] = [
       "ajuste-fiscal-lei-kandir-destaques-terca-senado",
       "pt-projetos-grandes-fortunas-dividendos-lci-lca",
       "alckmin-ajuste-fiscal-votacao-camara-semana",
+      "senado-conclui-plp-299-rejeita-emenda-40-47-a-30",
     ],
   },
   {

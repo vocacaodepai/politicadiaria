@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-18T17:25:23-03:00",
+  "atualizadoEm": "2026-11-18T19:03:18-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1110,9 +1110,9 @@
         "https://www.camara.leg.br/noticias/1320366-relator-defende-aprovacao-do-ajuste-fiscal-sem-mudancas-para-evitar-retorno-ao-senado"
       ],
       "primeiraVezVisto": "2026-11-17T18:26:57-03:00",
-      "ultimaRevisao": "2026-11-18T17:25:23-03:00",
-      "status": "aberta",
-      "falta": "placar dos destaques registrado pelo Senado em 18/11"
+      "ultimaRevisao": "2026-11-18T19:03:18-03:00",
+      "status": "publicada",
+      "slug": "senado-conclui-plp-299-rejeita-emenda-40-47-a-30"
     },
     {
       "id": "post-falso-rubio-lula-conspirou-ira",
@@ -1187,6 +1187,20 @@
       "primeiraVezVisto": "2026-11-18T12:28:54-03:00",
       "ultimaRevisao": "2026-11-18T12:28:54-03:00",
       "status": "aberta"
+    },
+    {
+      "id": "stf-modulacao-imunidade-crimes-patrimoniais-familia-18-novembro",
+      "rotina": "noticias",
+      "tema": "STF define efeitos do fim da isenção de pena em crimes patrimoniais entre familiares (ADPFs 1185 e 1241) sobre ações em curso",
+      "motivo": "numeros-divergentes",
+      "fontesAbertas": [
+        "https://www.cnnbrasil.com.br/politica/stf-decide-que-nova-regra-sobre-crimes-patrimoniais-atinge-acoes-em-curso/",
+        "https://sbtnews.sbt.com.br/noticia/politica/stf-decide-efeitos-do-fim-de-imunidade-penal-na-familia"
+      ],
+      "primeiraVezVisto": "2026-11-18T19:03:18-03:00",
+      "ultimaRevisao": "2026-11-18T19:03:18-03:00",
+      "status": "aberta",
+      "falta": "tese oficial do STF; CNN e SBT divergem sobre casos com trânsito em julgado e placar da modulação"
     }
   ]
 }
