@@ -1,0 +1,40 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-18T06:22:06-03:00",
+  "fim": "2026-11-18T06:27:21-03:00",
+  "branch": "claude/pd-noticias-20261118-0622",
+  "publicou": [
+    "pgr-apoia-prorrogar-inquerito-dark-horse-90-dias"
+  ],
+  "descartou": [
+    {
+      "tema": "Fachin diz que STF pode julgar a Lei da Dosimetria neste ano se Moraes liberar as ações",
+      "motivo": "ja-publicado"
+    },
+    {
+      "tema": "Defesa de Vorcaro pede que pedido de soltura vá a Gilmar Mendes",
+      "motivo": "sem-angulo"
+    },
+    {
+      "tema": "Luiz Philippe de Orleans e Bragança pretende disputar a presidência da Câmara em 2027",
+      "motivo": "aguardando-fato"
+    },
+    {
+      "tema": "Moraes arquiva inquérito contra Daniel Silveira por desobediência",
+      "motivo": "fonte-unica",
+      "pauta": "moraes-arquiva-inq-4898-daniel-silveira-desobediencia"
+    },
+    {
+      "tema": "PF indicia 17 no caso dos respiradores do Consórcio Nordeste",
+      "motivo": "fonte-unica",
+      "pauta": "pf-indicia-17-respiradores-consorcio-nordeste-rui-costa"
+    },
+    {
+      "tema": "Votação dos destaques do PLP 299 no Senado",
+      "motivo": "aguardando-fato",
+      "pauta": "plp-299-destaques-senado-18-novembro"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
