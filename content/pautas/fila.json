@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-18T09:26:36-03:00",
+  "atualizadoEm": "2026-11-18T10:29:14-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1108,7 +1108,7 @@
         "https://www.camara.leg.br/noticias/1320366-relator-defende-aprovacao-do-ajuste-fiscal-sem-mudancas-para-evitar-retorno-ao-senado"
       ],
       "primeiraVezVisto": "2026-11-17T18:26:57-03:00",
-      "ultimaRevisao": "2026-11-18T09:26:36-03:00",
+      "ultimaRevisao": "2026-11-18T10:29:14-03:00",
       "status": "aberta",
       "falta": "placar dos destaques registrado pelo Senado em 18/11"
     },
@@ -1168,9 +1168,9 @@
       "fontesAbertas": [
         "https://www.gazetadopovo.com.br/republica/moraes-arquiva-inquerito-contra-daniel-silveira-por-suposta-violacao-de-cautelares/"
       ],
-      "falta": "segunda fonte de editoria ou decisão no portal do STF (Itatiaia só republica a CNN Brasil, sem autoria)",
+      "falta": "segunda fonte de editoria além da Gazeta do Povo (Atlas Público é redação; DJe do STF deu 403)",
       "primeiraVezVisto": "2026-11-18T06:27:21-03:00",
-      "ultimaRevisao": "2026-11-18T09:26:36-03:00",
+      "ultimaRevisao": "2026-11-18T10:29:14-03:00",
       "status": "aberta"
     }
   ]
