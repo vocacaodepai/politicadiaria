@@ -1,0 +1,18 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-18T17:21:14-03:00",
+  "fim": "2026-11-18T17:25:23-03:00",
+  "branch": "claude/pd-noticias-20261118-1721",
+  "publicou": [
+    "ctfc-senado-aprova-fiscalizacao-reguladores-caso-master"
+  ],
+  "descartou": [
+    {
+      "tema": "Destaques do PLP 299 no Senado",
+      "motivo": "aguardando-fato",
+      "pauta": "plp-299-destaques-senado-18-novembro"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
