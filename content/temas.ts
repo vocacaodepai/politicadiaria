@@ -76,6 +76,7 @@ export const temas: Tema[] = [
       "mp-bets-tranca-pauta-camara-comissao-mista-nao-instalada",
       "alcolumbre-prorroga-mp-bets-60-dias-mp-1394",
       "cinco-mps-perdem-eficacia-desenrola-3-prorrogada",
+      "operacao-cash-out-bets-11-bilhoes-receita-mpf",
     ],
   },
   {
