@@ -1,0 +1,17 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-16T22:21:58-03:00",
+  "fim": "2026-11-16T22:25:14-03:00",
+  "branch": "claude/pd-noticias-20261116-2221",
+  "publicou": [
+    "mirabela-ex-prefeito-processar-cleitinho-emenda-show"
+  ],
+  "descartou": [
+    {
+      "tema": "ONU pede proteção a civis em meio a combates no Iêmen",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

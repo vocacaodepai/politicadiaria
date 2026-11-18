@@ -1,0 +1,12 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-13T22:21:35-03:00",
+  "fim": "2026-11-13T22:25:07-03:00",
+  "branch": "claude/pd-noticias-20261113-2221",
+  "publicou": ["icei-cni-confianca-industria-40-2-novembro"],
+  "descartou": [
+    { "tema": "Receita detalha cancelamento de dívidas de MEIs da LC 238/2026", "motivo": "ja-publicado" }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

@@ -1,0 +1,10 @@
+{
+  "rotina": "congresso",
+  "inicio": "2026-11-16T04:19:23-03:00",
+  "fim": "2026-11-16T04:46:53-03:00",
+  "branch": "claude/pd-congresso-20261116-0419",
+  "publicou": ["data/congresso"],
+  "descartou": [],
+  "bloqueios": [{ "host": "dadosabertos.camara.leg.br", "erro": "http-5xx", "detalhe": "HTTP 504 na lista de deputados na 1a tentativa; 2a tentativa completa" }],
+  "pr": null
+}

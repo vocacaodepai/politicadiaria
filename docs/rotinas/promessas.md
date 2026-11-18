@@ -6,7 +6,8 @@ a rotina só confere `meta.json` e não muda nenhum status.
 
 ## Escopo de arquivos permitido
 
-Só `data/promessas/` (`meta.json`, `lula.json`, `flavio.json`). Nunca `lib/`, `app/`, `components/`,
+Só `data/promessas/` (`meta.json`, `lula.json`, `flavio.json`), mais a fila `content/pautas/fila.json`
+e o registro `content/rotinas/registro/`. Nunca `lib/`, `app/`, `components/`,
 `scripts/`, `docs/`, `CLAUDE.md` nem configuração. Rodar `npm run check:promessas` é permitido.
 
 ## Arquivos
@@ -74,6 +75,16 @@ político ou governo, sem causa e sem previsão.
 - Fato favorável e fato desfavorável entram com a mesma exigência de fonte. Sem fonte, não entra.
 - Nunca mencionar IA, Claude ou Anthropic no conteúdo.
 
+## Fila de pautas e registro
+
+- No início: leia `content/pautas/fila.json` e reavalie as pautas `aberta` com `"rotina": "promessas"`.
+- Ao fim, se a rodada publicou, teve bloqueio de fonte/ferramenta ou descarte novo relevante:
+  atualize a fila (abrir, publicar, descartar) e crie
+  `content/rotinas/registro/AAAA-MM-DD-HHMM-promessas.json` com o que a rodada publicou, descartou e teve
+  bloqueado (formato em `comum.md`, "Fila de pautas e registro da rodada"). Rodada sem nada
+  novo não grava registro nem abre PR.
+- Fato sem fonte oficial aberta vai para a fila com `motivo` `sem-fonte-primaria`.
+
 ## Validar
 
 1. `npm run check:promessas` com zero ERRO (também roda dentro de `npm run check:content`).
@@ -82,4 +93,4 @@ político ou governo, sem causa e sem previsão.
 ## O que reportar
 
 Ao final, uma linha por proposta alterada (id, status anterior, status novo, fonte) e a contagem por status. Se
-nenhuma proposta mudou, diga isso e não faça commit. Registre propostas que ficaram sem fonte oficial para o dono decidir.
+nenhuma proposta mudou, diga isso; só faça commit (do registro e da fila) se houve bloqueio de fonte ou descarte novo relevante, senão não faça commit. Registre propostas que ficaram sem fonte oficial para o dono decidir.

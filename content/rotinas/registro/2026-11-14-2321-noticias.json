@@ -1,0 +1,26 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-14T23:21:01-03:00",
+  "fim": "2026-11-14T23:27:41-03:00",
+  "branch": "claude/pd-noticias-20261114-2321",
+  "publicou": [
+    "saque-cargas-acidente-pena-pl-1995-viacao"
+  ],
+  "descartou": [
+    {
+      "tema": "Lula na plenária da 49ª Cúpula da Asean em Manila",
+      "motivo": "aguardando-fato",
+      "pauta": "lula-asean-49-cupula-plenaria-manila-15-novembro"
+    },
+    {
+      "tema": "Audiência da CAE com Durigan sobre a alíquota da CBS na terça-feira (17)",
+      "motivo": "ja-publicado"
+    },
+    {
+      "tema": "Comissão da Mulher aprova PL 269/26 que proíbe compra de arma por alvo de medida protetiva",
+      "motivo": "ja-publicado"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

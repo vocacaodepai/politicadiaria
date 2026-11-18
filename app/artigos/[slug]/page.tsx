@@ -15,6 +15,7 @@ import { AuthorAvatar } from "@/components/article/AuthorAvatar";
 import { AuthorBox } from "@/components/article/AuthorBox";
 import { Breadcrumbs } from "@/components/article/Breadcrumbs";
 import { JsonLd } from "@/components/article/JsonLd";
+import { bookReviewJsonLd } from "@/lib/structured-data";
 import { KeyTakeaways } from "@/components/article/KeyTakeaways";
 import { NextArticle } from "@/components/article/NextArticle";
 import { ReviewFinal } from "@/components/article/ReviewFinal";
@@ -129,46 +130,7 @@ export default async function ArticlePage({ params }: { params: Params }) {
 
   const review = article.review;
   const offer = review ? parseOffer(review.price) : null;
-  const reviewLd =
-    isReview && review
-      ? {
-          "@context": "https://schema.org",
-          "@type": "Review",
-          name: article.title,
-          url,
-          author: authorLd,
-          publisher: { "@id": `${site.url}/#organization` },
-          datePublished: article.date,
-          dateModified: article.updated ?? article.date,
-          inLanguage: "pt-BR",
-          itemReviewed: {
-            "@type": "Book",
-            name: review.tool,
-            author: { "@type": "Person", name: review.bookAuthor },
-            ...(review.publisher ? { publisher: { "@type": "Organization", name: review.publisher } } : {}),
-            ...(review.year ? { datePublished: String(review.year) } : {}),
-            ...(review.pages ? { numberOfPages: review.pages } : {}),
-            ...(review.productImage ? { image: review.productImage.url } : {}),
-            url: review.url,
-            ...(offer ? { offers: offer } : {}),
-          },
-          reviewRating: {
-            "@type": "Rating",
-            ratingValue: review.score,
-            bestRating: 10,
-            worstRating: 0,
-          },
-          reviewBody: article.excerpt,
-          positiveNotes: {
-            "@type": "ItemList",
-            itemListElement: review.pros.map((p, i) => ({ "@type": "ListItem", position: i + 1, name: p })),
-          },
-          negativeNotes: {
-            "@type": "ItemList",
-            itemListElement: review.cons.map((c, i) => ({ "@type": "ListItem", position: i + 1, name: c })),
-          },
-        }
-      : null;
+  const reviewLd = isReview && review ? bookReviewJsonLd(article, review, { url, offer }) : null;
 
   const faqLd = faqJsonLd(article.faq);
 

@@ -35,7 +35,7 @@ export const categories = [
     slug: "ideias-politicas",
     label: "Ideias Políticas",
     description:
-      "Liberalismo, conservadorismo, socialismo e outras tradições, dos clássicos aos autores contemporâneos, com resenha clara de cada obra.",
+      "Liberalismo, conservadorismo, libertarianismo, tradição ocidental e os clássicos do pensamento político, com resenha clara de cada obra.",
   },
   {
     slug: "economia-e-estado",
@@ -367,4 +367,21 @@ export type HistoryArticle = {
   relatedBooks?: string[];
   content: string;
   faq: FaqItem[];
+};
+
+/* ---------- Temas ("Siga este tema", /temas) ---------- */
+
+/**
+ * Um caso acompanhado ao longo de vários dias. O mapeamento fica em
+ * content/temas.ts, separado das notícias: a notícia publicada não ganha campo novo.
+ */
+export type Tema = {
+  /** Slug da página /temas/<slug>. */
+  slug: string;
+  /** Nome curto do tema (ex.: "MP das bets"). */
+  titulo: string;
+  /** Parágrafo de apresentação: só fato (o que é, número do projeto, onde está), sem opinião nem adjetivo. */
+  descricao: string;
+  /** Slugs de notícias existentes em content/news/. A página ordena por data; a ordem aqui não importa. */
+  noticias: string[];
 };

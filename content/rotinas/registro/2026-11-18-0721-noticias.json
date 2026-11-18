@@ -1,0 +1,36 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-18T07:21:33-03:00",
+  "fim": "2026-11-18T07:27:13-03:00",
+  "branch": "claude/pd-noticias-20261118-0721",
+  "publicou": [
+    "motta-adia-votacao-big-techs-sem-consenso"
+  ],
+  "descartou": [
+    {
+      "tema": "Destaques do PLP 299 no Senado",
+      "motivo": "aguardando-fato",
+      "pauta": "plp-299-destaques-senado-18-novembro"
+    },
+    {
+      "tema": "Moraes arquiva inquérito de Daniel Silveira",
+      "motivo": "fonte-unica",
+      "pauta": "moraes-arquiva-inq-4898-daniel-silveira-desobediencia"
+    },
+    {
+      "tema": "PF indicia 17 nos respiradores do Consórcio Nordeste",
+      "motivo": "fonte-unica",
+      "pauta": "pf-indicia-17-respiradores-consorcio-nordeste-rui-costa"
+    },
+    {
+      "tema": "Relator da PEC 32/2015 admite atenuantes de pena para jovens de 16 e 17 anos",
+      "motivo": "ja-publicado"
+    },
+    {
+      "tema": "Senado aprova PL 6.683/2025 sobre implantes cirúrgicos (votação de 12/11)",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

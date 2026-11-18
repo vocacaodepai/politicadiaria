@@ -1,0 +1,28 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-13T13:47:00-03:00",
+  "fim": "2026-11-13T13:50:51-03:00",
+  "branch": "claude/pd-checagem-20261113-1347",
+  "publicou": [],
+  "descartou": [
+    {
+      "tema": "Vídeo de fila de carros na Ponte da Amizade apresentado como fuga de brasileiros do Paraguai",
+      "motivo": "fonte-unica",
+      "pauta": "video-congestionamento-ponte-amizade-fuga-paraguai"
+    },
+    {
+      "tema": "Foto de multidão no Obelisco apresentada como protesto de 1 milhão de argentinos contra Milei",
+      "motivo": "fonte-unica",
+      "pauta": "foto-protesto-1-milhao-contra-milei-copa-2022"
+    }
+  ],
+  "bloqueios": [
+    { "host": "checamos.afp.com", "erro": "outro", "detalhe": "página não abriu na ferramenta de leitura" },
+    { "host": "www.afpforum.com", "erro": "outro", "detalhe": "página não abriu na ferramenta de leitura" },
+    { "host": "www.fastcheck.cl", "erro": "outro", "detalhe": "texto carregado por script, não legível" },
+    { "host": "www.justicaeleitoral.jus.br", "erro": "http-403" },
+    { "host": "www.estadao.com.br", "erro": "outro", "detalhe": "página não abriu na ferramenta de leitura" },
+    { "host": "noticias.uol.com.br", "erro": "outro", "detalhe": "página não abriu na ferramenta de leitura" }
+  ],
+  "pr": null
+}

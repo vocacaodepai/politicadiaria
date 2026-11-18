@@ -1,0 +1,16 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-14T04:21:54-03:00",
+  "fim": "2026-11-14T04:26:30-03:00",
+  "branch": "claude/pd-noticias-20261114-0421",
+  "publicou": ["lula-marcos-manila-atos-assinados-ingerencia"],
+  "descartou": [],
+  "bloqueios": [
+    {
+      "host": "www.estadao.com.br",
+      "erro": "outro",
+      "detalhe": "domínio recusado pela ferramenta de busca"
+    }
+  ],
+  "pr": null
+}

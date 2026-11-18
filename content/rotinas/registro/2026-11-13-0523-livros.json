@@ -1,0 +1,46 @@
+{
+  "rotina": "livros",
+  "inicio": "2026-11-13T05:23:59-03:00",
+  "fim": "2026-11-13T05:41:06-03:00",
+  "branch": "claude/pd-livros-20261113-0524",
+  "publicou": [
+    "o-poder-da-geografia-marshall-zahar",
+    "tolos-fraudes-militantes-scruton-record",
+    "constituicao-contra-o-brasil-roberto-campos-lvm"
+  ],
+  "descartou": [
+    {
+      "tema": "O Antigo Regime e a Revolução, de Tocqueville (Edipro)",
+      "motivo": "numeros-divergentes",
+      "pauta": "livro-antigo-regime-revolucao-tocqueville"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.googleapis.com",
+      "erro": "http-429"
+    },
+    {
+      "host": "www.theguardian.com",
+      "erro": "captcha",
+      "detalhe": "desafio de JavaScript; resenha não usada"
+    },
+    {
+      "host": "www.nyjournalofbooks.com",
+      "erro": "http-403"
+    },
+    {
+      "host": "www.churchtimes.co.uk",
+      "erro": "http-403"
+    },
+    {
+      "host": "spaj.ukm.my",
+      "erro": "http-5xx"
+    },
+    {
+      "host": "www.planalto.gov.br",
+      "erro": "http-429"
+    }
+  ],
+  "pr": null
+}

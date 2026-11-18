@@ -1,0 +1,32 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-15T17:21:33-03:00",
+  "fim": "2026-11-15T17:28:50-03:00",
+  "branch": "claude/pd-noticias-20261115-1721",
+  "publicou": [
+    "pl-big-techs-cartas-economistas-estudo-alai-votacao"
+  ],
+  "descartou": [
+    {
+      "tema": "Balanço do MEC e do Inep do segundo dia do Enem 2026, com tentativas de ataque ao site",
+      "motivo": "aguardando-fato",
+      "pauta": "enem-2026-tentativas-ataque-hacker-site-inep"
+    },
+    {
+      "tema": "Eleição presidencial em Cabo Verde: sem resultado provisório da CNE",
+      "motivo": "aguardando-fato",
+      "pauta": "cabo-verde-presidenciais-2026-resultado"
+    },
+    {
+      "tema": "9ª entrega de certidões de óbito retificadas de vítimas da ditadura em Porto Alegre (16/11)",
+      "motivo": "aguardando-fato",
+      "pauta": "mdhc-9-entrega-certidoes-obito-ditadura-porto-alegre"
+    },
+    {
+      "tema": "Fux leva ao plenário físico o julgamento da decisão de Dino sobre a escala 6x1",
+      "motivo": "ja-publicado"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

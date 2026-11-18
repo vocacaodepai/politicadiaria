@@ -1,0 +1,27 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-17T08:22:07-03:00",
+  "fim": "2026-11-17T08:32:16-03:00",
+  "branch": "claude/pd-noticias-20261117-0822",
+  "publicou": [
+    "china-confirma-cupula-xi-trump-putin-shenzhen"
+  ],
+  "descartou": [
+    {
+      "tema": "Ataques a petroleiros no Estreito de Ormuz em 15 e 16/11",
+      "motivo": "numeros-divergentes",
+      "pauta": "ormuz-ataques-petroleiros-15-16-novembro"
+    },
+    {
+      "tema": "Audiência de Durigan na CAE sobre a alíquota de 11,3% da CBS",
+      "motivo": "aguardando-fato"
+    },
+    {
+      "tema": "PGR contra soltura do ex-presidente do BRB",
+      "motivo": "fonte-unica",
+      "pauta": "pgr-contra-soltura-paulo-henrique-costa-brb"
+    }
+  ],
+  "bloqueios": [],
+  "pr": 594
+}

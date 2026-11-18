@@ -1,0 +1,28 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-16T21:21:14-03:00",
+  "fim": "2026-11-16T21:30:00-03:00",
+  "branch": "claude/pd-noticias-20261116-2121",
+  "publicou": [
+    "tre-ce-recebe-aije-ciro-elmano-defesa-cinco-dias"
+  ],
+  "descartou": [
+    {
+      "tema": "Entrega de certidões de óbito retificadas de vítimas da ditadura em Porto Alegre",
+      "motivo": "numeros-divergentes",
+      "pauta": "mdhc-9-entrega-certidoes-obito-ditadura-porto-alegre"
+    },
+    {
+      "tema": "TRE-CE forma maioria para manter condenação de Ciro Gomes por violência política de gênero",
+      "motivo": "fonte-unica",
+      "pauta": "tre-ce-maioria-ciro-violencia-politica-genero-vista"
+    },
+    {
+      "tema": "Federação PSB-PDT formalizada, segundo texto da CNN Brasil sem dados da aprovação",
+      "motivo": "aguardando-fato",
+      "pauta": "pdt-diretorio-federacao-psb-14-novembro"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

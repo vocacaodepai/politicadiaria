@@ -11,7 +11,16 @@ export type NavItem = { href: string; label: string; highlight?: boolean; childr
 
 /** Menu principal. Itens com `children` viram menu suspenso (e seção no menu do celular). */
 export const PRIMARY_NAV: NavItem[] = [
-  { href: "/noticias", label: "Notícias" },
+  {
+    href: "/noticias",
+    label: "Notícias",
+    children: [
+      { href: "/noticias", label: "Todas as notícias", description: "Política do Brasil e do mundo, sempre com fonte" },
+      { href: "/hoje", label: "O que aconteceu hoje", description: "Linha do tempo das publicações do dia, com hora" },
+      { href: "/temas", label: "Siga este tema", description: "Os casos acompanhados, em ordem cronológica" },
+      { href: "/resumo", label: "Resumo do dia", description: "As notícias de cada dia agrupadas por tópico" },
+    ],
+  },
   {
     href: "/eleicoes",
     label: "Eleições 2026",
@@ -40,6 +49,7 @@ export const PRIMARY_NAV: NavItem[] = [
     children: [
       { href: "/artigos", label: "Todas as resenhas", description: "Livros de política com nota de 0 a 10" },
       { href: "/reviews", label: "Mais bem avaliados", description: "Ranking pela nota final" },
+      { href: "/livros", label: "Vitrine por tema", description: "Os livros resenhados, separados por tema e ordenados pela nota" },
     ],
   },
   { href: "/sobre", label: "Sobre" },

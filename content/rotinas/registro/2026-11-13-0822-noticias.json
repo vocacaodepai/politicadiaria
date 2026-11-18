@@ -1,0 +1,14 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-13T08:22:02-03:00",
+  "fim": "2026-11-13T08:31:20-03:00",
+  "branch": "claude/pd-noticias-20261113-0822",
+  "publicou": ["pf-operacao-desague-motobombas-enchente-canoas-cachoeirinha"],
+  "descartou": [
+    { "tema": "STF julga em sessão virtual o referendo da liminar de Dino sobre a jornada 5x2", "motivo": "aguardando-fato", "pauta": "stf-referendo-liminar-dino-jornada-5x2-sessao-virtual" },
+    { "tema": "2ª fase da Operação Make Up sobre emendas parlamentares", "motivo": "aguardando-fato", "pauta": "pf-operacao-make-up-segunda-fase" },
+    { "tema": "Entrevista do presidente do STJ sobre reforma do Judiciário", "motivo": "sem-angulo" }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

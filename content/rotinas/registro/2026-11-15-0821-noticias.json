@@ -1,0 +1,33 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-15T08:21:18-03:00",
+  "fim": "2026-11-15T08:26:51-03:00",
+  "branch": "claude/pd-noticias-20261115-0821",
+  "publicou": [
+    "mma-consulta-publica-plano-calor-extremo-pnar"
+  ],
+  "descartou": [
+    {
+      "tema": "Lula na plenária da 49ª Cúpula da Asean em Manila",
+      "motivo": "fonte-unica",
+      "pauta": "lula-asean-49-cupula-plenaria-manila-15-novembro"
+    },
+    {
+      "tema": "Resultado da reunião do PDT sobre a federação com o PSB",
+      "motivo": "aguardando-fato",
+      "pauta": "pdt-diretorio-federacao-psb-14-novembro"
+    },
+    {
+      "tema": "Ministro do Planejamento diz em vídeo que ajuste fiscal preserva políticas sociais",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "brasilparticipativo.presidencia.gov.br",
+      "erro": "http-5xx",
+      "detalhe": "503 na página da consulta do PNAR"
+    }
+  ],
+  "pr": null
+}

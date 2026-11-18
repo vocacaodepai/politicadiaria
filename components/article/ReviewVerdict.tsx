@@ -131,15 +131,26 @@ export function ReviewVerdict({ review }: { review: ReviewData }) {
 }
 
 /** Aviso curto de transparência exibido em todo review. */
-export function ReviewDisclosure({ affiliate = false }: { affiliate?: boolean }) {
+export function ReviewDisclosure({
+  affiliate = false,
+  plural = false,
+  className = "mt-6",
+}: {
+  affiliate?: boolean;
+  /** Texto no plural, para páginas que reúnem várias resenhas (ex.: /livros). */
+  plural?: boolean;
+  className?: string;
+}) {
   return (
     <aside
       aria-label="Transparência"
-      className="mt-6 rounded-xl border border-border border-l-4 border-l-warn bg-surface p-4 text-sm leading-relaxed text-muted sm:p-5"
+      className={`${className} rounded-xl border border-border border-l-4 border-l-warn bg-surface p-4 text-sm leading-relaxed text-muted sm:p-5`}
     >
       <span className="label-mono block text-warn">Transparência</span>
       <p className="mt-1.5">
-        Esta resenha é independente: nenhuma editora, autor ou partido leu, revisou ou aprovou o texto antes da publicação.{" "}
+        {plural
+          ? "As resenhas são independentes: nenhuma editora, autor ou partido leu, revisou ou aprovou os textos antes da publicação. "
+          : "Esta resenha é independente: nenhuma editora, autor ou partido leu, revisou ou aprovou o texto antes da publicação. "}
         {affiliate
           ? "Alguns links desta página são de afiliado. Se você comprar por eles, a Política Diária pode receber uma comissão, sem custo extra para você, e isso não muda a nota nem a opinião. "
           : "Não há links de afiliado nesta página. "}

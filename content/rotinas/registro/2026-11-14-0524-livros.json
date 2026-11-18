@@ -1,0 +1,30 @@
+{
+  "rotina": "livros",
+  "inicio": "2026-11-14T05:24:39-03:00",
+  "fim": "2026-11-14T05:38:08-03:00",
+  "branch": "claude/pd-livros-20261114-0524",
+  "publicou": [
+    "antigo-regime-e-a-revolucao-tocqueville-edipro",
+    "segunda-guerra-mundial-martin-gilbert-objetiva",
+    "discriminacao-e-disparidades-sowell-record"
+  ],
+  "descartou": [
+    {
+      "tema": "Ação Afirmativa ao Redor do Mundo, de Thomas Sowell (É Realizações)",
+      "motivo": "fonte-bloqueada",
+      "pauta": "livro-acao-afirmativa-sowell"
+    },
+    {
+      "tema": "Economia Básica, de Thomas Sowell (Alta Books, dois volumes)",
+      "motivo": "numeros-divergentes"
+    }
+  ],
+  "bloqueios": [
+    { "host": "www.googleapis.com", "erro": "http-429" },
+    { "host": "www.erealizacoes.com.br", "erro": "outro", "detalhe": "conexão sem resposta" },
+    { "host": "www.theguardian.com", "erro": "outro", "detalhe": "leitura recusada pela ferramenta" },
+    { "host": "www.inkl.com", "erro": "http-403" },
+    { "host": "archive.spectator.co.uk", "erro": "outro", "detalhe": "página sem texto" }
+  ],
+  "pr": null
+}

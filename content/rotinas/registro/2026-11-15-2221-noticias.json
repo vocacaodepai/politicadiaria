@@ -1,0 +1,41 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-15T22:21:35-03:00",
+  "fim": "2026-11-15T22:30:55-03:00",
+  "branch": "claude/pd-noticias-20261115-2221",
+  "publicou": [
+    "estatuto-aprendiz-senado-pauta-18-novembro"
+  ],
+  "descartou": [
+    {
+      "tema": "Defesa da chapa Lula-Alckmin à Asepa no TSE: sem segunda fonte com os valores",
+      "motivo": "fonte-unica",
+      "pauta": "chapa-lula-alckmin-resposta-asepa-contas-48-milhoes"
+    },
+    {
+      "tema": "PGR na ADI 6601 sobre a PVTAC do MPU: sem segunda fonte",
+      "motivo": "fonte-unica",
+      "pauta": "pgr-apoia-agu-adi-6601-324-milhoes-pvtac-mpu"
+    },
+    {
+      "tema": "Rede contra a lei mineira de teto de cachês: sem número da ADI nem segundo veículo",
+      "motivo": "fonte-unica",
+      "pauta": "rede-adi-stf-lei-mg-26040-teto-caches-shows"
+    },
+    {
+      "tema": "Federação PDT e PSB: sem resultado novo da reunião do diretório do PDT",
+      "motivo": "aguardando-fato",
+      "pauta": "pdt-diretorio-federacao-psb-14-novembro"
+    },
+    {
+      "tema": "Michelle Bolsonaro responde em rede social a críticas sobre viagem a Israel",
+      "motivo": "sem-angulo"
+    },
+    {
+      "tema": "Lula diz em Manila que a eleição impediu a volta do retrocesso",
+      "motivo": "ja-publicado"
+    }
+  ],
+  "bloqueios": [],
+  "pr": 566
+}

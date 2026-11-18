@@ -1,0 +1,30 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-12T16:21:59-03:00",
+  "fim": "2026-11-12T16:28:24-03:00",
+  "branch": "claude/pd-noticias-20261112-1621",
+  "publicou": [
+    "pf-operacao-falso-merito-fraude-concurso-2025"
+  ],
+  "descartou": [
+    {
+      "tema": "STF julga isenção de pena em crimes patrimoniais contra mulheres (ADPFs 1185 e 1241)",
+      "motivo": "aguardando-fato",
+      "pauta": "stf-adpf-1185-1241-isencao-pena-crimes-patrimoniais-mulheres"
+    },
+    {
+      "tema": "PLP 299 no Senado: votação ainda sem resultado",
+      "motivo": "aguardando-fato"
+    },
+    {
+      "tema": "Alcolumbre envia à CCJ recurso de Van Hattem sobre leitura da CPMI do Banco Master",
+      "motivo": "sem-angulo"
+    },
+    {
+      "tema": "CCJ do Senado aprova PL 4.186/2021, prazo de 20 anos para reparação civil de crime sexual contra menores",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

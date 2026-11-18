@@ -1,0 +1,35 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-13T12:40:54-03:00",
+  "fim": "2026-11-13T12:46:37-03:00",
+  "branch": "claude/pd-noticias-20261113-1244",
+  "publicou": [
+    "flavio-reuters-pronto-voltar-nova-eleicao"
+  ],
+  "descartou": [
+    {
+      "tema": "STF julga em sessão virtual o referendo da liminar de Dino sobre a jornada 5x2",
+      "motivo": "aguardando-fato",
+      "pauta": "stf-referendo-liminar-dino-jornada-5x2-sessao-virtual"
+    },
+    {
+      "tema": "AGU cria exame prévio eliminatório para quatro carreiras jurídicas (Portaria Normativa 243)",
+      "motivo": "sem-angulo"
+    },
+    {
+      "tema": "Senado: lei que amplia penas por abandono e maus-tratos de idosos (matéria explicativa de lei de 2025)",
+      "motivo": "ja-publicado"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.cnnbrasil.com.br",
+      "erro": "http-403"
+    },
+    {
+      "host": "diariodopoder.com.br",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}

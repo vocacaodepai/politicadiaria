@@ -1,0 +1,27 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-17T18:22:00-03:00",
+  "fim": "2026-11-17T18:26:57-03:00",
+  "branch": "claude/pd-noticias-20261117-1824",
+  "publicou": [
+    "camara-aprova-mps-credito-el-nino-defesa-civil"
+  ],
+  "descartou": [
+    {
+      "tema": "Destaques do PLP 299/2026 no Senado, adiados para 18/11",
+      "motivo": "aguardando-fato",
+      "pauta": "plp-299-destaques-senado-18-novembro"
+    },
+    {
+      "tema": "Votação do ajuste fiscal na Câmara (relator Mauro Benevides Filho)",
+      "motivo": "aguardando-fato"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.canalrural.com.br",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}

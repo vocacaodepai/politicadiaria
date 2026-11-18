@@ -1,0 +1,21 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-17T16:22:00-03:00",
+  "fim": "2026-11-17T16:30:56-03:00",
+  "branch": "claude/pd-noticias-20261117-1622",
+  "publicou": [
+    "procurador-geral-paraguai-rolon-sai-cantero-interina"
+  ],
+  "descartou": [
+    {
+      "tema": "Destaques do PLP 299/2026 no Senado e votação na Câmara",
+      "motivo": "aguardando-fato",
+      "pauta": "plp-299-destaques-senado-17-novembro"
+    }
+  ],
+  "bloqueios": [
+    { "host": "www.presidencia.gov.py", "erro": "http-5xx", "detalhe": "503" },
+    { "host": "www.ministeriopublico.gov.py", "erro": "http-5xx", "detalhe": "503" }
+  ],
+  "pr": null
+}

@@ -1,0 +1,30 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-17T22:22:01-03:00",
+  "fim": "2026-11-17T22:27:35-03:00",
+  "branch": "claude/pd-noticias-20261117-2221",
+  "publicou": [
+    "lula-sanchez-video-escudo-americas-trump-ira"
+  ],
+  "descartou": [
+    {
+      "tema": "PF indicia 17 por compra de respiradores do Consórcio Nordeste e exclui Rui Costa",
+      "motivo": "fonte-unica",
+      "pauta": "pf-indicia-17-respiradores-consorcio-nordeste-rui-costa"
+    },
+    {
+      "tema": "Senado aprova marco legal dos implantes cirúrgicos (PL 6.683/2025)",
+      "motivo": "sem-angulo"
+    },
+    {
+      "tema": "Novo lançará Paulo Martins à presidência da Câmara",
+      "motivo": "aguardando-fato"
+    },
+    {
+      "tema": "Comissão mista da MP do Desenrola 3.0 instalada; relatório só em dezembro",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

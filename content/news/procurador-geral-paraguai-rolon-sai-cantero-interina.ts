@@ -1,0 +1,58 @@
+import type { NewsItem } from "@/lib/types";
+
+export const item: NewsItem = {
+  slug: "procurador-geral-paraguai-rolon-sai-cantero-interina",
+  title: "Procurador-geral do Paraguai renuncia diante de juízo político",
+  summary:
+    "Emiliano Rolón deixa o Ministério Público após deputados abrirem pedido de juízo político pela condução do caso Ueno. Alba Cantero assume interinamente.",
+  author: "Equipe Política Diária",
+  sourceName: "ABC Color (Paraguai)",
+  sourceUrl:
+    "https://www.abc.com.py/politica/2026/11/17/en-vivo-diputados-trata-el-pedido-de-juicio-politico-a-emiliano-rolon-fiscal-general-del-estado/",
+  date: "2026-11-17",
+  publishedAt: "2026-11-17T16:29:42-03:00",
+  topic: "americas",
+  imageQuery: "Asunción Paraguay Palacio de López",
+  content: `
+    <p>O procurador-geral do Paraguai (fiscal general del Estado), Emiliano Rolón, renunciou nesta terça-feira (17), horas depois de deputados protocolarem na Câmara um pedido de juízo político contra ele pela condução das investigações sobre o banco digital Ueno. Segundo a cobertura minuto a minuto do jornal <a href="https://www.abc.com.py/politica/2026/11/17/en-vivo-diputados-trata-el-pedido-de-juicio-politico-a-emiliano-rolon-fiscal-general-del-estado/" target="_blank" rel="noopener noreferrer nofollow">ABC Color</a>, assinada pela jornalista Carolina Sales, a Presidência confirmou por volta das 12h30 (horário local) ter recebido a carta de renúncia, e a procuradora adjunta Alba Rocío Cantero assumiu o comando do Ministério Público de forma interina.</p>
+    <p>De acordo com a agência <a href="https://es-us.noticias.yahoo.com/fiscal-paraguay-renuncia-inminente-juicio-190619914.html" target="_blank" rel="noopener noreferrer nofollow">AFP</a>, Rolón, de 71 anos e no cargo desde 2023, escreveu ao presidente Pedro Alliana que a decisão se dá "en el marco del juicio político procedimentalmente instalado en la Cámara de Diputados". A Presidência confirmou o recebimento da nota sem dar outros detalhes, segundo a agência. Com a saída, o processo de remoção na Câmara perde o objeto, informa o ABC Color.</p>
+
+    <h2>Como foi a manhã em Assunção</h2>
+    <p>A sequência de fatos foi rápida. Às 9h, a deputada Rocío Vallejo, do partido Patria Querida, disse que o pedido seria apresentado naquela manhã e que já contava com 20 assinaturas, segundo o ABC Color. Uma hora depois, o presidente da Câmara, Raúl Latorre, afirmou que os blocos governistas apoiariam o juízo político. Às 10h40, a deputada Johanna Ortega informou que o libelo acusatório havia sido protocolado.</p>
+    <p>Por volta das 11h20, Vallejo disse esperar "respaldo unánime" e previu que o caso "no pasará de esta semana", de acordo com o jornal. Pouco depois começaram a circular as informações sobre a renúncia, confirmada pela Presidência no começo da tarde. O jornal <a href="https://www.ultimahora.com/emiliano-rolon-renuncia-a-la-fiscalia-general-para-evitar-un-juicio-politico-tras-escandalo-de-ueno" target="_blank" rel="noopener noreferrer nofollow">Última Hora</a> registra que a carta foi enviada ao Poder Executivo, que indicou Rolón ao cargo, como Nota F.G.E. nº 471, e que a bancada Honor Colorado, do partido do governo, havia anunciado pouco antes que acompanharia o pedido.</p>
+    <p>O ABC Color acrescenta que a bancada Colorado Añeteté, ligada ao ex-presidente Mario Abdo Benítez, que nomeou Rolón, também apoiava o juízo político. Antes da renúncia, o Colégio de Advogados do Paraguai havia pedido que ele deixasse o posto. O presidente da entidade, Arturo Daniel, disse que "dar un paso al costado constituiría un acto de grandeza y de patriotismo", segundo o <a href="https://www.abc.com.py/nacionales/2026/11/17/acorralado-por-el-juicio-politico-y-el-caso-ueno-renuncia-el-fiscal-general-emiliano-rolon/" target="_blank" rel="noopener noreferrer nofollow">ABC Color</a>.</p>
+
+    <h2>O que diz a acusação e o que diz o Ministério Público</h2>
+    <p>O libelo dos deputados apontava mau desempenho de funções, delitos no exercício do cargo e crimes comuns, segundo o Última Hora. O jornal lista quatro pontos: falhas na condução da investigação do caso Ueno, como a não apreensão do celular do ex-presidente Santiago Peña, que Rolón atribuiu à sobrecarga dos promotores; a demora de sete meses para dar andamento a uma denúncia de enriquecimento ilícito e lavagem de dinheiro apresentada por parlamentares da oposição contra Peña; a falta de ação no caso de envelopes com dinheiro denunciado por uma ex-funcionária da residência presidencial; e uma queixa de servidores do laboratório forense do Ministério Público sobre condições de trabalho.</p>
+    <p>São acusações políticas, que não chegaram a ser votadas. Na manhã desta terça, antes da renúncia, a Procuradoria-Geral divulgou nota em que rejeitou as críticas de inércia, segundo o ABC Color. O texto atribuiu a falta de avanço no caso conhecido como "Sobres del Poder" a um relatório anterior da Controladoria e pediu que a gestão fosse avaliada com base em "hechos comprobables", e não em "intentos de condicionar investigaciones penales en curso". As reportagens consultadas não trazem outra declaração de Rolón além da carta.</p>
+    <p>No Senado, a reação foi dura entre parlamentares da oposição. Rafael Filizzola, do PDP, falou em "indignante y cómplice ineptitud", e Celeste Amarilla, do PLRA, disse que Rolón "no se animó a venir", de acordo com <a href="https://www.abc.com.py/politica/2026/11/17/renuncio-mandrake-y-cobarde-senadores-cuestionan-a-emiliano-rolon-tras-su-salida/" target="_blank" rel="noopener noreferrer nofollow">outra reportagem do ABC Color</a>. O senador liberal Ever Villalba considerou a saída necessária, mas insuficiente. A deputada Vallejo lembrou que a renúncia "no le confiere ningún tipo de fuero ni inmunidad" ao ex-procurador.</p>
+
+    <h2>Quem assume e o que acontece agora</h2>
+    <p>Antes de sair, Rolón assinou a Resolução F.G.E. nº 4665, que entrega à procuradora adjunta Alba Rocío Cantero Vera a direção do gabinete e a função de ordenadora de despesas a partir desta quarta-feira (18), segundo o <a href="https://www.ultimahora.com/la-fiscalia-general-del-estado-quedara-a-cargo-de-alba-rocio-cantero-hasta-nueva-designacion" target="_blank" rel="noopener noreferrer nofollow">Última Hora</a>. O jornal informa que a medida se apoia no artigo 51 da Lei 1.562/2000, a lei orgânica do Ministério Público, que trata das substituições.</p>
+    <p>O jornal <a href="https://www.lanacion.com.py/politica/2026/11/17/alba-cantero-asumira-la-conduccion-interina-de-la-fiscalia-general-del-estado/" target="_blank" rel="noopener noreferrer nofollow">La Nación</a>, de Assunção, diz que a interinidade cabe à procuradora adjunta criminal mais antiga da instituição e que Alliana ainda precisa aceitar formalmente a renúncia para que o mecanismo de substituição seja ativado. Cantero fica no posto até o início do processo de escolha do novo titular, segundo o Última Hora. Rolón havia tomado posse em março de 2023, no lugar de Sandra Quiñónez, para um mandato que iria até 2028.</p>
+
+    <h2>Como o caso Ueno chegou até aqui</h2>
+    <p>O Banco Central do Paraguai interveio no Ueno em 3 de novembro por "graves problemas de solvencia", segundo a AFP. A crise levou à <a href="/noticias/paraguai-santiago-pena-renuncia-presidencia-ueno">renúncia anunciada de Santiago Peña</a> e, no dia 6, à <a href="/noticias/paraguai-senado-destitui-pena-alliana-assume">destituição do presidente pelo Senado</a>, com a posse do então vice, Pedro Alliana. Peña está em prisão preventiva, acusado de quebra de confiança, administração em proveito próprio e associação criminosa, e não foi julgado.</p>
+    <p>Na semana passada, a promotoria fez <a href="/noticias/paraguai-promotoria-busca-mburuvicha-roga-caso-ueno">buscas na residência presidencial</a>, e nesta segunda-feira (16) o ex-presidente foi <a href="/noticias/paraguai-pena-transferido-vinas-cue-privilegios">transferido para a prisão militar de Viñas Cué</a> depois de denúncias de privilégios. Segundo o <a href="https://www.infobae.com/america/america-latina/2026/11/17/renuncio-emiliano-rolon-fiscal-general-de-paraguay-que-tenia-a-su-cargo-la-investigacion-por-la-caida-del-ueno-bank/" target="_blank" rel="noopener noreferrer nofollow">Infobae</a>, 27 pessoas ligadas ao Ueno e a outras empresas já foram imputadas, e o ex-presidente do Banco Central Carlos Carvallo e três ex-diretores que renunciaram estão em prisão preventiva.</p>
+
+    <h2>Por que isso importa</h2>
+    <p>A saída de Rolón tira do comando do Ministério Público o responsável pela investigação mais sensível do país no momento, a que envolve um ex-presidente preso e a cúpula do Banco Central. Para o processo, a mudança pode afetar a distribuição de promotores e o ritmo das próximas etapas, pontos que estavam entre as críticas feitas pela oposição e pelo Colégio de Advogados. Para o sistema político, mostra que a crise aberta pelo Ueno já alcançou a Presidência, o comando do Banco Central e agora a Procuradoria-Geral.</p>
+    <p>Para o Brasil, o Paraguai é vizinho, sócio no Mercosul e parceiro na hidrelétrica binacional de Itaipu. No dia da posse de Alliana, Lula desejou ao novo presidente "pleno êxito" e disse esperar trabalhar com ele "de maneira aberta, franca e cooperativa", além de convidá-lo a Brasília, segundo a <a href="https://www.folhape.com.br/politica/lula-cumprimenta-novo-presidente-do-paraguai-e-diz-que-espera/522926/" target="_blank" rel="noopener noreferrer nofollow">Folha de Pernambuco</a>, com informações do Estadão Conteúdo. A estabilidade das instituições paraguaias também interessa ao bloco, que discute regras comuns de defesa da democracia, como o protocolo que o Senado brasileiro <a href="/noticias/senado-aprova-protocolo-montevideu-democracia-mercosul">aprovou para o Mercosul</a>.</p>
+    <p>A renúncia encerra o juízo político, mas não significa culpa. Rolón não foi acusado formalmente de crime pela Justiça, e as críticas à gestão dele são posições de parlamentares e de entidades. A Política Diária não toma partido no caso.</p>
+
+    <h2>O que observar a seguir</h2>
+    <p>O primeiro ponto é a aceitação formal da renúncia por Alliana e o início do processo de escolha do novo procurador-geral, cujo calendário não foi divulgado nas fontes abertas. O segundo é a condução do caso Ueno sob Cantero: a manutenção ou a troca dos promotores que cuidam da investigação contra Peña e os ex-diretores do Banco Central. O terceiro é a pressão no Congresso paraguaio sobre outros órgãos de controle, já que deputados da oposição anunciaram que vão pedir juízo político contra o controlador-geral, segundo o ABC Color.</p>
+  `,
+  faq: [
+    {
+      question: "Por que o procurador-geral do Paraguai renunciou?",
+      answer:
+        "Emiliano Rolón renunciou em 17 de novembro de 2026, horas depois de deputados protocolarem um pedido de juízo político contra ele pela condução do caso Ueno. Na carta ao presidente Pedro Alliana, ele disse que a decisão se dá no marco do juízo político aberto na Câmara, segundo a AFP. A Procuradoria havia rejeitado as críticas de inércia em nota divulgada na mesma manhã.",
+    },
+    {
+      question: "Quem assume o Ministério Público do Paraguai?",
+      answer:
+        "A procuradora adjunta Alba Rocío Cantero Vera assume de forma interina a partir de 18 de novembro, pela Resolução F.G.E. nº 4665, segundo o Última Hora. O La Nación informa que a interinidade cabe à procuradora adjunta criminal mais antiga. Ela fica no posto até o início do processo de escolha do novo procurador-geral, cujo calendário ainda não foi divulgado.",
+    },
+  ],
+};

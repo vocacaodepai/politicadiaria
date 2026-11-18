@@ -1,0 +1,12 @@
+{
+  "rotina": "eleicoes",
+  "inicio": "2026-11-13T14:50:45-03:00",
+  "fim": "2026-11-13T14:51:51-03:00",
+  "branch": "claude/pd-eleicoes-20261113-1450",
+  "publicou": [],
+  "descartou": [],
+  "bloqueios": [
+    { "host": "www.tse.jus.br", "erro": "http-403", "detalhe": "calendario eleitoral para conferir a data da diplomacao" }
+  ],
+  "pr": null
+}

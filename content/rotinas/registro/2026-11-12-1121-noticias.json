@@ -1,0 +1,14 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-12T11:21:28-03:00",
+  "fim": "2026-11-12T11:27:15-03:00",
+  "branch": "claude/pd-noticias-20261112-1124",
+  "publicou": ["ccj-mourao-celular-presidios-pena-quatro-seis-anos"],
+  "descartou": [
+    { "tema": "PLP 109/2025 da ANP contra fraudes em combustíveis vai à sanção", "motivo": "ja-publicado" },
+    { "tema": "ISP: 5,2 milhões de pessoas em áreas sob controle de facções e milícias no Rio", "motivo": "fonte-unica", "pauta": "isp-rio-territorios-faccoes-milicias-2025" },
+    { "tema": "Sessão do Congresso com 24 PLNs em andamento, sem resultado publicado", "motivo": "aguardando-fato" }
+  ],
+  "bloqueios": [{ "host": "www.gov.br", "erro": "captcha", "detalhe": "notas à imprensa do Itamaraty" }],
+  "pr": null
+}

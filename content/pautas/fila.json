@@ -1,0 +1,1192 @@
+{
+  "atualizadoEm": "2026-11-18T17:25:23-03:00",
+  "pautas": [
+    {
+      "id": "abin-contestacao-flavio-bolsonaro",
+      "rotina": "noticias",
+      "tema": "Abin e contestação de Flávio Bolsonaro (fonte única: Metrópoles)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T11:26:50-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "refit-mprj",
+      "rotina": "noticias",
+      "tema": "Refit e MPRJ (números divergentes entre as fontes)",
+      "motivo": "numeros-divergentes",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T11:26:50-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "decreto-escala-6x1-adiado",
+      "rotina": "noticias",
+      "tema": "Decreto da escala 6x1 adiado",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T04:50:00-03:00",
+      "status": "publicada",
+      "slug": "decreto-6x1-adiado-volta-viagem-lula"
+    },
+    {
+      "id": "brb-acao-ex-gestores",
+      "rotina": "noticias",
+      "tema": "BRB: ação contra ex-gestores",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T11:26:50-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "quaest-65-democracia",
+      "rotina": "noticias",
+      "tema": "Quaest: 65% e democracia",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-16T13:28:30-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "flavio-csp-videoconferencia",
+      "rotina": "noticias",
+      "tema": "Flávio Bolsonaro na CSP por videoconferência",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T11:26:50-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "terras-raras-china-ustr",
+      "rotina": "noticias",
+      "tema": "Terras raras: China e USTR",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T11:26:50-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "smartphones-senado",
+      "rotina": "noticias",
+      "tema": "Smartphones no Senado",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www12.senado.leg.br/noticias/materias/2026/11/11/davi-informa-que-senado-nao-esta-comprando-smartphones-para-os-parlamentares",
+        "https://www.gazetadopovo.com.br/republica/claro-licitacao-iphones-senado/",
+        "https://www.infomoney.com.br/politica/claro-vence-pregao-do-senado-para-fornecer-iphones-e-celulares-por-r-496-milhoes/",
+        "https://www.cnnbrasil.com.br/politica/senado-fecha-pregao-de-iphones-para-parlamentares-por-r-495-milhoes/"
+      ],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-14T18:26:23-03:00",
+      "status": "publicada",
+      "falta": "segunda fonte ou edital do Pregão 290/2026 (Alcolumbre diz que é comodato, não compra)",
+      "slug": "senado-pregao-290-claro-habilitada-iphones-comodato"
+    },
+    {
+      "id": "tcu-cbs-11-3",
+      "rotina": "noticias",
+      "tema": "TCU e CBS de 11,3%",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www12.senado.leg.br/noticias/materias/2026/11/13/cae-ministro-da-fazenda-debate-aliquota-da-cbs-na-terca-feira",
+        "https://www12.senado.leg.br/noticias/materias/2026/11/10/senado-recebe-acordao-do-tcu-que-propoe-aliquota-de-11-3-para-a-cbs"
+      ],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-13T17:27:02-03:00",
+      "status": "publicada",
+      "slug": "durigan-vital-barreirinhas-cae-aliquota-cbs-terca"
+    },
+    {
+      "id": "delegados-pf-damares-amin",
+      "rotina": "noticias",
+      "tema": "Delegados da PF (Damares e Amin)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T11:26:50-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "pl-464-2026-curatela-idoso",
+      "rotina": "noticias",
+      "tema": "PL 464/2026: curatela fraudulenta de idoso",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.camara.leg.br/noticias/1318722-camara-aprova-perda-de-heranca-para-quem-tentar-interditar-idosos-de-forma-fraudulenta",
+        "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2602370"
+      ],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T07:29:19-03:00",
+      "status": "publicada",
+      "slug": "camara-aprova-perda-heranca-curatela-abusiva"
+    },
+    {
+      "id": "greve-geral-espanha",
+      "rotina": "noticias",
+      "tema": "Greve geral na Espanha",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T11:26:50-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "russia-ucrania-abu-dhabi",
+      "rotina": "noticias",
+      "tema": "Negociação Rússia-Ucrânia em Abu Dhabi",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T09:29:23-03:00",
+      "status": "publicada",
+      "slug": "abu-dhabi-eua-russia-ucrania-negociacao-garantias-seguranca"
+    },
+    {
+      "id": "impeachment-hegseth-massie",
+      "rotina": "noticias",
+      "tema": "Impeachment de Hegseth (resolução de Massie)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-11T00:00:00-03:00",
+      "ultimaRevisao": "2026-11-12T11:26:50-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "livro-o-poder-da-geografia-tim-marshall",
+      "rotina": "livros",
+      "tema": "Resenha de O Poder da Geografia, de Tim Marshall (Zahar, 2022, ISBN 9786559790678)",
+      "motivo": "fonte-bloqueada",
+      "fontesAbertas": [
+        "https://www.companhiadasletras.com.br/livro/9786559790678/o-poder-da-geografia"
+      ],
+      "primeiraVezVisto": "2026-11-12T05:24:19-03:00",
+      "ultimaRevisao": "2026-11-13T05:41:06-03:00",
+      "status": "publicada",
+      "slug": "o-poder-da-geografia-marshall-zahar"
+    },
+    {
+      "id": "livro-tolos-fraudes-e-militantes-scruton",
+      "rotina": "livros",
+      "tema": "Resenha de Tolos, Fraudes e Militantes, de Roger Scruton (Record, 2018, ISBN 9788501113023)",
+      "motivo": "fonte-bloqueada",
+      "fontesAbertas": [
+        "https://www.record.com.br/en/products/tolos-fraudes-e-militantes"
+      ],
+      "primeiraVezVisto": "2026-11-12T05:24:19-03:00",
+      "ultimaRevisao": "2026-11-13T05:41:06-03:00",
+      "status": "publicada",
+      "slug": "tolos-fraudes-militantes-scruton-record"
+    },
+    {
+      "id": "livro-segunda-guerra-mundial-martin-gilbert",
+      "rotina": "livros",
+      "tema": "Resenha de A Segunda Guerra Mundial, de Martin Gilbert (Casa da Palavra, 2014)",
+      "motivo": "numeros-divergentes",
+      "fontesAbertas": [
+        "https://openlibrary.org/books/OL51726163M",
+        "https://www.companhiadasletras.com.br/livro/9788539007578/a-segunda-guerra-mundial-vol1-1939-1942"
+      ],
+      "primeiraVezVisto": "2026-11-12T05:24:19-03:00",
+      "ultimaRevisao": "2026-11-14T05:39:00-03:00",
+      "status": "publicada",
+      "slug": "segunda-guerra-mundial-martin-gilbert-objetiva"
+    },
+    {
+      "id": "camara-eua-hegseth-judiciario-211-204",
+      "rotina": "noticias",
+      "tema": "Câmara dos EUA envia resolução de impeachment de Hegseth à Comissão de Justiça por 211 a 204",
+      "motivo": "sem-angulo",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-12T08:28:13-03:00",
+      "ultimaRevisao": "2026-11-12T11:26:50-03:00",
+      "status": "aberta",
+      "falta": "fonte aberta e ângulo brasileiro concreto"
+    },
+    {
+      "id": "isp-rio-territorios-faccoes-milicias-2025",
+      "rotina": "noticias",
+      "tema": "ISP: 5,2 milhões de pessoas em 1.530 comunidades sob controle de facções e milícias no Rio em 2025",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-11/cinco-milhoes-vivem-em-areas-dominadas-por-faccoes-e-milicias-no-rio"
+      ],
+      "falta": "relatório do ISP ou segunda fonte independente",
+      "primeiraVezVisto": "2026-11-12T11:26:50-03:00",
+      "ultimaRevisao": "2026-11-12T12:25:19-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "stf-adpf-1185-1241-isencao-pena-crimes-patrimoniais-mulheres",
+      "rotina": "noticias",
+      "tema": "STF julga isenção de pena em crimes patrimoniais contra mulheres no ambiente familiar (ADPFs 1185 e 1241); julgamento na pauta de 12/11",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [
+        "https://noticias.stf.jus.br/postsnoticias/confira-a-pauta-do-stf-desta-quinta-feira-12-3/",
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/stf-derruba-imunidade-para-punir-violencia-patrimonial-contra-mulheres",
+        "https://sbtnews.sbt.com.br/noticia/brasil/stf-afasta-imunidade-em-crimes-patrimoniais-contra-mulheres"
+      ],
+      "primeiraVezVisto": "2026-11-12T14:21:09-03:00",
+      "ultimaRevisao": "2026-11-12T18:26:18-03:00",
+      "status": "publicada",
+      "slug": "stf-derruba-imunidade-violencia-patrimonial-artigo-181"
+    },
+    {
+      "id": "plp-299-senado-urgencia-merito-pendente",
+      "rotina": "noticias",
+      "tema": "PLP 299/2026: urgência aprovada por 40 a 38 em 12/11 (publicada); votação do mérito sem desfecho confirmado",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [
+        "https://www.otempo.com.br/politica/2026/11/12/senado-aprova-urgencia-do-pacote-fiscal-por-40-a-38-e-governo-fica-a-um-voto-do-minimo",
+        "https://www.gazetaweb.com/noticias/brasil/senado-aprova-urgencia-e-deve-votar-ajuste-fiscal-de-lula-ainda-nesta-5-948909",
+        "https://www25.senado.leg.br/web/atividade/materias/-/materia/176328",
+        "https://www.diariodepernambuco.com.br/economia/2026/11/11729017-senado-aprova-urgencia-para-pacote-que-preve-cortes-e-revisao-de-beneficios-fiscais.html",
+        "https://www12.senado.leg.br/noticias/senado-agora/2026/11/12/ajuste-fiscal",
+        "https://www.cnnbrasil.com.br/politica/senado-aprova-plp-do-ajuste-fiscal/",
+        "https://sbtnews.sbt.com.br/noticia/economia/senado-aprova-ajuste-fiscal-de-lula-com-r-56-bi-de-impacto"
+      ],
+      "primeiraVezVisto": "2026-11-12T19:21:28-03:00",
+      "ultimaRevisao": "2026-11-12T21:25:10-03:00",
+      "status": "publicada",
+      "falta": "resultado do mérito ou adiamento confirmado na Agência Senado ou em 2 veículos",
+      "slug": "senado-aprova-texto-base-plp-299-45-a-31"
+    },
+    {
+      "id": "video-lula-afastado-lideres-cop31",
+      "rotina": "checagem",
+      "tema": "Vídeo que diria mostrar Lula afastado dos demais líderes na COP31 (Aos Fatos: reposicionamento para a foto oficial)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.aosfatos.org/noticias/video-lula-presidentes-cop31/"
+      ],
+      "primeiraVezVisto": "2026-11-12T19:44:00-03:00",
+      "ultimaRevisao": "2026-11-17T07:47:00-03:00",
+      "status": "aberta",
+      "falta": "segunda fonte independente aberta sobre a foto oficial"
+    },
+    {
+      "id": "bndes-cop31-52-bilhoes",
+      "rotina": "noticias",
+      "tema": "Anúncio de R$ 52 bilhões do BNDES na COP31",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "falta": "fonte oficial (BNDES ou Agência Gov) ou dois veículos de editoria",
+      "primeiraVezVisto": "2026-11-13T00:29:00-03:00",
+      "ultimaRevisao": "2026-11-13T17:27:02-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "livro-antigo-regime-revolucao-tocqueville",
+      "rotina": "livros",
+      "tema": "Resenha de O Antigo Regime e a Revolução, de Alexis de Tocqueville (Edipro, 2017, ISBN 9788572839822)",
+      "motivo": "numeros-divergentes",
+      "fontesAbertas": [
+        "https://www.estantevirtual.com.br/livro/o-antigo-regime-e-a-revolucao-095-6953-000-BK",
+        "https://edipro.com.br/livro/o-antigo-regime-e-a-revolucao/"
+      ],
+      "primeiraVezVisto": "2026-11-13T05:41:06-03:00",
+      "ultimaRevisao": "2026-11-14T05:39:00-03:00",
+      "status": "publicada",
+      "slug": "antigo-regime-e-a-revolucao-tocqueville-edipro"
+    },
+    {
+      "id": "mpt-assedio-eleitoral-5637-escola-itajai",
+      "rotina": "noticias",
+      "tema": "MPT soma 5.637 casos de assédio eleitoral até 12/11; escola de Itajaí (SC) demite professora após foto com gesto de apoio a Lula",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/educacao/noticia/2026-11/professora-e-demitida-de-escola-em-sc-apos-foto-em-apoio-lula"
+      ],
+      "falta": "painel ou nota do MPT com o total, ou segunda fonte independente",
+      "primeiraVezVisto": "2026-11-13T07:37:04-03:00",
+      "ultimaRevisao": "2026-11-13T13:45:30-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "gaza-ataque-hospital-nasser-12-novembro",
+      "rotina": "noticias",
+      "tema": "Ataque israelense ao Hospital Nasser, em Khan Younis, mata ao menos seis pessoas, segundo a defesa civil de Gaza",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/gaza-ataque-israelense-hospital-deixa-6-mortos-diz-defesa-civil"
+      ],
+      "falta": "segunda fonte independente (Reuters via Agência Brasil é a única aberta)",
+      "primeiraVezVisto": "2026-11-13T07:37:04-03:00",
+      "ultimaRevisao": "2026-11-13T13:45:30-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "video-fila-interlagos-brasileiros-deixando-paraguai",
+      "rotina": "checagem",
+      "tema": "Vídeo de fila no GP de F1 em Interlagos apresentado como brasileiros deixando o Paraguai após a crise do Ueno Bank",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://aosfatos.org/noticias/fila-formula-1-saida-brasileiros-paraguai/"
+      ],
+      "primeiraVezVisto": "2026-11-13T07:47:58-03:00",
+      "ultimaRevisao": "2026-11-17T07:47:00-03:00",
+      "status": "aberta",
+      "falta": "segunda fonte independente aberta sobre local e data do vídeo"
+    },
+    {
+      "id": "stf-referendo-liminar-dino-jornada-5x2-sessao-virtual",
+      "rotina": "noticias",
+      "tema": "STF julga em sessão virtual extraordinária, de 13/11 às 11h a 16/11, o referendo da liminar de Dino sobre a jornada 5x2",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [
+        "https://www.infomoney.com.br/politica/fim-da-escala-6x1-stf-analisa-a-partir-de-sexta-feira-decisao-de-dino/",
+        "https://www.cnnbrasil.com.br/politica/stf-dino-fim-da-6x1/",
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/stf-tem-4-votos-para-manter-inicio-da-escala-5x2-em-dezembro",
+        "https://www.congressoemfoco.com.br/noticia/131599/dino-diz-que-decisao-sobre-6x1-nao-abre-excecoes-ou-permite-negociacao"
+      ],
+      "primeiraVezVisto": "2026-11-13T08:31:06-03:00",
+      "ultimaRevisao": "2026-11-15T15:25:33-03:00",
+      "status": "publicada",
+      "falta": "destaque de Fux em 14/11 tirou o caso do plenário virtual e anulou o placar de 4 a 0; julgamento recomeça no plenário físico, sem data; liminar segue valendo",
+      "slug": "fux-destaque-6x1-plenario-fisico-stf"
+    },
+    {
+      "id": "pf-operacao-make-up-segunda-fase",
+      "rotina": "noticias",
+      "tema": "PF deflagra 2ª fase da Operação Make Up, em Brasília, com mandado do STF sobre desvio de emendas parlamentares",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [
+        "https://www.cnnbrasil.com.br/politica/pf-deflagra-nova-fase-da-operacao-sobre-desvio-de-emendas-para-dark-horse/",
+        "https://www.correiobraziliense.com.br/brasil/2026/11/7537959-pf-deflagra-2-fase-operacao-que-investiga-financiamento-de-dark-horse.html",
+        "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/11/pf-deflagra-2a-fase-da-operacao-make-up",
+        "https://www.infomoney.com.br/brasil/nova-fase-da-make-up-mira-ex-chefe-de-gabinete-de-mario-frias-entenda-a-investigacao/"
+      ],
+      "primeiraVezVisto": "2026-11-13T08:31:06-03:00",
+      "ultimaRevisao": "2026-11-13T11:00:29-03:00",
+      "status": "publicada",
+      "slug": "pf-segunda-fase-operacao-make-up-emendas-dark-horse"
+    },
+    {
+      "id": "video-congestionamento-ponte-amizade-fuga-paraguai",
+      "rotina": "checagem",
+      "tema": "Vídeo de fila de carros na Ponte da Amizade apresentado como fuga de brasileiros do Paraguai após a crise do Ueno Bank (Aos Fatos: gravado em 10 de outubro)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://aosfatos.org/noticias/video-congestionamento-paraguai/",
+        "https://www.agencialupa.org/verificacao/2026/11/13/video-nao-mostra-fila-causada-por-bolsonaristas-de-saida-do-paraguai/"
+      ],
+      "primeiraVezVisto": "2026-11-13T13:50:42-03:00",
+      "ultimaRevisao": "2026-11-13T19:45:24-03:00",
+      "status": "publicada",
+      "slug": "fila-carros-ciudad-del-este-feriado-outubro-nao-e-fuga-do-paraguai"
+    },
+    {
+      "id": "foto-protesto-1-milhao-contra-milei-copa-2022",
+      "rotina": "checagem",
+      "tema": "Foto de multidão no Obelisco de Buenos Aires apresentada como protesto de 1 milhão de argentinos contra Milei (Lupa: festa da Copa de 2022)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.agencialupa.org/noticias/2026/11/13/foto-nao-mostra-protesto-de-1-milhao-de-pessoas-contra-o-governo-milei/"
+      ],
+      "primeiraVezVisto": "2026-11-13T13:50:42-03:00",
+      "ultimaRevisao": "2026-11-17T07:47:00-03:00",
+      "status": "aberta",
+      "falta": "segunda fonte independente aberta sobre a origem da foto (AFP e Fast Check não abriram)"
+    },
+    {
+      "id": "agu-parecer-adpf-1362-psd-segundo-turno-rio",
+      "rotina": "noticias",
+      "tema": "AGU envia ao STF parecer contra pedido do PSD por segundo turno no Rio e pede referendo da decisão de Zanin",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.infomoney.com.br/politica/apos-decisao-de-zanin-agu-se-manifesta-contra-pedido-do-psd-sobre-2o-turno-no-rio/",
+        "https://sbtnews.sbt.com.br/noticia/politica/agu-se-manifesta-contra-liminar-que-autorize-2-turno-no-rj"
+      ],
+      "falta": "nota da AGU ou segunda fonte independente (texto é da Agência O Globo)",
+      "primeiraVezVisto": "2026-11-13T15:27:35-03:00",
+      "ultimaRevisao": "2026-11-18T12:28:54-03:00",
+      "status": "publicada",
+      "slug": "paes-cobra-tse-pressa-embargos-garotinho-governo-rj"
+    },
+    {
+      "id": "lula-filipinas-visita-estado-marcos-14-novembro",
+      "rotina": "noticias",
+      "tema": "Lula chega a Manila para visita de Estado; reunião com Marcos em 14/11 e cúpula da Asean em 15/11",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [
+        "https://jornaldebrasilia.com.br/noticias/politica-e-poder/lula-chega-a-manila-para-visita-de-estado-e-reuniao-bilateral-com-canada-e-singapura/",
+        "https://www.cnnbrasil.com.br/politica/na-1a-visita-de-estado-apos-reeleicao-lula-critica-extremismo-e-ingerencia/",
+        "https://www.metropoles.com/mundo/apos-reuniao-com-lider-filipino-lula-apoia-palestinos-e-repudia-guerras",
+        "https://agenciagov.ebc.com.br/distribuicao/viagens-internacionais/261114034005_13-11-26-pr-lula-filipinas-assina-atos"
+      ],
+      "primeiraVezVisto": "2026-11-13T17:27:02-03:00",
+      "ultimaRevisao": "2026-11-14T04:26:20-03:00",
+      "status": "publicada",
+      "slug": "lula-marcos-manila-atos-assinados-ingerencia"
+    },
+    {
+      "id": "eua-faa-suspensao-nacional-decolagens-13-novembro",
+      "rotina": "noticias",
+      "tema": "FAA suspende todas as decolagens nos EUA por falha nas comunicações do controle de tráfego aéreo, segunda suspensão nacional desde 2001",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-11/eua-suspendem-todas-decolagens-devido-circunstancia-extraordinaria",
+        "https://www.cbsnews.com/news/faa-issues-nationwide-ground-stop/",
+        "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next",
+        "https://abcnews.com/US/nationwide-ground-stop-ordered-airports-faa/story?id=138121848",
+        "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/anac-orienta-passageiros-consultar-aereas-sobre-voos-para-os-eua"
+      ],
+      "primeiraVezVisto": "2026-11-13T19:25:57-03:00",
+      "ultimaRevisao": "2026-11-14T09:27:53-03:00",
+      "status": "publicada",
+      "falta": "segunda fonte ou nota da FAA; causa, duração e efeito em voos entre Brasil e EUA",
+      "slug": "eua-param-decolagens-pane-controle-aereo-anac-orienta"
+    },
+    {
+      "id": "video-record-2016-pente-fino-inss-aposentados-devolver",
+      "rotina": "checagem",
+      "tema": "Reportagem da Record de 2016 sobre cobrança a aposentados no pente-fino do INSS apresentada como medida atual do governo Lula",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.agencialupa.org/verificacao/2026/11/13/e-de-2016-video-sobre-cobranca-de-valores-de-aposentados-pelo-inss/",
+        "https://www.aosfatos.org/noticias/reportagem-pente-fino-inss-2016/"
+      ],
+      "primeiraVezVisto": "2026-11-13T19:45:24-03:00",
+      "ultimaRevisao": "2026-11-14T13:45:04-03:00",
+      "status": "publicada",
+      "slug": "reportagem-record-2016-pente-fino-inss-nao-e-cobranca-atual"
+    },
+    {
+      "id": "fachin-ministra-negra-stf-enajun",
+      "rotina": "noticias",
+      "tema": "Fachin defende indicação de ministra negra para a vaga no STF no encerramento do 9º Enajun, no Rio",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fachin-defende-indicacao-de-ministra-negra-para-o-stf",
+        "https://sbtnews.sbt.com.br/noticia/brasil/fachin-defende-nomeacao-de-ministra-negra-para-o-stf",
+        "https://www.metropoles.com/colunas/manoela-alcantara/fachin-vaga-stf-juizas-negras"
+      ],
+      "falta": "segunda fonte de editoria ou nota oficial do STF/CNJ",
+      "primeiraVezVisto": "2026-11-13T23:23:09-03:00",
+      "ultimaRevisao": "2026-11-14T06:24:34-03:00",
+      "status": "publicada",
+      "slug": "fachin-defende-ministra-negra-stf-enajun"
+    },
+    {
+      "id": "gilmar-rebate-moro-lula-2018-redes",
+      "rotina": "noticias",
+      "tema": "Gilmar Mendes rebate em rede social o senador Sergio Moro sobre a anulação da condenação de Lula no caso triplex; Moro não comenta",
+      "motivo": "fonte-unica",
+      "falta": "segunda fonte achada (Jornal de Brasília); Correio Braziliense também noticiou; aguarda rodada com menos itens de justiça no dia",
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/gilmar-diz-que-moro-agiu-para-impedir-candidatura-de-lula-em-2018",
+        "https://jornaldebrasilia.com.br/noticias/politica-e-poder/gilmar-mendes-acusa-moro-de-manipular-justica-contra-lula/",
+        "https://www.correiobraziliense.com.br/politica/2026/11/7538512-moro-rebate-lula-sobre-triplex-e-gilmar-mendes-critica-atuacao-de-ex-juiz.html"
+      ],
+      "primeiraVezVisto": "2026-11-14T00:23:33-03:00",
+      "ultimaRevisao": "2026-11-14T13:25:55-03:00",
+      "status": "publicada",
+      "slug": "gilmar-rebate-moro-anulacao-triplex-motivos-formais"
+    },
+    {
+      "id": "livro-acao-afirmativa-sowell",
+      "rotina": "livros",
+      "tema": "Resenha de Ação Afirmativa ao Redor do Mundo, de Thomas Sowell (É Realizações, 2016, ISBN 9788580332445)",
+      "motivo": "fonte-bloqueada",
+      "falta": "confirmar ficha da edição no site da editora (sem resposta em 14/11/2026)",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-14T05:39:00-03:00",
+      "ultimaRevisao": "2026-11-18T05:46:09-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "trf3-desarquiva-caso-comandante-crioulo-1973",
+      "rotina": "noticias",
+      "tema": "TRF3 atende ao MPF e manda desarquivar a investigação sobre a prisão, tortura e morte de Luiz José da Cunha, o Crioulo, em 1973",
+      "motivo": "aguardando-fato",
+      "falta": "data da decisão e número do processo, ou segunda fonte de editoria com esses dados",
+      "fontesAbertas": [
+        "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/mpf-obtem-liminar-para-desarquivar-investigacao-sobre-grave-violacao-de-direitos-humanos-na-ditadura"
+      ],
+      "primeiraVezVisto": "2026-11-14T07:27:11-03:00",
+      "ultimaRevisao": "2026-11-14T07:27:11-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "pix-mei-pagamento-so-em-2030",
+      "rotina": "checagem",
+      "tema": "Postagens dizem que o governo confirmou o Pix MEI de R$ 5 mil só para 2030 (MEMP: execução de 2027 a 2030)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://aosfatos.org/noticias/pagamento-pix-mei/",
+        "https://www.gov.br/memp/pt-br/assuntos/noticias/congresso-aprova-pacote-do-mei-com-teto-de-ate-r-140-mil-dois-empregados-e-perdao-de-dividas-federais"
+      ],
+      "primeiraVezVisto": "2026-11-14T07:41:13-03:00",
+      "ultimaRevisao": "2026-11-14T07:44:43-03:00",
+      "status": "publicada",
+      "slug": "pix-mei-nao-comeca-so-em-2030-pagamentos-previstos-a-partir-de-2027"
+    },
+    {
+      "id": "stf-toffoli-voto-preservar-mensagens-spoofing",
+      "rotina": "noticias",
+      "tema": "Toffoli vota no plenário virtual do STF pela preservação definitiva do material da Operação Spoofing; demais votos até 23/11",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [
+        "https://www.infomoney.com.br/politica/toffoli-vota-pela-preservacao-de-mensagens-sobre-a-lava-jato-obtidas-por-hackers/",
+        "https://www.correiobraziliense.com.br/politica/2026/11/7538289-stf-julga-preservacao-de-provas-da-vaza-jato-sobre-atuacao-de-moro-e-dallagnol.html"
+      ],
+      "falta": "resultado do julgamento (votos até 23/11); segunda fonte achada (Correio Braziliense); voto citado na notícia de Gilmar e Moro",
+      "primeiraVezVisto": "2026-11-14T10:27:56-03:00",
+      "ultimaRevisao": "2026-11-14T13:25:55-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "atlasintel-bloomberg-aprovacao-lula-novembro-2026",
+      "rotina": "noticias",
+      "tema": "AtlasIntel/Bloomberg (5 a 9/11): 47,7% aprovam e 50,3% desaprovam o governo Lula",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.correiobraziliense.com.br/politica/2026/11/7538370-governo-lula-e-desaprovado-por-503-e-aprovado-por-477-diz-pesquisa.html"
+      ],
+      "falta": "divulgação da AtlasIntel ou da Bloomberg, ou veículo de outro grupo; comparação com outubro diverge entre sites",
+      "primeiraVezVisto": "2026-11-14T14:29:34-03:00",
+      "ultimaRevisao": "2026-11-14T15:28:30-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "celac-carta-secretario-geral-onu-latino",
+      "rotina": "noticias",
+      "tema": "Líderes da Celac, entre eles Lula e Milei, enviam carta ao Conselho de Segurança por secretário-geral da ONU latino-americano",
+      "motivo": "numeros-divergentes",
+      "fontesAbertas": [
+        "https://www.correiobraziliense.com.br/politica/2026/11/7538113-lula-e-milei-se-unem-a-lideres-da-celac-por-secretario-geral-latino-na-onu.html"
+      ],
+      "falta": "texto da carta ou nota oficial com a lista de signatários (sites citam 20 e 24 países)",
+      "primeiraVezVisto": "2026-11-14T14:29:34-03:00",
+      "ultimaRevisao": "2026-11-14T14:29:34-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "pdt-diretorio-federacao-psb-14-novembro",
+      "rotina": "noticias",
+      "tema": "Direção nacional do PDT analisa neste sábado (14) a proposta de federação com o PSB",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [
+        "https://pdt.org.br/index.php/executiva-nacional-aprova-ingresso-do-pdt-na-federacao-com-solidariedade-prd-e-avante/"
+      ],
+      "falta": "resultado da reunião em nota do PDT ou veículo de editoria",
+      "primeiraVezVisto": "2026-11-14T15:28:30-03:00",
+      "ultimaRevisao": "2026-11-16T21:30:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "ministerio-seguranca-publica-desenho-mp-senasp-senappen-senad",
+      "rotina": "noticias",
+      "tema": "Planalto desenha MP do Ministério da Segurança Pública com Senasp, Senappen e Senad, PF, PRF e Força Nacional",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.cnnbrasil.com.br/politica/governo-desenha-ministerio-da-seguranca-com-tres-secretarias-da-justica/"
+      ],
+      "primeiraVezVisto": "2026-11-14T18:28:22-03:00",
+      "ultimaRevisao": "2026-11-14T18:28:22-03:00",
+      "status": "aberta",
+      "falta": "texto da MP ou nota oficial; reportagem cita só auxiliares não identificados"
+    },
+    {
+      "id": "lula-asean-49-cupula-plenaria-manila-15-novembro",
+      "rotina": "noticias",
+      "tema": "Lula participa como convidado da presidência da plenária da 49ª Cúpula da Asean, em Manila, e pede apoio para o Brasil virar parceiro de diálogo pleno",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.gmanetwork.com/news/topstories/nation/1009397/brazilian-president-lula-visits-philippines-for-asean-summit-state-visit/story/",
+        "https://www.cnnbrasil.com.br/internacional/nas-filipinas-lula-ataca-big-techs-e-tarifas-injustas-contra-sul-global/",
+        "https://radiogov.ebc.com.br/programas/audios-do-presidente-da-republica/presidente-lula-discursa-na-49a-cupula-da-asean",
+        "https://www.otempo.com.br/politica/2026/11/15/nas-filipinas-lula-diz-que-concentracao-das-big-techs-ameaca-soberania-dos-paises",
+        "https://www.cnnbrasil.com.br/internacional/lula-sobre-tarifaco-em-vez-chorar-a-gente-procurou-outros-parceiros/",
+        "https://sbtnews.sbt.com.br/noticia/mundo/nas-filipinas-lula-diz-que-tarifaco-acabou-sendo-positivo"
+      ],
+      "primeiraVezVisto": "2026-11-14T22:27:01-03:00",
+      "ultimaRevisao": "2026-11-15T11:27:00-03:00",
+      "status": "publicada",
+      "slug": "lula-tarifaco-novos-parceiros-asean-coletiva"
+    },
+    {
+      "id": "pl-3137-2021-ipi-bebidas-amazonia-ocidental-cpovos",
+      "rotina": "noticias",
+      "tema": "Comissão da Amazônia da Câmara aprova parecer ao PL 3137/21, que muda as bebidas excluídas da isenção de IPI da Amazônia Ocidental",
+      "motivo": "fonte-bloqueada",
+      "fontesAbertas": [
+        "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2298516",
+        "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2298516/tramitacoes?dataInicio=2026-10-01",
+        "https://www.camara.leg.br/noticias/1319232-comissao-aprova-isencao-de-imposto-para-bebidas-a-base-de-frutos-regionais-da-amazonia"
+      ],
+      "primeiraVezVisto": "2026-11-15T00:24:11-03:00",
+      "ultimaRevisao": "2026-11-15T07:27:51-03:00",
+      "status": "publicada",
+      "falta": "texto do parecer ou notícia da Agência Câmara; aprovação foi em 10/11",
+      "slug": "pl-3137-isencao-ipi-bebidas-frutos-amazonia-comissao"
+    },
+    {
+      "id": "livro-o-grande-debate-yuval-levin",
+      "rotina": "livros",
+      "tema": "Resenha de O Grande Debate, de Yuval Levin, sobre Burke e Paine (Record, 2017, ISBN 9788501109057)",
+      "motivo": "fonte-bloqueada",
+      "fontesAbertas": [
+        "https://www.record.com.br/en/products/o-grande-debate"
+      ],
+      "primeiraVezVisto": "2026-11-15T05:23:53-03:00",
+      "ultimaRevisao": "2026-11-18T05:46:09-03:00",
+      "status": "aberta",
+      "falta": "foto do livro: Amazon Brasil bloqueada e Open Library sem capa da edição"
+    },
+    {
+      "id": "livro-a-era-dos-muros-tim-marshall",
+      "rotina": "livros",
+      "tema": "Resenha de A Era dos Muros, de Tim Marshall (Zahar, 2021, ISBN 9788537819159)",
+      "motivo": "fonte-bloqueada",
+      "fontesAbertas": [
+        "https://www.companhiadasletras.com.br/livro/9788537819159/a-era-dos-muros"
+      ],
+      "primeiraVezVisto": "2026-11-15T05:23:53-03:00",
+      "ultimaRevisao": "2026-11-18T05:46:09-03:00",
+      "status": "aberta",
+      "falta": "foto do livro: Amazon Brasil bloqueada e Open Library sem capa da edição"
+    },
+    {
+      "id": "livro-castello-lira-neto",
+      "rotina": "livros",
+      "tema": "Resenha de Castello: A Marcha para a Ditadura, de Lira Neto (Contexto, 2004; Companhia das Letras, 2019)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.companhiadasletras.com.br/livro/9788535932737/castello",
+        "https://congressoemfoco.com.br/coluna/24235/a-biografia-de-castello-branco-e-o-que-ela-ensina-ao-brasil-de-hoje"
+      ],
+      "primeiraVezVisto": "2026-11-15T05:23:53-03:00",
+      "ultimaRevisao": "2026-11-18T05:46:09-03:00",
+      "status": "aberta",
+      "falta": "resenha crítica publicada que possa ser aberta (Jornal Opção deu 403) e capa da edição de 2019"
+    },
+    {
+      "id": "chapa-lula-alckmin-resposta-asepa-contas-48-milhoes",
+      "rotina": "noticias",
+      "tema": "Defesa da chapa Lula-Alckmin responde à Asepa no TSE e diz que R$ 48,3 milhões em notas questionadas já estavam registrados ou documentados",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.gazetadopovo.com.br/republica/chapa-lula-minimiza-inconsistencias-afirma-comprovado-r-48-milhoes/",
+        "https://sbtnews.sbt.com.br/colunas/coluna-da-basilia/toffoli-cobra-prestacao-de-contas-de-lula-campanha-responde"
+      ],
+      "falta": "segunda fonte de editoria com os valores da manifestação (SBT só registra o envio de documentos) ou peça nos autos",
+      "primeiraVezVisto": "2026-11-15T13:27:33-03:00",
+      "ultimaRevisao": "2026-11-17T13:27:56-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "pgr-apoia-agu-adi-6601-324-milhoes-pvtac-mpu",
+      "rotina": "noticias",
+      "tema": "PGR apoia no STF (ADI 6601, relator Moraes) pedido da AGU de medidas orçamentárias para R$ 324 milhões da PVTAC do MPU",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.gazetadopovo.com.br/republica/pgr-apoia-pedido-agu-sobre-r-324-mi-para-penduricalho/"
+      ],
+      "falta": "segunda fonte de editoria independente ou manifestação da PGR (SpaceMoney deu 403)",
+      "primeiraVezVisto": "2026-11-15T13:27:33-03:00",
+      "ultimaRevisao": "2026-11-15T22:36:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "stf-oxe-de-xango-salao-nobre-17-novembro",
+      "rotina": "noticias",
+      "tema": "STF instala o Oxê de Xangô no Salão Nobre em 17/11, a pedido do Idafro",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/oxe-de-xango-simbolo-da-justica-sera-inaugurado-no-stf"
+      ],
+      "falta": "nota do STF ou veículo de outro grupo (demais sites republicam a Agência Brasil)",
+      "primeiraVezVisto": "2026-11-15T12:21:37-03:00",
+      "ultimaRevisao": "2026-11-15T18:24:48-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "enem-2026-tentativas-ataque-hacker-site-inep",
+      "rotina": "noticias",
+      "tema": "Ministro da Educação relata tentativas de ataque hacker ao site do Inep no segundo dia do Enem 2026, sem número nem origem",
+      "motivo": "fonte-unica",
+      "falta": "balanço oficial do MEC e do Inep da coletiva das 19h de 15/11 (ainda não publicado às 19h28) ou segundo veículo de editoria com texto próprio",
+      "fontesAbertas": [
+        "https://www.agazeta.com.br/enem/enem-2026-ministro-da-educacao-aponta-tentativas-de-ataque-hacker-1126",
+        "https://www.opovo.com.br/noticias/enem/2026/11/15/enem-2026-tem-maior-abstencao-dos-ultimos-5-anos-aponta-mec.html",
+        "https://www.metropoles.com/brasil/enem-2026-mais-de-um-terco-dos-candidatos-nao-compareceu-ao-2o-dia"
+      ],
+      "primeiraVezVisto": "2026-11-15T15:25:33-03:00",
+      "ultimaRevisao": "2026-11-15T20:25:51-03:00",
+      "status": "publicada",
+      "slug": "enem-segundo-dia-abstencao-36-ataques-site"
+    },
+    {
+      "id": "alckmin-lula-decide-ministerio-na-volta",
+      "rotina": "noticias",
+      "tema": "Alckmin diz que Lula decide a formação do ministério do novo mandato depois de voltar da viagem, a partir de 16/11",
+      "motivo": "aguardando-fato",
+      "falta": "anúncio de nomes pelo Planalto; nomes cotados vêm só de fontes não identificadas",
+      "fontesAbertas": [
+        "https://www.otempo.com.br/politica/governo/2026/11/15/lula-deve-comecar-a-decidir-sobre-ministerios-nesta-segunda-feira-16-11-diz-alckmin",
+        "https://www.em.com.br/politica/2026/11/7538894-alckmin-defende-equilibrio-fiscal-e-destaca-investimentos-na-amazonia.html"
+      ],
+      "primeiraVezVisto": "2026-11-15T15:25:33-03:00",
+      "ultimaRevisao": "2026-11-16T06:29:48-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "lula-sanchez-madri-16-novembro",
+      "rotina": "noticias",
+      "tema": "Lula se reúne com Pedro Sánchez em Madri na segunda-feira (16) antes de voltar ao Brasil",
+      "motivo": "aguardando-fato",
+      "falta": "resultado da reunião: encontro ocorreu (EFE e Metrópoles), sem coletiva, declaração conjunta nem nota da Moncloa até 09h30 de Brasília",
+      "fontesAbertas": [
+        "https://www.infomoney.com.br/politica/apos-asean-e-cop-31-lula-embarca-para-madri-para-encontro-com-pedro-sanchez/",
+        "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/index.aspx",
+        "https://www.lamoncloa.gob.es/presidente/agenda/Paginas/agenda.aspx?d=20261116",
+        "https://www.infobae.com/espana/agencias/2026/11/16/sanchez-recibe-a-lula-en-moncloa-en-su-viaje-a-espana-para-apoyarle-ante-el-29n/",
+        "https://www.metropoles.com/mundo/lula-encontra-sanchez-na-espanha-e-encerra-1o-giro-externo-apos-reeleicao",
+        "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/2026/161126-sanchez-encuentro-lula.aspx",
+        "https://infobae.com/america/agencias/2026/11/15/sanchez-se-reune-con-lula-en-moncloa-este-lunes-aunque-se-cancela-un-acto-de-campana-por-afonia-del-presidente-brasileno"
+      ],
+      "primeiraVezVisto": "2026-11-15T15:25:33-03:00",
+      "ultimaRevisao": "2026-11-16T10:30:42-03:00",
+      "status": "publicada",
+      "slug": "lula-sanchez-moncloa-nota-democracia-onu"
+    },
+    {
+      "id": "cabo-verde-presidenciais-2026-resultado",
+      "rotina": "noticias",
+      "tema": "Cabo Verde vota para presidente em 15/11 com seis candidatos; contagem provisória parcial em curso, sem resultado oficial",
+      "motivo": "aguardando-fato",
+      "falta": "resultado provisório completo da DGAPE ou da CNE, ou segundo veículo de editoria com os números (A Nação dá contagem parcial com 80,5% das mesas)",
+      "fontesAbertas": [
+        "https://www.inforpress.cv/",
+        "https://www.anacao.cv/noticia/2026/11/15/presidenciais-2026-candidato-jose-maria-neves-lidera-contagem-dos-votos-em-actualizacao/",
+        "https://observador.pt/2026/11/15/mesas-de-voto-fecham-e-arranca-contagem-para-escolha-de-presidente-da-republica-de-cabo-verde/",
+        "https://executivedigest.sapo.pt/cabo-verde-eleicoes-jose-maria-neves-lidera-contagem-com-637-dos-votos/",
+        "https://sbtnews.sbt.com.br/noticia/mundo/jose-maria-neves-lidera-eleicao-em-cabo-verde-com-63-7",
+        "https://pt.euronews.com/2026/11/15/cabo-verde-vai-hoje-a-votos-e-pode-ter-a-primeira-mulher-eleita-presidente-da-republica"
+      ],
+      "primeiraVezVisto": "2026-11-15T15:25:33-03:00",
+      "ultimaRevisao": "2026-11-15T19:28:57-03:00",
+      "status": "publicada",
+      "slug": "cabo-verde-neves-lidera-apuracao-parcial-presidenciais"
+    },
+    {
+      "id": "rede-adi-stf-lei-mg-26040-teto-caches-shows",
+      "rotina": "noticias",
+      "tema": "Rede contesta no STF a Lei 26.040/2026 de Minas, que limita gastos de prefeituras com cachês de shows; relator Zanin pede informações em dez dias",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.otempo.com.br/politica/aparte/2026/11/13/rede-contesta-no-stf-lei-que-limita-gastos-de-prefeituras-com-caches-de-artistas-em-minas"
+      ],
+      "falta": "número da ADI e andamento no portal do STF, ou segundo veículo de editoria (texto aberto é de coluna)",
+      "primeiraVezVisto": "2026-11-15T16:25:51-03:00",
+      "ultimaRevisao": "2026-11-15T22:36:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "erika-hilton-prazo-pagamento-nota-fiscal",
+      "rotina": "noticias",
+      "tema": "Erika Hilton anuncia que vai propor prazo máximo para pagamento a prestadores de serviço que emitem nota fiscal",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [
+        "https://www.correiobraziliense.com.br/politica/2026/11/7538876-erika-hilton-quer-limitar-prazo-de-pagamento-por-nota-fiscal.html"
+      ],
+      "falta": "projeto apresentado na Câmara, com número e texto",
+      "primeiraVezVisto": "2026-11-15T16:25:51-03:00",
+      "ultimaRevisao": "2026-11-15T16:25:51-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "mdhc-9-entrega-certidoes-obito-ditadura-porto-alegre",
+      "rotina": "noticias",
+      "tema": "MDHC, CEMDP e MPF entregam 26 certidões de óbito retificadas de vítimas da ditadura em Porto Alegre em 16/11",
+      "motivo": "numeros-divergentes",
+      "falta": "nota do MDHC ou MPF com o total entregue (aviso previa 26 certidões; Agência Brasil relata 14 famílias)",
+      "fontesAbertas": [
+        "https://agenciagov.ebc.com.br/noticias/202611/governo-do-brasil-realizara-9a-entrega-de-certidoes-de-obito-retificadas-de-vitimas-da-ditadura-em-porto-alegre-rs-na-segunda-feira-16",
+        "https://www.gov.br/mdh/pt-br/assuntos/noticias/2026/novembro/governo-do-brasil-realizara-9a-entrega-de-certidoes-de-obito-retificadas-de-vitimas-da-ditadura-em-porto-alegre-rs-na-segunda-feira-16",
+        "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-11/familias-de-14-vitimas-da-ditadura-tem-nova-certidao-de-obito-no-rs"
+      ],
+      "primeiraVezVisto": "2026-11-15T17:26:55-03:00",
+      "ultimaRevisao": "2026-11-16T21:30:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "pgr-primeiras-denuncias-caso-master-um-ano",
+      "rotina": "noticias",
+      "tema": "PGR prepara as primeiras denúncias do caso Master ao STF, em etapas, após o indiciamento de 15 pessoas pela PF",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.cnnbrasil.com.br/politica/pgr-prepara-primeiras-denuncias-no-caso-master-um-ano-apos-operacao/"
+      ],
+      "falta": "denúncia apresentada ao STF ou nota da PGR; estratégia vem de fontes não identificadas",
+      "primeiraVezVisto": "2026-11-15T23:26:28-03:00",
+      "ultimaRevisao": "2026-11-15T23:26:28-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "livro-carlos-lacerda-dulles",
+      "rotina": "livros",
+      "tema": "Resenha de Carlos Lacerda, a Vida de um Lutador, de John W. F. Dulles (Nova Fronteira, 2000)",
+      "motivo": "fonte-bloqueada",
+      "falta": "foto do livro: Amazon Brasil bloqueada (503) e Open Library sem capa para os ISBNs 8520909973 e 8520903533",
+      "fontesAbertas": [
+        "https://openlibrary.org/books/OL3972980M"
+      ],
+      "primeiraVezVisto": "2026-11-16T05:39:01-03:00",
+      "ultimaRevisao": "2026-11-18T05:46:09-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "livro-o-presidente-o-papa-e-a-primeira-ministra-osullivan",
+      "rotina": "livros",
+      "tema": "Resenha de O Presidente, o Papa e a Primeira-Ministra, de John O'Sullivan (LVM, 2ª edição 2023, 416 páginas, ISBN 9786550520946)",
+      "motivo": "fonte-bloqueada",
+      "falta": "foto do livro: Amazon Brasil bloqueada (503) e Open Library sem capa para o ISBN 9786550520946",
+      "fontesAbertas": [
+        "https://www.martinsfontespaulista.com.br/o-presidente--o-papa-e-a-primeira-ministra-1053529/p"
+      ],
+      "primeiraVezVisto": "2026-11-16T05:39:01-03:00",
+      "ultimaRevisao": "2026-11-18T05:46:09-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "marinho-canal-livre-nao-interditar-debates-presidencia-senado",
+      "rotina": "noticias",
+      "tema": "Rogério Marinho diz no Canal Livre que, se eleito presidente do Senado, não vai interditar debates e atuará como árbitro",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.terra.com.br/noticias/brasil/politica/rogerio-marinho-diz-que-nao-vai-interditar-debates-caso-seja-presidente-do-senado,1fb49c7a1fe94f13009151059775966ceu4pcbbh.html"
+      ],
+      "falta": "segunda fonte de editoria independente (demais sites republicam o Estadão Conteúdo)",
+      "primeiraVezVisto": "2026-11-16T06:29:48-03:00",
+      "ultimaRevisao": "2026-11-16T06:29:48-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "cleitinho-emenda-500-mil-show-mirabela",
+      "rotina": "noticias",
+      "tema": "Cleitinho cobra explicações sobre uso de emenda de R$ 500 mil em show em Mirabela (MG); ex-prefeito diz que verba seguiu o plano de ação",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.correiobraziliense.com.br/politica/2026/11/7539049-cleitinho-cobra-explicacoes-sobre-uso-de-emenda-em-show-de-claudia-leitte.html",
+        "https://www.cnnbrasil.com.br/politica/ex-prefeito-de-mg-diz-que-vai-processar-cleitinho-por-expor-ligacao-gravada/"
+      ],
+      "falta": "plano de ação no Transferegov ou veículo de outro grupo (texto é do Estado de Minas)",
+      "primeiraVezVisto": "2026-11-16T06:29:48-03:00",
+      "ultimaRevisao": "2026-11-16T22:25:14-03:00",
+      "status": "publicada",
+      "slug": "mirabela-ex-prefeito-processar-cleitinho-emenda-show"
+    },
+    {
+      "id": "urna-transparente-testes-estatisticos-eleicao-2026",
+      "rotina": "noticias",
+      "tema": "Projeto Urna Transparente (UFPE, USP) aplica testes estatísticos de fraude à eleição de 2026 e não encontra anomalias",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.oliberal.com/politica/eleicao-do-brasil-passa-em-testes-que-apontaram-fraudes-eleitorais-na-russia-nigeria-e-senegal-1.1194595",
+        "https://www.kcl.ac.uk/electoral-fraud-and-the-brazilian-missing-peaks",
+        "https://www.diariodepernambuco.com.br/politica/2026/11/11728545-pesquisa-da-ufpe-nao-identifica-indicios-de-fraude-em-votacao-que-reelegeu-lula-presidente.html"
+      ],
+      "falta": "estudo publicado pelos pesquisadores ou veículo de outro grupo (texto é do Estadão Conteúdo)",
+      "primeiraVezVisto": "2026-11-16T07:31:33-03:00",
+      "ultimaRevisao": "2026-11-16T08:26:09-03:00",
+      "status": "publicada",
+      "slug": "urna-transparente-ufpe-teste-fraude-eleicao-2026"
+    },
+    {
+      "id": "mpm-seis-casos-assedio-mulheres-servico-militar",
+      "rotina": "noticias",
+      "tema": "MPM apura seis casos de possíveis crimes contra mulheres do primeiro serviço militar feminino em cinco cidades",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.cnnbrasil.com.br/politica/mp-militar-apura-seis-casos-de-assedio-a-mulheres-das-forcas-armadas/"
+      ],
+      "falta": "levantamento ou nota do MPM, ou segunda fonte de editoria",
+      "primeiraVezVisto": "2026-11-16T07:31:33-03:00",
+      "ultimaRevisao": "2026-11-16T07:31:33-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "pcdf-operacao-livro-e-certidoes-estrangeiros",
+      "rotina": "noticias",
+      "tema": "PCDF deflagra operação contra fraude em cartórios do DF que emitia certidões para estrangeiros obterem documentos brasileiros",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.gazetadopovo.com.br/republica/policia-civil-desarticula-rede-que-vendia-identidades-brasileiras-para-russos/"
+      ],
+      "falta": "nota da PCDF (site deu 503) ou segunda fonte de editoria",
+      "primeiraVezVisto": "2026-11-16T07:31:33-03:00",
+      "ultimaRevisao": "2026-11-16T07:31:33-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "capa-falsa-veja-moro-ladrao-era-o-juiz",
+      "rotina": "checagem",
+      "tema": "Suposta capa da Veja com a manchete “No fim o ladrão era o juiz” sobre Moro, Dallagnol e Hardt (Boatos.org: montagem; edição 3021 traz outra capa)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.boatos.org/politica/veja-publicou-capa-chamando-sergio-moro-de-juiz-ladrao.html"
+      ],
+      "falta": "capa da edição 3021 ou segunda checagem aberta (site da Veja não abriu)",
+      "primeiraVezVisto": "2026-11-16T07:48:49-03:00",
+      "ultimaRevisao": "2026-11-17T07:47:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "moraes-nega-visita-marinho-tereza-cristina-bolsonaro",
+      "rotina": "noticias",
+      "tema": "Moraes nega pedido da defesa de Bolsonaro para visitas dos senadores Rogério Marinho e Tereza Cristina",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.cnnbrasil.com.br/blogs/teo-cury/politica/moraes-nega-visita-de-rogerio-marinho-e-tereza-cristina-a-bolsonaro/",
+        "https://www.gazetadopovo.com.br/republica/moraes-barra-visita-de-rogerio-marinho-e-tereza-cristina-a-bolsonaro",
+        "https://www.cnnbrasil.com.br/politica/marinho-e-tereza-criticam-moraes-por-negar-visita-a-bolsonaro-arbitrario/"
+      ],
+      "primeiraVezVisto": "2026-11-16T11:30:49-03:00",
+      "ultimaRevisao": "2026-11-17T06:28:05-03:00",
+      "status": "publicada",
+      "slug": "moraes-nega-visitas-senadores-bolsonaro-domiciliar"
+    },
+    {
+      "id": "boato-portiolli-demitiu-barnabe-gesto-l",
+      "rotina": "checagem",
+      "tema": "História de que Celso Portiolli demitiu Tiago Barnabé por recusar o gesto do L e de briga com Ratinho no SBT (Boatos.org: falso)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.boatos.org/entretenimento/celso-portiolli-demitiu-tiago-barnabe-por-se-recusar-a-fazer-o-l-e-ratinho-saiu-em-sua-defesa.html"
+      ],
+      "falta": "segunda checagem aberta ou nota do SBT",
+      "primeiraVezVisto": "2026-11-16T13:52:00-03:00",
+      "ultimaRevisao": "2026-11-17T07:47:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "videos-descarte-tomates-preco-alto-antigos",
+      "rotina": "checagem",
+      "tema": "Vídeos antigos de descarte de tomates ligados ao preço de R$ 22 o quilo ou a produtores bolsonaristas (Aos Fatos: gravados em 2024 e 2025)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://aosfatos.org/noticias/videos-que-mostram-descarte-de-tomates-nao-sao-recentes/"
+      ],
+      "falta": "segunda checagem aberta sobre os vídeos atuais",
+      "primeiraVezVisto": "2026-11-16T19:45:16-03:00",
+      "ultimaRevisao": "2026-11-17T19:45:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "tre-ce-maioria-ciro-violencia-politica-genero-vista",
+      "rotina": "noticias",
+      "tema": "TRE-CE forma maioria (4 votos) para manter condenação de Ciro Gomes por violência política de gênero contra Janaína Farias; vista adia resultado",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://diariodonordeste.verdesmares.com.br/pontopoder/tre-ce-forma-maioria-para-manter-condenacao-de-ciro-gomes-por-violencia-politica-de-genero-1.3806249"
+      ],
+      "falta": "fim do julgamento e segunda fonte de editoria",
+      "primeiraVezVisto": "2026-11-16T21:30:00-03:00",
+      "ultimaRevisao": "2026-11-17T13:27:56-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "livro-por-que-o-brasil-e-um-pais-atrasado-orleans-braganca",
+      "rotina": "livros",
+      "tema": "Resenha de Por que o Brasil é um país atrasado?, de Luiz Philippe de Orleans e Bragança (Maquinaria, ISBN 9788594484017)",
+      "motivo": "fonte-unica",
+      "falta": "ficha da edição no site da editora (páginas e ano divergem entre catálogos) e resenha crítica publicada que possa ser aberta",
+      "fontesAbertas": [
+        "https://openlibrary.org/books/OL35671042M",
+        "https://www.skoob.com.br/book/711021/editions"
+      ],
+      "primeiraVezVisto": "2026-11-17T05:23:44-03:00",
+      "ultimaRevisao": "2026-11-18T05:46:09-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "pgr-contra-soltura-paulo-henrique-costa-brb",
+      "rotina": "noticias",
+      "tema": "PGR defende no STF manter a prisão preventiva do ex-presidente do BRB Paulo Henrique Costa, investigado no caso Master",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.gazetadopovo.com.br/republica/pgr-e-contra-soltura-do-ex-presidente-do-brb/"
+      ],
+      "falta": "segunda fonte de editoria ou nota da PGR",
+      "primeiraVezVisto": "2026-11-17T06:28:05-03:00",
+      "ultimaRevisao": "2026-11-17T06:28:05-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "boato-lucas-pavanato-mulher-trans",
+      "rotina": "checagem",
+      "tema": "Vídeo com relato em primeira pessoa atribuído a Lucas Pavanato sobre ser mulher trans (Boatos.org: fala é de outra pessoa)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.boatos.org/politica/lucas-pavanato-era-uma-mulher-trans-antes-de-entrar-para-a-politica.html"
+      ],
+      "primeiraVezVisto": "2026-11-17T07:47:00-03:00",
+      "ultimaRevisao": "2026-11-17T07:47:00-03:00",
+      "status": "aberta",
+      "falta": "segunda checagem aberta ou nota do gabinete"
+    },
+    {
+      "id": "ormuz-ataques-petroleiros-15-16-novembro",
+      "rotina": "noticias",
+      "tema": "Ataques e explosões de petroleiros no Estreito de Ormuz em 15 e 16/11; tripulação de um navio desaparecida, segundo a UKMTO",
+      "motivo": "numeros-divergentes",
+      "fontesAbertas": [
+        "https://www.metropoles.com/mundo/tripulacao-de-petroleiro-esta-desaparecida-apos-ataque-no-estreito-de-ormuz"
+      ],
+      "primeiraVezVisto": "2026-11-17T08:40:00-03:00",
+      "ultimaRevisao": "2026-11-17T08:40:00-03:00",
+      "status": "aberta",
+      "falta": "número de navios atingidos diverge (três, seis, sete) e efeito no preço do petróleo sem fonte"
+    },
+    {
+      "id": "ipsos-ipec-saida-flavio-pais-46-desaprovam",
+      "rotina": "noticias",
+      "tema": "Ipsos-Ipec (5 a 9/11, 2.000 entrevistas): 46% desaprovam totalmente e 27% aprovam totalmente a saída de Flávio Bolsonaro do país",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.cnnbrasil.com.br/politica/ipsos-ipec-46-desaprovam-saida-de-flavio-do-pais-27-aprovam-totalmente/"
+      ],
+      "primeiraVezVisto": "2026-11-17T12:29:49-03:00",
+      "ultimaRevisao": "2026-11-18T11:30:33-03:00",
+      "status": "aberta",
+      "falta": "divulgação da Ipsos-Ipec ou veículo de outro grupo com os números"
+    },
+    {
+      "id": "tjsp-bloqueia-meta-180-mil-video-andre-fernandes-erika-hilton",
+      "rotina": "noticias",
+      "tema": "TJSP bloqueia cerca de R$ 180 mil da Meta por demora em remover vídeo de André Fernandes sobre Erika Hilton",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.cnnbrasil.com.br/politica/justica-bloqueia-r180-mil-da-meta-por-nao-remover-post-contra-erika-hilton/",
+        "https://www.gazetadopovo.com.br/republica/justica-bloqueia-r-180-mil-da-meta-por-nao-excluir-video-com-criticas-a-erika-hilton/"
+      ],
+      "primeiraVezVisto": "2026-11-17T12:29:49-03:00",
+      "ultimaRevisao": "2026-11-17T13:27:56-03:00",
+      "status": "publicada",
+      "slug": "justica-bloqueia-meta-180-mil-video-erika-hilton"
+    },
+    {
+      "id": "plp-299-destaques-senado-17-novembro",
+      "rotina": "noticias",
+      "tema": "Senado vota em 17/11 os quatro destaques da oposição ao PLP 299/2026 (ajuste fiscal); Câmara pode votar o texto no mesmo dia",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [
+        "https://www12.senado.leg.br/noticias/audios/2026/11/plenario-analisa-destaques-da-oposicao-ao-projeto-de-ajuste-fiscal",
+        "https://www25.senado.leg.br/web/atividade/materias/-/materia/176328/votacoes"
+      ],
+      "primeiraVezVisto": "2026-11-17T13:27:56-03:00",
+      "ultimaRevisao": "2026-11-17T18:26:57-03:00",
+      "status": "descartada",
+      "falta": "placar dos destaques registrado pelo Senado"
+    },
+    {
+      "id": "boato-nota-r-100-rosto-lula-2030",
+      "rotina": "checagem",
+      "tema": "Suposta nota de R$ 100 com o rosto de Lula que a Casa da Moeda lançaria em 2030 (Boatos.org: montagem, sem anúncio do Banco Central)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.boatos.org/politica/casa-da-moeda-vai-lancar-nota-de-r-100-com-rosto-de-lula-em-2030.html"
+      ],
+      "primeiraVezVisto": "2026-11-17T13:52:00-03:00",
+      "ultimaRevisao": "2026-11-17T19:45:00-03:00",
+      "status": "aberta",
+      "falta": "segunda checagem aberta ou nota do Banco Central ou da Casa da Moeda"
+    },
+    {
+      "id": "plp-299-destaques-senado-18-novembro",
+      "rotina": "noticias",
+      "tema": "Senado remarca para 18/11 a votação dos quatro destaques ao PLP 299/2026 (ajuste fiscal), a pedido do relator Eduardo Braga; Câmara vota depois",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [
+        "https://www12.senado.leg.br/noticias/materias/2026/11/17/votacao-de-destaques-ao-ajuste-fiscal-e-remarcada-na-quarta-feira",
+        "https://www.camara.leg.br/noticias/1320366-relator-defende-aprovacao-do-ajuste-fiscal-sem-mudancas-para-evitar-retorno-ao-senado"
+      ],
+      "primeiraVezVisto": "2026-11-17T18:26:57-03:00",
+      "ultimaRevisao": "2026-11-18T17:25:23-03:00",
+      "status": "aberta",
+      "falta": "placar dos destaques registrado pelo Senado em 18/11"
+    },
+    {
+      "id": "post-falso-rubio-lula-conspirou-ira",
+      "rotina": "checagem",
+      "tema": "Post atribuído a Marco Rubio dizendo que Lula conspirou contra os EUA na reunião com o presidente do Irã (Aos Fatos: perfil falso, sem registro oficial)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.aosfatos.org/noticias/falso-post-marco-rubio-lula-conspirar-eua-ira/"
+      ],
+      "primeiraVezVisto": "2026-11-17T19:45:00-03:00",
+      "ultimaRevisao": "2026-11-17T19:45:00-03:00",
+      "status": "aberta",
+      "falta": "segunda checagem aberta (Reuters bloqueada) ou página oficial do Departamento de Estado acessível"
+    },
+    {
+      "id": "pf-indicia-17-respiradores-consorcio-nordeste-rui-costa",
+      "rotina": "noticias",
+      "tema": "PF conclui inquérito dos respiradores do Consórcio Nordeste e indicia 17 pessoas; Rui Costa e Aline Peixoto ficam fora da lista enviada ao STJ",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.gazetadopovo.com.br/republica/pf-indicia-17-por-compra-irregular-respiradores-mas-exclui-rui-costa/"
+      ],
+      "primeiraVezVisto": "2026-11-17T22:27:35-03:00",
+      "ultimaRevisao": "2026-11-18T11:30:33-03:00",
+      "status": "aberta",
+      "falta": "segunda fonte independente (Gazeta reproduz apuração da Folha) ou nota da PF/STJ"
+    },
+    {
+      "id": "livro-10-mandamentos-luiz-felipe-davila",
+      "rotina": "livros",
+      "tema": "Resenha de 10 Mandamentos, de Luiz Felipe d'Avila (Topbooks, 2017, 199 páginas; nova edição Edições 70, 216 páginas)",
+      "motivo": "fonte-unica",
+      "falta": "resenha crítica publicada que possa ser aberta e definição da edição (Topbooks esgotada, Edições 70 sem capa na Open Library)",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-18T05:46:09-03:00",
+      "ultimaRevisao": "2026-11-18T05:46:09-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "livro-desculpe-me-socialista-lawrence-reed",
+      "rotina": "livros",
+      "tema": "Resenha de Desculpe-me, Socialista, de Lawrence W. Reed (Faro Editorial, 2019, 240 páginas, ISBN 9788595810488)",
+      "motivo": "fonte-unica",
+      "falta": "resenha crítica independente publicada (só achadas páginas da editora, do autor e de veículos do mesmo campo)",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-18T05:46:09-03:00",
+      "ultimaRevisao": "2026-11-18T05:46:09-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "moraes-arquiva-inq-4898-daniel-silveira-desobediencia",
+      "rotina": "noticias",
+      "tema": "Moraes arquiva, a pedido da PGR, inquérito contra Daniel Silveira por desobediência a cautelares (decisão de 16/11)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.gazetadopovo.com.br/republica/moraes-arquiva-inquerito-contra-daniel-silveira-por-suposta-violacao-de-cautelares/"
+      ],
+      "falta": "segunda fonte de editoria além da Gazeta do Povo (Atlas Público é redação; DJe do STF deu 403)",
+      "primeiraVezVisto": "2026-11-18T06:27:21-03:00",
+      "ultimaRevisao": "2026-11-18T11:30:33-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "ibge-desigualdades-cor-raca-prefeitas-pretas-2024",
+      "rotina": "noticias",
+      "tema": "IBGE (Desigualdades Sociais por Cor ou Raça, 3ª edição): mulheres pretas elegeram 20 das 5.558 prefeituras em 2024, o dobro de 2020",
+      "motivo": "numeros-divergentes",
+      "fontesAbertas": [
+        "https://www.cnnbrasil.com.br/politica/ibge-prefeitas-pretas-dobram-em-4-anos-mas-ainda-sao-menos-de-1-no-pais/"
+      ],
+      "falta": "publicação do IBGE acessível (site deu 403); vereadoras em 2024 aparecem como 18,1% e 18,3% conforme o veículo",
+      "primeiraVezVisto": "2026-11-18T12:28:54-03:00",
+      "ultimaRevisao": "2026-11-18T12:28:54-03:00",
+      "status": "aberta"
+    }
+  ]
+}

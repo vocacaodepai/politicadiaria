@@ -1,0 +1,35 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-14T12:21:57-03:00",
+  "fim": "2026-11-14T12:30:36-03:00",
+  "branch": "claude/pd-noticias-20261114-1221",
+  "publicou": [
+    "milton-leite-reu-pcc-transporte-sao-paulo"
+  ],
+  "descartou": [
+    {
+      "tema": "Receita detalha o perdão automático de dívidas previdenciárias de MEIs da LC 238/2026",
+      "motivo": "ja-publicado"
+    },
+    {
+      "tema": "MinC abre consulta pública sobre a nova instrução normativa da Lei Rouanet para 2027, até 30/11",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "coad.com.br",
+      "erro": "http-403"
+    },
+    {
+      "host": "brasilparticipativo.presidencia.gov.br",
+      "erro": "http-5xx"
+    },
+    {
+      "host": "www1.folha.uol.com.br",
+      "erro": "outro",
+      "detalhe": "ferramenta de leitura recusa o domínio"
+    }
+  ],
+  "pr": null
+}

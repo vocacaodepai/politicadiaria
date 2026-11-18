@@ -1,0 +1,14 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-16T06:21:15-03:00",
+  "fim": "2026-11-16T06:29:57-03:00",
+  "branch": "claude/pd-noticias-20261116-0621",
+  "publicou": ["correios-prejuizo-7-5-bilhoes-ate-setembro-2026"],
+  "descartou": [
+    { "tema": "Rogério Marinho no Canal Livre: não vai interditar debates se presidir o Senado", "motivo": "fonte-unica", "pauta": "marinho-canal-livre-nao-interditar-debates-presidencia-senado" },
+    { "tema": "Cleitinho cobra explicações sobre emenda de R$ 500 mil usada em show em Mirabela (MG)", "motivo": "fonte-unica", "pauta": "cleitinho-emenda-500-mil-show-mirabela" },
+    { "tema": "A um mês da nova jornada, STF ainda precisa julgar a liminar da escala 5x2 (CNN)", "motivo": "ja-publicado" }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

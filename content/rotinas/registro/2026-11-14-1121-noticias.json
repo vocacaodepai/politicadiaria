@@ -1,0 +1,26 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-14T11:21:52-03:00",
+  "fim": "2026-11-14T11:28:27-03:00",
+  "branch": "claude/pd-noticias-20261114-1121",
+  "publicou": [
+    "valdemar-video-pl-bloco-hugo-motta-consulta"
+  ],
+  "descartou": [
+    {
+      "tema": "Dino divulga esclarecimentos sobre a liminar da jornada 5x2 (sem exceções nem negociação individual); referendo segue até 16/11",
+      "motivo": "aguardando-fato",
+      "pauta": "stf-referendo-liminar-dino-jornada-5x2-sessao-virtual"
+    },
+    {
+      "tema": "MDHC soma 831 denúncias de assédio eleitoral e violência política entre 11/9 e 6/11",
+      "motivo": "sem-fonte-primaria"
+    },
+    {
+      "tema": "Tesouro prevê normalizar até 16/11 os sistemas fora do ar após o vazamento de dados",
+      "motivo": "ja-publicado"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

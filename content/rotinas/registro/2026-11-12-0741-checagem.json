@@ -1,0 +1,17 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-12T07:41:07-03:00",
+  "fim": "2026-11-12T07:45:41-03:00",
+  "branch": "claude/pd-checagem-20261112-0741",
+  "publicou": [
+    "video-lula-aplaudido-hotel-e-do-japao-2025-nao-da-cop31",
+    "video-protesto-contra-lula-interlagos-e-de-2022-nao-do-gp-2026"
+  ],
+  "descartou": [],
+  "bloqueios": [
+    { "host": "lupa.uol.com.br", "erro": "outro", "detalhe": "página não abriu na ferramenta de leitura" },
+    { "host": "ocp.news", "erro": "http-403" },
+    { "host": "www.band.com.br", "erro": "http-403" }
+  ],
+  "pr": null
+}

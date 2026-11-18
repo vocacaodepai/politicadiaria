@@ -1,0 +1,14 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-12T07:21:22-03:00",
+  "fim": "2026-11-12T07:29:25-03:00",
+  "branch": "claude/pd-noticias-20261112-0721",
+  "publicou": [
+    "camara-aprova-perda-heranca-curatela-abusiva"
+  ],
+  "descartou": [],
+  "bloqueios": [
+    { "host": "www.planalto.gov.br", "erro": "outro", "detalhe": "conexão sem resposta ao abrir a Lei 10.741/2003" }
+  ],
+  "pr": null
+}

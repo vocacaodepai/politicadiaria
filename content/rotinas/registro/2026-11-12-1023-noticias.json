@@ -1,0 +1,30 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-12T10:23:24-03:00",
+  "fim": "2026-11-12T10:29:57-03:00",
+  "branch": "claude/pd-noticias-20261112-1026",
+  "publicou": [
+    "alckmin-sanciona-lei-15528-cana-frota-sem-vetos"
+  ],
+  "descartou": [
+    {
+      "tema": "Lucro do Banco do Brasil cai 66,5% no 3º trimestre",
+      "motivo": "sem-angulo"
+    },
+    {
+      "tema": "Pauta do plenário do STF de 12/11 (ADPFs 1185 e 1241, piso do magistério)",
+      "motivo": "aguardando-fato"
+    },
+    {
+      "tema": "Reunião de Fachin e Moraes com relatores do Orçamento de 2027 na CMO",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.canalrural.com.br",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}

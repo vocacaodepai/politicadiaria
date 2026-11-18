@@ -1,0 +1,27 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-14T17:21:46-03:00",
+  "fim": "2026-11-14T17:27:57-03:00",
+  "branch": "claude/pd-noticias-20261114-1721",
+  "publicou": [
+    "lula-rouquidao-cancela-discurso-declaracao-manila"
+  ],
+  "descartou": [
+    {
+      "tema": "Resultado da reunião do PDT sobre a federação com o PSB",
+      "motivo": "aguardando-fato",
+      "pauta": "pdt-diretorio-federacao-psb-14-novembro"
+    },
+    {
+      "tema": "MMA abre consulta pública sobre o plano nacional contra o calor extremo",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.band.com.br",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}

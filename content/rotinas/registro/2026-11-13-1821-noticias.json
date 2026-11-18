@@ -1,0 +1,17 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-13T18:21:39-03:00",
+  "fim": "2026-11-13T18:25:33-03:00",
+  "branch": "claude/pd-noticias-20261113-1821",
+  "publicou": [
+    "tse-senado-eleitos-negros-29-6-por-cento"
+  ],
+  "descartou": [],
+  "bloqueios": [
+    {
+      "host": "bibliotecadigital.tse.jus.br",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}

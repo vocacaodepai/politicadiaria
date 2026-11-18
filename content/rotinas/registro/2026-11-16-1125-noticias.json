@@ -1,0 +1,15 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-16T11:25:01-03:00",
+  "fim": "2026-11-16T11:30:59-03:00",
+  "branch": "claude/pd-noticias-20261116-1125",
+  "publicou": ["mpdft-senacon-precos-hoteis-posse-lula"],
+  "descartou": [
+    { "tema": "Moraes nega visitas de Rogério Marinho e Tereza Cristina a Bolsonaro", "motivo": "fonte-unica", "pauta": "moraes-nega-visita-marinho-tereza-cristina-bolsonaro" },
+    { "tema": "Entrega de certidões de óbito de vítimas da ditadura em Porto Alegre", "motivo": "aguardando-fato", "pauta": "mdhc-9-entrega-certidoes-obito-ditadura-porto-alegre" }
+  ],
+  "bloqueios": [
+    { "host": "www.mercadoeeventos.com.br", "erro": "http-403" }
+  ],
+  "pr": null
+}

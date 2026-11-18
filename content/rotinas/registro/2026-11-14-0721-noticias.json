@@ -1,0 +1,27 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-14T07:21:17-03:00",
+  "fim": "2026-11-14T07:27:11-03:00",
+  "branch": "claude/pd-noticias-20261114-0721",
+  "publicou": [
+    "pt-projetos-grandes-fortunas-dividendos-lci-lca"
+  ],
+  "descartou": [
+    {
+      "tema": "Gilmar Mendes rebate Sergio Moro sobre a anulação da condenação de Lula",
+      "motivo": "sem-angulo",
+      "pauta": "gilmar-rebate-moro-lula-2018-redes"
+    },
+    {
+      "tema": "TRF3 manda desarquivar investigação sobre a morte do militante Luiz José da Cunha em 1973",
+      "motivo": "aguardando-fato",
+      "pauta": "trf3-desarquiva-caso-comandante-crioulo-1973"
+    },
+    {
+      "tema": "Vice-prefeito de São Paulo e denúncia sobre a Virada Esportiva",
+      "motivo": "ja-publicado"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

@@ -1,0 +1,21 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-12T22:22:02-03:00",
+  "fim": "2026-11-12T22:27:49-03:00",
+  "branch": "claude/pd-noticias-20261112-2225",
+  "publicou": [
+    "dolar-5-65-pacote-fiscal-banco-do-brasil-ibovespa"
+  ],
+  "descartou": [
+    {
+      "tema": "Destaques do PLP 299 no Senado",
+      "motivo": "aguardando-fato"
+    },
+    {
+      "tema": "STF rejeita embargos na ADPF 165 dos planos econômicos",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

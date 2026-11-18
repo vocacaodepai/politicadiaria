@@ -1,0 +1,26 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-13T05:21:53-03:00",
+  "fim": "2026-11-13T05:28:16-03:00",
+  "branch": "claude/pd-noticias-20261113-0521",
+  "publicou": [
+    "senasp-violencia-domestica-vicio-apostas-75-por-cento"
+  ],
+  "descartou": [
+    {
+      "tema": "Lula chega a Manila para visita de Estado às Filipinas",
+      "motivo": "aguardando-fato"
+    },
+    {
+      "tema": "Destaques do PLP 299 adiados para terça (17) no Senado",
+      "motivo": "ja-publicado"
+    },
+    {
+      "tema": "BNDES: anúncio de R$ 52 bilhões na COP31",
+      "motivo": "fonte-unica",
+      "pauta": "bndes-cop31-52-bilhoes"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

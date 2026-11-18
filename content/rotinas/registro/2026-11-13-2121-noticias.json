@@ -1,0 +1,12 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-13T21:21:34-03:00",
+  "fim": "2026-11-13T21:26:24-03:00",
+  "branch": "claude/pd-noticias-20261113-2121",
+  "publicou": [
+    "senadoras-cdh-diligencia-bacabal-irmaos-desaparecidos"
+  ],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}

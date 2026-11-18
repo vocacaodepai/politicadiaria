@@ -1,0 +1,12 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-17T19:21:51-03:00",
+  "fim": "2026-11-17T19:26:50-03:00",
+  "branch": "claude/pd-noticias-20261117-1921",
+  "publicou": [
+    "ucrania-derruba-trecho-ponte-crimeia-kerch"
+  ],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}

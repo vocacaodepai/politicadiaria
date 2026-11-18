@@ -1,0 +1,31 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-17T14:22:00-03:00",
+  "fim": "2026-11-17T14:27:34-03:00",
+  "branch": "claude/pd-noticias-20261117-1422",
+  "publicou": [
+    "voto-facultativo-comparecimento-urnas-2026"
+  ],
+  "descartou": [
+    {
+      "tema": "Destaques do PLP 299/2026 no Senado",
+      "motivo": "aguardando-fato",
+      "pauta": "plp-299-destaques-senado-17-novembro"
+    },
+    {
+      "tema": "Ipsos-Ipec sobre a saída de Flávio Bolsonaro do país",
+      "motivo": "fonte-unica",
+      "pauta": "ipsos-ipec-saida-flavio-pais-46-desaprovam"
+    },
+    {
+      "tema": "CDR do Senado aprova ampliação de áreas de livre comércio no Acre (PL 4.232/2025)",
+      "motivo": "sem-angulo"
+    },
+    {
+      "tema": "Comissão de Segurança da Câmara aprova PL 2443/2026 (fundo para indenizar vítimas)",
+      "motivo": "ja-publicado"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

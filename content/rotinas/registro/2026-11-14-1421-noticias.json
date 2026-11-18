@@ -1,0 +1,27 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-14T14:21:03-03:00",
+  "fim": "2026-11-14T14:29:34-03:00",
+  "branch": "claude/pd-noticias-20261114-1421",
+  "publicou": [
+    "psb-aprova-iniciar-federacao-pdt-unanimidade"
+  ],
+  "descartou": [
+    {
+      "tema": "Pesquisa AtlasIntel/Bloomberg sobre aprovação do governo Lula",
+      "motivo": "fonte-unica",
+      "pauta": "atlasintel-bloomberg-aprovacao-lula-novembro-2026"
+    },
+    {
+      "tema": "Carta da Celac por secretário-geral latino-americano na ONU",
+      "motivo": "numeros-divergentes",
+      "pauta": "celac-carta-secretario-geral-onu-latino"
+    },
+    {
+      "tema": "Moretti defende ajuste fiscal em vídeo",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

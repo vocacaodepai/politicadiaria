@@ -1,0 +1,16 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-13T09:21:48-03:00",
+  "fim": "2026-11-13T09:29:30-03:00",
+  "branch": "claude/pd-noticias-20261113-0921",
+  "publicou": ["varejo-sobe-02-setembro-ibge-estabilidade"],
+  "descartou": [
+    { "tema": "STF julga em sessão virtual o referendo da liminar de Dino sobre a jornada 5x2", "motivo": "aguardando-fato", "pauta": "stf-referendo-liminar-dino-jornada-5x2-sessao-virtual" },
+    { "tema": "2ª fase da Operação Make Up sobre emendas parlamentares", "motivo": "aguardando-fato", "pauta": "pf-operacao-make-up-segunda-fase" }
+  ],
+  "bloqueios": [
+    { "host": "www.cnnbrasil.com.br", "erro": "http-403" },
+    { "host": "www1.folha.uol.com.br", "erro": "outro", "detalhe": "fetch recusado" }
+  ],
+  "pr": null
+}

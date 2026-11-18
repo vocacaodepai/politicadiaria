@@ -1,0 +1,36 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-17T12:21:49-03:00",
+  "fim": "2026-11-17T12:29:57-03:00",
+  "branch": "claude/pd-noticias-20261117-1221",
+  "publicou": [
+    "cleitinho-anuncia-comando-pm-minas-ralfe-veiga"
+  ],
+  "descartou": [
+    {
+      "tema": "Ipsos-Ipec sobre a saída de Flávio Bolsonaro do país",
+      "motivo": "fonte-unica",
+      "pauta": "ipsos-ipec-saida-flavio-pais-46-desaprovam"
+    },
+    {
+      "tema": "TJSP bloqueia R$ 180 mil da Meta por vídeo contra Erika Hilton",
+      "motivo": "fonte-unica",
+      "pauta": "tjsp-bloqueia-meta-180-mil-video-andre-fernandes-erika-hilton"
+    },
+    {
+      "tema": "Destaques do PLP 299/2026 no plenário do Senado",
+      "motivo": "aguardando-fato"
+    },
+    {
+      "tema": "TRE-CE e condenação de Ciro Gomes (pedido de vista)",
+      "motivo": "aguardando-fato",
+      "pauta": "tre-ce-maioria-ciro-violencia-politica-genero-vista"
+    },
+    {
+      "tema": "Dois anos da Aliança Global contra a Fome (evento em Roma em 18/11)",
+      "motivo": "aguardando-fato"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

@@ -1,0 +1,13 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-13T02:21:55-03:00",
+  "fim": "2026-11-13T02:27:28-03:00",
+  "branch": "claude/pd-noticias-20261113-0225",
+  "publicou": ["tesouro-caixa-seguridade-vazamento-dados-anpd"],
+  "descartou": [
+    { "tema": "Emendas acolhidas no PLP 299 e destaques para 17/11", "motivo": "ja-publicado" },
+    { "tema": "PLN 18/2026 amplia remanejamento do Orçamento", "motivo": "ja-publicado" }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

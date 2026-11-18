@@ -1,0 +1,31 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-14T00:21:48-03:00",
+  "fim": "2026-11-14T00:23:33-03:00",
+  "branch": "claude/pd-noticias-20261114-0021",
+  "publicou": [],
+  "descartou": [
+    {
+      "tema": "Lula e Marcos em Manila: reunião bilateral ainda sem resultado publicado",
+      "motivo": "aguardando-fato",
+      "pauta": "lula-filipinas-visita-estado-marcos-14-novembro"
+    },
+    {
+      "tema": "STF tem 4 votos para referendar liminar de Dino sobre a jornada 5x2",
+      "motivo": "aguardando-fato",
+      "pauta": "stf-referendo-liminar-dino-jornada-5x2-sessao-virtual"
+    },
+    {
+      "tema": "Gilmar Mendes rebate Sergio Moro sobre condenação de Lula em 2018",
+      "motivo": "fonte-unica",
+      "pauta": "gilmar-rebate-moro-lula-2018-redes"
+    },
+    {
+      "tema": "Fachin defende indicação de ministra negra para o STF",
+      "motivo": "fonte-unica",
+      "pauta": "fachin-ministra-negra-stf-enajun"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

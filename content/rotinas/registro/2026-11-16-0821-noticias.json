@@ -1,0 +1,13 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-16T08:21:04-03:00",
+  "fim": "2026-11-16T08:26:15-03:00",
+  "branch": "claude/pd-noticias-20261116-0821",
+  "publicou": ["urna-transparente-ufpe-teste-fraude-eleicao-2026"],
+  "descartou": [
+    { "tema": "Lula e Sánchez em Madri", "motivo": "aguardando-fato", "pauta": "lula-sanchez-madri-16-novembro" },
+    { "tema": "Entrega de certidões de óbito de vítimas da ditadura em Porto Alegre", "motivo": "aguardando-fato", "pauta": "mdhc-9-entrega-certidoes-obito-ditadura-porto-alegre" }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

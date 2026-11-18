@@ -1,0 +1,19 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-16T07:21:23-03:00",
+  "fim": "2026-11-16T07:31:48-03:00",
+  "branch": "claude/pd-noticias-20261116-0721",
+  "publicou": ["pl-2902-terrorismo-movimentos-sociais-lei-13260"],
+  "descartou": [
+    { "tema": "Projeto Urna Transparente aplica testes estatísticos de fraude à eleição de 2026", "motivo": "fonte-unica", "pauta": "urna-transparente-testes-estatisticos-eleicao-2026" },
+    { "tema": "MPM apura seis casos de possíveis crimes contra mulheres do serviço militar", "motivo": "fonte-unica", "pauta": "mpm-seis-casos-assedio-mulheres-servico-militar" },
+    { "tema": "PCDF e fraude em cartórios para documentos de estrangeiros", "motivo": "fonte-unica", "pauta": "pcdf-operacao-livro-e-certidoes-estrangeiros" },
+    { "tema": "Governo mapeia 26 cadeiras vagas em agências e autarquias", "motivo": "sem-fonte-primaria" },
+    { "tema": "Lula e Sánchez em Madri", "motivo": "aguardando-fato", "pauta": "lula-sanchez-madri-16-novembro" }
+  ],
+  "bloqueios": [
+    { "host": "www.pcdf.df.gov.br", "erro": "http-5xx", "detalhe": "503" },
+    { "host": "congressoemfoco.uol.com.br", "erro": "outro", "detalhe": "fetch recusado pela ferramenta" }
+  ],
+  "pr": null
+}

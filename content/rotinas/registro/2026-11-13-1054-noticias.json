@@ -1,0 +1,32 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-13T10:54:54-03:00",
+  "fim": "2026-11-13T11:00:29-03:00",
+  "branch": "claude/pd-noticias-20261113-1054",
+  "publicou": [
+    "pf-segunda-fase-operacao-make-up-emendas-dark-horse"
+  ],
+  "descartou": [
+    {
+      "tema": "STF julga em sessão virtual o referendo da liminar de Dino sobre a jornada 5x2",
+      "motivo": "aguardando-fato",
+      "pauta": "stf-referendo-liminar-dino-jornada-5x2-sessao-virtual"
+    },
+    {
+      "tema": "Lula chega às Filipinas antes da cúpula da Asean",
+      "motivo": "ja-publicado"
+    },
+    {
+      "tema": "Consulta pública do plano trienal de proteção de crianças no ambiente digital",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "noticias.stf.jus.br",
+      "erro": "http-403",
+      "detalhe": "curl recusado; WebFetch abriu"
+    }
+  ],
+  "pr": null
+}

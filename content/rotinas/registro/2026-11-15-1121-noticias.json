@@ -1,0 +1,22 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-15T11:21:00-03:00",
+  "fim": "2026-11-15T11:26:44-03:00",
+  "branch": "claude/pd-noticias-20261115-1121",
+  "publicou": [
+    "lula-tarifaco-novos-parceiros-asean-coletiva"
+  ],
+  "descartou": [
+    {
+      "tema": "Resultado da reunião do PDT sobre a federação com o PSB",
+      "motivo": "aguardando-fato",
+      "pauta": "pdt-diretorio-federacao-psb-14-novembro"
+    },
+    {
+      "tema": "Eleição presidencial em Cabo Verde",
+      "motivo": "aguardando-fato"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

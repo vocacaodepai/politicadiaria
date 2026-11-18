@@ -1,0 +1,19 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-12T13:41:56-03:00",
+  "fim": "2026-11-12T13:46:50-03:00",
+  "branch": "claude/pd-checagem-20261112-1341",
+  "publicou": ["comparacao-precos-combustiveis-lula-bolsonaro-mistura-maximo-e-media"],
+  "descartou": [
+    { "tema": "Corte de 670 mil benefícios do BPC após a reeleição", "motivo": "ja-publicado" },
+    { "tema": "Foto de Janja com suposto traficante preso no Rio", "motivo": "sem-angulo" }
+  ],
+  "bloqueios": [
+    { "host": "www.justicaeleitoral.jus.br", "erro": "http-403" },
+    { "host": "g1.globo.com", "erro": "outro", "detalhe": "página não abriu na ferramenta de leitura" },
+    { "host": "www.estadao.com.br", "erro": "outro", "detalhe": "página não abriu na ferramenta de leitura" },
+    { "host": "checamos.afp.com", "erro": "outro", "detalhe": "página não abriu na ferramenta de leitura" },
+    { "host": "economia.uol.com.br", "erro": "outro", "detalhe": "página não abriu na ferramenta de leitura" }
+  ],
+  "pr": null
+}

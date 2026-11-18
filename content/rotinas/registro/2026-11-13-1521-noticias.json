@@ -1,0 +1,32 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-13T15:21:07-03:00",
+  "fim": "2026-11-13T15:29:17-03:00",
+  "branch": "claude/pd-noticias-20261113-1521",
+  "publicou": [
+    "oab-pede-stf-cnj-suspensao-prazos-falha-microsoft"
+  ],
+  "descartou": [
+    {
+      "tema": "AGU envia ao STF parecer contra pedido do PSD por segundo turno no Rio",
+      "motivo": "fonte-unica",
+      "pauta": "agu-parecer-adpf-1362-psd-segundo-turno-rio"
+    },
+    {
+      "tema": "Placar do referendo da liminar de Dino sobre a jornada 5x2",
+      "motivo": "fonte-unica",
+      "pauta": "stf-referendo-liminar-dino-jornada-5x2-sessao-virtual"
+    },
+    {
+      "tema": "Lula chega às Filipinas antes da visita de Estado e da cúpula da Asean",
+      "motivo": "aguardando-fato"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "noticias.stf.jus.br",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}

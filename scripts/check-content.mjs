@@ -14,6 +14,7 @@ import { checkHistoria, loadHistoria } from "./lib/check-historia.mjs";
 import { checkPromessas } from "./lib/check-promessas.mjs";
 import { checkCpfCongresso } from "./lib/check-cpf-congresso.mjs";
 import { checkProposicoesNoticias } from "./lib/check-proposicoes-noticias.mjs";
+import { checkFila, checkRegistro } from "./lib/check-rotinas.mjs";
 
 const ROOT = resolve(new URL("..", import.meta.url).pathname);
 const ARTICLES_DIR = resolve(ROOT, "content/articles");
@@ -27,6 +28,12 @@ const STRICT_FROM_DATE = "2026-10-07";
 // Notícias com data igual ou posterior a esta precisam do mesmo tamanho de texto
 // dos artigos (>= 900 palavras, >= 3 h2). As notícias já publicadas antes ficam como estão.
 const NEWS_STRICT_FROM_DATE = "2026-10-07";
+// Notícias com data igual ou posterior a esta têm título de até 65 caracteres (o Google corta
+// o título no resultado de busca por volta disso). Acima do limite gera aviso, não erro; as
+// notícias anteriores seguem com o aviso antigo (acima de 70) e não são editadas.
+const NEWS_TITLE_FROM_DATE = "2026-11-12";
+const NEWS_TITLE_MAX = 65;
+const TITLE_MAX_LEGACY = 70;
 const MIN_INTERNAL_LINKS = 6;
 const MIN_WORDS_STRICT = 900;
 const MIN_WORDS_WARN = 600;
@@ -227,7 +234,10 @@ function check() {
     else if (it.date > TODAY) errors.push(`${where}: data no futuro (${it.date} > hoje ${TODAY} em America/Sao_Paulo)`);
     if (it.updated && it.updated < it.date) errors.push(`${where}: updated (${it.updated}) anterior a date (${it.date})`);
     if (!it.title) errors.push(`${where}: sem title`);
-    if (it.title.length > 70) warnings.push(`${where}: title com ${it.title.length} caracteres (Google corta em ~60-70)`);
+    const titleMax = it.kind === "noticias" && it.date >= NEWS_TITLE_FROM_DATE ? NEWS_TITLE_MAX : TITLE_MAX_LEGACY;
+    if (it.title.length > titleMax) {
+      warnings.push(`${where}: title com ${it.title.length} caracteres (limite ${titleMax}; Google corta em ~60-70)`);
+    }
     if (it.kind === "artigos") {
       if (!it.excerpt) errors.push(`${where}: sem excerpt`);
       else if (it.excerpt.length > 180) warnings.push(`${where}: excerpt com ${it.excerpt.length} caracteres (meta description ideal < 160)`);
@@ -361,7 +371,8 @@ function check() {
 
   // História (/historia): validação própria em scripts/lib/check-historia.mjs.
   const historiaCtx = { ...ctx, checagemSlugs: new Set(checagensList.map((c) => c.slug)) };
-  const historia = checkHistoria(loadHistoria(HISTORIA_DIR, historiaCtx), historiaCtx);
+  const historiaList = loadHistoria(HISTORIA_DIR, historiaCtx);
+  const historia = checkHistoria(historiaList, historiaCtx);
 
   // Painel de promessas (/promessas): validação própria em scripts/lib/check-promessas.mjs.
   const promessas = checkPromessas(ctx).propostas;
@@ -369,7 +380,58 @@ function check() {
   // Placar oficial nas notícias: mapeamento notícia -> proposição (content/proposicoes-noticias.json).
   checkProposicoesNoticias(ROOT, newsSlugs, errors);
 
-  return { articles: articles.length, news: news.length, checagens, historia, promessas };
+  // Fila de pautas e registro das rodadas (internos, só para /interno/rotinas): scripts/lib/check-rotinas.mjs.
+  const contentSlugs = new Set([
+    ...articleSlugs,
+    ...newsSlugs,
+    ...checagensList.map((c) => c.slug),
+    ...historiaList.map((h) => h.slug),
+  ]);
+  const pautas = checkFila(ROOT, { errors, contentSlugs });
+  const rodadas = checkRegistro(ROOT, { errors, contentSlugs });
+
+  // Temas (/temas): todo slug de content/temas.ts precisa existir em content/news/.
+  const temas = checkTemas(newsSlugs);
+
+  return { articles: articles.length, news: news.length, checagens, historia, promessas, temas, pautas, rodadas };
+}
+
+/**
+ * Confere content/temas.ts: slug de tema único e em kebab-case, título e descrição
+ * presentes, sem travessão, e cada notícia listada existente em content/news/.
+ */
+function checkTemas(newsSlugs) {
+  let src;
+  try {
+    src = readFileSync(resolve(ROOT, "content/temas.ts"), "utf8");
+  } catch {
+    return 0;
+  }
+  const where = "content/temas.ts";
+  if (src.includes("\u2014")) errors.push(`${where}: travessão (\u2014) não é permitido`);
+  const blocks = src.split(/\n  \{\n/).slice(1);
+  const seen = new Set();
+  for (const b of blocks) {
+    const slug = (b.match(/slug:\s*"([^"]+)"/) || [])[1];
+    if (!slug) {
+      errors.push(`${where}: tema sem slug`);
+      continue;
+    }
+    if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(slug)) errors.push(`${where}: slug de tema inválido "${slug}"`);
+    if (seen.has(slug)) errors.push(`${where}: tema duplicado "${slug}"`);
+    seen.add(slug);
+    if (!/titulo:\s*"[^"]+"/.test(b)) errors.push(`${where}: tema "${slug}" sem titulo`);
+    if (!/descricao:\s*\n?\s*"[^"]{40,}"/.test(b)) errors.push(`${where}: tema "${slug}" sem descricao`);
+    const list = (b.match(/noticias:\s*\[([\s\S]*?)\]/) || [])[1];
+    if (list === undefined) {
+      errors.push(`${where}: tema "${slug}" sem lista noticias`);
+      continue;
+    }
+    for (const m of list.matchAll(/"([^"]+)"/g)) {
+      if (!newsSlugs.has(m[1])) errors.push(`${where}: tema "${slug}" cita notícia inexistente "${m[1]}"`);
+    }
+  }
+  return seen.size;
 }
 
 const stats = check();
@@ -383,5 +445,5 @@ if (errors.length) {
   process.exit(1);
 }
 console.log(
-  `check-content: ok (${stats.articles} artigos, ${stats.news} notícias, ${stats.checagens} checagens, ${stats.historia} artigos de história, ${stats.promessas} promessas, ${congressFiles} arquivos de dados do Congresso sem CPF, ${warnings.length} aviso(s))`
+  `check-content: ok (${stats.articles} artigos, ${stats.news} notícias, ${stats.checagens} checagens, ${stats.historia} artigos de história, ${stats.promessas} promessas, ${stats.temas} temas, ${stats.pautas} pautas na fila, ${stats.rodadas} rodadas no registro, ${congressFiles} arquivos de dados do Congresso sem CPF, ${warnings.length} aviso(s))`
 );

@@ -1,0 +1,39 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-12T09:21:59-03:00",
+  "fim": "2026-11-12T09:29:33-03:00",
+  "branch": "claude/pd-noticias-20261112-0922",
+  "publicou": [
+    "ipca-outubro-014-doze-meses-463-teto"
+  ],
+  "descartou": [
+    {
+      "tema": "Projeto que retira R$ 10,5 bi de subsídios ao diesel da meta fiscal",
+      "motivo": "ja-publicado"
+    },
+    {
+      "tema": "Pacote fiscal e prazo de 120 dias para supersalários",
+      "motivo": "ja-publicado"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "agenciadenoticias.ibge.gov.br",
+      "erro": "http-403"
+    },
+    {
+      "host": "www.ibge.gov.br",
+      "erro": "http-403"
+    },
+    {
+      "host": "servicodados.ibge.gov.br",
+      "erro": "outro",
+      "detalhe": "conexão recusada (API Sidra)"
+    },
+    {
+      "host": "br.advfn.com",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}

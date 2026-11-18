@@ -1,0 +1,47 @@
+{
+  "rotina": "livros",
+  "inicio": "2026-11-18T05:24:37-03:00",
+  "fim": "2026-11-18T05:46:09-03:00",
+  "branch": "claude/pd-livros-20261118-0524",
+  "publicou": [
+    "catastrofe-niall-ferguson-critica",
+    "joseph-goebbels-longerich-objetiva",
+    "lucros-e-perdas-mises-lvm"
+  ],
+  "descartou": [
+    {
+      "tema": "10 Mandamentos, de Luiz Felipe d'Avila (Topbooks/Edições 70)",
+      "motivo": "fonte-unica",
+      "pauta": "livro-10-mandamentos-luiz-felipe-davila"
+    },
+    {
+      "tema": "Desculpe-me, Socialista, de Lawrence W. Reed (Faro Editorial)",
+      "motivo": "fonte-unica",
+      "pauta": "livro-desculpe-me-socialista-lawrence-reed"
+    },
+    {
+      "tema": "O Jardim das Aflições, de Olavo de Carvalho (Vide Editorial)",
+      "motivo": "fonte-bloqueada"
+    },
+    {
+      "tema": "Economia Básica, de Thomas Sowell (Alta Books) e A Ascensão do Dinheiro, de Niall Ferguson (Planeta)",
+      "motivo": "fonte-bloqueada"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.amazon.com.br",
+      "erro": "http-5xx",
+      "detalhe": "503 nas páginas dos produtos; fotos vieram da Open Library"
+    },
+    {
+      "host": "www.googleapis.com",
+      "erro": "http-429"
+    },
+    {
+      "host": "www.estantevirtual.com.br",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}

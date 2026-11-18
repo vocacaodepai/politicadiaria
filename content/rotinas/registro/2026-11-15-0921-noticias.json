@@ -1,0 +1,33 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-15T09:21:00-03:00",
+  "fim": "2026-11-15T09:29:57-03:00",
+  "branch": "claude/pd-noticias-20261115-0921",
+  "publicou": [
+    "feminicidio-perseguicao-aumento-pena-pl-1181"
+  ],
+  "descartou": [
+    {
+      "tema": "Lula na plenária da 49ª Cúpula da Asean em Manila",
+      "motivo": "fonte-unica",
+      "pauta": "lula-asean-49-cupula-plenaria-manila-15-novembro"
+    },
+    {
+      "tema": "Resultado da reunião do PDT sobre a federação com o PSB",
+      "motivo": "aguardando-fato",
+      "pauta": "pdt-diretorio-federacao-psb-14-novembro"
+    },
+    {
+      "tema": "CCJ da Câmara aprova PL 1834/23, que agrava pena de tráfico com uso de inocente",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.camara.leg.br",
+      "erro": "http-429",
+      "detalhe": "inteiro teor do PL 1181/26"
+    }
+  ],
+  "pr": null
+}

@@ -1,0 +1,23 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-14T09:21:26-03:00",
+  "fim": "2026-11-14T09:27:53-03:00",
+  "branch": "claude/pd-noticias-20261114-0921",
+  "publicou": [
+    "reciclagem-carros-velhos-credito-reduzir-ipi-portaria-325",
+    "eua-param-decolagens-pane-controle-aereo-anac-orienta"
+  ],
+  "descartou": [],
+  "bloqueios": [
+    {
+      "host": "www.gov.br",
+      "erro": "captcha",
+      "detalhe": "pagina de noticias da Anac"
+    },
+    {
+      "host": "www.faa.gov",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}

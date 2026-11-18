@@ -1,0 +1,12 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-13T00:21:59-03:00",
+  "fim": "2026-11-13T00:28:34-03:00",
+  "branch": "claude/pd-noticias-20261113-0024",
+  "publicou": ["pgr-contra-segunda-revisao-criminal-bolsonaro"],
+  "descartou": [
+    { "tema": "Anúncio de R$ 52 bilhões do BNDES na COP31", "motivo": "fonte-unica", "pauta": "bndes-cop31-52-bilhoes" }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

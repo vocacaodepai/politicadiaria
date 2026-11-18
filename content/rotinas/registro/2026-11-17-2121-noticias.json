@@ -1,0 +1,17 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-17T21:21:12-03:00",
+  "fim": "2026-11-17T21:26:30-03:00",
+  "branch": "claude/pd-noticias-20261117-2121",
+  "publicou": [
+    "decreto-13169-acordo-aladi-cosmeticos-exportacao"
+  ],
+  "descartou": [
+    { "tema": "Relator da PEC 32/15 admite atenuantes para jovens de 16 e 17 anos em audiência da comissão especial", "motivo": "sem-angulo" },
+    { "tema": "Decreto que regulamenta a escala 5x2 será assinado na quinta-feira", "motivo": "aguardando-fato" }
+  ],
+  "bloqueios": [
+    { "host": "www.in.gov.br", "erro": "http-5xx", "detalhe": "502 ao abrir o Decreto 13.169" }
+  ],
+  "pr": null
+}

@@ -1,0 +1,18 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-13T20:21:25-03:00",
+  "fim": "2026-11-13T20:25:17-03:00",
+  "branch": "claude/pd-noticias-20261113-2021",
+  "publicou": [
+    "fazenda-nao-renova-subvencao-r-1-40-diesel-importado"
+  ],
+  "descartou": [
+    {
+      "tema": "FAA suspende decolagens nos EUA",
+      "motivo": "fonte-unica",
+      "pauta": "eua-faa-suspensao-nacional-decolagens-13-novembro"
+    }
+  ],
+  "bloqueios": [],
+  "pr": 514
+}

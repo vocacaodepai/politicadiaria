@@ -1,0 +1,30 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-13T23:21:25-03:00",
+  "fim": "2026-11-13T23:23:09-03:00",
+  "branch": "claude/pd-noticias-20261113-2321",
+  "publicou": [],
+  "descartou": [
+    {
+      "tema": "Fachin defende indicação de ministra negra para o STF",
+      "motivo": "fonte-unica",
+      "pauta": "fachin-ministra-negra-stf-enajun"
+    },
+    {
+      "tema": "Lula e Marcos em Manila: reunião bilateral ainda sem resultado",
+      "motivo": "aguardando-fato",
+      "pauta": "lula-filipinas-visita-estado-marcos-14-novembro"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "pna.gov.ph",
+      "erro": "http-403"
+    },
+    {
+      "host": "mb.com.ph",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}

@@ -1,0 +1,22 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-14T10:21:53-03:00",
+  "fim": "2026-11-14T10:27:56-03:00",
+  "branch": "claude/pd-noticias-20261114-1021",
+  "publicou": [
+    "alckmin-tres-ministerios-queimadas-para-defesa-civil"
+  ],
+  "descartou": [
+    {
+      "tema": "Voto de Toffoli pela preservação do material da Operação Spoofing",
+      "motivo": "aguardando-fato",
+      "pauta": "stf-toffoli-voto-preservar-mensagens-spoofing"
+    },
+    {
+      "tema": "Receita cancela de ofício dívidas previdenciárias de MEIs (LC 238)",
+      "motivo": "ja-publicado"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

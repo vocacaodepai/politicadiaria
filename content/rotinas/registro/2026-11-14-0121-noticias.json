@@ -1,0 +1,22 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-14T01:21:26-03:00",
+  "fim": "2026-11-14T01:22:45-03:00",
+  "branch": "claude/pd-noticias-20261114-0121",
+  "publicou": [],
+  "descartou": [
+    {
+      "tema": "Lula e Marcos em Manila: sem declaração conjunta nem acordo publicado até 01h30 de Brasília",
+      "motivo": "aguardando-fato",
+      "pauta": "lula-filipinas-visita-estado-marcos-14-novembro"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "api.firecrawl.dev",
+      "erro": "sem-creditos",
+      "detalhe": "busca feita por outra ferramenta"
+    }
+  ],
+  "pr": null
+}

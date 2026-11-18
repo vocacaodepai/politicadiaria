@@ -135,7 +135,7 @@ Commons.** Nunca imagem gerada por IA, nunca captura de página da Amazon.
   Se a imagem falhar, o site cai na capa por `imageQuery` (autor no Commons, instituição ou tema;
   `coverImage` só com imagem livre e atribuída, `scripts/wikimedia-cover.mjs search` e `get`).
 - Em notícia, "via Política Diária" é o crédito visível; o veículo/fonte original fica citado e
-  linkado no texto e na caixa "Fonte original".
+  linkado no texto e na caixa "Fontes desta notícia".
 - **Parlamentares**: foto oficial da API (`urlFoto` da Câmara; `UrlFotoParlamentar` do Senado),
   com crédito "Foto: Câmara dos Deputados" / "Foto: Senado Federal" e fallback no Wikimedia
   Commons (resolvido na coleta, nunca em tempo de requisição). Sem foto, avatar com iniciais.
@@ -147,7 +147,10 @@ Commons.** Nunca imagem gerada por IA, nunca captura de página da Amazon.
 - Mínimo de 900 palavras e 3 `<h2>`: o fato em 2 parágrafos com a fonte citada e linkada, um h2
   de contexto, um h2 "Por que isso importa" com análise factual (o que muda, quem é afetado,
   próximos passos), e mais um ou dois desdobramentos. 3 a 6 links internos (notícias, resenhas,
-  páginas de parlamentares citados em `/congresso/...`). Sem lista de fontes ao final.
+  páginas de parlamentares citados em `/congresso/...`). Sem lista de fontes ao final do texto:
+  a caixa "Fontes desta notícia" (`components/article/NewsSources.tsx`) é gerada sozinha abaixo do
+  corpo, com a fonte original e os links externos do texto, e marca como "fonte primária" os
+  domínios oficiais listados em `lib/sources.ts`.
 - **Foco no Brasil.** Pelo menos 2 de cada 3 notícias publicadas são do Brasil (Planalto, Congresso,
   STF/TSE/STJ, eleições, economia com efeito político, estados e capitais). A **notícia de
   abertura da home é sempre do Brasil** (tópicos `brasil`, `congresso`, `justica`, `economia`,
@@ -178,7 +181,13 @@ parte deste arquivo: `comum.md` (regras comuns), `noticias.md` (de hora em hora)
 `checagem.md`, `eleicoes.md`, `promessas.md` e `historia.md` (uma eleição ou período por rodada, de trás para frente).
 Rotinas de conteúdo só alteram `content/`, `public/images/covers/` (e `data/congresso/` na rotina
 do Congresso, `data/promessas/` na de promessas; `public/images/` na de História, só se preciso); nunca `docs/`, `CLAUDE.md`, `lib/`,
-`app/`, `components/`, `scripts/` nem configuração.
+`app/`, `components/`, `scripts/` nem configuração. Toda rotina, inclusive as de dados, lê e
+atualiza a fila de pautas (`content/pautas/fila.json`) e grava um arquivo de registro em
+`content/rotinas/registro/` (o que publicou, descartou e teve bloqueado; formato em
+`docs/rotinas/comum.md`) só quando a rodada publica (no mesmo PR), tem bloqueio de fonte ou
+ferramenta ou descarte novo relevante; rodada sem nada novo não abre PR. Clone com
+`mktemp -d /tmp/pd-<rotina>-XXXXXX` e remova só o próprio clone (rotinas rodam em paralelo). Esses arquivos alimentam só o painel interno `/interno/rotinas`
+(noindex, fora do sitemap e do menu).
 
 ## Identidade visual
 
