@@ -1,0 +1,24 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-18T13:21:42-03:00",
+  "fim": "2026-11-18T13:26:31-03:00",
+  "branch": "claude/pd-noticias-20261118-1321",
+  "publicou": [
+    "operacao-cash-out-bets-11-bilhoes-receita-mpf"
+  ],
+  "descartou": [
+    {
+      "tema": "Destaques do PLP 299 no Senado",
+      "motivo": "aguardando-fato",
+      "pauta": "plp-299-destaques-senado-18-novembro"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.mpf.mp.br",
+      "erro": "http-404",
+      "detalhe": "sala de imprensa"
+    }
+  ],
+  "pr": null
+}
