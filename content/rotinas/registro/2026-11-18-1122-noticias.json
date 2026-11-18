@@ -1,0 +1,51 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-18T11:22:18-03:00",
+  "fim": "2026-11-18T11:30:33-03:00",
+  "branch": "claude/pd-noticias-20261118-1122",
+  "publicou": [
+    "planalto-licitacao-75-milhoes-comunicacao-institucional"
+  ],
+  "descartou": [
+    {
+      "tema": "Destaques do PLP 299 no Senado",
+      "motivo": "aguardando-fato",
+      "pauta": "plp-299-destaques-senado-18-novembro"
+    },
+    {
+      "tema": "Moraes arquiva inquérito de Daniel Silveira",
+      "motivo": "fonte-unica",
+      "pauta": "moraes-arquiva-inq-4898-daniel-silveira-desobediencia"
+    },
+    {
+      "tema": "PF indicia 17 nos respiradores do Consórcio Nordeste",
+      "motivo": "fonte-unica",
+      "pauta": "pf-indicia-17-respiradores-consorcio-nordeste-rui-costa"
+    },
+    {
+      "tema": "Ipsos-Ipec sobre a saída de Flávio Bolsonaro do país",
+      "motivo": "fonte-unica",
+      "pauta": "ipsos-ipec-saida-flavio-pais-46-desaprovam"
+    },
+    {
+      "tema": "Petroleiro da frota fantasma russa ancora em Itacoatiara (AM)",
+      "motivo": "sem-fonte-primaria"
+    },
+    {
+      "tema": "Tarcísio troca o titular da Fazenda de São Paulo",
+      "motivo": "fonte-unica"
+    },
+    {
+      "tema": "Comissão de Infraestrutura do Senado declara a BR-319 indispensável à segurança nacional",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "pncp.gov.br",
+      "erro": "http-5xx",
+      "detalhe": "página do edital no app deu 503; API de consulta abriu"
+    }
+  ],
+  "pr": null
+}
