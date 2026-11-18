@@ -1,0 +1,22 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-18T18:21:31-03:00",
+  "fim": "2026-11-18T19:03:18-03:00",
+  "branch": "claude/pd-noticias-20261118-1821",
+  "publicou": [
+    "senado-conclui-plp-299-rejeita-emenda-40-47-a-30"
+  ],
+  "descartou": [
+    {
+      "tema": "STF define efeitos do fim da isenção de pena em crimes patrimoniais entre familiares",
+      "motivo": "numeros-divergentes",
+      "pauta": "stf-modulacao-imunidade-crimes-patrimoniais-familia-18-novembro"
+    },
+    {
+      "tema": "Condenação de Ekrem Imamoglu na Turquia",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
