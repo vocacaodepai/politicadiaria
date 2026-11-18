@@ -1,0 +1,51 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-18T09:21:20-03:00",
+  "fim": "2026-11-18T09:26:36-03:00",
+  "branch": "claude/pd-noticias-20261118-0921",
+  "publicou": [
+    "eua-licenca-chips-ia-data-centers-brasil"
+  ],
+  "descartou": [
+    {
+      "tema": "Aliança Global contra a Fome em Roma em 18/11",
+      "motivo": "sem-fonte-primaria"
+    },
+    {
+      "tema": "Xi e Putin se reúnem em Shenzhen e criticam protecionismo e sanções",
+      "motivo": "sem-angulo"
+    },
+    {
+      "tema": "Destaques do PLP 299 no Senado",
+      "motivo": "aguardando-fato",
+      "pauta": "plp-299-destaques-senado-18-novembro"
+    },
+    {
+      "tema": "Moraes arquiva inquérito de Daniel Silveira",
+      "motivo": "fonte-unica",
+      "pauta": "moraes-arquiva-inq-4898-daniel-silveira-desobediencia"
+    },
+    {
+      "tema": "PF indicia 17 nos respiradores do Consórcio Nordeste",
+      "motivo": "fonte-unica",
+      "pauta": "pf-indicia-17-respiradores-consorcio-nordeste-rui-costa"
+    },
+    {
+      "tema": "Ipsos-Ipec sobre a saída de Flávio Bolsonaro do país",
+      "motivo": "fonte-unica",
+      "pauta": "ipsos-ipec-saida-flavio-pais-46-desaprovam"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.band.com.br",
+      "erro": "http-403"
+    },
+    {
+      "host": "www.federalregister.gov",
+      "erro": "captcha",
+      "detalhe": "redireciona para unblock.federalregister.gov"
+    }
+  ],
+  "pr": null
+}
