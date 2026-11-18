@@ -1,0 +1,53 @@
+import type { NewsItem } from "@/lib/types";
+
+export const item: NewsItem = {
+  slug: "itaipu-paraguai-troca-diretor-zarate-ueno",
+  title: "Paraguai troca diretor de Itaipu após crise do Ueno Bank",
+  summary:
+    "Pedro Alliana nomeia Hugo Zárate Chávez no lugar de Justo Zacarías Irún na Itaipu, que tinha cerca de US$ 183 milhões no banco sob intervenção.",
+  author: "Equipe Política Diária",
+  sourceName: "CNN Brasil",
+  sourceUrl:
+    "https://www.cnnbrasil.com.br/infra/crise-do-ueno-bank-derruba-diretor-geral-paraguaio-de-itaipu-binacional/",
+  date: "2026-11-18",
+  publishedAt: "2026-11-18T16:28:44-03:00",
+  topic: "americas",
+  imageQuery: "Itaipu Dam Paraná River",
+  content: `
+    <p>O presidente do Paraguai, Pedro Alliana, anunciou nesta quarta-feira (18) a troca do diretor-geral paraguaio da Itaipu Binacional, a hidrelétrica que o país divide com o Brasil. O engenheiro Hugo Osvaldo Zárate Chávez, funcionário de carreira da usina, assume no lugar de Justo Zacarías Irún, em meio à crise aberta pelo dinheiro da Itaipu depositado no Ueno Bank, banco sob intervenção desde o início do mês. Segundo reportagem de Robson Rodrigues na <a href="https://www.cnnbrasil.com.br/infra/crise-do-ueno-bank-derruba-diretor-geral-paraguaio-de-itaipu-binacional/" target="_blank" rel="noopener noreferrer nofollow">CNN Brasil</a>, Alliana escreveu nas redes sociais que decidiu "designar o engenheiro Hugo Osvaldo Zárate Chávez como novo diretor-geral paraguaio de Itaipu Binacional" e o apresentou como servidor com 37 anos de casa.</p>
+    <p>A agência EFE, em despacho publicado pelo <a href="https://www.abc.com.py/internacionales/2026/11/18/paraguay-destituye-a-director-de-itaipu-por-escandalo-de-fondos-depositados-en-ueno-bank/" target="_blank" rel="noopener noreferrer nofollow">ABC Color</a>, de Assunção, informa que Zacarías ocupava o posto desde 16 de agosto de 2023 e que a nomeação do substituto ainda precisa ser aprovada pelo Senado paraguaio. Zárate era diretor técnico da usina desde agosto de 2023, segundo a CNN Brasil, e já integrava a Diretoria Executiva binacional. As reportagens consultadas não registram manifestação de Zacarías Irún sobre a saída.</p>
+
+    <h2>O dinheiro da Itaipu no Ueno</h2>
+    <p>Em comunicado de 7 de novembro, citado pela CNN Brasil, a Itaipu informou que mantinha no Ueno, na data da intervenção, US$ 163,8 milhões e 115,2 bilhões de guaranis, pouco mais de R$ 1 bilhão na conversão da época. A usina disse que os depósitos incluíam pagamentos da estatal paraguaia de energia, a Ande, e transferências entre contas da própria Itaipu, e que já entrou na Justiça para recuperar os recursos. Segundo a EFE, a binacional calculou ter mantido cerca de US$ 183 milhões no banco entre janeiro de 2025 e o começo de novembro, o equivalente a 7,6% das remessas recebidas do Brasil entre 2024 e 2026.</p>
+    <p>O Banco Central do Paraguai interveio no Ueno em 3 de novembro, depois de o índice de solvência do banco cair abaixo da metade do mínimo exigido, de acordo com a CNN Brasil. O episódio virou crise política: o então presidente Santiago Peña, que foi sócio do Grupo Vázquez, controlador do banco, até março de 2025, segundo a <a href="https://www.gazetadopovo.com.br/mundo/paraguai-destitui-diretor-itaipu-escandalo-ueno-bank/" target="_blank" rel="noopener noreferrer nofollow">Gazeta do Povo</a>, foi <a href="/noticias/paraguai-senado-destitui-pena-alliana-assume">destituído pelo Senado</a>, Alliana assumiu a Presidência e Peña está em prisão preventiva, <a href="/noticias/paraguai-acusa-ex-presidente-associacao-criminosa">acusado pela promotoria</a> sem julgamento até aqui. Também deixaram os cargos <a href="/noticias/paraguai-ueno-bank-presidente-bc-renuncia">o presidente do Banco Central</a> e, nesta semana, <a href="/noticias/procurador-geral-paraguai-rolon-sai-cantero-interina">o procurador-geral Emiliano Rolón</a>.</p>
+
+    <h2>A regra dos cinco anos</h2>
+    <p>A troca acontece dois dias depois de a CNN Brasil publicar que a Diretoria Executiva da Itaipu aprovou o Ueno sem que o banco cumprisse um requisito interno. Pelo item 5.3.2 da instrução de procedimento IP 02, em vigor desde 12 de maio de 2016, a instituição escolhida precisa ter "experiência mínima de 5 (cinco) anos no mercado paraguaio", segundo a <a href="https://www.cnnbrasil.com.br/infra/itaipu-descumpriu-regra-de-cinco-anos-de-experiencia-ao-aprovar-ueno-bank/" target="_blank" rel="noopener noreferrer nofollow">reportagem</a>. O Ueno começou a operar como banco em 1º de dezembro de 2023 e passou a trabalhar com a Itaipu em janeiro de 2025, com cerca de 13 meses de licença bancária. A empresa tem origem na Financiera El Comercio, de 1976, histórico que a reportagem não considera equivalente a cinco anos como banco.</p>
+    <p>O ABC Color obteve o texto da mesma norma. Em reportagem assinada por <a href="https://www.abc.com.py/economia/2026/11/18/el-documento-de-itaipu-que-prohibia-depositar-en-ueno-bank-exigia-cinco-anos-en-el-mercado/" target="_blank" rel="noopener noreferrer nofollow">Silvana Bogarín</a>, o jornal lista os outros critérios (estar entre os cinco bancos mais bem avaliados em risco e ter nota AAApy ou AApy) e registra que a Itaipu não explicou como contou o prazo. O jornal também aponta que a usina não retirou o dinheiro depois de o Banco Central paraguaio abrir um processo contra o Ueno, em 24 de setembro, e que em 7 de novembro apresentou denúncia criminal contra os dirigentes do banco.</p>
+
+    <h2>O que diz o lado brasileiro</h2>
+    <p>A margem brasileira da Itaipu confirmou à CNN Brasil que a Diretoria Executiva, formada por representantes dos dois países, aprovou a habilitação do Ueno para operar com a usina. Disse que a aprovação se baseou em "parecer jurídico e análise financeira" apresentados pela margem paraguaia, responsável pelo processo, e que as decisões sobre valores e prazos das aplicações cabem à gestão de cada país. A administração brasileira afirmou ainda que nunca aplicou recursos no Ueno e mantém suas aplicações no Banco do Brasil e na Caixa Econômica Federal.</p>
+    <p>Em reportagem anterior, de 9 de novembro, a <a href="https://www.cnnbrasil.com.br/infra/escolha-do-ueno-bank-por-itaipu-exigiu-aval-da-diretoria-dos-dois-paises/" target="_blank" rel="noopener noreferrer nofollow">CNN Brasil</a> mostrou que, pelo regimento, a Diretoria Executiva só decide com representantes dos dois países, paridade na votação e maioria de votos, e que a escolha dos bancos depende desse colegiado binacional. A usina não divulgou a resolução que aprovou o Ueno nem a ata com o voto de cada diretor, segundo a emissora. O ABC Color acrescenta que a norma brasileira é mais restrita: pelo mesmo texto da IP 02, a margem brasileira só pode manter recursos nos dois bancos públicos.</p>
+
+    <h2>Por que isso importa</h2>
+    <p>Para o Brasil, a Itaipu não é assunto apenas paraguaio. Os consumidores brasileiros responderam por 78,2% do faturamento de potência contratada, segundo as demonstrações financeiras citadas pela CNN Brasil. Por isso, a pergunta sobre quem autorizou o Ueno e com que critério alcança também os diretores brasileiros que integram o colegiado, mesmo que a margem brasileira afirme não ter aplicado dinheiro no banco.</p>
+    <p>A troca também muda o interlocutor paraguaio num momento de negociação com Brasília. O jornal <a href="https://www.lanacion.com.py/negocios/2026/11/18/anexo-c-y-tarifa-paraguay-prepara-dos-negociaciones-clave-para-el-futuro-de-itaipu/" target="_blank" rel="noopener noreferrer nofollow">La Nación</a>, de Assunção, informa que a tarifa da usina para 2027 precisa ser fechada até 31 de dezembro e que os dois governos acordaram concluir em 2027 a revisão do Anexo C do tratado, que define as bases financeiras da hidrelétrica. Segundo o jornal, o chanceler paraguaio, Rubén Ramírez Lezcano, disse que a tarifa "nos va a permitir tener un presupuesto para el año próximo".</p>
+
+    <h2>O que muda na diretoria paraguaia</h2>
+    <p>Em entrevista coletiva, Zárate disse que o uso dos recursos de projetos será tratado com transparência e que vai revisar os valores destinados a cada um, segundo o jornal <a href="https://www.lanacion.com.py/politica/2026/11/18/alliana-designa-a-hugo-zarate-como-nuevo-director-general-de-itaipu/" target="_blank" rel="noopener noreferrer nofollow">La Nación</a>. O chefe de Gabinete da Presidência, Rolando De Barros, afirmou que a instrução de Alliana é divulgar os gastos e informou que Derlis Gauto foi nomeado diretor financeiro. Engenheiro eletricista, Zárate se formou em Joinville (SC), em 1988, e fez pós-graduação em sistemas de controle e automação na Universidade Federal de Santa Catarina, de acordo com o jornal.</p>
+    <p>A reestruturação já vinha em curso. Segundo o ABC Color, os decretos 7.215 e 7.216, de 10 de novembro, retiraram quatro integrantes do Conselho de Administração da parte paraguaia. Na outra binacional do país, a Yacyretá, dividida com a Argentina, o governo descartou mudanças: o chefe de Gabinete disse que Luis Benítez segue no comando, informa o jornal <a href="https://www.ultimahora.com/pedro-alliana-descarta-cambios-en-yacyreta-seguira-al-mando-luis-benitez" target="_blank" rel="noopener noreferrer nofollow">Última Hora</a>, que registra a aplicação de US$ 10 milhões do fundo de aposentadoria dos funcionários da Yacyretá em certificados do Ueno, feita de forma indireta, segundo a entidade.</p>
+    <p>O próximo passo formal é a análise do nome de Zárate pelo Senado paraguaio. Em paralelo, seguem as ações da Itaipu para recuperar o dinheiro e as investigações do Ministério Público do Paraguai sobre o banco, que já levaram o ex-presidente Peña à <a href="/noticias/paraguai-pena-transferido-vinas-cue-privilegios">prisão militar de Viñas Cué</a>.</p>
+  `,
+  faq: [
+    {
+      question: "Quem é o novo diretor-geral paraguaio de Itaipu?",
+      answer:
+        "Hugo Osvaldo Zárate Chávez, engenheiro eletricista e funcionário de carreira com 37 anos na usina, segundo o presidente Pedro Alliana. Ele era diretor técnico da parte paraguaia desde agosto de 2023 e substitui Justo Zacarías Irún. A nomeação ainda precisa ser aprovada pelo Senado do Paraguai, segundo a agência EFE.",
+    },
+    {
+      question: "O lado brasileiro de Itaipu tinha dinheiro no Ueno Bank?",
+      answer:
+        "Segundo a administração brasileira da usina, não. Ela afirma que nunca aplicou recursos no Ueno e que mantém suas aplicações no Banco do Brasil e na Caixa. Confirmou, porém, que a Diretoria Executiva binacional, com representantes dos dois países, aprovou a habilitação do banco para operar com a Itaipu, com base em documentos da margem paraguaia.",
+    },
+  ],
+};
