@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-17T19:45:00-03:00",
+  "atualizadoEm": "2026-11-17T22:27:35-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1124,6 +1124,19 @@
       "ultimaRevisao": "2026-11-17T19:45:00-03:00",
       "status": "aberta",
       "falta": "segunda checagem aberta (Reuters bloqueada) ou página oficial do Departamento de Estado acessível"
+    },
+    {
+      "id": "pf-indicia-17-respiradores-consorcio-nordeste-rui-costa",
+      "rotina": "noticias",
+      "tema": "PF conclui inquérito dos respiradores do Consórcio Nordeste e indicia 17 pessoas; Rui Costa e Aline Peixoto ficam fora da lista enviada ao STJ",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.gazetadopovo.com.br/republica/pf-indicia-17-por-compra-irregular-respiradores-mas-exclui-rui-costa/"
+      ],
+      "primeiraVezVisto": "2026-11-17T22:27:35-03:00",
+      "ultimaRevisao": "2026-11-17T22:27:35-03:00",
+      "status": "aberta",
+      "falta": "segunda fonte independente (Gazeta reproduz apuração da Folha) ou nota da PF/STJ"
     }
   ]
 }
