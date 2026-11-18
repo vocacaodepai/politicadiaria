@@ -1,0 +1,33 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-18T08:21:34-03:00",
+  "fim": "2026-11-18T08:26:15-03:00",
+  "branch": "claude/pd-noticias-20261118-0821",
+  "publicou": [
+    "comissao-desenrola-3-instalada-cid-gomes-relator"
+  ],
+  "descartou": [
+    {
+      "tema": "Destaques do PLP 299 no Senado",
+      "motivo": "aguardando-fato",
+      "pauta": "plp-299-destaques-senado-18-novembro"
+    },
+    {
+      "tema": "Moraes arquiva inquérito de Daniel Silveira",
+      "motivo": "fonte-unica",
+      "pauta": "moraes-arquiva-inq-4898-daniel-silveira-desobediencia"
+    },
+    {
+      "tema": "PF indicia 17 nos respiradores do Consórcio Nordeste",
+      "motivo": "fonte-unica",
+      "pauta": "pf-indicia-17-respiradores-consorcio-nordeste-rui-costa"
+    },
+    {
+      "tema": "Ipsos-Ipec sobre a saída de Flávio Bolsonaro do país",
+      "motivo": "fonte-unica",
+      "pauta": "ipsos-ipec-saida-flavio-pais-46-desaprovam"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
