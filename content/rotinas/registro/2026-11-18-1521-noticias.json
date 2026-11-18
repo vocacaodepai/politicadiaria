@@ -1,0 +1,32 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-18T15:21:21-03:00",
+  "fim": "2026-11-18T15:27:37-03:00",
+  "branch": "claude/pd-noticias-20261118-1521",
+  "publicou": [
+    "liminar-suspende-licitacao-celulares-senado-nikolas"
+  ],
+  "descartou": [
+    {
+      "tema": "Destaques do PLP 299 no Senado",
+      "motivo": "aguardando-fato",
+      "pauta": "plp-299-destaques-senado-18-novembro"
+    },
+    {
+      "tema": "Chefe de inteligência dos EUA depõe após apagões tecnológicos",
+      "motivo": "sem-angulo"
+    },
+    {
+      "tema": "Ameaças falsas de bomba em escolas na Espanha",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "portal.stf.jus.br",
+      "erro": "http-404",
+      "detalhe": "lista de notícias"
+    }
+  ],
+  "pr": null
+}
