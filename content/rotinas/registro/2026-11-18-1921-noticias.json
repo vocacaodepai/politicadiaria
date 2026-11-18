@@ -1,0 +1,12 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-18T19:21:01-03:00",
+  "fim": "2026-11-18T19:25:11-03:00",
+  "branch": "claude/pd-noticias-20261118-1921",
+  "publicou": [
+    "andrei-rodrigues-quebra-confianca-delegados-ccj-csp"
+  ],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}
