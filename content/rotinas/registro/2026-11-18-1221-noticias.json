@@ -1,0 +1,40 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-18T12:21:29-03:00",
+  "fim": "2026-11-18T12:28:54-03:00",
+  "branch": "claude/pd-noticias-20261118-1221",
+  "publicou": [
+    "paes-cobra-tse-pressa-embargos-garotinho-governo-rj"
+  ],
+  "descartou": [
+    {
+      "tema": "IBGE: prefeitas pretas dobram entre 2020 e 2024",
+      "motivo": "numeros-divergentes",
+      "pauta": "ibge-desigualdades-cor-raca-prefeitas-pretas-2024"
+    },
+    {
+      "tema": "Mary Peltola vence no Alasca e democratas chegam a 56 cadeiras no Senado dos EUA",
+      "motivo": "sem-angulo"
+    },
+    {
+      "tema": "Israel inicia nova ofensiva no centro de Gaza",
+      "motivo": "sem-angulo"
+    },
+    {
+      "tema": "Destaques do PLP 299 no Senado",
+      "motivo": "aguardando-fato",
+      "pauta": "plp-299-destaques-senado-18-novembro"
+    },
+    {
+      "tema": "Tarcísio troca o titular da Fazenda de São Paulo",
+      "motivo": "fonte-unica"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "agenciadenoticias.ibge.gov.br",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}
