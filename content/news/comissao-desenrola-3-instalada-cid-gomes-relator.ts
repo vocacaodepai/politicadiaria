@@ -1,0 +1,41 @@
+import type { NewsItem } from "@/lib/types";
+
+export const item: NewsItem = {
+  slug: "comissao-desenrola-3-instalada-cid-gomes-relator",
+  title: "Comissão do Desenrola 3.0 é instalada e Cid Gomes será relator",
+  summary: "Colegiado misto da MP 1.393 elegeu Jonas Donizette presidente em 17/11; Cid Gomes promete parecer no início de dezembro para votar o texto ainda em 2026.",
+  author: "Equipe Política Diária",
+  sourceName: "Agência Senado",
+  sourceUrl: "https://www12.senado.leg.br/noticias/materias/2026/11/17/cid-gomes-promete-relatorio-do-novo-desenrola-para-inicio-de-dezembro",
+  date: "2026-11-17",
+  publishedAt: "2026-11-18T08:24:37-03:00",
+  topic: "economia",
+  imageQuery: "Palácio do Congresso Nacional Brasília",
+  content: `
+    <p>A comissão mista que analisa a Medida Provisória 1.393/2026, a que criou o Desenrola Brasil 3.0 para pessoas físicas inadimplentes, foi instalada na terça-feira (17) no Congresso Nacional. O deputado <a href="/congresso/deputados/jonas-donizette-160548">Jonas Donizette</a> (PSB-SP) foi eleito presidente do colegiado e designou como relator o senador <a href="/congresso/senadores/cid-gomes-5973">Cid Gomes</a> (PSB-CE), segundo a <a href="https://www12.senado.leg.br/noticias/materias/2026/11/17/cid-gomes-promete-relatorio-do-novo-desenrola-para-inicio-de-dezembro" target="_blank" rel="noopener noreferrer nofollow">Agência Senado</a>. O relator prometeu apresentar o parecer no início de dezembro.</p>
+    <p>A ideia, de acordo com a Agência Senado e a <a href="https://www.camara.leg.br/noticias/1320466-cid-gomes-promete-relatorio-do-novo-desenrola-para-inicio-de-dezembro" target="_blank" rel="noopener noreferrer nofollow">Agência Câmara</a>, é que os plenários da Câmara e do Senado votem a MP ainda em 2026. As duas agências registram que a antecipação do calendário busca concluir a tramitação antes do fim do mandato de alguns integrantes da comissão. "São milhões de brasileiros que se enquadram no perfil de pessoas físicas devedoras e que serão contempladas", disse Cid Gomes, conforme a Agência Senado.</p>
+
+    <h2>O que diz a medida provisória</h2>
+    <p>A MP 1.393 foi publicada em edição extra do Diário Oficial da União em 25 de setembro. Pelo texto descrito nas agências do Congresso, a União pode comprar dívidas de bancos, prestadores de serviços e estabelecimentos comerciais até o limite de R$ 15 bilhões, condicionado à disponibilidade orçamentária e financeira. Em regra, entram débitos de valor inferior a R$ 10 mil, com atraso entre 720 e 1.645 dias.</p>
+    <p>A seleção das carteiras prioriza os credores que oferecerem os maiores descontos, com piso de 90% sobre o valor original. Depois da compra, o consumidor pode quitar a dívida à vista ou parcelar, com juros no parcelamento. As condições de pagamento serão definidas pelo Conselho Monetário Nacional (CMN), e o Banco do Brasil e a Caixa Econômica Federal poderão ser contratados para administrar as operações.</p>
+    <p>A Agência Câmara faz uma ressalva que interessa diretamente ao devedor: o desconto pode chegar ao percentual obtido pelo governo na compra, mas não há garantia de repasse integral ao consumidor. O Ministério da Fazenda também poderá criar critérios para incluir dívidas de outros valores ou prazos, e o programa poderá funcionar até 30 de junho de 2028.</p>
+    <p>A página da MP no <a href="https://www.congressonacional.leg.br/materias/medidas-provisorias/-/mpv/175870" target="_blank" rel="noopener noreferrer nofollow">portal do Congresso Nacional</a> registra 38 emendas apresentadas até o fim do prazo, em 13 de outubro. Duas delas, a 16 e a 35, de autoria do próprio Jonas Donizette, foram retiradas. A mesma página informa que a comissão mista foi designada em 30 de setembro e que a reunião de instalação foi convocada em 13 de novembro.</p>
+
+    <h2>O caminho até aqui</h2>
+    <p>O prazo original de vigência da MP terminaria em 23 de novembro. Em 11 de novembro, um ato do presidente do Congresso prorrogou a vigência por 60 dias, como mostrou a <a href="/noticias/cinco-mps-perdem-eficacia-desenrola-3-prorrogada">notícia sobre as MPs prorrogadas e as cinco que perderam a eficácia</a>. Com a prorrogação e o recesso parlamentar, o prazo final para o Congresso aprovar a medida passou a ser 4 de março de 2027, segundo o portal do Congresso. A MP está em regime de urgência desde 9 de novembro.</p>
+    <p>Naquela ocasião, a comissão mista ainda figurava como aguardando instalação. Essa etapa é obrigatória: pela regra de tramitação das medidas provisórias, o texto passa primeiro pelo colegiado formado por deputados e senadores, que aprova um parecer, e só depois segue ao Plenário da Câmara e, em seguida, ao do Senado.</p>
+    <p>Do lado do Executivo, o programa já está em andamento. Em outubro, o Ministério da Fazenda publicou o edital de chamamento de bancos e fundos para a terceira fase, com a previsão de um leilão de carteiras, como registrou a <a href="/noticias/desenrola-3-edital-portaria-3127-leilao">notícia sobre a Portaria MF nº 3.127</a>. A medida provisória tem força de lei desde a publicação, e por isso o desenho atual vale enquanto o Congresso não decide.</p>
+
+    <h2>Por que isso importa</h2>
+    <p>A instalação da comissão destrava a análise de uma medida que mexe com o orçamento e com o bolso de quem tem dívida antiga em atraso. Se o Congresso aprovar o texto, as regras passam a valer como lei. Se a MP não for votada até 4 de março de 2027, ela perde a eficácia, como ocorreu neste mês com cinco medidas provisórias, entre elas a que criava o Desenrola Adimplentes.</p>
+    <p>O relatório de Cid Gomes é a primeira oportunidade de mudança no texto. É nele que o relator decide quais das 36 emendas restantes acolhe, e é ali que podem aparecer alterações nos limites de valor, no tempo de atraso, no teto de R$ 15 bilhões ou nas regras de repasse do desconto ao consumidor. As agências do Congresso não informaram o conteúdo do parecer, que ainda será apresentado.</p>
+    <p>Para o devedor, o calendário também conta. Enquanto a MP vigora, as regras atuais permanecem. Uma eventual mudança aprovada pelo Congresso pode alterar quem é alcançado pelo programa e em que condições. A parte operacional, como taxas e prazos de parcelamento, depende ainda de decisão do CMN, que as fontes consultadas não registram como publicada.</p>
+    <p>O dado de que alguns integrantes deixam o mandato explica a pressa. Parlamentares que não foram reeleitos em outubro encerram o mandato no fim de janeiro de 2027, quando começa a nova legislatura. Concluir a votação ainda neste ano evita que a comissão tenha de ser recomposta no meio do caminho, segundo o raciocínio descrito pelas agências do Congresso.</p>
+
+    <h2>O que acompanhar a seguir</h2>
+    <p>O primeiro passo é a apresentação do parecer na comissão mista, prometida para o início de dezembro. Depois de aprovado no colegiado, o texto vai ao Plenário da Câmara e, em seguida, ao do Senado. Se houver mudanças, a MP vira projeto de lei de conversão, que depende de sanção presidencial.</p>
+    <p>O segundo ponto é o espaço na pauta do fim do ano legislativo. O Congresso ainda discute o projeto de ajuste fiscal, o PLP 299/2026, cujo <a href="/noticias/senado-aprova-texto-base-plp-299-45-a-31">texto-base foi aprovado pelo Senado por 45 a 31</a> e que teve a votação dos destaques remarcada para esta quarta-feira (18), segundo a <a href="https://www12.senado.leg.br/noticias/materias/2026/11/17/votacao-de-destaques-ao-ajuste-fiscal-e-remarcada-na-quarta-feira" target="_blank" rel="noopener noreferrer nofollow">Agência Senado</a>. Matérias como essa disputam as mesmas sessões que a MP do Desenrola precisará ocupar.</p>
+    <p>O terceiro é a etapa conduzida pela Fazenda: o resultado do leilão de carteiras e a regulamentação do CMN. Essas duas decisões definem, na prática, quanto o devedor vai pagar. A MP e o relatório tratam das regras gerais; o desconto efetivo depende do que o governo conseguir na compra das dívidas e do quanto repassar ao consumidor.</p>
+    <p>Nas falas registradas pelas agências na reunião de instalação, não houve críticas à medida nem posicionamento de outros partidos. As emendas apresentadas, disponíveis no portal do Congresso, indicam os pontos em que o texto pode mudar quando o relatório for apresentado.</p>
+  `,
+};
