@@ -1,0 +1,15 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-18T16:21:48-03:00",
+  "fim": "2026-11-18T16:29:02-03:00",
+  "branch": "claude/pd-noticias-20261118-1621",
+  "publicou": ["itaipu-paraguai-troca-diretor-zarate-ueno"],
+  "descartou": [
+    { "tema": "Destaques do PLP 299 no Senado", "motivo": "aguardando-fato", "pauta": "plp-299-destaques-senado-18-novembro" }
+  ],
+  "bloqueios": [
+    { "host": "www.presidencia.gov.py", "erro": "http-5xx", "detalhe": "503" },
+    { "host": "commons.wikimedia.org", "erro": "outro", "detalhe": "página de erro na API; notícia sem imagem no corpo" }
+  ],
+  "pr": null
+}
