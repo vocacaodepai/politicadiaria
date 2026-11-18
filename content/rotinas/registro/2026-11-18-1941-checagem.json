@@ -1,0 +1,23 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-18T19:41:20-03:00",
+  "fim": "2026-11-18T19:44:38-03:00",
+  "branch": "claude/pd-checagem-20261118-1941",
+  "publicou": [
+    "capa-veja-moro-ladrao-era-o-juiz-falsa"
+  ],
+  "descartou": [
+    {
+      "tema": "Vídeo com imagens geradas por inteligência artificial de protestos contra Lula no Nordeste (Lupa)",
+      "motivo": "fonte-unica",
+      "pauta": "video-ia-protestos-contra-lula-nordeste"
+    },
+    {
+      "tema": "Fala de Lula sobre vento e ódio associada às tempestades em Santa Catarina (Lupa)",
+      "motivo": "fonte-unica",
+      "pauta": "lula-vento-odio-santa-catarina-tempestades"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
