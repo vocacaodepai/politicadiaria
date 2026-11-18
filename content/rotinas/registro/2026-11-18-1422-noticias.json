@@ -1,0 +1,35 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-18T14:22:11-03:00",
+  "fim": "2026-11-18T14:29:59-03:00",
+  "branch": "claude/pd-noticias-20261118-1422",
+  "publicou": [
+    "credn-convoca-mauro-vieira-atrasos-itamaraty"
+  ],
+  "descartou": [
+    {
+      "tema": "Destaques do PLP 299 no Senado",
+      "motivo": "aguardando-fato",
+      "pauta": "plp-299-destaques-senado-18-novembro"
+    },
+    {
+      "tema": "Trump e Putin terão reunião a sós na cúpula na China",
+      "motivo": "aguardando-fato"
+    },
+    {
+      "tema": "Itália aprova projeto de lei contra o antissemitismo",
+      "motivo": "sem-angulo"
+    },
+    {
+      "tema": "Presidente do México diz que negociações comerciais com Trump avançaram",
+      "motivo": "sem-angulo"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.folhavitoria.com.br",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}
