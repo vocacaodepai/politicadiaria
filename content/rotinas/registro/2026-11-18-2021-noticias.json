@@ -1,0 +1,14 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-18T20:21:06-03:00",
+  "fim": "2026-11-18T20:25:13-03:00",
+  "branch": "claude/pd-noticias-20261118-2021",
+  "publicou": ["senado-prorroga-2028-verba-internet-escolas"],
+  "descartou": [
+    { "tema": "Relatório do TCU sobre falhas no monitoramento de políticas públicas", "motivo": "sem-angulo" },
+    { "tema": "Câmara aprova tratado de assistência jurídica penal entre Brasil e Japão", "motivo": "sem-angulo" },
+    { "tema": "PF entregará ao STF relatórios sobre citações a ministros no caso Master (audiência do chefe da PF)", "motivo": "ja-publicado" }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
