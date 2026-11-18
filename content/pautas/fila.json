@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-18T11:30:33-03:00",
+  "atualizadoEm": "2026-11-18T12:28:54-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -400,12 +400,14 @@
       "tema": "AGU envia ao STF parecer contra pedido do PSD por segundo turno no Rio e pede referendo da decisão de Zanin",
       "motivo": "fonte-unica",
       "fontesAbertas": [
-        "https://www.infomoney.com.br/politica/apos-decisao-de-zanin-agu-se-manifesta-contra-pedido-do-psd-sobre-2o-turno-no-rio/"
+        "https://www.infomoney.com.br/politica/apos-decisao-de-zanin-agu-se-manifesta-contra-pedido-do-psd-sobre-2o-turno-no-rio/",
+        "https://sbtnews.sbt.com.br/noticia/politica/agu-se-manifesta-contra-liminar-que-autorize-2-turno-no-rj"
       ],
       "falta": "nota da AGU ou segunda fonte independente (texto é da Agência O Globo)",
       "primeiraVezVisto": "2026-11-13T15:27:35-03:00",
-      "ultimaRevisao": "2026-11-14T14:29:34-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-18T12:28:54-03:00",
+      "status": "publicada",
+      "slug": "paes-cobra-tse-pressa-embargos-garotinho-governo-rj"
     },
     {
       "id": "lula-filipinas-visita-estado-marcos-14-novembro",
@@ -1171,6 +1173,19 @@
       "falta": "segunda fonte de editoria além da Gazeta do Povo (Atlas Público é redação; DJe do STF deu 403)",
       "primeiraVezVisto": "2026-11-18T06:27:21-03:00",
       "ultimaRevisao": "2026-11-18T11:30:33-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "ibge-desigualdades-cor-raca-prefeitas-pretas-2024",
+      "rotina": "noticias",
+      "tema": "IBGE (Desigualdades Sociais por Cor ou Raça, 3ª edição): mulheres pretas elegeram 20 das 5.558 prefeituras em 2024, o dobro de 2020",
+      "motivo": "numeros-divergentes",
+      "fontesAbertas": [
+        "https://www.cnnbrasil.com.br/politica/ibge-prefeitas-pretas-dobram-em-4-anos-mas-ainda-sao-menos-de-1-no-pais/"
+      ],
+      "falta": "publicação do IBGE acessível (site deu 403); vereadoras em 2024 aparecem como 18,1% e 18,3% conforme o veículo",
+      "primeiraVezVisto": "2026-11-18T12:28:54-03:00",
+      "ultimaRevisao": "2026-11-18T12:28:54-03:00",
       "status": "aberta"
     }
   ]
