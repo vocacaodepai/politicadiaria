@@ -1,0 +1,35 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-19T07:41:31-03:00",
+  "fim": "2026-11-19T07:48:47-03:00",
+  "branch": "claude/pd-checagem-20261119-0741",
+  "publicou": [
+    "comitiva-oficial-lula-cop31-teve-10-integrantes-nao-2-mil-pessoas",
+    "bb-nao-liberou-r-256-bilhoes-fazendas-fantasmas-cpf-inexistente"
+  ],
+  "descartou": [
+    {
+      "tema": "Vídeo com imagens geradas por inteligência artificial de protestos contra Lula no Nordeste (Lupa)",
+      "motivo": "fonte-unica",
+      "pauta": "video-ia-protestos-contra-lula-nordeste"
+    },
+    {
+      "tema": "Fala de Lula sobre vento e ódio associada às tempestades em Santa Catarina (Lupa)",
+      "motivo": "fonte-unica",
+      "pauta": "lula-vento-odio-santa-catarina-tempestades"
+    },
+    {
+      "tema": "Vídeo com relato atribuído a Lucas Pavanato sobre ser mulher trans (Boatos.Org)",
+      "motivo": "fonte-unica",
+      "pauta": "boato-lucas-pavanato-mulher-trans"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "brasilparticipativo.presidencia.gov.br",
+      "erro": "http-5xx",
+      "detalhe": "503 na página de perguntas do credenciamento da COP31"
+    }
+  ],
+  "pr": null
+}
