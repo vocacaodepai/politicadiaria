@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter, Newsreader } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
+import { UtilityBar } from "@/components/UtilityBar";
 import { Footer } from "@/components/Footer";
 import { CookieConsent } from "@/components/CookieConsent";
 import { AdSenseLoader } from "@/components/AdSenseLoader";
@@ -161,6 +162,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <a href="#conteudo" className="skip-link">
           Pular para o conteúdo
         </a>
+        <UtilityBar />
         <Header />
         <main id="conteudo" className="flex-1">
           {children}

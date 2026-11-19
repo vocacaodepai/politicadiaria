@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Container } from "@/components/Container";
 import { JsonLd } from "@/components/article/JsonLd";
 import { Breadcrumbs } from "@/components/article/Breadcrumbs";
+import { ChecagemStats } from "@/components/checagem/ChecagemStats";
 import { FactCheckBrowser } from "@/components/checagem/FactCheckBrowser";
 import { FactCheckCard, toCardData } from "@/components/checagem/FactCheckCard";
 import { VerdictSeal } from "@/components/checagem/VerdictSeal";
@@ -62,11 +63,11 @@ export default function ChecagemPage() {
             Checagem
           </h1>
           <p className="mt-3 max-w-3xl text-lg leading-relaxed text-muted">
-            Boatos e notícias falsas verificados com fonte primária, principalmente em época de eleição. Boato contra ou
-            a favor de qualquer candidato, partido ou governo recebe a mesma investigação. Sem fonte primária ou ao
-            menos duas fontes independentes abertas e conferidas, não há veredito.
+            Boatos e notícias falsas verificados com fonte primária, com a mesma régua para qualquer campo político.
           </p>
         </header>
+
+        <ChecagemStats />
 
         {latest && (
           <section aria-labelledby="mais-recente" className="mt-10">

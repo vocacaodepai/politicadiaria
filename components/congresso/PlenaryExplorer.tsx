@@ -6,6 +6,7 @@ import { useCallback, useEffect, useMemo, useRef, useState, type CSSProperties, 
 import { hemicycleLayout, norm, officialPhoto, partyBand, partyHue, type PlenaryData, type PlenaryRow } from "@/lib/congress-plenary";
 import { UF_NAMES } from "@/lib/congress-format";
 import { ParliamentarianPhoto } from "./Photo";
+import { initials } from "@/lib/congress-format";
 
 type Casa = "camara" | "senado";
 
@@ -44,7 +45,10 @@ export function PlenaryExplorer() {
   const [data, setData] = useState<PlenaryData | null>(null);
   const [error, setError] = useState(false);
   const [casa, setCasa] = useState<Casa>("camara");
-  const [view, setView] = useState<"plenario" | "lista">("plenario");
+  const [view, setView] = useState<"plenario" | "rostos" | "lista">("plenario");
+  const [zoom, setZoom] = useState(2);
+  const [showFilters, setShowFilters] = useState(true);
+  const [showLegend, setShowLegend] = useState(true);
   const [party, setParty] = useState("");
   const [uf, setUf] = useState("");
   const [grupo, setGrupo] = useState("");
@@ -68,7 +72,8 @@ export function PlenaryExplorer() {
         setParty(p.get("partido") ?? "");
         setUf((p.get("uf") ?? "").toUpperCase());
         setGrupo(p.get("grupo") ?? "");
-        if (p.get("vista") === "lista") setView("lista");
+        const v = p.get("vista");
+        if (v === "lista" || v === "rostos") setView(v);
         setData(d);
         setReady(true);
       })
@@ -85,7 +90,7 @@ export function PlenaryExplorer() {
     if (party) p.set("partido", party);
     if (uf) p.set("uf", uf);
     if (grupo) p.set("grupo", grupo);
-    if (view === "lista") p.set("vista", "lista");
+    if (view !== "plenario") p.set("vista", view);
     const qs = p.toString();
     window.history.replaceState(null, "", `${window.location.pathname}${qs ? `?${qs}` : ""}`);
   }, [ready, casa, party, uf, grupo, view]);
@@ -284,15 +289,27 @@ export function PlenaryExplorer() {
         </div>
         <div role="group" aria-label="Forma de visualização" className="inline-flex">
           <button type="button" className={seg(view === "plenario")} aria-pressed={view === "plenario"} onClick={() => setView("plenario")}>
-            Hemiciclo
+            Plenário
+          </button>
+          <button type="button" className={`${seg(view === "rostos")} -ml-px`} aria-pressed={view === "rostos"} onClick={() => setView("rostos")}>
+            Rostos
           </button>
           <button type="button" className={`${seg(view === "lista")} -ml-px`} aria-pressed={view === "lista"} onClick={() => setView("lista")}>
-            Lista acessível
+            Lista
           </button>
         </div>
       </div>
 
-      <form role="search" onSubmit={(e) => e.preventDefault()} className="mt-4 grid grid-cols-2 gap-3 lg:grid-cols-[1.4fr_1fr_1fr_1.4fr]">
+      <button
+        type="button"
+        onClick={() => setShowFilters((v) => !v)}
+        aria-expanded={showFilters}
+        aria-controls="plen-filtros"
+        className="mt-4 inline-flex items-center gap-2 border border-border bg-surface px-3 py-2 font-mono text-xs font-semibold uppercase tracking-wide hover:border-foreground"
+      >
+        Filtros {filtered ? `(ativos)` : ""} <span aria-hidden="true">{showFilters ? "▲" : "▼"}</span>
+      </button>
+      <form id="plen-filtros" hidden={!showFilters} role="search" onSubmit={(e) => e.preventDefault()} className="mt-3 grid grid-cols-2 gap-3 lg:grid-cols-[1.4fr_1fr_1fr_1.4fr]">
         <label className="col-span-2 block lg:col-span-1">
           <span className="label-mono text-muted">Nome</span>
           <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Destacar por nome" className={`${field} mt-1 w-full`} autoComplete="off" />
@@ -351,15 +368,27 @@ export function PlenaryExplorer() {
         )}
       </p>
 
-      {view === "plenario" ? (
+      {view !== "lista" ? (
         <>
           <div ref={wrapRef} className="relative mt-3 border border-border bg-surface p-2 sm:p-4">
-            <div className="overflow-x-auto" style={{ touchAction: "pan-y" }}>
+            {view === "rostos" && (
+              <div className="mb-2 flex items-center justify-end gap-2 font-mono text-xs text-muted">
+                <span>Zoom</span>
+                <button type="button" className={seg(false)} onClick={() => setZoom((z) => Math.max(1, +(z - 0.5).toFixed(1)))} aria-label="Afastar" disabled={zoom <= 1}>
+                  −
+                </button>
+                <span className="w-10 text-center text-foreground">{Math.round(zoom * 100)}%</span>
+                <button type="button" className={seg(false)} onClick={() => setZoom((z) => Math.min(4, +(z + 0.5).toFixed(1)))} aria-label="Aproximar" disabled={zoom >= 4}>
+                  +
+                </button>
+              </div>
+            )}
+            <div className="overflow-x-auto" style={{ touchAction: view === "rostos" ? "pan-x pan-y" : "pan-y" }}>
+              <div className="relative mx-auto" style={view === "rostos" ? { width: `${zoom * 100}%` } : { maxWidth: 860 }}>
               <svg
                 ref={svgRef}
                 viewBox={`0 0 ${layout.width} ${layout.height}`}
-                className="plen-svg mx-auto block h-auto w-full"
-                style={{ maxWidth: 860 }}
+                className={`plen-svg block h-auto w-full ${view === "rostos" ? "plen-svg-ghost" : ""}`}
                 role="group"
                 aria-label={`Hemiciclo com ${entries.length} ${noun.plural}, agrupados por partido. Use as setas do teclado para percorrer e Enter para abrir a ficha. Há também a lista acessível.`}
                 tabIndex={0}
@@ -386,8 +415,35 @@ export function PlenaryExplorer() {
                     ))}
                   </g>
                 ))}
-                {sel !== null && <circle cx={layout.seats[sel].x} cy={layout.seats[sel].y} r={layout.dot * 2} className="plen-ring" />}
+                {sel !== null && <circle cx={layout.seats[sel].x} cy={layout.seats[sel].y} r={layout.dot * (view === "rostos" ? 1.4 : 2)} className="plen-ring" />}
               </svg>
+              {view === "rostos" && (
+                <div className="pointer-events-none absolute inset-0" aria-hidden="true">
+                  {entries.map((e) => {
+                    const seat = layout.seats[e.i];
+                    const g = groups.find((x) => e.i >= x.start && e.i < x.start + x.n);
+                    const photo = officialPhoto(casa, e);
+                    const d = (layout.dot * 2.3 * 100) / layout.width;
+                    return (
+                      <span
+                        key={e.s}
+                        className="plen-c plen-face absolute block -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-full"
+                        data-band={g?.band ?? 0}
+                        data-off={on[e.i] ? undefined : ""}
+                        style={{ "--plen-h": g?.hue ?? 0, left: `${(seat.x / layout.width) * 100}%`, top: `${(seat.y / layout.height) * 100}%`, width: `${d}%`, aspectRatio: "1" } as CSSProperties}
+                      >
+                        {photo ? (
+                          // eslint-disable-next-line @next/next/no-img-element
+                          <img src={photo.url} alt="" loading="lazy" decoding="async" referrerPolicy="no-referrer" className="h-full w-full object-cover object-top" />
+                        ) : (
+                          <span className="flex h-full w-full items-center justify-center bg-ink text-[6px] font-bold text-ink-foreground/80">{initials(e.n)}</span>
+                        )}
+                      </span>
+                    );
+                  })}
+                </div>
+              )}
+              </div>
             </div>
 
             {shown && hover && (
@@ -434,10 +490,17 @@ export function PlenaryExplorer() {
         </>
       ) : null}
 
-      {view === "plenario" ? (
+      {view !== "lista" ? (
         <div className="mt-5">
-          <h2 className="label-mono text-muted">Legenda: clique em um partido para destacá-lo</h2>
-          <ul className="mt-2 flex flex-wrap gap-1.5">
+          <button
+            type="button"
+            onClick={() => setShowLegend((v) => !v)}
+            aria-expanded={showLegend}
+            className="label-mono inline-flex items-center gap-2 text-muted hover:text-foreground"
+          >
+            Legenda: clique em um partido para destacá-lo <span aria-hidden="true">{showLegend ? "▲" : "▼"}</span>
+          </button>
+          <ul hidden={!showLegend} className="mt-2 flex flex-wrap gap-1.5">
             {groups.map((g) => {
               const active = party === g.sigla;
               return (

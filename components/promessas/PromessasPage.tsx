@@ -8,21 +8,19 @@ import {
   areaCounts,
   areaLabel,
   candidatoPath,
-  candidatoSlugs,
   getMeta,
   getPropostas,
-  modoDe,
   propostaPath,
   statusBadgeText,
   statusCounts,
   statusList,
-  statusNota,
   type CandidatoSlug,
 } from "@/lib/promessas";
 import { absoluteUrl, breadcrumbJsonLd, formatDate } from "@/lib/seo";
 import { site } from "@/lib/articles";
 import { PromessasBrowser, type PromessaCardData } from "./PromessasBrowser";
 import { StatusBadge } from "./StatusBadge";
+import { CandidateBoard, CandidatePicker } from "./PromessasDashboard";
 
 const TITLE = "Promessas do presidente: o que prometeram e o que foi feito";
 const DESCRIPTION =
@@ -120,73 +118,19 @@ export function PromessasPage({ candidato }: { candidato?: CandidatoSlug }) {
             ...(candidato ? [{ name: info.nome }] : []),
           ]}
         />
-        <header className="mt-6 border-t-[3px] border-foreground pt-3">
+        <header className="mt-5 border-t-[3px] border-foreground pt-3">
           <p className="label-mono text-accent">Painel</p>
-          <h1 className="mt-1 font-display text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-5xl">
-            {candidato ? `Promessas de ${info.nome}` : "Promessas do presidente"}
+          <h1 className="mt-1 font-display text-3xl font-extrabold leading-[1.05] tracking-tight sm:text-4xl">
+            {candidato ? `Promessas de ${info.nome}` : "Promessas"}
           </h1>
-          <p className="mt-3 max-w-3xl text-lg leading-relaxed text-muted">
-            O que Lula e Flávio Bolsonaro propuseram nos planos de governo de 2026, proposta por proposta, com a citação e a
-            página do documento. A partir da posse, em 05/01/2027, o painel mostra o que caminhou e o que não caminhou nas
-            promessas de quem for eleito, com dados oficiais.
-          </p>
+          <p className="mt-1.5 max-w-3xl text-base text-muted">Escolha um candidato e acompanhe, proposta por proposta, o que foi prometido.</p>
         </header>
 
-        <div className="mt-6 grid gap-4 lg:grid-cols-[1.4fr_1fr]">
-          <AvisoFixo />
-          <div className="border border-border p-4 text-sm leading-relaxed" role="status">
-            <p className="label-mono text-accent">Situação</p>
-            <p className="mt-1">
-              {meta.eleito
-                ? `Eleito: ${meta.candidatos[meta.eleito].nome}. As propostas de ${
-                    meta.candidatos[meta.eleito === "lula" ? "flavio" : "lula"].nome
-                  } ficam registradas como arquivo da campanha, sem acompanhamento.`
-                : "O eleito ainda não está definido neste painel (2º turno em 25/10/2026). Todas as propostas aparecem como prometidas, sem acompanhamento ainda."}
-            </p>
-            <p className="mt-1 text-muted">
-              Acompanhamento real começa na posse ({formatDate(meta.posse)}). Atualizado em {formatDate(meta.atualizadoEm)}.
-            </p>
-          </div>
+        <div className="mt-5">
+          <CandidatePicker current={current} />
         </div>
 
-        <nav aria-label="Candidato" className="mt-8 grid gap-3 sm:grid-cols-2">
-          {candidatoSlugs.map((c) => {
-            const ci = meta.candidatos[c];
-            const m = modoDe(c);
-            const active = c === current;
-            return (
-              <Link
-                key={c}
-                href={candidatoPath(c)}
-                aria-current={active ? "page" : undefined}
-                className={`block border-2 p-4 transition ${active ? "border-foreground bg-surface-2" : "border-border hover:border-foreground"}`}
-              >
-                <span className="label-mono text-muted">{ci.partido}</span>
-                <span className="mt-0.5 block font-display text-2xl font-extrabold">{ci.nome}</span>
-                <span className="mt-1 block text-sm text-muted">
-                  {getPropostas(c).length} propostas
-                  {m === "acompanhando" && " | Eleito, em acompanhamento"}
-                  {m === "arquivo" && " | Arquivo da campanha, sem acompanhamento"}
-                </span>
-              </Link>
-            );
-          })}
-        </nav>
-
-        <section aria-labelledby="contadores" className="mt-8">
-          <h2 id="contadores" className="label-mono mb-3 text-muted">
-            Propostas de {info.nome} por status
-          </h2>
-          <dl className="grid grid-cols-2 gap-px border border-border bg-border sm:grid-cols-3 lg:grid-cols-6">
-            {statusList.map((s) => (
-              <div key={s.slug} className="bg-background p-3">
-                <dt className="text-[11px] font-bold uppercase tracking-[0.06em] text-muted">{s.label}</dt>
-                <dd className="mt-1 font-display text-3xl font-extrabold">{counts[s.slug]}</dd>
-              </div>
-            ))}
-          </dl>
-          <p className="mt-2 text-xs text-muted">{statusNota(current)}.</p>
-        </section>
+        <CandidateBoard c={current} />
 
         <section aria-labelledby="propostas" className="mt-12">
           <div className="mb-5 border-t-[3px] border-foreground pt-2">
@@ -257,6 +201,23 @@ export function PromessasPage({ candidato }: { candidato?: CandidatoSlug }) {
             </ul>
           </section>
         )}
+
+        <section aria-label="Aviso e situação" className="mt-14 grid gap-4 lg:grid-cols-[1.4fr_1fr]">
+          <AvisoFixo />
+          <div className="border border-border p-4 text-sm leading-relaxed" role="status">
+            <p className="label-mono text-accent">Situação</p>
+            <p className="mt-1">
+              {meta.eleito
+                ? `Eleito: ${meta.candidatos[meta.eleito].nome}. As propostas de ${
+                    meta.candidatos[meta.eleito === "lula" ? "flavio" : "lula"].nome
+                  } ficam registradas como arquivo da campanha, sem acompanhamento.`
+                : "O eleito ainda não está definido neste painel. Todas as propostas aparecem como prometidas, sem acompanhamento ainda."}
+            </p>
+            <p className="mt-1 text-muted">
+              Acompanhamento real começa na posse ({formatDate(meta.posse)}). Atualizado em {formatDate(meta.atualizadoEm)}.
+            </p>
+          </div>
+        </section>
 
         <section aria-labelledby="metodologia" className="mt-14 pb-20">
           <div className="mb-5 border-t-[3px] border-foreground pt-2">
