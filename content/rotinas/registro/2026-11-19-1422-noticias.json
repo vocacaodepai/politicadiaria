@@ -1,0 +1,15 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-19T14:22:10-03:00",
+  "fim": "2026-11-19T14:26:00-03:00",
+  "branch": "claude/pd-noticias-20261119-1422",
+  "publicou": ["carpetes-senado-duarte-jr-justica-tcu"],
+  "descartou": [
+    { "tema": "Relator Mauro Benevides Filho busca bancadas para manter na Câmara o texto do ajuste fiscal aprovado no Senado", "motivo": "aguardando-fato" },
+    { "tema": "Lula diz que não tem pressa para indicar ministros do novo mandato", "motivo": "sem-angulo" },
+    { "tema": "Comissão de Relações Exteriores da Câmara convoca Mauro Vieira sobre atrasos no Itamaraty", "motivo": "ja-publicado" },
+    { "tema": "Márcio Elias Rosa cotado para o Ministério da Defesa", "motivo": "sem-fonte-primaria" }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
