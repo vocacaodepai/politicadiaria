@@ -1,0 +1,13 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-18T21:22:11-03:00",
+  "fim": "2026-11-18T21:27:00-03:00",
+  "branch": "claude/pd-noticias-20261118-2122",
+  "publicou": ["senado-aprova-20-anos-reparacao-crime-sexual-infancia"],
+  "descartou": [
+    { "tema": "Senado aprova calendário escolar flexível para a Copa do Mundo feminina de 2027", "motivo": "sem-angulo" },
+    { "tema": "Senado aprova regras de uso compartilhado de postes (texto vai à sanção)", "motivo": "ja-publicado" }
+  ],
+  "bloqueios": [{ "host": "commons.wikimedia.org", "erro": "outro", "detalhe": "API devolveu página de erro; notícia sem imagem no corpo" }],
+  "pr": 628
+}
