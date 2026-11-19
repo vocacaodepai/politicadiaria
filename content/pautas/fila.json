@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-19T08:26:45-03:00",
+  "atualizadoEm": "2026-11-19T11:26:01-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1267,7 +1267,7 @@
         "https://www.cnnbrasil.com.br/politica/stf-extingue-investigacao-contra-zambelli-por-defender-intervencao-militar/"
       ],
       "primeiraVezVisto": "2026-11-19T06:26:48-03:00",
-      "ultimaRevisao": "2026-11-19T08:26:45-03:00",
+      "ultimaRevisao": "2026-11-19T11:26:01-03:00",
       "status": "aberta",
       "falta": "segunda fonte de editoria independente ou decisão no portal do STF"
     },
@@ -1298,6 +1298,20 @@
       "ultimaRevisao": "2026-11-19T07:46:12-03:00",
       "status": "publicada",
       "slug": "bb-nao-liberou-r-256-bilhoes-fazendas-fantasmas-cpf-inexistente"
+    },
+    {
+      "id": "decreto-regulamenta-jornada-5x2-assinatura",
+      "rotina": "noticias",
+      "tema": "Lula assina decreto que regulamenta a jornada 5x2 criada pela Emenda 141",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [
+        "https://www.metropoles.com/brasil/lula-decreto-5x2",
+        "https://jovempan.com.br/politica/fim-da-escala-6x1-lula-assinatura-decreto-regulamentacao-jornada-5x2/"
+      ],
+      "primeiraVezVisto": "2026-11-19T06:21:22-03:00",
+      "ultimaRevisao": "2026-11-19T11:26:01-03:00",
+      "status": "publicada",
+      "slug": "lula-assina-decreto-jornada-5x2-regras-16-dezembro"
     }
   ]
 }

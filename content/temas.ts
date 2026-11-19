@@ -58,6 +58,7 @@ export const temas: Tema[] = [
       "fux-destaque-6x1-plenario-fisico-stf",
       "pl-5830-jornada-servicos-saude-12x36",
       "dino-converte-rito-merito-nova-jornada-cautelares",
+      "lula-assina-decreto-jornada-5x2-regras-16-dezembro",
     ],
   },
   {

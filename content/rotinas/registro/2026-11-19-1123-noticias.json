@@ -1,0 +1,23 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-19T11:23:49-03:00",
+  "fim": "2026-11-19T11:26:01-03:00",
+  "branch": "claude/pd-noticias-20261119-1123",
+  "publicou": [
+    "lula-assina-decreto-jornada-5x2-regras-16-dezembro"
+  ],
+  "descartou": [
+    {
+      "tema": "Moraes extingue por prescrição investigação contra Zambelli por defesa de intervenção militar",
+      "motivo": "fonte-unica",
+      "pauta": "moraes-extingue-inquerito-zambelli-intervencao-militar-prescricao"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.mercadoeeventos.com.br",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}
