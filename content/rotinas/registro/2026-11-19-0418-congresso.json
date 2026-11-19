@@ -1,0 +1,10 @@
+{
+  "rotina": "congresso",
+  "inicio": "2026-11-19T04:18:40-03:00",
+  "fim": "2026-11-19T04:44:10-03:00",
+  "branch": "claude/pd-congresso-20261119-0418",
+  "publicou": ["data/congresso"],
+  "descartou": [],
+  "bloqueios": [{ "host": "dadosabertos.camara.leg.br", "erro": "outro", "detalhe": "download de votacoesVotos-2023.csv interrompido na 1a tentativa; nova tentativa completa" }],
+  "pr": null
+}
