@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { type Article, getCategory } from "@/lib/articles";
-import { CoverImage } from "@/components/CoverImage";
+import { ArticleCover } from "@/components/ArticleCover";
 import { formatDate, readingTime } from "@/lib/seo";
 
 /** Bloco "Próximo artigo →" de largura total: card horizontal com a categoria. */
@@ -29,15 +29,12 @@ export function NextArticle({ article }: { article?: Article }) {
           </p>
         </div>
         <div className="order-first aspect-[16/9] sm:order-none sm:aspect-auto sm:h-full">
-          <CoverImage
-            query={article.imageQuery}
-            seed={article.seed}
+          <ArticleCover
+            article={article}
             alt=""
             className="h-full w-full"
             sizes="(max-width: 640px) 100vw, 280px"
-            showCredit={false}
             label={label}
-            override={article.coverImage}
           />
         </div>
       </article>
