@@ -1,0 +1,22 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-19T07:22:17-03:00",
+  "fim": "2026-11-19T07:26:49-03:00",
+  "branch": "claude/pd-noticias-20261119-0722",
+  "publicou": [
+    "postes-teto-aneel-anatel-senado-sancao"
+  ],
+  "descartou": [
+    {
+      "tema": "Moraes extingue por prescrição investigação contra Zambelli por defesa de intervenção militar",
+      "motivo": "fonte-unica",
+      "pauta": "moraes-extingue-inquerito-zambelli-intervencao-militar-prescricao"
+    },
+    {
+      "tema": "Decreto que regulamenta o fim da escala 6x1, com assinatura prevista para as 9h no Planalto",
+      "motivo": "aguardando-fato"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
