@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-19T07:26:49-03:00",
+  "atualizadoEm": "2026-11-19T07:46:12-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -266,7 +266,7 @@
         "https://www.aosfatos.org/noticias/video-lula-presidentes-cop31/"
       ],
       "primeiraVezVisto": "2026-11-12T19:44:00-03:00",
-      "ultimaRevisao": "2026-11-18T19:44:38-03:00",
+      "ultimaRevisao": "2026-11-19T07:46:12-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre a foto oficial"
     },
@@ -330,7 +330,7 @@
         "https://aosfatos.org/noticias/fila-formula-1-saida-brasileiros-paraguai/"
       ],
       "primeiraVezVisto": "2026-11-13T07:47:58-03:00",
-      "ultimaRevisao": "2026-11-18T19:44:38-03:00",
+      "ultimaRevisao": "2026-11-19T07:46:12-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre local e data do vídeo"
     },
@@ -390,7 +390,7 @@
         "https://www.agencialupa.org/noticias/2026/11/13/foto-nao-mostra-protesto-de-1-milhao-de-pessoas-contra-o-governo-milei/"
       ],
       "primeiraVezVisto": "2026-11-13T13:50:42-03:00",
-      "ultimaRevisao": "2026-11-18T19:44:38-03:00",
+      "ultimaRevisao": "2026-11-19T07:46:12-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre a origem da foto (AFP e Fast Check não abriram)"
     },
@@ -966,7 +966,7 @@
       ],
       "falta": "segunda checagem aberta ou nota do SBT",
       "primeiraVezVisto": "2026-11-16T13:52:00-03:00",
-      "ultimaRevisao": "2026-11-18T19:44:38-03:00",
+      "ultimaRevisao": "2026-11-19T07:46:12-03:00",
       "status": "aberta"
     },
     {
@@ -979,7 +979,7 @@
       ],
       "falta": "segunda checagem aberta sobre os vídeos atuais",
       "primeiraVezVisto": "2026-11-16T19:45:16-03:00",
-      "ultimaRevisao": "2026-11-18T19:44:38-03:00",
+      "ultimaRevisao": "2026-11-19T07:46:12-03:00",
       "status": "aberta"
     },
     {
@@ -1031,7 +1031,7 @@
         "https://www.boatos.org/politica/lucas-pavanato-era-uma-mulher-trans-antes-de-entrar-para-a-politica.html"
       ],
       "primeiraVezVisto": "2026-11-17T07:47:00-03:00",
-      "ultimaRevisao": "2026-11-18T19:44:38-03:00",
+      "ultimaRevisao": "2026-11-19T07:46:12-03:00",
       "status": "aberta",
       "falta": "segunda checagem aberta ou nota do gabinete"
     },
@@ -1098,7 +1098,7 @@
         "https://www.boatos.org/politica/casa-da-moeda-vai-lancar-nota-de-r-100-com-rosto-de-lula-em-2030.html"
       ],
       "primeiraVezVisto": "2026-11-17T13:52:00-03:00",
-      "ultimaRevisao": "2026-11-18T19:44:38-03:00",
+      "ultimaRevisao": "2026-11-19T07:46:12-03:00",
       "status": "aberta",
       "falta": "segunda checagem aberta ou nota do Banco Central ou da Casa da Moeda"
     },
@@ -1125,7 +1125,7 @@
         "https://www.aosfatos.org/noticias/falso-post-marco-rubio-lula-conspirar-eua-ira/"
       ],
       "primeiraVezVisto": "2026-11-17T19:45:00-03:00",
-      "ultimaRevisao": "2026-11-18T19:44:38-03:00",
+      "ultimaRevisao": "2026-11-19T07:46:12-03:00",
       "status": "aberta",
       "falta": "segunda checagem aberta (Reuters bloqueada) ou página oficial do Departamento de Estado acessível"
     },
@@ -1214,7 +1214,7 @@
       ],
       "falta": "segunda checagem independente aberta sobre o mesmo vídeo",
       "primeiraVezVisto": "2026-11-18T13:40:00-03:00",
-      "ultimaRevisao": "2026-11-18T19:44:38-03:00",
+      "ultimaRevisao": "2026-11-19T07:46:12-03:00",
       "status": "aberta"
     },
     {
@@ -1227,7 +1227,7 @@
       ],
       "falta": "segunda checagem aberta (UOL Confere e Estadão Verifica bloqueados) ou transcrição oficial da live",
       "primeiraVezVisto": "2026-11-18T19:42:00-03:00",
-      "ultimaRevisao": "2026-11-18T19:44:38-03:00",
+      "ultimaRevisao": "2026-11-19T07:46:12-03:00",
       "status": "aberta"
     },
     {
@@ -1270,6 +1270,34 @@
       "ultimaRevisao": "2026-11-19T07:26:49-03:00",
       "status": "aberta",
       "falta": "segunda fonte de editoria independente ou decisão no portal do STF"
+    },
+    {
+      "id": "comitiva-lula-cop31-2-mil-pessoas",
+      "rotina": "checagem",
+      "tema": "Posts dizem que Lula levou comitiva de 2 mil pessoas à COP31 paga pelo governo (Boatos.Org: falso; decreto lista 10 integrantes)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.boatos.org/politica/lula-levou-uma-comitiva-de-2-mil-pessoas-para-a-cop31.html",
+        "https://www.carbonbrief.org/analysis-which-countries-have-sent-the-most-delegates-to-cop31/"
+      ],
+      "primeiraVezVisto": "2026-11-19T07:46:12-03:00",
+      "ultimaRevisao": "2026-11-19T07:46:12-03:00",
+      "status": "publicada",
+      "slug": "comitiva-oficial-lula-cop31-teve-10-integrantes-nao-2-mil-pessoas"
+    },
+    {
+      "id": "bb-r-256-bilhoes-fazendas-fantasmas-cpf",
+      "rotina": "checagem",
+      "tema": "Posts dizem que o Banco do Brasil liberou R$ 256 bilhões a 112 fazendas fantasmas ligadas a CPF inexistente (Boatos.Org: falso)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.boatos.org/brasil/banco-do-brasil-liberou-r-256-bilhoes-em-emprestimos-para-112-fazendas-fantasmas-ligadas-a-um-cpf-inexistente.html",
+        "https://imprensa.bb.com.br/bb-repudia-disseminacao-de-informacoes-falsas-sobre-operacoes-de-credito-rural-que-circulam-de-forma-irresponsavel-nas-redes-sociais/"
+      ],
+      "primeiraVezVisto": "2026-11-19T07:46:12-03:00",
+      "ultimaRevisao": "2026-11-19T07:46:12-03:00",
+      "status": "publicada",
+      "slug": "bb-nao-liberou-r-256-bilhoes-fazendas-fantasmas-cpf-inexistente"
     }
   ]
 }
