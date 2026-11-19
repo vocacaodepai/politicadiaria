@@ -1,0 +1,10 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-18T22:21:25-03:00",
+  "fim": "2026-11-18T22:25:52-03:00",
+  "branch": "claude/pd-noticias-20261118-2221",
+  "publicou": ["motta-sessao-extraordinaria-pacote-fiscal-dia-23"],
+  "descartou": [],
+  "bloqueios": [{ "host": "portal.stf.jus.br", "erro": "http-403", "detalhe": "lista de notícias do STF" }],
+  "pr": 629
+}
