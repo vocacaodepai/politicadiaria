@@ -31,6 +31,7 @@ export const temas: Tema[] = [
       "pt-projetos-grandes-fortunas-dividendos-lci-lca",
       "alckmin-ajuste-fiscal-votacao-camara-semana",
       "senado-conclui-plp-299-rejeita-emenda-40-47-a-30",
+      "motta-sessao-extraordinaria-pacote-fiscal-dia-23",
     ],
   },
   {
