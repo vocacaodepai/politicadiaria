@@ -12,6 +12,7 @@ import { getNumeros, hasEvolucao, hasNumeros, type NumeroRow } from "@/lib/congr
 import { BarList, StackedBar } from "./Bars";
 import { LegislatureNotice } from "./LegislatureNotice";
 import { Card, StatTile } from "./Stat";
+import { VoteLookup } from "./VoteLookup";
 
 const PATH = "/congresso";
 const TITLE = "Congresso Nacional: quem são os 513 deputados e 81 senadores";
@@ -117,6 +118,25 @@ export function OverviewPage() {
             </div>
           </Link>
         </div>
+
+        <section id="como-votou" aria-labelledby="como-votou-t" className="mt-8 scroll-mt-24">
+          <div className="border-t-[3px] border-foreground pt-3">
+            <h2 id="como-votou-t" className="font-display text-2xl font-bold tracking-tight">
+              Como votou meu deputado
+            </h2>
+          </div>
+          <p className="mt-1 max-w-3xl text-sm text-muted">
+            Escolha o estado e o partido para ver o registro de cada deputado e senador nas votações nominais mais recentes do Plenário, com link para a ficha completa. Os dados são os registros oficiais de cada Casa.
+          </p>
+          <noscript>
+            <p className="mt-3 border border-border bg-surface p-4 text-sm">
+              A ferramenta precisa de JavaScript. Os votos de cada parlamentar estão na ficha individual: veja a lista de <Link className="text-accent underline" href="/congresso/deputados">deputados</Link> e de <Link className="text-accent underline" href="/congresso/senadores">senadores</Link>.
+            </p>
+          </noscript>
+          <div className="mt-4">
+            <VoteLookup />
+          </div>
+        </section>
 
         {detail && (
           <section id="numeros" aria-labelledby="numeros-t" className="mt-8 scroll-mt-24">

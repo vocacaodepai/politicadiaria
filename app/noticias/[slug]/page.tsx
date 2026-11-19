@@ -8,6 +8,7 @@ import { FaqAccordion } from "@/components/FaqAccordion";
 import { NewsList } from "@/components/NewsRow";
 import { QuizWidget } from "@/components/QuizWidget";
 import { ReadingProgress } from "@/components/ReadingProgress";
+import { PlacarOficial } from "@/components/congresso/PlacarOficial";
 import { SectionHeading } from "@/components/SectionHeading";
 import { TemaBox } from "@/components/TemaBox";
 import { AuthorAvatar } from "@/components/article/AuthorAvatar";
@@ -173,6 +174,8 @@ export default async function NewsPage({ params }: { params: Params }) {
                 <p>{item.summary}</p>
               </div>
             )}
+
+            <PlacarOficial slug={item.slug} className="mt-10" />
 
             <TemaBox newsSlug={item.slug} className="mt-10" />
 

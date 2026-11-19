@@ -1,0 +1,17 @@
+{
+  "_como_usar": "Slug da notícia (content/news/<slug>.ts) -> proposições que o texto cita de forma inequívoca (sigla, número e ano oficiais da Casa de origem; MP usa a sigla MPV). Mantido pela rotina de notícias (docs/rotinas/noticias.md). O placar oficial é resolvido pela rotina do Congresso (npm run congress:update -- --only=votacoes) e gravado em data/congresso/placares.json; nunca escreva placar aqui.",
+  "noticias": {
+    "camara-aprova-pl-504-politica-nacional-residencia-saude": [{ "sigla": "PL", "numero": 504, "ano": 2021 }],
+    "camara-aprova-hediondo-maus-tratos-caes-gatos-morte": [{ "sigla": "PL", "numero": 2475, "ano": 2025 }],
+    "senado-aprova-fust-sem-contingenciamento-escolas-sancao": [{ "sigla": "PLP", "numero": 230, "ano": 2025 }],
+    "senado-pauta-anp-dados-fiscais-fust-10-11-novembro": [
+      { "sigla": "PLP", "numero": 109, "ano": 2025 },
+      { "sigla": "PLP", "numero": 230, "ano": 2025 }
+    ],
+    "senado-aprova-72-a-0-anp-notas-fiscais-sancao": [{ "sigla": "PLP", "numero": 109, "ano": 2025 }],
+    "mp-1376-dividas-rurais-perde-validade-quarta": [{ "sigla": "MPV", "numero": 1376, "ano": 2026 }],
+    "comissao-aprova-relatorio-pimenta-dividas-rurais-plenario-quarta": [{ "sigla": "MPV", "numero": 1376, "ano": 2026 }],
+    "mp-1376-camara-plenario-aprova-texto-segue-senado": [{ "sigla": "MPV", "numero": 1376, "ano": 2026 }],
+    "senado-aprova-mp-1376-dividas-rurais-sancao-vapes-retirados": [{ "sigla": "MPV", "numero": 1376, "ano": 2026 }]
+  }
+}

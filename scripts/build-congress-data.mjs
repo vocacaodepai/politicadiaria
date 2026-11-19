@@ -5,6 +5,8 @@
  *   npm run congress:update                 # tudo, reaproveitando o cache em .cache/congress/
  *   npm run congress:update -- --refresh    # apaga o cache e baixa tudo de novo
  *   npm run congress:update -- --only=senado|camara|fotos|plenario|evolucao
+ *   npm run congress:update -- --only=votacoes  # só votacoes-recentes.json (sem rede) e placares.json
+ *   npm run congress:update -- --only=recentes|placares  # cada um desses dois isoladamente
  *
  * Fontes (todas oficiais, sem chave de API):
  *  - Câmara: API https://dadosabertos.camara.leg.br/api/v2 (lista, detalhe, histórico, órgãos,
@@ -1441,6 +1443,247 @@ async function buildEvolucao() {
 
 /* ================================================================== MAIN */
 
+/* ============================================================ VOTAÇÕES RECENTES */
+
+/**
+ * "Como votou meu deputado": as últimas RECENT_N votações nominais de cada Casa e o registro de
+ * cada parlamentar em exercício nelas. Não consulta a rede: reorganiza o que já foi coletado
+ * (dicionários votacoes-*.json e o texto de votos em public/data/congresso/extras/<casa>/<id>.json,
+ * uma letra por votação, na ordem do dicionário). Saída: public/data/congresso/votacoes-recentes.json,
+ * carregado sob demanda pela ferramenta em /congresso.
+ */
+const RECENT_N = 10;
+
+function buildRecentes() {
+  log(`Votações recentes: últimas ${RECENT_N} de cada Casa`);
+  const casa = (dir, extrasDir, dictFile, keep) => {
+    const idx = JSON.parse(readFileSync(join(OUT, dir, "index.json"), "utf8"));
+    const dict = JSON.parse(readFileSync(join(OUT, dictFile), "utf8")).votacoes;
+    const n = Math.min(RECENT_N, dict.length);
+    const parl = [];
+    let missing = 0;
+    for (const p of idx) {
+      const f = join(PUB, "extras", extrasDir, `${p.id}.json`);
+      if (!existsSync(f)) {
+        missing++;
+        continue;
+      }
+      const v = String(JSON.parse(readFileSync(f, "utf8")).v ?? "").slice(0, n).padEnd(n, "-");
+      parl.push({ s: p.slug, n: p.nome, p: p.partido, u: p.uf, v });
+    }
+    if (missing) log(`Votações recentes (${dir}): ${missing} parlamentar(es) sem arquivo de votos`);
+    return { votacoes: dict.slice(0, n).map(keep), parl };
+  };
+  const short = (s) => (s ? trunc(s, 200) : null);
+  const camara = casa("deputados", "camara", "votacoes-camara.json", (v) => ({ id: v.id, d: v.d, m: v.m, e: short(v.e), t: v.t, a: v.a, s: v.s, n: v.n, o: v.o }));
+  const senado = casa("senadores", "senado", "votacoes-senado.json", (v) => ({ id: v.id, d: v.d, m: v.m, e: short(v.e), t: v.t, r: v.r, sec: v.sec, s: v.s, n: v.n, ab: v.ab }));
+  writeJson(join(PUB, "votacoes-recentes.json"), { atualizadoEm: TODAY, n: RECENT_N, camara, senado });
+}
+
+/* ============================================================ PLACARES DAS NOTÍCIAS */
+
+/**
+ * Placar oficial das proposições citadas em notícias. O mapeamento notícia -> proposição fica em
+ * content/proposicoes-noticias.json (mantido pela rotina de notícias). Para cada proposição única,
+ * consulta as votações de Plenário nas duas Casas:
+ *  - Câmara: /proposicoes?siglaTipo&numero&ano, /proposicoes/{id}/votacoes (só PLEN e só votações
+ *    da própria proposição), /votacoes/{id}/votos e /votacoes/{id}/orientacoes. Votação de Plenário
+ *    registrada sem nenhum voto nominal (e sem placar na descrição) é simbólica.
+ *  - Senado: /votacao?sigla&numero&ano (nominais, com votos), /plenario/votacao/orientacaoBancada/{data}
+ *    (orientação das lideranças) e, sem votação nominal, /processo (o informe legislativo precisa
+ *    dizer "votação simbólica"; para MPV, a deliberação registrada em deliberacoesMpv).
+ * Nada é estimado: sem dado na fonte, a Casa fica sem registro. Saída: data/congresso/placares.json.
+ */
+const PLACAR_MAP = join(ROOT, "content", "proposicoes-noticias.json");
+const PLACAR_MAX = 6; // votações de Plenário por Casa e proposição (as mais recentes)
+const propKey = (p) => `${p.sigla}-${p.numero}-${p.ano}`;
+/** Sem cache: votações novas podem surgir a qualquer dia. */
+const freshJson = async (url, opts) => JSON.parse(await getText(url, opts));
+/** Votação com mais de dois dias não muda mais: pode vir do cache. */
+const settled = (iso) => String(iso).slice(0, 10) < dayBefore(TODAY, 2);
+
+const tally3 = () => ({ sim: 0, nao: 0, abstencao: 0, obstrucao: 0, outros: 0 });
+function addVote(t, voto) {
+  const v = norm(voto);
+  if (v === "sim") t.sim++;
+  else if (v === "nao") t.nao++;
+  else if (v.startsWith("abst")) t.abstencao++;
+  else if (v.startsWith("obstru")) t.obstrucao++;
+  else t.outros++;
+}
+const partyRows = (m) =>
+  [...m.entries()]
+    .map(([sigla, t]) => ({ sigla, ...t }))
+    .sort((a, b) => b.sim + b.nao + b.abstencao + b.obstrucao + b.outros - (a.sim + a.nao + a.abstencao + a.obstrucao + a.outros) || a.sigla.localeCompare(b.sigla));
+
+async function placarCamara(p) {
+  const found = (await getJson(`${CAMARA}/proposicoes?siglaTipo=${p.sigla}&numero=${p.numero}&ano=${p.ano}`)).dados ?? [];
+  const prop = found.find((x) => x.siglaTipo === p.sigla && Number(x.numero) === p.numero && Number(x.ano) === p.ano);
+  if (!prop) return null;
+  const all = (await freshJson(`${CAMARA}/proposicoes/${prop.id}/votacoes`)).dados ?? [];
+  const seq = (id) => Number(String(id).split("-")[1] ?? 0);
+  const plen = all
+    .filter((v) => v.siglaOrgao === "PLEN" && String(v.id).startsWith(`${prop.id}-`))
+    .sort((a, b) => String(b.data).localeCompare(String(a.data)) || seq(b.id) - seq(a.id))
+    .slice(0, PLACAR_MAX);
+  const votacoes = [];
+  for (const v of plen) {
+    const get = settled(v.data) ? getJson : freshJson;
+    const votos = (await get(`${CAMARA}/votacoes/${v.id}/votos`)).dados ?? [];
+    const aprovacao = v.aprovacao === null || v.aprovacao === undefined || v.aprovacao === "" ? null : Number(v.aprovacao);
+    const base = { id: String(v.id), data: String(v.data).slice(0, 10), descricao: trunc(v.descricao, 300), aprovacao };
+    if (votos.length) {
+      const placar = tally3();
+      const byParty = new Map();
+      for (const vo of votos) {
+        addVote(placar, vo.tipoVoto);
+        const sg = vo.deputado_?.siglaPartido || "Sem partido";
+        if (!byParty.has(sg)) byParty.set(sg, tally3());
+        addVote(byParty.get(sg), vo.tipoVoto);
+      }
+      const ori = ((await get(`${CAMARA}/votacoes/${v.id}/orientacoes`)).dados ?? [])
+        .filter((o) => emptyToNull(o.orientacaoVoto))
+        .map((o) => ({ sigla: o.siglaPartidoBloco, voto: o.orientacaoVoto }));
+      votacoes.push({ ...base, tipo: "nominal", placar: { ...placar, total: votos.length }, orientacoes: ori, partidos: partyRows(byParty) });
+    } else if (/^(Aprovad|Rejeitad)/i.test(String(v.descricao ?? "").trim()) && !/\bSim:\s*\d/.test(v.descricao ?? "")) {
+      // Só deliberação de fato (aprovado/rejeitado); registros de tramitação ficam de fora.
+      votacoes.push({ ...base, tipo: "simbolica" });
+    }
+  }
+  return {
+    id: prop.id,
+    ementa: trunc(prop.ementa, 300),
+    url: `https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=${prop.id}`,
+    votacoes,
+  };
+}
+
+const senOrientacoes = new Map();
+async function senadoOrientacoes(dataSessao) {
+  const d = String(dataSessao).slice(0, 10).replace(/-/g, "");
+  if (!senOrientacoes.has(d)) {
+    const url = `${SEN}/plenario/votacao/orientacaoBancada/${d}`;
+    const j = await (settled(dataSessao) ? getJson : freshJson)(url).catch(() => null);
+    senOrientacoes.set(d, j?.votacoes ?? []);
+  }
+  return senOrientacoes.get(d);
+}
+
+async function placarSenado(p) {
+  const ident = `${p.sigla} ${p.numero}/${p.ano}`;
+  const nominal = (await freshJson(`${SEN}/votacao?sigla=${p.sigla}&numero=${p.numero}&ano=${p.ano}`, { timeout: 180000 }))
+    .filter((v) => v.identificacao === ident && (v.votos ?? []).length > 0)
+    .sort((a, b) => String(b.dataSessao).localeCompare(String(a.dataSessao)) || Number(b.sequencialVotacao) - Number(a.sequencialVotacao))
+    .slice(0, PLACAR_MAX);
+  const votacoes = [];
+  let codigoMateria = nominal[0]?.codigoMateria ?? null;
+  for (const v of nominal) {
+    const secreta = v.votacaoSecreta === "S";
+    const base = {
+      id: String(v.codigoSessaoVotacao),
+      data: String(v.dataSessao).slice(0, 10),
+      descricao: trunc(v.descricaoVotacao, 300),
+      aprovacao: v.resultadoVotacao === "A" ? 1 : v.resultadoVotacao === "R" ? 0 : null,
+    };
+    if (secreta) {
+      votacoes.push({ ...base, tipo: "secreta" });
+      continue;
+    }
+    const placar = tally3();
+    const byParty = new Map();
+    let total = 0;
+    for (const vo of v.votos) {
+      const sg = vo.siglaVotoParlamentar;
+      if (!["Sim", "Não", "Abstenção"].includes(sg) && !/obstru/i.test(sg ?? "")) continue;
+      total++;
+      addVote(placar, sg);
+      const party = vo.siglaPartidoParlamentar || "Sem partido";
+      if (!byParty.has(party)) byParty.set(party, tally3());
+      addVote(byParty.get(party), sg);
+    }
+    const ori = (await senadoOrientacoes(v.dataSessao)).find((o) => Number(o.sequencialVotacao) === Number(v.sequencialVotacao));
+    votacoes.push({
+      ...base,
+      tipo: "nominal",
+      placar: { ...placar, total },
+      orientacoes: (ori?.orientacoesLideranca ?? []).filter((o) => emptyToNull(o.voto)).map((o) => ({ sigla: o.partido, voto: o.voto })),
+      partidos: partyRows(byParty),
+    });
+  }
+  let ementa = nominal[0]?.ementa ? trunc(nominal[0].ementa, 300) : null;
+  if (!votacoes.length) {
+    const procs = await freshJson(`${SEN}/processo?sigla=${p.sigla}&numero=${p.numero}&ano=${p.ano}`).catch(() => []);
+    const proc = toArray(procs).find((x) => x.identificacao === ident);
+    if (!proc) return null;
+    codigoMateria = proc.codigoMateria ?? null;
+    ementa = proc.ementa ? trunc(proc.ementa, 300) : null;
+    const det = await freshJson(`${SEN}/processo/${proc.id}`).catch(() => null);
+    const informes = toArray(det?.autuacoes).flatMap((a) => toArray(a.informesLegislativos));
+    const simb = informes
+      .filter((i) => i.colegiado?.casa === "SF" && i.colegiado?.sigla === "PLEN" && /vota[çc][ãa]o\s+simb[óo]lica/i.test(i.descricao ?? ""))
+      .sort((a, b) => String(b.data).localeCompare(String(a.data)))[0];
+    if (simb) {
+      votacoes.push({ id: `informe-${simb.id}`, data: String(simb.data).slice(0, 10), descricao: null, aprovacao: null, tipo: "simbolica" });
+    } else if (p.sigla === "MPV") {
+      const del = toArray(det?.deliberacoesMpv).find((d) => /senado federal/i.test(d.descricaoEvento ?? "") && emptyToNull(d.descricaoResultado));
+      const m = /^(\d{2})\/(\d{2})\/(\d{4})$/.exec(del?.dataEvento ?? "");
+      if (del && m) votacoes.push({ id: `deliberacao-${proc.id}`, data: `${m[3]}-${m[2]}-${m[1]}`, descricao: trunc(del.descricaoResultado, 300), aprovacao: null, tipo: "semNominal" });
+    }
+  }
+  if (!votacoes.length) return null;
+  return {
+    id: codigoMateria,
+    ementa,
+    url: codigoMateria ? `https://www25.senado.leg.br/web/atividade/materias/-/materia/${codigoMateria}` : null,
+    votacoes,
+  };
+}
+
+async function buildPlacares() {
+  if (!existsSync(PLACAR_MAP)) {
+    log("Placares: content/proposicoes-noticias.json não existe; nada a fazer");
+    return;
+  }
+  const map = JSON.parse(readFileSync(PLACAR_MAP, "utf8")).noticias ?? {};
+  const props = new Map();
+  for (const list of Object.values(map))
+    for (const p of list) {
+      const q = { sigla: String(p.sigla).toUpperCase(), numero: Number(p.numero), ano: Number(p.ano) };
+      props.set(propKey(q), q);
+    }
+  log(`Placares: ${props.size} proposição(ões) citadas em ${Object.keys(map).length} notícia(s)`);
+  const prev = existsSync(join(OUT, "placares.json")) ? JSON.parse(readFileSync(join(OUT, "placares.json"), "utf8")).proposicoes ?? {} : {};
+  const out = {};
+  for (const [key, p] of [...props.entries()].sort()) {
+    let camara = null;
+    let senado = null;
+    let ok = true;
+    try {
+      camara = await placarCamara(p);
+    } catch (e) {
+      ok = false;
+      log(`Placares: Câmara falhou para ${key}`, String(e.message ?? e));
+    }
+    try {
+      senado = await placarSenado(p);
+    } catch (e) {
+      ok = false;
+      log(`Placares: Senado falhou para ${key}`, String(e.message ?? e));
+    }
+    // Se uma API caiu, mantém o que já havia para aquela Casa em vez de apagar.
+    if (!ok && prev[key]) {
+      camara = camara ?? prev[key].camara ?? null;
+      senado = senado ?? prev[key].senado ?? null;
+    }
+    out[key] = { ...p, camara, senado };
+  }
+  writeJson(join(OUT, "placares.json"), {
+    atualizadoEm: TODAY,
+    fontes: { camara: "https://dadosabertos.camara.leg.br/api/v2", senado: "https://legis.senado.leg.br/dadosabertos" },
+    proposicoes: out,
+  });
+}
+
 async function main() {
   const t0 = Date.now();
   let camaraFail = [];
@@ -1458,7 +1701,8 @@ async function main() {
   if (ONLY === "all" || ONLY === "senado") {
     await buildSenado();
   }
-  if (existsSync(join(OUT, "deputados", "index.json")) && existsSync(join(OUT, "senadores", "index.json"))) {
+  const light = ["recentes", "placares", "votacoes"].includes(ONLY); // não mexem no resumo nem no meta
+  if (!light && existsSync(join(OUT, "deputados", "index.json")) && existsSync(join(OUT, "senadores", "index.json"))) {
     buildSummary();
     writeJson(join(OUT, "meta.json"), {
       atualizadoEm: TODAY,
@@ -1479,7 +1723,9 @@ async function main() {
       buildNumeros();
     }
     if (ONLY === "all" || ONLY === "evolucao") await buildEvolucao();
+    if (["all", "camara", "senado", "recentes", "votacoes"].includes(ONLY)) buildRecentes();
   }
+  if (ONLY === "all" || ONLY === "placares" || ONLY === "votacoes") await buildPlacares();
   log(`Concluído em ${Math.round((Date.now() - t0) / 1000)} s`, camaraFail.length ? "(com falhas)" : "");
 }
 

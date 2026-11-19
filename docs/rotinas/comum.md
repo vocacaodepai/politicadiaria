@@ -91,7 +91,7 @@ Corrija sozinho até passar. Se sobrar erro real que você não resolveu, não m
 ## Segurança (toda rodada)
 
 - Escopo de arquivos: `content/` (itens e índices gerados), `public/images/covers/` e, só na
-  rotina do Congresso, `data/congresso/`; na de História, `content/historia/` e `public/images/`.
+  rotina do Congresso, `data/congresso/` e `public/data/congresso/` (gerados pelo coletor); na de História, `content/historia/` e `public/images/`.
   Toda rotina pode, além do próprio escopo, mexer em `content/pautas/fila.json` e criar o seu
   arquivo em `content/rotinas/registro/`. Nunca altere `docs/`, `CLAUDE.md`, `lib/`, `app/`,
   `components/`, `scripts/` nem configuração (rodar scripts é permitido, editar não).
