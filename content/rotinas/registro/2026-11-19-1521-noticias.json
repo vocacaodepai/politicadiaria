@@ -1,0 +1,12 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-19T15:21:16-03:00",
+  "fim": "2026-11-19T15:25:25-03:00",
+  "branch": "claude/pd-noticias-20261119-1521",
+  "publicou": ["ccj-senado-fraude-contabil-mercado-capitais-pl-2091"],
+  "descartou": [
+    { "tema": "Comissão temporária sugere adiar para 2027 a votação da reforma do Código Civil (PL 4/2025)", "motivo": "aguardando-fato" }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
