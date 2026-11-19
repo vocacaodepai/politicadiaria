@@ -1,0 +1,30 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-19T13:41:35-03:00",
+  "fim": "2026-11-19T13:45:55-03:00",
+  "branch": "claude/pd-checagem-20261119-1341",
+  "publicou": [
+    "nota-r-100-rosto-lula-casa-da-moeda-2030-montagem",
+    "videos-descarte-tomates-sao-antigos-nao-mostram-alta-de-precos"
+  ],
+  "descartou": [
+    {
+      "tema": "Posts dizem que Lula entregou à China a maior reserva de urânio do Brasil (Aos Fatos)",
+      "motivo": "fonte-unica",
+      "pauta": "lula-uranio-reserva-china"
+    },
+    {
+      "tema": "Vídeo com imagens geradas por inteligência artificial de protestos contra Lula no Nordeste (Lupa)",
+      "motivo": "fonte-unica",
+      "pauta": "video-ia-protestos-contra-lula-nordeste"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.bcb.gov.br",
+      "erro": "outro",
+      "detalhe": "página de cédulas carregada só por script, sem conteúdo legível"
+    }
+  ],
+  "pr": null
+}

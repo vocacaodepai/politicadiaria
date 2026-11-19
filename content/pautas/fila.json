@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-19T13:26:48-03:00",
+  "atualizadoEm": "2026-11-19T13:45:55-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -266,7 +266,7 @@
         "https://www.aosfatos.org/noticias/video-lula-presidentes-cop31/"
       ],
       "primeiraVezVisto": "2026-11-12T19:44:00-03:00",
-      "ultimaRevisao": "2026-11-19T07:46:12-03:00",
+      "ultimaRevisao": "2026-11-19T13:45:55-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre a foto oficial"
     },
@@ -330,7 +330,7 @@
         "https://aosfatos.org/noticias/fila-formula-1-saida-brasileiros-paraguai/"
       ],
       "primeiraVezVisto": "2026-11-13T07:47:58-03:00",
-      "ultimaRevisao": "2026-11-19T07:46:12-03:00",
+      "ultimaRevisao": "2026-11-19T13:45:55-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre local e data do vídeo"
     },
@@ -390,7 +390,7 @@
         "https://www.agencialupa.org/noticias/2026/11/13/foto-nao-mostra-protesto-de-1-milhao-de-pessoas-contra-o-governo-milei/"
       ],
       "primeiraVezVisto": "2026-11-13T13:50:42-03:00",
-      "ultimaRevisao": "2026-11-19T07:46:12-03:00",
+      "ultimaRevisao": "2026-11-19T13:45:55-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre a origem da foto (AFP e Fast Check não abriram)"
     },
@@ -966,7 +966,7 @@
       ],
       "falta": "segunda checagem aberta ou nota do SBT",
       "primeiraVezVisto": "2026-11-16T13:52:00-03:00",
-      "ultimaRevisao": "2026-11-19T07:46:12-03:00",
+      "ultimaRevisao": "2026-11-19T13:45:55-03:00",
       "status": "aberta"
     },
     {
@@ -975,12 +975,14 @@
       "tema": "Vídeos antigos de descarte de tomates ligados ao preço de R$ 22 o quilo ou a produtores bolsonaristas (Aos Fatos: gravados em 2024 e 2025)",
       "motivo": "fonte-unica",
       "fontesAbertas": [
-        "https://aosfatos.org/noticias/videos-que-mostram-descarte-de-tomates-nao-sao-recentes/"
+        "https://aosfatos.org/noticias/videos-que-mostram-descarte-de-tomates-nao-sao-recentes/",
+        "https://www.boatos.org/brasil/videos-que-mostram-tomates-sendo-jogados-fora-sao-de-periodo-de-alta-no-valor-do-produto.html"
       ],
       "falta": "segunda checagem aberta sobre os vídeos atuais",
       "primeiraVezVisto": "2026-11-16T19:45:16-03:00",
-      "ultimaRevisao": "2026-11-19T07:46:12-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-19T13:45:55-03:00",
+      "status": "publicada",
+      "slug": "videos-descarte-tomates-sao-antigos-nao-mostram-alta-de-precos"
     },
     {
       "id": "tre-ce-maioria-ciro-violencia-politica-genero-vista",
@@ -1031,7 +1033,7 @@
         "https://www.boatos.org/politica/lucas-pavanato-era-uma-mulher-trans-antes-de-entrar-para-a-politica.html"
       ],
       "primeiraVezVisto": "2026-11-17T07:47:00-03:00",
-      "ultimaRevisao": "2026-11-19T07:46:12-03:00",
+      "ultimaRevisao": "2026-11-19T13:45:55-03:00",
       "status": "aberta",
       "falta": "segunda checagem aberta ou nota do gabinete"
     },
@@ -1095,12 +1097,14 @@
       "tema": "Suposta nota de R$ 100 com o rosto de Lula que a Casa da Moeda lançaria em 2030 (Boatos.org: montagem, sem anúncio do Banco Central)",
       "motivo": "fonte-unica",
       "fontesAbertas": [
-        "https://www.boatos.org/politica/casa-da-moeda-vai-lancar-nota-de-r-100-com-rosto-de-lula-em-2030.html"
+        "https://www.boatos.org/politica/casa-da-moeda-vai-lancar-nota-de-r-100-com-rosto-de-lula-em-2030.html",
+        "https://aosfatos.org/noticias/nota-100-reais-lula/"
       ],
       "primeiraVezVisto": "2026-11-17T13:52:00-03:00",
-      "ultimaRevisao": "2026-11-19T07:46:12-03:00",
-      "status": "aberta",
-      "falta": "segunda checagem aberta ou nota do Banco Central ou da Casa da Moeda"
+      "ultimaRevisao": "2026-11-19T13:45:55-03:00",
+      "status": "publicada",
+      "falta": "segunda checagem aberta ou nota do Banco Central ou da Casa da Moeda",
+      "slug": "nota-r-100-rosto-lula-casa-da-moeda-2030-montagem"
     },
     {
       "id": "plp-299-destaques-senado-18-novembro",
@@ -1125,7 +1129,7 @@
         "https://www.aosfatos.org/noticias/falso-post-marco-rubio-lula-conspirar-eua-ira/"
       ],
       "primeiraVezVisto": "2026-11-17T19:45:00-03:00",
-      "ultimaRevisao": "2026-11-19T07:46:12-03:00",
+      "ultimaRevisao": "2026-11-19T13:45:55-03:00",
       "status": "aberta",
       "falta": "segunda checagem aberta (Reuters bloqueada) ou página oficial do Departamento de Estado acessível"
     },
@@ -1214,7 +1218,7 @@
       ],
       "falta": "segunda checagem independente aberta sobre o mesmo vídeo",
       "primeiraVezVisto": "2026-11-18T13:40:00-03:00",
-      "ultimaRevisao": "2026-11-19T07:46:12-03:00",
+      "ultimaRevisao": "2026-11-19T13:45:55-03:00",
       "status": "aberta"
     },
     {
@@ -1227,7 +1231,7 @@
       ],
       "falta": "segunda checagem aberta (UOL Confere e Estadão Verifica bloqueados) ou transcrição oficial da live",
       "primeiraVezVisto": "2026-11-18T19:42:00-03:00",
-      "ultimaRevisao": "2026-11-19T07:46:12-03:00",
+      "ultimaRevisao": "2026-11-19T13:45:55-03:00",
       "status": "aberta"
     },
     {
@@ -1312,6 +1316,17 @@
       "ultimaRevisao": "2026-11-19T11:26:01-03:00",
       "status": "publicada",
       "slug": "lula-assina-decreto-jornada-5x2-regras-16-dezembro"
+    },
+    {
+      "id": "lula-uranio-reserva-china",
+      "rotina": "checagem",
+      "tema": "Posts dizem que Lula entregou à China a maior reserva de urânio do Brasil (Aos Fatos: falso)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "falta": "abrir a checagem do Aos Fatos e achar segunda fonte independente",
+      "primeiraVezVisto": "2026-11-19T13:45:55-03:00",
+      "ultimaRevisao": "2026-11-19T13:45:55-03:00",
+      "status": "aberta"
     }
   ]
 }
