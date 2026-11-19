@@ -9,5 +9,5 @@
     { "tema": "Senado aprova regras de uso compartilhado de postes (texto vai à sanção)", "motivo": "ja-publicado" }
   ],
   "bloqueios": [{ "host": "commons.wikimedia.org", "erro": "outro", "detalhe": "API devolveu página de erro; notícia sem imagem no corpo" }],
-  "pr": null
+  "pr": 628
 }
