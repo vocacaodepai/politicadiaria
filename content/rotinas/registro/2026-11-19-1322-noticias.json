@@ -1,0 +1,10 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-19T13:22:06-03:00",
+  "fim": "2026-11-19T13:26:48-03:00",
+  "branch": "claude/pd-noticias-20261119-1322",
+  "publicou": ["ccj-camara-porte-arma-agentes-socioeducativos-oficiais"],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}
