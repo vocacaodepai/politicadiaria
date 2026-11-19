@@ -1,0 +1,15 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-19T06:21:22-03:00",
+  "fim": "2026-11-19T06:26:48-03:00",
+  "branch": "claude/pd-noticias-20261119-0621",
+  "publicou": ["fachin-envia-pgr-relatorios-pf-ministros-15-dias"],
+  "descartou": [
+    { "tema": "Moraes extingue por prescrição investigação contra Zambelli por defesa de intervenção militar", "motivo": "fonte-unica", "pauta": "moraes-extingue-inquerito-zambelli-intervencao-militar-prescricao" },
+    { "tema": "Governo deve assinar decreto que regulamenta o fim da escala 6x1", "motivo": "aguardando-fato" },
+    { "tema": "Lula avalia Moretti para a Fazenda após aprovação do pacote fiscal", "motivo": "sem-fonte-primaria" },
+    { "tema": "Audiência na Câmara sobre redução da maioridade penal", "motivo": "ja-publicado" }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
