@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-19T05:43:11-03:00",
+  "atualizadoEm": "2026-11-19T06:26:48-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1257,6 +1257,19 @@
       "ultimaRevisao": "2026-11-19T05:43:11-03:00",
       "status": "aberta",
       "falta": "resenha crítica publicada que possa ser aberta e edição disponível em livraria"
+    },
+    {
+      "id": "moraes-extingue-inquerito-zambelli-intervencao-militar-prescricao",
+      "rotina": "noticias",
+      "tema": "Moraes declara extinta, por prescrição e a pedido da PGR, investigação contra Carla Zambelli por defender intervenção militar após as eleições de 2022",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.cnnbrasil.com.br/politica/stf-extingue-investigacao-contra-zambelli-por-defender-intervencao-militar/"
+      ],
+      "primeiraVezVisto": "2026-11-19T06:26:48-03:00",
+      "ultimaRevisao": "2026-11-19T06:26:48-03:00",
+      "status": "aberta",
+      "falta": "segunda fonte de editoria independente ou decisão no portal do STF"
     }
   ]
 }
