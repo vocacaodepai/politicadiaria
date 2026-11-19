@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-18T22:25:52-03:00",
+  "atualizadoEm": "2026-11-19T05:43:11-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -497,7 +497,7 @@
       "falta": "confirmar ficha da edição no site da editora (sem resposta em 14/11/2026)",
       "fontesAbertas": [],
       "primeiraVezVisto": "2026-11-14T05:39:00-03:00",
-      "ultimaRevisao": "2026-11-18T05:46:09-03:00",
+      "ultimaRevisao": "2026-11-19T05:43:11-03:00",
       "status": "aberta"
     },
     {
@@ -636,7 +636,7 @@
         "https://www.record.com.br/en/products/o-grande-debate"
       ],
       "primeiraVezVisto": "2026-11-15T05:23:53-03:00",
-      "ultimaRevisao": "2026-11-18T05:46:09-03:00",
+      "ultimaRevisao": "2026-11-19T05:43:11-03:00",
       "status": "aberta",
       "falta": "foto do livro: Amazon Brasil bloqueada e Open Library sem capa da edição"
     },
@@ -649,7 +649,7 @@
         "https://www.companhiadasletras.com.br/livro/9788537819159/a-era-dos-muros"
       ],
       "primeiraVezVisto": "2026-11-15T05:23:53-03:00",
-      "ultimaRevisao": "2026-11-18T05:46:09-03:00",
+      "ultimaRevisao": "2026-11-19T05:43:11-03:00",
       "status": "aberta",
       "falta": "foto do livro: Amazon Brasil bloqueada e Open Library sem capa da edição"
     },
@@ -663,7 +663,7 @@
         "https://congressoemfoco.com.br/coluna/24235/a-biografia-de-castello-branco-e-o-que-ela-ensina-ao-brasil-de-hoje"
       ],
       "primeiraVezVisto": "2026-11-15T05:23:53-03:00",
-      "ultimaRevisao": "2026-11-18T05:46:09-03:00",
+      "ultimaRevisao": "2026-11-19T05:43:11-03:00",
       "status": "aberta",
       "falta": "resenha crítica publicada que possa ser aberta (Jornal Opção deu 403) e capa da edição de 2019"
     },
@@ -840,7 +840,7 @@
         "https://openlibrary.org/books/OL3972980M"
       ],
       "primeiraVezVisto": "2026-11-16T05:39:01-03:00",
-      "ultimaRevisao": "2026-11-18T05:46:09-03:00",
+      "ultimaRevisao": "2026-11-19T05:43:11-03:00",
       "status": "aberta"
     },
     {
@@ -853,7 +853,7 @@
         "https://www.martinsfontespaulista.com.br/o-presidente--o-papa-e-a-primeira-ministra-1053529/p"
       ],
       "primeiraVezVisto": "2026-11-16T05:39:01-03:00",
-      "ultimaRevisao": "2026-11-18T05:46:09-03:00",
+      "ultimaRevisao": "2026-11-19T05:43:11-03:00",
       "status": "aberta"
     },
     {
@@ -1006,7 +1006,7 @@
         "https://www.skoob.com.br/book/711021/editions"
       ],
       "primeiraVezVisto": "2026-11-17T05:23:44-03:00",
-      "ultimaRevisao": "2026-11-18T05:46:09-03:00",
+      "ultimaRevisao": "2026-11-19T05:43:11-03:00",
       "status": "aberta"
     },
     {
@@ -1150,7 +1150,7 @@
       "falta": "resenha crítica publicada que possa ser aberta e definição da edição (Topbooks esgotada, Edições 70 sem capa na Open Library)",
       "fontesAbertas": [],
       "primeiraVezVisto": "2026-11-18T05:46:09-03:00",
-      "ultimaRevisao": "2026-11-18T05:46:09-03:00",
+      "ultimaRevisao": "2026-11-19T05:43:11-03:00",
       "status": "aberta"
     },
     {
@@ -1161,7 +1161,7 @@
       "falta": "resenha crítica independente publicada (só achadas páginas da editora, do autor e de veículos do mesmo campo)",
       "fontesAbertas": [],
       "primeiraVezVisto": "2026-11-18T05:46:09-03:00",
-      "ultimaRevisao": "2026-11-18T05:46:09-03:00",
+      "ultimaRevisao": "2026-11-19T05:43:11-03:00",
       "status": "aberta"
     },
     {
@@ -1229,6 +1229,34 @@
       "primeiraVezVisto": "2026-11-18T19:42:00-03:00",
       "ultimaRevisao": "2026-11-18T19:44:38-03:00",
       "status": "aberta"
+    },
+    {
+      "id": "livro-o-duelo-lukacs",
+      "rotina": "livros",
+      "tema": "Resenha de O Duelo: Churchill x Hitler, de John Lukacs (Zahar, 2002, 244 páginas, ISBN 9788571106574)",
+      "motivo": "fonte-bloqueada",
+      "fontesAbertas": [
+        "https://www.companhiadasletras.com.br/livro/9788571106574/o-duelo-churchill-x-hitler",
+        "https://www.kirkusreviews.com/book-reviews/a/john-lukacs-5/the-duel-the-struggle-between-churchill-and-hit"
+      ],
+      "primeiraVezVisto": "2026-11-19T05:43:11-03:00",
+      "ultimaRevisao": "2026-11-19T05:43:11-03:00",
+      "status": "aberta",
+      "falta": "foto do livro: Amazon Brasil bloqueada (503) e Open Library só tem a folha de rosto da edição"
+    },
+    {
+      "id": "livro-historia-do-brasil-com-empreendedores-caldeira",
+      "rotina": "livros",
+      "tema": "Resenha de História do Brasil com Empreendedores, de Jorge Caldeira (Mameluco, 2009, 334 páginas, ISBN 9788560432066)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://openlibrary.org/books/OL24908489M",
+        "https://pt.wikipedia.org/wiki/Jorge_Caldeira"
+      ],
+      "primeiraVezVisto": "2026-11-19T05:43:11-03:00",
+      "ultimaRevisao": "2026-11-19T05:43:11-03:00",
+      "status": "aberta",
+      "falta": "resenha crítica publicada que possa ser aberta e edição disponível em livraria"
     }
   ]
 }

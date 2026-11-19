@@ -1,0 +1,55 @@
+{
+  "rotina": "livros",
+  "inicio": "2026-11-19T05:24:45-03:00",
+  "fim": "2026-11-19T05:43:11-03:00",
+  "branch": "claude/pd-livros-20261119-0524",
+  "publicou": [
+    "jerusalem-biografia-montefiore",
+    "jardim-das-aflicoes-olavo-vide",
+    "guia-incorreto-historia-mundo-narloch-globo"
+  ],
+  "descartou": [
+    {
+      "tema": "O Duelo: Churchill x Hitler, de John Lukacs (Zahar)",
+      "motivo": "fonte-bloqueada",
+      "pauta": "livro-o-duelo-lukacs"
+    },
+    {
+      "tema": "História do Brasil com Empreendedores, de Jorge Caldeira (Mameluco)",
+      "motivo": "fonte-unica",
+      "pauta": "livro-historia-do-brasil-com-empreendedores-caldeira"
+    },
+    {
+      "tema": "A Era dos Muros, O Grande Debate, Carlos Lacerda (Dulles) e O Presidente, o Papa e a Primeira-Ministra seguem sem foto do livro",
+      "motivo": "fonte-bloqueada"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.amazon.com.br",
+      "erro": "http-5xx",
+      "detalhe": "503 nas páginas dos produtos; fotos vieram da Open Library"
+    },
+    {
+      "host": "www.googleapis.com",
+      "erro": "http-429"
+    },
+    {
+      "host": "videeditorial.com.br",
+      "erro": "http-403"
+    },
+    {
+      "host": "csmonitor.com",
+      "erro": "http-403"
+    },
+    {
+      "host": "periodicos.ufpel.edu.br",
+      "erro": "http-403"
+    },
+    {
+      "host": "www.revistaamalgama.com.br",
+      "erro": "http-403"
+    }
+  ],
+  "pr": 631
+}
