@@ -1,0 +1,10 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-20T12:20:22-03:00",
+  "fim": "2026-11-20T12:22:00-03:00",
+  "branch": "claude/pd-noticias-20261120-1220",
+  "publicou": ["dezesseis-comissoes-propoem-r-85-9-bilhoes-plano-gastos-2027"],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}
