@@ -1,0 +1,16 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-20T18:15:24-03:00",
+  "fim": "2026-11-20T18:25:00-03:00",
+  "branch": "claude/pd-checagem-20261120-1815",
+  "publicou": [],
+  "descartou": [
+    { "tema": "Vídeo de descarte de leite em rodovia apresentado como protesto recente", "motivo": "fonte-unica", "pauta": "video-descarte-leite-rodovia-2019-nao-atual" }
+  ],
+  "bloqueios": [
+    { "host": "www.justicaeleitoral.jus.br", "erro": "http-403" },
+    { "host": "g1.globo.com", "erro": "outro", "detalhe": "leitura recusada pela ferramenta" },
+    { "host": "www.estadao.com.br", "erro": "outro", "detalhe": "leitura recusada pela ferramenta" }
+  ],
+  "pr": null
+}

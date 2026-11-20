@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-20T09:19:00-03:00",
+  "atualizadoEm": "2026-11-20T18:25:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1446,6 +1446,19 @@
       "ultimaRevisao": "2026-11-20T09:19:00-03:00",
       "status": "publicada",
       "slug": "livro-incesto-escolas-mec-retirado-2017-governo-temer-nao-lula"
+    },
+    {
+      "id": "video-descarte-leite-rodovia-2019-nao-atual",
+      "rotina": "checagem",
+      "tema": "Vídeo de descarte de leite em rodovia apresentado como protesto recente de produtores (Aos Fatos: gravado em 8/2/2019 em Bom Conselho, PE)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://aosfatos.org/noticias/video-descarte-leite/"
+      ],
+      "primeiraVezVisto": "2026-11-20T18:15:00-03:00",
+      "ultimaRevisao": "2026-11-20T18:25:00-03:00",
+      "status": "aberta",
+      "falta": "segunda fonte aberta sobre a origem do vídeo (g1 não abriu; PDF da Circular Secex 5/2019 sem texto legível)"
     }
   ]
 }
