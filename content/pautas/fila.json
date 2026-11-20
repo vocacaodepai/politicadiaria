@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-20T06:18:00-03:00",
+  "atualizadoEm": "2026-11-20T09:19:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1322,11 +1322,15 @@
       "rotina": "checagem",
       "tema": "Posts dizem que Lula entregou à China a maior reserva de urânio do Brasil (Aos Fatos: falso)",
       "motivo": "fonte-unica",
-      "fontesAbertas": [],
-      "falta": "abrir a checagem do Aos Fatos e achar segunda fonte independente",
+      "fontesAbertas": [
+        "https://www.aosfatos.org/noticias/lula-uranio-brasil-china/",
+        "https://www.planalto.gov.br/ccivil_03/leis/L4118compilada.htm",
+        "https://www.inb.gov.br/Contato/Perguntas-Frequentes/Pergunta/Conteudo/-que-empresas-extraem-e-processam-o-uranio-no-brasil?Origem=1068"
+      ],
       "primeiraVezVisto": "2026-11-19T13:45:55-03:00",
-      "ultimaRevisao": "2026-11-19T13:45:55-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-20T09:19:00-03:00",
+      "status": "publicada",
+      "slug": "lula-nao-entregou-reserva-uranio-china-venda-taboca-estanho"
     },
     {
       "id": "moraes-marca-dosimetria-plenario-virtual-4-dezembro",
@@ -1399,9 +1403,9 @@
         "https://www.agencialupa.org/jornalismo/2026/11/19/foto-antiga-e-associada-a-protestos-contra-ajuste-fiscal/"
       ],
       "primeiraVezVisto": "2026-11-20T06:15:00-03:00",
-      "ultimaRevisao": "2026-11-20T06:15:00-03:00",
+      "ultimaRevisao": "2026-11-20T09:19:00-03:00",
       "status": "aberta",
-      "falta": "segunda fonte aberta que identifique a foto como do ato contra a PEC da Blindagem (a publicação original do UOL)"
+      "falta": "segunda fonte aberta que identifique a foto como do ato contra a PEC da Blindagem (a publicação original do UOL não abre; só a Lupa sustenta a origem da foto)"
     },
     {
       "id": "post-falso-marco-rubio-lula-conspirou-ira",
@@ -1415,6 +1419,33 @@
       "ultimaRevisao": "2026-11-20T06:15:00-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta (outra agência ou o perfil oficial do secretário de Estado)"
+    },
+    {
+      "id": "video-descarte-cebolas-campo-2024-nao-atual",
+      "rotina": "checagem",
+      "tema": "Vídeo de descarte de cebolas no campo apresentado como recente e ligado à reeleição de Lula (Aos Fatos: gravado em João Dourado, BA, em novembro de 2024)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.aosfatos.org/noticias/video-descarte-cebolas-campo-2024-nao-atual/"
+      ],
+      "primeiraVezVisto": "2026-11-20T09:18:00-03:00",
+      "ultimaRevisao": "2026-11-20T09:19:00-03:00",
+      "status": "aberta",
+      "falta": "segunda fonte aberta sobre a origem do vídeo (IBGE respondeu 403; g1 e Globo Rural não abriram)"
+    },
+    {
+      "id": "livro-incesto-mec-retirado-2017",
+      "rotina": "checagem",
+      "tema": "Vídeo diz que o MEC distribui livro com conto sobre incesto nas escolas (Lupa: recolhido em 2017, fora do PNLD)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.agencialupa.org/jornalismo/2026/11/19/livro-que-aborda-incesto-e-pedofilia-foi-retirado-pelo-mec-em-2017-e-nao-voltou-a-ser-distribuido/",
+        "https://agenciabrasil.ebc.com.br/educacao/noticia/2017-06/mec-retira-livro-de-escolas-publicas-por-apresentar-conto-sobre-incesto"
+      ],
+      "primeiraVezVisto": "2026-11-20T09:18:00-03:00",
+      "ultimaRevisao": "2026-11-20T09:19:00-03:00",
+      "status": "publicada",
+      "slug": "livro-incesto-escolas-mec-retirado-2017-governo-temer-nao-lula"
     }
   ]
 }
