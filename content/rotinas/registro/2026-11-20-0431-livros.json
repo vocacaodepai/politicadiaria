@@ -1,0 +1,16 @@
+{
+  "rotina": "livros",
+  "inicio": "2026-11-20T04:31:45-03:00",
+  "fim": "2026-11-20T04:32:10-03:00",
+  "branch": "claude/pd-livros-20261120-0431",
+  "publicou": [],
+  "descartou": [
+    { "tema": "Hitler & Churchill: Segredos da Liderança, de Andrew Roberts", "motivo": "numeros-divergentes", "pauta": "livro-hitler-churchill-segredos-lideranca-andrew-roberts" },
+    { "tema": "Thomas Sowell e a Aniquilação de Falácias Ideológicas, org. Dennys Garcia Xavier", "motivo": "numeros-divergentes", "pauta": "livro-thomas-sowell-aniquilacao-falacias-ideologicas-xavier" },
+    { "tema": "Hayek no Brasil, org. Cândido Mendes Prunes", "motivo": "fonte-unica", "pauta": "livro-hayek-no-brasil-candido-mendes-prunes" }
+  ],
+  "bloqueios": [
+    { "host": "www.amazon.com.br", "erro": "http-5xx", "detalhe": "503 em curl; Playwright não instalado no servidor" }
+  ],
+  "pr": null
+}
