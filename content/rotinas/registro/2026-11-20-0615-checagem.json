@@ -1,0 +1,26 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-20T06:15:17-03:00",
+  "fim": "2026-11-20T06:18:00-03:00",
+  "branch": "claude/pd-checagem-20261120-0615",
+  "publicou": [
+    "video-bloqueio-bolsa-familia-12-milhao-moram-sozinhos-e-de-abril-2023",
+    "lula-vento-levando-odio-fala-nao-se-referia-a-tempestades-em-santa-catarina"
+  ],
+  "descartou": [
+    {
+      "tema": "Foto de protesto contra a PEC da Blindagem apresentada como ato contra o ajuste fiscal",
+      "motivo": "fonte-unica",
+      "pauta": "foto-protesto-pec-blindagem-apresentada-como-ato-contra-ajuste-fiscal"
+    },
+    {
+      "tema": "Post falso atribuído a Marco Rubio sobre Lula e o Irã",
+      "motivo": "fonte-unica",
+      "pauta": "post-falso-marco-rubio-lula-conspirou-ira"
+    }
+  ],
+  "bloqueios": [
+    { "host": "www.gov.br", "erro": "http-403", "detalhe": "PDF da IN conjunta MDS nº 3/2023" }
+  ],
+  "pr": null
+}
