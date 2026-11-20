@@ -1,0 +1,12 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-20T18:20:25-03:00",
+  "fim": "2026-11-20T18:22:30-03:00",
+  "branch": "claude/pd-noticias-20261120-1830",
+  "publicou": ["fachin-levanta-sigilo-relatorio-pf-mencoes-mendonca"],
+  "descartou": [],
+  "bloqueios": [
+    { "host": "www.bemparana.com.br", "erro": "http-403" }
+  ],
+  "pr": null
+}
