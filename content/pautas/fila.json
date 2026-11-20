@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-19T21:22:00-03:00",
+  "atualizadoEm": "2026-11-20T04:32:10-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1354,6 +1354,41 @@
       "primeiraVezVisto": "2026-11-19T21:20:20-03:00",
       "ultimaRevisao": "2026-11-19T21:22:00-03:00",
       "status": "aberta"
+    },
+    {
+      "id": "livro-hitler-churchill-segredos-lideranca-andrew-roberts",
+      "rotina": "livros",
+      "tema": "Resenha de Hitler & Churchill: Segredos da Liderança, de Andrew Roberts (Zahar, 2004, ISBN 9788571107670)",
+      "motivo": "numeros-divergentes",
+      "fontesAbertas": [
+        "https://www.companhiadasletras.com.br/livro/9788571107670/hitler-churchill"
+      ],
+      "primeiraVezVisto": "2026-11-20T04:31:45-03:00",
+      "ultimaRevisao": "2026-11-20T04:31:45-03:00",
+      "status": "aberta",
+      "falta": "resenha crítica publicada que possa ser aberta e conferência da edição na Amazon (503); capa da Open Library existe, mas em baixa resolução"
+    },
+    {
+      "id": "livro-thomas-sowell-aniquilacao-falacias-ideologicas-xavier",
+      "rotina": "livros",
+      "tema": "Resenha de Thomas Sowell e a Aniquilação de Falácias Ideológicas, org. Dennys Garcia Xavier (LVM, 2019, ISBN 9786550520168)",
+      "motivo": "numeros-divergentes",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-20T04:31:45-03:00",
+      "ultimaRevisao": "2026-11-20T04:31:45-03:00",
+      "status": "aberta",
+      "falta": "ficha da edição na LVM (páginas divergem entre catálogos: 312 e 376) e resenha crítica publicada; capa conferida na Open Library"
+    },
+    {
+      "id": "livro-hayek-no-brasil-candido-mendes-prunes",
+      "rotina": "livros",
+      "tema": "Resenha de Hayek no Brasil, org. Cândido Mendes Prunes (Instituto Liberal, 2006)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-20T04:31:45-03:00",
+      "ultimaRevisao": "2026-11-20T04:31:45-03:00",
+      "status": "aberta",
+      "falta": "ISBN, número de páginas e ficha da edição em fonte aberta (só citações acadêmicas e livraria); capa de baixa resolução"
     }
   ]
 }
