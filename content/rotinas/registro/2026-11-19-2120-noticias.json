@@ -1,0 +1,12 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-19T21:20:20-03:00",
+  "fim": "2026-11-19T21:22:00-03:00",
+  "branch": "claude/pd-noticias-20261119-2120",
+  "publicou": ["moraes-marca-plenario-virtual-lei-dosimetria-4-15-dezembro"],
+  "descartou": [
+    { "tema": "Dólar fecha a R$ 5,932, maior valor desde abril de 2025", "motivo": "fonte-unica", "pauta": "dolar-5-93-maior-valor-desde-abril-2025" }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

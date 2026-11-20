@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-19T14:26:00-03:00",
+  "atualizadoEm": "2026-11-19T21:22:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1326,6 +1326,33 @@
       "falta": "abrir a checagem do Aos Fatos e achar segunda fonte independente",
       "primeiraVezVisto": "2026-11-19T13:45:55-03:00",
       "ultimaRevisao": "2026-11-19T13:45:55-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "moraes-marca-dosimetria-plenario-virtual-4-dezembro",
+      "rotina": "noticias",
+      "tema": "Moraes marca o julgamento da Lei da Dosimetria no plenário virtual do STF, de 4 a 15 de dezembro",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/moraes-pauta-julgamento-da-lei-da-dosimetria-para-o-dia-4-de-dezembro",
+        "https://www.cnnbrasil.com.br/politica/moraes-se-antecipa-a-fachin-para-marcar-posicao-sobre-dosimetria/"
+      ],
+      "primeiraVezVisto": "2026-11-19T21:20:20-03:00",
+      "ultimaRevisao": "2026-11-19T21:22:00-03:00",
+      "status": "publicada",
+      "slug": "moraes-marca-plenario-virtual-lei-dosimetria-4-15-dezembro"
+    },
+    {
+      "id": "dolar-5-93-maior-valor-desde-abril-2025",
+      "rotina": "noticias",
+      "tema": "Dólar fecha a R$ 5,932, maior valor desde abril de 2025, após Banco Central vender US$ 1 bilhão; Ibovespa cai 0,69%",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-supera-r-593-e-fecha-no-maior-valor-desde-abril-de-2025"
+      ],
+      "falta": "segunda fonte independente com o fechamento de 19/11 (Reuters via Agência Brasil é a única aberta)",
+      "primeiraVezVisto": "2026-11-19T21:20:20-03:00",
+      "ultimaRevisao": "2026-11-19T21:22:00-03:00",
       "status": "aberta"
     }
   ]
