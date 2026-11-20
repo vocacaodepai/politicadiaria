@@ -1,0 +1,10 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-20T15:20:25-03:00",
+  "fim": "2026-11-20T15:23:40-03:00",
+  "branch": "claude/pd-noticias-20261120-1520",
+  "publicou": ["leis-credito-orcamento-sancionadas-714-8-milhoes-justica-pf"],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}
