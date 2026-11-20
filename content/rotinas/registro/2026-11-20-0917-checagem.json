@@ -1,0 +1,22 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-20T09:17:57-03:00",
+  "fim": "2026-11-20T09:19:00-03:00",
+  "branch": "claude/pd-checagem-20261120-0925",
+  "publicou": [
+    "lula-nao-entregou-reserva-uranio-china-venda-taboca-estanho",
+    "livro-incesto-escolas-mec-retirado-2017-governo-temer-nao-lula"
+  ],
+  "descartou": [
+    { "tema": "Vídeo de descarte de cebolas apresentado como recente", "motivo": "fonte-unica", "pauta": "video-descarte-cebolas-campo-2024-nao-atual" },
+    { "tema": "Foto de protesto contra a PEC da Blindagem apresentada como ato contra o ajuste fiscal", "motivo": "fonte-unica", "pauta": "foto-protesto-pec-blindagem-apresentada-como-ato-contra-ajuste-fiscal" }
+  ],
+  "bloqueios": [
+    { "host": "www.justicaeleitoral.jus.br", "erro": "http-403" },
+    { "host": "agenciadenoticias.ibge.gov.br", "erro": "http-403" },
+    { "host": "noticias.uol.com.br", "erro": "outro", "detalhe": "leitura recusada pela ferramenta" },
+    { "host": "g1.globo.com", "erro": "outro", "detalhe": "leitura recusada pela ferramenta" },
+    { "host": "www.comprova.com.br", "erro": "outro", "detalhe": "conexão reiniciada duas vezes" }
+  ],
+  "pr": null
+}
