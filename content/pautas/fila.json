@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-20T04:32:10-03:00",
+  "atualizadoEm": "2026-11-20T06:18:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1389,6 +1389,32 @@
       "ultimaRevisao": "2026-11-20T04:31:45-03:00",
       "status": "aberta",
       "falta": "ISBN, número de páginas e ficha da edição em fonte aberta (só citações acadêmicas e livraria); capa de baixa resolução"
+    },
+    {
+      "id": "foto-protesto-pec-blindagem-apresentada-como-ato-contra-ajuste-fiscal",
+      "rotina": "checagem",
+      "tema": "Foto de multidão apresentada como protesto de aliados de Lula contra o ajuste fiscal (Lupa: ato contra a PEC da Blindagem, publicada pelo UOL em 22/09/2025)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.agencialupa.org/jornalismo/2026/11/19/foto-antiga-e-associada-a-protestos-contra-ajuste-fiscal/"
+      ],
+      "primeiraVezVisto": "2026-11-20T06:15:00-03:00",
+      "ultimaRevisao": "2026-11-20T06:15:00-03:00",
+      "status": "aberta",
+      "falta": "segunda fonte aberta que identifique a foto como do ato contra a PEC da Blindagem (a publicação original do UOL)"
+    },
+    {
+      "id": "post-falso-marco-rubio-lula-conspirou-ira",
+      "rotina": "checagem",
+      "tema": "Post atribui a Marco Rubio acusação de que Lula conspirou contra os EUA em reunião com o presidente do Irã (Aos Fatos: post inexistente)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.aosfatos.org/noticias/falso-post-marco-rubio-lula-conspirar-eua-ira/"
+      ],
+      "primeiraVezVisto": "2026-11-20T06:15:00-03:00",
+      "ultimaRevisao": "2026-11-20T06:15:00-03:00",
+      "status": "aberta",
+      "falta": "segunda fonte independente aberta (outra agência ou o perfil oficial do secretário de Estado)"
     }
   ]
 }
