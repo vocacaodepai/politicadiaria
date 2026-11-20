@@ -1,0 +1,10 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-20T06:20:22-03:00",
+  "fim": "2026-11-20T06:25:00-03:00",
+  "branch": "claude/pd-noticias-20261120-0620",
+  "publicou": ["fachin-arquiva-seis-relatorios-pf-envia-quatro-pgr-master"],
+  "descartou": [],
+  "bloqueios": [{ "host": "www.mixvale.com.br", "erro": "http-403" }],
+  "pr": null
+}
