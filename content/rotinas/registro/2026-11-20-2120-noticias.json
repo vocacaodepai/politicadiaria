@@ -1,0 +1,10 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-20T21:20:18-03:00",
+  "fim": "2026-11-20T21:23:10-03:00",
+  "branch": "claude/pd-noticias-20261120-2120",
+  "publicou": ["bolsonaro-internado-df-star-distensao-abdominal"],
+  "descartou": [],
+  "bloqueios": [{ "host": "g1.globo.com", "erro": "outro", "detalhe": "ferramenta de leitura não acessa o domínio" }],
+  "pr": null
+}
