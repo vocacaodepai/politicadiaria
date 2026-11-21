@@ -1,0 +1,10 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-21T06:20:17-03:00",
+  "fim": "2026-11-21T06:22:10-03:00",
+  "branch": "claude/pd-noticias-20261121-0620",
+  "publicou": ["xi-trump-putin-shenzhen-cupula-pauta-restrita-tpi-onu"],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}
