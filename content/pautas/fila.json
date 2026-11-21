@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-20T18:22:30-03:00",
+  "atualizadoEm": "2026-11-21T04:32:03-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1459,6 +1459,28 @@
       "ultimaRevisao": "2026-11-20T18:25:00-03:00",
       "status": "aberta",
       "falta": "segunda fonte aberta sobre a origem do vídeo (g1 não abriu; PDF da Circular Secex 5/2019 sem texto legível)"
+    },
+    {
+      "id": "livro-ordem-e-decadencia-politica-fukuyama",
+      "rotina": "livros",
+      "tema": "Resenha de Ordem e Decadência Política, de Francis Fukuyama (Rocco, 2018, ISBN 9788532530967)",
+      "motivo": "fonte-bloqueada",
+      "falta": "foto do livro: Amazon Brasil devolve página de verificação e Open Library sem capa; páginas (624) só em catálogo de leitores, falta ficha da editora",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-21T04:30:17-03:00",
+      "ultimaRevisao": "2026-11-21T04:30:17-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "livro-a-praca-e-a-torre-niall-ferguson",
+      "rotina": "livros",
+      "tema": "Resenha de A Praça e a Torre, de Niall Ferguson (Crítica, 2019, ISBN 9788542215007)",
+      "motivo": "fonte-bloqueada",
+      "falta": "foto do livro: Amazon Brasil devolve página de verificação e Open Library sem capa; páginas da edição brasileira não confirmadas",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-21T04:30:17-03:00",
+      "ultimaRevisao": "2026-11-21T04:30:17-03:00",
+      "status": "aberta"
     }
   ]
 }

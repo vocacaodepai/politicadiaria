@@ -1,0 +1,16 @@
+{
+  "rotina": "livros",
+  "inicio": "2026-11-21T04:30:17-03:00",
+  "fim": "2026-11-21T04:32:03-03:00",
+  "branch": "claude/pd-livros-20261121-0432",
+  "publicou": [],
+  "descartou": [
+    { "tema": "Ordem e Decadência Política, de Francis Fukuyama (Rocco, 2018)", "motivo": "fonte-bloqueada", "pauta": "livro-ordem-e-decadencia-politica-fukuyama" },
+    { "tema": "A Praça e a Torre, de Niall Ferguson (Crítica, 2019)", "motivo": "fonte-bloqueada", "pauta": "livro-a-praca-e-a-torre-niall-ferguson" }
+  ],
+  "bloqueios": [
+    { "host": "www.amazon.com.br", "erro": "captcha", "detalhe": "página de verificação no curl; Playwright indisponível no servidor" },
+    { "host": "covers.openlibrary.org", "erro": "http-404", "detalhe": "sem capa para os ISBNs 9788532530967, 9788542215007 e 9788501114518" }
+  ],
+  "pr": null
+}
