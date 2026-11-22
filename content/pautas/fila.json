@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-22T06:22:00-03:00",
+  "atualizadoEm": "2026-11-22T09:16:11-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1525,6 +1525,19 @@
       "ultimaRevisao": "2026-11-22T06:22:00-03:00",
       "status": "publicada",
       "slug": "bolsonaro-uti-abdomen-agudo-obstrutivo-moraes-visitas-tornozeleira"
+    },
+    {
+      "id": "capa-o-globo-vestido-rachadinha-fuga-argentina",
+      "rotina": "checagem",
+      "tema": "Imagem que imita capa do O Globo de 18/11 sobre vestido da rachadinha e fuga para a Argentina (Boatos.org: montagem)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.boatos.org/politica/flavio-bolsonaro-fugiu-do-brasil-vestido-de-mulher-e-o-globo-revelou-tudo.html"
+      ],
+      "primeiraVezVisto": "2026-11-22T09:16:11-03:00",
+      "ultimaRevisao": "2026-11-22T09:16:11-03:00",
+      "status": "aberta",
+      "falta": "segunda fonte independente aberta (agência de checagem ou edição de 18/11 do jornal)"
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-22T09:16:00-03:00",
+  "fim": "2026-11-22T09:20:00-03:00",
+  "branch": "claude/pd-checagem-20261122-0916",
+  "publicou": [],
+  "descartou": [
+    {
+      "tema": "Imagem que imita capa do O Globo de 18/11 sobre vestido da rachadinha e fuga para a Argentina",
+      "motivo": "fonte-unica",
+      "pauta": "capa-o-globo-vestido-rachadinha-fuga-argentina"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
