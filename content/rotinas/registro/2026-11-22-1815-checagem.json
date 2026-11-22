@@ -1,0 +1,10 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-22T18:15:22-03:00",
+  "fim": "2026-11-22T18:17:30-03:00",
+  "branch": "claude/pd-checagem-20261122-1815",
+  "publicou": ["video-descarte-cebolas-joao-dourado-2024-nao-e-atual"],
+  "descartou": [],
+  "bloqueios": [{ "host": "www.comprova.jor.br", "erro": "dns" }],
+  "pr": null
+}
