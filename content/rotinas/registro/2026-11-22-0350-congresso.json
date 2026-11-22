@@ -1,0 +1,10 @@
+{
+  "rotina": "congresso",
+  "inicio": "2026-11-22T03:50:16-03:00",
+  "fim": "2026-11-22T04:54:00-03:00",
+  "branch": "claude/pd-congresso-20261122-1",
+  "publicou": [],
+  "descartou": [],
+  "bloqueios": [{ "host": "dadosabertos.camara.leg.br", "erro": "outro", "detalhe": "coleta encerrada (Killed) na etapa de fotos, 400/513, nas duas tentativas" }],
+  "pr": null
+}
