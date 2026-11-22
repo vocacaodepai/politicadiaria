@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-21T21:22:30-03:00",
+  "atualizadoEm": "2026-11-22T06:22:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1497,6 +1497,34 @@
       "ultimaRevisao": "2026-11-21T21:22:30-03:00",
       "status": "publicada",
       "slug": "temporal-tupancireta-governo-federal-forca-nacional-sus"
+    },
+    {
+      "id": "lula-live-janones-ajuste-fiscal-sistema-financeiro",
+      "rotina": "noticias",
+      "tema": "Lula, em live com Janones, defende o ajuste fiscal e critica o sistema financeiro; Câmara analisa o texto do Senado na próxima semana",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/o-sistema-financeiro-nao-vai-me-ensinar-dirigir-o-brasil-diz-lula"
+      ],
+      "falta": "segunda fonte aberta (g1, Estadão e Poder360 noticiaram, mas as páginas não foram abertas nesta rodada)",
+      "primeiraVezVisto": "2026-11-22T06:22:00-03:00",
+      "ultimaRevisao": "2026-11-22T06:22:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "bolsonaro-uti-abdomen-agudo-obstrutivo",
+      "rotina": "noticias",
+      "tema": "Bolsonaro na UTI do DF Star com abdômen agudo obstrutivo; Moraes autoriza visitas e retira a tornozeleira durante a internação",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/ex-presidente-jair-bolsonaro-esta-internado-em-uti-no-distrito-federal",
+        "https://www.poder360.com.br/poder-justica/bolsonaro-tem-tornozeleira-retirada-durante-internacao-na-uti/",
+        "https://www.poder360.com.br/poder-gente/apos-viagem-michelle-vai-a-hospital-em-que-bolsonaro-esta-internado/"
+      ],
+      "primeiraVezVisto": "2026-11-22T06:22:00-03:00",
+      "ultimaRevisao": "2026-11-22T06:22:00-03:00",
+      "status": "publicada",
+      "slug": "bolsonaro-uti-abdomen-agudo-obstrutivo-moraes-visitas-tornozeleira"
     }
   ]
 }
