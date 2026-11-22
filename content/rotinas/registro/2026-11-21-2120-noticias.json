@@ -1,0 +1,10 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-21T21:20:21-03:00",
+  "fim": "2026-11-21T21:22:30-03:00",
+  "branch": "claude/pd-noticias-20261121-2120",
+  "publicou": ["temporal-tupancireta-governo-federal-forca-nacional-sus"],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}
