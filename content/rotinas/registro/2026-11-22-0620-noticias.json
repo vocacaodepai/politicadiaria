@@ -1,0 +1,16 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-22T06:20:22-03:00",
+  "fim": "2026-11-22T06:22:30-03:00",
+  "branch": "claude/pd-noticias-20261122-0620",
+  "publicou": ["bolsonaro-uti-abdomen-agudo-obstrutivo-moraes-visitas-tornozeleira"],
+  "descartou": [
+    {
+      "tema": "Lula defende o ajuste fiscal em live com Janones",
+      "motivo": "fonte-unica",
+      "pauta": "lula-live-janones-ajuste-fiscal-sistema-financeiro"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
