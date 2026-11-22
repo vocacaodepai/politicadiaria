@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-21T04:32:03-03:00",
+  "atualizadoEm": "2026-11-21T21:22:30-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1481,6 +1481,22 @@
       "primeiraVezVisto": "2026-11-21T04:30:17-03:00",
       "ultimaRevisao": "2026-11-21T04:30:17-03:00",
       "status": "aberta"
+    },
+    {
+      "id": "temporal-tupancireta-resposta-federal",
+      "rotina": "noticias",
+      "tema": "Temporal em Tupanciretã (RS): ministros, Defesa Civil Nacional e Força Nacional do SUS enviados; mortes e casas atingidas com números divergentes",
+      "motivo": "numeros-divergentes",
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-11/sobe-para-4-o-numero-de-mortos-em-tupancireta-no-sul",
+        "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/forca-nacional-do-sus-avalia-instalar-posto-medico-em-tupancireta",
+        "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2026/11/20/nivel-de-destruicao-dramatico-eduardo-leite-tupancireta.ghtml",
+        "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2026/11/20/ministerio-da-saude-envia-forca-nacional-do-sus-para-o-rs.ghtml"
+      ],
+      "primeiraVezVisto": "2026-11-21T21:20:21-03:00",
+      "ultimaRevisao": "2026-11-21T21:22:30-03:00",
+      "status": "publicada",
+      "slug": "temporal-tupancireta-governo-federal-forca-nacional-sus"
     }
   ]
 }
