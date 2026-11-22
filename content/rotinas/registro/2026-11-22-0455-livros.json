@@ -1,0 +1,13 @@
+{
+  "rotina": "livros",
+  "inicio": "2026-11-22T04:55:00-03:00",
+  "fim": "2026-11-22T04:58:00-03:00",
+  "branch": "claude/pd-livros-20261122-0458",
+  "publicou": [],
+  "descartou": [],
+  "bloqueios": [
+    { "host": "www.amazon.com.br", "erro": "http-5xx", "detalhe": "HTTP 500 no curl; Playwright indisponível no servidor, sem como ler a foto do livro" },
+    { "host": "covers.openlibrary.org", "erro": "http-404", "detalhe": "imagem de 1 pixel para o ISBN 9788532530967 e sem capa (cover_i) nas edições em português buscadas" }
+  ],
+  "pr": null
+}
