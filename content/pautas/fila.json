@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-22T09:16:11-03:00",
+  "atualizadoEm": "2026-11-22T18:17:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1426,12 +1426,13 @@
       "tema": "Vídeo de descarte de cebolas no campo apresentado como recente e ligado à reeleição de Lula (Aos Fatos: gravado em João Dourado, BA, em novembro de 2024)",
       "motivo": "fonte-unica",
       "fontesAbertas": [
-        "https://www.aosfatos.org/noticias/video-descarte-cebolas-campo-2024-nao-atual/"
+        "https://www.aosfatos.org/noticias/video-descarte-cebolas-campo-2024-nao-atual/",
+        "https://www.boatos.org/brasil/produtores-jogaram-cebolas-fora-em-2026-para-aumentar-os-precos-e-deram-calote-de-r-48-bilhoes-no-banco-do-brasil.html"
       ],
       "primeiraVezVisto": "2026-11-20T09:18:00-03:00",
-      "ultimaRevisao": "2026-11-20T09:19:00-03:00",
-      "status": "aberta",
-      "falta": "segunda fonte aberta sobre a origem do vídeo (IBGE respondeu 403; g1 e Globo Rural não abriram)"
+      "ultimaRevisao": "2026-11-22T18:17:00-03:00",
+      "status": "publicada",
+      "slug": "video-descarte-cebolas-joao-dourado-2024-nao-e-atual"
     },
     {
       "id": "livro-incesto-mec-retirado-2017",
