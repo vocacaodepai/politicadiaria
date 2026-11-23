@@ -1,0 +1,10 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-23T18:17:00-03:00",
+  "fim": "2026-11-23T18:20:00-03:00",
+  "branch": "claude/pd-checagem-20261123-1930",
+  "publicou": ["bolsonaro-nao-morreu-internado-df-star-boletim-estavel"],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}
