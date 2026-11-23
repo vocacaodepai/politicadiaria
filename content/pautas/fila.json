@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-23T05:07:00-03:00",
+  "atualizadoEm": "2026-11-23T18:20:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1539,6 +1539,22 @@
       "ultimaRevisao": "2026-11-22T09:16:11-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta (agência de checagem ou edição de 18/11 do jornal)"
+    },
+    {
+      "id": "boato-bolsonaro-morreu-21-novembro",
+      "rotina": "checagem",
+      "tema": "Posts dizem que Jair Bolsonaro morreu em 21/11 durante a internação no DF Star (Aos Fatos: falso; boletim de 22/11 o dá como estável)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://aosfatos.org/noticias/e-falso-jair-bolsonaro-morreu/",
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/bolsonaro-segue-internado-na-uti-sem-previsao-de-alta",
+        "https://www.poder360.com.br/poder-saude/exame-de-bolsonaro-teve-resultado-muito-positivo-diz-michelle/",
+        "https://g1.globo.com/politica/noticia/2026/11/23/bolsonaro-continuara-internado-na-uti-por-dores-abdominais-e-pneumonia-medicos-descartam-cirurgia-neste-momento.ghtml"
+      ],
+      "primeiraVezVisto": "2026-11-23T18:17:00-03:00",
+      "ultimaRevisao": "2026-11-23T18:17:00-03:00",
+      "status": "publicada",
+      "slug": "bolsonaro-nao-morreu-internado-df-star-boletim-estavel"
     }
   ]
 }
