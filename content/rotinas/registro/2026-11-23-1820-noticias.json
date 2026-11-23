@@ -1,0 +1,10 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-23T18:20:20-03:00",
+  "fim": "2026-11-23T18:21:50-03:00",
+  "branch": "claude/pd-noticias-20261123-1820",
+  "publicou": ["mps-1377-1378-credito-perdem-eficacia"],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}
