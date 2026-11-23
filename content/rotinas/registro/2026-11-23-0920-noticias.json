@@ -1,0 +1,10 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-23T09:20:00-03:00",
+  "fim": "2026-11-23T09:22:00-03:00",
+  "branch": "claude/pd-noticias-20261123-0930",
+  "publicou": ["lula-live-janones-ajuste-fiscal-idade-minima-camara-segunda"],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}
