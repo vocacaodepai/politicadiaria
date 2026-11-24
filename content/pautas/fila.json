@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T09:22:00-03:00",
+  "atualizadoEm": "2026-11-24T18:24:30-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1584,6 +1584,20 @@
       "ultimaRevisao": "2026-11-24T09:17:00-03:00",
       "status": "publicada",
       "slug": "moraes-mandou-destruir-armas-nao-biblias-bengalas-8-de-janeiro"
+    },
+    {
+      "id": "lula-jantar-alvorada-vaga-stf-messias-mulher",
+      "rotina": "noticias",
+      "tema": "Lula discute a vaga de Barroso no STF com Alcolumbre, Motta e quatro ministros; relatos divergem sobre manter Messias ou indicar uma mulher",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.otempo.com.br/politica/judiciario/2026/11/23/lula-discute-vaga-no-stf-com-cupula-do-congresso-e-enfrenta-resistencia-a-messias",
+        "https://m.imirante.com/noticias/brasil/2026/11/24/ipolitica-lula-quer-mulher-stf-apos-resistencia-jorge-messias"
+      ],
+      "primeiraVezVisto": "2026-11-24T18:22:00-03:00",
+      "ultimaRevisao": "2026-11-24T18:22:00-03:00",
+      "status": "aberta",
+      "falta": "nota oficial do Planalto ou do STF, ou indicação formal; relato do jantar vem de coluna da Folha, sem fonte identificada, e as versões divergem"
     }
   ]
 }
