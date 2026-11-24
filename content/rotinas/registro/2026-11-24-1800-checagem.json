@@ -1,0 +1,12 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-24T18:00:00-03:00",
+  "fim": "2026-11-24T18:17:00-03:00",
+  "branch": "claude/pd-checagem-20261124-1920",
+  "publicou": ["grafico-43-por-cento-processos-moraes-nao-prova-sorteio-viciado-stf"],
+  "descartou": [
+    { "tema": "Petistas teriam tentado invadir o hospital DF Star onde Jair Bolsonaro está internado (Aos Fatos: falso)", "motivo": "fonte-unica" }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
