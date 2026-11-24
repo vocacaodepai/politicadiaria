@@ -1,0 +1,10 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-24T15:20:24-03:00",
+  "fim": "2026-11-24T15:22:30-03:00",
+  "branch": "claude/pd-noticias-20261124-1521",
+  "publicou": ["arrecadacao-federal-outubro-2026-294-bilhoes"],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}
