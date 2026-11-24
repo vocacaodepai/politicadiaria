@@ -1,0 +1,12 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-24T09:15:23-03:00",
+  "fim": "2026-11-24T09:17:30-03:00",
+  "branch": "claude/pd-checagem-20261124-0915",
+  "publicou": ["moraes-mandou-destruir-armas-nao-biblias-bengalas-8-de-janeiro"],
+  "descartou": [],
+  "bloqueios": [
+    { "host": "www.planalto.gov.br", "erro": "outro", "detalhe": "sem resposta no curl" }
+  ],
+  "pr": null
+}
