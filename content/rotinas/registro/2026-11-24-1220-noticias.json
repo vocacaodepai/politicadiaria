@@ -1,0 +1,10 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-24T12:20:21-03:00",
+  "fim": "2026-11-24T12:22:30-03:00",
+  "branch": "claude/pd-noticias-20261124-1220",
+  "publicou": ["senado-pauta-forca-nacional-sus-pl-351-quarta-25"],
+  "descartou": [],
+  "bloqueios": [{ "host": "www.planalto.gov.br", "erro": "outro", "detalhe": "falha de conexão ao abrir a Lei 15.549" }],
+  "pr": null
+}
