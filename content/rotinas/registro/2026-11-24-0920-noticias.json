@@ -1,0 +1,16 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-24T09:20:22-03:00",
+  "fim": "2026-11-24T09:22:00-03:00",
+  "branch": "claude/pd-noticias-20261124-0920",
+  "publicou": [],
+  "descartou": [
+    {
+      "tema": "Abin apresenta estudo sobre 31 organizações criminosas relevantes",
+      "motivo": "fonte-unica",
+      "pauta": "abin-cenarios-crime-organizado-31-organizacoes"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T09:17:00-03:00",
+  "atualizadoEm": "2026-11-24T09:22:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1539,6 +1539,20 @@
       "ultimaRevisao": "2026-11-22T09:16:11-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta (agência de checagem ou edição de 18/11 do jornal)"
+    },
+    {
+      "id": "abin-cenarios-crime-organizado-31-organizacoes",
+      "rotina": "noticias",
+      "tema": "Abin apresenta ao Sisbin o estudo Cenários do Crime Organizado no Brasil: 31 organizações relevantes e 75 células estaduais",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/brasil-tem-31-organizacoes-criminosas-relevantes-aponta-abin",
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/metodologia-da-abin-mostra-diferencas-entre-organizacoes-criminosas"
+      ],
+      "falta": "nota da Abin ou o estudo, ou segunda fonte independente; contagens do texto não fecham (polarização soma 26 unidades; líderes locais 8 estados, 7 e 6)",
+      "primeiraVezVisto": "2026-11-24T09:20:22-03:00",
+      "ultimaRevisao": "2026-11-24T09:22:00-03:00",
+      "status": "aberta"
     },
     {
       "id": "boato-bolsonaro-morreu-21-novembro",
