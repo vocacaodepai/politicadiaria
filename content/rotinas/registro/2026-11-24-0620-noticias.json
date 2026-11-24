@@ -1,0 +1,10 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-24T06:20:22-03:00",
+  "fim": "2026-11-24T06:22:00-03:00",
+  "branch": "claude/pd-noticias-20261124-0620",
+  "publicou": ["camara-aprova-ajuste-fiscal-plp-299-sem-mudancas-sancao"],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}
