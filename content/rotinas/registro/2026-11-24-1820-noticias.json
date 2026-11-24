@@ -1,0 +1,18 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-24T18:20:19-03:00",
+  "fim": "2026-11-24T18:24:40-03:00",
+  "branch": "claude/pd-noticias-20261124-1820",
+  "publicou": ["ccj-camara-aprova-pl-344-advocacia-parlamentares-fazenda-publica"],
+  "descartou": [
+    {
+      "tema": "Lula discute a vaga de Barroso no STF com a cúpula do Congresso e ministros",
+      "motivo": "fonte-unica",
+      "pauta": "lula-jantar-alvorada-vaga-stf-messias-mulher"
+    }
+  ],
+  "bloqueios": [
+    { "host": "www.camara.leg.br", "erro": "http-429", "detalhe": "inteiro teor do PL 344/2026" }
+  ],
+  "pr": null
+}
