@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-24T04:35:00-03:00",
+  "atualizadoEm": "2026-11-24T09:17:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1555,6 +1555,21 @@
       "ultimaRevisao": "2026-11-23T18:17:00-03:00",
       "status": "publicada",
       "slug": "bolsonaro-nao-morreu-internado-df-star-boletim-estavel"
+    },
+    {
+      "id": "moraes-destruicao-armas-biblias-bengalas-8-janeiro",
+      "rotina": "checagem",
+      "tema": "Posts dizem que Moraes mandou destruir Bíblias e bengalas de condenados do 8 de Janeiro (Aos Fatos e Estadão Verifica: a decisão trata de armas)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.aosfatos.org/noticias/moraes-armas-condenados-8-janeiro/",
+        "https://www.estadao.com.br/estadao-verifica/moraes-mandou-destruir-armas-nao-biblias-8-de-janeiro/",
+        "https://www.camara.leg.br/noticias/934420-imagens-das-cameras-de-seguranca-mostram-ataque-brutal-a-camara-dos-deputados/"
+      ],
+      "primeiraVezVisto": "2026-11-24T09:15:00-03:00",
+      "ultimaRevisao": "2026-11-24T09:17:00-03:00",
+      "status": "publicada",
+      "slug": "moraes-mandou-destruir-armas-nao-biblias-bengalas-8-de-janeiro"
     }
   ]
 }
