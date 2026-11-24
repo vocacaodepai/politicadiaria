@@ -1,0 +1,13 @@
+{
+  "rotina": "livros",
+  "inicio": "2026-11-24T04:25:00-03:00",
+  "fim": "2026-11-24T04:35:00-03:00",
+  "branch": "claude/pd-livros-20261124-0425",
+  "publicou": [],
+  "descartou": [],
+  "bloqueios": [
+    { "host": "www.amazon.com.br", "erro": "captcha", "detalhe": "curl recebe página de verificação; Playwright não está instalado no servidor, sem como ler a foto do livro" },
+    { "host": "covers.openlibrary.org", "erro": "http-404", "detalhe": "sem capa para os ISBNs 9788580332445, 9788501109057, 9788537819159 e 9788562816147" }
+  ],
+  "pr": null
+}
