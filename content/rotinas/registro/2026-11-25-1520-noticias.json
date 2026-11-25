@@ -1,0 +1,15 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-25T15:20:19-03:00",
+  "fim": "2026-11-25T15:33:00-03:00",
+  "branch": "claude/pd-noticias-20261125-1520",
+  "publicou": [
+    "liberdade-provisoria-custodia-pl-714",
+    "embaixador-bitelli-nao-volta-argentina"
+  ],
+  "descartou": [],
+  "bloqueios": [
+    { "host": "www.tse.jus.br", "erro": "http-403", "detalhe": "listagem de notícias" }
+  ],
+  "pr": null
+}
