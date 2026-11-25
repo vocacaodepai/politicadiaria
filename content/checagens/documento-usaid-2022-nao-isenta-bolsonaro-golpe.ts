@@ -16,7 +16,7 @@ export const checagem: FactCheck = {
     attribution: "Publicações em redes sociais",
   },
   date: "2026-11-25",
-  checkedAt: "2026-11-25T18:27:00-03:00",
+  checkedAt: "2026-11-25T18:24:00-03:00",
   updated: "2026-11-25",
   topic: "Justiça",
   points: [

@@ -1,7 +1,7 @@
 {
   "rotina": "checagem",
   "inicio": "2026-11-25T18:15:27-03:00",
-  "fim": "2026-11-25T18:35:00-03:00",
+  "fim": "2026-11-25T18:28:39-03:00",
   "branch": "claude/pd-checagem-20261125-1815",
   "publicou": [
     "bolsa-familia-nao-acaba-marco-2027-pf-nao-visitara",
@@ -17,5 +17,5 @@
     { "host": "noticias.uol.com.br", "erro": "http-403" },
     { "host": "www.maisgoias.com.br", "erro": "http-403" }
   ],
-  "pr": null
+  "pr": 686
 }
