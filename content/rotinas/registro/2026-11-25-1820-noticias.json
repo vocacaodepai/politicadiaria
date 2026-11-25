@@ -1,0 +1,19 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-25T18:20:18-03:00",
+  "fim": "2026-11-25T18:50:00-03:00",
+  "branch": "claude/pd-noticias-20261125-1820",
+  "publicou": [
+    "orcamento-2027-receita-cmo-37-bilhoes-royalties",
+    "alerta-agressor-pl-5542-camara-monitoracao"
+  ],
+  "descartou": [],
+  "bloqueios": [
+    {
+      "host": "fonts.gstatic.com",
+      "erro": "outro",
+      "detalhe": "build com Turbopack falhou ao resolver a fonte do Google; validado com next build --webpack"
+    }
+  ],
+  "pr": null
+}
