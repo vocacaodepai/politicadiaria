@@ -51,7 +51,7 @@ export const article: Article = {
     ],
     price: "R$ 60,00 na Capivara e R$ 74,90 na edição de bolso da Companhia das Letras, ambas fora de estoque, verificado em 25/11/2026",
     bestFor: "Quem se interessa por história do Brasil colonial e diplomacia e quer entender como uma guerra vencida ainda precisou ser negociada.",
-    url: "https://www.amazon.com.br/dp/8589063534?tag=politicadiaria-20",
+    url: "https://www.amazon.com.br/s?k=9788589063531&tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver O Negócio do Brasil na Amazon",
     productImage: {
@@ -77,7 +77,7 @@ export const article: Article = {
     <p>Em <a href="https://www1.folha.uol.com.br/fsp/ilustrad/fq05129819.htm" rel="noopener noreferrer nofollow" target="_blank">entrevista à Folha em 1998</a>, o autor resumiu o desfecho. Pelo tratado de 1661, Portugal indenizou a Holanda pela perda do Nordeste em 4 milhões de cruzados. Desse total, 2,5 milhões seriam fornecidos em sal de Setúbal, importante para a salga do arenque, e 1,5 milhão correspondia à cessão das feitorias de Cochim e Cananor, na Índia. Os pagamentos se estenderam de 1670 até o começo do século XVIII.</p>
     <p>O primeiro capítulo também explica por que o Brasil pesava tanto. Depois de 1640, o comércio do açúcar ajudou a sustentar a independência recuperada, com crédito à coroa para o exército de fronteira, as fortificações, o socorro às colônias, as armadas e as embaixadas. O autor dialoga ali com a tese de Jaime Cortesão sobre a passagem do império português do Oriente para o Atlântico.</p>
     <p>Antes disso, a monarquia espanhola, que governava Portugal, tentou reaver Pernambuco por negociação. O trecho relata sondagens com o pintor Rubens, a hipótese de incluir a cidade de Breda na troca e uma oferta elevada de 300 mil para 500 mil cruzados. O príncipe de Orange respondeu que a honra e o interesse das Províncias Unidas exigiam conservar a região.</p>
-    <p>O autor rejeita a leitura de uma simples humilhação. Na mesma conversa, afirmou que Portugal se saiu bastante bem ao explorar a rivalidade entre ingleses e holandeses. Sem a primeira guerra anglo-holandesa, disse, os portugueses provavelmente não teriam se arriscado a sitiar o Recife.</p>
+    <p>O autor rejeita a leitura de uma simples humilhação. Na entrevista à Folha, afirmou que Portugal se saiu bastante bem ao explorar a rivalidade entre ingleses e holandeses. Sem a primeira guerra anglo-holandesa, disse, os portugueses provavelmente não teriam se arriscado a sitiar o Recife.</p>
 
     <p>O método também merece nota. No prefácio de 2010, reproduzido em parte no blog do diplomata Paulo Roberto de Almeida, o autor afirma que a história política e diplomática se presta bem à análise das alternativas que não se realizaram. Perguntar o que poderia ter acontecido ajuda a medir o peso de cada acontecimento.</p>
     <p>A apresentação do jornalista Ricardo Bonalume Neto, na mesma reportagem da Folha, mostra o que estava em jogo. Portugal poderia ter permanecido como sócio menor de outra monarquia, e o território brasileiro poderia ser hoje bem menor. São hipóteses que explicam por que um período de poucas décadas atrai tanta atenção.</p>
@@ -87,7 +87,7 @@ export const article: Article = {
     <p>A <a href="https://www.estadao.com.br/cultura/literatura/o-negocio-do-brasil--de-evaldo-cabral-de-mello--ganha-edicao-ilustrada-com-imagens-da-epoca/" rel="noopener noreferrer nofollow" target="_blank">reportagem do Estadão sobre a edição ilustrada</a> situa o livro em uma trilogia sobre o domínio holandês, ao lado de <em>Olinda Restaurada</em> e <em>Rubro Veio</em>. O primeiro trata da guerra e do açúcar que a sustentou, e o segundo, do imaginário da restauração pernambucana.</p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/8589063534?tag=politicadiaria-20" rel="sponsored noopener noreferrer" target="_blank">Ver O Negócio do Brasil na Amazon ↗</a>
+      <a href="https://www.amazon.com.br/s?k=9788589063531&tag=politicadiaria-20" rel="sponsored noopener noreferrer" target="_blank">Ver O Negócio do Brasil na Amazon ↗</a>
     </div>
 
     <h2>O que o livro faz bem</h2>

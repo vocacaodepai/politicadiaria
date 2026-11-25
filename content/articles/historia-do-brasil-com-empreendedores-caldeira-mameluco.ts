@@ -51,7 +51,7 @@ export const article: Article = {
     ],
     price: "R$ 125,00 a R$ 254,00 em ofertas da Estante Virtual, quase todas de usados, verificado em 25/11/2026",
     bestFor: "Quem quer rever a história econômica da colônia pelo ângulo do comércio, do crédito e da iniciativa privada.",
-    url: "https://www.amazon.com.br/dp/856043206X?tag=politicadiaria-20",
+    url: "https://www.amazon.com.br/s?k=9788560432066&tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver o livro de Jorge Caldeira na Amazon",
     productImage: {
@@ -86,7 +86,7 @@ export const article: Article = {
     <p>O interesse pela iniciativa econômica já aparecia na biografia <a href="/artigos/maua-empresario-do-imperio-jorge-caldeira-companhia-das-letras">Mauá, Empresário do Império</a>, resenhada aqui. A diferença é de escala: em vez de um personagem do século XIX, o autor agora examina a sociedade colonial e os intérpretes que a descreveram.</p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/856043206X?tag=politicadiaria-20" rel="sponsored noopener noreferrer" target="_blank">Ver História do Brasil com Empreendedores na Amazon ↗</a>
+      <a href="https://www.amazon.com.br/s?k=9788560432066&tag=politicadiaria-20" rel="sponsored noopener noreferrer" target="_blank">Ver História do Brasil com Empreendedores na Amazon ↗</a>
     </div>
 
     <h2>O que o livro faz bem</h2>
