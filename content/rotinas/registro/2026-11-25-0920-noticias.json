@@ -1,0 +1,18 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-25T09:20:20-03:00",
+  "fim": "2026-11-25T09:32:00-03:00",
+  "branch": "claude/pd-noticias-20261125-0920",
+  "publicou": [
+    "governo-libera-3-4-bilhoes-orcamento-5-bimestre-2026",
+    "alcolumbre-advocacia-senado-stf-van-hattem"
+  ],
+  "descartou": [],
+  "bloqueios": [
+    { "host": "www.canalrural.com.br", "erro": "http-403" },
+    { "host": "www.agazeta.com.br", "erro": "http-403" },
+    { "host": "www.tribunapr.com.br", "erro": "http-403" },
+    { "host": "api.firecrawl.dev", "erro": "outro", "detalhe": "busca sem permissao no ambiente" }
+  ],
+  "pr": null
+}
