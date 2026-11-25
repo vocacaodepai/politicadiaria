@@ -51,7 +51,7 @@ export const article: Article = {
     ],
     price: "R$ 84,90 no site da Companhia das Letras, verificado em 25/11/2026; a página da Amazon Brasil não abriu para conferência nessa data",
     bestFor: "Quem quer um ensaio direto sobre a influência do entretenimento na cultura e na política, disposto a discordar de partes dele.",
-    url: "https://www.amazon.com.br/dp/8539004941?tag=politicadiaria-20",
+    url: "https://www.amazon.com.br/s?k=9788539004942&tag=politicadiaria-20",
     affiliate: true,
     ctaLabel: "Ver A Civilização do Espetáculo na Amazon",
     productImage: {
@@ -85,7 +85,7 @@ export const article: Article = {
     <p>Sua trajetória de ensaísta liberal aparece em outros livros já resenhados aqui. <a href="/artigos/o-chamado-da-tribo-vargas-llosa-objetiva">O Chamado da Tribo</a> apresenta os pensadores que o levaram ao liberalismo, e <a href="/artigos/sabres-e-utopias-vargas-llosa-objetiva">Sabres e Utopias</a> reúne textos sobre a América Latina, suas ditaduras e suas promessas de revolução.</p>
 
     <div class="buy-btn">
-      <a href="https://www.amazon.com.br/dp/8539004941?tag=politicadiaria-20" rel="sponsored noopener noreferrer" target="_blank">Ver A Civilização do Espetáculo na Amazon ↗</a>
+      <a href="https://www.amazon.com.br/s?k=9788539004942&tag=politicadiaria-20" rel="sponsored noopener noreferrer" target="_blank">Ver A Civilização do Espetáculo na Amazon ↗</a>
     </div>
 
     <h2>O que o livro faz bem</h2>
