@@ -1,0 +1,21 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-25T18:15:27-03:00",
+  "fim": "2026-11-25T18:28:39-03:00",
+  "branch": "claude/pd-checagem-20261125-1815",
+  "publicou": [
+    "bolsa-familia-nao-acaba-marco-2027-pf-nao-visitara",
+    "documento-usaid-2022-nao-isenta-bolsonaro-golpe",
+    "trump-nao-confirmou-fraude-urnas-opiniao-sem-provas"
+  ],
+  "descartou": [
+    { "tema": "Software teria reduzido a abstenção e aumentado votos de Lula no 2º turno", "motivo": "fonte-unica", "pauta": "software-fraude-queda-abstencao-2-turno" }
+  ],
+  "bloqueios": [
+    { "host": "www.usaid.gov", "erro": "http-403" },
+    { "host": "checamos.afp.com", "erro": "http-403" },
+    { "host": "noticias.uol.com.br", "erro": "http-403" },
+    { "host": "www.maisgoias.com.br", "erro": "http-403" }
+  ],
+  "pr": 686
+}
