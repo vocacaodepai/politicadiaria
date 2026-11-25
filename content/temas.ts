@@ -32,6 +32,7 @@ export const temas: Tema[] = [
       "alckmin-ajuste-fiscal-votacao-camara-semana",
       "senado-conclui-plp-299-rejeita-emenda-40-47-a-30",
       "motta-sessao-extraordinaria-pacote-fiscal-dia-23",
+      "lula-sanciona-lc-239-ajuste-fiscal-sem-vetos",
     ],
   },
   {

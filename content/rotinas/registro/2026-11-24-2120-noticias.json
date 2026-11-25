@@ -1,0 +1,13 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-24T21:20:17-03:00",
+  "fim": "2026-11-24T21:28:30-03:00",
+  "branch": "claude/pd-noticias-20261124-2120",
+  "publicou": [
+    "lula-sanciona-lc-239-ajuste-fiscal-sem-vetos",
+    "senado-aprova-plano-nacional-de-cultura-2036"
+  ],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}
