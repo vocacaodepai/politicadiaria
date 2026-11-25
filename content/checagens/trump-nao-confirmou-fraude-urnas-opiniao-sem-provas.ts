@@ -16,7 +16,7 @@ export const checagem: FactCheck = {
     attribution: "Publicações em redes sociais",
   },
   date: "2026-11-25",
-  checkedAt: "2026-11-25T18:30:00-03:00",
+  checkedAt: "2026-11-25T18:25:00-03:00",
   updated: "2026-11-25",
   topic: "Eleições 2026",
   points: [
