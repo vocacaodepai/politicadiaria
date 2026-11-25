@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T15:33:00-03:00",
+  "atualizadoEm": "2026-11-25T18:34:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -266,7 +266,7 @@
         "https://www.aosfatos.org/noticias/video-lula-presidentes-cop31/"
       ],
       "primeiraVezVisto": "2026-11-12T19:44:00-03:00",
-      "ultimaRevisao": "2026-11-25T09:25:00-03:00",
+      "ultimaRevisao": "2026-11-25T18:34:00-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre a foto oficial"
     },
@@ -330,7 +330,7 @@
         "https://aosfatos.org/noticias/fila-formula-1-saida-brasileiros-paraguai/"
       ],
       "primeiraVezVisto": "2026-11-13T07:47:58-03:00",
-      "ultimaRevisao": "2026-11-25T09:25:00-03:00",
+      "ultimaRevisao": "2026-11-25T18:34:00-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre local e data do vídeo"
     },
@@ -390,7 +390,7 @@
         "https://www.agencialupa.org/noticias/2026/11/13/foto-nao-mostra-protesto-de-1-milhao-de-pessoas-contra-o-governo-milei/"
       ],
       "primeiraVezVisto": "2026-11-13T13:50:42-03:00",
-      "ultimaRevisao": "2026-11-25T09:25:00-03:00",
+      "ultimaRevisao": "2026-11-25T18:34:00-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre a origem da foto (AFP e Fast Check não abriram)"
     },
@@ -966,7 +966,7 @@
       ],
       "falta": "segunda checagem aberta ou nota do SBT",
       "primeiraVezVisto": "2026-11-16T13:52:00-03:00",
-      "ultimaRevisao": "2026-11-25T09:25:00-03:00",
+      "ultimaRevisao": "2026-11-25T18:34:00-03:00",
       "status": "aberta"
     },
     {
@@ -1033,7 +1033,7 @@
         "https://www.boatos.org/politica/lucas-pavanato-era-uma-mulher-trans-antes-de-entrar-para-a-politica.html"
       ],
       "primeiraVezVisto": "2026-11-17T07:47:00-03:00",
-      "ultimaRevisao": "2026-11-25T09:25:00-03:00",
+      "ultimaRevisao": "2026-11-25T18:34:00-03:00",
       "status": "aberta",
       "falta": "segunda checagem aberta ou nota do gabinete"
     },
@@ -1218,7 +1218,7 @@
       ],
       "falta": "segunda checagem independente aberta sobre o mesmo vídeo",
       "primeiraVezVisto": "2026-11-18T13:40:00-03:00",
-      "ultimaRevisao": "2026-11-25T09:25:00-03:00",
+      "ultimaRevisao": "2026-11-25T18:34:00-03:00",
       "status": "aberta"
     },
     {
@@ -1403,7 +1403,7 @@
         "https://www.agencialupa.org/jornalismo/2026/11/19/foto-antiga-e-associada-a-protestos-contra-ajuste-fiscal/"
       ],
       "primeiraVezVisto": "2026-11-20T06:15:00-03:00",
-      "ultimaRevisao": "2026-11-25T09:25:00-03:00",
+      "ultimaRevisao": "2026-11-25T18:34:00-03:00",
       "status": "aberta",
       "falta": "segunda fonte aberta que identifique a foto como do ato contra a PEC da Blindagem (a publicação original do UOL não abre; só a Lupa sustenta a origem da foto)"
     },
@@ -1454,12 +1454,14 @@
       "tema": "Vídeo de descarte de leite em rodovia apresentado como protesto recente de produtores (Aos Fatos: gravado em 8/2/2019 em Bom Conselho, PE)",
       "motivo": "fonte-unica",
       "fontesAbertas": [
-        "https://aosfatos.org/noticias/video-descarte-leite/"
+        "https://aosfatos.org/noticias/video-descarte-leite/",
+        "https://www.agencialupa.org/verificacao/2026/11/25/imagem-de-produtores-descartando-leite-e-de-protesto-em-pernambuco-em-2019/",
+        "https://www.estadao.com.br/estadao-verifica/imagem-produtores-despejando-leite-enganoso/"
       ],
       "primeiraVezVisto": "2026-11-20T18:15:00-03:00",
-      "ultimaRevisao": "2026-11-25T09:25:00-03:00",
+      "ultimaRevisao": "2026-11-25T18:34:00-03:00",
       "status": "aberta",
-      "falta": "segunda fonte aberta sobre a origem do vídeo (g1 não abriu; PDF da Circular Secex 5/2019 sem texto legível)"
+      "falta": "segunda fonte já aberta (Lupa e Estadão, Bom Conselho, 2019); ficou fora pelo limite de 3 por rodada"
     },
     {
       "id": "livro-ordem-e-decadencia-politica-fukuyama",
@@ -1631,7 +1633,7 @@
         "https://www.aosfatos.org/noticias/tse-urnas-eleicoes-2026/"
       ],
       "primeiraVezVisto": "2026-11-25T09:25:00-03:00",
-      "ultimaRevisao": "2026-11-25T09:25:00-03:00",
+      "ultimaRevisao": "2026-11-25T18:34:00-03:00",
       "status": "aberta",
       "falta": "página do TSE acessível (403) ou segunda fonte independente"
     },
@@ -1645,9 +1647,22 @@
         "https://painelpolitico.com/tse-desmente-boato-de-mesarios-virtuais-em-urnas-eletronicas"
       ],
       "primeiraVezVisto": "2026-11-25T09:25:00-03:00",
-      "ultimaRevisao": "2026-11-25T09:25:00-03:00",
+      "ultimaRevisao": "2026-11-25T18:34:00-03:00",
       "status": "aberta",
       "falta": "esclarecimento do TSE acessível (403) ou cobertura de veículo com apuração própria"
+    },
+    {
+      "id": "software-fraude-queda-abstencao-2-turno",
+      "rotina": "checagem",
+      "tema": "Vídeo diz que software reduziu abstenção e aumentou votos de Lula no 2º turno (Estadão Verifica: falso)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.estadao.com.br/estadao-verifica/provas-fraude-eleicao-software-aumentou-votos-de-lula-com-queda-abstencao-falso/"
+      ],
+      "primeiraVezVisto": "2026-11-25T18:34:00-03:00",
+      "ultimaRevisao": "2026-11-25T18:34:00-03:00",
+      "status": "aberta",
+      "falta": "fonte primária do TSE ou segunda checagem independente aberta"
     }
   ]
 }
