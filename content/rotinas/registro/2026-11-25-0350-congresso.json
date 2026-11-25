@@ -1,0 +1,10 @@
+{
+  "rotina": "congresso",
+  "inicio": "2026-11-25T03:50:19-03:00",
+  "fim": "2026-11-25T04:38:00-03:00",
+  "branch": "claude/pd-congresso-20261125-0350",
+  "publicou": ["data/congresso"],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}
