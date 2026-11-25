@@ -1,0 +1,21 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-25T09:15:22-03:00",
+  "fim": "2026-11-25T09:26:00-03:00",
+  "branch": "claude/pd-checagem-20261125-0915",
+  "publicou": [
+    "lista-12-paises-nao-reconheceram-vitoria-lula-falsa",
+    "interpol-vestido-fuga-flavio-manchete-do-globo-e-falsa",
+    "marco-rubio-lula-conspirou-eua-ira-post-falso"
+  ],
+  "descartou": [
+    { "tema": "TSE teria destruído as urnas usadas nas eleições de 2026", "motivo": "fonte-unica", "pauta": "tse-destruicao-urnas-usadas-2026" },
+    { "tema": "Títulos de mesários repetidos em urnas de cidades distantes como prova de mesários virtuais", "motivo": "fonte-bloqueada", "pauta": "mesarios-virtuais-titulo-repetido-logs" }
+  ],
+  "bloqueios": [
+    { "host": "www.tse.jus.br", "erro": "http-403" },
+    { "host": "www.justicaeleitoral.jus.br", "erro": "http-403" },
+    { "host": "www.mofa.go.jp", "erro": "http-403" }
+  ],
+  "pr": null
+}
