@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T04:46:00-03:00",
+  "atualizadoEm": "2026-11-25T06:34:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1509,8 +1509,9 @@
       ],
       "falta": "segunda fonte aberta (g1, Estadão e Poder360 noticiaram, mas as páginas não foram abertas nesta rodada)",
       "primeiraVezVisto": "2026-11-22T06:22:00-03:00",
-      "ultimaRevisao": "2026-11-22T06:22:00-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-25T06:34:00-03:00",
+      "status": "publicada",
+      "slug": "lula-live-janones-ajuste-fiscal-idade-minima-camara-segunda"
     },
     {
       "id": "bolsonaro-uti-abdomen-agudo-obstrutivo",
@@ -1551,7 +1552,7 @@
       ],
       "falta": "nota da Abin ou o estudo, ou segunda fonte independente; contagens do texto não fecham (polarização soma 26 unidades; líderes locais 8 estados, 7 e 6)",
       "primeiraVezVisto": "2026-11-24T09:20:22-03:00",
-      "ultimaRevisao": "2026-11-24T09:22:00-03:00",
+      "ultimaRevisao": "2026-11-25T06:34:00-03:00",
       "status": "aberta"
     },
     {
@@ -1595,7 +1596,7 @@
         "https://m.imirante.com/noticias/brasil/2026/11/24/ipolitica-lula-quer-mulher-stf-apos-resistencia-jorge-messias"
       ],
       "primeiraVezVisto": "2026-11-24T18:22:00-03:00",
-      "ultimaRevisao": "2026-11-24T18:22:00-03:00",
+      "ultimaRevisao": "2026-11-25T06:34:00-03:00",
       "status": "aberta",
       "falta": "nota oficial do Planalto ou do STF, ou indicação formal; relato do jantar vem de coluna da Folha, sem fonte identificada, e as versões divergem"
     },

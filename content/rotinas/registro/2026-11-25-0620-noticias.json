@@ -1,0 +1,13 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-25T06:20:19-03:00",
+  "fim": "2026-11-25T06:34:00-03:00",
+  "branch": "claude/pd-noticias-20261125-0620",
+  "publicou": [
+    "chacina-de-acari-pensao-familias-camara",
+    "cni-aciona-supremo-contra-portaria-2041-jornada"
+  ],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}
