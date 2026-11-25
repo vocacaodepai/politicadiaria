@@ -60,6 +60,7 @@ export const temas: Tema[] = [
       "pl-5830-jornada-servicos-saude-12x36",
       "dino-converte-rito-merito-nova-jornada-cautelares",
       "lula-assina-decreto-jornada-5x2-regras-16-dezembro",
+      "cni-aciona-supremo-contra-portaria-2041-jornada",
     ],
   },
   {
