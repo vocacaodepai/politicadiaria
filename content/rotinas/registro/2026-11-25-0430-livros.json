@@ -1,0 +1,19 @@
+{
+  "rotina": "livros",
+  "inicio": "2026-11-25T04:30:19-03:00",
+  "fim": "2026-11-25T05:39:48-03:00",
+  "branch": "claude/pd-livros-20261125-0430",
+  "publicou": [
+    "a-civilizacao-do-espetaculo-vargas-llosa-objetiva",
+    "o-negocio-do-brasil-evaldo-cabral-de-mello-capivara",
+    "historia-do-brasil-com-empreendedores-caldeira-mameluco"
+  ],
+  "descartou": [
+    { "tema": "Resenha de As Etapas do Pensamento Sociológico, de Raymond Aron", "motivo": "fonte-bloqueada", "pauta": "livro-etapas-do-pensamento-sociologico-aron" },
+    { "tema": "Resenha de A Formação das Almas, de José Murilo de Carvalho", "motivo": "fonte-bloqueada", "pauta": "livro-a-formacao-das-almas-jose-murilo-de-carvalho" }
+  ],
+  "bloqueios": [
+    { "host": "www.amazon.com.br", "erro": "captcha", "detalhe": "curl recebe página de verificação e WebFetch recebeu HTTP 503; Playwright não está instalado no servidor; capas vieram da Open Library" }
+  ],
+  "pr": null
+}
