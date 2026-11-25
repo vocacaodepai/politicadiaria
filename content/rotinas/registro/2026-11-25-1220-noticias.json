@@ -1,0 +1,15 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-25T12:20:21-03:00",
+  "fim": "2026-11-25T12:31:30-03:00",
+  "branch": "claude/pd-noticias-20261125-1227",
+  "publicou": [
+    "ouro-ilegal-mt-bloqueio-400-milhoes-pf",
+    "fraude-contabil-pl-2091-mercado-capitais-camara"
+  ],
+  "descartou": [],
+  "bloqueios": [
+    { "host": "g1.globo.com", "erro": "outro", "detalhe": "ferramenta de leitura não acessa o domínio" }
+  ],
+  "pr": null
+}
