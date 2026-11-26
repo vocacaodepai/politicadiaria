@@ -1,0 +1,24 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-26T12:20:18-03:00",
+  "fim": "2026-11-26T12:33:30-03:00",
+  "branch": "claude/pd-noticias-20261126-1220",
+  "publicou": ["ipca-15-novembro-022-alimentos-teto-meta", "senado-urgencia-quarentena-agencias-pl-2896"],
+  "descartou": [
+    {
+      "tema": "Julgamento do piso nacional do magistério no STF, ainda sem resultado",
+      "motivo": "aguardando-fato",
+      "pauta": "stf-piso-magisterio-temas-1218-1324"
+    },
+    {
+      "tema": "Protocolo contra racismo nas escolas aprovado pela Câmara",
+      "motivo": "sem-fonte-primaria",
+      "pauta": "camara-protocolo-racismo-escolas-pl-4887-2023"
+    }
+  ],
+  "bloqueios": [
+    { "host": "agenciadenoticias.ibge.gov.br", "erro": "http-403" },
+    { "host": "api.firecrawl.dev", "erro": "outro", "detalhe": "leitura de página sem permissão neste servidor" }
+  ],
+  "pr": null
+}
