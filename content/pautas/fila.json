@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T04:47:04-03:00",
+  "atualizadoEm": "2026-11-26T06:26:40-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1675,8 +1675,9 @@
       ],
       "falta": "nota ou acórdão do TCU, ou segunda fonte independente aberta; ficou fora pelo limite de 2 por rodada",
       "primeiraVezVisto": "2026-11-25T21:28:00-03:00",
-      "ultimaRevisao": "2026-11-25T21:28:00-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-26T06:26:40-03:00",
+      "status": "publicada",
+      "slug": "tcu-afasta-multas-dilma-pedaladas-2014"
     },
     {
       "id": "livro-origens-do-totalitarismo-arendt",

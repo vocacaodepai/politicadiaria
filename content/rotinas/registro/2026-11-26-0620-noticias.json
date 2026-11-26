@@ -1,0 +1,10 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-26T06:20:20-03:00",
+  "fim": "2026-11-26T06:27:00-03:00",
+  "branch": "claude/pd-noticias-20261126-0620",
+  "publicou": ["cmn-regras-rotativo-cartao-endividamento", "tcu-afasta-multas-dilma-pedaladas-2014"],
+  "descartou": [],
+  "bloqueios": [],
+  "pr": null
+}
