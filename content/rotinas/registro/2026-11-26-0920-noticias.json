@@ -1,0 +1,16 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-26T09:20:17-03:00",
+  "fim": "2026-11-26T09:30:10-03:00",
+  "branch": "claude/pd-noticias-20261126-0920",
+  "publicou": ["pgr-denuncia-gayer-cota-parlamentar-stf", "senado-aprova-forca-nacional-sus-pl-351-sancao"],
+  "descartou": [
+    {
+      "tema": "Relatos de que Lula sondou Luiz Trabuco para o Ministério da Fazenda, sem anúncio oficial",
+      "motivo": "aguardando-fato",
+      "pauta": "lula-sondagem-trabuco-ministerio-fazenda"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}

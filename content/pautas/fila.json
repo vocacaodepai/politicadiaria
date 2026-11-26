@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T06:26:40-03:00",
+  "atualizadoEm": "2026-11-26T09:28:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1688,6 +1688,17 @@
       "fontesAbertas": [],
       "primeiraVezVisto": "2026-11-26T04:47:04-03:00",
       "ultimaRevisao": "2026-11-26T04:47:04-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "lula-sondagem-trabuco-ministerio-fazenda",
+      "rotina": "noticias",
+      "tema": "Relatos de que Lula sondou o banqueiro Luiz Trabuco para o Ministério da Fazenda, sem anúncio oficial",
+      "motivo": "aguardando-fato",
+      "falta": "anúncio ou confirmação oficial; relato atribuído a fontes não identificadas",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-26T09:20:17-03:00",
+      "ultimaRevisao": "2026-11-26T09:20:17-03:00",
       "status": "aberta"
     }
   ]
