@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T15:26:00-03:00",
+  "atualizadoEm": "2026-11-26T18:27:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1758,13 +1758,14 @@
       "rotina": "noticias",
       "tema": "STF pauta para 26/11 o julgamento do piso nacional do magistério (Temas 1.218 e 1.324)",
       "motivo": "aguardando-fato",
-      "falta": "resultado ou suspensão do julgamento na sessão das 14h (sem desfecho às 15h25 de 26/11)",
       "fontesAbertas": [
-        "https://noticias.stf.jus.br/postsnoticias/confira-a-pauta-do-stf-desta-quinta-feira-26-3/"
+        "https://noticias.stf.jus.br/postsnoticias/confira-a-pauta-do-stf-desta-quinta-feira-26-3/",
+        "https://www.migalhas.com.br/quentes/469265/stf-estados-e-municipios-devem-aplicar-piso-salarial-nacional-a-professores"
       ],
       "primeiraVezVisto": "2026-11-26T12:20:18-03:00",
-      "ultimaRevisao": "2026-11-26T15:20:20-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-26T18:20:22-03:00",
+      "status": "publicada",
+      "slug": "stf-piso-magisterio-vencimento-inicial-carreira"
     },
     {
       "id": "camara-protocolo-racismo-escolas-pl-4887-2023",
@@ -1791,6 +1792,32 @@
       ],
       "primeiraVezVisto": "2026-11-26T15:20:20-03:00",
       "ultimaRevisao": "2026-11-26T15:20:20-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "cmo-relatorio-preliminar-ploa-2027-corte-2-09-bilhoes",
+      "rotina": "noticias",
+      "tema": "CMO aprova relatório preliminar do Orçamento de 2027 com cancelamento de R$ 2,09 bilhões para atender emendas",
+      "motivo": "fonte-unica",
+      "falta": "nota da Câmara ou do Senado com os números; ficou fora pelo limite de 2 por rodada",
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmo-aprova-relatorio-do-orcamento-de-2027-com-corte-de-r-209-bilhoes"
+      ],
+      "primeiraVezVisto": "2026-11-26T18:20:22-03:00",
+      "ultimaRevisao": "2026-11-26T18:20:22-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "lula-cleitinho-divida-minas-propag-26-novembro",
+      "rotina": "noticias",
+      "tema": "Lula recebe Cleitinho, governador eleito de Minas, para tratar da dívida do estado no Propag",
+      "motivo": "aguardando-fato",
+      "falta": "resultado da reunião técnica marcada para 27/11 ou proposta detalhada",
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-e-cleitinho-debatem-negociacao-de-divida-de-minas-gerais"
+      ],
+      "primeiraVezVisto": "2026-11-26T18:20:22-03:00",
+      "ultimaRevisao": "2026-11-26T18:20:22-03:00",
       "status": "aberta"
     }
   ]
