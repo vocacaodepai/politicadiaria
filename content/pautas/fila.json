@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T18:27:00-03:00",
+  "atualizadoEm": "2026-11-26T18:30:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1707,12 +1707,15 @@
       "tema": "Foto de Bolsonaro de pé no hospital apresentada como atual (Estadão Verifica: imagem de maio de 2025)",
       "motivo": "fonte-unica",
       "fontesAbertas": [
-        "https://www.estadao.com.br/estadao-verifica/foto-bolsonaro-hospital-2025-fora-de-contexto/"
+        "https://www.terra.com.br/noticias/brasil/politica/foto-de-bolsonaro-saindo-da-uti-e-de-2025-e-nao-recente,03ffc52e670f102381efd01f4877e844el19fx4h.html",
+        "https://www.aosfatos.org/noticias/foto-jair-bolsonaro-medicos/",
+        "https://www.instagram.com/p/DJJ009hxpic/",
+        "https://www.gazetadopovo.com.br/republica/apos-deixar-uti-bolsonaro-foto-equipe-hospital/"
       ],
       "primeiraVezVisto": "2026-11-26T09:24:00-03:00",
-      "ultimaRevisao": "2026-11-26T09:24:00-03:00",
-      "status": "aberta",
-      "falta": "publicação original da foto ou segunda checagem aberta"
+      "ultimaRevisao": "2026-11-26T18:30:00-03:00",
+      "status": "publicada",
+      "slug": "foto-bolsonaro-equipe-medica-e-de-maio-de-2025"
     },
     {
       "id": "imagem-escala-5x2-desconto-faltas-4-dias",
@@ -1723,9 +1726,9 @@
         "https://www.agencialupa.org/verificacao/2026/11/25/fim-da-escala-6x1-nao-altera-regras-de-desconto-por-falta-injustificada/"
       ],
       "primeiraVezVisto": "2026-11-26T09:24:00-03:00",
-      "ultimaRevisao": "2026-11-26T09:24:00-03:00",
+      "ultimaRevisao": "2026-11-26T18:30:00-03:00",
       "status": "aberta",
-      "falta": "portaria do MTE e artigo da CLT abertos em fonte oficial; ficou fora pelo limite de 3 por rodada"
+      "falta": "Portaria MTE 2.041/2026 no Diário Oficial (não abriu em 26/11) e regra de desconto por falta em fonte oficial"
     },
     {
       "id": "post-stf-medicamentos-fora-do-sus-decisao-antiga",
@@ -1733,12 +1736,14 @@
       "tema": "Posts apresentam como nova a restrição do STF a remédios fora do SUS (Lupa: decisões de 2020 e 2024)",
       "motivo": "fonte-unica",
       "fontesAbertas": [
-        "https://www.agencialupa.org/verificacao/2026/11/25/decisao-do-stf-sobre-medicamentos-do-sus-e-antiga-e-nao-tem-relacao-com-lula/"
+        "https://www.agencialupa.org/verificacao/2026/11/25/decisao-do-stf-sobre-medicamentos-do-sus-e-antiga-e-nao-tem-relacao-com-lula/",
+        "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=439095&tip=UN",
+        "https://noticias.stf.jus.br/postsnoticias/stf-define-criterios-para-a-concessao-judicial-de-medicamentos-nao-incorporado-ao-sus/"
       ],
       "primeiraVezVisto": "2026-11-26T09:24:00-03:00",
-      "ultimaRevisao": "2026-11-26T09:24:00-03:00",
-      "status": "aberta",
-      "falta": "página oficial do STF sobre o julgamento; ficou fora pelo limite de 3 por rodada"
+      "ultimaRevisao": "2026-11-26T18:30:00-03:00",
+      "status": "publicada",
+      "slug": "stf-medicamentos-fora-do-sus-decisoes-sao-de-2020-e-2024"
     },
     {
       "id": "pl-4675-mercados-digitais-alegacao-censura",
@@ -1793,6 +1798,20 @@
       "primeiraVezVisto": "2026-11-26T15:20:20-03:00",
       "ultimaRevisao": "2026-11-26T15:20:20-03:00",
       "status": "aberta"
+    },
+    {
+      "id": "video-maduro-delacao-lula-jornal-nacional-editado",
+      "rotina": "checagem",
+      "tema": "Trecho editado do Jornal Nacional diz que Maduro negocia delação contra Lula (Estadão Verifica: enganoso)",
+      "motivo": "sem-fonte-primaria",
+      "fontesAbertas": [
+        "https://www.terra.com.br/noticias/brasil/politica/suposta-negociacao-de-maduro-para-delatar-lula-e-boato-sem-confirmacao,bfa97a322208149bbe31da1600f5ee87zoiqs45a.html",
+        "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/11/24/video-manipulado-forja-delacao-maduro-incriminaria-lula"
+      ],
+      "primeiraVezVisto": "2026-11-26T18:30:00-03:00",
+      "ultimaRevisao": "2026-11-26T18:30:00-03:00",
+      "status": "aberta",
+      "falta": "reportagem original do Jornal Nacional ou documento do processo nos EUA; ficou fora pelo limite de 3 por rodada"
     },
     {
       "id": "cmo-relatorio-preliminar-ploa-2027-corte-2-09-bilhoes",
