@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T09:32:00-03:00",
+  "atualizadoEm": "2026-11-26T12:33:30-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1752,6 +1752,32 @@
       "ultimaRevisao": "2026-11-26T09:24:00-03:00",
       "status": "aberta",
       "falta": "leitura do substitutivo no portal da Câmara"
+    },
+    {
+      "id": "stf-piso-magisterio-temas-1218-1324",
+      "rotina": "noticias",
+      "tema": "STF pauta para 26/11 o julgamento do piso nacional do magistério (Temas 1.218 e 1.324)",
+      "motivo": "aguardando-fato",
+      "falta": "resultado ou suspensão do julgamento na sessão das 14h",
+      "fontesAbertas": [
+        "https://noticias.stf.jus.br/postsnoticias/confira-a-pauta-do-stf-desta-quinta-feira-26-3/"
+      ],
+      "primeiraVezVisto": "2026-11-26T12:20:18-03:00",
+      "ultimaRevisao": "2026-11-26T12:20:18-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "camara-protocolo-racismo-escolas-pl-4887-2023",
+      "rotina": "noticias",
+      "tema": "Câmara aprova protocolo de acolhimento a vítimas de racismo nas escolas (PL 4.887/2023) e envia ao Senado",
+      "motivo": "sem-fonte-primaria",
+      "falta": "abrir a notícia da Agência Câmara; ficou fora pelo limite de 2 por rodada",
+      "fontesAbertas": [
+        "https://www.acordacidade.com.br/educacao/camara-aprova-protocolo-nacional-de-acolhimento-contra-racismo-escolar/"
+      ],
+      "primeiraVezVisto": "2026-11-26T12:20:18-03:00",
+      "ultimaRevisao": "2026-11-26T12:20:18-03:00",
+      "status": "aberta"
     }
   ]
 }
