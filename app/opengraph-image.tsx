@@ -10,7 +10,7 @@ export default async function Image() {
   return renderOgImage({
     title: site.tagline,
     eyebrow: "Artigos, notícias e reviews",
-    footer: "www.politicadiaria.com.br",
+    footer: "politicadiaria.com.br",
     byline: "Inteligência artificial em português",
   });
 }

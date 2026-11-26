@@ -68,4 +68,4 @@ e pule o que já foi coberto.
 
 ## Informe
 
-Só quando publicar: 1 ou 2 frases dizendo o que entrou, terminando com https://www.politicadiaria.com.br
+Só quando publicar: 1 ou 2 frases dizendo o que entrou, terminando com https://politicadiaria.com.br
