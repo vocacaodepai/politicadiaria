@@ -21,5 +21,5 @@
     { "host": "www.planalto.gov.br", "erro": "timeout", "detalhe": "só no download direto; o leitor de páginas abriu" },
     { "host": "api.firecrawl.dev", "erro": "outro", "detalhe": "leitura negada pelo modo de permissão" }
   ],
-  "pr": null
+  "pr": 699
 }
