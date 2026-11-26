@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T09:28:00-03:00",
+  "atualizadoEm": "2026-11-26T09:32:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -390,7 +390,7 @@
         "https://www.agencialupa.org/noticias/2026/11/13/foto-nao-mostra-protesto-de-1-milhao-de-pessoas-contra-o-governo-milei/"
       ],
       "primeiraVezVisto": "2026-11-13T13:50:42-03:00",
-      "ultimaRevisao": "2026-11-25T18:26:00-03:00",
+      "ultimaRevisao": "2026-11-26T09:24:00-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre a origem da foto (AFP e Fast Check não abriram)"
     },
@@ -1034,7 +1034,7 @@
         "https://www.boatos.org/politica/lucas-pavanato-era-uma-mulher-trans-antes-de-entrar-para-a-politica.html"
       ],
       "primeiraVezVisto": "2026-11-17T07:47:00-03:00",
-      "ultimaRevisao": "2026-11-25T18:26:00-03:00",
+      "ultimaRevisao": "2026-11-26T09:24:00-03:00",
       "status": "aberta",
       "falta": "segunda checagem aberta ou nota do gabinete"
     },
@@ -1460,9 +1460,9 @@
         "https://www.estadao.com.br/estadao-verifica/imagem-produtores-despejando-leite-enganoso/"
       ],
       "primeiraVezVisto": "2026-11-20T18:15:00-03:00",
-      "ultimaRevisao": "2026-11-25T18:26:00-03:00",
-      "status": "aberta",
-      "falta": "segunda fonte já aberta (Lupa e Estadão, Bom Conselho, 2019); ficou fora pelo limite de 3 por rodada"
+      "ultimaRevisao": "2026-11-26T09:24:00-03:00",
+      "status": "publicada",
+      "slug": "foto-leite-descartado-bom-conselho-2019-nao-e-crissiumal"
     },
     {
       "id": "livro-ordem-e-decadencia-politica-fukuyama",
@@ -1634,7 +1634,7 @@
         "https://www.aosfatos.org/noticias/tse-urnas-eleicoes-2026/"
       ],
       "primeiraVezVisto": "2026-11-25T09:25:00-03:00",
-      "ultimaRevisao": "2026-11-25T18:26:00-03:00",
+      "ultimaRevisao": "2026-11-26T09:24:00-03:00",
       "status": "aberta",
       "falta": "página do TSE acessível (403) ou segunda fonte independente"
     },
@@ -1700,6 +1700,58 @@
       "primeiraVezVisto": "2026-11-26T09:20:17-03:00",
       "ultimaRevisao": "2026-11-26T09:20:17-03:00",
       "status": "aberta"
+    },
+    {
+      "id": "foto-bolsonaro-hospital-maio-2025-como-recente",
+      "rotina": "checagem",
+      "tema": "Foto de Bolsonaro de pé no hospital apresentada como atual (Estadão Verifica: imagem de maio de 2025)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.estadao.com.br/estadao-verifica/foto-bolsonaro-hospital-2025-fora-de-contexto/"
+      ],
+      "primeiraVezVisto": "2026-11-26T09:24:00-03:00",
+      "ultimaRevisao": "2026-11-26T09:24:00-03:00",
+      "status": "aberta",
+      "falta": "publicação original da foto ou segunda checagem aberta"
+    },
+    {
+      "id": "imagem-escala-5x2-desconto-faltas-4-dias",
+      "rotina": "checagem",
+      "tema": "Imagem diz que a escala 5x2 permite descontar até 4 dias de salário por falta (Lupa: regras de desconto não mudaram)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.agencialupa.org/verificacao/2026/11/25/fim-da-escala-6x1-nao-altera-regras-de-desconto-por-falta-injustificada/"
+      ],
+      "primeiraVezVisto": "2026-11-26T09:24:00-03:00",
+      "ultimaRevisao": "2026-11-26T09:24:00-03:00",
+      "status": "aberta",
+      "falta": "portaria do MTE e artigo da CLT abertos em fonte oficial; ficou fora pelo limite de 3 por rodada"
+    },
+    {
+      "id": "post-stf-medicamentos-fora-do-sus-decisao-antiga",
+      "rotina": "checagem",
+      "tema": "Posts apresentam como nova a restrição do STF a remédios fora do SUS (Lupa: decisões de 2020 e 2024)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.agencialupa.org/verificacao/2026/11/25/decisao-do-stf-sobre-medicamentos-do-sus-e-antiga-e-nao-tem-relacao-com-lula/"
+      ],
+      "primeiraVezVisto": "2026-11-26T09:24:00-03:00",
+      "ultimaRevisao": "2026-11-26T09:24:00-03:00",
+      "status": "aberta",
+      "falta": "página oficial do STF sobre o julgamento; ficou fora pelo limite de 3 por rodada"
+    },
+    {
+      "id": "pl-4675-mercados-digitais-alegacao-censura",
+      "rotina": "checagem",
+      "tema": "Alegação de que o PL 4.675/2025, dos mercados digitais, permite censura do governo (Aos Fatos: texto trata de concorrência)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.aosfatos.org/noticias/pl-mercados-digitais-censura/"
+      ],
+      "primeiraVezVisto": "2026-11-26T09:24:00-03:00",
+      "ultimaRevisao": "2026-11-26T09:24:00-03:00",
+      "status": "aberta",
+      "falta": "leitura do substitutivo no portal da Câmara"
     }
   ]
 }

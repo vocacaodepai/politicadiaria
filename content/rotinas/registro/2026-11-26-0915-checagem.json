@@ -1,0 +1,23 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-26T09:15:18-03:00",
+  "fim": "2026-11-26T09:24:40-03:00",
+  "branch": "claude/pd-checagem-20261126-0915",
+  "publicou": [
+    "foto-leite-descartado-bom-conselho-2019-nao-e-crissiumal",
+    "burger-king-lojas-digitais-2022-nao-vieram-do-fim-da-6x1",
+    "petistas-nao-tentaram-invadir-hospital-df-star"
+  ],
+  "descartou": [
+    { "tema": "Foto de Bolsonaro no hospital em maio de 2025 apresentada como atual", "motivo": "fonte-unica", "pauta": "foto-bolsonaro-hospital-maio-2025-como-recente" },
+    { "tema": "Escala 5x2 e desconto de até 4 dias por falta", "motivo": "fonte-unica", "pauta": "imagem-escala-5x2-desconto-faltas-4-dias" },
+    { "tema": "Restrição do STF a remédios fora do SUS apresentada como nova", "motivo": "fonte-unica", "pauta": "post-stf-medicamentos-fora-do-sus-decisao-antiga" },
+    { "tema": "PL dos mercados digitais apresentado como censura", "motivo": "fonte-unica", "pauta": "pl-4675-mercados-digitais-alegacao-censura" }
+  ],
+  "bloqueios": [
+    { "host": "noticias.uol.com.br", "erro": "http-403" },
+    { "host": "midiamax.com.br", "erro": "http-403" },
+    { "host": "api.firecrawl.dev", "erro": "outro", "detalhe": "busca negada pelo modo de permissão" }
+  ],
+  "pr": null
+}
