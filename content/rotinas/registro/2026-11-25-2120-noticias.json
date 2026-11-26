@@ -1,0 +1,25 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-25T21:20:18-03:00",
+  "fim": "2026-11-25T21:29:00-03:00",
+  "branch": "claude/pd-noticias-20261125-2120",
+  "publicou": [
+    "eua-tarifa-avioes-embraer-acucar-secao-301",
+    "stf-valor-pedido-acao-trabalhista-adi-6002"
+  ],
+  "descartou": [
+    {
+      "tema": "TCU afasta multas a Dilma Rousseff e ex-integrantes da equipe econômica no processo sobre a gestão fiscal de 2014",
+      "motivo": "sem-fonte-primaria",
+      "pauta": "tcu-afasta-multas-dilma-pedaladas-2014"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.planalto.gov.br",
+      "erro": "timeout",
+      "detalhe": "texto da Lei 15.122/2025 não abriu; lei citada com atribuição a veículo"
+    }
+  ],
+  "pr": null
+}
