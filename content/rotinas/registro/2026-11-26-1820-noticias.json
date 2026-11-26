@@ -1,0 +1,24 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-26T18:20:22-03:00",
+  "fim": "2026-11-26T18:29:00-03:00",
+  "branch": "claude/pd-noticias-20261126-1820",
+  "publicou": [
+    "stf-piso-magisterio-vencimento-inicial-carreira",
+    "diesel-subsidio-2-12-prorrogado-30-dias"
+  ],
+  "descartou": [
+    {
+      "tema": "CMO aprova relatório preliminar do Orçamento de 2027 com cancelamento de R$ 2,09 bilhões",
+      "motivo": "fonte-unica",
+      "pauta": "cmo-relatorio-preliminar-ploa-2027-corte-2-09-bilhoes"
+    },
+    {
+      "tema": "Lula recebe Cleitinho para tratar da dívida de Minas no Propag",
+      "motivo": "aguardando-fato",
+      "pauta": "lula-cleitinho-divida-minas-propag-26-novembro"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
