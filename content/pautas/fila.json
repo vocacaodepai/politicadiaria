@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-25T18:50:00-03:00",
+  "atualizadoEm": "2026-11-25T21:28:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -687,11 +687,12 @@
       "tema": "PGR apoia no STF (ADI 6601, relator Moraes) pedido da AGU de medidas orçamentárias para R$ 324 milhões da PVTAC do MPU",
       "motivo": "fonte-unica",
       "fontesAbertas": [
-        "https://www.gazetadopovo.com.br/republica/pgr-apoia-pedido-agu-sobre-r-324-mi-para-penduricalho/"
+        "https://www.gazetadopovo.com.br/republica/pgr-apoia-pedido-agu-sobre-r-324-mi-para-penduricalho/",
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/moraes-rejeita-indicar-recursos-para-pagar-penduricalhos-do-mpu"
       ],
-      "falta": "segunda fonte de editoria independente ou manifestação da PGR (SpaceMoney deu 403)",
+      "falta": "Moraes negou o pedido em 25/11 (Agência Brasil); falta a decisão no portal do STF ou segunda fonte independente",
       "primeiraVezVisto": "2026-11-15T13:27:33-03:00",
-      "ultimaRevisao": "2026-11-15T22:36:00-03:00",
+      "ultimaRevisao": "2026-11-25T21:28:00-03:00",
       "status": "aberta"
     },
     {
@@ -1663,6 +1664,19 @@
       "ultimaRevisao": "2026-11-25T18:26:00-03:00",
       "status": "aberta",
       "falta": "fonte primária do TSE ou segunda checagem independente aberta"
+    },
+    {
+      "id": "tcu-afasta-multas-dilma-pedaladas-2014",
+      "rotina": "noticias",
+      "tema": "TCU afasta por unanimidade multas a Dilma Rousseff e ex-integrantes da equipe econômica no processo sobre a gestão fiscal de 2014",
+      "motivo": "sem-fonte-primaria",
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/tcu-afasta-multas-dilma-e-auxiliares-por-irregularidades-fiscais"
+      ],
+      "falta": "nota ou acórdão do TCU, ou segunda fonte independente aberta; ficou fora pelo limite de 2 por rodada",
+      "primeiraVezVisto": "2026-11-25T21:28:00-03:00",
+      "ultimaRevisao": "2026-11-25T21:28:00-03:00",
+      "status": "aberta"
     }
   ]
 }
