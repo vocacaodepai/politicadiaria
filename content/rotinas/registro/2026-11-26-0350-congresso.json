@@ -1,0 +1,10 @@
+{
+  "rotina": "congresso",
+  "inicio": "2026-11-26T03:50:18-03:00",
+  "fim": "2026-11-26T04:31:47-03:00",
+  "branch": "claude/pd-congresso-20261126-0350",
+  "publicou": ["data/congresso"],
+  "descartou": [],
+  "bloqueios": [{ "host": "www.camara.leg.br", "erro": "http-429", "detalhe": "arquivo de cotas de 2026 baixado na terceira tentativa" }],
+  "pr": null
+}
