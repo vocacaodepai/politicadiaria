@@ -83,4 +83,4 @@ de tela da página da Amazon, URL inventada ou deduzida, e commitar a imagem no 
 ## Informe final
 
 Quais 3 livros entraram, de onde veio a foto de cada um (Amazon ou Open Library), se lint/build/check-content passaram e o link
-https://www.politicadiaria.com.br
+https://politicadiaria.com.br

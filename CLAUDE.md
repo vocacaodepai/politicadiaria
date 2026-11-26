@@ -1,6 +1,6 @@
 ## O que é o site
 
-**Política Diária** (www.politicadiaria.com.br) é um site brasileiro de política nacional e
+**Política Diária** (politicadiaria.com.br) é um site brasileiro de política nacional e
 internacional. **O foco é o Brasil**: a notícia em destaque da home é sempre do Brasil e a maior
 parte da cobertura é nacional (mundo entra, mas em menor proporção). Sete frentes:
 
@@ -205,7 +205,7 @@ Imagem Open Graph em `lib/og.tsx` (fontes em `assets/fonts`).
 ## Deploy
 
 Vercel (projeto `politicadiaria`), deploy automático a cada push na branch de produção `main`.
-Domínio principal: `www.politicadiaria.com.br` (com `politicadiaria.com.br` redirecionando para
-ele). O workflow do GitHub Pages é só preview manual auxiliar.
+Domínio principal: `politicadiaria.com.br`, sem `www` (`www.politicadiaria.com.br` redireciona com
+301 para ele; é assim no servidor). `site.url` em `lib/articles.ts` precisa acompanhar. O workflow do GitHub Pages é só preview manual auxiliar.
 
 @AGENTS.md

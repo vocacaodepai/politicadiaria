@@ -1,6 +1,6 @@
 # Política Diária
 
-Site brasileiro de política nacional e internacional (www.politicadiaria.com.br):
+Site brasileiro de política nacional e internacional (politicadiaria.com.br):
 notícias diárias, "Congresso por dentro" (uma página para cada um dos 513 deputados e 81
 senadores, com votos, ausências em votações nominais, gastos e salário, a partir dos dados
 abertos da Câmara e do Senado) e resenhas de livros de política com link de afiliado da
@@ -86,7 +86,7 @@ institucionais, política de privacidade com LGPD e cookies, aviso de
 consentimento, robots, sitemap, canonical por página); o que falta é o ID.
 
 1. **Antes de pedir a revisão**: confirme no Search Console que
-   `https://www.politicadiaria.com.br/sitemap.xml` foi enviado e que a maioria das
+   `https://politicadiaria.com.br/sitemap.xml` foi enviado e que a maioria das
    URLs está indexada. Confirme que `contato@politicadiaria.com.br` recebe e-mail.
 2. **Crie a conta** no AdSense com o domínio `politicadiaria.com.br` (o AdSense
    normaliza o `www`). Anote o ID do publisher, formato `ca-pub-XXXXXXXXXXXXXXXX`.
@@ -102,7 +102,7 @@ consentimento, robots, sitemap, canonical por página); o que falta é o ID.
    google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
    ```
 
-   Faça o deploy e abra `https://www.politicadiaria.com.br/ads.txt` no navegador:
+   Faça o deploy e abra `https://politicadiaria.com.br/ads.txt` no navegador:
    tem que responder como texto puro (o `next.config.ts` já força o
    Content-Type). O arquivo não existe no repositório de propósito: ele é
    criado quando o ID existir.
@@ -128,9 +128,9 @@ in-article em notícias curtas, sidebar de anúncio não sticky.
 
 O deploy de produção é feito pela Vercel (projeto `politicadiaria`, time
 `portal-da-ai`), automático a cada push na branch de produção
-(`claude/portal-ai-blog-iujjht`). Domínio principal `www.politicadiaria.com.br`;
-`politicadiaria.com.br` redireciona para ele. `site.url` em `lib/articles.ts` usa
-o `www`, e dele derivam canonical, sitemap, robots, OG e JSON-LD.
+(`claude/portal-ai-blog-iujjht`). Domínio principal `politicadiaria.com.br`;
+`www.politicadiaria.com.br` redireciona para ele. `site.url` em `lib/articles.ts` não usa
+`www`, e dele derivam canonical, sitemap, robots, OG e JSON-LD.
 
 `next.config.ts` aplica cabeçalhos de segurança (CSP compatível com AdSense,
 HSTS, nosniff, Referrer-Policy, Permissions-Policy) no deploy da Vercel.

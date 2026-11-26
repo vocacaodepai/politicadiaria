@@ -17,7 +17,7 @@ export const site = {
   tagline: "Política nacional e internacional, o Congresso por dentro e livros que ajudam a entender o poder",
   description:
     "A Política Diária traz notícias de política nacional e internacional todos os dias, mostra quem são os 594 parlamentares do Congresso Nacional, como votam e quanto custam, e indica os melhores livros de política com resenha e nota.",
-  url: "https://www.politicadiaria.com.br",
+  url: "https://politicadiaria.com.br",
   locale: "pt_BR",
   /** Ano de fundação, usado no rodapé e no schema Organization. */
   foundingYear: 2026,
