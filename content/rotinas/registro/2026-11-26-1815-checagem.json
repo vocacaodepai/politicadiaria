@@ -1,0 +1,25 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-26T18:15:22-03:00",
+  "fim": "2026-11-26T18:31:00-03:00",
+  "branch": "claude/pd-checagem-20261126-1815",
+  "publicou": [
+    "receber-pix-nao-corta-bpc-automaticamente",
+    "stf-medicamentos-fora-do-sus-decisoes-sao-de-2020-e-2024",
+    "foto-bolsonaro-equipe-medica-e-de-maio-de-2025"
+  ],
+  "descartou": [
+    { "tema": "Trecho editado do Jornal Nacional sobre suposta delação de Maduro contra Lula", "motivo": "sem-fonte-primaria", "pauta": "video-maduro-delacao-lula-jornal-nacional-editado" }
+  ],
+  "bloqueios": [
+    { "host": "www.justicaeleitoral.jus.br", "erro": "http-403" },
+    { "host": "g1.globo.com", "erro": "outro", "detalhe": "leitor de páginas recusou o acesso" },
+    { "host": "www.estadao.com.br", "erro": "outro", "detalhe": "leitor de páginas recusou o acesso" },
+    { "host": "noticias.uol.com.br", "erro": "outro", "detalhe": "leitor de páginas recusou o acesso" },
+    { "host": "www.reuters.com", "erro": "outro", "detalhe": "leitor de páginas recusou o acesso" },
+    { "host": "pesquisa.in.gov.br", "erro": "outro", "detalhe": "conexão encerrada duas vezes" },
+    { "host": "www.planalto.gov.br", "erro": "timeout", "detalhe": "só no download direto; o leitor de páginas abriu" },
+    { "host": "api.firecrawl.dev", "erro": "outro", "detalhe": "leitura negada pelo modo de permissão" }
+  ],
+  "pr": null
+}
