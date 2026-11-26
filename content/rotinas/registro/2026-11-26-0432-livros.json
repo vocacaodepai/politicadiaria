@@ -1,0 +1,34 @@
+{
+  "rotina": "livros",
+  "inicio": "2026-11-26T04:32:35-03:00",
+  "fim": "2026-11-26T04:47:04-03:00",
+  "branch": "claude/pd-livros-20261126-0432",
+  "publicou": [
+    "os-bestializados-jose-murilo-de-carvalho-companhia-das-letras",
+    "cisnes-selvagens-jung-chang-companhia-de-bolso",
+    "o-mundo-pos-americano-zakaria-companhia-das-letras"
+  ],
+  "descartou": [
+    {
+      "tema": "Resenha de Origens do Totalitarismo, de Hannah Arendt",
+      "motivo": "fonte-bloqueada",
+      "pauta": "livro-origens-do-totalitarismo-arendt"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.amazon.com.br",
+      "erro": "http-5xx",
+      "detalhe": "curl recebeu HTTP 500 e WebFetch HTTP 503; Playwright não está instalado; capas vieram da Open Library"
+    },
+    {
+      "host": "americandiplomacy.web.unc.edu",
+      "erro": "http-403"
+    },
+    {
+      "host": "chinadigitaltimes.net",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}
