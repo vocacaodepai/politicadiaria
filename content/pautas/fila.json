@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T12:33:30-03:00",
+  "atualizadoEm": "2026-11-26T15:26:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1758,12 +1758,12 @@
       "rotina": "noticias",
       "tema": "STF pauta para 26/11 o julgamento do piso nacional do magistério (Temas 1.218 e 1.324)",
       "motivo": "aguardando-fato",
-      "falta": "resultado ou suspensão do julgamento na sessão das 14h",
+      "falta": "resultado ou suspensão do julgamento na sessão das 14h (sem desfecho às 15h25 de 26/11)",
       "fontesAbertas": [
         "https://noticias.stf.jus.br/postsnoticias/confira-a-pauta-do-stf-desta-quinta-feira-26-3/"
       ],
       "primeiraVezVisto": "2026-11-26T12:20:18-03:00",
-      "ultimaRevisao": "2026-11-26T12:20:18-03:00",
+      "ultimaRevisao": "2026-11-26T15:20:20-03:00",
       "status": "aberta"
     },
     {
@@ -1771,12 +1771,26 @@
       "rotina": "noticias",
       "tema": "Câmara aprova protocolo de acolhimento a vítimas de racismo nas escolas (PL 4.887/2023) e envia ao Senado",
       "motivo": "sem-fonte-primaria",
-      "falta": "abrir a notícia da Agência Câmara; ficou fora pelo limite de 2 por rodada",
+      "falta": "notícia da Agência Câmara já aberta; ficou fora pelo limite de 2 por rodada",
       "fontesAbertas": [
-        "https://www.acordacidade.com.br/educacao/camara-aprova-protocolo-nacional-de-acolhimento-contra-racismo-escolar/"
+        "https://www.acordacidade.com.br/educacao/camara-aprova-protocolo-nacional-de-acolhimento-contra-racismo-escolar/",
+        "https://www.camara.leg.br/noticias/1323029-camara-aprova-protocolo-contra-discriminacao-racial-nas-escolas"
       ],
       "primeiraVezVisto": "2026-11-26T12:20:18-03:00",
-      "ultimaRevisao": "2026-11-26T12:20:18-03:00",
+      "ultimaRevisao": "2026-11-26T15:20:20-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "durigan-indicacoes-stf-bc-cvm-cade-2026",
+      "rotina": "noticias",
+      "tema": "Durigan defende envio ainda em 2026 das indicações para vagas no STF, no Banco Central, na CVM e no Cade",
+      "motivo": "fonte-unica",
+      "falta": "segunda fonte independente aberta sobre a fala de 26/11 em evento em São Paulo",
+      "fontesAbertas": [
+        "https://www.poder360.com.br/poder-governo/durigan-defende-envio-de-indicacoes-ao-stf-e-ao-bc-ainda-em-2026/"
+      ],
+      "primeiraVezVisto": "2026-11-26T15:20:20-03:00",
+      "ultimaRevisao": "2026-11-26T15:20:20-03:00",
       "status": "aberta"
     }
   ]

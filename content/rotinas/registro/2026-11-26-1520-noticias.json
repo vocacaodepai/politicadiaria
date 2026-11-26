@@ -1,0 +1,16 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-26T15:20:20-03:00",
+  "fim": "2026-11-26T15:27:00-03:00",
+  "branch": "claude/pd-noticias-20261126-1520",
+  "publicou": ["macron-carne-brasileira-dopada-veto-ue", "ifi-cbs-7-por-cento-sem-excecoes"],
+  "descartou": [
+    {
+      "tema": "Durigan defende envio ainda em 2026 das indicações ao STF, ao Banco Central, à CVM e ao Cade",
+      "motivo": "fonte-unica",
+      "pauta": "durigan-indicacoes-stf-bc-cvm-cade-2026"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
