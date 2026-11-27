@@ -18,5 +18,5 @@
     { "host": "www.spacemoney.com.br", "erro": "http-403" },
     { "host": "api.firecrawl.dev", "erro": "outro", "detalhe": "busca sem permissão neste servidor" }
   ],
-  "pr": null
+  "pr": 706
 }
