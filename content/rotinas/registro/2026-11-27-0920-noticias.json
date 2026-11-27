@@ -1,0 +1,20 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-27T09:20:18-03:00",
+  "fim": "2026-11-27T09:30:00-03:00",
+  "branch": "claude/pd-noticias-20261127-0920",
+  "publicou": ["desemprego-outubro-2026-ibge", "camara-protocolo-racismo-escolas"],
+  "descartou": [
+    {
+      "tema": "Toffoli prorroga até março de 2027 a proibição de a União punir o Rio de Janeiro por compromissos da dívida",
+      "motivo": "sem-fonte-primaria",
+      "pauta": "toffoli-rj-divida-sancoes-uniao-marco-2027"
+    }
+  ],
+  "bloqueios": [
+    { "host": "agenciadenoticias.ibge.gov.br", "erro": "http-403", "detalhe": "dados conferidos na API e nas tabelas do Sidra" },
+    { "host": "www.ibge.gov.br", "erro": "http-403" },
+    { "host": "www.planalto.gov.br", "erro": "outro", "detalhe": "conexão interrompida; nenhum link do domínio foi usado" }
+  ],
+  "pr": 705
+}

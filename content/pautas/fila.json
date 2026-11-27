@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T09:21:00-03:00",
+  "atualizadoEm": "2026-11-27T09:33:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1790,8 +1790,9 @@
         "https://www.camara.leg.br/noticias/1323029-camara-aprova-protocolo-contra-discriminacao-racial-nas-escolas"
       ],
       "primeiraVezVisto": "2026-11-26T12:20:18-03:00",
-      "ultimaRevisao": "2026-11-26T15:20:20-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-27T09:20:18-03:00",
+      "status": "publicada",
+      "slug": "camara-protocolo-racismo-escolas"
     },
     {
       "id": "durigan-indicacoes-stf-bc-cvm-cade-2026",
@@ -1846,7 +1847,7 @@
         "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-e-cleitinho-debatem-negociacao-de-divida-de-minas-gerais"
       ],
       "primeiraVezVisto": "2026-11-26T18:20:22-03:00",
-      "ultimaRevisao": "2026-11-26T18:20:22-03:00",
+      "ultimaRevisao": "2026-11-27T09:20:18-03:00",
       "status": "aberta"
     },
     {
@@ -1915,6 +1916,20 @@
       ],
       "primeiraVezVisto": "2026-11-27T06:29:00-03:00",
       "ultimaRevisao": "2026-11-27T06:29:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "toffoli-rj-divida-sancoes-uniao-marco-2027",
+      "rotina": "noticias",
+      "tema": "Toffoli prorroga até 31 de março de 2027 a proibição de a União punir o Rio de Janeiro por compromissos da dívida",
+      "motivo": "sem-fonte-primaria",
+      "falta": "decisão ou notícia do STF, ou segunda fonte jornalística sólida; número da ação não consta nas fontes abertas",
+      "fontesAbertas": [
+        "https://revistaoeste.com/politica/toffoli-prorroga-ate-marco-decisao-que-impede-uniao-de-punir-o-rj/",
+        "https://tvprefeito.com/estado-do-rio-obtem-decisao-favoravel-do-stf-e-garante-protecao-contra-sancoes-financeiras-ate-2027/"
+      ],
+      "primeiraVezVisto": "2026-11-27T09:20:18-03:00",
+      "ultimaRevisao": "2026-11-27T09:20:18-03:00",
       "status": "aberta"
     },
     {
