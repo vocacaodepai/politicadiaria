@@ -1,0 +1,59 @@
+{
+  "rotina": "livros",
+  "inicio": "2026-11-27T04:32:15-03:00",
+  "fim": "2026-11-27T05:15:00-03:00",
+  "branch": "claude/pd-livros-20261127-0505",
+  "publicou": [
+    "a-desobediencia-civil-thoreau-penguin-companhia",
+    "canudos-o-povo-da-terra-villa-planeta",
+    "reinventando-o-capitalismo-de-estado-musacchio-lazzarini"
+  ],
+  "descartou": [
+    {
+      "tema": "Resenha de Economia Básica, de Thomas Sowell (Alta Books, 2018, ISBN 9788550802398)",
+      "motivo": "fonte-bloqueada",
+      "pauta": "livro-economia-basica-sowell"
+    },
+    {
+      "tema": "Resenha de Por que o Liberalismo Fracassou?, de Patrick Deneen (Âyiné, 2020, ISBN 9788592649593)",
+      "motivo": "fonte-bloqueada",
+      "pauta": "livro-por-que-o-liberalismo-fracassou-deneen"
+    },
+    {
+      "tema": "Resenha de O Suicídio do Ocidente, de Jonah Goldberg (Record, 2020, ISBN 9788501119261)",
+      "motivo": "fonte-bloqueada",
+      "pauta": "livro-o-suicidio-do-ocidente-goldberg"
+    },
+    {
+      "tema": "Resenha de Cortina de Ferro, de Anne Applebaum (Três Estrelas, 2017, ISBN 9788568493335)",
+      "motivo": "fonte-bloqueada",
+      "pauta": "livro-cortina-de-ferro-applebaum"
+    },
+    {
+      "tema": "Resenha de A Grande Degeneração, de Niall Ferguson (Planeta, 2013, ISBN 9788542201109)",
+      "motivo": "fonte-bloqueada",
+      "pauta": "livro-a-grande-degeneracao-niall-ferguson"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.amazon.com.br",
+      "erro": "captcha",
+      "detalhe": "curl recebeu página de verificação; Playwright não está instalado; capas vieram da Open Library"
+    },
+    {
+      "host": "muse.jhu.edu",
+      "erro": "captcha",
+      "detalhe": "resenha redireciona para verificação"
+    },
+    {
+      "host": "scielo.br",
+      "erro": "http-403"
+    },
+    {
+      "host": "repositorio.insper.edu.br",
+      "erro": "http-403"
+    }
+  ],
+  "pr": null
+}
