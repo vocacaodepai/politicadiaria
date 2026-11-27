@@ -1,0 +1,15 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-27T18:20:20-03:00",
+  "fim": "2026-11-27T18:28:00-03:00",
+  "branch": "claude/pd-noticias-20261127-1820",
+  "publicou": ["dino-suspende-14-emendas-flavio-bolsonaro", "tse-grupo-crime-organizado-eleicoes"],
+  "descartou": [
+    { "tema": "Bandeira tarifária de dezembro de 2026 (Aneel)", "motivo": "aguardando-fato", "pauta": "aneel-bandeira-tarifaria-dezembro-2026" }
+  ],
+  "bloqueios": [
+    { "host": "www.tse.jus.br", "erro": "http-403" },
+    { "host": "www.moneytimes.com.br", "erro": "http-403" }
+  ],
+  "pr": null
+}
