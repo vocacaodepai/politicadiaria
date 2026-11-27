@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T09:30:00-03:00",
+  "atualizadoEm": "2026-11-27T09:33:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -263,12 +263,13 @@
       "tema": "Vídeo que diria mostrar Lula afastado dos demais líderes na COP31 (Aos Fatos: reposicionamento para a foto oficial)",
       "motivo": "fonte-unica",
       "fontesAbertas": [
-        "https://www.aosfatos.org/noticias/video-lula-presidentes-cop31/"
+        "https://www.aosfatos.org/noticias/video-lula-presidentes-cop31/",
+        "https://checamos.afp.com/doc.afp.com.D7N24CQ"
       ],
       "primeiraVezVisto": "2026-11-12T19:44:00-03:00",
-      "ultimaRevisao": "2026-11-25T18:26:00-03:00",
+      "ultimaRevisao": "2026-11-27T09:21:00-03:00",
       "status": "aberta",
-      "falta": "segunda fonte independente aberta sobre a foto oficial"
+      "falta": "segunda checagem já aberta; ficou fora pelo limite de 3 por rodada"
     },
     {
       "id": "bndes-cop31-52-bilhoes",
@@ -387,12 +388,13 @@
       "tema": "Foto de multidão no Obelisco de Buenos Aires apresentada como protesto de 1 milhão de argentinos contra Milei (Lupa: festa da Copa de 2022)",
       "motivo": "fonte-unica",
       "fontesAbertas": [
-        "https://www.agencialupa.org/noticias/2026/11/13/foto-nao-mostra-protesto-de-1-milhao-de-pessoas-contra-o-governo-milei/"
+        "https://www.agencialupa.org/noticias/2026/11/13/foto-nao-mostra-protesto-de-1-milhao-de-pessoas-contra-o-governo-milei/",
+        "https://checamos.afp.com/doc.afp.com.D6WV7NQ"
       ],
       "primeiraVezVisto": "2026-11-13T13:50:42-03:00",
-      "ultimaRevisao": "2026-11-26T09:24:00-03:00",
+      "ultimaRevisao": "2026-11-27T09:21:00-03:00",
       "status": "aberta",
-      "falta": "segunda fonte independente aberta sobre a origem da foto (AFP e Fast Check não abriram)"
+      "falta": "segunda checagem já aberta; ficou fora pelo limite de 3 por rodada"
     },
     {
       "id": "agu-parecer-adpf-1362-psd-segundo-turno-rio",
@@ -1634,9 +1636,9 @@
         "https://www.aosfatos.org/noticias/tse-urnas-eleicoes-2026/"
       ],
       "primeiraVezVisto": "2026-11-25T09:25:00-03:00",
-      "ultimaRevisao": "2026-11-26T09:24:00-03:00",
-      "status": "aberta",
-      "falta": "página do TSE acessível (403) ou segunda fonte independente"
+      "ultimaRevisao": "2026-11-27T09:21:00-03:00",
+      "status": "publicada",
+      "slug": "tse-nao-destruiu-urnas-usadas-em-2026-descarte-modelos-antigos"
     },
     {
       "id": "mesarios-virtuais-titulo-repetido-logs",
@@ -1658,12 +1660,13 @@
       "tema": "Vídeo diz que software reduziu abstenção e aumentou votos de Lula no 2º turno (Estadão Verifica: falso)",
       "motivo": "fonte-unica",
       "fontesAbertas": [
-        "https://www.estadao.com.br/estadao-verifica/provas-fraude-eleicao-software-aumentou-votos-de-lula-com-queda-abstencao-falso/"
+        "https://www.estadao.com.br/estadao-verifica/provas-fraude-eleicao-software-aumentou-votos-de-lula-com-queda-abstencao-falso/",
+        "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/26/falso-software-manipulacao-votos-lula-2-turno.ghtm"
       ],
       "primeiraVezVisto": "2026-11-25T18:26:00-03:00",
-      "ultimaRevisao": "2026-11-25T18:26:00-03:00",
+      "ultimaRevisao": "2026-11-27T09:21:00-03:00",
       "status": "aberta",
-      "falta": "fonte primária do TSE ou segunda checagem independente aberta"
+      "falta": "segunda checagem já aberta; ficou fora pelo limite de 3 por rodada"
     },
     {
       "id": "tcu-afasta-multas-dilma-pedaladas-2014",
@@ -1811,12 +1814,13 @@
       "motivo": "sem-fonte-primaria",
       "fontesAbertas": [
         "https://www.terra.com.br/noticias/brasil/politica/suposta-negociacao-de-maduro-para-delatar-lula-e-boato-sem-confirmacao,bfa97a322208149bbe31da1600f5ee87zoiqs45a.html",
-        "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/11/24/video-manipulado-forja-delacao-maduro-incriminaria-lula"
+        "https://tvsimbrasil.com.br/brasil/politica/noticia/2026/11/24/video-manipulado-forja-delacao-maduro-incriminaria-lula",
+        "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/24/globo-nao-noticiou-que-nicolas-maduro-negocia-delacao-premiada-nos-eua.ghtm"
       ],
       "primeiraVezVisto": "2026-11-26T18:30:00-03:00",
-      "ultimaRevisao": "2026-11-26T18:30:00-03:00",
+      "ultimaRevisao": "2026-11-27T09:21:00-03:00",
       "status": "aberta",
-      "falta": "reportagem original do Jornal Nacional ou documento do processo nos EUA; ficou fora pelo limite de 3 por rodada"
+      "falta": "segunda checagem já aberta; ficou fora pelo limite de 3 por rodada"
     },
     {
       "id": "cmo-relatorio-preliminar-ploa-2027-corte-2-09-bilhoes",
@@ -1927,6 +1931,19 @@
       "primeiraVezVisto": "2026-11-27T09:20:18-03:00",
       "ultimaRevisao": "2026-11-27T09:20:18-03:00",
       "status": "aberta"
+    },
+    {
+      "id": "video-protesto-faixa-lula-petrolina-2024",
+      "rotina": "checagem",
+      "tema": "Vídeo de protesto com faixa contra Lula em Petrolina apresentado como atual (Lupa: ato de dezembro de 2024)",
+      "motivo": "fonte-unica",
+      "fontesAbertas": [
+        "https://www.agencialupa.org/verificacao/2026/11/24/e-antigo-video-que-mostra-protesto-com-faixa-contra-lula-em-petrolina/"
+      ],
+      "primeiraVezVisto": "2026-11-27T09:21:00-03:00",
+      "ultimaRevisao": "2026-11-27T09:21:00-03:00",
+      "status": "aberta",
+      "falta": "segunda fonte independente aberta sobre a data do vídeo"
     }
   ]
 }
