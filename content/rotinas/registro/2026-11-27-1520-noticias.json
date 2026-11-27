@@ -1,0 +1,12 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-27T15:20:23-03:00",
+  "fim": "2026-11-27T15:31:00-03:00",
+  "branch": "claude/pd-noticias-20261127-1520",
+  "publicou": ["lula-ajustes-beneficios-sociais-uff-niteroi", "ldo-2027-emendas-disputa-meta-fiscal"],
+  "descartou": [
+    { "tema": "Fachin mantém a prisão preventiva do ex-presidente do BRB Paulo Henrique Costa", "motivo": "ja-publicado" }
+  ],
+  "bloqueios": [{ "host": "partidoliberal.org.br", "erro": "http-403" }],
+  "pr": null
+}
