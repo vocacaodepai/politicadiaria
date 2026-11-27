@@ -1946,6 +1946,17 @@
       "ultimaRevisao": "2026-11-27T09:21:00-03:00",
       "status": "aberta",
       "falta": "segunda fonte independente aberta sobre a data do vídeo"
+    },
+    {
+      "id": "aneel-bandeira-tarifaria-dezembro-2026",
+      "rotina": "noticias",
+      "tema": "Aneel: bandeira tarifária das contas de luz de dezembro de 2026, com anúncio previsto no calendário para 27/11",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [],
+      "primeiraVezVisto": "2026-11-27T18:20:20-03:00",
+      "ultimaRevisao": "2026-11-27T18:20:20-03:00",
+      "status": "aberta",
+      "falta": "anúncio oficial da Aneel ou reportagem com a cor da bandeira"
     }
   ]
 }
