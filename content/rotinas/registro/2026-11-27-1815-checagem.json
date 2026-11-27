@@ -1,0 +1,28 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-27T18:15:20-03:00",
+  "fim": "2026-11-27T18:27:00-03:00",
+  "branch": "claude/pd-checagem-20261127-1823",
+  "publicou": [
+    "repeticao-titulo-nao-comprova-mesario-virtual",
+    "corte-limite-cartao-so-atinge-uso-repetido-rotativo",
+    "dolar-3-78-bolsonaro-6-lula-comparacao-enganosa"
+  ],
+  "descartou": [
+    {
+      "tema": "Mensagem de que a Polícia Federal visitará beneficiários do Bolsa Família",
+      "motivo": "ja-publicado"
+    }
+  ],
+  "bloqueios": [
+    { "host": "www.justicaeleitoral.jus.br", "erro": "http-403" },
+    { "host": "noticias.uol.com.br", "erro": "outro", "detalhe": "ferramenta de leitura não acessa o site" },
+    { "host": "www.estadao.com.br", "erro": "outro", "detalhe": "ferramenta de leitura não acessa o site" },
+    { "host": "g1.globo.com", "erro": "outro", "detalhe": "ferramenta de leitura não acessa o site" },
+    { "host": "checamos.afp.com", "erro": "outro", "detalhe": "ferramenta de leitura não acessa o site" },
+    { "host": "www.reuters.com", "erro": "outro", "detalhe": "ferramenta de leitura não acessa o site" },
+    { "host": "www.correio24horas.com.br", "erro": "http-403" },
+    { "host": "api.firecrawl.dev", "erro": "outro", "detalhe": "busca negada pela permissão do servidor" }
+  ],
+  "pr": null
+}
