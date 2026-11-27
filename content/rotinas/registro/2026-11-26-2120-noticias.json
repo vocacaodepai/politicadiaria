@@ -1,0 +1,16 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-26T21:20:18-03:00",
+  "fim": "2026-11-26T21:31:00-03:00",
+  "branch": "claude/pd-noticias-20261126-2120",
+  "publicou": [
+    "trabuco-ministro-fazenda-lula-2027",
+    "stf-porte-arma-guardas-municipais-adi-7717"
+  ],
+  "descartou": [],
+  "bloqueios": [
+    { "host": "www.tse.jus.br", "erro": "http-403" },
+    { "host": "www.canalrural.com.br", "erro": "http-403" }
+  ],
+  "pr": null
+}
