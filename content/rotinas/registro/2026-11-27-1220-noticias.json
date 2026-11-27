@@ -1,0 +1,22 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-27T12:20:23-03:00",
+  "fim": "2026-11-27T12:33:00-03:00",
+  "branch": "claude/pd-noticias-20261127-1220",
+  "publicou": [
+    "tesouro-superavit-outubro-52-3-bilhoes",
+    "fachin-prorroga-inqueritos-wagner-dark-horse"
+  ],
+  "descartou": [],
+  "bloqueios": [
+    { "host": "www.tse.jus.br", "erro": "http-403" },
+    { "host": "agenciadenoticias.ibge.gov.br", "erro": "http-403" },
+    { "host": "agenciagov.ebc.com.br", "erro": "http-404" },
+    { "host": "www.gov.br", "erro": "http-404", "detalhe": "listagem de notícias do Tesouro Nacional" },
+    { "host": "www.poder360.com.br", "erro": "outro", "detalhe": "leitura recusada pela ferramenta" },
+    { "host": "www.cn1.com.br", "erro": "http-403" },
+    { "host": "www.spacemoney.com.br", "erro": "http-403" },
+    { "host": "api.firecrawl.dev", "erro": "outro", "detalhe": "busca sem permissão neste servidor" }
+  ],
+  "pr": 706
+}

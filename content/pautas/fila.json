@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T09:33:00-03:00",
+  "atualizadoEm": "2026-11-27T12:33:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1024,8 +1024,9 @@
       ],
       "falta": "segunda fonte de editoria ou nota da PGR",
       "primeiraVezVisto": "2026-11-17T06:28:05-03:00",
-      "ultimaRevisao": "2026-11-17T06:28:05-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-27T12:30:00-03:00",
+      "status": "publicada",
+      "slug": "fachin-prorroga-inqueritos-wagner-dark-horse"
     },
     {
       "id": "boato-lucas-pavanato-mulher-trans",
@@ -1847,7 +1848,7 @@
         "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/lula-e-cleitinho-debatem-negociacao-de-divida-de-minas-gerais"
       ],
       "primeiraVezVisto": "2026-11-26T18:20:22-03:00",
-      "ultimaRevisao": "2026-11-27T09:20:18-03:00",
+      "ultimaRevisao": "2026-11-27T12:30:00-03:00",
       "status": "aberta"
     },
     {
