@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-26T18:30:00-03:00",
+  "atualizadoEm": "2026-11-26T21:30:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1696,10 +1696,14 @@
       "tema": "Relatos de que Lula sondou o banqueiro Luiz Trabuco para o Ministério da Fazenda, sem anúncio oficial",
       "motivo": "aguardando-fato",
       "falta": "anúncio ou confirmação oficial; relato atribuído a fontes não identificadas",
-      "fontesAbertas": [],
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/trabuco-aceita-convite-de-lula-para-comandar-fazenda-diz-planalto",
+        "https://www12.senado.leg.br/noticias/materias/2026/11/26/davi-deseja-201cpleno-exito201d-a-luiz-carlos-trabuco-no-ministerio-da-fazenda"
+      ],
       "primeiraVezVisto": "2026-11-26T09:20:17-03:00",
-      "ultimaRevisao": "2026-11-26T09:20:17-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-26T21:30:00-03:00",
+      "status": "publicada",
+      "slug": "trabuco-ministro-fazenda-lula-2027"
     },
     {
       "id": "foto-bolsonaro-hospital-maio-2025-como-recente",
@@ -1818,12 +1822,12 @@
       "rotina": "noticias",
       "tema": "CMO aprova relatório preliminar do Orçamento de 2027 com cancelamento de R$ 2,09 bilhões para atender emendas",
       "motivo": "fonte-unica",
-      "falta": "nota da Câmara ou do Senado com os números; ficou fora pelo limite de 2 por rodada",
+      "falta": "abrir e conferir as notas da Câmara e do Senado, já listadas em 26/11; ficou fora pelo limite de 2 por rodada",
       "fontesAbertas": [
         "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmo-aprova-relatorio-do-orcamento-de-2027-com-corte-de-r-209-bilhoes"
       ],
       "primeiraVezVisto": "2026-11-26T18:20:22-03:00",
-      "ultimaRevisao": "2026-11-26T18:20:22-03:00",
+      "ultimaRevisao": "2026-11-26T21:30:00-03:00",
       "status": "aberta"
     },
     {
