@@ -1,0 +1,21 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-27T06:20:22-03:00",
+  "fim": "2026-11-27T06:29:30-03:00",
+  "branch": "claude/pd-noticias-20261127-0620",
+  "publicou": [
+    "parecer-preliminar-braga-corte-linear-emendas",
+    "iphan-tombamento-predio-doi-codi-rio-tijuca"
+  ],
+  "descartou": [
+    {
+      "tema": "Banco Central apresenta mudanças no Pix para 2027",
+      "motivo": "sem-fonte-primaria",
+      "pauta": "bc-pix-novas-regras-2027-forum-pix"
+    }
+  ],
+  "bloqueios": [
+    { "host": "www.planalto.gov.br", "erro": "timeout" }
+  ],
+  "pr": null
+}

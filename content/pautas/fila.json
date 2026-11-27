@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T05:15:00-03:00",
+  "atualizadoEm": "2026-11-27T06:29:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1822,13 +1822,15 @@
       "rotina": "noticias",
       "tema": "CMO aprova relatório preliminar do Orçamento de 2027 com cancelamento de R$ 2,09 bilhões para atender emendas",
       "motivo": "fonte-unica",
-      "falta": "abrir e conferir as notas da Câmara e do Senado, já listadas em 26/11; ficou fora pelo limite de 2 por rodada",
       "fontesAbertas": [
-        "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmo-aprova-relatorio-do-orcamento-de-2027-com-corte-de-r-209-bilhoes"
+        "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/cmo-aprova-relatorio-do-orcamento-de-2027-com-corte-de-r-209-bilhoes",
+        "https://www.camara.leg.br/noticias/1323430-comissao-mista-aprova-relatorio-preliminar-do-orcamento-de-2027",
+        "https://www12.senado.leg.br/noticias/materias/2026/11/26/relatorio-do-orcamento-de-2027-mantem-aumento-de-recursos-a-saude-e-educacao"
       ],
       "primeiraVezVisto": "2026-11-26T18:20:22-03:00",
-      "ultimaRevisao": "2026-11-26T21:30:00-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-27T06:29:00-03:00",
+      "status": "publicada",
+      "slug": "parecer-preliminar-braga-corte-linear-emendas"
     },
     {
       "id": "lula-cleitinho-divida-minas-propag-26-novembro",
@@ -1896,6 +1898,19 @@
       "fontesAbertas": [],
       "primeiraVezVisto": "2026-11-27T05:15:00-03:00",
       "ultimaRevisao": "2026-11-27T05:15:00-03:00",
+      "status": "aberta"
+    },
+    {
+      "id": "bc-pix-novas-regras-2027-forum-pix",
+      "rotina": "noticias",
+      "tema": "Banco Central apresenta no Fórum Pix mudanças para 2027: mensagens ofensivas, indicador de fraude e Pix Automático",
+      "motivo": "sem-fonte-primaria",
+      "falta": "nota do Banco Central; ficou fora pelo limite de 2 por rodada",
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/pix-tera-novas-regras-de-seguranca-e-melhorias-em-2027"
+      ],
+      "primeiraVezVisto": "2026-11-27T06:29:00-03:00",
+      "ultimaRevisao": "2026-11-27T06:29:00-03:00",
       "status": "aberta"
     }
   ]
