@@ -1,0 +1,20 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-27T09:15:23-03:00",
+  "fim": "2026-11-27T09:21:00-03:00",
+  "branch": "claude/pd-checagem-20261127-0915",
+  "publicou": [
+    "projeto-pt-15-por-cento-dividendos-nao-cita-mei",
+    "tse-nao-destruiu-urnas-usadas-em-2026-descarte-modelos-antigos",
+    "video-melancias-jogadas-fora-circula-desde-2023"
+  ],
+  "descartou": [
+    {
+      "tema": "Vídeo de protesto com faixa contra Lula em Petrolina apresentado como atual",
+      "motivo": "fonte-unica",
+      "pauta": "video-protesto-faixa-lula-petrolina-2024"
+    }
+  ],
+  "bloqueios": [],
+  "pr": null
+}
