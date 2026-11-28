@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T18:26:00-03:00",
+  "atualizadoEm": "2026-11-28T06:31:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1925,13 +1925,13 @@
       "rotina": "noticias",
       "tema": "Toffoli prorroga até 31 de março de 2027 a proibição de a União punir o Rio de Janeiro por compromissos da dívida",
       "motivo": "sem-fonte-primaria",
-      "falta": "decisão ou notícia do STF, ou segunda fonte jornalística sólida; número da ação não consta nas fontes abertas",
+      "falta": "notícia do STF de 27/11 listada no portal; abrir e conferir; ficou fora pelo limite de 2 por rodada",
       "fontesAbertas": [
         "https://revistaoeste.com/politica/toffoli-prorroga-ate-marco-decisao-que-impede-uniao-de-punir-o-rj/",
         "https://tvprefeito.com/estado-do-rio-obtem-decisao-favoravel-do-stf-e-garante-protecao-contra-sancoes-financeiras-ate-2027/"
       ],
       "primeiraVezVisto": "2026-11-27T09:20:18-03:00",
-      "ultimaRevisao": "2026-11-27T09:20:18-03:00",
+      "ultimaRevisao": "2026-11-28T06:31:00-03:00",
       "status": "aberta"
     },
     {
@@ -1952,11 +1952,28 @@
       "rotina": "noticias",
       "tema": "Aneel: bandeira tarifária das contas de luz de dezembro de 2026, com anúncio previsto no calendário para 27/11",
       "motivo": "aguardando-fato",
-      "fontesAbertas": [],
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2026-11/aneel-mantem-bandeira-tarifaria-verde-para-dezembro",
+        "https://www.metropoles.com/brasil/aneel-mantem-bandeira-verde-na-conta-de-luz-de-dezembro-sem-custo-extra",
+        "https://olhardigital.com.br/2026/11/27/pro/conta-de-luz-tera-bandeira-verde-em-dezembro-veja-o-que-muda"
+      ],
       "primeiraVezVisto": "2026-11-27T18:20:20-03:00",
-      "ultimaRevisao": "2026-11-27T18:20:20-03:00",
+      "ultimaRevisao": "2026-11-28T06:31:00-03:00",
       "status": "aberta",
-      "falta": "anúncio oficial da Aneel ou reportagem com a cor da bandeira"
+      "falta": "bandeira verde confirmada em 27/11; ficou fora pelo limite de 2 por rodada"
+    },
+    {
+      "id": "lei-15555-ensino-obrigatorio-4-a-17-anos-sancao",
+      "rotina": "noticias",
+      "tema": "Sancionada a Lei 15.555, que inclui no ECA a educação básica obrigatória e gratuita dos 4 aos 17 anos",
+      "motivo": "sem-angulo",
+      "fontesAbertas": [
+        "https://www12.senado.leg.br/noticias/materias/2026/11/27/sancionada-lei-que-atualiza-eca-para-garantir-educacao-basica-obrigatoria"
+      ],
+      "primeiraVezVisto": "2026-11-28T06:31:00-03:00",
+      "ultimaRevisao": "2026-11-28T06:31:00-03:00",
+      "status": "aberta",
+      "falta": "aprovação no Senado já noticiada; sanção ficou fora pelo limite de 2 por rodada"
     }
   ]
 }
