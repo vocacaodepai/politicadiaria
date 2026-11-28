@@ -1,0 +1,16 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-28T09:20:07-03:00",
+  "fim": "2026-11-28T09:26:00-03:00",
+  "branch": "claude/pd-noticias-20261128-0920",
+  "publicou": ["dolar-queda-semanal-trabuco-fazenda", "lei-15555-eca-matricula-dos-4-aos-17"],
+  "descartou": [
+    { "tema": "Camilo Santana escolhido para a Casa Civil, segundo aliados", "motivo": "aguardando-fato", "pauta": "camilo-santana-casa-civil-quarto-mandato" },
+    { "tema": "Dólar fecha a R$ 5,932 em 19/11", "motivo": "ja-publicado", "pauta": "dolar-5-93-maior-valor-desde-abril-2025" }
+  ],
+  "bloqueios": [
+    { "host": "www.planalto.gov.br", "erro": "outro", "detalhe": "conexão interrompida" },
+    { "host": "www.band.com.br", "erro": "http-403" }
+  ],
+  "pr": null
+}
