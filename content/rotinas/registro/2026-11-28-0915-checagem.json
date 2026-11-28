@@ -1,0 +1,17 @@
+{
+  "rotina": "checagem",
+  "inicio": "2026-11-28T09:15:22-03:00",
+  "fim": "2026-11-28T09:24:00-03:00",
+  "branch": "claude/pd-checagem-20261128-0915",
+  "publicou": [
+    "software-fraude-abstencao-votos-lula-sem-fundamento",
+    "maduro-delacao-lula-letreiro-falso-jornal-nacional",
+    "foto-obelisco-copa-2022-nao-e-protesto-contra-milei"
+  ],
+  "descartou": [],
+  "bloqueios": [
+    { "host": "www.tse.jus.br", "erro": "http-403" },
+    { "host": "www.camara.leg.br", "erro": "http-429", "detalhe": "parecer do PL 4.675/2025 não abriu" }
+  ],
+  "pr": null
+}

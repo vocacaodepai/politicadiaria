@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T18:26:00-03:00",
+  "atualizadoEm": "2026-11-28T09:23:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -389,12 +389,12 @@
       "motivo": "fonte-unica",
       "fontesAbertas": [
         "https://www.agencialupa.org/noticias/2026/11/13/foto-nao-mostra-protesto-de-1-milhao-de-pessoas-contra-o-governo-milei/",
-        "https://checamos.afp.com/doc.afp.com.D6WV7NQ"
+        "https://www.fastcheck.cl/2026/11/05/esta-imagen-de-una-multitud-en-argentina-no-corresponde-a-protestas-contra-milei-es-de-las-celebraciones-tras-el-mundial-2022/"
       ],
       "primeiraVezVisto": "2026-11-13T13:50:42-03:00",
-      "ultimaRevisao": "2026-11-27T18:26:00-03:00",
-      "status": "aberta",
-      "falta": "a checagem da AFP não abriu em 27/11 à noite; reabrir ou achar outra segunda fonte"
+      "ultimaRevisao": "2026-11-28T09:23:00-03:00",
+      "status": "publicada",
+      "slug": "foto-obelisco-copa-2022-nao-e-protesto-contra-milei"
     },
     {
       "id": "agu-parecer-adpf-1362-psd-segundo-turno-rio",
@@ -1662,13 +1662,14 @@
       "tema": "Vídeo diz que software reduziu abstenção e aumentou votos de Lula no 2º turno (Estadão Verifica: falso)",
       "motivo": "fonte-unica",
       "fontesAbertas": [
-        "https://www.estadao.com.br/estadao-verifica/provas-fraude-eleicao-software-aumentou-votos-de-lula-com-queda-abstencao-falso/",
-        "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/26/falso-software-manipulacao-votos-lula-2-turno.ghtm"
+        "https://www.terra.com.br/noticias/brasil/politica/e-falso-que-software-tenha-aumentado-votos-para-lula-a-partir-de-queda-na-abstencao,c2d9d5efb5b9247e4d5cdde234b7c1978nnt9n3k.html",
+        "https://resultados.tse.jus.br/oficial/ele2026/6257/dados/br/br-c0001-e006257-u.json",
+        "https://resultados.tse.jus.br/oficial/ele2026/6258/dados/br/br-c0001-e006258-u.json"
       ],
       "primeiraVezVisto": "2026-11-25T18:26:00-03:00",
-      "ultimaRevisao": "2026-11-27T18:26:00-03:00",
-      "status": "aberta",
-      "falta": "Estadão e UOL não abriram em 27/11 à noite; reabrir ou achar outras fontes"
+      "ultimaRevisao": "2026-11-28T09:23:00-03:00",
+      "status": "publicada",
+      "slug": "software-fraude-abstencao-votos-lula-sem-fundamento"
     },
     {
       "id": "tcu-afasta-multas-dilma-pedaladas-2014",
@@ -1760,12 +1761,13 @@
       "tema": "Alegação de que o PL 4.675/2025, dos mercados digitais, permite censura do governo (Aos Fatos: texto trata de concorrência)",
       "motivo": "fonte-unica",
       "fontesAbertas": [
-        "https://www.aosfatos.org/noticias/pl-mercados-digitais-censura/"
+        "https://www.aosfatos.org/noticias/pl-mercados-digitais-censura/",
+        "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2562481"
       ],
       "primeiraVezVisto": "2026-11-26T09:24:00-03:00",
-      "ultimaRevisao": "2026-11-26T09:24:00-03:00",
+      "ultimaRevisao": "2026-11-28T09:23:00-03:00",
       "status": "aberta",
-      "falta": "leitura do substitutivo no portal da Câmara"
+      "falta": "leitura do parecer preliminar n. 2, de 23/11, no portal da Câmara (HTTP 429 em 28/11)"
     },
     {
       "id": "stf-piso-magisterio-temas-1218-1324",
@@ -1820,9 +1822,9 @@
         "https://noticias.uol.com.br/confere/ultimas-noticias/2026/11/24/globo-nao-noticiou-que-nicolas-maduro-negocia-delacao-premiada-nos-eua.ghtm"
       ],
       "primeiraVezVisto": "2026-11-26T18:30:00-03:00",
-      "ultimaRevisao": "2026-11-27T18:26:00-03:00",
-      "status": "aberta",
-      "falta": "segunda checagem já aberta; ficou fora pelo limite de 3 por rodada"
+      "ultimaRevisao": "2026-11-28T09:23:00-03:00",
+      "status": "publicada",
+      "slug": "maduro-delacao-lula-letreiro-falso-jornal-nacional"
     },
     {
       "id": "cmo-relatorio-preliminar-ploa-2027-corte-2-09-bilhoes",
