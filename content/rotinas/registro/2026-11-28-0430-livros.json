@@ -1,0 +1,43 @@
+{
+  "rotina": "livros",
+  "inicio": "2026-11-28T04:30:20-03:00",
+  "fim": "2026-11-28T05:16:10-03:00",
+  "branch": "claude/pd-livros-20261128-0430",
+  "publicou": [
+    "vitoria-a-rainha-julia-baird-objetiva",
+    "tanques-e-togas-felipe-recondo-companhia-das-letras",
+    "modelos-de-partido-panebianco-martins-fontes"
+  ],
+  "descartou": [
+    {
+      "tema": "Resenha de Dinheiro, Eleições e Poder, de Bruno Carazza (Companhia das Letras, 2018, ISBN 9788535931259)",
+      "motivo": "fonte-unica",
+      "pauta": "livro-dinheiro-eleicoes-e-poder-carazza"
+    },
+    {
+      "tema": "Resenha de O Século do Nada, de Gustavo Corção (Vide Editorial, ISBN 9788595071131)",
+      "motivo": "fonte-unica",
+      "pauta": "livro-o-seculo-do-nada-corcao"
+    }
+  ],
+  "bloqueios": [
+    {
+      "host": "www.amazon.com.br",
+      "erro": "captcha",
+      "detalhe": "curl recebeu página de verificação ou HTTP 503; Playwright não está instalado; capas vieram da Open Library"
+    },
+    {
+      "host": "revista.compolitica.org",
+      "erro": "timeout"
+    },
+    {
+      "host": "bibliotecadigital.tse.jus.br",
+      "erro": "http-403"
+    },
+    {
+      "host": "pt.wikipedia.org",
+      "erro": "http-429"
+    }
+  ],
+  "pr": null
+}
