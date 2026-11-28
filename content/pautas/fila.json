@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T18:26:00-03:00",
+  "atualizadoEm": "2026-11-28T12:30:30-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1931,8 +1931,9 @@
         "https://tvprefeito.com/estado-do-rio-obtem-decisao-favoravel-do-stf-e-garante-protecao-contra-sancoes-financeiras-ate-2027/"
       ],
       "primeiraVezVisto": "2026-11-27T09:20:18-03:00",
-      "ultimaRevisao": "2026-11-27T09:20:18-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-28T12:20:06-03:00",
+      "status": "publicada",
+      "slug": "toffoli-rio-divida-uniao-liminar-marco-2027"
     },
     {
       "id": "video-protesto-faixa-lula-petrolina-2024",
@@ -1957,6 +1958,17 @@
       "ultimaRevisao": "2026-11-27T18:20:20-03:00",
       "status": "aberta",
       "falta": "anúncio oficial da Aneel ou reportagem com a cor da bandeira"
+    },
+    {
+      "id": "stf-plataformas-recursos-marco-civil-16-dezembro",
+      "rotina": "noticias",
+      "tema": "STF marca para 16/12 julgamento de recurso sobre a responsabilidade de plataformas digitais (RE 1.057.258)",
+      "motivo": "sem-fonte-primaria",
+      "fontesAbertas": ["https://gazetadoparana.com.br/publico/stf-marca-para-dezembro-julgamento-sobre-responsabilidade-das-plataformas-digitais"],
+      "primeiraVezVisto": "2026-11-28T12:20:06-03:00",
+      "ultimaRevisao": "2026-11-28T12:20:06-03:00",
+      "status": "aberta",
+      "falta": "pauta oficial no portal do STF ou segunda fonte aberta"
     }
   ]
 }

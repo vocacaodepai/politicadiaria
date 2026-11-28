@@ -1,0 +1,24 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-28T12:20:06-03:00",
+  "fim": "2026-11-28T12:30:30-03:00",
+  "branch": "claude/pd-noticias-20261128-1220",
+  "publicou": [
+    "lula-desculpas-fhc-morto-vivo-fundacao",
+    "toffoli-rio-divida-uniao-liminar-marco-2027"
+  ],
+  "descartou": [
+    {
+      "tema": "STF marca para 16/12 julgamento de recurso sobre responsabilidade de plataformas digitais",
+      "motivo": "sem-fonte-primaria",
+      "pauta": "stf-plataformas-recursos-marco-civil-16-dezembro"
+    }
+  ],
+  "bloqueios": [
+    { "host": "www.tse.jus.br", "erro": "http-403" },
+    { "host": "g1.globo.com", "erro": "outro", "detalhe": "ferramenta de leitura não abre o domínio" },
+    { "host": "www.poder360.com.br", "erro": "outro", "detalhe": "ferramenta de leitura não abre o domínio" },
+    { "host": "www.biblioteca.presidencia.gov.br", "erro": "tls" }
+  ],
+  "pr": null
+}
