@@ -1,5 +1,5 @@
 {
-  "atualizadoEm": "2026-11-27T18:26:00-03:00",
+  "atualizadoEm": "2026-11-28T09:25:00-03:00",
   "pautas": [
     {
       "id": "abin-contestacao-flavio-bolsonaro",
@@ -1358,10 +1358,10 @@
       "fontesAbertas": [
         "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/dolar-supera-r-593-e-fecha-no-maior-valor-desde-abril-de-2025"
       ],
-      "falta": "segunda fonte independente com o fechamento de 19/11 (Reuters via Agência Brasil é a única aberta)",
+      "falta": "fato superado: o fechamento de 27/11 virou notícia própria e cita o de 19/11 como contexto",
       "primeiraVezVisto": "2026-11-19T21:20:20-03:00",
-      "ultimaRevisao": "2026-11-19T21:22:00-03:00",
-      "status": "aberta"
+      "ultimaRevisao": "2026-11-28T09:20:07-03:00",
+      "status": "descartada"
     },
     {
       "id": "livro-hitler-churchill-segredos-lideranca-andrew-roberts",
@@ -1952,11 +1952,26 @@
       "rotina": "noticias",
       "tema": "Aneel: bandeira tarifária das contas de luz de dezembro de 2026, com anúncio previsto no calendário para 27/11",
       "motivo": "aguardando-fato",
-      "fontesAbertas": [],
+      "fontesAbertas": [
+        "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/com-bandeira-tarifaria-verde-energia-nao-tera-custo-extra-em-dezembro"
+      ],
       "primeiraVezVisto": "2026-11-27T18:20:20-03:00",
-      "ultimaRevisao": "2026-11-27T18:20:20-03:00",
+      "ultimaRevisao": "2026-11-28T09:20:07-03:00",
       "status": "aberta",
-      "falta": "anúncio oficial da Aneel ou reportagem com a cor da bandeira"
+      "falta": "anúncio da bandeira verde saiu em 27/11 (Agência Brasil); ficou fora pelo limite de 2 por rodada"
+    },
+    {
+      "id": "camilo-santana-casa-civil-quarto-mandato",
+      "rotina": "noticias",
+      "tema": "Lula escolhe o senador Camilo Santana para a Casa Civil no quarto mandato, segundo aliados",
+      "motivo": "aguardando-fato",
+      "fontesAbertas": [
+        "https://www.infomoney.com.br/politica/lula-escolhe-camilo-santana-para-comandar-a-casa-civil-dizem-aliados/"
+      ],
+      "primeiraVezVisto": "2026-11-28T09:20:07-03:00",
+      "ultimaRevisao": "2026-11-28T09:20:07-03:00",
+      "status": "aberta",
+      "falta": "anúncio do Planalto ou confirmação do próprio senador; relato aberto se apoia em interlocutores não identificados"
     }
   ]
 }
