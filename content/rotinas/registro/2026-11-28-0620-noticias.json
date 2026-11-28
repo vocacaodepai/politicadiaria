@@ -1,0 +1,23 @@
+{
+  "rotina": "noticias",
+  "inicio": "2026-11-28T06:20:23-03:00",
+  "fim": "2026-11-28T06:31:33-03:00",
+  "branch": "claude/pd-noticias-20261128-0620",
+  "publicou": [
+    "fachin-libera-brb-316-milhoes-creditos-banco-master",
+    "reforma-tributaria-cna-cnc-cnt-adi-8053-cbs"
+  ],
+  "descartou": [
+    {
+      "tema": "Sancionada a Lei 15.555, que inclui no ECA a educação básica obrigatória dos 4 aos 17 anos",
+      "motivo": "sem-angulo",
+      "pauta": "lei-15555-ensino-obrigatorio-4-a-17-anos-sancao"
+    }
+  ],
+  "bloqueios": [
+    { "host": "www.cnabrasil.org.br", "erro": "http-403" },
+    { "host": "www.cnt.org.br", "erro": "http-5xx" },
+    { "host": "www.poder360.com.br", "erro": "outro", "detalhe": "ferramenta de leitura não abre o domínio" }
+  ],
+  "pr": null
+}
